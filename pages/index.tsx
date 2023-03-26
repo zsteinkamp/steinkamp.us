@@ -6,6 +6,8 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import SiteLayout from "@/layouts/SiteLayout";
+import { stripHtml } from "string-strip-html";
+import dayjs from 'dayjs';
 
 export const getStaticProps = async () => {
   // Find all Markdown files in the /posts directory
@@ -13,7 +15,7 @@ export const getStaticProps = async () => {
   const postsPath = (await glob("**/*.md", { cwd: POSTS_DIR }))
   
   // sort descending date
-  postsPath.sort((a,b) => { console.log({ a, b }); return b < a ? -1 : 1; });
+  postsPath.sort((a,b) => { return b < a ? -1 : 1; });
 
   const posts = postsPath.map((postPath) => {
     // get the slug from the markdown file name
@@ -24,7 +26,7 @@ export const getStaticProps = async () => {
       "utf8"
     );
     // use gray-matter to parse the post frontmatter section
-    const { data } = matter(source);
+    const { content, data } = matter(source);
 
     let cover = null;
 
@@ -35,9 +37,19 @@ export const getStaticProps = async () => {
       cover = 'https://i.ytimg.com/vi/' + data.entry.data.id + '/default.jpg';
     }
 
+    let excerpt = null;
+    if (data.entry && data.entry.data && data.entry.data.excerpt) {
+      excerpt = data.entry.data.excerpt;
+    }
+    if (excerpt === null) {
+      excerpt = stripHtml(content).result.substr(0, 512);
+    }
+
     return {
       title: data.title,
-      description: data.description || "",
+      date: dayjs(data.date).format("YYYY-MM-DD dddd"),
+      type: data.entry.source,
+      excerpt: excerpt,
       cover,
       slug
     };
@@ -55,34 +67,26 @@ const Posts = ({ posts }) => {
     <>
       <Head>
         <title>My posts</title>
-        <meta name="description" content="View all my posts" />
+        <meta name="description" content="steinkamp.us" />
       </Head>
-      <section>
-        <header className="posts-header">
-          <div className="wrapper">
-            <h1 className="font-extrabold text-5xl">
-              Hey there, view all my posts
-            </h1>
-          </div>
-        </header>
+      <section className="max-w-3xl m-auto">
         <ul className="posts">
           {posts.map((post) => (
-            <li key={post.slug} className="post">
-              <Link href={`/posts/${post.slug}`}>
-                <header className="post-item-header">
-                  {post.cover &&
-                    <Image
-                      src={post.cover}
-                      width={300}
-                      height={200}
-                      alt="cover"
-                    />
-                  }
-                  <div className="details">
-                    <h2 className="font-bold text-3xl">{post.title}</h2>
-                    <p> {post.description} </p>
-                  </div>
-                </header>
+            <li key={post.slug} className="">
+              <Link className="grid grid-cols-4 gap-2 mt-0 mb-16" href={`/posts/${post.slug}`}>
+                <div className="">
+                  {post.cover && <Image className="object-cover w-36 h-36"
+                    src={post.cover}
+                    width={300}
+                    height={300}
+                    alt="cover"
+                  />}
+                </div>
+                <div className="col-span-3">
+                  <div className="text-slate-400">{post.date} / {post.type}</div>
+                  <h2 className="font-condensed text-2xl mb-2 mt-2">{post.title}</h2>
+                  <div className="line-clamp-3">{post.excerpt}</div>
+                </div>
               </Link>
             </li>
           ))}

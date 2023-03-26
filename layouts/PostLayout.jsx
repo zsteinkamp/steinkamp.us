@@ -1,8 +1,10 @@
 import Head from "next/head";
 import SiteHeader from "../components/SiteHeader";
+import dayjs from 'dayjs';
 
 const ArticleLayout = ({ markdoc, children }) => {
   const { title, date, description } = markdoc?.frontmatter;
+  const fmtDate = dayjs(date).format("YYYY-MM-DD dddd");
   return (
    <>
      <Head>
@@ -10,16 +12,17 @@ const ArticleLayout = ({ markdoc, children }) => {
        <meta name="description" content={description} />
      </Head>
      <SiteHeader />
-     <article className="site-article">
-       <div className="wrapper">
-         <header className="article-header">
-           <div className="wrapper">
-             <h1 className="mt-4 font-bold font-condensed text-4xl">{title}</h1>
-             <div className="mb-4">{date}</div>
-             <p className="text-2xl">{description}</p>
+     <article className="pl-4 pr-4 max-w-3xl m-auto">
+       <div className="">
+         <header className="">
+           <div className="">
+             <div className="mt-4 text-slate-400">{fmtDate}</div>
+             <h1 className="mb-4 font-bold font-condensed text-4xl">{title}</h1>
            </div>
          </header>
-         <div className="article-content prose">{children}</div>
+         <div className="">
+           {children}
+         </div>
        </div>
      </article>
    </>
