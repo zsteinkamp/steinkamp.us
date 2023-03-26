@@ -8,19 +8,22 @@ import Link from "next/link";
 import SiteLayout from "@/layouts/SiteLayout";
 
 export const getStaticProps = async () => {
-  // Find all Markdown files in the /articles directory
-  const ARTICLES_DIR = path.join(process.cwd(), "pages/posts");
-  const articlesPaths = await glob("**/*.md", { cwd: ARTICLES_DIR });
+  // Find all Markdown files in the /posts directory
+  const POSTS_DIR = path.join(process.cwd(), "pages/posts");
+  const postsPath = (await glob("**/*.md", { cwd: POSTS_DIR }))
+  
+  // sort descending date
+  postsPath.sort((a,b) => { console.log({ a, b }); return b < a ? -1 : 1; });
 
-  const articles = articlesPaths.map((articlePath) => {
+  const posts = postsPath.map((postPath) => {
     // get the slug from the markdown file name
-    const slug = path.basename(articlePath, path.extname(articlePath));
+    const slug = path.basename(postPath, path.extname(postPath));
     // read the markdown files
     const source = fs.readFileSync(
-      path.join(process.cwd(), "pages/posts", articlePath),
+      path.join(process.cwd(), "pages/posts", postPath),
       "utf8"
     );
-    // use gray-matter to parse the article frontmatter section
+    // use gray-matter to parse the post frontmatter section
     const { data } = matter(source);
 
     let cover = null;
@@ -32,8 +35,6 @@ export const getStaticProps = async () => {
       cover = 'https://i.ytimg.com/vi/' + data.entry.data.id + '/default.jpg';
     }
 
-    console.log('COVER', cover);
-
     return {
       title: data.title,
       description: data.description || "",
@@ -41,44 +42,45 @@ export const getStaticProps = async () => {
       slug
     };
   });
+
   return {
     props: {
-      articles,
+      posts,
     },
   };
 };
 
-const Articles = ({ articles }) => {
+const Posts = ({ posts }) => {
   return (
     <>
       <Head>
-        <title>My articles</title>
-        <meta name="description" content="View all my articles" />
+        <title>My posts</title>
+        <meta name="description" content="View all my posts" />
       </Head>
       <section>
-        <header className="articles-header">
+        <header className="posts-header">
           <div className="wrapper">
             <h1 className="font-extrabold text-5xl">
-              Hey there, view all my articles
+              Hey there, view all my posts
             </h1>
           </div>
         </header>
-        <ul className="articles">
-          {articles.map((article) => (
-            <li key={article.slug} className="article">
-              <Link href={`/posts/${article.slug}`}>
-                <header className="article-item-header">
-                  {article.cover &&
+        <ul className="posts">
+          {posts.map((post) => (
+            <li key={post.slug} className="post">
+              <Link href={`/posts/${post.slug}`}>
+                <header className="post-item-header">
+                  {post.cover &&
                     <Image
-                      src={article.cover}
+                      src={post.cover}
                       width={300}
                       height={200}
                       alt="cover"
                     />
                   }
                   <div className="details">
-                    <h2 className="font-bold text-3xl">{article.title}</h2>
-                    <p> {article.description} </p>
+                    <h2 className="font-bold text-3xl">{post.title}</h2>
+                    <p> {post.description} </p>
                   </div>
                 </header>
               </Link>
@@ -89,9 +91,9 @@ const Articles = ({ articles }) => {
     </>
   );
 };
-export default Articles;
+export default Posts;
 
-// define layout for articles page
-Articles.getLayout = (page) => {
+// define layout for posts page
+Posts.getLayout = (page) => {
   return <SiteLayout> {page} </SiteLayout>;
 };
