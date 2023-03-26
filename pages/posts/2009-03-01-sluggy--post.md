@@ -1,0 +1,22 @@
+---
+layout: post
+title: Sluggy!
+date: '2009-03-01 23:44:45'
+categories: post post
+entry:
+  id: 269
+  source: post
+  uid: 183
+  data:
+    title: Sluggy!
+    excerpt: ''
+  created_at: '2010-08-30 05:16:38'
+  updated_at: '2010-08-30 05:16:38'
+  pub_date: '2009-03-01 23:44:45'
+  disabled: 0
+---
+Marina helped me get our vegetable garden beds ready for spring this past weekend.  There were lots and lots of critters living in there, but she was really taken with this slug ("Sluggy -- she's hungry!").  So after a night of captivity, I took some photos and a video...
+
+<object width="600" height="400"> <param name="flashvars" value="&offsite=true&amp;lang=en-us&page_show_url=%2Fphotos%2Fthenobot%2Fsets%2F72157614617802138%2Fshow%2F&page_show_back_url=%2Fphotos%2Fthenobot%2Fsets%2F72157614617802138%2F&set_id=72157614617802138&jump_to="></param> <param name="movie" value="http://www.flickr.com/apps/slideshow/show.swf?v=67348"></param> <param name="allowFullScreen" value="true"></param><embed type="application/x-shockwave-flash" src="http://www.flickr.com/apps/slideshow/show.swf?v=67348" allowFullScreen="true" flashvars="&offsite=true&amp;lang=en-us&page_show_url=%2Fphotos%2Fthenobot%2Fsets%2F72157614617802138%2Fshow%2F&page_show_back_url=%2Fphotos%2Fthenobot%2Fsets%2F72157614617802138%2F&set_id=72157614617802138&jump_to=" width="600" height="400"><a href="http://www.flickr.com/photos/thenobot/3318989789/" title="Sluggy in the Spotlight by thenobot, on Flickr"><img src="https://farm4.static.flickr.com/3479/3318989789_345216f01a.jpg" width="500" height="333" alt="Sluggy in the Spotlight" /></a></embed></object>
+
+<object width="600" height="452"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=3429741&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=3429741&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="600" height="452"></embed></object><br /><a href="http://vimeo.com/3429741">20090301 Sluggy Has Dinner</a> from <a href="http://vimeo.com/thenobot">Zack Steinkamp</a> on <a href="http://vimeo.com">Vimeo</a>.
