@@ -66,7 +66,7 @@ const Posts = ({ posts }) => {
   return (
     <>
       <Head>
-        <title>My posts</title>
+        <title>steinkamp.us</title>
         <meta name="description" content="steinkamp.us" />
       </Head>
       <section className="max-w-3xl m-auto">
@@ -83,9 +83,9 @@ const Posts = ({ posts }) => {
                   />}
                 </div>
                 <div className="col-span-3">
-                  <div className="text-slate-400">{post.date} / {post.type}</div>
+                  <div className="text-slate-400 text-sm">{post.date} / {post.type}</div>
                   <h2 className="font-condensed text-2xl mb-2 mt-2">{post.title}</h2>
-                  <div className="line-clamp-3">{post.excerpt}</div>
+                  <div className="text-slate-600 line-clamp-3">{post.excerpt}</div>
                 </div>
               </Link>
             </li>

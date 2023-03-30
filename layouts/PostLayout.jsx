@@ -2,7 +2,7 @@ import Head from "next/head";
 import SiteHeader from "../components/SiteHeader";
 import dayjs from 'dayjs';
 
-const ArticleLayout = ({ markdoc, children }) => {
+const PostLayout = ({ markdoc, children }) => {
   const { title, date, description } = markdoc?.frontmatter;
   const fmtDate = dayjs(date).format("YYYY-MM-DD dddd");
   return (
@@ -29,4 +29,4 @@ const ArticleLayout = ({ markdoc, children }) => {
   );
 };
 
-export default ArticleLayout;
+export default PostLayout;

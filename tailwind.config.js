@@ -11,6 +11,7 @@ module.exports = {
     extend: {
       fontFamily: {
         condensed: ['"Roboto Condensed"', ...fontFamily.sans],
+        sans: ['Inter', ...fontFamily.sans],
       },
     },
   },
