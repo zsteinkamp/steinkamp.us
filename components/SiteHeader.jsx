@@ -19,7 +19,7 @@ const SiteHeader = () => {
           <Link href={"/resume"}>Resume</Link>
         </div>
         <div>
-          <Link href={"https://photos.steinkamp.us/"}>Photos</Link>
+          <Link target="_blank" href={"https://photos.steinkamp.us/"}>Photos</Link>
         </div>
       </nav>
     </header>
