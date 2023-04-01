@@ -76,7 +76,7 @@ const Posts = ({ posts }) => {
               />}
             </div>
             <div className="col-span-3">
-              <div className="text-slate-400 text-sm">{post.date} / {post.type}</div>
+              <div className="text-slate-400 text-sm">{post.date}</div>
               <h2 className="font-condensed text-2xl mb-2 mt-2">{post.title}</h2>
               <div className="text-slate-600 line-clamp-3">{post.excerpt}</div>
             </div>
