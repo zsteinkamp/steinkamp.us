@@ -24,14 +24,18 @@ export default ({ data }) => {
   const appList = data.map((app) => {
     return (
       <div className="pt-8" key={app.link}>
-        <h2><Link href={app.link} name={app.title}>{app.title}</Link></h2>
-        <p>
+        <div className="flex justify-between">
+          <h2><Link href={app.link} name={app.title}>{app.title}</Link></h2>
+          <div className="self-end">
+            <Link href={app.link}>More Info / Download</Link>
+          </div>
+        </div>
+        <div>
           <Link href={app.link} name={app.title}><img src={app.image} /></Link>
-        </p>
+        </div>
         <ReactMarkdown>
           { app.description }
         </ReactMarkdown>
-        <Link href={app.link}><button>More Info / Download</button></Link>
       </div>
     );
   });

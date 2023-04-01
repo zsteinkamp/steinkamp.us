@@ -5,7 +5,7 @@ import Link from 'next/link';
 import ReactMarkdown from 'react-markdown';
 
 export const getStaticProps = async () => {
-  const data = yaml.load(await fsp.readFile('pages/songs.yaml', 'utf8'));
+  const data = yaml.load(await fsp.readFile('data/songs.yaml', 'utf8'));
 
   return {
     props: {
@@ -48,12 +48,12 @@ const Songs = ({ data }) => {
         construction of the song.
       </p>
       <p>
-        You can listen to my music here, or on
-        <a href="https://open.spotify.com/artist/4zlbGPYkjV7EpxXHyfZNAh?si=51oxTGABQIGwOdBS_YaYBw">Spotify</a>,
-        <a href="https://music.apple.com/us/artist/zack-steinkamp/1217691470">iTunes / Apple Music</a>,
-        <a href="https://www.amazon.com/s?k=Zack+Steinkamp&i=digital-music&search-type=ss">Amazon Music</a>,
-        <a href="https://www.youtube.com/channel/UCVKBjFZJYJ-0-5TiOHWj-OQ">YouTube</a>,
-        or pretty much any other streaming service by searching for my name.
+        You can listen to my music here, or on <a 
+        href="https://open.spotify.com/artist/4zlbGPYkjV7EpxXHyfZNAh?si=51oxTGABQIGwOdBS_YaYBw">Spotify
+        </a>, <a href="https://music.apple.com/us/artist/zack-steinkamp/1217691470">iTunes / Apple Music
+        </a>, <a href="https://www.amazon.com/s?k=Zack+Steinkamp&i=digital-music&search-type=ss">Amazon Music
+        </a>, <a href="https://www.youtube.com/channel/UCVKBjFZJYJ-0-5TiOHWj-OQ">YouTube</a>, or
+        pretty much any other streaming service by searching for my name.
       </p>
       { songs }
     </>
