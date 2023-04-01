@@ -1,0 +1,62 @@
+import yaml from 'js-yaml';
+import fs from 'fs';
+import Head from 'next/head';
+import Link from "next/link";
+import ReactMarkdown from 'react-markdown';
+
+export const getStaticProps = async () => {
+  const data = yaml.load(fs.readFileSync('data/music-tools.yaml', 'utf8'));
+
+  return {
+    props: {
+      data,
+    },
+  };
+}
+
+export default ({ data }) => {
+  const titleList = data.map((app) => {
+    return (
+      <li key={app.link}><Link href={`#${app.title}`}>{app.title}</Link></li>
+    );
+  });
+
+  const appList = data.map((app) => {
+    return (
+      <div className="pt-8" key={app.link}>
+        <h2><Link href={app.link} name={app.title}>{app.title}</Link></h2>
+        <p>
+          <Link href={app.link} name={app.title}><img src={app.image} /></Link>
+        </p>
+        <ReactMarkdown>
+          { app.description }
+        </ReactMarkdown>
+        <Link href={app.link}><button>More Info / Download</button></Link>
+      </div>
+    );
+  });
+
+  return (
+    <>
+      <Head>
+        <title>Music Tools</title>
+        <meta name="description" content="Tools that I have created for other musicians, mostly in Max for Live." />
+      </Head>
+      <p>
+        I have made a handful of tools for electronic musicians who use Ableton Live Suite, which includes Max For Live.
+      </p>
+
+      <p>
+        Max For Live is a visual signal processing environment that integrates seamlessly with Ableton Live. This allows people like me to make my own utilities, effects, sound generators, and automation within my digital audio workstation (DAW). This is an incredibly powerful capability of Ableton Live that sets it apart from other DAWs. We are no longer limited to the tools that come with the DAW or installable VSTs. We can make our own devices to explore their own creativity to an amazing level, and share those tools as our own art that helps other artists make their art. It's really beautiful.
+      </p>
+
+      <p>
+        This page serves as a jumping off point to more detailed information about the devices.
+      </p>
+
+      { titleList }
+
+      { appList }
+    </>
+  );
+};

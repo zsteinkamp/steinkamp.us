@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const withMarkdoc = require('@markdoc/next.js');
 
-module.exports = withMarkdoc(/* options */)({
+module.exports = withMarkdoc({ schemaPath: './markdoc' })({
   pageExtensions: ['md', 'mdoc', 'js', 'jsx', 'ts', 'tsx'],
   reactStrictMode: true,
   images: {

@@ -1,9 +1,10 @@
 import Head from "next/head";
-import SiteHeader from "../components/SiteHeader";
 import dayjs from 'dayjs';
 
-const PostLayout = ({ markdoc, children }) => {
-  const { title, date, description } = markdoc?.frontmatter;
+import SiteHeader from "@/components/SiteHeader";
+
+const PostLayout = ({ pageProps, children }) => {
+  const { title, date, description } = pageProps.markdoc.frontmatter;
   const fmtDate = dayjs(date).format("YYYY-MM-DD dddd");
   return (
    <>

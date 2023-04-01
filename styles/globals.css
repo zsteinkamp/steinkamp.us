@@ -12,7 +12,11 @@
 body {
 }
 
-a:hover {
+a {
+   @apply text-blue-700 hover:text-blue-800 visited:text-blue-700
+}
+header a {
+   @apply text-blue-900 hover:text-blue-800 visited:text-blue-900
 }
 
 article h2 {
@@ -33,4 +37,39 @@ article p {
 
 .db {
   border: 1px solid red;
+}
+
+.resume h1 {
+  font-family: var(--font-condensed);
+  font-size: 2rem;
+  font-weight: bold;
+}
+.resume h2 {
+  margin-bottom: 1rem;
+}
+.resume .job-date {
+  float: right;
+  line-height: 2.5rem;
+}
+.resume .job-company {
+}
+.resume ul {
+  list-style-type: disc;
+  padding-left: 1rem;
+  margin-bottom: 2rem;
+}
+
+@media print
+{
+  body {
+    font-size: 11px;
+  }
+
+  .avoidbreak {
+    break-inside: avoid;
+  }
+
+  .noprint {
+    display: none;
+  }
 }

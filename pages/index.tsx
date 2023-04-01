@@ -2,7 +2,6 @@ import fs from "fs";
 import path from "path";
 import glob from "glob-promise";
 import matter from "gray-matter";
-import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import SiteLayout from "@/layouts/SiteLayout";
@@ -64,40 +63,27 @@ export const getStaticProps = async () => {
 
 const Posts = ({ posts }) => {
   return (
-    <>
-      <Head>
-        <title>steinkamp.us</title>
-        <meta name="description" content="steinkamp.us" />
-      </Head>
-      <section className="max-w-3xl m-auto">
-        <ul className="posts">
-          {posts.map((post) => (
-            <li key={post.slug} className="">
-              <Link className="grid grid-cols-4 gap-2 mt-0 mb-16" href={`/posts/${post.slug}`}>
-                <div className="">
-                  {post.cover && <Image className="object-cover w-36 h-36"
-                    src={post.cover}
-                    width={300}
-                    height={300}
-                    alt="cover"
-                  />}
-                </div>
-                <div className="col-span-3">
-                  <div className="text-slate-400 text-sm">{post.date} / {post.type}</div>
-                  <h2 className="font-condensed text-2xl mb-2 mt-2">{post.title}</h2>
-                  <div className="text-slate-600 line-clamp-3">{post.excerpt}</div>
-                </div>
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </section>
-    </>
+    <ul className="posts">
+      {posts.map((post) => (
+        <li key={post.slug} className="">
+          <Link className="grid grid-cols-4 gap-2 mt-0 mb-16" href={`/posts/${post.slug}`}>
+            <div className="">
+              {post.cover && <Image className="object-cover w-36 h-36"
+                src={post.cover}
+                width={300}
+                height={300}
+                alt="cover"
+              />}
+            </div>
+            <div className="col-span-3">
+              <div className="text-slate-400 text-sm">{post.date} / {post.type}</div>
+              <h2 className="font-condensed text-2xl mb-2 mt-2">{post.title}</h2>
+              <div className="text-slate-600 line-clamp-3">{post.excerpt}</div>
+            </div>
+          </Link>
+        </li>
+      ))}
+    </ul>
   );
 };
 export default Posts;
-
-// define layout for posts page
-Posts.getLayout = (page) => {
-  return <SiteLayout> {page} </SiteLayout>;
-};
