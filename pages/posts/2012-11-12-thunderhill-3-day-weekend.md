@@ -12,16 +12,15 @@ entry:
       Performance Driver Education, where I got the opportunity to teach the C Group
       classroom along with doing in-car instruction.  A great weekend, but I'm also
       glad to be home!
-    thumb_url: https://farm9.staticflickr.com/8340/8179051989_3012217b1f_q.jpg
     title: Thunderhill 3-Day Weekend
   created_at: '2012-11-12 16:19:54'
   updated_at: '2012-11-12 16:19:54'
   pub_date: '2012-11-12 15:27:36'
   disabled: 0
 ---
-Just got home from three days at Thunderhill Raceway with the GGC BMWWCCA.  
+Just got home from three days at Thunderhill Raceway with the GGC BMWWCCA.
 
-Friday was an Instructor Training School.  The club does this once every couple of years to refresh old instructors skills, and to haze/vet/train new instructors.  I was assigned a new recruit (who had more years instructing than me, just with other groups) and my role was to play the "bad student".  Andy, the candidate instructor, was a great guy and we got along well all day.  I tried hard in the morning to be my best Knucklehead McStudent for him ("yeah, I'm going to set fast lap in this group ... I've got a lot of laps here on xbox.").  In the afternoon I threw him some more subtle situations, like creeping in prior to turn-in, or distracting myself with irrelevant banter.  Andy did great and caught all my foibles.  We're lucky to have him join the instructor corps!  
+Friday was an Instructor Training School.  The club does this once every couple of years to refresh old instructors skills, and to haze/vet/train new instructors.  I was assigned a new recruit (who had more years instructing than me, just with other groups) and my role was to play the "bad student".  Andy, the candidate instructor, was a great guy and we got along well all day.  I tried hard in the morning to be my best Knucklehead McStudent for him ("yeah, I'm going to set fast lap in this group ... I've got a lot of laps here on xbox.").  In the afternoon I threw him some more subtle situations, like creeping in prior to turn-in, or distracting myself with irrelevant banter.  Andy did great and caught all my foibles.  We're lucky to have him join the instructor corps!
 
 We also got 5 open track sessions on Friday, so I got plenty of time in to have fun and polish my own skills out there.
 

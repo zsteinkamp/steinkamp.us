@@ -8,7 +8,6 @@ entry:
   source: post
   data:
     excerpt: The story of a weekend spent in and out of the garage with a hummingbird.
-    thumb_url: https://farm4.staticflickr.com/3751/9341328864_9bfeda0e49_q.jpg
     title: Two Days With a New Friend
   created_at: '2013-07-22 04:46:50'
   updated_at: '2013-07-22 04:46:50'
@@ -25,21 +24,13 @@ I checked again before bed, and didn't see or hear him in there.  I was glad tha
 
 In the morning I wanted to tinker a bit on the bike, so I went back to the garage and opened it.  My buddy was still in there, but flying even more erratically.  I grabbed a broom to try to get him to go outside.  No dice.  He ran into a little nut and bolt storage thing on the wall and kind of tumbled down and collected himself on the edge of a case of motor oil.
 
-<center><a href="http://www.flickr.com/photos/thenobot/9338543353/" title="Hummingbird by thenobot, on Flickr"><img src="https://farm4.staticflickr.com/3734/9338543353_df4468d06e_z.jpg" width="478" height="640" alt="Hummingbird"></a></center>
-
 Well, here was the opportunity to trap him and take him outside.  I found a styrofoam container and shooed him in there.  This time he didn't put up much of a fight and he just sat in there, not trying to fly away.
-
-<center><a href="http://www.flickr.com/photos/thenobot/9338543729/" title="Hummingbird by thenobot, on Flickr"><img src="https://farm3.staticflickr.com/2818/9338543729_15a8e07da9_z.jpg" width="640" height="478" alt="Hummingbird"></a></center>
 
 The girls got involved at this point and were really curious about the hummingbird.  They had never seen one so close before, and wanted to hold it.  Naomi even wondered aloud if she could dress him up!
 
 We took him out of the garage and set him in his box under a shady tree.  I thought for sure he would fly out and live the hummingbird life, but he just sat there.  I guessed that he was dehydrated and needed food, so Naomi and I rushed inside and filled a little lid with sugar mixed with water.  We brought it out to him to find that Marina had given him a flower to lift his spirits.
 
-<center><a href="http://www.flickr.com/photos/thenobot/9338544067/" title="Hummingbird by thenobot, on Flickr"><img src="https://farm4.staticflickr.com/3832/9338544067_82e66c4ceb_z.jpg" width="478" height="640" alt="Hummingbird"></a></center>
-
 He just perched on the lid, but didn't try to drink the water.  I thought that I could help him out if I could get a drop of the sugary water on my finger and put it in front of his beak then surely he would drink it and fly away to frolic with his other hummingbird friends.
-
-<center><a href="http://www.flickr.com/photos/thenobot/9341328864/" title="Hummingbird by thenobot, on Flickr"><img src="https://farm4.staticflickr.com/3751/9341328864_9bfeda0e49_z.jpg" width="478" height="640" alt="Hummingbird"></a></center>
 
 I could see and feel his needle-like tongue come out from his tiny beak to lap up the water.  The droplet on my finger disappeared, and he spent a good deal of time swallowing it.  We repeated that a few times and we all gained hope that he would live his hummingbird dream of hovering in front of flowers and dive bombing birds who dared perch on his tree.
 
@@ -47,10 +38,6 @@ Instead, he just sat there.  He didn't try to drink on his own.  I thought that 
 
 The first thing I did was to check on Mr. Hummingbird.  He was still perched on the lid, head high, but not trying to leave or drink or anything.
 
-<center><a href="http://www.flickr.com/photos/thenobot/9338544807/" title="Hummingbird by thenobot, on Flickr"><img src="https://farm3.staticflickr.com/2851/9338544807_b248265a57_z.jpg" width="640" height="478" alt="Hummingbird"></a></center>
-
 I did some more bike projects, and went for a short ride.  When I came back I was hoping not to see my featherweight friend.  Instead, he was still in the box.  But he was gone.
-
-<center><a href="http://www.flickr.com/photos/thenobot/9341329294/" title="Hummingbird by thenobot, on Flickr"><img src="https://farm8.staticflickr.com/7310/9341329294_cb9697e2b4_z.jpg" width="478" height="640" alt="Hummingbird"></a></center>
 
 His little feet were still clinging to the lid, but there was no life left in him.  I guess it was just his time to go.  We had an interesting couple of days, my hummingbird friend and I.

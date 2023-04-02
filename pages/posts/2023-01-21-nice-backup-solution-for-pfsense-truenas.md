@@ -15,7 +15,7 @@ This post outlines how I use TrueNAS to back up my pfSense configuration, and a 
 
 ## Background
 
-[TrueNAS](https://www.truenas.com/) is an open-source network attached storage (NAS) system that can run on pretty much any hardware. I use it for centralized, reliable file storage for the house, to host a photo sharing app called [PhotoPrism](https://photoprism.app/), and the Macs here can see it as a remote Time Machine backup target. I've got [an article here dedicated to the details](/post/2023/01/21/truenas-for-awesome-home-storage-media-and-backups.html) of it.
+[TrueNAS](https://www.truenas.com/) is an open-source network attached storage (NAS) system that can run on pretty much any hardware. I use it for centralized, reliable file storage for the house, to host a photo sharing app called [PhotoPrism](https://photoprism.app/), and the Macs here can see it as a remote Time Machine backup target. I've got [an article here dedicated to the details](/posts/2023-01-21_truenas-for-awesome-home-storage-media-and-backups) of it.
 
 [pfSense](https://www.pfsense.org/) is used as a network firewall and router (among other things), and is also open-source. It's great for technology tinkerers like me who find the ISP-supplied cable modem to be too limiting in what you can do. Along with its core firewall and routing duties, I use it as a DHCP server, DNS resolver, dynamic DNS updater, and VPN endpoint (for access to the home network from outside the home).
 

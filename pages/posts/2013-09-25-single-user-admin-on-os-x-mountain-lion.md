@@ -22,18 +22,19 @@ It's easy to make a user an administrator on OS X using the GUI tools.  But if y
 
 Here is how to do it.
 
-<ol>
-<li>Shut down the computer.</li>
-<li>Hold down Cmd-s and power on the computer to boot into single-user mode.</li>
-<li>Once the computer is done booting, you will be at a shell prompt, logged in as the root user.  Run the following commands:
-<pre>
-# fsck -fy
-# mount -uw /
-# launchctl load /System/Library/LaunchDaemons/com.apple.opendirectoryd.plist
-# sudo dseditgroup -o edit -a yourlogin -t user admin
-# sudo dseditgroup -o edit -a yourlogin -t user wheel
-# reboot
-</pre>
-</li>
-<li>The computer will now reboot back into the normal graphical mode.</li>
-<li>Log in, and see that you are now an Administrator!</li>
+
+* Shut down the computer.
+* Hold down Cmd-s and power on the computer to boot into single-user mode.
+* Once the computer is done booting, you will be at a shell prompt, logged in as the root user.  Run the following commands:
+
+```
+fsck -fy
+mount -uw /
+launchctl load /System/Library/LaunchDaemons/com.apple.opendirectoryd.plist
+sudo dseditgroup -o edit -a yourlogin -t user admin
+sudo dseditgroup -o edit -a yourlogin -t user wheel
+reboot
+```
+
+* The computer will now reboot back into the normal graphical mode.
+* Log in, and see that you are now an Administrator!

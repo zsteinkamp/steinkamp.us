@@ -17,37 +17,33 @@ Here is the result of that design, with a demo for various settings:
 
 ## Feedback Sewerscape
 ![Demo A](/images/TapPanVerb/showoff-A.png)
-<audio controls>
-  <source src="/images/TapPanVerb/showoff-A.mp3" type="audio/mpeg">
-</audio>
+{% audio src="/images/TapPanVerb/showoff-A.mp3" /%}
+
 Hard panning left to right with a whip in the middle of the tap field, also showing off reverb and feedback pretty liberally.
 
 ## Life In a Cotton Ball
 ![Demo B](/images/TapPanVerb/showoff-B.png)
-<audio controls>
-  <source src="/images/TapPanVerb/showoff-B.mp3" type="audio/mpeg">
-</audio>
+{% audio src="/images/TapPanVerb/showoff-B.mp3" /%}
+
 Showing off just how rich a simple reverb can become when it is dispatched through dozens of taps, spread across space and time.
 
 ## An Impossible Cavern
 ![Demo C](/images/TapPanVerb/showoff-C.png)
-<audio controls>
-  <source src="/images/TapPanVerb/showoff-C.mp3" type="audio/mpeg">
-</audio>
+{% audio src="/images/TapPanVerb/showoff-C.mp3" /%}
+
 Turning a simple 808 pattern into something from a future factory robot rom-com.
 
 ## A Very Curious Diplomat
 ![Demo D](/images/TapPanVerb/showoff-D.png)
-<audio controls>
-  <source src="/images/TapPanVerb/showoff-D.mp3" type="audio/mpeg">
-</audio>
+{% audio src="/images/TapPanVerb/showoff-D.mp3" /%}
+
 A good demonstration of how panning + delay coefficient modification can make for interesting soundscapes, even with sparse source material.
 
-# Installation
+## Installation
 
 Visit the [source code repository](https://github.com/zsteinkamp/m4l-TapPanVerb) for download links and installation instructions.
 
-# Implementation
+## Implementation
 
 I made some important design decisions along the way:
 * The delay taps work as a bucket-brigade, with one tap sending its output to both the plugin output and the next tap in the sequence. The plugin input is connected to tap 1, which is connected to tap 2, and so on. This makes interesting delay modulation easier to implement, since each tap maintains its own delay line logic. It also allows for future ability to insert effects into the delay loop, which can produce cool effects in a bucket-brigade configuration.

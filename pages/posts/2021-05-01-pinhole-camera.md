@@ -16,13 +16,13 @@ I had an idea to build a pinhole camera with a cardboard box, but instead of usi
 
 ![Photo](https://photos.steinkamp.us/photo/2021-05-01_pinhole-camera/2021050117281610--7941475080171894289-IMG_2414.jpg)
 
-# What you need:
+## What you need:
 *   A box
 *   Some tape
 *   A piece of white paper
 *   Your phone. A new-ish phone that has a night mode will work better than one without it.
 
-# How to make it:
+## How to make it:
 1. Start by finding a box of pretty much any size.  Something the size of a shoebox is a good place to start.
 2. Use the tape to cover any seams or corners in the box, because we want to keep as much light out as possible.
 3. Tape the white paper to the inside of the box on one end.
@@ -30,7 +30,7 @@ I had an idea to build a pinhole camera with a cardboard box, but instead of usi
 5. Cover the other hole with tape or aluminum foil, and use a pin to make a small hole.
 6. Close the box and seal it well with tape to prevent any light from entering
 
-# The Big Idea
+## The Big Idea
 Light enters the box through the tiny hole, and projects an image on the white paper on the opposite side. The phone, on the same side of the box as the tiny hole, can take a photo of the image projected onto the white paper.
 
 Overall schematic:
@@ -39,7 +39,7 @@ Overall schematic:
 Detail of holes to cut:
 ![Detail](https://photos.steinkamp.us/photo/2021-05-01_pinhole-camera/Pinhole%20Side%20of%20Box.png)
 
-# Protips
+## Protips
 *   The tiny hole lets in only a tiny amount of light, so your best bet is to do this outside on a sunny day.
 *   If you use it inside, then bringing a bright light next to your subject will probably give the best chance at a usable result.
 *   Try with different diameters of holes.

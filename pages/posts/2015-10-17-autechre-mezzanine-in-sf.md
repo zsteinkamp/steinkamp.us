@@ -15,12 +15,12 @@ entry:
   pub_date: '2015-10-17 07:00:00'
   disabled: 0
 ---
-While mindlessly surfing the internet I stumbled across <a href="http://autechre.ws/">Autechre's website</a> and saw they were planning a North American tour. The San Francisco date was coming right up on October 16, 2015. Well heck yes I was going to go! Anyone who has listened to music with me knows that Autechre is #1 on my list. So I got in touch with a couple of Ae-friendly friends. It happened that Ben was as excited to go as I was, so I got us some tickets. Good thing I jumped on them, since the show sold out that week.
+
+While mindlessly surfing the internet I stumbled across [Autechre's website](http://autechre.ws/) and saw they were planning a North American tour. The San Francisco date was coming right up on October 16, 2015. Well heck yes I was going to go! Anyone who has listened to music with me knows that Autechre is #1 on my list. So I got in touch with a couple of Ae-friendly friends. It happened that Ben was as excited to go as I was, so I got us some tickets. Good thing I jumped on them, since the show sold out that week.
 
 I drove up to Ben's house in San Francisco, stopping for a quick charge at Peter Pan BMW service center near SFO. $10 for a charge -- ouch! But better that than have to find a place in the city or on the way home. My car could *maybe* have done the round trip on one charge, but I'd rather not be stranded.
 
 ANyhow, I got to Ben's at about 8pm. We hung out for a bit, walked to get some food, and made our way to the show at a club called Mezzanine. Doors were at 8:30, and the first of two openers started at 9. We got there about 9:30, right in the heat of DJ Rob Hall's set. He was playing some great music that I'd never heard. The place wasn't quite filled up, but it was still early.
-
 
 It was a surprisingly diverse crowd. I expected to see mostly clones of Ben and I, but there was a wide range of ages and styles. Most surprisingly were more than just a few women -- there were a lot more ladies present than any Ae show I've been to in the past. Great! Everyone seemed friendly and mellow.
 

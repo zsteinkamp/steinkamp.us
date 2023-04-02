@@ -9,7 +9,6 @@ entry:
   data:
     excerpt: I put this Google Spreadsheet together to plan out how the heck I'm going
       to build up to 31 miles distance.
-    thumb_url: http://ohlone50k.com/Hamel_-_Ohlone_logo_with_words.jpg
     title: 50K Training Plan
   created_at: '2013-01-11 04:59:12'
   updated_at: '2013-01-11 04:59:12'
@@ -26,6 +25,4 @@ I've signed up for a half marathon race for February to get some experience with
 
 So that's about it.  Here's to the next 18 weeks!
 
-<iframe width='640' height='800' frameborder='0' src='https://docs.google.com/spreadsheet/pub?key=0Av7-a2OfybnddENwQ1ljVnAwdTUwWDQySE9SNGs5RXc&single=true&gid=0&output=html&widget=true'></iframe>
-
-Have suggestions on how to make the plan better?  Please comment below...
+[The Spreadsheet](https://docs.google.com/spreadsheet/pub?key=0Av7-a2OfybnddENwQ1ljVnAwdTUwWDQySE9SNGs5RXc)

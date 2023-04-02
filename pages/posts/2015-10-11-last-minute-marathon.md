@@ -31,8 +31,7 @@ Heh...
 
 Up and at 'em at 4:50AM on Saturday. Breakfast, shower, gather up stuff, out the door at 6am to drive to the parking area near the finish at Waddell Beach -- about halfway between Half Moon Bay and Santa Cruz. Exit the car, and hop aboard one of the yellow school busses to get a ride up to the start of the race at Saratoga Gap. The busses left at 7AM sharp, and arrived at the start at about 8:20. Quick pit stop, get my, well I mean Thomas's, number ("Yes *I* am Thomas Andersen, the one and only. In the flesh!"), and mosey over to the Skyline to the Sea trailhead for the 9AM start.
 
-![The Starting Line](https://photos.steinkamp.us/photo/zzz_blog_images/last_minute_marathon-2015SttS.jpg?size=1600x1600)
-<em>The starting line.</em>
+{% captionedimage alt="The Starting Line" caption="The Starting Line" src="https://photos.steinkamp.us/photo/zzz_blog_images/last_minute_marathon-2015SttS.jpg" /%}
 
 It was hot at the starting line at the top of the hill, but once we got into the trees it was wonderfully cool.
 
@@ -53,7 +52,7 @@ Trudge on man.
 I was past the halfway point, so there was only one way to go. Finish. My pace dropped off considerably, but I was still moving. As long as you're moving, you're closer to your goal. One step at a time.
 
 Mile 16-24 is mostly downhill, steep at first but then flattens out for what feels like infinity miles. It's a very long stretch between two aid stations. At mile 22, Big Johnny came striding by. He was carrying an awesome pace. I asked him if he needed any food. He was out of water, and I was nearly out too. We were close enough to the aid stop and he was moving fast enough where I knew he'd be just fine. BJB, I hope I was right!
-(update: <a href="http://runningjohn.blogspot.com/2015/10/2015-skyline-to-sea-50k-race-report.html">I was not!</a>)
+(update: [I was not!](http://runningjohn.blogspot.com/2015/10/2015-skyline-to-sea-50k-race-report.html))
 
 The Twin Redwoods aid station at marathon mile 24 (50K mile 29) is always a welcome sight. You've been running on mostly flat ground for waaaay too long, and you know that once you get there it's only 2 miles to the finish.
 
@@ -65,8 +64,6 @@ SttS has a great finish where you pop out of the trees, make a little turn, and 
 
 I was hoping to finish the race in under 4h30m, but it ended up taking 4h45m. I'm pretty sure that if I had prepared just a bit more (like 18 hours instead of 12) that I could break that 4h30m goal, and possibly regain Thomas and my honor by finishing ahead of BJB. (yeah right!)
 
-<div class="embed-responsive embed-responsive-16by9">
-<iframe width='100%' height='350' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/410379500/embed/6157c9038765f0d5e34f445cf46a0ec061d6ae4c'></iframe>
-</div>
+{% strava src="https://www.strava.com/activities/410379500/embed/6157c9038765f0d5e34f445cf46a0ec061d6ae4c" /%}
 
 Despite the pain and hobbling walk I've got now, I'm happy I made the decision to tackle this race. I will see you next year, SttS!!!

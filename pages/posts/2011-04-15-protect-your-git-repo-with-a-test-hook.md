@@ -20,7 +20,7 @@ To help ward off mistakes, we built a series of unit tests using Test::Unit::Tes
 
 As long as people run "rake test" before pushing their code to the central repository, everything is fine.  But people are not consistent like computers...
 
-Since the correctness of the data in this repo is so important, we put a small script on our git server that prevents commits that do not pass the tests from being "received" by the server.  The script is in {repodir}/hooks/pre-receive, and it looks something like this:
+Since the correctness of the data in this repo is so important, we put a small script on our git server that prevents commits that do not pass the tests from being "received" by the server.  The script is in `{repodir}/hooks/pre-receive`, and it looks something like this:
 
 ```
 #!/usr/bin/env ruby

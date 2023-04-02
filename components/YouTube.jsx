@@ -1,4 +1,4 @@
-export function YouTube({ className, src, title, width }) {
+const YouTube = ({ className, src, title, width }) => {
   return (
     <div className={className}>
       <iframe
@@ -20,4 +20,6 @@ export function YouTube({ className, src, title, width }) {
       </style>
     </div>
   );
-}
+};
+
+export default YouTube;

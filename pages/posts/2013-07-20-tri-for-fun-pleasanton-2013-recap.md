@@ -8,7 +8,6 @@ entry:
   source: post
   data:
     excerpt: ''
-    thumb_url: https://farm8.staticflickr.com/7402/9334974085_7e6d92a3d3_q.jpg
     title: Tri For Fun - Pleasanton 2013 Recap
   created_at: '2013-07-21 19:39:28'
   updated_at: '2013-07-21 20:11:11'
@@ -41,31 +40,15 @@ After rounding the second buoy, it was time to swim back to shore.  I probably d
 
 Finally I got so where I could touch bottom in the lake again and so I transitioned from "splash and flail in the water" to "run the heck out of this damn lake" and headed for my trusty bike.  I think I was in the water for 12 or 15 minutes.  Super David M finished the swim in 6m17s -- incredible!  As I left the water, Sarah J was there with a great sign -- "Go Zack! Smoke the 20-something!".  She shouted that David M was 4 minutes ahead.  I wasn't sure if I could get him on the bike, but I had hope.
 
-<center><a href="http://www.flickr.com/photos/thenobot/9334973311/" title="Out of the Water by thenobot, on Flickr"><img src="https://farm6.staticflickr.com/5519/9334973311_3925d3d974_z.jpg" width="640" height="414" alt="Out of the Water"></a></center>
-
 The bike route was truncated a bit from prior years due to some construction, so it ended up being less than 9 miles.  Knowing this, I set in full speed ahead sprint power mode.  I was huffing and puffing the whole time on my mountain bike with knobby-tires, but I managed to pass a few guys on full carbon special aero tri bikes, especially going up hills.
-
-<center><iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='http://app.strava.com/activities/68504894/embed/3d3d1b35f409083adcc47b44e2a3b5ca21b50d02'></iframe></center>
 
 Back to the transition area, I ditched my bike and helmet and took off for the final run.  Again Sarah J was at the transition area and told me that David M was only a minute and a half ahead.  "Oh yes -- I think I can get him", I thought.
 
 I took off at a pace that felt like 9 or 10 minutes per mile.  Ends up it was right at 8 minutes/mile.  About halfway though the course, I spotted David M's green shoes.  He was walking up a hill!  This was my chance.  I caught up to him and gave him a big high five, and suggested that we run together.  And so we did.  He stepped it up given the fresh challenge, and we ran together all the way to the end.  The course looped back on itself three times, so we got to say hi to David F and then to Arti as we were making our way through.
 
-<center><iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='http://app.strava.com/activities/68505407/embed/10177768a25738b82b03eafdaaab0b77b8b80e57'></iframe></center>
-
 The final chute was diabolically long, but we kicked it up and did 6:30 pace in the last few hundred yards.  We ended up with a 1h5m total time.  It was great fun to finish together.  We grabbed some drinks and snacks at the finish then went to find Sarah J.  She had flowers for us and a cardboard cut-out gold medal for me.  We had been joking about that earlier in the week.  That was great, Sarah -- thanks so much!
 
-<center><a href="http://www.flickr.com/photos/thenobot/9337761700/" title="Home Stretch by thenobot, on Flickr"><img src="https://farm3.staticflickr.com/2825/9337761700_7dc842a7ed_z.jpg" width="640" height="496" alt="Home Stretch"></a></center>
-
 I decided to backtrack on the course to find Arti to finish with her.  I saw David F along the way and shouted some random encouragement his way -- he was running really strong when I saw him.  I got to Arti as she was coming down the last hill before the long finishing chute, and we ran together to the end.  She was hauling -- it was challenging for me to keep up with her ;-).
-
-<center><a href="http://www.flickr.com/photos/thenobot/9334974085/" title="Finishing With Arti by thenobot, on Flickr"><img src="https://farm8.staticflickr.com/7402/9334974085_7e6d92a3d3_z.jpg" width="616" height="640" alt="Finishing With Arti"></a></center>
-
-The triumphant finishers:
-<center>
-<a href="http://www.flickr.com/photos/thenobot/9337760804/" title="Tri Finishers by thenobot, on Flickr"><img src="https://farm6.staticflickr.com/5499/9337760804_1f8aef8f5f_z.jpg" width="640" height="425" alt="Tri Finishers"></a>
-</center>
-
 
 After a bit of hanging out at the park, we all headed back to Kanta's house for a post-race brunch (chole, poories, and the best pickled mango ever).  We stayed for a couple of hours enjoying the nice weather and company, then headed home.
 

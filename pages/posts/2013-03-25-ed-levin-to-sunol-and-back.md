@@ -20,20 +20,15 @@ entry:
 ---
 For today's long run, I chose to go from Ed Levin County Park in Milpitas, up to Monument Peak, then north past Mt. Allison, behind Mission Peak, down to Sunol Regional Park, then turn around and run back.
 
-<iframe height='405' width='640' frameborder='0' allowtransparency='true' scrolling='no' src='http://app.strava.com/activities/45730815/embed/ade4b275069bf164781976e1ac8fbfa98dc38f94'></iframe>
+{% strava src="http://app.strava.com/activities/45730815/embed/ade4b275069bf164781976e1ac8fbfa98dc38f94" /%}
 
 It was a beautiful day today -- cool breeze, warm sun, and wildflowers aplenty...
-<a href="http://www.flickr.com/photos/thenobot/8588457394/" title="Ed Levin / Sunol / Ed Levin by thenobot, on Flickr"><img src="https://farm9.staticflickr.com/8110/8588457394_14de1bd615_z.jpg" width="640" height="478" alt="Ed Levin / Sunol / Ed Levin"></a>
 
 I made an eating plan prior to heading out.  I brought 4 Honey Stinger gels, 4 salt capsules, 2 Whenever Bars, 2 packages of Honey Stinger Chews, and four small red boiled potatoes and salt.  The plan was to eat 2 gels and a bar on the way to Sunol then eat the potatoes and one bag of chews in Sunol, then the rest on the way back, with a salt capsule every 90 minutes or so.  
 
 On the way to Sunol I remembered that they had a few big Alhambra bottles near the picnic area for drinking water.  With this in mind, it was open season on the water I was carrying -- 100oz in the Camelbak and 20oz in a bottle.  This was going to be a good run if I didn't need to worry about how much water I was drinking, and hopefully gave me a taste of what the O50K will be like with its aid stations every 5 miles or so.
 
 The eating plan worked out really well, even though I forgot my baggie of salt for the potatoes.  I just popped open one of the salt capsules and sprinkled that on the potato...
-
-<center>
-<a href="http://www.flickr.com/photos/thenobot/8588457652/" title="Ed Levin / Sunol / Ed Levin by thenobot, on Flickr"><img src="https://farm9.staticflickr.com/8378/8588457652_4d319e0bb8_z.jpg" width="478" height="640" alt="Ed Levin / Sunol / Ed Levin"></a>
-</center>
 
 Looks like cocaine, but it's salt.  I swear!  They really hit the spot.  I was really hungry when I sat down to eat them, and afterward I wasn't hungry until the very end of the run.
 

@@ -18,7 +18,7 @@ yo I'm a constant optimizer and evolver with basically everything. I also enjoy 
 A while back, I wrote about how I was using a Raspberry Pi as a fun Linux server for the home. I attached a couple of 2.5" 4TB HDDs to it and shared them with Samba for general file storage and Time Machine backups. This was a functional solution, but it was really slow and kind of a physical mess, with the drives hooked to the Pi through a powered USB hub because the Pi doesn't have enough juice to drive two drives.
 
 
-[![Raspberry Pi Mess](https://photos.smugmug.com/Random-Blog-Images/i-t4XwVS8/0/0f45fa1b/X2/2021041711321985-1775920485079464067-IMG_2227-X2.jpg)](https://photos.smugmug.com/Random-Blog-Images/i-t4XwVS8/0/0f45fa1b/X2/2021041711321985-1775920485079464067-IMG_2227-X2.jpg)
+[![Raspberry Pi Mess](https://photos.steinkamp.us/photo/zzz_blog_images/2021041711321985-1775920485079464067-IMG_2227.jpg)](https://photos.steinkamp.us/photo/zzz_blog_images/2021041711321985-1775920485079464067-IMG_2227.jpg)
 
 I considered using two 4TB SSDs to help solve the speed and power problem, but they're pretty expensive, and I wasn't quite sure how different it would be.
 

@@ -5,5 +5,6 @@ export const audio = {
   attributes: {
     src: { type: String },
     type: { type: String, default: "audio/mpeg" },
+    className: { type: String },
   },
 };

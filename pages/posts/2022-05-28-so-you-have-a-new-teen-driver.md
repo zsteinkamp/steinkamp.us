@@ -5,6 +5,8 @@ date: '2022-05-28 12:00:00'
 categories: post
 entry:
   source: post
+  data:
+    thumbnail: https://photos.steinkamp.us/photo/2022-01-01_ccc/IMG_3961.JPG?size=300x300
 ---
 
 So your teenager is old enough to learn to drive. That's awesome! For a parent, it can also be terrifying. I mean, they're the most precious people in our lives -- isn't it irresponsible to put them out there with all those crazies?!?!? We all know that car accidents are the #1 killer of teenagers. How can we reconcile this, and let our kids grow up to be responsible adult drivers?
@@ -14,6 +16,8 @@ I wrote this post to help parents help their kids survive to adulthood, and not 
 Why am I qualified to write this? So far, I have taught one of my kids to drive, and I have taught 100s of other kids in the [Tire Rack Street Survival](https://streetsurvival.org/) program as an in-car instructor. I myself have done dozens of high-performance driving schools as both a student and in-car instructor as well as competing in wheel-to-wheel racing. Through my own journey, I have learned what works and what doesn't, along with important aspects of driving that are ignored by "normal" driver education.
 
 As I was approaching the time when Marina (my older daughter) was going to get her learner's permit, I was nervous and excited at the same time. I started teaching teens and adults important skills behind the wheel when she was a tiny baby, and was always excited for the opportunity to give my own child my focused attention. Kids are awesome learners, and if I could help shape how my own kids approach driving, then I knew I could rest a little easier once they were driving on their own.
+
+{% captionedimage alt="Marina" src="https://photos.steinkamp.us/photo/2022-01-01_ccc/IMG_3961.JPG" caption="Marina stands proud with her car at a Teen Car Control Clinic" /%}
 
 Here are a few tips for parents of new drivers that I think are important to take seriously.
 

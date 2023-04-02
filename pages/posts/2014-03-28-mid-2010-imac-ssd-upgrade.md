@@ -20,17 +20,7 @@ Our almost four year old iMac has felt a little sluggish compared with my work l
 
 A traditional hard drive stores data on spinning platters, and reads data using a read/write head -- much like a record player.  In order to read data from different places on the disk, a traditional hard drive has to reposition, or "seek", the read/write head, and wait until the right section of the spinning platter is under the head before it can start.  It's incredible that this can be done in 9ms (0.009 seconds) on average, but in computer time that's very very slow.  Because data is scattered all over the platters, there is a lot of seeking that happens when you launch applications, open documents, or reboot the computer.
 
-<center>
-<a href="https://www.flickr.com/photos/thenobot/13470584133" title="hard_drive by Zack Steinkamp, on Flickr"><img src="https://farm8.staticflickr.com/7114/13470584133_872d0272fd_z.jpg" width="640" height="378" alt="hard_drive"></a>
-<br/><em>Traditional 500GB hard disk.</em>
-</center>
-
 In the last few years, Solid State Drives (SSDs), have become increasingly common.  SSDs store data on computer chips, like the memory card in a digital camera.  There are no moving parts, so they are not fragile like a traditional hard disk.  The biggest advantage of an SSD is that it can read and write data from anywhere on its chips in the same amount of time, regardless of where on the chips the data is stored.  A read or write operation on an SSD takes a fraction of a single millisecond, and because of they do not rely on spinning platters beneath a read/write head, can transfer data at a much higher rate than a traditional hard drive.  
-
-<center>
-<a href="https://www.flickr.com/photos/thenobot/13470481845" title="ssd by Zack Steinkamp, on Flickr"><img src="https://farm3.staticflickr.com/2868/13470481845_4b88c23aeb_z.jpg" width="640" height="489" alt="ssd"></a>
-<br/><em>500GB Solid State Drive (SSD)</em>
-</center>
 
 On the downside, SSDs tend to be more expensive than hard drives.  Budget hard drives cost roughly $0.05 per gigabyte, where consumer-level SSDs are ten times that at about $0.50 per gigabyte.  Hard drive prices are starting to flatten out, but SSDs continue to get cheaper over time as manufacturers scale their production.
 
@@ -48,13 +38,13 @@ Everything buttoned back up easily.  Since we have an external drive connected t
 
 I went to sleep while it was restoring, and woke up to a computer that was indistinguishable from where I powered it down last night to start the job.  Amazing!
 
-The one final step was to enable <a href="http://en.wikipedia.org/wiki/Trim_(computing)">TRIM support</a> on the SSD.  By default, OSX only recognizes Apple SSDs as having TRIM support.  There are a few utilities to enable TRIM for non-Apple SSDs.  I chose <a href="http://www.cindori.org/software/trimenabler/">Trim Enabler</a> and it worked fine.  Install the software, launch it (hold down the Control key while opening it since it isn't digitally signed) and flip the switch "On".  Reboot the computer, and hold down Command-S to enter single-user mode, then run:
-<div>
-<pre class="code">
+The one final step was to enable [TRIM support](http://en.wikipedia.org/wiki/Trim_(computing)) on the SSD.  By default, OSX only recognizes Apple SSDs as having TRIM support.  There are a few utilities to enable TRIM for non-Apple SSDs.  I chose [Trim Enabler](http://www.cindori.org/software/trimenabler/) and it worked fine.  Install the software, launch it (hold down the Control key while opening it since it isn't digitally signed) and flip the switch "On".  Reboot the computer, and hold down Command-S to enter single-user mode, then run:
+
+```
   > fsck -fy
   > reboot
-</pre>
-</div>
+```
+
 Look for the line "** Trimming unused blocks." in the fsck output.  This completes the TRIM process by adding TRIM information to existing data on the drive.
 
 The computer now boots in about 10 seconds, where it would previously take over a minute.  It is now totally silent, and will run cooler.  All in all, this was an easy and fun upgrade!
