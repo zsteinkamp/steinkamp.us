@@ -16,7 +16,7 @@ a {
    @apply text-blue-700 hover:text-blue-800 visited:text-blue-700
 }
 header a {
-   @apply text-blue-900 hover:text-blue-800 visited:text-blue-900
+   @apply text-black hover:text-slate-600 visited:text-black
 }
 
 article h2 {
@@ -33,6 +33,27 @@ article h4 {
 }
 article p {
   margin-bottom: 2rem;
+}
+article ul {
+  list-style-type: disc;
+  padding-left: 1rem;
+  margin-bottom: 2rem;
+}
+article ul li {
+  padding-left: 0.5rem;
+}
+article pre {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background: #eee;
+  overflow-x: auto;
+}
+article blockquote {
+  border-left: 2px solid #ddd;
+  background: #f8f8f8;
+  padding: 2rem 2rem 0.1rem 2rem;
+  margin-bottom: 2rem;
+  font-style: italic;
 }
 
 .db {

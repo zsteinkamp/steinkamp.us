@@ -49,29 +49,12 @@ This recipe makes approximately 48oz of Kimchi, but it really depends on the siz
 *   **Water:** Chlorinated water can inhibit fermentation, so use spring, distilled, or filtered water if you can.
 *   **Veggies:** Feel free to add any other veggies you think may be good. I've had great luck with beets and cauliflower in addition to the carrots.
 
-<p>
-  The cut napa cabbage.<br/>
-  <img src="https://photos.smugmug.com/Random-Blog-Images/i-j2fTrCM/0/6415bc63/L/IMG_2234-XL.jpg" style="width:100%"/>
-</p>
+{% captionedimage alt="Cabbage" caption="The cut napa cabbage." src="https://photos.steinkamp.us/photo/zzz_blog_images/IMG_2234.JPG" /%}
 
-<p>
-  After its salt massage and 15 minute nap, cover with water and weigh down with beans, organic preferably. Wait two hours.<br/>
-  <img src="https://photos.smugmug.com/Random-Blog-Images/i-djGWhDb/0/94f68be6/X2/IMG_2235-XL.jpg" style="width:100%"/>
-</p>
+{% captionedimage alt="With salt" caption="After its salt massage and 15 minute nap, cover with water and weigh down with beans, organic preferably. Wait two hours." src="https://photos.steinkamp.us/photo/zzz_blog_images/IMG_2235.JPG" /%}
 
-<p>
-  Rinse, drain, then work in the super flavor paste.<br/>
-  <img src="https://photos.smugmug.com/Random-Blog-Images/i-mKsjpPQ/1/e0337593/XL/IMG_2236-XL.jpg" style="width:100%"/>
-</p>
+{% captionedimage alt="Flavor paste" caption="Rinse, drain, then work in the super flavor paste." src="https://photos.steinkamp.us/photo/zzz_blog_images/IMG_2236.JPG" /%}
 
-<p>
-  Pack tightly into jars. It will look dry at first, but when you pack it in the liquid will come out.<br/>
-  <img src="https://photos.smugmug.com/Random-Blog-Images/i-zq79s2D/0/915f32f2/XL/IMG_2237-XL.jpg" style="width:100%"/>
-</p>
+{% captionedimage alt="Jars" caption="Pack tightly into jars. It will look dry at first, but when you pack it in the liquid will come out." src="https://photos.steinkamp.us/photo/zzz_blog_images/IMG_2237.JPG" /%}
 
-<p>
-  Et Voila! Put the lids on loosely, and set on a tray so that if it does bubble over, the magic juice doesn't make a mess.<br/>
-  <img src="https://photos.smugmug.com/Random-Blog-Images/i-3STfVJR/0/d5003238/XL/IMG_2239-XL.jpg" style="height:20em; text-align:center;"/>
-</p>
-
-
+{% captionedimage alt="Done" caption="Et Voila! Put the lids on loosely, and set on a tray so that if it does bubble over, the magic juice doesn't make a mess." src="https://photos.steinkamp.us/photo/zzz_blog_images/IMG_2239.JPG" /%}

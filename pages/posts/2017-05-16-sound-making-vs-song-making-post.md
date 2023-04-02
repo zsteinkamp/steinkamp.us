@@ -26,5 +26,5 @@ Song-making assembles the prior work of sound-making, and organizes it into a co
 A typical song takes me 20-40 hours of song-making time. I may have only spent a couple hours with sound-making, or I may have spent a month collecting and producing sounds. Only when there is an emotional reason coupled with inspiration from the toolkit of sounds can a song happen.
 
 Here's part of what it looks like when it's done...
-<img class="img-responsive" src="https://steinkamp.us/system/20170515-sound_post/whole_song.png"/>
+
 The horizontal rows are different sounds or instruments. Time passes from left to right. The lines and curves in this image are different parameters of the sound or instrument that will change over time. These parameters may be as simple as the loudness of the sound, or as nuanced as the level of resonance in a particular filter within a complex subtractive synthesizer.  Any and all of these thousands of possible parameters can be "automated" or controlled by drawing lines on the screen. This is where a lot of my time goes in song-making.

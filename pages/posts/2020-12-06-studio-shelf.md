@@ -19,17 +19,17 @@ Taking a little inspiration from the too-tall little laptop stand, and making us
 The shelf should not be too tall, it should be wide enough to hold the Push, BCR-2000, and audio interface, and I thought to make it angle around me would be good ergonomically, so I wouldn't have to stretch to reach anything when standing or sitting at the desk.
 
 Here's the finished shelf, on top of the desk:
-<img src="https://photos.steinkamp.us/photo/2020-12-06_music-shelf/threefourths_studio.jpg?size=1600x1600" />
+![shelf](https://photos.steinkamp.us/photo/2020-12-06_music-shelf/threefourths_studio.jpg)
 
 It sits at a slight angle, so the devices that are elevated a bit are still within easy reach.
 
-<img src="https://photos.steinkamp.us/photo/2020-12-06_music-shelf/side_view.jpg?size=1600x1600" />
+![shelf](https://photos.steinkamp.us/photo/2020-12-06_music-shelf/side_view.jpg)
 
 Here it is without anything on it:
 
-<img src="https://photos.steinkamp.us/photo/2020-12-06_music-shelf/back_bare.jpg?size=1600x1600" />
+![shelf](https://photos.steinkamp.us/photo/2020-12-06_music-shelf/back_bare.jpg)
 
-<img src="https://photos.steinkamp.us/photo/2020-12-06_music-shelf/threefourths_bare.jpg?size=1600x1600" />
+![shelf](https://photos.steinkamp.us/photo/2020-12-06_music-shelf/threefourths_bare.jpg)
 
 This ended up being a very straightforward project to make, just taking an hour or so one morning. Here's what you need to do it:
 
@@ -42,22 +42,22 @@ Note that the dimensions here are really not critical. You should have a look at
 
 First off, you need to make the cuts. The angled cuts are all 7.5 degrees. This makes it so the shelf will tilt toward you at this angle, and the top parts of the shelf make 15 degree angles (30 degrees total).
 
-<img src="/images/shelf/diag_1_cuts.png">
+![shelf](/images/shelf/diag_1_cuts.png)
 
 After making the cuts, you should have the following pieces:
 
-<img src="/images/shelf/diag_2_pieces.png">
+![shelf](/images/shelf/diag_2_pieces.png)
 
 Put the two foot pieces on the ground angled side up, and lay the top base on top of them. Position the feet so they are at the very ends of the top base, and put two screws in each. Drilling first and countersinking for the heads is imperative in this project, so the screw heads are flush with the surfaces.
 
-<img src="/images/shelf/diag_3_base_feet.png">
+![shelf](/images/shelf/diag_3_base_feet.png)
 
 Now lay out the desk top on the floor or another flat surface. Get the three pieces lined up perfectly and join them with some tape. Then flip the three over.
 
-<img src="/images/shelf/diag_4_top.png">
+![shelf](/images/shelf/diag_4_top.png)
 
 Next, lay the top base with the feet attached upside-down on the top pieces. Ensure the thick part of the feet are on the convex edge (the far side from you) of the desk top. Attach the top base to the top pieces using screws -- four in the middle piece, and three in each side piece. I offset the top base back an inch or so since my computer keyboard and trackpad would be under it right there, and I wanted to make sure there was plenty of room for my fingers.
 
-<img src="/images/shelf/diag_5_final.png">
+![shelf](/images/shelf/diag_5_final.png)
 
 Add some felt pads to the bottom of the feet, and that's it! Enjoy having a more ergonomic setup.

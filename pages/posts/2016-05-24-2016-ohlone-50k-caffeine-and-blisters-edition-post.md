@@ -49,8 +49,8 @@ About 1.5 miles from Sunol (mile 8 in the race), I started to feel some burning 
 
 If that wasn't enough, I started to feel a tinge of cramps in my inner thighs, calves, and quads throughout the rest of the race, starting at the steep wall climbing out of the Backpack Area (mile 12.5).
 
-![Starting the Backpack Area climb](https://photos.steinkamp.us/photo/2016-05-24_ohlone_50k/beginning_of_backpack_area.jpg?size=1600x1600)
-<p class="caption">Heading out from the Backpack Area aid station with a mouth full of salty potato. Photo by Vladimir Gusiatnikov.</p>
+{% captionedimage alt="Starting the Backpack Area climb" src="https://photos.steinkamp.us/photo/2016-05-24_ohlone_50k/beginning_of_backpack_area.jpg?size=1600x1600"
+caption="Heading out from the Backpack Area aid station with a mouth full of salty potato. Photo by Vladimir Gusiatnikov." /%}
 
 The cramps were easily mitigated by taking salt capsules. For being a cool day, I went through a lot more salt than I ever had. I swallowed 9 capsules in total through the race, sometimes as little as 30 minutes apart. This is strange for me, and I'm curious what led to this condition. Previously, I wouldn't need more than 4 capsules, even on a hot day. Thankfully I had brought enough so as to not totally seize up in a writhing ball of cramp on the side of the trail.
 
@@ -58,8 +58,7 @@ The Goat Rock aid station was at mile 15, and I stopped very briefly for a gel a
 
 I ran a bit with a guy named John from Las Vegas who works in law enforcement for the Federal Government. He was on a tear, so he left me after a couple miles.
 
-![The Bluff](https://photos.steinkamp.us/photo/2016-05-24_ohlone_50k/the_bluff.jpg?size=1600x1600)
-<p class="caption">The view from near The Bluff</p>
+{% captionedimage alt="The Bluff" src="https://photos.steinkamp.us/photo/2016-05-24_ohlone_50k/the_bluff.jpg?size=1600x1600" caption="The view from near The Bluff" /%}
 
 A mile or so before Rose Peak, a Fire Rescue truck motored past me on the trail. Damn, I thought, I really hope there isn't a medical problem with one of the runners ahead. Turns out they were just relocating from one aid station to another. *whew*
 
@@ -80,8 +79,8 @@ The last climb is a doozie -- It's a bit less than a mile long, but it's as stee
 The final sprint at the end is always awesome. The trail isn't too steep, so you can just go go go without having to put on the brakes. You can hear people cheering for runners finishing ahead of you, and that's such an energizing sensation. You come out of the trees, and the finish is right there. I crossed the line after 6h5m, a new personal best for me by almost 40 minutes.
 
 ![Finishing Sprint](https://photos.steinkamp.us/photo/2016-05-24_ohlone_50k/home_stretch.jpg?size=1600x1600)
-![Seconds from the finish](https://photos.steinkamp.us/photo/2016-05-24_ohlone_50k/almost_there.jpg?size=1600x1600)
-<p class="caption">Finish Line. Photos by Keith Blom.</p>
+
+{% captionedimage alt="Seconds from the finish" src="https://photos.steinkamp.us/photo/2016-05-24_ohlone_50k/almost_there.jpg" caption="Finish Line. Photos by Keith Blom." /%}
 
 I got to meet race co-director Chiping Fu at the finish as he handed me my finisher's plank and goodie bag. Good times!
 
@@ -93,11 +92,8 @@ I hobbled over to the BBQ area find a cold drink and a cool place to wait for Ni
 
 We sat in the grass and relaxed and chatted for another hour or so with new and old friends. Vinh was so sweet to bring us food and drinks and give us a ride back to the car in Fremont. All of the people working at the aid stations, the people who marked the course in prior days, and the crew at the finish selflessly give their time to make for a first-class experience for the racers. Thanks for that!
 
-<center>
-<iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no'  src='https://www.strava.com/activities/584968590/embed/c9df0479359cf2867904e784327e0973b2d8883f'></iframe>
-</center>
+{% strava src="https://www.strava.com/activities/584968590/embed/c9df0479359cf2867904e784327e0973b2d8883f" /%}
 
-![Elevation profile and aid stations](https://photos.steinkamp.us/photo/2016-05-24_ohlone_50k/aid_station_map.jpg?size=1600x1600)
-<p class="caption">The elevation profile of the course and the aid station locations. Mission Peak (2500ft) is the first bump on the left, Rose Peak (3850ft) is the highest point. Overall there is about 8500 feet of climbing in this race.</p>
+{% captionedimage alt="Elevation profile and aid stations" src="https://photos.steinkamp.us/photo/2016-05-24_ohlone_50k/aid_station_map.jpg" caption="The elevation profile of the course and the aid station locations. Mission Peak (2500ft) is the first bump on the left, Rose Peak (3850ft) is the highest point. Overall there is about 8500 feet of climbing in this race." /%}
 
 The calm after the storm is always a mixed blessing. On one hand, the hard work is over. Without the pressure of a big race, there's a lot more flexiblility in weekly exercising activities. On the other hand, the level of fitness from doing consistent 24+ mile runs on the weekend is such a great feeling. There's balance in there somewhere, and I will find it. I *am* certainly looking forward to the 2017 Ohlone 50K and shooting to come in under six hours.

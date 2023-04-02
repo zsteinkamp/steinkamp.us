@@ -19,10 +19,6 @@ It was a Thursday night. I was sound-making. I had an idea to get some sounds fr
 
 
 
-<img src="/system/20170515-sound_post/rode_ixy.jpg" class="img-responsive"/>
-
-
-
 As I walked into the kitchen, the sliding door caught my eye. Hmm, glass has a cool sound -- and a big piece of glass might have a really cool sound. So I spent some time [carefully] hitting the glass in different ways with my fist, and with the i-XY in different positions, recording all the time.
 
 
@@ -53,9 +49,6 @@ On my living room setup, the sound was lifeless. The top end was great, but the 
 
 Taking a look at the Window Drum sound up close told the whole story:
 
-<img src="/system/20170515-sound_post/before.png" class="img-responsive"/>
-
-
 
 You can see in the image that the left and right channels were almost perfectly out of phase. The left and right channels recorded by the i-XY were picking up the window at different locations since the mic was so close to the window, and since it was vibrating, different phases. When this signal was merged down to mono by the subwoofer, the sounds were canceling each other out. Flatline.
 
@@ -73,21 +66,9 @@ The solution was to split the output on this track to two busses. Bus A would be
 
 
 
-<img src="/system/20170515-sound_post/sends.png" class="img-responsive"/>
-
-
-
 Bus A was simple to make -- just an EQ with a hard low-cut. I chose 75Hz just because. 
 
-<img src="/system/20170515-sound_post/treble_eq.png" class="img-responsive"/>
-
-
-
 Bus B had a similar but opposite EQ, with a high-cut set to 75Hz, and a few dB of boost on the bottom end for reasons that will soon be clear.
-
-<img src="/system/20170515-sound_post/bass_eq.png" class="img-responsive"/>
-
-
 
 If I made Bus B a mono channel, Logic would sum the left and right signals together and I'd be back at square one with no bass. I had the idea that I could pan Bus B hard left (could have just as well have been right) so that only the left channel would be represented. This channel was routed to a third bus, set up to be mono. Since only the left channel of the original was used, this mono bass channel would not have any phasing issues.
 
@@ -95,28 +76,4 @@ If I made Bus B a mono channel, Logic would sum the left and right signals toget
 
 This seemed to do the trick. After some tweaks in the EQ and volume to bring the bass energy back to the low-end, the it sounded great in the living room. You can see by this close-up of the tail of the sound, that it's now mostly in-phase.
 
-
-
-<img src="/system/20170515-sound_post/after.png" class="img-responsive"/>
-
-
-
 Listening to it back to back with the original reveals some difference, but the final product is still spacious and powerful, but it holds up well in less-than-ideal listening environments.
-
-
-
-<dl>
-
-<dt>Before:</dt>
-
-<dd><audio controls><source src="/system/20170515-sound_post/clean.wav"></audio><dd>
-
-<dt>After:</dt>
-
-<dd><audio controls><source src="/system/20170515-sound_post/bounced.wav"></audio></dd>
-
-</dl>
-
-Have a listen to this sound in a full composition, starting at around 0:27:
-
-<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/322043366&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>

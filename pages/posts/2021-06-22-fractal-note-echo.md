@@ -15,7 +15,7 @@ This allows for easy creation of very complex patterns that, due to their nature
 
 Here is an example of a song I put together:
 
-<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=291096932/size=small/bgcol=ffffff/linkcol=0687f5/track=3785720263/transparent=true/" seamless><a href="https://zacksteinkamp.bandcamp.com/album/fnd-two-trees">FND / Two Trees by Zack Steinkamp</a></iframe>
+{% bandcamp src="https://bandcamp.com/EmbeddedPlayer/album=291096932/size=small/bgcol=ffffff/linkcol=0687f5/track=3785720263/transparent=true/" /%}
 
 ## What is a fractal MIDI note echo effect you ask?
 

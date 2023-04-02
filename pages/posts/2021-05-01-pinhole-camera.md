@@ -14,7 +14,7 @@ In this digital age, where our phones are better cameras than anyone had until r
 
 I had an idea to build a pinhole camera with a cardboard box, but instead of using photo-sensitive material inside that requires chemical processing, I could just use my phone to take a picture of the image projected inside the box. Modern phones have amazing low light abilities, so it's just crazy enough to work. And it does!
 
-<img style="width:100%" src="https://photos.smugmug.com/2021-05-01-pinhole-camera/i-BxPBCLM/0/282916d5/X2/2021050117281610--7941475080171894289-IMG_2414-X2.jpg"/>
+![Photo](https://photos.steinkamp.us/photo/2021-05-01_pinhole-camera/2021050117281610--7941475080171894289-IMG_2414.jpg)
 
 # What you need:
 *   A box
@@ -34,10 +34,10 @@ I had an idea to build a pinhole camera with a cardboard box, but instead of usi
 Light enters the box through the tiny hole, and projects an image on the white paper on the opposite side. The phone, on the same side of the box as the tiny hole, can take a photo of the image projected onto the white paper.
 
 Overall schematic:
-<img style="width: 100%" src="https://photos.smugmug.com/2021-05-01-pinhole-camera/i-r3NzPt5/0/48d6d466/L/Pinhole%20Phone%20Camera-L.png"/>
+![Schematic](https://photos.steinkamp.us/photo/2021-05-01_pinhole-camera/Pinhole%20Phone%20Camera.png)
 
 Detail of holes to cut:
-<img src="https://photos.smugmug.com/2021-05-01-pinhole-camera/i-48mv9jW/0/a4a1528c/S/Pinhole%20Side%20of%20Box-S.png"/>
+![Detail](https://photos.steinkamp.us/photo/2021-05-01_pinhole-camera/Pinhole%20Side%20of%20Box.png)
 
 # Protips
 *   The tiny hole lets in only a tiny amount of light, so your best bet is to do this outside on a sunny day.
@@ -46,9 +46,9 @@ Detail of holes to cut:
 *   Use Night Mode on your camera app.
 *   Tape the phone to the side of the box, and put tape around the edges to prevent light from seeping in through the phone hole.
 
-<a href="https://zacksteinkamp.smugmug.com/2021-05-01-pinhole-camera/i-5wgs5rp/A"><img src="https://photos.smugmug.com/2021-05-01-pinhole-camera/i-5wgs5rp/0/8e909596/S/2021050117281610--2394490254023804056-IMG_2402-S.jpg" alt=""></a>
-<a href="https://zacksteinkamp.smugmug.com/2021-05-01-pinhole-camera/i-pLHSRbF/A"><img src="https://photos.smugmug.com/2021-05-01-pinhole-camera/i-pLHSRbF/0/c6dbacd0/S/2021050117281610-9106088658108536100-IMG_2405-S.jpg" alt=""></a>
-<a href="https://zacksteinkamp.smugmug.com/2021-05-01-pinhole-camera/i-8q6FDp2/A"><img src="https://photos.smugmug.com/2021-05-01-pinhole-camera/i-8q6FDp2/0/3c77ed64/S/2021050117281610--314057480454485528-IMG_2420-S.jpg" alt=""></a>
-<a href="https://zacksteinkamp.smugmug.com/2021-05-01-pinhole-camera/i-Lk8rMpc/A"><img src="https://photos.smugmug.com/2021-05-01-pinhole-camera/i-Lk8rMpc/0/cc07af54/S/2021050117281610--1703653035229124392-IMG_2421-S.jpg" alt=""></a>
-<a href="https://zacksteinkamp.smugmug.com/2021-05-01-pinhole-camera/i-NrbVJzv/A"><img src="https://photos.smugmug.com/2021-05-01-pinhole-camera/i-NrbVJzv/0/71ae7906/S/2021050117281610--1470385380819093799-IMG_2427-S.jpg" alt=""></a>
+![Photo](https://photos.steinkamp.us/photo/2021-05-01_pinhole-camera/2021050117281610--2394490254023804056-IMG_2402.jpg)
+![Photo](https://photos.steinkamp.us/photo/2021-05-01_pinhole-camera/2021050117281610-9106088658108536100-IMG_2405.jpg)
+![Photo](https://photos.steinkamp.us/photo/2021-05-01_pinhole-camera/2021050117281610--314057480454485528-IMG_2420.jpg)
+![Photo](https://photos.steinkamp.us/photo/2021-05-01_pinhole-camera/2021050117281610--1703653035229124392-IMG_2421.jpg)
+![Photo](https://photos.steinkamp.us/photo/2021-05-01_pinhole-camera/2021050117281610--1470385380819093799-IMG_2427.jpg)
 

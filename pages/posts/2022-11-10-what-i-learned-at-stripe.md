@@ -24,8 +24,8 @@ The Atlas team also reinforces this in their Friday wrap-up meetings in a segmen
 
 This practice normalizes gratitude in the team, and sets a mild expectation for recognizing the people who helped you that week. It builds community, camaraderie, and warm feelings in the team, which contributes to a high-functioning team.
 
+{% captionedimage src="https://upload.wikimedia.org/wikipedia/commons/c/c6/Ty_Logo.svg" alt="ty" caption="Default thank you emoji." className="float-right w-40 ml-8" /%}
 
-<img style="float:right" src="https://upload.wikimedia.org/wikipedia/commons/c/c6/Ty_Logo.svg" width=100/>
 One thing I was surprised to see on my first day at Stripe was the default "thank you" emoji in Slack is the Ty Beanie Baby heart. I was initially afraid to use it (sending hearts to coworkers?!?!?!), but in time I learned to see it as a tool for elevating the good vibes. Once I got over the initial shyness around using it, I felt more liberated to share my gratitude in this very strong way.
 
 

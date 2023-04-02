@@ -17,11 +17,12 @@ entry:
 ---
 If you use docker-compose to run an app, more than likely you use container links in the form of "depends_on:" in your docker-compose.yml, like this:
 
-<code>services:
+```
+services:
   api:
     build: .
- <strong>   depends_on:
-      - db</strong>
+  depends_on:
+      - db
     ports:
       - "8080:8080"
   db:
@@ -32,13 +33,14 @@ If you use docker-compose to run an app, more than likely you use container link
       - POSTGRES_USER=user
       - POSTGRES_PASSWORD=pass
       - POSTGRES_DB=db
-</code>
+```
 
 The problem is that your app ("api" in the example above) will start immediately after the command to start "db" and "redis" is invoked. If the service you depend on takes time to start -- maybe you are setting up a DB schema or seeding data -- and your app tries to connect right away, then it may fail to start or you may see unnecessary errors.
 
 The solution to this problem is to have your app wait for the service it depends on to actually become available. If this can be determined by the ability to establish a TCP connection to that service, then you can use Linux's built-in networking capabilities to do this test for you. No need to install any utilities!
 
-<code>services:
+```
+services:
   api:
     build: .
    depends_on:
@@ -60,6 +62,6 @@ The solution to this problem is to have your app wait for the service it depends
       - POSTGRES_USER=user
       - POSTGRES_PASSWORD=pass
       - POSTGRES_DB=db
-</code>
+```
 
 With this technique, you can test for the availability of any TCP port before actually starting your app.

@@ -38,9 +38,7 @@ So rather than spend $2000 on a new computer, I thought I would try replacing th
 
 I found some pretty good video instructions on how to replace the hard drive in this generation iMac.  
 
-<center>
-<iframe width="640" height="360" src="//www.youtube.com/embed/MeLchCCtHy8?rel=0" frameborder="0" allowfullscreen></iframe>
-</center>
+{% youtube src="//www.youtube.com/embed/MeLchCCtHy8?rel=0" title="Video" /%}
 
 I ended up using only a single suction cup to remove the glass (most instructions call for two).  After removing the 8 T-10 screws, I carefully lifted the display.  I only needed to disconnect the screen temp sensor and data cable in order to get the job done.  Everything else could be done with the screen propped up.  The SSD is a 2.5" form factor, but the old hard drive was a 3.5".  Adapters exist, and the $15 "EZConvert MB882SP-1S-2B" from Icy Dock worked perfectly.  I removed the old drive, transferred the T-8 mounting pins and bracket to the SSD/Adapter, and installed it.  
 

@@ -2,10 +2,7 @@
 layout: post
 title: Ohlone 50K Recap
 date: '2013-05-20 15:27:01'
-categories: post post
 entry:
-  id: 924
-  source: post
   data:
     excerpt: Last October I decided to run the Ohlone Wilderness Trail 50K.  After
       6 months of training covering 435 miles and climbing more than 80,000 feet,
@@ -21,7 +18,7 @@ Last October I decided to run the <a href="http://ohlone50k.com/">Ohlone Wildern
 
 After 6 months of training covering 435 miles and climbing more than 80,000 feet, the race is now in the bag.
 
-<iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='http://app.strava.com/activities/55203238/embed/226f1f170031f1ef95cd00f83dd0d98d35447fa7'></iframe>
+{% strava src="http://app.strava.com/activities/55203238/embed/226f1f170031f1ef95cd00f83dd0d98d35447fa7" /%}
 
 It wasn't all so easy though.  In February I got over-exuberant with my training and ended up with a knee injury that took me off the trails for two weeks.  The guys at <a href="http://www.scoreclinic.com/">Score Clinic</a> got me back out there though.  Armed with a better plan, and a healthy respect for caring for my muscles and joints I got back in the training groove again.  Building up from 12 mile runs to a 28 mile run didn't end up being as difficult as it seemed when first laying out <a href="https://docs.google.com/spreadsheet/ccc?key=0Av7-a2OfybnddENwQ1ljVnAwdTUwWDQySE9SNGs5RXc">the plan</a>.  Taking deliberate, small increases in the training runs is the key, as is daily foam-rolling and stretching and building knowledge of what my body needs nutrition- and hydration-wise when "out there" for hours at a time.
 
@@ -41,7 +38,7 @@ Most runners will drive to the race finish at Lake Del Valle early in the mornin
 
 At the start of the race, most people took off running.  
 
-<iframe width="640" height="360" src="http://www.youtube.com/embed/ykoD2gpARto?rel=0" frameborder="0" allowfullscreen></iframe>
+{% youtube src="http://www.youtube.com/embed/ykoD2gpARto?rel=0" title="Race Start" /%}
 
 Zombie Don had been pounding the race strategy into my head for months -- walk up the Peak, nice and easy down to Sunol.  I felt like I was dead last on the initial climb, but I knew this was how I was going to be able to finish the race.  
 

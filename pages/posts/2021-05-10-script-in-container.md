@@ -26,7 +26,8 @@ There is a better way. Well, two actually...
 
 ## containerscript
 Following the example below, you can write a single Bash script to define the Dockerfile, Docker build/run commands, and the script to run, all in one. Just replace the `cmd()` function content with your own, and change the `FROM` line in the `Dockerfile` and/or add more dependencies to the container with `RUN` commands.
-<script src="https://gist.github.com/zsteinkamp/7235cebd34166a12ef0ba3bb1bae3758.js"></script>
+
+{% script src="https://gist.github.com/zsteinkamp/7235cebd34166a12ef0ba3bb1bae3758.js" /%}
 
 ## Enter The Turdokken
 Taking the idea of containerscript even further, [Turdokken](https://github.com/zsteinkamp/turdokken) aims to be your new shebang-line crush. Turdokken is intended to be installed somewhere in the `$PATH` of the host it's running on, so that your scripts can use it as their shebang line. The Turdokken utility accepts command-line switches to control installing dependencies, mounting volumes, or options like interactive mode. So it's easy to write a tiny script that runs in a container:

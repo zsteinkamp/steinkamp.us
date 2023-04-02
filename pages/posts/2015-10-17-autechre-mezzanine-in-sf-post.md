@@ -21,15 +21,12 @@ I drove up to Ben's house in San Francisco, stopping for a quick charge at Peter
 
 ANyhow, I got to Ben's at about 8pm. We hung out for a bit, walked to get some food, and made our way to the show at a club called Mezzanine. Doors were at 8:30, and the first of two openers started at 9. We got there about 9:30, right in the heat of DJ Rob Hall's set. He was playing some great music that I'd never heard. The place wasn't quite filled up, but it was still early.
 
-<img src="http://www.digitalinberlin.de/wordpress/wp-content/rhall.jpg" class="img-responsive">
-<em>DJ Rob Hall</em>
 
 It was a surprisingly diverse crowd. I expected to see mostly clones of Ben and I, but there was a wide range of ages and styles. Most surprisingly were more than just a few women -- there were a lot more ladies present than any Ae show I've been to in the past. Great! Everyone seemed friendly and mellow.
 
 Rob Hall wrapped up his set around 10:15pm, then it was time for Cygnus to take the stage.
 
-<img src="http://www.residentadvisor.net/images/profiles/cygnus.jpg" class="img-responsive">
-<em>Cygnus</em>
+{% captionedimage src="http://www.residentadvisor.net/images/profiles/cygnus.jpg" alt="Cygnus" caption="Cygnus" className="float-right pl-8" /%}
 
 Cygnus is Phillip Washington, formerly known as Central Processing Unit. He put on a lively show, grooving out behind his equipment as he punched tracks in and out of the mix and twiddled knobs to transform the sound this way and that. Things started in a cool and straightforward way, but by mid-set things had gotten really deep and driving. It was a good evolution from Rob Hall's setlist, and set a vector to Autechre's mayhem.
 I've since bought a couple of Cygnus' releases on iTunes and have listened many times. His latest EP called "Radical User Interfaces" is awesome.
@@ -40,8 +37,7 @@ The multicolor, perpetually moving club lights that had been in full effect for 
 
 We were left without visuals to plant any imagery in our minds. There were no lights on the stage either. Just from some ambient glow, I saw the baseball cap of Autechre's Sean Booth peeking out from behind his MacBook Pro, and his fingers busy doing who knows what. He must have snuck onto the stage, hunched over so nobody could see. Slowly but surely, he seized control of the sound from DJ Rob Hall, manipulating the recorded track with effects surely from centuries in the future. He took what was an already abstract track, and did things with it that made the original seem positively bland. It's such a challenge to describe what the sounds were at this point -- words cannot possibly capture the moebius of sounds and tones in that room.
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Autechre.jpg" class="img-responsive">
-<em>Autechre</em>
+{% captionedimage src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Autechre.jpg" alt="Autechre" caption="Autechre" /%}
 
 As the magic was getting into full swing, another figure appeared on stage. It was Rob Brown -- the other half of Autechre. He swung his backpack off his shoulder, pulled out his laptop, opened it up, and plugged it into the club's sound system (and who knows what else).
 
@@ -61,5 +57,4 @@ What Autechre does with sound is absolutely unique. Modifying dozens of dimensio
 
 Come back soon guys!
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/H6pqLWtfv_g" frameborder="0" allowfullscreen></iframe><br/>
-<em>YJY UX  from Autechre's 2013 album Exai. IMO their finest work to date.</em>
+{% youtube src="https://www.youtube.com/embed/H6pqLWtfv_g" title="YJY UX" /%}

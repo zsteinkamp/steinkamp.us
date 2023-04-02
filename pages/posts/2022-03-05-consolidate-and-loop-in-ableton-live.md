@@ -19,7 +19,7 @@ I've filed an enhancement request with Ableton to map Cmd-Shift-J to Consolidate
 
 Today I had the idea to try Apple's "Automator" app to implement a shortcut. Automator can do many things, including add an item to the whole system or an application's "Services" menu. I've used this in the past for other productivity tasks, and it seemed like it could be a good choice. It seems to work well.
 
-# Download and Install
+## Download and Install
 
 * Download the [Consolidate and Loop .zip file](/images/consolidateAndLoop/ConsolidateAndLoop.zip).
 * Double-click the file to uncompress it.
@@ -29,7 +29,7 @@ Today I had the idea to try Apple's "Automator" app to implement a shortcut. Aut
 * If you switch to Ableton Live, you should now see it in the Services menu.
 ![Screenshot of Services menu](/images/consolidateAndLoop/services_menu.png)
 
-# Mapping a Keystroke
+## Mapping a Keystroke
 
 To map a keystroke to this new Service, do the following:
 
@@ -43,7 +43,7 @@ To map a keystroke to this new Service, do the following:
 
 So now back in Ableton Live, you can now press Cmd-Shift-J to Consolidate + Loop a selection and stay in the creative flow.
 
-# Do It Yourself
+## Do It Yourself
 
 If you want to go through the steps yourself to learn how to create a similar Service in the future, here you go. Do the following:
 

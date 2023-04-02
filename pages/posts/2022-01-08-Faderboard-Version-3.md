@@ -11,14 +11,14 @@ This post details a significant update to my original Faderboard device for Able
 
 The [prior version](/post/2021/12/01/faderboard-in-ableton.html) worked fine, but changing sounds was very cumbersome, requiring updating the sample loaded into 8 Simpler devices. This new version uses a single sample "drop zone", and offers some nice usability and capability improvements.
 
-# Demo
+## Demo
 Here is an instance of zs-Faderboard3 playing the example sample, sent through a Pedal device then into [Valhalla Supermassive](https://valhalladsp.com/shop/reverb/valhalla-supermassive/) on the "We Are Stardust" preset.
 
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/UWtkUmbyKyc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% youtube src="https://www.youtube.com/embed/UWtkUmbyKyc" title="YouTube video player" width="100%" /%}
 
 The demo shows off the device's loop management abilities too, including seamlessly transitioning from forward playback to reverse. It also shows a visualization of each voice's place in their journey through the sample.
 
-# Get Started
+## Get Started
 
 Click the link below to download the Max For Live device:
 
@@ -34,13 +34,13 @@ Then move any of the Gain sliders from `-inf Db` to a positive value to start pl
 
 You can also set each voice to its own left/right panning location.
 
-# touchOSC Integration over WiFi
+## touchOSC Integration over WiFi
 
 If you have an iPad and a Mac, you can use the software touchOSC to create a set of virtual controls to control zs Faderboard3 over wireless MIDI.
 
 Here's a long demo showing how that can work:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/P63R8BKQdMY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% youtube src="https://www.youtube.com/embed/P63R8BKQdMY" title="YouTube video player" width="100%" /%}
 
 Download the touchOSC definition here:
 
@@ -53,7 +53,7 @@ You can then configure touchOSC on the iPad to send MIDI over "Network Session 1
 * That should reveal a `Send Port` and `Receive Port` option.
 * For both `Send Port` and `Receive Port`, touch `Browse` and choose `Network Session 1`
 
-<img src="/images/midiSetup/touchOSC_network_config.jpeg"/>
+{% captionedimage src="/images/midiSetup/touchOSC_network_config.jpeg" alt="touchOSC network config" /%}
 
 After you tap `Done`, touchOSC will send messages over network MIDI.
 
@@ -67,7 +67,7 @@ To set up the Mac to receive the network MIDI data, follow these instructions:
 * Check the checkbox next to `Session 1`
 * In the `Directory` panel, click your iPad, then click the `Connect` button
 
-<img src="/images/midiSetup/network_midi_setup.png"/>
+{% captionedimage src="/images/midiSetup/network_midi_setup.png" alt="Network Midi Setup" /%}
 
 Now the iPad and the Mac can exchange MIDI messages over wifi!
 
@@ -78,24 +78,24 @@ To enable MIDI control over WiFi for touchOSC in Ableton Live, follow these inst
 * Select the `Link / Tempo / Midi` panel
 * In the `MIDI Ports` section, ensure the `Track` and `Remote` checkboxes are selected for BOTH the `In: Network (Session 1)` and `Out: Network (Session 1)` rows.
 
-<img src="/images/midiSetup/ableton_live_network_midi_setup.png"/>
+{% captionedimage src="/images/midiSetup/ableton_live_network_midi_setup.png" alt="Ableton Live MIDI config" /%}
 
 Now you can map the controls in touchOSC to device controls in Ableton Live as you normally would, by using Cmd-M to Map Midi. Because of how it's set up above, the communication is bi-directional, so moving a control on screen with your mouse should move the control on the touchOSC UI on the iPad.
 
-# How It Works
+## How It Works
 
 The dropped sample populates a `buffer~` device. There are then 8 instances of a group of devices that will play back that buffer, starting with a `groove~` device. Each of those instances can be configured with a pitch/note to play. The Gain slider is connected to some logic/math that will trigger the `groove~` device to play once the gain is raised above `-inf Db`. Open it up and check it out!
 
-<img src="/images/faderboard-boobie.png"/>
+{% captionedimage src="/images/faderboard-boobie.png" /%}
 
 And it is also a Blue Footed Boobie.
 
-<img src="/images/faderboard-boobie-real.jpg"/>
+{% captionedimage src="/images/faderboard-boobie-real.jpg" /%}
 
-# Contributing
+## Contributing
 
 If you would like to contribute, then please have a look at [the code on GitHub](https://github.com/zsteinkamp/m4l-zs-Faderboard3). Fork the repo, make your changes, then open a pull request to propose a change. Thanks!
 
-# Feedback is Appreciated!
+## Feedback is Appreciated!
 
 If you use it and it works or doesn't work, please let me know. [zack@steinkamp.us](mailto:zack@steinkamp.us)

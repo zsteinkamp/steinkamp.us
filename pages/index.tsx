@@ -47,7 +47,7 @@ export const getStaticProps = async () => {
     return {
       title: data.title,
       date: dayjs(data.date).format("YYYY-MM-DD dddd"),
-      type: data.entry.source,
+      type: data.entry.source || "post",
       excerpt: excerpt,
       cover,
       slug

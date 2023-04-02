@@ -157,4 +157,5 @@ At this point, you should be able to see the Raspberry Pi from the Finder on Mac
 
 ## Wrap Up
 After getting everything working, I buttoned up the hardware by attaching it to a piece of wood using velcro, mostly to avoid having the hard drives getting bumped or knocked off their shelf. I attached it to the Eero with an ethernet cable, which easily doubled the speed at which files could be transferred to/from it vs. over WiFi. Connecting the Macs in the house to it was a piece of cake, and it's fun to have an always-on Linux server in the house.
-<img src="https://photos.smugmug.com/Random-Blog-Images/i-t4XwVS8/0/0f45fa1b/X2/2021041711321985-1775920485079464067-IMG_2227-X2.jpg" style="width:100%;"/>
+
+![Done](https://photos.steinkamp.us/photo/zzz_blog_images/2021041711321985-1775920485079464067-IMG_2227.jpg)

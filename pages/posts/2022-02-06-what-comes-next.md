@@ -43,6 +43,6 @@ My dream job would allow me to use everything I have learned over the years to d
 * High-responsibility environment (i.e. coordinated autonomy + low process overhead)
 * 100% remote or <= 15 minutes drive from Scotts Valley, CA
 
-I'd appreciate feedback from people that I've worked with/for -- am I aiming too high? too low? anything to add? to remove? want to just chat? :) <a href="mailto:zack@steinkamp.us">zack@steinkamp.us</a>.
+I'd appreciate feedback from people that I've worked with/for -- am I aiming too high? too low? anything to add? to remove? want to just chat? :) [zack@steinkamp.us](mailto:zack@steinkamp.us).
 
 Maybe you'd like to see my [resume](/resume/)?

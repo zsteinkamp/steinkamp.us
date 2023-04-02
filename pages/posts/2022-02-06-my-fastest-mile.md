@@ -5,6 +5,8 @@ date: '2022-02-06 13:00:00'
 categories: post
 entry:
   source: post
+  data:
+    thumbnail: https://photos.steinkamp.us/photo/zzz_blog_images/fast_mile_1.jpg
 ---
 
 My fastest mile ever happened on the right shoulder blade of Mission Peak. See, Mission Peak sits facing Fremont, the Bay, the Peninsula. Watching over it all in its regal pose. For those lucky enough to know what it is like to stand up there, we get to share in that grand view; in that fortunate place.
@@ -38,7 +40,15 @@ On the way from the summit down to Ohlone College, there is a section that becam
 
 Fast forward to 6:30am on a Sunday in 2016. My awesome group of running friends had planned to meet at Ohlone college (400ft), run up and over Mission Peak's summit (2500ft), then down to Sunol Regional Park (400ft), then back over the summit and back to the car. Altogether this was about 17 miles, with a total of 4000 feet of ascent. At the time, this was a bread-and-butter kind of weekend run – no biggie. Times were different then, lol!
 
+{% captionedimage alt="photo"
+  src="https://photos.steinkamp.us/photo/zzz_blog_images/fast_mile_2.jpg"
+      caption="Sunrise climb to Mission Peak." /%}
+
 Great times running and talking with this inspiring group, and the time passed quickly. Soon enough we were in Sunol refilling our waters, and a quick turn back up the hill to the Peak. After a quick photo stop, we were descending the steep rocky section on the north side of the peak. I really love this section, and plan to write another post just on that.
+
+{% captionedimage alt="photo"
+  src="https://photos.steinkamp.us/photo/zzz_blog_images/fast_mile_1.jpg"
+      caption="Heading down from the peak toward Sunol." /%}
 
 We were kind of stringing out, and if I remember correctly, Jeremy was in front of me. Jeremy is an athlete model of a man, having played football in college, he has kept a very high level of fitness and could trounce me any day on any trail, up or down. With the bathroom in sight, I could tell he saw an opportunity to practice some speed work of his own. He took off like a bolt of lightning, reminding me of that first time with Jerry. This was a great inspiration for me, since I did my best to try to keep up, which was totally futile! I wasn't sure if he knew this was a great 1-mile section to test, but I did. I planned to keep the gas on even if he decided to slow down. He didn't. :)
 

@@ -7,12 +7,6 @@ entry:
   source: post
 ---
 
-<style>
-.post-content h1 { font-size:200%; }
-.post-content h2 { font-size:150%; }
-.post-content h3 { font-size:100%; text-transform:uppercase; }
-</style>
-
 Here's the tl;dr:
 >   * Your job is to grow your team.
 >   * Write down expectations of team members, broken down by level.

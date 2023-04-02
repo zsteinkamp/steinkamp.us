@@ -10,17 +10,17 @@ entry:
 ---
 Anyone who knows me reasonably well knows I have a soft spot for Mission Peak. I grew up in Fremont, and begrudgingly hiked up the Peak with my family every so often, complaining the whole time. It was hot. It was dry. I was thirsy. I was tired. Except for the time was a teenager and took a detour around the Hidden Valley area and headed off-trail, straight up the peak face. That was adventure! (not recommended, of course!)
 
-Fast-forward to my late 30s. I was out of shape, overweight, and wanted to do something about it. I found hiking, then running, then the <a href="https://www.ohlone50k.com/">Ohlone 50K race</a>, which goes up and over Mission Peak as its "warm-up hill". In this journey I got to know the area called Mission Ridge, which is a small fold of land next to the Bay that houses Mission Peak, Mount Allison, and Monument Peak. There is a network of trails on this ridge and beyond that can take you dozens and dozens of miles from where you started.
+Fast-forward to my late 30s. I was out of shape, overweight, and wanted to do something about it. I found hiking, then running, then the [Ohlone 50K race](https://www.ohlone50k.com/), which goes up and over Mission Peak as its "warm-up hill". In this journey I got to know the area called Mission Ridge, which is a small fold of land next to the Bay that houses Mission Peak, Mount Allison, and Monument Peak. There is a network of trails on this ridge and beyond that can take you dozens and dozens of miles from where you started.
 
 A lot of people know Mission Peak. They know it's a butt-kicker, but they make the slog up from Fremont for fitness as well as the selfie-potential of the pole at the top, to prove to their friends that they too conquered Mission Peak. But I think relatively few people know just how much variety exists in ways of getting to the top. That's what this article is for.
 
 ![Mission Peak](https://photos.steinkamp.us/photo/2021-07-22_mission-peak/IMG_2913.JPG?size=1600x1600)
 
-# **In General**
+## **In General**
 This is a hot, dry place when the weather is warm. Bring at least a liter of water per person/creature. Also when it's warm, you may see a rattlesnake. Don't freak out, just give it plenty of distance and continue on your way. The cows on Mission Peak are the most chill cows ever. Just give them their space (you will be able to see if they are nervous ... just give them more space if that's the case). You may see a coyote. Again, don't freak out. Just clap your hands (or not) and they will run away. You may see turkeys! You may see hawks and eagles! You may see tarantulas! They are harmless. Don't litter!
 
-# **Most Popular: From Stanford Ave Trailhead**
-Roundtrip Distance: **6 miles** / Elevation Gain: **2100 feet** / <a target="_blank" href="https://www.strava.com/routes/2786043726377427422">Strava Route</a> / <a href="https://www.ebparks.org/parks/mission/">Mission Peak Site</a>
+## **Most Popular: From Stanford Ave Trailhead**
+Roundtrip Distance: **6 miles** / Elevation Gain: **2100 feet** / [Strava Route](https://www.strava.com/routes/2786043726377427422) / [Mission Peak Site](https://www.ebparks.org/parks/mission/)
 
 #### Getting There / Parking
 Just off of Mission Boulevard in Fremont is Stanford Avenue. At the top of this street is a small parking lot, a bathroom, and water fountain. If you're lucky, park in the lot. Otherwise you will need to drive back down the street and find street parking. Heed the street parking rules!
@@ -32,8 +32,8 @@ I've seen a lot of people walking very nervously on the rocky part, but the rock
 
 ![Mission Peak!](https://photos.steinkamp.us/photo/2021-07-22_mission-peak/IMG_2922.JPG?size=1600x1600)
 
-# **Most Popular in 2020: From Ohlone College**
-Roundtrip Distance: **6 miles** / Elevation Gain: **2100 feet** / <a target="_blank" href="https://www.strava.com/routes/2786044164935287262">Strava Route</a> / <a href="https://www.ohlone.edu/">Ohlone College Site</a>
+## **Most Popular in 2020: From Ohlone College**
+Roundtrip Distance: **6 miles** / Elevation Gain: **2100 feet** / [Strava Route](https://www.strava.com/routes/2786044164935287262) / [Ohlone College Site](https://www.ohlone.edu/">Ohlone College Site)
 
 #### Getting There / Parking
 Ohlone College is an easy destination to put in your GPS. There's a huge parking garage near the trailhead. It is $3 or $4 for parking (not enforced on holidays). After you park, exit the garage where you went in, cross the road, and walk to the trailhead which is just above the tennis courts.
@@ -45,8 +45,8 @@ The climb continues and passes a small pond (dry at the end of the summer, somet
 
 ![Mission Peak!!!!](https://photos.steinkamp.us/photo/2021-01-17_mission-peak/2021011716054444-9125760981370084764-IMG_7368_HEIC.JPG?size=1600x1600)
 
-# **Most Popular With Counterculturalists: Horse Heaven Trail**
-Roundtrip Distance: **6 miles** / Elevation Gain: **2150 feet** / <a target="_blank" href="https://www.strava.com/routes/2786043949499888622">Strava Route</a> / <a href="https://www.ebparks.org/parks/mission/">Mission Peak Site</a>
+## **Most Popular With Counterculturalists: Horse Heaven Trail**
+Roundtrip Distance: **6 miles** / Elevation Gain: **2150 feet** / [Strava Route](https://www.strava.com/routes/2786043949499888622) / [Mission Peak Site](https://www.ebparks.org/parks/mission/)
 
 #### Getting There / Parking
 It's the same as the "Most Popular: From Stanford Ave Trailhead" above.
@@ -60,11 +60,11 @@ It's possible to make a loop, going up the main trail and down Horse Heaven, or 
 
 ![Mission Peak!!](https://photos.steinkamp.us/photo/2021-01-17_mission-peak/2021011716054444-4759711745111788283-IMG_0221.JPG?size=1600x1600)
 
-# **Most Popular With Ultramarathoners: From Sunol**
-Roundtrip Distance: **10 miles** / Elevation Gain: **2150 feet** / <a target="_blank" href="https://www.strava.com/routes/2786044389566703598">Strava Route</a> / <a href="https://www.ebparks.org/parks/sunol/">Sunol Regional Wilderness Site</a>
+## **Most Popular With Ultramarathoners: From Sunol**
+Roundtrip Distance: **10 miles** / Elevation Gain: **2150 feet** / [Strava Route](https://www.strava.com/routes/2786044389566703598) / [Sunol Regional Wilderness Site](https://www.ebparks.org/parks/sunol/)
 
 #### Getting There / Parking
-Sunol is a beautiful place. You can get there from Calaveras Road (take the Calaveras exit closer to Pleasanton, vs the one in Milpitas, unless you like to drive on windy roads and have an extra 30 minutes to spare). Parking is $5 or $6, plus $2 for the <a href="https://www.ebparks.org/parks/ohlone/default.htm#trailmap">Ohlone Wilderness Trail permit</a>, which doubles as one of the best trail maps in existence. After paying the nice ranger, park in the small lot to the right of the road, next to the horse area.
+Sunol is a beautiful place. You can get there from Calaveras Road (take the Calaveras exit closer to Pleasanton, vs the one in Milpitas, unless you like to drive on windy roads and have an extra 30 minutes to spare). Parking is $5 or $6, plus $2 for the [Ohlone Wilderness Trail permit](https://www.ebparks.org/parks/ohlone/default.htm#trailmap), which doubles as one of the best trail maps in existence. After paying the nice ranger, park in the small lot to the right of the road, next to the horse area.
 
 #### The Trail
 The trailhead is a metal gate next to a couple picnic tables in the afforementioned Horse Area parking lot. Sign-in at the trailhead sign-in station, then open the gate and begin the ascent! This is also not a very popular trail.
@@ -77,8 +77,8 @@ The Ohlone Wilderness Trail dead-ends into the Eagle Trail, next to a small camp
 
 ![Up from the south side](https://photos.steinkamp.us/photo/2021-07-22_mission-peak/IMG_2947.JPG?size=1600x1600)
 
-# **Most Popular With Adventurers: From Ed Levin County Park**
-Roundtrip Distance: **12 miles** / Elevation Gain: **2350 feet** / <a target="_blank" href="https://www.strava.com/routes/2786044688364144554">Strava Route</a> / <a href="https://www.sccgov.org/sites/parks/parkfinder/Pages/Ed-Levin.aspx">Ed Levin Park Site</a>
+## **Most Popular With Adventurers: From Ed Levin County Park**
+Roundtrip Distance: **12 miles** / Elevation Gain: **2350 feet** / [Strava Route](https://www.strava.com/routes/2786044688364144554) / [Ed Levin Park Site](https://www.sccgov.org/sites/parks/parkfinder/Pages/Ed-Levin.aspx)
 
 #### Getting There / Parking
 Ed Levin park is a little ways off of Calaveras Road, in the hills above Milpitas. After paying at the ranger station at the entrance, continue up the road, passing a couple of parking lots. When you get to the dog park, park your car in the lot to the right.
@@ -92,7 +92,7 @@ After you've gone a half mile or so past the road to Mt Allison, this trail has 
 
 ![Mission Peak!!!](https://photos.steinkamp.us/photo/2021-01-17_mission-peak/2021011716054444--2534621354471602481-IMG_0658.JPG?size=1600x1600)
 
-# **Congratulations!**
+## **Congratulations!**
 You've made it to the top of the peak! Next time out, try a new way, or mix ways in and out for some variety. The trail network on Mission Ridge is such that you could summit the Peak dozens of times and not do the same route twice.
 
-<img src="/images/mission_peak.png" width="100%"/>
+!(Mission Peak)[/images/mission_peak.png]
