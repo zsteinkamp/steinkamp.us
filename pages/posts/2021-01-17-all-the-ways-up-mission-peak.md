@@ -95,4 +95,4 @@ After you've gone a half mile or so past the road to Mt Allison, this trail has 
 ## **Congratulations!**
 You've made it to the top of the peak! Next time out, try a new way, or mix ways in and out for some variety. The trail network on Mission Ridge is such that you could summit the Peak dozens of times and not do the same route twice.
 
-!(Mission Peak)[/images/mission_peak.png]
+![Mission Peak](/images/mission_peak.png)
