@@ -14,7 +14,7 @@ const PostLayout = ({ pageProps, children }) => {
        <meta name="description" content={description} />
      </Head>
      <SiteHeader />
-     <article className="pl-4 pr-4 max-w-3xl m-auto">
+     <article className="pl-4 pr-4 max-w-3xl min-h-screen m-auto">
        <div className="">
          <header className="">
            <div className="">
