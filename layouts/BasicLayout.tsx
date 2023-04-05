@@ -1,6 +1,7 @@
 import Head from "next/head";
 
 import SiteHeader from "@/components/SiteHeader";
+import SiteFooter from "@/components/SiteFooter";
 
 const BasicLayout = ({ pageProps, children }) => {
   const { title, description } = pageProps?.markdoc?.frontmatter || { title: "steinkamp.us", description: "steinkamp.us" };
@@ -14,9 +15,10 @@ const BasicLayout = ({ pageProps, children }) => {
        <meta name="description" content={ description || "steinkamp.us" } />
      </Head>
      <SiteHeader />
-     <article className={ `pl-4 pr-4 max-w-3xl m-auto ${outerClass}` }>
+     <div className={ `pl-4 pr-4 max-w-3xl min-h-screen m-auto ${outerClass}` }>
        {children}
-     </article>
+     </div>
+     <SiteFooter />
    </>
   );
 };

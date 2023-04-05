@@ -2,6 +2,7 @@ import Head from "next/head";
 import dayjs from 'dayjs';
 
 import SiteHeader from "@/components/SiteHeader";
+import SiteFooter from "@/components/SiteFooter";
 
 const PostLayout = ({ pageProps, children }) => {
   const { title, date, description } = pageProps.markdoc.frontmatter;
@@ -26,6 +27,7 @@ const PostLayout = ({ pageProps, children }) => {
          </div>
        </div>
      </article>
+     <SiteFooter />
    </>
   );
 };

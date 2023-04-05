@@ -18,20 +18,23 @@ a {
 header a {
    @apply text-black hover:text-slate-600 visited:text-black
 }
-
-article h2 {
+h1 {
+  font-family: var(--font-condensed);
+  font-size: 2.25rem;
+}
+h2 {
   font-family: var(--font-condensed);
   font-size: 1.75rem;
 }
-article h3 {
+h3 {
   font-family: var(--font-condensed);
   font-size: 1.5rem;
 }
-article h4 {
+h4 {
   font-family: var(--font-condensed);
   font-size: 1.25rem;
 }
-article p {
+p {
   margin-bottom: 2rem;
 }
 article ul {
@@ -60,13 +63,9 @@ article blockquote {
   border: 1px solid red;
 }
 
-.resume h1 {
-  font-family: var(--font-condensed);
-  font-size: 2rem;
-  font-weight: bold;
-}
 .resume h2 {
   margin-bottom: 1rem;
+  border-bottom: 2px solid #ddd;
 }
 .resume .job-date {
   float: right;

@@ -37,6 +37,7 @@ const Songs = ({ data }) => {
         <title>Zack Steinkamp's Music</title>
         <meta name="description" content="Music that I've made over the years." />
       </Head>
+      <h1>Music I've Made</h1>
       <p>
         One of my hobbies is music-making. I like to record sounds and make
         instruments out of them, or design new sounds with synthesizers. I used

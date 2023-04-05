@@ -46,6 +46,7 @@ export default ({ data }) => {
         <title>Music Tools</title>
         <meta name="description" content="Tools that I have created for other musicians, mostly in Max for Live." />
       </Head>
+      <h1>Music Tools / Plugins</h1>
       <p>
         I have made a handful of tools for electronic musicians who use Ableton Live Suite, which includes Max For Live.
       </p>
