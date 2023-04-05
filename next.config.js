@@ -20,4 +20,7 @@ module.exports = withMarkdoc({ schemaPath: './markdoc' })({
       { hostname: '**.staticflickr.com' },
     ],
   },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
 });

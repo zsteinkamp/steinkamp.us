@@ -1,13 +1,11 @@
 version: '3'
-name: steinkamp_us_dev
+name: steinkamp_us_prod
 services:
   web:
     build:
       context: .
+      target: prod
     ports:
-      - "3000:3000"
-    volumes:
-      - .:/app
-      - app_node_modules:/app/node_modules
+      - "3125:3000"
 volumes:
   app_node_modules:

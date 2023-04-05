@@ -1,10 +1,10 @@
 import yaml from 'js-yaml';
 import fs from 'fs';
 import Head from 'next/head';
-import Link from "next/link";
+import Link from 'next/link';
 import ReactMarkdown from 'react-markdown';
 
-export const getStaticProps = async () => {
+export async function getStaticProps() {
   const data = yaml.load(fs.readFileSync('data/music-tools.yaml', 'utf8'));
 
   return {
@@ -14,7 +14,7 @@ export const getStaticProps = async () => {
   };
 }
 
-export default ({ data }) => {
+export default function MusicToolsPage({ data }) {
   const titleList = data.map((app) => {
     return (
       <li key={app.link}><Link href={`#${app.title}`}>{app.title}</Link></li>
@@ -52,7 +52,7 @@ export default ({ data }) => {
       </p>
 
       <p>
-        Max For Live is a visual signal processing environment that integrates seamlessly with Ableton Live. This allows people like me to make my own utilities, effects, sound generators, and automation within my digital audio workstation (DAW). This is an incredibly powerful capability of Ableton Live that sets it apart from other DAWs. We are no longer limited to the tools that come with the DAW or installable VSTs. We can make our own devices to explore their own creativity to an amazing level, and share those tools as our own art that helps other artists make their art. It's really beautiful.
+        Max For Live is a visual signal processing environment that integrates seamlessly with Ableton Live. This allows people like me to make my own utilities, effects, sound generators, and automation within my digital audio workstation (DAW). This is an incredibly powerful capability of Ableton Live that sets it apart from other DAWs. We are no longer limited to the tools that come with the DAW or installable VSTs. We can make our own devices to explore their own creativity to an amazing level, and share those tools as our own art that helps other artists make their art. I really enjoy that part.
       </p>
 
       <p>
@@ -64,4 +64,4 @@ export default ({ data }) => {
       { appList }
     </>
   );
-};
+}

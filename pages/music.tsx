@@ -15,9 +15,9 @@ export const getStaticProps = async () => {
 };
 
 const Songs = ({ data }) => {
-  const songs = data.map((song) => {
+  const songs = data.map((song, i) => {
     return (
-      <div className="pt-8">
+      <div key={i} className="pt-8">
         <h4 className="float-right">{song.date}</h4>
         <h2>{song.title}</h2>
         { song.bandcampId && (
@@ -34,10 +34,10 @@ const Songs = ({ data }) => {
   return (
     <>
       <Head>
-        <title>Zack Steinkamp's Music</title>
+        <title>{ `Zack Steinkamp's Music `}</title>
         <meta name="description" content="Music that I've made over the years." />
       </Head>
-      <h1>Music I've Made</h1>
+      <h1>{ `Music I've Made` }</h1>
       <p>
         One of my hobbies is music-making. I like to record sounds and make
         instruments out of them, or design new sounds with synthesizers. I used
