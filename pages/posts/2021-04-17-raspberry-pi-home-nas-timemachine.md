@@ -6,7 +6,7 @@ categories: post
 entry:
   source: post
   data:
-    thumb_url: https://photos.steinkamp.us/photo/2020-01-01_random-blog-images/2021041711321985-1775920485079464067-IMG_2227.jpg?size=300x300&crop
+    thumb_url: https://photos.steinkamp.us/photo/zzz_blog_images/2021041711321985-1775920485079464067-IMG_2227.jpg?size=300x300&crop
 ---
 ## The Problem
 I've got a few computers at home and a few random external hard drives that sometimes back up those computers. Since some are laptops, I need to remember to connect the external drive to them, which of course doesn't always happen. Also, there's no slick way to share files between computers, aside from setting up specific shares on each computer.
