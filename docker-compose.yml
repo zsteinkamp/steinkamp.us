@@ -7,5 +7,6 @@ services:
       target: prod
     ports:
       - "3125:3000"
+    restart: unless-stopped
 volumes:
   app_node_modules:
