@@ -21,7 +21,7 @@ const Songs = ({ data }) => {
         <h4 className="float-right">{song.date}</h4>
         <h2>{song.title}</h2>
         { song.bandcampId && (
-          <iframe className="w-full border-none" src={`https://bandcamp.com/EmbeddedPlayer/${song.type || "track"}=${song.bandcampId}/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/`} seamless>
+          <iframe className="w-full border-none" src={`https://bandcamp.com/EmbeddedPlayer/${song.type || "track"}=${song.bandcampId}/size=large/bgcol=666666/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/`} seamless>
           </iframe>
         )}
         <ReactMarkdown>

@@ -18,7 +18,7 @@ const PostLayout = ({ pageProps, children }) => {
        <div className="">
          <header className="">
            <div className="">
-             <div className="mt-4 text-slate-400">{fmtDate}</div>
+             <div className="mt-4 text-stone-400">{fmtDate}</div>
              <h1 className="mb-4 font-bold font-condensed text-4xl">{title}</h1>
            </div>
          </header>
