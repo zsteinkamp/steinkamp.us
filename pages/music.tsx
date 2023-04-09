@@ -58,8 +58,7 @@ const Songs = ({ data }) => {
         </a>, <a href="https://www.youtube.com/channel/UCVKBjFZJYJ-0-5TiOHWj-OQ">YouTube</a>, or
         pretty much any other streaming service by searching for my name.
       </p>
-      <hr className="pb-8 border-stone-300 dark:border-stone-700"/>
-      <div className="w-full">
+      <div className="w-full pt-8">
         { songs }
       </div>
     </>
