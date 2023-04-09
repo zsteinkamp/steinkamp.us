@@ -17,9 +17,9 @@ export const getStaticProps = async () => {
 const Songs = ({ data }) => {
   const songs = data.map((song, i) => {
     return (
-      <div className="grid grid-cols-4">
+      <div key={i} className="grid grid-cols-4">
         <h4 className="pr-8 pt-2 text-right text-stone-500 dark:text-stone-500">{song.date}</h4>
-        <div key={i} className="col-span-3 ">
+        <div className="col-span-3 ">
           <h2>{song.title}</h2>
           { song.bandcampId && (
             <iframe className="rounded-lg w-full h-24 border-none" src={`https://bandcamp.com/EmbeddedPlayer/${song.type || "track"}=${song.bandcampId}/size=large/bgcol=666666/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/`} seamless>
