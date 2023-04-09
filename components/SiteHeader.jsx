@@ -20,7 +20,7 @@ const SiteHeader = () => {
 
         <div className="trigger">
           <Link className="page-link" href="/">Posts</Link>
-          <Link className="page-link" href="https://photos.steinkamp.us">Photos</Link>
+          <Link className="page-link" href="https://photos.steinkamp.us" target="_blank">Photos</Link>
           <Link className="page-link" href="/music">Music</Link>
           <Link className="page-link" href="/music-tools">Plugins</Link>
           <Link className="page-link" href="/resume">Resumé</Link>
