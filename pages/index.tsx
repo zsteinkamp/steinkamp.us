@@ -68,7 +68,7 @@ const Posts = ({ posts }) => {
         <li key={post.slug} className="">
           <Link className="grid grid-cols-4 gap-0 p-8 rounded-lg mt-0 bg-transparent hover:bg-slate-200 dark:hover:bg-slate-800" href={`/posts/${post.slug}`}>
             <div className="">
-              {post.cover && <Image className="object-cover w-36 h-36"
+              {post.cover && <Image className="object-cover w-36 h-36 rounded-lg"
                 src={post.cover}
                 width={300}
                 height={300}
