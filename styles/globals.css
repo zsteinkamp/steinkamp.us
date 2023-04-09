@@ -16,7 +16,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  @apply text-slate-700 dark:text-slate-300
+  @apply text-slate-700 dark:text-slate-400
 }
 
 h1, h2, h3, h4, h5, h6, h7 {
@@ -36,21 +36,37 @@ html {
 @media screen and (max-width: 650px) {
   .site-nav {
     position: absolute;
-    top: 1.0rem;
+    top: 3.5rem;
     right: 1rem;
-    border: 1px solid #e8e8e8;
-    border-radius: 5px;
-    @apply bg-slate-200 dark:bg-slate-800
+    border: 1px solid;
+    @apply bg-slate-100 dark:bg-slate-800 border-slate-300 dark:border-slate-700
   }
-  .site-nav label[for="nav-trigger"] { display: block; position: absolute; top: 0.25rem; right: 0.25rem; width: 2rem; height: 2rem; z-index: 2; cursor: pointer; }
-  .site-nav .menu-icon { display: block; width: 0rem; height: 0rem; line-height: 0; padding-left: 0.25rem; padding-top: 0.25rem; text-align: center; }
+  .site-nav label[for="nav-trigger"] {
+    display: block;
+    position: absolute;
+    top: -2.7rem;
+    right: 0.6rem;
+    width: 2rem;
+    height: 2rem;
+    z-index: 2;
+    cursor: pointer;
+    }
+  .site-nav .menu-icon {
+    display: block;
+    height: 2.6rem;
+    width: 2.6rem;
+    border: 1px solid;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+    text-align: center;
+    @apply border-slate-300 dark:border-slate-700 rounded-lg
+    }
   .site-nav .menu-icon > svg {
-    fill: #888888;
+    @apply fill-slate-600 dark:fill-slate-400
   }
   .site-nav input ~ .trigger { clear: both; display: none; }
   .site-nav input:checked ~ .trigger { display: block; float: right; padding-bottom: 0.5rem; }
   .site-nav .page-link { display: block; padding: 2rem; }
-  .site-nav .page-link:first-child { margin-top: 1.5rem; }
   .site-nav .page-link:not(:last-child) { margin-right: 0; }
 }
 
