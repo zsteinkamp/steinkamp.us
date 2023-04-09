@@ -2,7 +2,7 @@
 const { default: Link } = require("next/link");
 const SiteFooter = () => {
   return (
-    <footer className="flex justify-between items-center mt-12 pl-8 pr-8 pb-4 pt-4 border-t-2 border-slate-200 bg-slate-100 noprint">
+    <footer className="flex justify-between items-center mt-12 pl-8 pr-8 pb-4 pt-4 border-t-2 border-slate-200 dark:border-slate-800 bg-slate-100 dark:bg-slate-900 noprint">
       <div>
         Check this <Link
           href="https://github.com/zsteinkamp/steinkamp.us">

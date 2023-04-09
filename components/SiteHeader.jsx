@@ -2,10 +2,10 @@
 const { default: Link } = require("next/link");
 const SiteHeader = () => {
   return (
-    <header className="flex items-center mb-12 pl-8 pr-8 pb-4 pt-4 border-b-2 border-slate-200 bg-slate-100 noprint">
+    <header className="flex items-center mb-12 pl-8 pr-8 pb-4 pt-4 border-b-2 border-slate-200 dark:border-slate-800 bg-slate-100 dark:bg-slate-900 noprint">
       <Link href={"/"}>
         <figure title="steinkamp.us">
-          <h1 className="font-condensed text-4xl">👋 steinkamp.us</h1>
+          <h1 className="font-condensed text-3xl">👋 steinkamp.us</h1>
         </figure>
       </Link>
       <nav className="site-nav grow flex gap-8 justify-end">
