@@ -1,3 +1,9 @@
+- title: Modulation Lerp
+  image: https://github.com/zsteinkamp/m4l-Modulation-Lerp/raw/main/images/device.gif
+  link: https://github.com/zsteinkamp/m4l-Modulation-Lerp
+  description: |
+    This device produces a value in between two input values.
+
 - title: Modulation Math
   image: https://github.com/zsteinkamp/m4l-Modulation-Math/raw/main/images/device.gif
   link: https://github.com/zsteinkamp/m4l-Modulation-Math
