@@ -104,9 +104,16 @@ p {
 }
 article ul {
   list-style-type: disc;
+}
+article ol {
+  list-style-type: decimal;
+}
+article ol,
+article ul {
   padding-left: 1rem;
   margin-bottom: 2rem;
 }
+article ol li,
 article ul li {
   padding-left: 0.5rem;
 }

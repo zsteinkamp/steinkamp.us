@@ -18,7 +18,7 @@ const SiteHeader = () => {
           </span>
         </label>
 
-        <div className="trigger">
+        <div className="trigger font-condensed">
           <Link className="page-link" href="/">Posts</Link>
           <Link className="page-link" href="https://photos.steinkamp.us" target="_blank">Photos</Link>
           <Link className="page-link" href="/music">Music</Link>
