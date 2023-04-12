@@ -8,19 +8,19 @@
   image: https://github.com/zsteinkamp/m4l-Modulation-Math/raw/main/images/device.gif
   link: https://github.com/zsteinkamp/m4l-Modulation-Math
   description: |
-    This device combines two automation signals using math, and outputs a signal you can then map to a parameter.
+    This device combines two modulation signals using math, and outputs a signal you can then map to a parameter.
 
 - title: Modulation Delay
   image: https://github.com/zsteinkamp/m4l-Modulation-Delay/raw/main/images/device.gif
   link: https://github.com/zsteinkamp/m4l-Modulation-Delay
   description: |
-    It's a feedbacking echo effect for automation data! Turn pulses into automation oceans!
+    It's a feedbacking echo effect for modulation data! Turn pulses into automated oceans!
 
 - title: Modulation Stepper
   image: https://github.com/zsteinkamp/m4l-Modulation-Stepper/raw/main/images/device.gif
   link: https://github.com/zsteinkamp/m4l-Modulation-Stepper
   description: |
-    Turns continuous automation input into stair-stepped output at your chosen frequency or note interval.
+    Turns continuous modulation input into stair-stepped output at your chosen frequency or note interval.
 
 - title: TapPanVerb
   image: https://github.com/zsteinkamp/m4l-TapPanVerb/raw/main/images/device.png
