@@ -4,7 +4,7 @@ export const audio = {
   render: Audio,
   attributes: {
     src: { type: String },
-    type: { type: String, default: "audio/mpeg" },
+    type: { type: String, default: "audio/wav" },
     className: { type: String },
   },
 };
