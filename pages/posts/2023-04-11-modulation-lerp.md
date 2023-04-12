@@ -35,4 +35,8 @@ to FM for your modulation data.
 
 {% video src="/images/lerp/lerp.mov.mp4" type="video/mp4" autoPlay=true loop=true /%}
 
+It can be pretty hypnotizing...
+
+{% video src="/images/lerp/lerp2.mp4" type="video/mp4" autoPlay=true loop=true /%}
+
 You can [download the device or read more about Modulation Lerp on its GitHub page](https://github.com/zsteinkamp/m4l-Modulation-Lerp).
