@@ -88,14 +88,7 @@ I hope it's clear that there is a lot of detail, art, and educated guesses when 
 I hope that at this point it's clear that Availability is not just a simple measurement. It **is** valuable, but **only** when accompanied by a very clear definition around **perspective**, **scope**, and **expectations**. Additionally, availability becomes a very actionable metric when it is measured from **many** perspectives, scopes, and expectations, since it can help identify root causes to problems. When measured over time, comparisons can be made to help predict problems or identify where investment needs to be made in building a more reliable or scalable system.
 
 
----
-
 > ### Bonus Content: Aggregating Measurements
-
 > When faced with aggregating or summarizing a batch of raw data, most people who do not live and breathe metrics will normally start with talking about averaging. Average is easy to describe and implement, but it is not very useful in this context. This is due to the power of outliers on average.
-
 > For example, imagine your system receives 1000 client requests. 999 of these requests are responded to in ~0.005 seconds. One request out of a thousand tickles a bug in your system and takes 10 seconds to complete. So what is the "normal" response time? Average gives us 0.015 seconds -- three times the most common value. If talking about "normal", the better aggregation to use is median, which is the middle value of the set of values, if the set is in sorted order  (0.005 in this case).
-
 > Most aggregations in a metrics context benefit from being presented in terms of some percentile value, and the goal of development teams should be to drive toward using higher and higher percentile values in their reporting. If the same threshold value can be applied to higher and higher percentile values, then that means that there is less variance in the data set, which is a strong attribute of a good performing system. Consistent high performance is what we strive to achieve.
-
----
