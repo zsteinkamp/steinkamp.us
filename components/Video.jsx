@@ -1,4 +1,4 @@
-const Video = ({ src, type="video/quicktime", autoPlay=false, loop=false, className }) => {
+const Video = ({ src, type="video/mp4", autoPlay=false, loop=false, className }) => {
   return (
     <div className={className}>
       <video autoPlay={autoPlay} loop={loop} controls>

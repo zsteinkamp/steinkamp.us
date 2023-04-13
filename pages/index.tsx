@@ -66,9 +66,9 @@ const Posts = ({ posts }) => {
     <ul className="posts">
       {posts.map((post) => (
         <li key={post.slug} className="">
-          <Link className="grid grid-cols-4 gap-0 p-8 rounded-lg mt-0 bg-transparent hover:bg-stone-200 dark:hover:bg-stone-800" href={`/posts/${post.slug}`}>
+          <Link className="grid grid-cols-4 gap-4 p-8 rounded-lg mt-0 bg-transparent hover:bg-stone-200 dark:hover:bg-stone-800" href={`/posts/${post.slug}`}>
             <div className="">
-              {post.cover && <Image className="object-cover w-36 h-36 rounded-lg"
+              {post.cover && <Image className="object-cover w-36 aspect-square max-w-36 rounded-lg"
                 src={post.cover}
                 width={300}
                 height={300}
