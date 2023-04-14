@@ -9,3 +9,4 @@ A place for pop's stories and projects.
 
 * [Meeting Craig Breedlove](/pop/breedlove)
 * [S2D Scrapbook](/pop/s2d-scrapbook)
+* [Stude Ute](/pop/studeute)
