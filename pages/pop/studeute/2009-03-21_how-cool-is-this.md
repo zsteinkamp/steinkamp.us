@@ -1,6 +1,7 @@
 ---
+layout: post
 title: How cool is this!…
-date: March 21st, 2009
+date: "2009-03-21"
 ---
 
 My house was built in 1929. The same family (mother, father, son) lived in it from the late 30’s until 2001.

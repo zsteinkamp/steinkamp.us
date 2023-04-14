@@ -1,6 +1,7 @@
 ---
+layout: post
 title: Making contact with Lee
-date: June 26th, 2008
+date: "2008-06-26"
 ---
 
 I’m in California doing a little beach sitting and other unproductive activities 😉.

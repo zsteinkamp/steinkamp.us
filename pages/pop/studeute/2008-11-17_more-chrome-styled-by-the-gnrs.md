@@ -1,6 +1,7 @@
 ---
+layout: post
 title: More chrome…styled by the GNRS
-date: November 17th, 2008
+date: "2008-11-17"
 ---
 
 I got some chrome back from Jerry Forrester today…

@@ -1,6 +1,7 @@
 ---
+layout: post
 title: Bought the Stude-a-mino
-date: December 1st, 2007
+date: "2007-12-01"
 ---
 
 I offered far less than his asking…without the Chevy motor and transmission.  Brian and I loaded it up…

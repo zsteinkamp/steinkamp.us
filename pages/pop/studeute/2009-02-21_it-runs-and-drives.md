@@ -1,6 +1,7 @@
 ---
+layout: post
 title: It runs and drives!
-date: February 21st, 2009
+date: "2009-02-21"
 ---
   
 The Ute went to the GNRS not running. I just flat ran out of time prior to the show.

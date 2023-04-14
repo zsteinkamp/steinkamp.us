@@ -1,6 +1,7 @@
 ---
+layout: post
 title: Who let the Ute out?
-date: November 27th, 2008
+date: "2008-11-27"
 ---
 
 The Ute found itself out in the daylight today…so I had to take a few pictures 😉…

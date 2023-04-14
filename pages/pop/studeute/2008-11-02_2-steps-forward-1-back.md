@@ -1,6 +1,7 @@
 ---
+layout: post
 title: 2 steps forward…1 back
-date: November 2nd, 2008
+date: "2008-11-02"
 ---
 
 Making progress, but continue to run into snags and surprises.

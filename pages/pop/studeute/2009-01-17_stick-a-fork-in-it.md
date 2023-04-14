@@ -1,6 +1,7 @@
 ---
+layout: post
 title: Stick a fork in it…it’s done!
-date: January 17th, 2009
+date: "2009-01-17"
 ---
 
 Well, at least done ENOUGH for the show.

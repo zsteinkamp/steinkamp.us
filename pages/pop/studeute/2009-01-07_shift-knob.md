@@ -1,6 +1,7 @@
 ---
+layout: post
 title: Shift knob
-date: January 7th, 2009
+date: "2009-01-07"
 ---
 
 I had a local glass blower make a shift knob for the ute…

@@ -1,6 +1,7 @@
 ---
+layout: post
 title: Researching the history
-date: January 8th, 2008
+date: "2008-01-08"
 ---
 
 I got in contact with George Barris.  No go.  He didn’t do the car.  I kind of thought that.  It wasn’t wild enough.

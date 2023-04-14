@@ -1,6 +1,7 @@
 ---
+layout: post
 title: 2009 GNRS…The Ute is in!
-date: June 1st, 2008
+date: "2008-06-01"
 ---
 
 **I’m stoked** 😝 😎 😄 

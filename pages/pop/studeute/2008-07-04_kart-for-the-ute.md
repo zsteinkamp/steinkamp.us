@@ -1,6 +1,7 @@
 ---
+layout: post
 title: Kart for the Ute
-date: July 4th, 2008
+date: "2008-07-04"
 ---
 
 The Ute is looking less and less like a vehicle ☹️. It always gets worse before it gets better, but it is currently torn down to nothing. 😬. Pretty much just the body on the chassis sans doors, fenders, etc. as various body pieces get prepped for first primer. I’ll post some pics later.

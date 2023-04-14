@@ -1,6 +1,7 @@
 ---
+layout: post
 title: Crate deal from Gord
-date: July 26th, 2008
+date: "2008-07-26"
 ---
 
 Gord shipped me the T86 OD with top shifter that he built for the Ute. It arrived yesterday at the DHL terminal in Abbotsford, BC…about 15 miles from my house. Saves a bunch of customs paperwork and expense to just go get it and declare it coming back to the US.

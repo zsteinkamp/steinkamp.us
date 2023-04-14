@@ -1,6 +1,7 @@
 ---
+layout: post
 title: Fit of grill surrounds
-date: August 7th, 2008
+date: "2008-08-07"
 ---
 
 I seem to remember the grill surrounds on my ‘54 hardtop did not fit perfectly even after a lot of messin’ with them…AND, I’ve gotten even more anal retentive in my old age 😉. I’m trying to fit them on the Ute.

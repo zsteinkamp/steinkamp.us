@@ -1,6 +1,7 @@
 ---
+layout: post
 title: Ute goes to Howdy’s Place
-date: December 5th, 2008
+date: "2008-12-05"
 ---
 
 Delivered the Ute yesterday to Howdy’s Place in Fremont, CA for the interior. Here’s Howdy Ledbetter…

@@ -1,6 +1,7 @@
 ---
+layout: post
 title: Engine install!
-date: October 23rd, 2008
+date: "2008-10-23"
 ---
 
 ![](/images/pop/studeute/dash019.jpg)

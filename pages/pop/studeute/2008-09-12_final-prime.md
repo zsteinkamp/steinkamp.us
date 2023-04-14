@@ -1,6 +1,7 @@
 ---
+layout: post
 title: Final Prime
-date: September 12th, 2008
+date: "2008-09-12"
 ---
 
 We put the ute in final primer yesterday. Another week or so of sanding and we should be ready for finish paint.

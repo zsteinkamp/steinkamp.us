@@ -1,6 +1,7 @@
 ---
+layout: post
 title: Final week before the GNRS
-date: January 14th, 2009
+date: "2009-01-14"
 ---
 
 I’m at my son’s house in San Jose, madly trying to cram two weeks’ worth of finish up work into one!

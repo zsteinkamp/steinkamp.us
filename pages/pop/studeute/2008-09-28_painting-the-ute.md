@@ -1,6 +1,7 @@
 ---
+layout: post
 title: Painting the Ute
-date: September 28th, 2008
+date: "2008-09-28"
 ---
 
 The Ute got color yesterday.  It went to the paint booth Friday evening and we painted it Saturday.  About 12 hours in the booth (we’re slow <grin>).

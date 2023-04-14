@@ -1,6 +1,7 @@
 ---
+layout: post
 title: Interior Done
-date: December 21st, 2008
+date: "2008-12-21"
 ---
 
 My good friends Tom and Larry picked the Ute up at Howdy’s yesterday and brought it to my son’s house in San Jose. I’ll go down before the show and finish the car there.

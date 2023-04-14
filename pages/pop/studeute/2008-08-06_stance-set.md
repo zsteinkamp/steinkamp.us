@@ -1,6 +1,7 @@
 ---
+layout: post
 title: Stance Set
-date: August 6th, 2008
+date: "2008-08-06"
 ---
 
 I’ve been agonizing over how the Ute should “sit” almost as much as which color to paint it. 

@@ -1,6 +1,7 @@
 ---
+layout: post
 title: GNRS entry
-date: September 22nd, 2008
+date: "2008-09-22"
 ---
 
 I just received the Ute’s official invitation to the Grand National Roadster Show. Included are some of the things to do that separate the winners from the losers.

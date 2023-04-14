@@ -1,6 +1,7 @@
 ---
+layout: post
 title: Upholstery Update
-date: December 13th, 2008
+date": 2008-12-13"
 ---
 
 My buddy (and college room mate) Tom, lives in Howdy’s neighborhood. He was over to his place today to check out progress. Howdy calls me every few days with an update, but Tom took pictures…

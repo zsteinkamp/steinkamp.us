@@ -1,6 +1,7 @@
 ---
+layout: post
 title: Color Choice
-date: September 2nd, 2008
+date: "2008-09-02"
 ---
 
 I’ve chosen the color for the ute. Art’s (and Brian Curtis’) LEAST favorite color of those in the running is seafoam green. That’s what I’ve picked. Sorry Art and Brian ☺️.

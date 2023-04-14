@@ -1,6 +1,7 @@
 ---
+layout: post
 title: The Ute makes Hot Rod Deluxe
-date: March 16th, 2008
+date: "2008-03-16"
 ---
 
 Well…the letters section. But a full page there!

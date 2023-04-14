@@ -1,6 +1,7 @@
 ---
+layout: post
 title: Clutch linkage
-date: October 26th, 2008
+date: "2008-10-26"
 ---
 
 Probably one of the many “gotchas” I’ll encounter during the assembly process of the Ute.
