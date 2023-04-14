@@ -90,5 +90,7 @@ I hope that at this point it's clear that Availability is not just a simple meas
 
 > ### Bonus Content: Aggregating Measurements
 > When faced with aggregating or summarizing a batch of raw data, most people who do not live and breathe metrics will normally start with talking about averaging. Average is easy to describe and implement, but it is not very useful in this context. This is due to the power of outliers on average.
+>
 > For example, imagine your system receives 1000 client requests. 999 of these requests are responded to in ~0.005 seconds. One request out of a thousand tickles a bug in your system and takes 10 seconds to complete. So what is the "normal" response time? Average gives us 0.015 seconds -- three times the most common value. If talking about "normal", the better aggregation to use is median, which is the middle value of the set of values, if the set is in sorted order  (0.005 in this case).
+>
 > Most aggregations in a metrics context benefit from being presented in terms of some percentile value, and the goal of development teams should be to drive toward using higher and higher percentile values in their reporting. If the same threshold value can be applied to higher and higher percentile values, then that means that there is less variance in the data set, which is a strong attribute of a good performing system. Consistent high performance is what we strive to achieve.
