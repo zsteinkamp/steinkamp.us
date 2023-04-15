@@ -2,9 +2,7 @@
 layout: post
 title: TapPanVerb - A Reverb + Delay Tap Field + Feedback Effect
 date: '2022-05-05 12:00:00'
-categories: post
-entry:
-  source: post
+thumbnail: /images/tapPanVerb.png
 ---
 
 Last week I had an idea for an effect. I was thinking that a reverb effect should give you control over the pan position of the reverb at a given time after the initial impulse enters the reverb. This could make for some neat movement, since it's not just panning the whole reverb signal -- each moment of the reverb's tail has its designated pan position.
