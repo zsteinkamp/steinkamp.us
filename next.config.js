@@ -2,6 +2,9 @@
 const withMarkdoc = require('@markdoc/next.js');
 
 module.exports = withMarkdoc({ schemaPath: './markdoc' })({
+  experimental: {
+    scrollRestoration: true
+  },
   pageExtensions: ['md', 'mdoc', 'js', 'jsx', 'ts', 'tsx'],
   reactStrictMode: true,
   images: {
