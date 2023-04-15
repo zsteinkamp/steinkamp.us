@@ -2,18 +2,6 @@
 layout: post
 title: TV Stand Finished!
 date: '2004-06-02 08:58:55'
-categories: post post
-entry:
-  id: 167
-  source: post
-  uid: 27
-  data:
-    title: TV Stand Finished!
-    excerpt: ''
-  created_at: '2010-08-30 05:16:37'
-  updated_at: '2010-08-30 05:16:37'
-  pub_date: '2004-06-02 08:58:55'
-  disabled: 0
 ---
 At long last ... the TV stand is finished, installed,
 and operational.

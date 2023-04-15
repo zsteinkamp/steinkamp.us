@@ -2,18 +2,6 @@
 layout: post
 title: 98 Mile Bike Week
 date: '2012-11-03 15:07:45'
-categories: post post
-entry:
-  id: 885
-  source: post
-  data:
-    excerpt: ''
-    thumb_url: https://farm9.staticflickr.com/8208/8210794653_5506e29e4f_q.jpg
-    title: 98 Mile Bike Week
-  created_at: '2012-11-03 15:13:07'
-  updated_at: '2012-11-03 15:13:07'
-  pub_date: '2012-11-03 15:07:45'
-  disabled: 0
 ---
 Almost cracked 100 miles on the bike this week.
 

@@ -2,21 +2,11 @@
 layout: post
 title: Rancho to Black Mountain Loop
 date: '2012-07-15 21:44:08'
-categories: post post
-entry:
-  id: 841
-  source: post
-  data:
-    thumb_url: https://farm9.staticflickr.com/8285/7577864528_6ed177ef7f_q.jpg
-    excerpt: Difficult and long hike today -- 16.5 mile roundtrip from Rancho San
-      Antonio up the PG&E Trail, Mine Trail, Black Mountain Trail, Summit, Black Mountain
-      Trail, Chemise Trail, past Deer Hollow Farm and back to the car.  Took just
-      a bit longer than 4 hours.
-    title: Rancho to Black Mountain Loop
-  created_at: '2012-07-15 21:47:08'
-  updated_at: '2012-07-15 21:47:08'
-  pub_date: '2012-07-15 21:44:08'
-  disabled: 0
+excerpt: |
+  Difficult and long hike today -- 16.5 mile roundtrip from Rancho San
+  Antonio up the PG&E Trail, Mine Trail, Black Mountain Trail, Summit, Black Mountain
+  Trail, Chemise Trail, past Deer Hollow Farm and back to the car.  Took just
+  a bit longer than 4 hours.
 ---
 Difficult and long hike today -- 16.5 mile roundtrip from Rancho San Antonio up the PG&E Trail, Mine Trail, Black Mountain Trail, Summit, Black Mountain Trail, Chemise Trail, past Deer Hollow Farm and back to the car.  Took just a bit longer than 4 hours.
 

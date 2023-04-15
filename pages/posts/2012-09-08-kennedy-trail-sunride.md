@@ -2,21 +2,7 @@
 layout: post
 title: Kennedy Trail Sunride
 date: '2012-09-08 16:38:42'
-categories: post post
-entry:
-  id: 869
-  source: post
-  data:
-    thumb_url: https://farm9.staticflickr.com/8319/7956259598_a18e1ec9f7_q.jpg
-    title: Kennedy Trail Sunride
-    excerpt: Sean convinced me that waking up at 5am on Saturday to go for a ride
-      was a good idea.  Had a great time again with him going up Kennedy Trail, this
-      time at sunrise.  We started out when it was barely light enough to see.  It
-      was really gorgeous when we got up above the cloud layer...
-  created_at: '2012-09-08 16:45:36'
-  updated_at: '2012-09-08 16:45:36'
-  pub_date: '2012-09-08 16:38:42'
-  disabled: 0
+excerpt: Sean convinced me that waking up at 5am on Saturday to go for a ride was a good idea.  Had a great time again with him going up Kennedy Trail, this time at sunrise.  We started out when it was barely light enough to see.  It was really gorgeous when we got up above the cloud layer...
 ---
 Sean convinced me that waking up at 5am on Saturday to go for a ride was a good idea.  Had a great time again with him going up Kennedy Trail, this time at sunrise.  We started out when it was barely light enough to see.  It was really gorgeous when we got up above the cloud layer.
 

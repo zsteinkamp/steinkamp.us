@@ -2,19 +2,7 @@
 layout: post
 title: Mid-2010 iMac SSD Upgrade
 date: '2014-03-28 16:02:29'
-categories: post post
-entry:
-  id: 956
-  source: post
-  data:
-    excerpt: Upgrading from a regular hard drive to an SSD seemed complicated at first
-      on this computer, but with the right tools and instructions it was easy.
-    title: Mid-2010 iMac SSD Upgrade
-    thumb_url: https://farm3.staticflickr.com/2868/13470481845_4b88c23aeb_q.jpg
-  created_at: '2014-03-28 17:31:03'
-  updated_at: '2014-03-29 23:26:37'
-  pub_date: '2014-03-28 16:02:29'
-  disabled: 0
+excerpt: Upgrading from a regular hard drive to an SSD seemed complicated at first on this computer, but with the right tools and instructions it was easy.
 ---
 Our almost four year old iMac has felt a little sluggish compared with my work laptop (a new MacBook Air).  I upgraded it to 8GB of RAM soon after we got it, which brought a good speed improvement, but it seems that it's been chugging away at reading and writing to the hard drive lately.  It came with a 500GB Western Digital hard drive (aka "spinning rust") that can transfer about 120 MB/second with a 9 millisecond (ms) average seek time.  
 

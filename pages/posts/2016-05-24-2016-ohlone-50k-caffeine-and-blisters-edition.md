@@ -2,18 +2,7 @@
 layout: post
 title: 2016 Ohlone 50K -- Caffeine and Blisters Edition
 date: '2016-05-24 05:09:08'
-categories: post post
-entry:
-  id: 1165
-  source: post
-  data:
-    thumb_url: https://photos.steinkamp.us/photo/2016-05-24_ohlone_50k/home_stretch.jpg?size=300x300&crop
-    excerpt: ''
-    title: 2016 Ohlone 50K -- Caffeine and Blisters Edition
-  created_at: '2016-05-24 05:25:56'
-  updated_at: '2016-05-26 04:24:35'
-  pub_date: '2016-05-24 05:09:08'
-  disabled: 0
+thumbnail: https://photos.steinkamp.us/photo/2016-05-24_ohlone_50k/home_stretch.jpg?size=300x300&crop
 ---
 Well, the 2016 Ohlone 50K is in the tie-dyed goodie bag. This year was such an experience in learning, growth, and overcoming adversity.
 

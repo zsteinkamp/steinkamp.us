@@ -2,18 +2,7 @@
 layout: post
 title: Venus Transit
 date: '2012-06-06 00:54:13'
-categories: post post
-entry:
-  id: 798
-  source: post
-  data:
-    title: Venus Transit
-    thumb_url: https://farm8.staticflickr.com/7081/7343429708_a812411d6d_s.jpg
-    excerpt: Venus cruised in front of the sun today.  Here is a photo of it...
-  created_at: '2012-06-06 00:56:24'
-  updated_at: '2012-06-06 00:56:24'
-  pub_date: '2012-06-06 00:54:13'
-  disabled: 0
+excerpt: Venus cruised in front of the sun today.  Here is a photo of it...
 ---
 Venus cruised in front of the sun today.  Here is a photo of it...
 

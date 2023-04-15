@@ -2,19 +2,7 @@
 layout: post
 title: Mission Peak MTB With Ptr
 date: '2012-10-17 14:30:00'
-categories: post post
-entry:
-  id: 884
-  source: post
-  data:
-    thumb_url: https://farm9.staticflickr.com/8051/8103725814_1f15c6a7c5_q.jpg
-    title: Mission Peak MTB With Ptr
-    excerpt: Rode up Mission Peak with PeterE (<a href="http://twitter.com/evilops">@evilops</a>)
-      for the first time this morning.  Crazy wind!
-  created_at: '2012-10-19 21:37:03'
-  updated_at: '2012-10-19 21:37:03'
-  pub_date: '2012-10-17 14:30:00'
-  disabled: 0
+excerpt: Rode up Mission Peak with PeterE for the first time this morning.  Crazy wind!
 ---
 Rode up Mission Peak with PeterE (<a href="http://twitter.com/evilops">@evilops</a>) for the first time this morning.  
 

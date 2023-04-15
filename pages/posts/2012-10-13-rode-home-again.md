@@ -2,20 +2,10 @@
 layout: post
 title: Rode Home Again
 date: '2012-10-13 04:24:22'
-categories: post post
-entry:
-  id: 882
-  source: post
-  data:
-    thumb_url: https://farm9.staticflickr.com/8051/8081659196_4eabbaa292_q.jpg
-    excerpt: Second time riding home from work.  It took 30 minutes less today, despite
-      taking a bit longer route.  This is mostly due to not taking wrong turns and
-      having to backtrack ;-).
-    title: Rode Home Again
-  created_at: '2012-10-13 04:29:06'
-  updated_at: '2012-10-13 04:29:06'
-  pub_date: '2012-10-13 04:24:22'
-  disabled: 0
+excerpt: |
+  Second time riding home from work.  It took 30 minutes less today, despite
+  taking a bit longer route.  This is mostly due to not taking wrong turns and
+  having to backtrack ;-).
 ---
 Second time riding home today.  It took 30 minutes less today, despite taking a bit longer route.  This is mostly due to not taking wrong turns and having to backtrack ;-).
 

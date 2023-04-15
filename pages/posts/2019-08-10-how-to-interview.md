@@ -2,13 +2,12 @@
 layout: post
 title: How To Interview
 date: '2019-08-10 21:09:30'
-categories: post
-entry:
-  source: post
-  data:
-    thumb_url: ''
-    title: How To Interview
-    excerpt: 'Interviewing is hard, on both sides. The skills of an interviewer are often overlooked in software development, and people are usually left on their own when it comes time to interview a potential teammate or coworker. This does everyone a disservice.  This document outlines a framework and a set of principles to be used when interviewing, hopefully to bring calm, structure, and excellence to the hiring process.'
+excerpt: |
+  Interviewing is hard, on both sides. The skills of an interviewer are often overlooked in
+  software development, and people are usually left on their own when it comes time to
+  interview a potential teammate or coworker. This does everyone a disservice.
+  This document outlines a framework and a set of principles to be used when interviewing,
+  hopefully to bring calm, structure, and excellence to the hiring process.'
 ---
 Interviewing is hard, on both sides. The skills of an interviewer are often overlooked in software development, and people are usually left on their own when it comes time to interview a potential teammate or coworker. This does everyone a disservice.
 

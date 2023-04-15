@@ -2,19 +2,7 @@
 layout: post
 title: Sunol Valley Half Pipe
 date: '2013-04-06 20:32:15'
-categories: post post
-entry:
-  id: 917
-  source: post
-  data:
-    excerpt: 24 miles today starting from Sunol Regional Park -- 12 east, then 12
-      west.  5600 feet climb, 6 hours.
-    thumb_url: https://farm9.staticflickr.com/8389/8636474419_606317c317_q.jpg
-    title: Sunol Valley Half Pipe
-  created_at: '2013-04-10 11:44:10'
-  updated_at: '2013-04-10 11:44:10'
-  pub_date: '2013-04-06 20:32:15'
-  disabled: 0
+excerpt: 24 miles today starting from Sunol Regional Park -- 12 east, then 12 west.  5600 feet climb, 6 hours.
 ---
 My training plan called for 24 miles today, so I planned a route centered at Sunol Regional Park -- I'd go 6 miles east, then back, refuel, and 6 miles west and back.
 

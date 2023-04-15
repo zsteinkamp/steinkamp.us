@@ -2,20 +2,10 @@
 layout: post
 title: Mountain View to Home
 date: '2012-10-19 01:00:00'
-categories: post post
-entry:
-  id: 883
-  source: post
-  data:
-    thumb_url: https://farm9.staticflickr.com/8044/8103696785_db5249d95e_q.jpg
-    title: Mountain View to Home
-    excerpt: Took the train up to Stanford today to interview some promising college
-      Grads.  Then took the train to Mountain View and talked with Pablo about a new
-      project, then left to ride home at 4:30.
-  created_at: '2012-10-19 21:23:41'
-  updated_at: '2012-10-19 21:23:41'
-  pub_date: '2012-10-19 01:00:00'
-  disabled: 0
+excerpt: |
+  Took the train up to Stanford today to interview some promising college
+  Grads.  Then took the train to Mountain View and talked with Pablo about a new
+  project, then left to ride home at 4:30.
 ---
 Took the train up to Stanford today to interview some promising college Grads.  Then took the train to Mountain View and talked with Pablo about a new project, then left to ride home at 4:30.
 

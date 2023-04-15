@@ -2,20 +2,7 @@
 layout: post
 title: Bike Upgrade Confirmation
 date: '2013-07-27 23:39:39'
-categories: post post
-entry:
-  id: 932
-  source: post
-  data:
-    excerpt: A report from a week with some awesome upgrades to my bike.  I learned
-      a lot about bikes, adjustments, and found some great resources in doing this
-      project.
-    thumb_url: https://farm6.staticflickr.com/5543/9381453056_f9b473a539_q.jpg
-    title: Bike Upgrade Confirmation
-  created_at: '2013-07-28 00:30:25'
-  updated_at: '2013-07-28 04:22:33'
-  pub_date: '2013-07-27 23:39:39'
-  disabled: 0
+excerpt: A report from a week with some awesome upgrades to my bike.  I learned a lot about bikes, adjustments, and found some great resources in doing this project.
 ---
 When I bought my bike last September, I didn't think I would ride it too much.  Because of that, I decided to get a pretty good bike, but not one with high end stuff on it.  I ended up with a Canondale Trail SL4 29er, which has a good frame, but the rest of it is kind of low-end -- Shimano Alivio/Acera components and a no-name front fork (RST Deuce TNL).
 

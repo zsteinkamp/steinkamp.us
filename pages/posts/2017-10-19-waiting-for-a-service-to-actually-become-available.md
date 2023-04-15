@@ -2,18 +2,6 @@
 layout: post
 title: Waiting For a Service to Actually Become Available in docker-compose
 date: '2017-10-19 03:09:30'
-categories: post post
-entry:
-  id: 1276
-  source: post
-  data:
-    thumb_url: ''
-    title: Waiting For a Service to Actually Become Available in docker-compose
-    excerpt: ''
-  created_at: '2017-10-19 03:12:06'
-  updated_at: '2017-12-03 03:55:53'
-  pub_date: '2017-10-19 03:09:30'
-  disabled: 0
 ---
 If you use docker-compose to run an app, more than likely you use container links in the form of "depends_on:" in your docker-compose.yml, like this:
 

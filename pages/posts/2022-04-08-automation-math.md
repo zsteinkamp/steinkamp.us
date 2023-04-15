@@ -2,11 +2,7 @@
 layout: post
 title: Automation Math
 date: '2022-04-08 12:00:00'
-categories: post
-entry:
-  source: post
-  data:
-    thumb_url: '/images/AutomationMath.png'
+thumbnail: '/images/AutomationMath.png'
 ---
 
 ![The device in context.](/images/AutomationMath-wide.png)

@@ -18,7 +18,7 @@ export const getStaticProps = async () => {
 
   const posts = postsPath.map((postPath) => {
     // get the slug from the markdown file name
-    const slug = path.basename(postPath, path.extname(postPath));
+    let slug = '/posts/' + path.basename(postPath, path.extname(postPath));
     // read the markdown files
     const source = fs.readFileSync(
       path.join(process.cwd(), "pages/posts", postPath),
@@ -29,25 +29,27 @@ export const getStaticProps = async () => {
 
     let cover = null;
 
-    if (data && data.entry && data.entry.data && data.entry.data.thumb_url) {
-      cover = data.entry.data.thumb_url;
+    if (data && data.thumbnail) {
+      cover = data.thumbnail;
     }
-    if (data.entry.source === 'youtube') {
-      cover = 'https://i.ytimg.com/vi/' + data.entry.data.id + '/default.jpg';
+    if (data && data.source === 'youtube') {
+      cover = 'https://i.ytimg.com/vi/' + data.uid + '/default.jpg';
+      slug = 'https://youtu.be/' + data.uid;
     }
 
     let excerpt = null;
-    if (data.entry && data.entry.data && data.entry.data.excerpt) {
-      excerpt = data.entry.data.excerpt;
+    if (data && data.excerpt) {
+      excerpt = data.excerpt;
     }
     if (excerpt === null) {
+      // TODO parse markdown
       excerpt = stripHtml(content).result.substr(0, 512);
     }
 
     return {
       title: data.title,
       date: dayjs(data.date).format("MMMM, YYYY"),
-      type: data.entry.source || "post",
+      type: data.source || "post",
       excerpt: excerpt,
       cover,
       slug
@@ -66,7 +68,7 @@ const Posts = ({ posts }) => {
     <ul className="posts">
       {posts.map((post) => (
         <li key={post.slug} className="">
-          <Link className="grid grid-cols-4 gap-4 p-8 rounded-lg mt-0 bg-transparent hover:bg-stone-200 dark:hover:bg-stone-800" href={`/posts/${post.slug}`}>
+          <Link className="grid grid-cols-4 gap-4 p-8 rounded-lg mt-0 bg-transparent hover:bg-stone-200 dark:hover:bg-stone-800" href={post.slug}>
             <div className="">
               {post.cover && <Image className="object-cover w-36 aspect-square max-w-36 rounded-lg"
                 src={post.cover}

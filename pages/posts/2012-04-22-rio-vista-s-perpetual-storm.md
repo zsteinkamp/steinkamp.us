@@ -2,22 +2,12 @@
 layout: post
 title: Rio Vista's Perpetual Storm
 date: '2012-04-22 04:27:20'
-categories: post post
-entry:
-  id: 780
-  source: post
-  data:
-    title: Rio Vista's Perpetual Storm
-    thumb_url: https://farm9.staticflickr.com/8142/6954885862_9acf5ab335_q.jpg
-    excerpt: "In the weather app I use on my phone, there is a map view with configurable
-      overlays.  One of the most useful is the Doppler Radar overlay, which usually
-      shows precipitation level on a colorful scale.\n\nOne thing I've noticed on
-      the radar overlay is that there is an area in the north bay, near Fairfield
-      and Rio Vista that appears to always have storm-level activity over it.  \n"
-  created_at: '2012-04-22 04:36:32'
-  updated_at: '2012-04-22 04:36:32'
-  pub_date: '2012-04-22 04:27:20'
-  disabled: 0
+excerpt: |
+  In the weather app I use on my phone, there is a map view with configurable
+  overlays.  One of the most useful is the Doppler Radar overlay, which usually
+  shows precipitation level on a colorful scale.\n\nOne thing I've noticed on
+  the radar overlay is that there is an area in the north bay, near Fairfield
+  and Rio Vista that appears to always have storm-level activity over it.
 ---
 In the weather app I use on my phone, there is a map view with configurable overlays.  One of the most useful is the Doppler Radar overlay, which usually shows precipitation level on a colorful scale.
 

@@ -2,23 +2,13 @@
 layout: post
 title: 'New Hike: Black Mountain'
 date: '2012-04-08 23:28:52'
-categories: post post
-entry:
-  id: 773
-  source: post
-  data:
-    title: 'New Hike: Black Mountain'
-    thumb_url: https://farm6.staticflickr.com/5461/7058529335_4c1054a13e_s.jpg
-    excerpt: Today I decided to try something new, since I'm pretty sure I've gone
-      up and down Mission Peak, Mt. Allison, and Monument Peak every possible way
-      now.  Looking at Google Earth and talking with Arti, I decided to see how to
-      get up Black Mountain.  It's a 2800 foot peak to the west of Mountain View and
-      Los Altos.  Rancho San Antonio Open Space Preserve is the closest park, and
-      provides a great route up.
-  created_at: '2012-04-08 23:38:48'
-  updated_at: '2012-04-08 23:38:48'
-  pub_date: '2012-04-08 23:28:52'
-  disabled: 0
+excerpt: |
+  Today I decided to try something new, since I'm pretty sure I've gone
+  up and down Mission Peak, Mt. Allison, and Monument Peak every possible way
+  now.  Looking at Google Earth and talking with Arti, I decided to see how to
+  get up Black Mountain.  It's a 2800 foot peak to the west of Mountain View and
+  Los Altos.  Rancho San Antonio Open Space Preserve is the closest park, and
+  provides a great route up.
 ---
 Today I decided to try something new, since I'm pretty sure I've gone up and down Mission Peak, Mt. Allison, and Monument Peak every possible way now.  Looking at Google Earth and talking with Arti, I decided to see how to get up Black Mountain.  It's a 2800 foot peak to the west of Mountain View and Los Altos.  Rancho San Antonio Open Space Preserve is the closest park, and provides a great route up.
 

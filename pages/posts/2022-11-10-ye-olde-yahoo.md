@@ -2,11 +2,7 @@
 layout: post
 title: 'Ye Olde Yahoo!'
 date: '2022-11-10 12:00:00'
-categories: post
-entry:
-  source: post
-  data:
-    thumb_url: '/images/yahoo.png'
+thumbnail: '/images/yahoo.png'
 ---
 
 Early Yahoo! was a very special place. It was magical and rudimentary at the same time. I joined probably past the true magical era, and was hired in Yahoo!'s first hyper-growth, bulking-out phase (empno 850) at the beginning of 1999. 

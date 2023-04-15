@@ -2,12 +2,6 @@
 layout: post
 title: On Efficiency
 date: '2019-08-24 23:09:30'
-categories: post
-entry:
-  source: post
-  data:
-    thumb_url: ''
-    title: On Efficiency
 ---
 As a software development team, we should be relentness in our pursuit of
 efficiency. Not only in our algorithms, but more importantly in how our

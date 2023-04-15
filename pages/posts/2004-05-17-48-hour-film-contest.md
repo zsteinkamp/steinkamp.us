@@ -1,19 +1,6 @@
 ---
 layout: post
 title: 48 Hour Film Contest
-date: '2004-05-17 13:21:36'
-categories: post post
-entry:
-  id: 146
-  source: post
-  uid: 6
-  data:
-    title: 48 Hour Film Contest
-    excerpt: ''
-  created_at: '2010-08-30 05:16:36'
-  updated_at: '2010-08-30 05:16:36'
-  pub_date: '2004-05-17 13:21:36'
-  disabled: 0
 ---
 finished up the 48 hour film contest ([http://www.48hourfilm.com/](http://www.48hourfilm.com/)) this weekend.
 

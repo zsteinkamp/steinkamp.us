@@ -2,18 +2,6 @@
 layout: post
 title: Recurring Dream Locations
 date: '2004-05-28 08:57:00'
-categories: post post
-entry:
-  id: 163
-  source: post
-  uid: 23
-  data:
-    title: Recurring Dream Locations
-    excerpt: ''
-  created_at: '2010-08-30 05:16:37'
-  updated_at: '2010-08-30 05:16:37'
-  pub_date: '2004-05-28 08:57:00'
-  disabled: 0
 ---
 This AM I had yet another dream that took place in the building I
 used to work in when I worked for the travel agency in Newport

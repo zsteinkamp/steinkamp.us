@@ -2,18 +2,7 @@
 layout: post
 title: Last Minute Marathon
 date: '2015-10-11 05:36:02'
-categories: post post
-entry:
-  id: 1129
-  source: post
-  data:
-    thumb_url: https://photos.steinkamp.us/photo/zzz_blog_images/last_minute_marathon-2015SttS.jpg?size=300x300&crop
-    title: Last Minute Marathon
-    excerpt: ''
-  created_at: '2015-10-11 05:36:59'
-  updated_at: '2015-10-16 03:34:29'
-  pub_date: '2015-10-11 05:36:02'
-  disabled: 0
+thumbnail: https://photos.steinkamp.us/photo/zzz_blog_images/last_minute_marathon-2015SttS.jpg?size=300x300&crop
 ---
 I've run the Skyline to the Sea (SttS) 50K race for the last two years (2013 and 2014). This year I decided I'd skip it. The Ohlone 50K was moved to three weeks before Stts, and I had plans to do the Levi's Gran Fondo bike ride one week prior.
 

@@ -2,20 +2,10 @@
 layout: post
 title: Groupon to Home Ride
 date: '2012-10-05 02:52:41'
-categories: post post
-entry:
-  id: 877
-  source: post
-  data:
-    thumb_url: https://farm9.staticflickr.com/8174/8055540401_d9664bc186_q.jpg
-    title: Groupon to Home Ride
-    excerpt: I decided to ride my bike home from work today.  Ended up taking about
-      2.5 hours, and covered 27 miles, most of it on the Bay Trail and Guadalupe River
-      Trail.
-  created_at: '2012-10-05 03:01:17'
-  updated_at: '2012-10-05 03:01:17'
-  pub_date: '2012-10-05 02:52:41'
-  disabled: 0
+excerpt: |
+  I decided to ride my bike home from work today.  Ended up taking about
+  2.5 hours, and covered 27 miles, most of it on the Bay Trail and Guadalupe River
+  Trail.
 ---
 I decided to ride my bike home from work today.  Ended up taking about 2.5 hours, and covered 27 miles, most of it on the Bay Trail and Guadalupe River Trail.
 

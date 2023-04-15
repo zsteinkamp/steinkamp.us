@@ -2,20 +2,10 @@
 layout: post
 title: Ed Levin to Mission Peak and Back
 date: '2012-10-07 21:25:59'
-categories: post post
-entry:
-  id: 878
-  source: post
-  data:
-    thumb_url: https://farm9.staticflickr.com/8039/8064428947_84712af5fd_q.jpg
-    title: Ed Levin to Mission Peak and Back
-    excerpt: I hit the trail at 8am today in Ed Levin County Park.  It was a beautiful,
-      cool, sunny morning ... mid-50s.  It was an ideal day out there today -- warm
-      sun and cool breeze.  I covered 16 miles, 4200 ft elevation gain, in 3h40m.
-  created_at: '2012-10-07 21:39:44'
-  updated_at: '2012-10-07 21:39:44'
-  pub_date: '2012-10-07 21:25:59'
-  disabled: 0
+excerpt: |
+  I hit the trail at 8am today in Ed Levin County Park.  It was a beautiful,
+  cool, sunny morning ... mid-50s.  It was an ideal day out there today -- warm
+  sun and cool breeze.  I covered 16 miles, 4200 ft elevation gain, in 3h40m.
 ---
 I hit the trail at 8am today in Ed Levin County Park.  It was a beautiful, cool, sunny morning ... mid-50s.  The plan was to take the Calera Creek Trail to the Agua Caliente Trail, along the Bay Area Ridge Trail, then up and over Mission Peak, and back behind the peak.  I added a bit extra after the Peak to get a bit more distance.
 

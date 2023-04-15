@@ -2,11 +2,7 @@
 layout: post
 title: Pinhole Camera / Phone Camera
 date: '2021-05-01 12:00:00'
-categories: post
-entry:
-  source: post
-  data:
-    thumb_url: https://photos.steinkamp.us/photo/2021-05-01_pinhole-camera/2021050117281610--1703653035229124392-IMG_2421.jpg?size=300x300&crop
+thumbnail: https://photos.steinkamp.us/photo/2021-05-01_pinhole-camera/2021050117281610--1703653035229124392-IMG_2421.jpg?size=300x300&crop
 ---
 Since the 1600s, people have experimented with light-proof rooms, chambers, or boxes with a small hole in one side, known as a [Camera Obscura](https://en.wikipedia.org/wiki/Camera_obscura). With the advent of photographic film or paper, this idea evolved into the Pinhole Camera -- a light-proof box with a tiny hole on one end, and a photo-sensitive material at the other. The hole is uncovered for a period of time, and the light from outside is focused by the tiny hole on the material on the other end of the box. The hole is then covered, and the photo-sensitive material is then processed, revealing an image. If you are a student of photography, chances are you have had a chance to work with a pinhole camera.
 

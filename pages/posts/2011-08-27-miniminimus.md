@@ -2,18 +2,6 @@
 layout: post
 title: Miniminimus
 date: '2011-08-27 20:05:02'
-categories: post post
-entry:
-  id: 670
-  source: post
-  data:
-    title: Miniminimus
-    thumb_url: https://farm7.static.flickr.com/6081/6086212389_ca458eaa43_s.jpg
-    excerpt: ''
-  created_at: '2011-08-27 20:07:05'
-  updated_at: '2011-08-27 20:07:05'
-  pub_date: '2011-08-27 20:05:02'
-  disabled: 0
 ---
 I got a pair of <a href="http://www.zombierunner.com/store/brands/new_balance/minimalist_shoes/">New Balance Minimus shoes</a> at Zombie Runner this week.  Really love how they fit and feel, but I wasn't crazy about the big silver N on each shoe...
 

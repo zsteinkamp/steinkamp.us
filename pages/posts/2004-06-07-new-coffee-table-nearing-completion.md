@@ -2,18 +2,6 @@
 layout: post
 title: New Coffee Table Nearing Completion
 date: '2004-06-07 10:19:06'
-categories: post post
-entry:
-  id: 172
-  source: post
-  uid: 32
-  data:
-    title: New Coffee Table Nearing Completion
-    excerpt: ''
-  created_at: '2010-08-30 05:16:37'
-  updated_at: '2010-08-30 05:16:37'
-  pub_date: '2004-06-07 10:19:06'
-  disabled: 0
 ---
 Since we got our new furniture, including home made TV
 stand, our glass-and-metal coffee table is sticking

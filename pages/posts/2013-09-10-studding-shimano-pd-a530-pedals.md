@@ -2,20 +2,10 @@
 layout: post
 title: Studding Shimano PD-A530 Pedals
 date: '2013-09-10 00:26:29'
-categories: post post
-entry:
-  id: 933
-  source: post
-  data:
-    excerpt: The Shimano PD-A530 is a hybrid pedal -- clip-in on one side, and platform
-      on the other. The platform side is not that great, so I decided to fix that
-      with some studs from another set of pedals.
-    title: Studding Shimano PD-A530 Pedals
-    thumb_url: https://farm3.staticflickr.com/2885/9714503186_2d0a1596a5_q.jpg
-  created_at: '2013-09-10 00:41:04'
-  updated_at: '2013-09-10 03:33:49'
-  pub_date: '2013-09-10 00:26:29'
-  disabled: 0
+excerpt: |
+    The Shimano PD-A530 is a hybrid pedal -- clip-in on one side, and platform
+    on the other. The platform side is not that great, so I decided to fix that
+    with some studs from another set of pedals.
 ---
 Shortly after getting my mountain bike, I replaced the un-smooth, un-grippy pedals with a pair of [Answer Rove platform pedals](http://www.answerproducts.com/components/pedals/rove-fr/).  These are awesome pedals, with very smooth bearings and 20 screw-in studs per pedal that keep your shoe from slipping off the pedal.
 

@@ -2,11 +2,7 @@
 layout: post
 title: 'Request: Chain Views in Ableton Live'
 date: '2022-12-25 12:00:00'
-categories: post
-entry:
-  source: post
-  data:
-    thumb_url: '/images/chain-view/current.png'
+thumbnail: '/images/chain-view/current.png'
 ---
 
 As an Ableton Live user, I appreciate its approach to interface. Part of their interface philosophy is the extreme consistency within the Ableton-provided devices. This allows for a deeply opinionated model for user experience, since many basic constraints like "device height" are controlled. This allowed Ableton to make the decision to devote a slim portion of the bottom of the interface window to present a track's devices.

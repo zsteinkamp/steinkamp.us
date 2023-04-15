@@ -3,10 +3,7 @@ layout: post
 title: Feedback FRACK for Ableton Live
 date: '2021-03-17 12:00:00'
 categories: post
-entry:
-  source: post
-  data:
-    thumb_url: '/images/feedback-sidechain.png'
+thumbnail: '/images/feedback-sidechain.png'
 ---
 Inspired by Hainbach's video on [Pinging](https://www.youtube.com/watch?v=qJRXxkswXdg), but lacking outboard hardware, I decided to explore creating a feedback device in Ableton Live.
 

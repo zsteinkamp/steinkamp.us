@@ -2,19 +2,7 @@
 layout: post
 title: 'DIY: iPhone Macro'
 date: '2012-04-21 14:49:12'
-categories: post post
-entry:
-  id: 778
-  source: post
-  data:
-    title: 'DIY: iPhone Macro'
-    thumb_url: https://farm6.staticflickr.com/5463/6952936838_2b463ec3d1_q.jpg
-    excerpt: It's easy to capture amazing close-up photos with your smartphone.  All
-      you need is a nerdy motivation and a little magnifier...
-  created_at: '2012-04-21 15:15:38'
-  updated_at: '2012-04-21 15:15:38'
-  pub_date: '2012-04-21 14:49:12'
-  disabled: 0
+excerpt: It's easy to capture amazing close-up photos with your smartphone.  All you need is a nerdy motivation and a little magnifier...
 ---
 I was playing with a big toy magnifying glass with my daughters one day, and thought, "hmm, I wonder if I can use this with a camera".  Sure enough, it worked, but the big plastic lens in the toy had quality issues.  With a better lens, this could be a really interesting thing!
 

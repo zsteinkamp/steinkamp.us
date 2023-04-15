@@ -2,21 +2,12 @@
 layout: post
 title: Why I Work at Groupon
 date: '2012-10-12 04:33:32'
-categories: post post
-entry:
-  id: 881
-  source: post
-  data:
-    thumb_url: http://static2.businessinsider.com/image/4ca9f6bb7f8b9a0d76650000/groupon-cat.jpg
-    excerpt: I started at Groupon more than two years ago now.  I was excited about
-      the company then, but I'm way more excited now.  This may come as a surprise
-      to someone who only follows the market or the Silicon Valley tabloids, but for
-      me, Groupon is the place to be.  Here's why...
-    title: Why I Work at Groupon
-  created_at: '2012-10-12 04:56:21'
-  updated_at: '2012-10-12 05:07:57'
-  pub_date: '2012-10-12 04:33:32'
-  disabled: 0
+thumbnail: /images/groupon.webp
+excerpt: |
+  I started at Groupon more than two years ago now.  I was excited about
+  the company then, but I'm way more excited now.  This may come as a surprise
+  to someone who only follows the market or the Silicon Valley tabloids, but for
+  me, Groupon is the place to be.  Here's why...
 ---
 (I've been writing this in my head for a couple of months now, and here's an opportunity to get it out.)
 

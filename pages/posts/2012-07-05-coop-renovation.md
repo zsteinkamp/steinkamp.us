@@ -2,19 +2,7 @@
 layout: post
 title: Coop Renovation
 date: '2012-07-05 04:25:21'
-categories: post post
-entry:
-  id: 808
-  source: post
-  data:
-    thumb_url: https://farm8.staticflickr.com/7246/7505777466_e34f50a3fd_s.jpg
-    excerpt: We changed the coop a bit today to give Twilight and Paisley (our new
-      larger hens) more space to enter and exit, along with better rain protection.
-    title: Coop Renovation
-  created_at: '2012-07-05 04:28:36'
-  updated_at: '2012-07-05 04:28:36'
-  pub_date: '2012-07-05 04:25:21'
-  disabled: 0
+excerpt: We changed the coop a bit today to give Twilight and Paisley (our new larger hens) more space to enter and exit, along with better rain protection.
 ---
 We changed the coop a bit today to give Twilight and Paisley (our new larger hens) more space to enter and exit, along with better rain protection.
 

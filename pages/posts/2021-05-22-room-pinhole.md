@@ -2,11 +2,7 @@
 layout: post
 title: Room Pinhole Camera
 date: '2021-05-22 11:00:00'
-categories: post
-entry:
-  source: post
-  data:
-    thumb_url: https://photos.steinkamp.us/photo/2021-05-21_room-pinhole-camera/IMG_2523.JPG?size=300x300&crop
+thumbnail: https://photos.steinkamp.us/photo/2021-05-21_room-pinhole-camera/IMG_2523.JPG?size=300x300&crop
 ---
 I noticed yesterday evening that my room had become a pinhole camera.
 

@@ -2,11 +2,7 @@
 layout: post
 title: 'Perpetual Storage'
 date: '2022-11-10 12:00:00'
-categories: post
-entry:
-  source: post
-  data:
-    thumb_url: '/images/stone-tablet.jpg'
+thumbnail: '/images/stone-tablet.jpg'
 ---
 
 Where does the data go?

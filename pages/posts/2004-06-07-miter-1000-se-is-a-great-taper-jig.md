@@ -2,18 +2,6 @@
 layout: post
 title: Miter 1000 SE is a Great Taper Jig
 date: '2004-06-07 09:56:47'
-categories: post post
-entry:
-  id: 171
-  source: post
-  uid: 31
-  data:
-    title: Miter 1000 SE is a Great Taper Jig
-    excerpt: ''
-  created_at: '2010-08-30 05:16:37'
-  updated_at: '2010-08-30 05:16:37'
-  pub_date: '2004-06-07 09:56:47'
-  disabled: 0
 ---
 I was working on our coffee table replacement over the
 weekend and needed to taper some 3x3 legs I had

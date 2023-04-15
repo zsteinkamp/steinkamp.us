@@ -2,24 +2,14 @@
 layout: post
 title: New Shocks for Arti's Car
 date: '2012-04-29 14:39:39'
-categories: post post
-entry:
-  id: 783
-  source: post
-  data:
-    title: New Shocks for Arti's Car
-    thumb_url: https://farm9.staticflickr.com/8151/7124730511_f7fa2296a6_q.jpg
-    excerpt: I spent the bulk of yesterday replacing the shocks on Arti's car -- a
-      2007 328i wagon.  We bought the car new, and it has about 90K miles on it now.  Overall,
-      it's been a great car and still looks and drives very nicely.  I've noticed
-      though over the past year or so that it feels a bit "wallowy" in some situations.  Usually
-      I felt that in in sweeping turns with some undulations -- the car felt like
-      it was moving around more than it should, and felt less stable than it should.  Sounds
-      like the shocks are done!
-  created_at: '2012-04-29 15:25:10'
-  updated_at: '2012-04-29 15:25:10'
-  pub_date: '2012-04-29 14:39:39'
-  disabled: 0
+excerpt: |
+  I spent the bulk of yesterday replacing the shocks on Arti's car -- a
+  2007 328i wagon.  We bought the car new, and it has about 90K miles on it now.  Overall,
+  it's been a great car and still looks and drives very nicely.  I've noticed
+  though over the past year or so that it feels a bit "wallowy" in some situations.  Usually
+  I felt that in in sweeping turns with some undulations -- the car felt like
+  it was moving around more than it should, and felt less stable than it should.  Sounds
+  like the shocks are done!
 ---
 Shocks, or better called "dampers", resist motion of the springs and tires in the car's suspension.  Without a shock absorber, your tires would be bouncing wildly whenever you drove over any sort of bump.  Tires are like rubber balls, and they're held to the car with springs -- lots of bouncing potential there!  Shocks also slow down slower movements in the suspension, like as the car leans to one side in a turn or squats down under acceleration.  
 

@@ -2,12 +2,6 @@
 layout: post
 title: Systems of Working - The Role of Leadership
 date: '2019-08-24 23:09:30'
-categories: post
-entry:
-  source: post
-  data:
-    thumb_url: ''
-    title: Systems of Working - The Role of Leadership
 ---
 There are as many systems of working as there are development teams. One
 important dimension in evaluating a system of working is identifying the role

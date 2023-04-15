@@ -2,19 +2,8 @@
 layout: post
 title: Mission Peak Dark Descent
 date: '2014-06-13 16:02:55'
-categories: post post
-entry:
-  id: 1076
-  source: post
-  data:
-    title: Mission Peak Dark Descent
-    excerpt: It's been a while since I did a night run on Mission Peak.  With the
-      great weather and full moon, today was a great day to pick that up again.
-    thumb_url: https://photos.steinkamp.us/photo/2021-07-22_mission-peak/IMG_2910.JPG?size=300x300&crop
-  created_at: '2014-06-13 16:57:11'
-  updated_at: '2014-06-13 17:03:03'
-  pub_date: '2014-06-13 16:02:55'
-  disabled: 0
+excerpt: It's been a while since I did a night run on Mission Peak.  With the great weather and full moon, today was a great day to pick that up again.
+thumbnail: https://photos.steinkamp.us/photo/2021-07-22_mission-peak/IMG_2910.JPG?size=300x300&crop
 ---
 Some of the most memorable and enjoyable runs I've done have been at night.  Things are quieter and have a special feeling at the end of the day.  The sky turns all of its colors on the way to darkness, and if you're lucky the moon helps guide the way then.
 

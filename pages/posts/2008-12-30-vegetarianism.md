@@ -2,25 +2,12 @@
 layout: post
 title: Vegetarianism
 date: '2008-12-30 16:59:15'
-categories: post post
-entry:
-  id: 264
-  source: post
-  uid: 150
-  data:
-    thumb_url: ''
-    title: Vegetarianism
-    excerpt: ''
-  created_at: '2010-08-30 05:16:38'
-  updated_at: '2015-12-09 05:20:00'
-  pub_date: '2008-12-30 16:59:15'
-  disabled: 0
 ---
 Such a lame blog title I know. "Great, another self-absorbed hippie with a blog". Well, maybe. Anyhow, this is the story.
 
 Anyone who knows me well knows that I am motivated by my dreams (ref: Marina, etc) -- or at least I talk about being motivated by them more than most people I know. Abouta year ago, I had a dream about killing an animal.
 
-<img class="alignright size-medium wp-image-152" title="rabbitex" src="http://steinkamp.us/wp-content/uploads/2008/12/rabbitex-300x267.jpg" alt="rabbitex" width="300" height="267" />The dream opened at a tense moment. I was across a table or countertop from a furry animal like a cat or a rabbit. I had a knife in one hand. My mission was to kill the animal -- that's all I was to do.
+The dream opened at a tense moment. I was across a table or countertop from a furry animal like a cat or a rabbit. I had a knife in one hand. My mission was to kill the animal -- that's all I was to do.
 
 I tried a bunch of times to get it with the knife, mostly missing it completely, but I struck it a couple of times. One time I caught its front foot, which I sliced off. At this point, things started to get horrifying to me. It was clearly in pain and now struggling with the situation. I had very intense feelings of sadness for this creature, but I was still driven to kill it -- now partly out of pity since at this point there was really no going back.
 

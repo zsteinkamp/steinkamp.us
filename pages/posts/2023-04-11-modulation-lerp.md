@@ -2,11 +2,7 @@
 layout: post
 title: 'New Max for Live Device: Modulation Lerp'
 date: '2023-04-11 12:00:00'
-categories: post
-entry:
-  source: post
-  data:
-    thumb_url: /images/lerp/lerp.png
+thumbnail: /images/lerp/lerp.png
 ---
 
 Yesterday after work I was reading my personal email, and a very sincerely
