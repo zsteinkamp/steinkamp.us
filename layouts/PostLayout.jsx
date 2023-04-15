@@ -20,13 +20,13 @@ const PostLayout = ({ pageProps, children }) => {
        <meta name="description" content={description} />
      </Head>
      <SiteHeader />
-     <article className={`pl-4 pr-4 max-w-3xl min-h-screen m-auto ${isPop && 'pop'}`}>
+     <article className={`pl-4 pr-4 pt-8 pb-8 max-w-3xl min-h-screen m-auto ${isPop && 'pop'}`}>
        <div className="">
          { backLink }
          <header className="">
            <div className="">
              <div className="mt-4 text-stone-400">{fmtDate}</div>
-             <h1 className="mb-4 font-bold font-condensed text-4xl">{title}</h1>
+             <h1 className="mb-8 font-bold font-condensed text-4xl">{title}</h1>
            </div>
          </header>
          <div className="">
