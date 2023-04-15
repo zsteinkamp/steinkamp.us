@@ -11,8 +11,9 @@ const PostLayout = ({ pageProps, children }) => {
   const file = pageProps.markdoc.file.path;
   const { title, date, description } = pageProps.markdoc.frontmatter;
   const fmtDate = dayjs(date).utc().format("MMMM D, YYYY");
-  const isPop = file.startsWith('/pop/');
-  const backLink = isPop && (<h4 className="text-right"><Link href='/pop'>&lt;&lt;&lt; Back to Pop&apos;s Pages</Link></h4>);
+  const fileParts = file.split('/');
+  const isSub = fileParts.length > 1 && fileParts[1] !== 'posts';
+  const backLink = isSub && (<h4 className="text-right"><Link href='.'>&lt;&lt;&lt; Back</Link></h4>);
   return (
    <>
      <Head>
@@ -20,7 +21,7 @@ const PostLayout = ({ pageProps, children }) => {
        <meta name="description" content={description} />
      </Head>
      <SiteHeader />
-     <article className={`pl-4 pr-4 pt-8 pb-8 max-w-3xl min-h-screen m-auto ${isPop && 'pop'}`}>
+     <article className={`pl-4 pr-4 pt-8 pb-8 max-w-3xl min-h-screen m-auto`}>
        <div className="">
          { backLink }
          <header className="">

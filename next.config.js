@@ -23,4 +23,15 @@ module.exports = withMarkdoc({ schemaPath: './markdoc' })({
   typescript: {
     ignoreBuildErrors: true,
   },
+  webpack: (config) => {
+    config.resolve.fallback = {
+      fs: false,
+      path: false,
+      'glob-promise': false,
+      'gray-matter': false,
+      'string-strip-html': false,
+      dayjs: false,
+    }
+    return config;
+  },
 });

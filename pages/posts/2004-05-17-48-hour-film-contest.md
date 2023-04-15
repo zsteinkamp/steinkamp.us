@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 48 Hour Film Contest
+date: 2004-05-17
 ---
 finished up the 48 hour film contest ([http://www.48hourfilm.com/](http://www.48hourfilm.com/)) this weekend.
 
