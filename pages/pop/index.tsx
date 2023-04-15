@@ -55,8 +55,8 @@ export const getStaticProps = async () => {
 const Posts = ({ posts }) => {
   return (
     <>
-      <h1>Pop's Pages</h1>
-      <p>A place for pop's stories and projects.</p>
+      <h1>Pop&apos;s Pages</h1>
+      <p>A place for Pop&apos;s stories and projects.</p>
       <ul className="posts">
         {posts.map((post) => (
           <li key={post.slug} className="">
