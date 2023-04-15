@@ -10,7 +10,7 @@ import SiteFooter from "@/components/SiteFooter";
 const PostLayout = ({ pageProps, children }) => {
   const file = pageProps.markdoc.file.path;
   const { title, date, description } = pageProps.markdoc.frontmatter;
-  const fmtDate = dayjs(date).utc().format("YYYY-MM-DD dddd");
+  const fmtDate = dayjs(date).utc().format("MMMM D, YYYY");
   const backLink = file.startsWith('/pop/') && (<h4 className="text-right"><Link href='/pop'>&lt;&lt;&lt; Back to Pop&apos;s Pages</Link></h4>);
   return (
    <>
