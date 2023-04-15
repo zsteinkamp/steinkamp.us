@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Your Steer With Your Feet
-date: 1998-05-01
+date: 2001-01-01
 thumbnail: /images/pop/steer_feet/tomahawk.jpg
 ---
 
