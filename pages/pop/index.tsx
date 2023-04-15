@@ -39,7 +39,7 @@ export const getStaticProps = async () => {
     title: 'Stude Ute',
     date: '2007-11-27',
     thumbnail: '/images/pop/studeute/floor005-1.jpg',
-    excerpt: 'Perhaps Pop\'s crown jewel of car projects, Stude Ute was featured in the Grand National Roadster Show twice in its lifetime.',
+    excerpt: 'Perhaps the crown jewel of car projects, Stude Ute was featured in the Grand National Roadster Show twice in its lifetime.',
     slug: 'studeute/'
   });
 
