@@ -70,6 +70,24 @@ html {
   .site-nav .page-link:not(:last-child) { margin-right: 0; }
 }
 
+article.pop img {
+  position: relative;
+  min-width: 8rem;
+  min-height: 8rem;
+}
+article.pop img:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  min-width: 8rem;
+  min-height: 8rem;
+  left: 0;
+  width: inherit;
+  height: inherit;
+  background: #ebebeb url('/images/placeholder.png') no-repeat center;
+  color: transparent;
+}
+
 body {
   @apply bg-stone-100 dark:bg-stone-900
 }
