@@ -12,7 +12,7 @@ The sun shining through the blinds was projecting an unmistakable circle on the 
 
 I watched it for a while, then shot this time-lapse of the sun setting through some branches of the tree. Because of how the pinhole camera works, the sun appears to be going up, but that is just because a lens or pinhole will flip the image.
 
-{% video src="https://photos.steinkamp.us/video/2021-05-21_room-pinhole-camera/IMG_2525.MP4" autoPlay={true} loop={true} /%}
+{% video src="https://photos.steinkamp.us/video/2021-05-21_room-pinhole-camera/IMG_2525.MP4" autoPlay=true loop=true /%}
 
 Here is an image looking out the window at the sun behind the tree.
 
