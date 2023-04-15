@@ -14,7 +14,7 @@ export const getStaticProps = async () => {
   const postsPath = (await glob("**/*.md", { cwd: POSTS_DIR }))
 
   // sort descending date
-  postsPath.sort((a,b) => { return b < a ? -1 : 1; });
+  postsPath.sort((a,b) => { return a < b ? -1 : 1; });
 
   const posts = postsPath.map((postPath) => {
     // get the slug from the markdown file name

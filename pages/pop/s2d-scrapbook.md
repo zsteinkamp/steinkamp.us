@@ -1,6 +1,9 @@
 ---
+layout: post
 title: S2D Scrapbook
+date: 2000-03-01
 description: Pre-digital detail of the S2D build.
+thumbnail: /images/pop/s2d_scrapbook/image-000.jpg
 ---
 # S2D Build Scrapbook
 

@@ -1,13 +1,10 @@
 ---
+layout: post
 title: Meeting Craig Breedlove
+date: 2000-03-17
 description: The story of when Dick Steinkamp met Craig Breedlove.
-data:
-  entry:
-    thumb_url: /images/pop/breedlove/craig_breedlove.jpg
+thumbnail: /images/pop/breedlove/craig_breedlove.jpg
 ---
-
-# Meeting Craig Breedlove
-Spring, 2000
 
 > I first learned of Breedlove in 1963 when I was just becoming a "car guy" with the Beach Boys song "Spirit of America" on the first album I ever purchased, "Little Deuce Coupe". Craig Breedlove an epic, 407 per hour. I followed his exploits ever since.
 > 

@@ -1,12 +1,17 @@
 import Head from "next/head";
 import dayjs from 'dayjs';
+import utc from 'dayjs/plugin/utc';
+dayjs.extend(utc);
+const { default: Link } = require("next/link");
 
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 
 const PostLayout = ({ pageProps, children }) => {
+  const file = pageProps.markdoc.file.path;
   const { title, date, description } = pageProps.markdoc.frontmatter;
-  const fmtDate = dayjs(date).format("YYYY-MM-DD dddd");
+  const fmtDate = dayjs(date).utc().format("YYYY-MM-DD dddd");
+  const backLink = file.startsWith('/pop/') && (<h4 className="text-right"><Link href='/pop'>&lt;&lt;&lt; Back to Pop&apos;s Pages</Link></h4>);
   return (
    <>
      <Head>
@@ -16,6 +21,7 @@ const PostLayout = ({ pageProps, children }) => {
      <SiteHeader />
      <article className="pl-4 pr-4 max-w-3xl min-h-screen m-auto">
        <div className="">
+         { backLink }
          <header className="">
            <div className="">
              <div className="mt-4 text-stone-400">{fmtDate}</div>
@@ -25,6 +31,7 @@ const PostLayout = ({ pageProps, children }) => {
          <div className="">
            {children}
          </div>
+         { backLink }
        </div>
      </article>
      <SiteFooter />
