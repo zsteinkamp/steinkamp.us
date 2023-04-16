@@ -2,6 +2,7 @@ export * from './audio.markdoc';
 export * from './avoidbreak.markdoc';
 export * from './bandcamp.markdoc';
 export * from './captionedimage.markdoc';
+export * from './loop.markdoc';
 export * from './postindex.markdoc';
 export * from './strava.markdoc';
 export * from './video.markdoc';
