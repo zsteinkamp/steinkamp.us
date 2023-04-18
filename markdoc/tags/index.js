@@ -1,5 +1,6 @@
 export * from './audio.markdoc';
 export * from './avoidbreak.markdoc';
+export * from './backbutton.markdoc';
 export * from './bandcamp.markdoc';
 export * from './captionedimage.markdoc';
 export * from './postindex.markdoc';

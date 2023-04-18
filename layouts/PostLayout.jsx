@@ -6,6 +6,7 @@ const { default: Link } = require("next/link");
 
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
+import BackButton from "@/components/BackButton";
 
 const PostLayout = ({ pageProps, children }) => {
   const file = pageProps.markdoc.file.path;
@@ -13,7 +14,6 @@ const PostLayout = ({ pageProps, children }) => {
   const fmtDate = dayjs(date).utc().format("MMMM D, YYYY");
   const fileParts = file.split('/');
   const isSub = fileParts.length > 1 && fileParts[1] !== 'posts';
-  const backLink = isSub && (<h4 className="text-right"><Link href='.'>&lt;&lt;&lt; Back</Link></h4>);
   return (
    <>
      <Head>
@@ -23,7 +23,7 @@ const PostLayout = ({ pageProps, children }) => {
      <SiteHeader />
      <article className={`pl-4 pr-4 pt-8 pb-8 max-w-3xl min-h-screen m-auto`}>
        <div className="">
-         { backLink }
+         <BackButton className="link float-right" />
          <header className="">
            <div className="">
              <div className="mt-4 text-stone-400">{fmtDate}</div>
@@ -33,7 +33,7 @@ const PostLayout = ({ pageProps, children }) => {
          <div className="">
            {children}
          </div>
-         { backLink }
+         <BackButton className="link float-right" />
        </div>
      </article>
      <SiteFooter />
