@@ -3,10 +3,7 @@ layout: post
 title: So You Have a New Teen Driver!
 date: '2022-05-28 12:00:00'
 categories: post
-entry:
-  source: post
-  data:
-    thumbnail: https://photos.steinkamp.us/photo/2022-01-01_ccc/IMG_3961.JPG?size=300x300
+thumbnail: https://photos.steinkamp.us/photo/2022-01-01_ccc/IMG_3961.JPG?size=300x300
 ---
 
 So your teenager is old enough to learn to drive. That's awesome! For a parent, it can also be terrifying. I mean, they're the most precious people in our lives -- isn't it irresponsible to put them out there with all those crazies?!?!? We all know that car accidents are the #1 killer of teenagers. How can we reconcile this, and let our kids grow up to be responsible adult drivers?
