@@ -8,7 +8,7 @@ We put the ute in final primer yesterday. Another week or so of sanding and we s
 
 ![](/images/pop/studeute/manifold046.jpg)
 
-![](http://www.studeute.com/wp-content/uploads/2009/01/manifold-0471.jpg "manifold-0471")
+![](/wp-content/uploads/2009/01/manifold-0471.jpg "manifold-0471")
 
 ![](/images/pop/studeute/manifold050.jpg)
 

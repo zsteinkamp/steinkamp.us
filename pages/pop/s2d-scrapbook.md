@@ -3,7 +3,6 @@ layout: post
 title: S2D Scrapbook
 date: 2000-03-01
 description: Pre-digital detail of the S2D build.
-thumbnail: /images/pop/s2d_scrapbook/image-000.jpg
 ---
 S2D is a Studebaker Starliner Coupe that was brought to life by Dick Steinkamp. This is a scrapbook of the build process, which finished around the spring of 2000.
 

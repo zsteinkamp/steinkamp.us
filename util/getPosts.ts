@@ -11,6 +11,15 @@ import dayjs from 'dayjs';
 import utc from 'dayjs/plugin/utc';
 dayjs.extend(utc);
 
+const getFirstImageUrl = (ast) => {
+  for (const node of ast.walk()) {
+    if (node.type === 'image') {
+      return node.attributes.src;
+    }
+  }
+  return null;
+};
+
 const getPosts = async ({indexPath, newestFirst = true}) => {
   // Find all Markdown files in the specified directory
   const POSTS_DIR = path.join(process.cwd(), "pages", indexPath);
@@ -29,12 +38,17 @@ const getPosts = async ({indexPath, newestFirst = true}) => {
 
       let thumbnail = null;
 
-      if (data && data.thumbnail) {
-        thumbnail = data.thumbnail;
+      if (data) {
+        if (data.source === 'youtube') {
+          thumbnail = 'https://i.ytimg.com/vi/' + data.uid + '/default.jpg';
+          slug = 'https://youtu.be/' + data.uid;
+        } else if (data.thumbnail) {
+          thumbnail = data.thumbnail;
+        }
       }
-      if (data && data.source === 'youtube') {
-        thumbnail = 'https://i.ytimg.com/vi/' + data.uid + '/default.jpg';
-        slug = 'https://youtu.be/' + data.uid;
+     
+      if (!thumbnail) {
+        thumbnail = getFirstImageUrl(ast);
       }
 
       let excerpt = null;

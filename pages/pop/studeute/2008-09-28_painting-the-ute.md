@@ -8,7 +8,7 @@ The Ute got color yesterday.  It went to the paint booth Friday evening and we
 
 Here it is set up in the booth…
 
-![](http://www.studeute.com/wp-content/uploads/2009/01/cad-022.jpg "cad-022")
+![](/wp-content/uploads/2009/01/cad-022.jpg "cad-022")
 
 Everything in sealer…
 
@@ -16,7 +16,7 @@ Everything in sealer…
 
 Color going on…
 
-![](http://www.studeute.com/wp-content/uploads/2009/01/cad-039.jpg "cad-039")
+![](/wp-content/uploads/2009/01/cad-039.jpg "cad-039")
 
 Here’s the three stages in the engine compartment.  Sanded primer, sealer, color…
 
@@ -24,7 +24,7 @@ Here’s the three stages in the engine compartment.  Sanded primer, sealer, co
 
 ![](/images/pop/studeute/cad032.jpg "Engine 2")
 
-![](http://www.studeute.com/wp-content/uploads/2009/01/cad-042.jpg "cad-042")
+![](/wp-content/uploads/2009/01/cad-042.jpg "cad-042")
 
 Here’s a short video of the first color on the left rear quarter…
 

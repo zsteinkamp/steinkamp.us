@@ -21,3 +21,4 @@ I was out cruising the Ute today and couldn’t resist taking a few in a similar
 ![](/images/pop/studeute/floor007-1.jpg)
 
 Both are 53’s, both were customized in ‘58, and both have “lived” at the same house…only 50 years apart! 😎  
+

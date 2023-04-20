@@ -8,10 +8,10 @@ I cruise _Craig’s List_ fairly frequently.  Last night I saw a minor ad (no p
 
 I’m a sucker for an outing to see a “different” Studebaker and this one was close…Anacortes.  I took Jon along to help evaluate the car.  This is what we saw…
 
-![](http://www.studeute.com/wp-content/uploads/2008/12/stude-a-mino-0055.jpg "stude-a-mino-0055")
+![](/wp-content/uploads/2008/12/stude-a-mino-0055.jpg "stude-a-mino-0055")
 
-![](http://www.studeute.com/wp-content/uploads/2008/12/stude-a-mino-003.jpg "stude-a-mino-003")
+![](/wp-content/uploads/2008/12/stude-a-mino-003.jpg "stude-a-mino-003")
 
-![](http://www.studeute.com/wp-content/uploads/2008/12/stude-a-mino-001.jpg "stude-a-mino-001")
+![](/wp-content/uploads/2008/12/stude-a-mino-001.jpg "stude-a-mino-001")
 
 It was actually attractive.  Fairly straight, no rust.  Real ugly wheels, tires and stance.  The guy wanted $9k for it with a worn out Chevy V8 and a 6 speed he intended to install in it.  I told him I’d think about it.

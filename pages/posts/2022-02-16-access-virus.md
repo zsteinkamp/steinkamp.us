@@ -11,7 +11,7 @@ The [Access Virus](https://en.wikipedia.org/wiki/Access_Virus) is a music synthe
 
 I first heard about the Virus from a friend of a friend a few years after I started making music. I was working at Yahoo at the time, and my dear friend Mona (who also worked there) introduced me to her friend Aaron. He also worked at Yahoo and was an accomplished musician and had interviewed Autechre, which was like +100 charisma points in my world. We got to talking about music making, and he had all kinds of nice things to say about the Virus. So I looked it up and yep, it looked awesome, so I bought one for about $1200 from my local Guitar Center.
 
-![The original Access Virus](https://upload.wikimedia.org/wikipedia/commons/6/6e/Access_Virus_A.png)
+![The original Access Virus](/images/Access_Virus_A.jpg)
 
 It fit well in my little setup, and allowed me to do things that I had never been able to do before. It was beautifully German-made, with a heavy gauge metal front panel, wooden end-panels, and a bunch of buttery smooth knobs and very nicely clicking buttons. It came with a slim and well-written manual, and so I was off and running with it.
 

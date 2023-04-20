@@ -10,7 +10,7 @@ All the body work is done. We DP40′d and K36′d it last night. It’s nice to
 
 ![](/images/pop/studeute/primer007.jpg)
 
-![](http://www.studeute.com/wp-content/uploads/2009/01/primer-005.jpg "primer-005")
+![](/wp-content/uploads/2009/01/primer-005.jpg "primer-005")
 
 ![](/images/pop/studeute/primer002.jpg)
 

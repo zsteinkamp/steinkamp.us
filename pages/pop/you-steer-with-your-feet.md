@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Your Steer With Your Feet
+title: You Steer With Your Feet
 date: 2001-01-01
 thumbnail: /images/pop/steer_feet/tomahawk.jpg
 ---
@@ -12,6 +12,7 @@ I arrived at Watsonville airport about 1:45…15 minutes early.  I chatted with 
 At 2:00, Craig came out of his little office.  Craig is the Chief Instructor at the Flying Club…I have no idea what a “Chief Instructor” is or does.  He was in his late 50’s-early 60’s and essentially spoke only when spoken to.  I found out through intensive questioning that he obtained his instructor’s certificate in the 1960’s and had retired 4 years ago from A T & T.
 
 ![A Piper Tomahawk](/images/pop/steer_feet/tomahawk.jpg)
+
 As we walk out to November-one-eight-six-niner-seven, Craig hands me the keys.  He tells me to go to the left side of the airplane and unlock the door.  I do this then reach over and unlock his door from the inside.  This is a 1974 Cessna 150.  A tiny airplane.  Two place.  The paint and interior is a little shabby, but probably to be expected from a club airplane…sort of like a 26 year old rental car.  Craig finds the laminated check list in a door pocket and hands it to me.  “Put the keys on top of the dash where we can see them so we know the airplane can’t be started…Main electrical switches on…they’re the red ones over there (the dash lights up and the radio’s come on)…push the flap lever down until the flaps are fully extended…grab the fuel sample bottle and sample the left wing tank for possible water and correct fuel color (the fuel sample bottle has a little needle sticking out of the top that pushes a detent in the bottom of the wing fuel tank to allow some fuel to flow into the bottle).”  Craig starts untying the airplane (both wings and the tail) and continues to recite the check list from memory.  “Check the wing leading edges, flap fasteners, brake pad thickness, possible hydraulic leaks, tail surfaces, propeller for nicks and dings.”  Craig opens the cowl and checks the oil and bleeds off a little fuel from the low spot in the fuel system just to make sure there is no water in it.
 
 Craig grabs the propeller and pulls the airplane forward slightly and to the left.  It moves surprisingly easily.  He points at an open hanger about 50 yards behind six-niner-seven and tells me that when we start the airplane, we don’t want the prop wash blowing into the open hanger…it’s rude.

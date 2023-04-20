@@ -18,4 +18,4 @@ Making progress on assembling the chassis. With a few minor exceptions, it is es
 
 ![](/images/pop/studeute/colorsand008.jpg)
 
-![](http://www.studeute.com/wp-content/uploads/2009/01/colorsand-009.jpg)
+![](/wp-content/uploads/2009/01/colorsand-009.jpg)
