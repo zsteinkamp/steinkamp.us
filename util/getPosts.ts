@@ -2,8 +2,9 @@ import fs from "fs";
 import fsp from "fs/promises";
 import getDirMeta from '@/util/getDirMeta'
 import glob from "glob-promise";
-import matter from "gray-matter";
+import Markdoc from '@markdoc/markdoc';
 import path from "path";
+import React from 'react'; // or 'preact'
 import { stripHtml } from "string-strip-html";
 import yaml from 'js-yaml';
 import dayjs from 'dayjs';
@@ -21,8 +22,10 @@ const getPosts = async ({indexPath, newestFirst = true}) => {
       let slug = path.join('/', indexPath, path.basename(postPath, path.extname(postPath)));
       // read the markdown files
       const source = await fsp.readFile(path.join(POSTS_DIR, postPath), "utf8");
-      // use gray-matter to parse the post frontmatter section
-      const { content, data } = matter(source);
+      const ast = Markdoc.parse(source);
+      const data = ast.attributes.frontmatter
+        ? yaml.load(ast.attributes.frontmatter)
+        : {};
 
       let thumbnail = null;
 
@@ -40,7 +43,9 @@ const getPosts = async ({indexPath, newestFirst = true}) => {
       }
       if (excerpt === null) {
         // TODO parse markdown
-        excerpt = stripHtml(content).result.substr(0, 512);
+        const content = Markdoc.transform(ast);
+        const html = Markdoc.renderers.html(content)
+        excerpt = stripHtml(html).result.substr(0, 512);
       }
 
       return {
@@ -56,7 +61,6 @@ const getPosts = async ({indexPath, newestFirst = true}) => {
     const stat = await fsp.stat(fullPath);
     const isDir = stat.isDirectory();
     if (isDir) {
-      console.log(fullPath);
       return await getDirMeta(fullPath);
     }
     return null;
