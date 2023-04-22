@@ -1,10 +1,12 @@
 ---
 layout: post
-title: The Ute in vintage print
+title: The Ute in Vintage Print
 date: "2008-12-12"
 ---
 
 My buddy, Pekka in Finland, had alerted me earlier to another picture of the Ute in the 1962 Custom Cars Annual by George Barris.  It was a picture on the inside cover of the 1959 Oakland roadster show…
+
+![](/images/pop/Kart_Hauler_Blog/33-mag_cover_1.jpg)
 
 ![](/wp-content/uploads/2008/12/mag-cover-11.jpg "mag-cover-11")
 

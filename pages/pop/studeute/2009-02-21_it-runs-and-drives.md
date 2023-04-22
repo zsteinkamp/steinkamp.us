@@ -1,6 +1,6 @@
 ---
 layout: post
-title: It runs and drives!
+title: It Runs and Drives!
 date: "2009-02-21"
 ---
 

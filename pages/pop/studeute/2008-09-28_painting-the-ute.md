@@ -8,23 +8,27 @@ The Ute got color yesterday.  It went to the paint booth Friday evening and we
 
 Here it is set up in the booth…
 
-![](/wp-content/uploads/2009/01/cad-022.jpg "cad-022")
+![](/images/pop/Kart_Hauler_Blog/20-cad_021.jpg)
 
 Everything in sealer…
 
-![](/images/pop/studeute/cad035.jpg "In Sealer")
+![](/images/pop/Kart_Hauler_Blog/20-cad_028.jpg)
+
+![](/images/pop/Kart_Hauler_Blog/20-cad_035.jpg)
 
 Color going on…
 
-![](/wp-content/uploads/2009/01/cad-039.jpg "cad-039")
+![](/images/pop/Kart_Hauler_Blog/20-cad_039.jpg)
+
+![](/images/pop/Kart_Hauler_Blog/20-cad_037.jpg)
 
 Here’s the three stages in the engine compartment.  Sanded primer, sealer, color…
 
-![](/images/pop/studeute/cad018.jpg "Engine 1")
+![](/images/pop/Kart_Hauler_Blog/20-cad_018.jpg)
 
-![](/images/pop/studeute/cad032.jpg "Engine 2")
+![](/images/pop/Kart_Hauler_Blog/20-cad_032.jpg)
 
-![](/wp-content/uploads/2009/01/cad-042.jpg "cad-042")
+![](/images/pop/Kart_Hauler_Blog/20-cad_042.jpg)
 
 Here’s a short video of the first color on the left rear quarter…
 

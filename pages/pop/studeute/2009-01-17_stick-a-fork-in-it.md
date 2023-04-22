@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Stick a fork in it…it’s done!
+title: Stick a Fork In It - It’s Done!
 date: "2009-01-17"
 ---
 

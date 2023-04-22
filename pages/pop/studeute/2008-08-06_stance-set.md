@@ -8,7 +8,7 @@ I’ve been agonizing over how the Ute should “sit” almost as much as whic
 
 Here’s the final, final, final tires, wheels and stance…
 
-![](/images/pop/studeute/pics073.jpg "Stanced")
+![](/images/pop/Kart_Hauler_Blog/14-_073.jpg)
 
 G78 15’s with 2 3/4″ white walls. ‘55 Plymouth caps. Stock 5″ Stude wheels in front. 6″ with 1/2″ less backspacing MoPar wheels in back. 
 

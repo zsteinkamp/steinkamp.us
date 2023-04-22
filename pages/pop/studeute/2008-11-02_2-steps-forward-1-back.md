@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2 steps forward…1 back
+title: 2 Steps Forward…1 Back
 date: "2008-11-02"
 ---
 
@@ -10,17 +10,19 @@ Brian Curtis came over yesterday and we bled the brakes, found and fixed all the
 
 It’s looking more like a car…
 
-![](/images/pop/studeute/frontend012.jpg)
+![](/images/pop/Kart_Hauler_Blog/27-front_end_010.jpg)
 
-![](/images/pop/studeute/frontend013.jpg)
+![](/images/pop/Kart_Hauler_Blog/27-hood_008.jpg)
 
-![](/images/pop/studeute/frontend001.jpg)
+![](/images/pop/Kart_Hauler_Blog/27-hood_010.jpg)
+
+![](/images/pop/Kart_Hauler_Blog/27-rear_end_001.jpg)
 
 The paint’s not buffed out yet, so the rest of the sheet metal assembly will have to wait for that.
 
 Dash is in…
 
-![](/images/pop/studeute/frontend006.jpg)
+![](/images/pop/Kart_Hauler_Blog/24-front_end_009_2.jpg)
 
 The green top part ties in exactly to the painted sill on the doors.
 

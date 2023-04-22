@@ -8,7 +8,7 @@ I’ve chosen the color for the ute. Art’s (and Brian Curtis’) LEAST favorit
 
 Actually it is 1953 Studebaker Chippewa Green. Same as the lower color on Jeff H’s beautiful ‘53…
 
-![](/images/pop/studeute/Omaha/21c4.jpg)
+![](/images/pop/Kart_Hauler_Blog/17-Sheridan-Omaha_317.jpg)
 
 The interior will be cream and the Chippewa Green vinyl done in a 50’s style.
 

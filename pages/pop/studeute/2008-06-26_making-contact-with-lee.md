@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Making contact with Lee
+title: Making Contact With Lee
 date: "2008-06-26"
 ---
 

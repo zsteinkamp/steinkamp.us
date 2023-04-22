@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Crate deal from Gord
+title: Crate Deal From Gord
 date: "2008-07-26"
 ---
 
@@ -8,16 +8,16 @@ Gord shipped me the T86 OD with top shifter that he built for the Ute. It arrive
 
 The crate is a work of art! 😝…but to be expected from Gord 👍…
 
-![](/wp-content/uploads/2008/12/pics-0411.jpg "pics-0411")
+![](/images/pop/Kart_Hauler_Blog/13-pics_039.jpg)
 
 Check the rubber tube covered rope handles 😬
 
 It is nicer than the coffee table in my house, so Jon and I thought we should use it as such at the “clubhouse”…
 
-![](/wp-content/uploads/2008/12/pics-0421.jpg "pics-0421")
+![](/images/pop/Kart_Hauler_Blog/13-pics_042.jpg)
 
 Inside was the T86 and parts…all very carefully packed and secured. I think this package would have made it to Mars with no damage 😎…
 
-![](/wp-content/uploads/2008/12/pics-043.jpg "pics-043")
+![](/images/pop/Kart_Hauler_Blog/13-pics_043.jpg)
 
 Thanks, Gord!! 😄

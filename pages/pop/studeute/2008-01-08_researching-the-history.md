@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Researching the history
+title: Researching the History
 date: "2008-01-08"
 ---
 
@@ -8,14 +8,14 @@ I got in contact with George Barris.  No go.  He didn’t do the car.  I kind
 
 Then Scott Rodgers from the Studebaker Driver’s club forum found this photo in the latest issue of Hot Rod Deluxe…
 
-![](/wp-content/uploads/2008/12/hrds-070033-where-1-hr.jpg "hrds-070033-where-1-hr")
+![](/images/pop/Kart_Hauler_Blog/5-hot_rod_deluxe_oakland_show_1.jpg)
 
 There was my car in the center of the picture of the 1959 Oakland Roadster Show!
 
 With that confirmation, I got a copy of the 1959 ORS program from my friend Gary Minor…
 
-![](/wp-content/uploads/2008/12/untitled-scanned-01.jpg "untitled-scanned-01")
+![](/images/pop/Kart_Hauler_Blog/5-Untitled-Scanned-01.jpg)
 
 There was my car.  #706! (700A is Ala Kart and 1959 would be the second year in a row that it won the AMBR trophy)…
 
-![](/wp-content/uploads/2008/12/untitled-grayscale-01.jpg "untitled-grayscale-01")
+![](/images/pop/Kart_Hauler_Blog/5-Untitled-Scanned-02.jpg)

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Who let the Ute out?
+title: Who Let the Ute Out?
 date: "2008-11-27"
 ---
 

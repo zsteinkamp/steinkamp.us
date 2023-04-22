@@ -1,34 +1,30 @@
 ---
 layout: post
-title: 2009 GNRS…The Ute is in!
+title: 2009 GNRS…The Ute Is In!
 date: "2008-06-01"
 ---
 
-**I’m stoked** 😝 😎 😄 
+**I’m stoked** 😝 😎 😄
 
 Just received this from the Producer of the Grand National Roadster Show…
 
-_“Hi Dick,_
-
-_
-
-I have a neat surprise for you.
-
-I am working on the 60th Anniversary currently, and we are going to attempt to recreate the building that your car was in back in 59!
-
-I would love to see you and the car there. The plan is to have 10 50�s cars from the show in the front of the building and then timeline back to current in the back of the building.
-
-We are going to recreate the overhead signs as well as try to locate some old standard oil barrels to place around the vehicles.
-
-We will use Bld 9 that we used for the 75th anniversary of the 32 ford 2 years ago.
-
-All of the cars in this room will be historic vehicles and I would love to see you and your Studebaker there.
-
-Please send me you mailing address so I can get you more details.
-
-_
-
-_John Buck “_
+> Hi Dick,
+> 
+> I have a neat surprise for you.
+> 
+> I am working on the 60th Anniversary currently, and we are going to attempt to recreate the building that your car was in back in 59!
+> 
+> I would love to see you and the car there. The plan is to have 10 50's cars from the show in the front of the building and then timeline back to current in the back of the building.
+> 
+> We are going to recreate the overhead signs as well as try to locate some old standard oil barrels to place around the vehicles.
+> 
+> We will use Bld 9 that we used for the 75th anniversary of the 32 ford 2 years ago.
+> 
+> All of the cars in this room will be historic vehicles and I would love to see you and your Studebaker there.
+> 
+> Please send me you mailing address so I can get you more details.
+> 
+> John Buck
 
 **(did I say I was stoked? !!)** 😎😬😝😄
 

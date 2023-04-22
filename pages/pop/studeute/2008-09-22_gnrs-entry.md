@@ -1,24 +1,20 @@
 ---
 layout: post
-title: GNRS entry
+title: GNRS Entry
 date: "2008-09-22"
 ---
 
 I just received the Ute’s official invitation to the Grand National Roadster Show. Included are some of the things to do that separate the winners from the losers.
 
-_**Are the tires indexed correctly on the wheel and aligned so that the valve stems are placed at bottom as the vehicles rests on the ground?**_
-
-_**
-
-Are the tire nibs removed and the tread dressed so you see no factory blemishes?
-
-Is the wiring loomed with wire ties spaced one inch apart?
-
-Are all the fasteners lined up (clocked) and are they of the same type?
-
-**_
-
-_**Can the judging team touch any part of the vehicle with white gloves and not find any dirt or grease or sooty exhaust?**_
+> * Are the tires indexed correctly on the wheel and aligned so that the valve stems are placed at bottom as the vehicles rests on the ground?
+> 
+> * Are the tire nibs removed and the tread dressed so you see no factory blemishes?
+> 
+> * Is the wiring loomed with wire ties spaced one inch apart?
+> 
+> * Are all the fasteners lined up (clocked) and are they of the same type?
+> 
+> * Can the judging team touch any part of the vehicle with white gloves and not find any dirt or grease or sooty exhaust?
 
 …and on and on.
 

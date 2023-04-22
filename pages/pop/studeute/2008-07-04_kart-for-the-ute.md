@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Kart for the Ute
+title: Kart For the Ute
 date: "2008-07-04"
 ---
 
@@ -10,9 +10,9 @@ In the meantime, I have been hunting for the right Kart to display in the bed of
 
 I found it and bought it today…
 
-![](/images/pop/studeute/DartABonewithtwin820s.jpg)
+![](/images/pop/Kart_Hauler_Blog/11-kart_023.jpg)
 
-![](/images/pop/studeute/DartABone-frontview.jpg)
+![](/images/pop/Kart_Hauler_Blog/11-kart_005_2.jpg)
 
 It’s a Dart “A-bone” with two West Bend 820’s. Race ready.
 

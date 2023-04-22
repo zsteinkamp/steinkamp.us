@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Final week before the GNRS
+title: Final Week Before the GNRS
 date: "2009-01-14"
 ---
 
@@ -8,7 +8,9 @@ I’m at my son’s house in San Jose, madly trying to cram two weeks’ worth o
 
 Today, I installed the stainless strips in the bed…
 
-![](/wp-content/uploads/2009/01/img_02391-600x450.jpg "img_02391")
+![](/images/pop/Kart_Hauler_Blog/38-end_007.jpg)
+
+![](/images/pop/Kart_Hauler_Blog/38-end_008.jpg)
 
 I also got the residue from color sanding and dust off the chassis…
 
@@ -18,8 +20,10 @@ I also got the residue from color sanding and dust off the chassis…
 
 The dash is coming together…
 
-![](/wp-content/uploads/2009/01/img_02411-600x450.jpg "img_02411")
+![](/images/pop/Kart_Hauler_Blog/38-end_002.jpg)
 
 Still too many items left on the punch list…
+
+![](/images/pop/Kart_Hauler_Blog/38-end_014.jpg)
 
 ![](/wp-content/uploads/2009/01/img_02451-600x450.jpg "img_02451")

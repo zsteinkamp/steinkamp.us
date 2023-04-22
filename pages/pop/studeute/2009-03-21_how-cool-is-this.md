@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How cool is this!…
+title: How Cool is This!…
 date: "2009-03-21"
 ---
 

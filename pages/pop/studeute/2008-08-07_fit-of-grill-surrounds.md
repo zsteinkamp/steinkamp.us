@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fit of grill surrounds
+title: Fit of Grill Surrounds
 date: "2008-08-07"
 ---
 
@@ -8,11 +8,11 @@ I seem to remember the grill surrounds on my ‘54 hardtop did not fit perfectly
 
 There is a vertical “shoulder” on the fender that the surround fits to…
 
-![](/images/pop/studeute/pics092.jpg)
+![](/images/pop/Kart_Hauler_Blog/15-manifold_030.jpg)
 
 It would be great if the grill surround followed the line of this “shoulder” on into the hood, but it doesn’t…
 
-![](/images/pop/studeute/pics082.jpg)
+![](/images/pop/Kart_Hauler_Blog/15-pics_087.jpg)
 
 This is the surround just sitting in the opening. I can make it fit a little better and even weld up the hole if it ends up to be too big…the problem is with the hood matched nicely to the fender and the grill surround following the panel under the hood, it is impossible for the surround to follow that body line where the fender goes vertical.
 

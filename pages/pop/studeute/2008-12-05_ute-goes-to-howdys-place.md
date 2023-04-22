@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ute goes to Howdy’s Place
+title: Ute Goes to Howdy’s Place
 date: "2008-12-05"
 ---
 

@@ -6,6 +6,6 @@ date: "2007-12-01"
 
 I offered far less than his asking…without the Chevy motor and transmission.  Brian and I loaded it up…
 
-![](/wp-content/uploads/2008/12/dscn0081-1.jpg "dscn0081-1")
+![Image](/images/pop/Kart_Hauler_Blog/2-DSCN0081-1.jpg)
 
-![](/wp-content/uploads/2008/12/dscn0083.jpg "dscn0083")
+![Image](/images/pop/Kart_Hauler_Blog/2-DSCN0082.jpg)
