@@ -23,7 +23,7 @@ He is really stoked that the car will be at the GNRS in January of 2009 for it�
 
 Lee gave me copies of 15 pictures of the car under construction and completed. Here they are for any one that is interested…
 
-[/images/pop/studeute/Stude-a-mino%20old%20pics/)
+[Vintage Kart Hauler Photos](https://photos.app.goo.gl/kRysyw6MuFfByLza7)
 
 Here’s one shot of the finished car in 1958…
 
