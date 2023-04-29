@@ -10,16 +10,16 @@ A couple of weeks ago, I started into wiring it, getting it running, and working
 
 It is now running good enough and driving good enough that Brian Curtis and I took it out for a photo shoot in several different locations.
 
-{% youtube src="https://www.youtube.com/embed/lPTf5Ir7iPg" title="Driving around" %}
+{% youtube src="https://www.youtube.com/embed/lPTf5Ir7iPg" title="Driving around" /%}
 
 Here’s a few of what I took. Brian is the REAL photographer and his will be much better than these. Also, my batteries died before we got to the harbor, and the venues there looked real good to my untrained eye. I’m anxious to see Brian’s pictures.
 
-![](/images/pop/studeute/pics007-1.jpg)
+![](/images/pop/Kart_Hauler_Blog/42-pics_007.jpg)
 
-![](/images/pop/studeute/pics017-1.jpg)
+![](/images/pop/Kart_Hauler_Blog/42-pics_017.jpg)
 
-![](/images/pop/studeute/pics028-2.jpg)
+![](/images/pop/Kart_Hauler_Blog/42-pics_028.jpg)
 
-![](/images/pop/studeute/pics037-1.jpg)
+![](/images/pop/Kart_Hauler_Blog/42-pics_037-1.jpg)
 
-![](/images/pop/studeute/pics066-2.jpg)
+![](/images/pop/Kart_Hauler_Blog/42-pics_066.jpg)
