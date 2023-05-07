@@ -4,7 +4,12 @@ import dayjs from "dayjs";
 import utc from "dayjs/plugin/utc";
 dayjs.extend(utc);
 
-const PostIndex = ({ posts, className }) => {
+interface PostIndexProps {
+  posts: Array<any>
+  className?: string
+}
+
+const PostIndex:React.FC<PostIndexProps> = ({ posts, className="" }) => {
   return (
     <ul className={`posts ${className}`}>
       {posts.map((post) => (

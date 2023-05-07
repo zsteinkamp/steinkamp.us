@@ -14,7 +14,11 @@ export const getStaticProps = async () => {
   };
 };
 
-const Songs = ({ data }) => {
+interface SongsProps {
+  data: Array<any>
+}
+
+const Songs:React.FC<SongsProps> = ({ data }) => {
   const songs = data.map((song, i) => {
     return (
       <div key={i} className="grid grid-cols-4">

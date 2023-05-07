@@ -11,7 +11,7 @@ import dayjs from 'dayjs';
 import utc from 'dayjs/plugin/utc';
 dayjs.extend(utc);
 
-const getFirstImageUrl = (ast) => {
+const getFirstImageUrl = (ast: any) => {
   for (const node of ast.walk()) {
     if (node.type === 'image') {
       return node.attributes.src;
@@ -20,7 +20,7 @@ const getFirstImageUrl = (ast) => {
   return null;
 };
 
-const getPosts = async ({indexPath, newestFirst = true}) => {
+const getPosts = async (indexPath: string, newestFirst: boolean=true) => {
   // Find all Markdown files in the specified directory
   const POSTS_DIR = path.join(process.cwd(), "pages", indexPath);
   const postsPath = (await glob("*", { cwd: POSTS_DIR }))
@@ -33,7 +33,7 @@ const getPosts = async ({indexPath, newestFirst = true}) => {
       const source = await fsp.readFile(path.join(POSTS_DIR, postPath), "utf8");
       const ast = Markdoc.parse(source);
       const data = ast.attributes.frontmatter
-        ? yaml.load(ast.attributes.frontmatter)
+        ? yaml.load(ast.attributes.frontmatter) as any
         : {};
 
       let thumbnail = null;

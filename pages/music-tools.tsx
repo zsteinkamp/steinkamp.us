@@ -2,6 +2,7 @@ import yaml from 'js-yaml';
 import fs from 'fs';
 import Head from 'next/head';
 import Link from 'next/link';
+import Image from 'next/image';
 import ReactMarkdown from 'react-markdown';
 
 export async function getStaticProps() {
@@ -14,7 +15,11 @@ export async function getStaticProps() {
   };
 }
 
-export default function MusicToolsPage({ data }) {
+interface MusicToolsProps {
+  data: Array<any>
+}
+
+const MusicToolsPage:React.FC<MusicToolsProps>  = ({ data }) => {
   const titleList = data.map((app) => {
     return (
       <li key={app.link}><Link href={`#${app.title}`}>{app.title}</Link></li>
@@ -25,13 +30,13 @@ export default function MusicToolsPage({ data }) {
     return (
       <div className="pt-8" key={app.link}>
         <div className="flex justify-between">
-          <h2><Link href={app.link} name={app.title}>{app.title}</Link></h2>
+          <h2><Link href={app.link} title={app.title}>{app.title}</Link></h2>
           <div className="self-end">
             <Link href={app.link}>More Info / Download</Link>
           </div>
         </div>
         <div>
-          <Link href={app.link} name={app.title}><img src={app.image} /></Link>
+          <Link href={app.link} title={app.title}><Image alt={app.title} src={app.image} /></Link>
         </div>
         <ReactMarkdown>
           { app.description }

@@ -18,7 +18,7 @@ module.exports = withMarkdoc({ schemaPath: './markdoc' })({
     ],
   },
   typescript: {
-    ignoreBuildErrors: true,
+    ignoreBuildErrors: false,
   },
   webpack: (config) => {
     config.resolve.fallback = {
