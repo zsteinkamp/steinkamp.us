@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Potty Time, Excellent
-date: "2006-02-28 17:00:00"
+date: '2006-02-28 17:00:00'
 categories: post post
 entry:
   id: 233
@@ -13,9 +13,9 @@ entry:
       Toilet train an infant?  Unheard of in disposable American diaper culture,
       most babies around the world are potty trained by the time they are a year old.  We
       decided we would get Marina on the track to becoming Diaper Free...
-  created_at: "2010-08-30 05:16:38"
-  updated_at: "2010-08-30 05:16:38"
-  pub_date: "2006-02-28 17:00:00"
+  created_at: '2010-08-30 05:16:38'
+  updated_at: '2010-08-30 05:16:38'
+  pub_date: '2006-02-28 17:00:00'
   disabled: 0
 ---
 

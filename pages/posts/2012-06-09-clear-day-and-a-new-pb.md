@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Clear Day, and a new PB
-date: "2012-06-09 18:41:26"
+date: '2012-06-09 18:41:26'
 excerpt: |
   I met up with Brendon at the Stanford Ave trailhead this morning.  It
   was a beautiful, clear day.  I managed a 56:00-ish time by working in some running

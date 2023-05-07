@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Fremont Older Rattler
-date: "2016-07-15 04:06:08"
+date: '2016-07-15 04:06:08'
 source: youtube
 uid: B7OIuuoWEkM
 excerpt: |

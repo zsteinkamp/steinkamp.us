@@ -1,7 +1,7 @@
 ---
 layout: post
 title: BMWCCA at Laguna Seca
-date: "2011-03-15 01:46:49"
+date: '2011-03-15 01:46:49'
 source: youtube
 uid: moN8pOeDbUM
 excerpt: |

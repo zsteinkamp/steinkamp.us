@@ -1,21 +1,21 @@
-import yaml from "js-yaml";
-import fsp from "fs/promises";
-import Head from "next/head";
-import Link from "next/link";
-import ReactMarkdown from "react-markdown";
+import yaml from 'js-yaml'
+import fsp from 'fs/promises'
+import Head from 'next/head'
+import Link from 'next/link'
+import ReactMarkdown from 'react-markdown'
 
 export const getStaticProps = async () => {
-  const data = yaml.load(await fsp.readFile("data/songs.yaml", "utf8"));
+  const data = yaml.load(await fsp.readFile('data/songs.yaml', 'utf8'))
 
   return {
     props: {
       data,
     },
-  };
-};
+  }
+}
 
 interface SongsProps {
-  data: Array<any>;
+  data: Array<any>
 }
 
 const Songs: React.FC<SongsProps> = ({ data }) => {
@@ -31,7 +31,7 @@ const Songs: React.FC<SongsProps> = ({ data }) => {
             <iframe
               className="rounded-lg w-full h-24 border-none"
               src={`https://bandcamp.com/EmbeddedPlayer/${
-                song.type || "track"
+                song.type || 'track'
               }=${
                 song.bandcampId
               }/size=large/bgcol=666666/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/`}
@@ -41,8 +41,8 @@ const Songs: React.FC<SongsProps> = ({ data }) => {
           <ReactMarkdown>{song.description}</ReactMarkdown>
         </div>
       </div>
-    );
-  });
+    )
+  })
 
   return (
     <>
@@ -58,7 +58,7 @@ const Songs: React.FC<SongsProps> = ({ data }) => {
         One of my hobbies is music-making. I like to record sounds and make
         instruments out of them, or design new sounds with synthesizers. I used
         to have a room full of equipment, but now I just use a laptop and some
-        external MIDI controllers. If you use Spotify, you can{" "}
+        external MIDI controllers. If you use Spotify, you can{' '}
         <a href="https://open.spotify.com/playlist/5s96egT8OPl3O3bMlk04qp?si=idq446saSgiDHgX43wsONw">
           add my playlist
         </a>
@@ -67,19 +67,19 @@ const Songs: React.FC<SongsProps> = ({ data }) => {
         the song.
       </p>
       <p>
-        You can listen to my music here, or on{" "}
+        You can listen to my music here, or on{' '}
         <a href="https://open.spotify.com/artist/4zlbGPYkjV7EpxXHyfZNAh?si=51oxTGABQIGwOdBS_YaYBw">
           Spotify
         </a>
-        ,{" "}
+        ,{' '}
         <a href="https://music.apple.com/us/artist/zack-steinkamp/1217691470">
           iTunes / Apple Music
         </a>
-        ,{" "}
+        ,{' '}
         <a href="https://www.amazon.com/s?k=Zack+Steinkamp&i=digital-music&search-type=ss">
           Amazon Music
         </a>
-        ,{" "}
+        ,{' '}
         <a href="https://www.youtube.com/channel/UCVKBjFZJYJ-0-5TiOHWj-OQ">
           YouTube
         </a>
@@ -87,7 +87,7 @@ const Songs: React.FC<SongsProps> = ({ data }) => {
       </p>
       <div className="w-full pt-8">{songs}</div>
     </>
-  );
-};
+  )
+}
 
-export default Songs;
+export default Songs

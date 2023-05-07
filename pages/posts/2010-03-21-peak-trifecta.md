@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Peak Trifecta
-date: "2010-03-21 20:20:36"
+date: '2010-03-21 20:20:36'
 categories: post post
 entry:
   id: 279
@@ -9,10 +9,10 @@ entry:
   uid: 231
   data:
     title: Peak Trifecta
-    excerpt: ""
-  created_at: "2010-08-30 05:16:39"
-  updated_at: "2010-08-30 05:16:39"
-  pub_date: "2010-03-21 20:20:36"
+    excerpt: ''
+  created_at: '2010-08-30 05:16:39'
+  updated_at: '2010-08-30 05:16:39'
+  pub_date: '2010-03-21 20:20:36'
   disabled: 0
 ---
 

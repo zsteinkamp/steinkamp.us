@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mission Peak MTB With Ptr
-date: "2012-10-17 14:30:00"
+date: '2012-10-17 14:30:00'
 excerpt: Rode up Mission Peak with PeterE for the first time this morning.  Crazy wind!
 ---
 

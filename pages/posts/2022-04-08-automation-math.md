@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Automation Math
-date: "2022-04-08 12:00:00"
-thumbnail: "/images/AutomationMath.png"
+date: '2022-04-08 12:00:00'
+thumbnail: '/images/AutomationMath.png'
 ---
 
 ![The device in context.](/images/AutomationMath-wide.png)

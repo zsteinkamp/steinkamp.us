@@ -1,7 +1,7 @@
 ---
 layout: post
 title: In-Car Camera 2.0
-date: "2006-09-03 17:00:00"
+date: '2006-09-03 17:00:00'
 categories: post post
 entry:
   id: 244
@@ -12,9 +12,9 @@ entry:
     excerpt:
       The latest revision of my quest to get the best possible setup for putting
       a camera in/on the car.
-  created_at: "2010-08-30 05:16:38"
-  updated_at: "2010-08-30 05:16:38"
-  pub_date: "2006-09-03 17:00:00"
+  created_at: '2010-08-30 05:16:38'
+  updated_at: '2010-08-30 05:16:38'
+  pub_date: '2006-09-03 17:00:00'
   disabled: 0
 ---
 

@@ -1,17 +1,17 @@
 ---
 layout: post
 title: Finally, No Blisters!
-date: "2010-10-26 05:29:42"
+date: '2010-10-26 05:29:42'
 categories: post post
 entry:
   id: 399
   source: post
   data:
-    excerpt: ""
+    excerpt: ''
     title: Finally, No Blisters!
-  created_at: "2010-10-26 05:29:42"
-  updated_at: "2010-10-26 05:29:42"
-  pub_date: "2010-10-26 05:29:42"
+  created_at: '2010-10-26 05:29:42'
+  updated_at: '2010-10-26 05:29:42'
+  pub_date: '2010-10-26 05:29:42'
   disabled: 0
 ---
 

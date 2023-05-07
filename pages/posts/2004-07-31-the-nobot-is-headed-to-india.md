@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Nobot is Headed to India
-date: "2004-07-31 09:49:12"
+date: '2004-07-31 09:49:12'
 categories: post post
 entry:
   id: 162
@@ -9,10 +9,10 @@ entry:
   uid: 22
   data:
     title: The Nobot is Headed to India
-    excerpt: ""
-  created_at: "2010-08-30 05:16:37"
-  updated_at: "2010-08-30 05:16:37"
-  pub_date: "2004-07-31 09:49:12"
+    excerpt: ''
+  created_at: '2010-08-30 05:16:37'
+  updated_at: '2010-08-30 05:16:37'
+  pub_date: '2004-07-31 09:49:12'
   disabled: 0
 ---
 

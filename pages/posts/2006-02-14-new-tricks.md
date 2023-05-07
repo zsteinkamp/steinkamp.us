@@ -1,7 +1,7 @@
 ---
 layout: post
 title: New Tricks
-date: "2006-02-14 09:26:00"
+date: '2006-02-14 09:26:00'
 categories: post post
 entry:
   id: 231
@@ -12,9 +12,9 @@ entry:
     excerpt:
       A short summary of Marina's development in the past month or so.  Potty
       training, rolling over, grabbing things, and interest in food are her new tricks.
-  created_at: "2010-08-30 05:16:38"
-  updated_at: "2010-08-30 05:16:38"
-  pub_date: "2006-02-14 09:26:00"
+  created_at: '2010-08-30 05:16:38'
+  updated_at: '2010-08-30 05:16:38'
+  pub_date: '2006-02-14 09:26:00'
   disabled: 0
 ---
 

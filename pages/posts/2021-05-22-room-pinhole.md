@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Room Pinhole Camera
-date: "2021-05-22 11:00:00"
+date: '2021-05-22 11:00:00'
 thumbnail: https://photos.steinkamp.us/photo/2021-05-21_room-pinhole-camera/IMG_2523.JPG?size=300x300&crop
 ---
 

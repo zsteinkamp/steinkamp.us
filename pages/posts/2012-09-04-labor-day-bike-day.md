@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Labor Day Bike Day
-date: "2012-09-04 04:41:04"
+date: '2012-09-04 04:41:04'
 excerpt: We celebrated Labor today with some bicycle-oriented garage projects, and I went for a ride with Sean Kohler, after 12 years away from a mountain bike.
 ---
 

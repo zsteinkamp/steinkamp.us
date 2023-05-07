@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 36 Glorious Plies
-date: "2005-01-17 19:41:38"
+date: '2005-01-17 19:41:38'
 categories: post post
 entry:
   id: 217
@@ -9,10 +9,10 @@ entry:
   uid: 77
   data:
     title: 36 Glorious Plies
-    excerpt: ""
-  created_at: "2010-08-30 05:16:38"
-  updated_at: "2010-08-30 05:16:38"
-  pub_date: "2005-01-17 19:41:38"
+    excerpt: ''
+  created_at: '2010-08-30 05:16:38'
+  updated_at: '2010-08-30 05:16:38'
+  pub_date: '2005-01-17 19:41:38'
   disabled: 0
 ---
 

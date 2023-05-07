@@ -1,4 +1,4 @@
-import BackButton from "@/components/BackButton";
+import BackButton from '@/components/BackButton'
 
 export const backbutton = {
   render: BackButton,
@@ -6,4 +6,4 @@ export const backbutton = {
     label: { type: String },
     className: { type: String },
   },
-};
+}

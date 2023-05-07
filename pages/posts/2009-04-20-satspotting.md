@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Satspotting
-date: "2009-04-20 21:01:34"
+date: '2009-04-20 21:01:34'
 categories: post post
 entry:
   id: 272
@@ -9,10 +9,10 @@ entry:
   uid: 199
   data:
     title: Satspotting
-    excerpt: ""
-  created_at: "2010-08-30 05:16:39"
-  updated_at: "2010-08-30 05:16:39"
-  pub_date: "2009-04-20 21:01:34"
+    excerpt: ''
+  created_at: '2010-08-30 05:16:39'
+  updated_at: '2010-08-30 05:16:39'
+  pub_date: '2009-04-20 21:01:34'
   disabled: 0
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ohlone Sprint
-date: "2012-09-15 17:30:21"
+date: '2012-09-15 17:30:21'
 excerpt: Ohlone == 53:05 ==> MP == 33:48 ==> Ohlone. Starting to track my downhill times.  A big old tarantula (6" legspan) crossed the path on the way up.  First time I've seen one alive.
 ---
 

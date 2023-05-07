@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Laguna with PDC
-date: "2012-03-19 18:26:23"
+date: '2012-03-19 18:26:23'
 source: youtube
 uid: HLEJJ9GaN1c
 excerpt: |

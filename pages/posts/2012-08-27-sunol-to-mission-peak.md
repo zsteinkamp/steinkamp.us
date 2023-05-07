@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sunol to Mission Peak
-date: "2012-08-27 04:24:45"
+date: '2012-08-27 04:24:45'
 excerpt: |
   I took my new favorite shoes out this morning (New Balance MT1010) for
   a run/hike in Sunol today.  This was the most enjoyable running time I've ever

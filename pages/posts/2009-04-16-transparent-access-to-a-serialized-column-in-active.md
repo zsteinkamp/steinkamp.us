@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Transparent Access to a Serialized Column in ActiveRecord
-date: "2009-04-16 20:28:53"
+date: '2009-04-16 20:28:53'
 categories: post post
 entry:
   id: 270
@@ -9,10 +9,10 @@ entry:
   uid: 187
   data:
     title: Transparent Access to a Serialized Column in ActiveRecord
-    excerpt: ""
-  created_at: "2010-08-30 05:16:38"
-  updated_at: "2010-08-30 05:16:38"
-  pub_date: "2009-04-16 20:28:53"
+    excerpt: ''
+  created_at: '2010-08-30 05:16:38'
+  updated_at: '2010-08-30 05:16:38'
+  pub_date: '2009-04-16 20:28:53'
   disabled: 0
 ---
 

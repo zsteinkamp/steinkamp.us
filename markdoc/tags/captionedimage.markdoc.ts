@@ -1,4 +1,4 @@
-import CaptionedImage from "@/components/CaptionedImage";
+import CaptionedImage from '@/components/CaptionedImage'
 
 export const captionedimage = {
   render: CaptionedImage,
@@ -8,4 +8,4 @@ export const captionedimage = {
     caption: { type: String },
     className: { type: String },
   },
-};
+}

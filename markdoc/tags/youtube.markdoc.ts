@@ -1,4 +1,4 @@
-import { YouTube } from "../../components/YouTube";
+import { YouTube } from '../../components/YouTube'
 
 export const youtube = {
   render: YouTube,
@@ -13,10 +13,10 @@ export const youtube = {
     },
     width: {
       type: String,
-      default: "100%",
+      default: '100%',
     },
     className: {
       type: String,
     },
   },
-};
+}

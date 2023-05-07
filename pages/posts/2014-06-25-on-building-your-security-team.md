@@ -1,17 +1,17 @@
 ---
 layout: post
 title: On Building Your Security Team
-date: "2014-06-25 17:46:29"
+date: '2014-06-25 17:46:29'
 categories: post post
 entry:
   id: 1077
   source: post
   data:
     title: On Building Your Security Team
-    excerpt: ""
-  created_at: "2014-06-25 17:48:46"
-  updated_at: "2014-06-25 17:53:32"
-  pub_date: "2014-06-25 17:46:29"
+    excerpt: ''
+  created_at: '2014-06-25 17:48:46'
+  updated_at: '2014-06-25 17:53:32'
+  pub_date: '2014-06-25 17:46:29'
   disabled: 0
 ---
 

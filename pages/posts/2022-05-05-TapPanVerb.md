@@ -1,7 +1,7 @@
 ---
 layout: post
 title: TapPanVerb - A Reverb + Delay Tap Field + Feedback Effect
-date: "2022-05-05 12:00:00"
+date: '2022-05-05 12:00:00'
 thumbnail: /images/tapPanVerb.png
 ---
 

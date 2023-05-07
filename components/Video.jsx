@@ -1,6 +1,6 @@
 const Video = ({
   src,
-  type = "video/mp4",
+  type = 'video/mp4',
   autoPlay = false,
   loop = false,
   className,
@@ -20,7 +20,7 @@ const Video = ({
         `}
       </style>
     </div>
-  );
-};
+  )
+}
 
-export default Video;
+export default Video

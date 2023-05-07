@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "New Max for Live Device: Modulation Lerp"
-date: "2023-04-11 12:00:00"
+title: 'New Max for Live Device: Modulation Lerp'
+date: '2023-04-11 12:00:00'
 thumbnail: /images/lerp/lerp.png
 ---
 

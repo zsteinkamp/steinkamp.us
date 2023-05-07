@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bike to Work Day Run
-date: "2013-05-10 03:58:32"
+date: '2013-05-10 03:58:32'
 categories: post post
 entry:
   id: 923
@@ -13,9 +13,9 @@ entry:
       of the ridge and visit Mt. Allison before heading back over and down Mission
       Peak. 9.7 miles, 2750ft climb, 2h05m.
     title: Bike to Work Day Run
-  created_at: "2013-05-10 04:12:01"
-  updated_at: "2013-05-10 04:12:01"
-  pub_date: "2013-05-10 03:58:32"
+  created_at: '2013-05-10 04:12:01'
+  updated_at: '2013-05-10 04:12:01'
+  pub_date: '2013-05-10 03:58:32'
   disabled: 0
 ---
 

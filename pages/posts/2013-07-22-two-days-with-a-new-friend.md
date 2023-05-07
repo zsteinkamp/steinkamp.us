@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Two Days With a New Friend
-date: "2013-07-22 04:19:49"
+date: '2013-07-22 04:19:49'
 categories: post post
 entry:
   id: 931
@@ -9,9 +9,9 @@ entry:
   data:
     excerpt: The story of a weekend spent in and out of the garage with a hummingbird.
     title: Two Days With a New Friend
-  created_at: "2013-07-22 04:46:50"
-  updated_at: "2013-07-22 04:46:50"
-  pub_date: "2013-07-22 04:19:49"
+  created_at: '2013-07-22 04:46:50'
+  updated_at: '2013-07-22 04:46:50'
+  pub_date: '2013-07-22 04:19:49'
   disabled: 0
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "My History of Programming(-ish) Languages"
-date: "2023-01-22 12:00:00"
+title: 'My History of Programming(-ish) Languages'
+date: '2023-01-22 12:00:00'
 categories: post
 entry:
   source: post

@@ -1,4 +1,4 @@
-version: "3"
+version: '3'
 name: steinkamp_us_prod
 services:
   web:
@@ -6,7 +6,7 @@ services:
       context: .
       target: prod
     ports:
-      - "3125:3125"
+      - '3125:3125'
     restart: unless-stopped
 volumes:
   app_node_modules:

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Rode Home Again
-date: "2012-10-13 04:24:22"
+date: '2012-10-13 04:24:22'
 excerpt: |
   Second time riding home from work.  It took 30 minutes less today, despite
   taking a bit longer route.  This is mostly due to not taking wrong turns and

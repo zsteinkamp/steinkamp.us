@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Run a Tapered Fork on a 1.5" Cannondale
-date: "2014-08-20 16:11:54"
+date: '2014-08-20 16:11:54'
 ---
 
 If you have bought a Cannondale mountain bike, you may be surprised at the limited number of fork options due to Cannondale's non-standard straight 1.5" headtube choice. Most bikes use a straight 1 1/8" headtube. Nicer frames use a tapered 1 1/8" to 1 1/2" design. The larger diameter is stiffer and provides for a larger bearing surface, so Cannondale wasn't being totally arbitrary with their choice, but it's nonstandard nonetheless.

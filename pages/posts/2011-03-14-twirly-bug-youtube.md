@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Twirly Bug
-date: "2011-03-14 00:56:09"
+date: '2011-03-14 00:56:09'
 source: youtube
 uid: X2p7j25pqDU
 excerpt: |

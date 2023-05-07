@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Actual Room Reverb
-date: "2021-03-03 12:00:00"
+date: '2021-03-03 12:00:00'
 categories: post
 thumbnail: https://photos.steinkamp.us/photo/2021-03-03_room-reverb/2021030408155275--7795515852288585693-IMG_1899_HEIC.JPG?size=300x300&crop
 ---

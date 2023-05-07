@@ -1,17 +1,17 @@
 ---
 layout: post
 title: Tri For Fun - Pleasanton 2013 Recap
-date: "2013-07-20 15:00:00"
+date: '2013-07-20 15:00:00'
 categories: post post
 entry:
   id: 930
   source: post
   data:
-    excerpt: ""
+    excerpt: ''
     title: Tri For Fun - Pleasanton 2013 Recap
-  created_at: "2013-07-21 19:39:28"
-  updated_at: "2013-07-21 20:11:11"
-  pub_date: "2013-07-20 15:00:00"
+  created_at: '2013-07-21 19:39:28'
+  updated_at: '2013-07-21 20:11:11'
+  pub_date: '2013-07-20 15:00:00'
   disabled: 0
 ---
 

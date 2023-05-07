@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Winter Bounty
-date: "2012-02-18 21:17:48"
+date: '2012-02-18 21:17:48'
 ---
 
 The girls assembled this themselves in the backyard...

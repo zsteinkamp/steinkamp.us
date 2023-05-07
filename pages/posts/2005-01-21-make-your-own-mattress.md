@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Make Your Own Mattress
-date: "2005-01-21 00:27:23"
+date: '2005-01-21 00:27:23'
 categories: post post
 entry:
   id: 218
@@ -9,10 +9,10 @@ entry:
   uid: 78
   data:
     title: Make Your Own Mattress
-    excerpt: ""
-  created_at: "2010-08-30 05:16:38"
-  updated_at: "2010-08-30 05:16:38"
-  pub_date: "2005-01-21 00:27:23"
+    excerpt: ''
+  created_at: '2010-08-30 05:16:38'
+  updated_at: '2010-08-30 05:16:38'
+  pub_date: '2005-01-21 00:27:23'
   disabled: 0
 ---
 

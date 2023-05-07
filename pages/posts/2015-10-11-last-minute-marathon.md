@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Last Minute Marathon
-date: "2015-10-11 05:36:02"
+date: '2015-10-11 05:36:02'
 thumbnail: https://photos.steinkamp.us/photo/zzz_blog_images/last_minute_marathon-2015SttS.jpg?size=300x300&crop
 ---
 

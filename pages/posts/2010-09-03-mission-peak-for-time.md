@@ -1,18 +1,18 @@
 ---
 layout: post
 title: Mission Peak for Time
-date: "2010-09-03 19:00:00"
+date: '2010-09-03 19:00:00'
 categories: post post
 entry:
   id: 315
   source: post
   uid: 79411914
   data:
-    excerpt: ""
+    excerpt: ''
     title: Mission Peak for Time
-  created_at: "2010-09-03 20:09:29"
-  updated_at: "2010-09-03 20:13:38"
-  pub_date: "2010-09-03 19:00:00"
+  created_at: '2010-09-03 20:09:29'
+  updated_at: '2010-09-03 20:13:38'
+  pub_date: '2010-09-03 19:00:00'
   disabled: 0
 ---
 

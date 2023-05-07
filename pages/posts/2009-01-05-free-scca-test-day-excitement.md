@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Free SCCA Test Day Excitement
-date: "2009-01-05 11:06:15"
+date: '2009-01-05 11:06:15'
 categories: post post
 entry:
   id: 265
@@ -9,10 +9,10 @@ entry:
   uid: 160
   data:
     title: Free SCCA Test Day Excitement
-    excerpt: ""
-  created_at: "2010-08-30 05:16:38"
-  updated_at: "2010-08-30 05:16:38"
-  pub_date: "2009-01-05 11:06:15"
+    excerpt: ''
+  created_at: '2010-08-30 05:16:38'
+  updated_at: '2010-08-30 05:16:38'
+  pub_date: '2009-01-05 11:06:15'
   disabled: 0
 ---
 

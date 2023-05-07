@@ -1,17 +1,17 @@
 ---
 layout: post
 title: Ed Levin and Beyond - or - The Importance of Good Foot Underwear
-date: "2010-09-11 20:09:58"
+date: '2010-09-11 20:09:58'
 categories: post post
 entry:
   id: 380
   source: post
   data:
-    excerpt: ""
+    excerpt: ''
     title: Ed Levin and Beyond - or - The Importance of Good Foot Underwear
-  created_at: "2010-09-11 20:09:58"
-  updated_at: "2010-09-11 20:09:58"
-  pub_date: "2010-09-11 20:09:58"
+  created_at: '2010-09-11 20:09:58'
+  updated_at: '2010-09-11 20:09:58'
+  pub_date: '2010-09-11 20:09:58'
   disabled: 0
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Vestax Faderboard (-ish) In Ableton Live
-date: "2021-12-01 12:00:00"
+date: '2021-12-01 12:00:00'
 categories: post
 entry:
   source: post

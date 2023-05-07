@@ -1,4 +1,4 @@
-import { Strava } from "../../components/Strava";
+import { Strava } from '../../components/Strava'
 
 export const strava = {
   render: Strava,
@@ -11,4 +11,4 @@ export const strava = {
       type: String,
     },
   },
-};
+}

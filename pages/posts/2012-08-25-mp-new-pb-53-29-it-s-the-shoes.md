@@ -1,7 +1,7 @@
 ---
 layout: post
 title: MP new PB - 53:29.  It's the shoes!
-date: "2012-08-25 04:42:25"
+date: '2012-08-25 04:42:25'
 excerpt: Beautiful Friday night hike/run up Mission Peak from Stanford Ave in a new pair of New Balance MT1010s.
 ---
 

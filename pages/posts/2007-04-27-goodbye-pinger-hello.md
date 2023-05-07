@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Goodbye Pinger, Hello ____!
-date: "2007-04-27 00:00:00"
+date: '2007-04-27 00:00:00'
 categories: post post
 entry:
   id: 251
@@ -10,9 +10,9 @@ entry:
   data:
     title: Goodbye Pinger, Hello ____!
     excerpt: Springtime brings all kinds of new things.
-  created_at: "2010-08-30 05:16:38"
-  updated_at: "2010-08-30 05:16:38"
-  pub_date: "2007-04-27 00:00:00"
+  created_at: '2010-08-30 05:16:38'
+  updated_at: '2010-08-30 05:16:38'
+  pub_date: '2007-04-27 00:00:00'
   disabled: 0
 ---
 

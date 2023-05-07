@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Beet Hash with Beet Greens
-date: "2015-09-01 01:29:56"
+date: '2015-09-01 01:29:56'
 categories: post post
 entry:
   id: 1118
@@ -16,9 +16,9 @@ entry:
       I found that the greens are entirely edible -- stems and all. So begins tonight's
       experiment.
 
-  created_at: "2015-09-01 01:45:09"
-  updated_at: "2015-09-01 01:55:30"
-  pub_date: "2015-09-01 01:29:56"
+  created_at: '2015-09-01 01:45:09'
+  updated_at: '2015-09-01 01:55:30'
+  pub_date: '2015-09-01 01:29:56'
   disabled: 0
 ---
 

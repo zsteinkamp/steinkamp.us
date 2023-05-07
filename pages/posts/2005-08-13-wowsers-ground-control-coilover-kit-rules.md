@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Wowsers!  Ground Control Coilover Kit Rules!
-date: "2005-08-13 00:21:00"
+date: '2005-08-13 00:21:00'
 categories: post post
 entry:
   id: 227
@@ -13,9 +13,9 @@ entry:
       'If you are thinking that your E46 M3 doesn''t quite have "the handles",
       read on.  By using a good quality suspension system, the car can be transformed
       from "Capable GT Car" to "OMGWTFBBQ Handling Machine". '
-  created_at: "2010-08-30 05:16:38"
-  updated_at: "2010-08-30 05:16:38"
-  pub_date: "2005-08-13 00:21:00"
+  created_at: '2010-08-30 05:16:38'
+  updated_at: '2010-08-30 05:16:38'
+  pub_date: '2005-08-13 00:21:00'
   disabled: 0
 ---
 

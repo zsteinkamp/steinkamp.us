@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Kennedy Trail Sunride
-date: "2012-09-08 16:38:42"
+date: '2012-09-08 16:38:42'
 excerpt: Sean convinced me that waking up at 5am on Saturday to go for a ride was a good idea.  Had a great time again with him going up Kennedy Trail, this time at sunrise.  We started out when it was barely light enough to see.  It was really gorgeous when we got up above the cloud layer...
 ---
 

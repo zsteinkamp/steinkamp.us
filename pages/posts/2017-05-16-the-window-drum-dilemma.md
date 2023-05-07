@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Window Drum Dilemma
-date: "2017-05-16 04:40:21"
+date: '2017-05-16 04:40:21'
 categories: post post
 entry:
   id: 1254
@@ -11,9 +11,9 @@ entry:
     excerpt:
       Ever have a deep bass sound that's stunning in the studio, but falls
       flat on "regular" speakers? Perhaps this post can offer a solution to fix that.
-  created_at: "2017-05-16 04:45:20"
-  updated_at: "2017-05-16 04:55:56"
-  pub_date: "2017-05-16 04:40:21"
+  created_at: '2017-05-16 04:45:20'
+  updated_at: '2017-05-16 04:55:56'
+  pub_date: '2017-05-16 04:40:21'
   disabled: 0
 ---
 

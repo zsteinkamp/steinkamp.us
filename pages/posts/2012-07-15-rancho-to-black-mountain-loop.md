@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Rancho to Black Mountain Loop
-date: "2012-07-15 21:44:08"
+date: '2012-07-15 21:44:08'
 excerpt: |
   Difficult and long hike today -- 16.5 mile roundtrip from Rancho San
   Antonio up the PG&E Trail, Mine Trail, Black Mountain Trail, Summit, Black Mountain

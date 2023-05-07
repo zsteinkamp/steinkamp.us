@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Story of Marina
-date: "2005-10-13 00:00:00"
+date: '2005-10-13 00:00:00'
 categories: post post
 entry:
   id: 228
@@ -12,9 +12,9 @@ entry:
     excerpt:
       A recap of the events leading up to, and including the birth of our beautiful
       Marina.
-  created_at: "2010-08-30 05:16:38"
-  updated_at: "2010-08-30 05:16:38"
-  pub_date: "2005-10-13 00:00:00"
+  created_at: '2010-08-30 05:16:38'
+  updated_at: '2010-08-30 05:16:38'
+  pub_date: '2005-10-13 00:00:00'
   disabled: 0
 ---
 

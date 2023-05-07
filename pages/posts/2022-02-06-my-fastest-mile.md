@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My Fastest Mile
-date: "2022-02-06 13:00:00"
+date: '2022-02-06 13:00:00'
 categories: post
 entry:
   source: post

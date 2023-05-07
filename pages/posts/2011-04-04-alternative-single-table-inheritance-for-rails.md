@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Alternative Single Table Inheritance for Rails
-date: "2011-04-04 16:57:48"
+date: '2011-04-04 16:57:48'
 categories: post post
 entry:
   id: 502
@@ -11,9 +11,9 @@ entry:
     excerpt:
       Nearly as simple to implement as Rails built-in single table inheritance
       pattern, but infinitely flexible.
-  created_at: "2011-04-04 16:57:48"
-  updated_at: "2011-04-04 17:02:16"
-  pub_date: "2011-04-04 16:57:48"
+  created_at: '2011-04-04 16:57:48'
+  updated_at: '2011-04-04 17:02:16'
+  pub_date: '2011-04-04 16:57:48'
   disabled: 0
 ---
 

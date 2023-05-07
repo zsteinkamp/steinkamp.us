@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Naomi Toes
-date: "2009-01-26 16:16:38"
+date: '2009-01-26 16:16:38'
 categories: post post
 entry:
   id: 267
@@ -10,9 +10,9 @@ entry:
   data:
     title: Naomi Toes
     excerpt: Naomi likes to play with her toes.
-  created_at: "2010-08-30 05:16:38"
-  updated_at: "2010-08-30 05:16:38"
-  pub_date: "2009-01-26 16:16:38"
+  created_at: '2010-08-30 05:16:38'
+  updated_at: '2010-08-30 05:16:38'
+  pub_date: '2009-01-26 16:16:38'
   disabled: 0
 ---
 

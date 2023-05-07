@@ -2,7 +2,7 @@ const Audio = ({ src, type, className }) => {
   return (
     <div className={className}>
       <audio controls>
-        <source src={src} type={type || "audio/mpeg"} />
+        <source src={src} type={type || 'audio/mpeg'} />
       </audio>
       <style jsx>
         {`
@@ -13,7 +13,7 @@ const Audio = ({ src, type, className }) => {
         `}
       </style>
     </div>
-  );
-};
+  )
+}
 
-export default Audio;
+export default Audio

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Groupon to Home Ride
-date: "2012-10-05 02:52:41"
+date: '2012-10-05 02:52:41'
 excerpt: |
   I decided to ride my bike home from work today.  Ended up taking about
   2.5 hours, and covered 27 miles, most of it on the Bay Trail and Guadalupe River

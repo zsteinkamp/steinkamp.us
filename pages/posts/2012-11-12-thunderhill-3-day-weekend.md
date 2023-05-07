@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Thunderhill 3-Day Weekend
-date: "2012-11-12 15:27:36"
+date: '2012-11-12 15:27:36'
 categories: post post
 entry:
   id: 886
@@ -14,9 +14,9 @@ entry:
       classroom along with doing in-car instruction.  A great weekend, but I'm also
       glad to be home!
     title: Thunderhill 3-Day Weekend
-  created_at: "2012-11-12 16:19:54"
-  updated_at: "2012-11-12 16:19:54"
-  pub_date: "2012-11-12 15:27:36"
+  created_at: '2012-11-12 16:19:54'
+  updated_at: '2012-11-12 16:19:54'
+  pub_date: '2012-11-12 15:27:36'
   disabled: 0
 ---
 

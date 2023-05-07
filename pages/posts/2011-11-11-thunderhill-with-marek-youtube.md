@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Thunderhill with Marek
-date: "2011-11-11 00:25:18"
+date: '2011-11-11 00:25:18'
 source: youtube
 uid: EvLaZZx05xs
 excerpt: |

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: On Pair Programming
-date: "2021-07-02 12:00:00"
+date: '2021-07-02 12:00:00'
 categories: post
 entry:
   source: post

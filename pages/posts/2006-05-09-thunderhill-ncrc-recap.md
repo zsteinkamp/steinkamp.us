@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Thunderhill NCRC Recap
-date: "2006-05-09 00:00:00"
+date: '2006-05-09 00:00:00'
 categories: post post
 entry:
   id: 236
@@ -12,9 +12,9 @@ entry:
     excerpt:
       This could very well have been the ideal day at the track.  Great company,
       great cars, great weather, and lots of learning was done.
-  created_at: "2010-08-30 05:16:38"
-  updated_at: "2010-08-30 05:16:38"
-  pub_date: "2006-05-09 00:00:00"
+  created_at: '2010-08-30 05:16:38'
+  updated_at: '2010-08-30 05:16:38'
+  pub_date: '2006-05-09 00:00:00'
   disabled: 0
 ---
 

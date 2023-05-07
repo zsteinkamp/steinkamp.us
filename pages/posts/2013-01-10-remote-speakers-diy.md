@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Remote Speakers DIY
-date: "2013-01-10 04:24:02"
+date: '2013-01-10 04:24:02'
 categories: post post
 entry:
   id: 903
@@ -12,9 +12,9 @@ entry:
       simple parts, I installed independent remote speakers into our dining room.  Here's
       what it took...
     title: Remote Speakers DIY
-  created_at: "2013-01-10 05:07:01"
-  updated_at: "2013-01-10 05:07:01"
-  pub_date: "2013-01-10 04:24:02"
+  created_at: '2013-01-10 05:07:01'
+  updated_at: '2013-01-10 05:07:01'
+  pub_date: '2013-01-10 04:24:02'
   disabled: 0
 ---
 

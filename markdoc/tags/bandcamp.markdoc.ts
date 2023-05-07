@@ -1,4 +1,4 @@
-import { Bandcamp } from "@/components/Bandcamp";
+import { Bandcamp } from '@/components/Bandcamp'
 
 export const bandcamp = {
   render: Bandcamp,
@@ -6,4 +6,4 @@ export const bandcamp = {
     src: { type: String, required: true },
     className: { type: String },
   },
-};
+}

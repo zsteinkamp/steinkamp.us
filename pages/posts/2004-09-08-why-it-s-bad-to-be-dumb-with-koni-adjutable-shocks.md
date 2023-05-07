@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Why it's bad to be dumb with Koni adjutable shocks
-date: "2004-09-08 12:06:06"
+date: '2004-09-08 12:06:06'
 categories: post post
 entry:
   id: 190
@@ -9,10 +9,10 @@ entry:
   uid: 50
   data:
     title: Why it's bad to be dumb with Koni adjutable shocks
-    excerpt: ""
-  created_at: "2010-08-30 05:16:38"
-  updated_at: "2010-08-30 05:16:38"
-  pub_date: "2004-09-08 12:06:06"
+    excerpt: ''
+  created_at: '2010-08-30 05:16:38'
+  updated_at: '2010-08-30 05:16:38'
+  pub_date: '2004-09-08 12:06:06'
   disabled: 0
 ---
 

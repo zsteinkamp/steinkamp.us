@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ed Levin to Mission Peak and Back
-date: "2012-10-07 21:25:59"
+date: '2012-10-07 21:25:59'
 excerpt: |
   I hit the trail at 8am today in Ed Levin County Park.  It was a beautiful,
   cool, sunny morning ... mid-50s.  It was an ideal day out there today -- warm

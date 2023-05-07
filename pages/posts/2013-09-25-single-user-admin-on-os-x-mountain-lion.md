@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Single User Admin on OS X Mountain Lion "
-date: "2013-09-25 19:08:07"
+title: 'Single User Admin on OS X Mountain Lion '
+date: '2013-09-25 19:08:07'
 excerpt: |
   It's easy to make a user an administrator on OS X using the GUI tools.  But
   if you do not have access to an existing admin account, this is impossible.  By

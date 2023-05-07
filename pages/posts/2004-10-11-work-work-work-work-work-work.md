@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Work Work Work Work Work Work
-date: "2004-10-11 11:33:30"
+date: '2004-10-11 11:33:30'
 categories: post post
 entry:
   id: 199
@@ -9,10 +9,10 @@ entry:
   uid: 59
   data:
     title: Work Work Work Work Work Work
-    excerpt: ""
-  created_at: "2010-08-30 05:16:38"
-  updated_at: "2010-08-30 05:16:38"
-  pub_date: "2004-10-11 11:33:30"
+    excerpt: ''
+  created_at: '2010-08-30 05:16:38'
+  updated_at: '2010-08-30 05:16:38'
+  pub_date: '2004-10-11 11:33:30'
   disabled: 0
 ---
 

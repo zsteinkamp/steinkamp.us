@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Kimchi With Carrots
-date: "2021-04-17 12:00:00"
+date: '2021-04-17 12:00:00'
 categories: post
 thumbnail: https://photos.steinkamp.us/photo/zzz_blog_images/IMG_2239.JPG?size=300x300&crop
 ---

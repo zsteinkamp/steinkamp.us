@@ -14,5 +14,5 @@ export function Bandcamp({ className, src }) {
         `}
       </style>
     </div>
-  );
+  )
 }

@@ -1,17 +1,17 @@
 ---
 layout: post
 title: Clipper / Caltrain Frustrations
-date: "2011-05-11 17:47:33"
+date: '2011-05-11 17:47:33'
 categories: post post
 entry:
   id: 609
   source: post
   data:
     title: Clipper / Caltrain Frustrations
-    excerpt: ""
-  created_at: "2011-05-11 17:48:49"
-  updated_at: "2011-05-11 17:48:49"
-  pub_date: "2011-05-11 17:47:33"
+    excerpt: ''
+  created_at: '2011-05-11 17:48:49'
+  updated_at: '2011-05-11 17:48:49'
+  pub_date: '2011-05-11 17:47:33'
   disabled: 0
 ---
 

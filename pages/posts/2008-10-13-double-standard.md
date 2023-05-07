@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Double Standard?
-date: "2008-10-13 00:00:00"
+date: '2008-10-13 00:00:00'
 categories: post post
 entry:
   id: 260
@@ -12,9 +12,9 @@ entry:
     excerpt:
       With the election in just a few weeks, here are some interesting questions
       to consider...
-  created_at: "2010-08-30 05:16:38"
-  updated_at: "2010-08-30 05:16:38"
-  pub_date: "2008-10-13 00:00:00"
+  created_at: '2010-08-30 05:16:38'
+  updated_at: '2010-08-30 05:16:38'
+  pub_date: '2008-10-13 00:00:00'
   disabled: 0
 ---
 

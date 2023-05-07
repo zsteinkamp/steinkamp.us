@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mission Peak
-date: "2010-02-02 22:12:03"
+date: '2010-02-02 22:12:03'
 categories: post post
 entry:
   id: 278
@@ -9,10 +9,10 @@ entry:
   uid: 228
   data:
     title: Mission Peak
-    excerpt: ""
-  created_at: "2010-08-30 05:16:39"
-  updated_at: "2010-08-30 05:16:39"
-  pub_date: "2010-02-02 22:12:03"
+    excerpt: ''
+  created_at: '2010-08-30 05:16:39'
+  updated_at: '2010-08-30 05:16:39'
+  pub_date: '2010-02-02 22:12:03'
   disabled: 0
 ---
 

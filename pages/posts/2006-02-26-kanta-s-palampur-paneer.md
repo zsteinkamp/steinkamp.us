@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Kanta's Palampur Paneer
-date: "2006-02-26 21:00:00"
+date: '2006-02-26 21:00:00'
 categories: post post
 entry:
   id: 232
@@ -13,9 +13,9 @@ entry:
       Arti's mom makes a delicious Paneer dish.  It's made in a rich, creamy,
       spicy sauce with sauteed veggies.   Simple to make, and really delicious.  Give
       it a go and learn how to make real Indian food!
-  created_at: "2010-08-30 05:16:38"
-  updated_at: "2010-08-30 05:16:38"
-  pub_date: "2006-02-26 21:00:00"
+  created_at: '2010-08-30 05:16:38'
+  updated_at: '2010-08-30 05:16:38'
+  pub_date: '2006-02-26 21:00:00'
   disabled: 0
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Checkpoint Marina
-date: "2006-12-28 00:00:00"
+date: '2006-12-28 00:00:00'
 categories: post post
 entry:
   id: 247
@@ -10,9 +10,9 @@ entry:
   data:
     title: Checkpoint Marina
     excerpt: A few snapshots from a day in the life of 15 month old Marina.
-  created_at: "2010-08-30 05:16:38"
-  updated_at: "2010-08-30 05:16:38"
-  pub_date: "2006-12-28 00:00:00"
+  created_at: '2010-08-30 05:16:38'
+  updated_at: '2010-08-30 05:16:38'
+  pub_date: '2006-12-28 00:00:00'
   disabled: 0
 ---
 

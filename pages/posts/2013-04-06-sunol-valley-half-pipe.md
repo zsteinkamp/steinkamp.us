@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sunol Valley Half Pipe
-date: "2013-04-06 20:32:15"
+date: '2013-04-06 20:32:15'
 excerpt: 24 miles today starting from Sunol Regional Park -- 12 east, then 12 west.  5600 feet climb, 6 hours.
 ---
 

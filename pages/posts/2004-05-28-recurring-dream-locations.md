@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Recurring Dream Locations
-date: "2004-05-28 08:57:00"
+date: '2004-05-28 08:57:00'
 ---
 
 This AM I had yet another dream that took place in the building I

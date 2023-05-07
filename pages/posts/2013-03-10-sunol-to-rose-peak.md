@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sunol to Rose Peak
-date: "2013-03-10 22:11:10"
+date: '2013-03-10 22:11:10'
 categories: post post
 entry:
   id: 915
@@ -13,9 +13,9 @@ entry:
       it, since it's 1/3 of the Ohlone 50K.  Strava's calorie count is my favorite
       part! (om nom nom)
     title: Sunol to Rose Peak
-  created_at: "2013-03-10 22:18:02"
-  updated_at: "2013-03-10 22:18:02"
-  pub_date: "2013-03-10 22:11:10"
+  created_at: '2013-03-10 22:18:02'
+  updated_at: '2013-03-10 22:18:02'
+  pub_date: '2013-03-10 22:11:10'
   disabled: 0
 ---
 

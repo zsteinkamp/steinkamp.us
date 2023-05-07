@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Infineon Coastal Driving Recap
-date: "2006-06-06 10:00:00"
+date: '2006-06-06 10:00:00'
 categories: post post
 entry:
   id: 239
@@ -10,9 +10,9 @@ entry:
   data:
     title: Infineon Coastal Driving Recap
     excerpt: Another great day at the track.  The mysteries of Sears are slowly unlocked...
-  created_at: "2010-08-30 05:16:38"
-  updated_at: "2010-08-30 05:16:38"
-  pub_date: "2006-06-06 10:00:00"
+  created_at: '2010-08-30 05:16:38'
+  updated_at: '2010-08-30 05:16:38'
+  pub_date: '2006-06-06 10:00:00'
   disabled: 0
 ---
 

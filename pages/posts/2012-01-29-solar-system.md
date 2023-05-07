@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Solar System
-date: "2012-01-29 02:41:40"
+date: '2012-01-29 02:41:40'
 excerpt: It was Marina's idea to do this project ... I just helped her with the order and told her what the planets looked like.
 ---
 

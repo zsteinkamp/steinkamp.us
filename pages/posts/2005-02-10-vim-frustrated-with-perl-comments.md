@@ -1,7 +1,7 @@
 ---
 layout: post
 title: VIM -- Frustrated With Perl Comments?
-date: "2005-02-10 00:00:00"
+date: '2005-02-10 00:00:00'
 categories: post post
 entry:
   id: 221
@@ -9,10 +9,10 @@ entry:
   uid: 81
   data:
     title: VIM -- Frustrated With Perl Comments?
-    excerpt: ""
-  created_at: "2010-08-30 05:16:38"
-  updated_at: "2010-08-30 05:16:38"
-  pub_date: "2005-02-10 00:00:00"
+    excerpt: ''
+  created_at: '2010-08-30 05:16:38'
+  updated_at: '2010-08-30 05:16:38'
+  pub_date: '2005-02-10 00:00:00'
   disabled: 0
 ---
 

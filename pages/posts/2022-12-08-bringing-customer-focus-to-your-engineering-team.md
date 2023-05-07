@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Bringing Customer Focus to Your Engineering Team"
-date: "2022-12-08 12:00:00"
+title: 'Bringing Customer Focus to Your Engineering Team'
+date: '2022-12-08 12:00:00'
 categories: post
 entry:
   source: post

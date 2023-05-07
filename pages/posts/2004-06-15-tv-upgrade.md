@@ -1,7 +1,7 @@
 ---
 layout: post
 title: TV Upgrade
-date: "2004-06-15 09:19:52"
+date: '2004-06-15 09:19:52'
 categories: post post
 entry:
   id: 178
@@ -9,10 +9,10 @@ entry:
   uid: 38
   data:
     title: TV Upgrade
-    excerpt: ""
-  created_at: "2010-08-30 05:16:37"
-  updated_at: "2010-08-30 05:16:37"
-  pub_date: "2004-06-15 09:19:52"
+    excerpt: ''
+  created_at: '2010-08-30 05:16:37'
+  updated_at: '2010-08-30 05:16:37'
+  pub_date: '2004-06-15 09:19:52'
   disabled: 0
 ---
 

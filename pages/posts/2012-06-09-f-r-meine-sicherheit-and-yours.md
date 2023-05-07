@@ -1,7 +1,7 @@
 ---
 layout: post
 title: FÃ¼r Meine Sicherheit (and yours!)
-date: "2012-06-09 18:45:06"
+date: '2012-06-09 18:45:06'
 excerpt: HANS-compatible clip-in Quick Fit Pro.  Now I just need a trackday...
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Pinhole Camera / Phone Camera
-date: "2021-05-01 12:00:00"
+date: '2021-05-01 12:00:00'
 thumbnail: https://photos.steinkamp.us/photo/2021-05-01_pinhole-camera/2021050117281610--1703653035229124392-IMG_2421.jpg?size=300x300&crop
 ---
 

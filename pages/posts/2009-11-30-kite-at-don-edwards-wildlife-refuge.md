@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Kite at Don Edwards Wildlife Refuge
-date: "2009-11-30 09:56:47"
+date: '2009-11-30 09:56:47'
 categories: post post
 entry:
   id: 274
@@ -9,10 +9,10 @@ entry:
   uid: 210
   data:
     title: Kite at Don Edwards Wildlife Refuge
-    excerpt: ""
-  created_at: "2010-08-30 05:16:39"
-  updated_at: "2010-08-30 05:16:39"
-  pub_date: "2009-11-30 09:56:47"
+    excerpt: ''
+  created_at: '2010-08-30 05:16:39'
+  updated_at: '2010-08-30 05:16:39'
+  pub_date: '2009-11-30 09:56:47'
   disabled: 0
 ---
 

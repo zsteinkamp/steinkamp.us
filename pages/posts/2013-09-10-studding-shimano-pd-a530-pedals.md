@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Studding Shimano PD-A530 Pedals
-date: "2013-09-10 00:26:29"
+date: '2013-09-10 00:26:29'
 excerpt: |
   The Shimano PD-A530 is a hybrid pedal -- clip-in on one side, and platform
   on the other. The platform side is not that great, so I decided to fix that

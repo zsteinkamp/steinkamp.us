@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Fractal Note Echo
-date: "2021-06-22 12:00:00"
-thumbnail: "/images/fractalNoteEcho/plugin.png"
+date: '2021-06-22 12:00:00'
+thumbnail: '/images/fractalNoteEcho/plugin.png'
 ---
 
 This Max For Live device uses Javascript to implement a fractal MIDI note echo effect.

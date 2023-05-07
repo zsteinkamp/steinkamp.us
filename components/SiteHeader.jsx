@@ -1,9 +1,9 @@
 // ./components/SiteHeader.jsx
-const { default: Link } = require("next/link");
+const { default: Link } = require('next/link')
 const SiteHeader = () => {
   return (
     <header className="flex items-center mb-4 pl-8 pr-8 pb-4 pt-4 border-b-2 border-stone-200 dark:border-stone-800 bg-stone-100 dark:bg-stone-800 noprint">
-      <Link href={"/"} className="transition-colors">
+      <Link href={'/'} className="transition-colors">
         <figure title="steinkamp.us">
           <h1 className="font-condensed text-3xl hover:text-black dark:hover:text-white">
             👋 steinkamp.us
@@ -46,7 +46,7 @@ const SiteHeader = () => {
         </div>
       </nav>
     </header>
-  );
-};
+  )
+}
 
-export default SiteHeader;
+export default SiteHeader

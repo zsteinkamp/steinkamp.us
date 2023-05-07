@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Miter 1000 SE is a Great Taper Jig
-date: "2004-06-07 09:56:47"
+date: '2004-06-07 09:56:47'
 ---
 
 I was working on our coffee table replacement over the

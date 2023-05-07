@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Why I Work at Groupon
-date: "2012-10-12 04:33:32"
+date: '2012-10-12 04:33:32'
 thumbnail: /images/groupon.webp
 excerpt: |
   I started at Groupon more than two years ago now.  I was excited about

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Up and Over Black Mountain
-date: "2012-09-23 18:45:32"
+date: '2012-09-23 18:45:32'
 excerpt: |
   Had a nice hike/run today from Rhus Ridge, up and over Black Mountain
   and down the Indian Creek Trail a bit.  Distance was 14 miles, 5000 feet total

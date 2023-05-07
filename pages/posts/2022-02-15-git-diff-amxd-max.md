@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Making 'git diff' Work For .amxd
-date: "2022-02-15 12:00:00"
+date: '2022-02-15 12:00:00'
 categories: post
 entry:
   source: post

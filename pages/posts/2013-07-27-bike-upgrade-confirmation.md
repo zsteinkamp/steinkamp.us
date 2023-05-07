@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bike Upgrade Confirmation
-date: "2013-07-27 23:39:39"
+date: '2013-07-27 23:39:39'
 excerpt: A report from a week with some awesome upgrades to my bike.  I learned a lot about bikes, adjustments, and found some great resources in doing this project.
 ---
 

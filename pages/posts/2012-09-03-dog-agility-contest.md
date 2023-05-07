@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Dog Agility Contest
-date: "2012-09-03 03:39:20"
+date: '2012-09-03 03:39:20'
 excerpt: |
   Our friends Deanna and Nathan and their dogs compete in dog agility contests.  We
   drove down to Prunedale today to see them do their stuff.  They're getting ready

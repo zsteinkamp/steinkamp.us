@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mission Peak Dark Descent
-date: "2014-06-13 16:02:55"
+date: '2014-06-13 16:02:55'
 excerpt: It's been a while since I did a night run on Mission Peak.  With the great weather and full moon, today was a great day to pick that up again.
 thumbnail: https://photos.steinkamp.us/photo/2021-07-22_mission-peak/IMG_2910.JPG?size=300x300&crop
 ---

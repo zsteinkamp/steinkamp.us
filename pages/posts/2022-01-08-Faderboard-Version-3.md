@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Faderboard Version 3
-date: "2022-01-08 12:00:00"
+date: '2022-01-08 12:00:00'
 categories: post
 entry:
   source: post

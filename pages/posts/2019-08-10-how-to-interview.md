@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How To Interview
-date: "2019-08-10 21:09:30"
+date: '2019-08-10 21:09:30'
 excerpt: |
   Interviewing is hard, on both sides. The skills of an interviewer are often overlooked in
   software development, and people are usually left on their own when it comes time to

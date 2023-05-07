@@ -1,17 +1,17 @@
 ---
 layout: post
 title: Protect Your Git Repo With a Test Hook
-date: "2011-04-15 04:22:02"
+date: '2011-04-15 04:22:02'
 categories: post post
 entry:
   id: 513
   source: post
   data:
     title: Protect Your Git Repo With a Test Hook
-    excerpt: ""
-  created_at: "2011-04-15 04:22:02"
-  updated_at: "2011-04-15 04:23:22"
-  pub_date: "2011-04-15 04:22:02"
+    excerpt: ''
+  created_at: '2011-04-15 04:22:02'
+  updated_at: '2011-04-15 04:23:22'
+  pub_date: '2011-04-15 04:22:02'
   disabled: 0
 ---
 

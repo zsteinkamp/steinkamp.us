@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Consolidate and Loop in Ableton Live
-date: "2022-03-05 12:00:00"
+date: '2022-03-05 12:00:00'
 categories: post
 entry:
   source: post

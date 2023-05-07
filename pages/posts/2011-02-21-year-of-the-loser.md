@@ -1,17 +1,17 @@
 ---
 layout: post
 title: Year of the Loser
-date: "2011-02-21 03:31:21"
+date: '2011-02-21 03:31:21'
 categories: post post
 entry:
   id: 475
   source: post
   data:
     title: Year of the Loser
-    excerpt: ""
-  created_at: "2011-02-21 03:31:21"
-  updated_at: "2011-02-21 04:23:14"
-  pub_date: "2011-02-21 03:31:21"
+    excerpt: ''
+  created_at: '2011-02-21 03:31:21'
+  updated_at: '2011-02-21 04:23:14'
+  pub_date: '2011-02-21 03:31:21'
   disabled: 0
 ---
 

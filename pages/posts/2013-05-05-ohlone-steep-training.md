@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ohlone Steep Training
-date: "2013-05-05 22:09:34"
+date: '2013-05-05 22:09:34'
 categories: post post
 entry:
   id: 921
@@ -14,9 +14,9 @@ entry:
       with a 2520 foot climb.  I saw two snakes and got my favorite view of my favorite
       peak.
     title: Ohlone Steep Training
-  created_at: "2013-05-05 22:20:51"
-  updated_at: "2013-05-05 22:20:51"
-  pub_date: "2013-05-05 22:09:34"
+  created_at: '2013-05-05 22:20:51'
+  updated_at: '2013-05-05 22:20:51'
+  pub_date: '2013-05-05 22:09:34'
   disabled: 0
 ---
 

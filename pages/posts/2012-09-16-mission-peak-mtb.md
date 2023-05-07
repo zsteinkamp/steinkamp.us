@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mission Peak MTB
-date: "2012-09-16 18:32:54"
+date: '2012-09-16 18:32:54'
 excerpt: |
   Rode up Mission Peak today with Sean Kohler.  I was expecting it to be
   harder than it was, but it was still a doozie.  We did about 10 miles total,

@@ -1,15 +1,15 @@
-import Image from "next/image";
-import Link from "next/link";
-import dayjs from "dayjs";
-import utc from "dayjs/plugin/utc";
-dayjs.extend(utc);
+import Image from 'next/image'
+import Link from 'next/link'
+import dayjs from 'dayjs'
+import utc from 'dayjs/plugin/utc'
+dayjs.extend(utc)
 
 interface PostIndexProps {
-  posts: Array<any>;
-  className?: string;
+  posts: Array<any>
+  className?: string
 }
 
-const PostIndex: React.FC<PostIndexProps> = ({ posts, className = "" }) => {
+const PostIndex: React.FC<PostIndexProps> = ({ posts, className = '' }) => {
   return (
     <ul className={`posts ${className}`}>
       {posts.map((post) => (
@@ -31,7 +31,7 @@ const PostIndex: React.FC<PostIndexProps> = ({ posts, className = "" }) => {
             </div>
             <div className="col-span-3">
               <div className="text-stone-400 dark:text-stone-500 text-sm">
-                {dayjs(post.date).utc().format("MMMM, YYYY")}
+                {dayjs(post.date).utc().format('MMMM, YYYY')}
               </div>
               <h2 className="font-condensed text-2xl mb-2 mt-2">
                 {post.title}
@@ -44,6 +44,6 @@ const PostIndex: React.FC<PostIndexProps> = ({ posts, className = "" }) => {
         </li>
       ))}
     </ul>
-  );
-};
-export default PostIndex;
+  )
+}
+export default PostIndex

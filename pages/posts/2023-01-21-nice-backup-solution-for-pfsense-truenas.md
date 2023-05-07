@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Nice backup solution for PFSense => TrueNAS"
-date: "2023-01-21 12:00:00"
+title: 'Nice backup solution for PFSense => TrueNAS'
+date: '2023-01-21 12:00:00'
 categories: post
 entry:
   source: post

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "New Hike: Black Mountain"
-date: "2012-04-08 23:28:52"
+title: 'New Hike: Black Mountain'
+date: '2012-04-08 23:28:52'
 excerpt: |
   Today I decided to try something new, since I'm pretty sure I've gone
   up and down Mission Peak, Mt. Allison, and Monument Peak every possible way

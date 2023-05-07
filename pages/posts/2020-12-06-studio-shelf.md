@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Studio Shelf
-date: "2020-12-06 00:00:00"
+date: '2020-12-06 00:00:00'
 thumbnail: https://photos.steinkamp.us/photo/2020-12-06_music-shelf/threefourths_studio.jpg?size=300x300&crop
 excerpt: Photos and instructions to make a useful tabletop shelf for your music studio.
 ---

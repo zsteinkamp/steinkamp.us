@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Thanks For A Great Party
-date: "2004-06-07 09:50:09"
+date: '2004-06-07 09:50:09'
 ---
 
 Thanks to all who came on Saturday to our house for

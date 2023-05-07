@@ -1,7 +1,7 @@
 ---
 layout: post
 title: End Table Finished
-date: "2005-01-10 23:08:58"
+date: '2005-01-10 23:08:58'
 categories: post post
 entry:
   id: 215
@@ -9,10 +9,10 @@ entry:
   uid: 75
   data:
     title: End Table Finished
-    excerpt: ""
-  created_at: "2010-08-30 05:16:38"
-  updated_at: "2010-08-30 05:16:38"
-  pub_date: "2005-01-10 23:08:58"
+    excerpt: ''
+  created_at: '2010-08-30 05:16:38'
+  updated_at: '2010-08-30 05:16:38'
+  pub_date: '2005-01-10 23:08:58'
   disabled: 0
 ---
 

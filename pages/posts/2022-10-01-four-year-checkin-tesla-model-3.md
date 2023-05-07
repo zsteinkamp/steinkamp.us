@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Four Year Checkin: Tesla Model 3"
-date: "2022-10-01 12:00:00"
-thumbnail: "/images/tesla-thumb.jpg"
+title: 'Four Year Checkin: Tesla Model 3'
+date: '2022-10-01 12:00:00'
+thumbnail: '/images/tesla-thumb.jpg'
 ---
 
 In November 2018, I decided to order a Tesla Model 3. So far it's been a joy to own and drive. This post details my history and experiences with the car, and gets into just how much money I've saved by choosing this car over something comparable. Spoiler: It's seriously no contest.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: HDTV Experiment
-date: "2004-10-22 00:22:18"
+date: '2004-10-22 00:22:18'
 categories: post post
 entry:
   id: 201
@@ -9,10 +9,10 @@ entry:
   uid: 61
   data:
     title: HDTV Experiment
-    excerpt: ""
-  created_at: "2010-08-30 05:16:38"
-  updated_at: "2010-08-30 05:16:38"
-  pub_date: "2004-10-22 00:22:18"
+    excerpt: ''
+  created_at: '2010-08-30 05:16:38'
+  updated_at: '2010-08-30 05:16:38'
+  pub_date: '2004-10-22 00:22:18'
   disabled: 0
 ---
 

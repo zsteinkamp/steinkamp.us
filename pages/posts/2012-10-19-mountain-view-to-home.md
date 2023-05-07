@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mountain View to Home
-date: "2012-10-19 01:00:00"
+date: '2012-10-19 01:00:00'
 excerpt: |
   Took the train up to Stanford today to interview some promising college
   Grads.  Then took the train to Mountain View and talked with Pablo about a new

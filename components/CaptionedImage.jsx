@@ -1,4 +1,4 @@
-import { Image } from "next/image";
+import { Image } from 'next/image'
 
 const CaptionedImage = ({ src, alt, caption, className }) => {
   return (
@@ -6,7 +6,7 @@ const CaptionedImage = ({ src, alt, caption, className }) => {
       <Image alt={alt} src={src} />
       <figcaption className="italic text-sm">{caption}</figcaption>
     </figure>
-  );
-};
+  )
+}
 
-export default CaptionedImage;
+export default CaptionedImage

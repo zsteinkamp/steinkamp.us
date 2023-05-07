@@ -1,7 +1,7 @@
 ---
 layout: post
 title: TV Stand Finished!
-date: "2004-06-02 08:58:55"
+date: '2004-06-02 08:58:55'
 ---
 
 At long last ... the TV stand is finished, installed,

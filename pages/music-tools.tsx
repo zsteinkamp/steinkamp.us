@@ -1,22 +1,22 @@
-import yaml from "js-yaml";
-import fs from "fs";
-import Head from "next/head";
-import Link from "next/link";
-import Image from "next/image";
-import ReactMarkdown from "react-markdown";
+import yaml from 'js-yaml'
+import fs from 'fs'
+import Head from 'next/head'
+import Link from 'next/link'
+import Image from 'next/image'
+import ReactMarkdown from 'react-markdown'
 
 export async function getStaticProps() {
-  const data = yaml.load(fs.readFileSync("data/music-tools.yaml", "utf8"));
+  const data = yaml.load(fs.readFileSync('data/music-tools.yaml', 'utf8'))
 
   return {
     props: {
       data,
     },
-  };
+  }
 }
 
 interface MusicToolsProps {
-  data: Array<any>;
+  data: Array<any>
 }
 
 const MusicToolsPage: React.FC<MusicToolsProps> = ({ data }) => {
@@ -25,8 +25,8 @@ const MusicToolsPage: React.FC<MusicToolsProps> = ({ data }) => {
       <li key={app.link}>
         <Link href={`#${app.title}`}>{app.title}</Link>
       </li>
-    );
-  });
+    )
+  })
 
   const appList = data.map((app) => {
     return (
@@ -48,8 +48,8 @@ const MusicToolsPage: React.FC<MusicToolsProps> = ({ data }) => {
         </div>
         <ReactMarkdown>{app.description}</ReactMarkdown>
       </div>
-    );
-  });
+    )
+  })
 
   return (
     <>
@@ -87,5 +87,5 @@ const MusicToolsPage: React.FC<MusicToolsProps> = ({ data }) => {
 
       {appList}
     </>
-  );
-};
+  )
+}

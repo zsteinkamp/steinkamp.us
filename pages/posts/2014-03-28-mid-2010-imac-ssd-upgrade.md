@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mid-2010 iMac SSD Upgrade
-date: "2014-03-28 16:02:29"
+date: '2014-03-28 16:02:29'
 excerpt: Upgrading from a regular hard drive to an SSD seemed complicated at first on this computer, but with the right tools and instructions it was easy.
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Homemade Foaming Hand Wash
-date: "2016-04-29 04:23:02"
+date: '2016-04-29 04:23:02'
 categories: post post
 entry:
   id: 1161
@@ -12,9 +12,9 @@ entry:
 
       So with some DIY we can do better, right? Yes!
     title: Homemade Foaming Hand Wash
-  created_at: "2016-04-29 04:39:47"
-  updated_at: "2016-04-29 04:55:17"
-  pub_date: "2016-04-29 04:23:02"
+  created_at: '2016-04-29 04:39:47'
+  updated_at: '2016-04-29 04:55:17'
+  pub_date: '2016-04-29 04:23:02'
   disabled: 0
 ---
 

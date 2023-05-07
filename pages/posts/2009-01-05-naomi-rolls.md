@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Naomi Rolls
-date: "2009-01-05 20:35:14"
+date: '2009-01-05 20:35:14'
 categories: post post
 entry:
   id: 266
@@ -9,10 +9,10 @@ entry:
   uid: 165
   data:
     title: Naomi Rolls
-    excerpt: ""
-  created_at: "2010-08-30 05:16:38"
-  updated_at: "2010-08-30 05:16:38"
-  pub_date: "2009-01-05 20:35:14"
+    excerpt: ''
+  created_at: '2010-08-30 05:16:38'
+  updated_at: '2010-08-30 05:16:38'
+  pub_date: '2009-01-05 20:35:14'
   disabled: 0
 ---
 

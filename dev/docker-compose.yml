@@ -1,4 +1,4 @@
-version: "3"
+version: '3'
 name: steinkamp_us_dev
 services:
   web:
@@ -6,7 +6,7 @@ services:
       context: ..
       target: dev
     ports:
-      - "3000:3000"
+      - '3000:3000'
     volumes:
       - ..:/app
       - app_node_modules:/app/node_modules

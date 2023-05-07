@@ -12,5 +12,5 @@ export function Strava({ className, src }) {
         `}
       </style>
     </div>
-  );
+  )
 }

@@ -19,5 +19,5 @@ export function YouTube({ className, src, title, width }) {
         `}
       </style>
     </div>
-  );
+  )
 }

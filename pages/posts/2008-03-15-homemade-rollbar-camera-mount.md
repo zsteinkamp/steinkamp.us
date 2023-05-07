@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Homemade Rollbar Camera Mount
-date: "2008-03-15 00:00:00"
+date: '2008-03-15 00:00:00'
 categories: post post
 entry:
   id: 258
@@ -13,9 +13,9 @@ entry:
       A cheap, simple, and flexible way of mounting a video camera to a rollbar
       inside of a car.  This works better for my bullet camera than the expensive
       IO Port mount.
-  created_at: "2010-08-30 05:16:38"
-  updated_at: "2010-08-30 05:16:38"
-  pub_date: "2008-03-15 00:00:00"
+  created_at: '2010-08-30 05:16:38'
+  updated_at: '2010-08-30 05:16:38'
+  pub_date: '2008-03-15 00:00:00'
   disabled: 0
 ---
 

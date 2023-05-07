@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 50K Training Plan
-date: "2013-01-11 04:58:55"
+date: '2013-01-11 04:58:55'
 categories: post post
 entry:
   id: 904
@@ -11,9 +11,9 @@ entry:
       I put this Google Spreadsheet together to plan out how the heck I'm going
       to build up to 31 miles distance.
     title: 50K Training Plan
-  created_at: "2013-01-11 04:59:12"
-  updated_at: "2013-01-11 04:59:12"
-  pub_date: "2013-01-11 04:58:55"
+  created_at: '2013-01-11 04:59:12'
+  updated_at: '2013-01-11 04:59:12'
+  pub_date: '2013-01-11 04:58:55'
   disabled: 0
 ---
 

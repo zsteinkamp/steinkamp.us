@@ -1,17 +1,17 @@
 ---
 layout: post
 title: Selectively Disable Session Cookies in Rails 2.3
-date: "2011-01-25 02:43:44"
+date: '2011-01-25 02:43:44'
 categories: post post
 entry:
   id: 462
   source: post
   data:
     title: Selectively Disable Session Cookies in Rails 2.3
-    excerpt: ""
-  created_at: "2011-01-25 02:43:44"
-  updated_at: "2011-01-25 02:43:44"
-  pub_date: "2011-01-25 02:43:44"
+    excerpt: ''
+  created_at: '2011-01-25 02:43:44'
+  updated_at: '2011-01-25 02:43:44'
+  pub_date: '2011-01-25 02:43:44'
   disabled: 0
 ---
 

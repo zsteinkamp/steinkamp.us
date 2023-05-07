@@ -1,7 +1,7 @@
 ---
 layout: post
 title: All The Ways Up Mission Peak
-date: "2021-01-17 12:00:00"
+date: '2021-01-17 12:00:00'
 thumbnail: https://photos.steinkamp.us/photo/2021-01-17_mission-peak/2021011716054444-4759711745111788283-IMG_0221.JPG?size=300x300&crop
 ---
 

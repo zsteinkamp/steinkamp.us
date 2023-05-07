@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Apple TV as Remote Speakers
-date: "2008-02-15 00:00:00"
+date: '2008-02-15 00:00:00'
 categories: post post
 entry:
   id: 256
@@ -9,10 +9,10 @@ entry:
   uid: 116
   data:
     title: Apple TV as Remote Speakers
-    excerpt: ""
-  created_at: "2010-08-30 05:16:38"
-  updated_at: "2010-08-30 05:16:38"
-  pub_date: "2008-02-15 00:00:00"
+    excerpt: ''
+  created_at: '2010-08-30 05:16:38'
+  updated_at: '2010-08-30 05:16:38'
+  pub_date: '2008-02-15 00:00:00'
   disabled: 0
 ---
 

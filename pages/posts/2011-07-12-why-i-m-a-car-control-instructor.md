@@ -1,17 +1,17 @@
 ---
 layout: post
 title: Why I'm a Car Control Instructor
-date: "2011-07-12 03:40:47"
+date: '2011-07-12 03:40:47'
 categories: post post
 entry:
   id: 638
   source: post
   data:
     title: Why I'm a Car Control Instructor
-    excerpt: ""
-  created_at: "2011-07-12 04:30:18"
-  updated_at: "2011-07-12 04:30:18"
-  pub_date: "2011-07-12 03:40:47"
+    excerpt: ''
+  created_at: '2011-07-12 04:30:18'
+  updated_at: '2011-07-12 04:30:18'
+  pub_date: '2011-07-12 03:40:47'
   disabled: 0
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 25 Hours of Thunderhill
-date: "2009-12-07 17:15:16"
+date: '2009-12-07 17:15:16'
 categories: post post
 entry:
   id: 275
@@ -9,10 +9,10 @@ entry:
   uid: 212
   data:
     title: 25 Hours of Thunderhill
-    excerpt: ""
-  created_at: "2010-08-30 05:16:39"
-  updated_at: "2010-08-30 05:16:39"
-  pub_date: "2009-12-07 17:15:16"
+    excerpt: ''
+  created_at: '2010-08-30 05:16:39'
+  updated_at: '2010-08-30 05:16:39'
+  pub_date: '2009-12-07 17:15:16'
   disabled: 0
 ---
 

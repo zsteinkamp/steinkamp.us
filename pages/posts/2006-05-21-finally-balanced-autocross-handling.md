@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Finally!  Balanced Autocross Handling
-date: "2006-05-21 09:00:00"
+date: '2006-05-21 09:00:00'
 categories: post post
 entry:
   id: 237
@@ -12,9 +12,9 @@ entry:
     excerpt:
       The M3 is now dialed in for good times on the autocross course.  Read
       on to learn some things that will help your E46 M3 get around those cones!
-  created_at: "2010-08-30 05:16:38"
-  updated_at: "2010-08-30 05:16:38"
-  pub_date: "2006-05-21 09:00:00"
+  created_at: '2010-08-30 05:16:38'
+  updated_at: '2010-08-30 05:16:38'
+  pub_date: '2006-05-21 09:00:00'
   disabled: 0
 ---
 

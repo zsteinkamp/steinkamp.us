@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hike-Sliding
-date: "2011-01-22 23:23:34"
+date: '2011-01-22 23:23:34'
 source: youtube
 uid: 4siE8jFD0Ps
 excerpt: |

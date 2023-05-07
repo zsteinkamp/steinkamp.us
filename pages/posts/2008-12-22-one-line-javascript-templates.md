@@ -1,7 +1,7 @@
 ---
 layout: post
 title: One-Line Javascript Templates
-date: "2008-12-22 15:19:16"
+date: '2008-12-22 15:19:16'
 categories: post post
 entry:
   id: 262
@@ -9,10 +9,10 @@ entry:
   uid: 127
   data:
     title: One-Line Javascript Templates
-    excerpt: ""
-  created_at: "2010-08-30 05:16:38"
-  updated_at: "2010-08-30 05:16:38"
-  pub_date: "2008-12-22 15:19:16"
+    excerpt: ''
+  created_at: '2010-08-30 05:16:38'
+  updated_at: '2010-08-30 05:16:38'
+  pub_date: '2008-12-22 15:19:16'
   disabled: 0
 ---
 

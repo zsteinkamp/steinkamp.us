@@ -1,7 +1,7 @@
 ---
 layout: post
 title: So You Have a New Teen Driver!
-date: "2022-05-28 12:00:00"
+date: '2022-05-28 12:00:00'
 categories: post
 thumbnail: https://photos.steinkamp.us/photo/2022-01-01_ccc/IMG_3961.JPG?size=300x300
 ---

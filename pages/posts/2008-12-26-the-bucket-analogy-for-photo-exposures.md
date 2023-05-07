@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Bucket Analogy for Photo Exposures
-date: "2008-12-26 09:58:27"
+date: '2008-12-26 09:58:27'
 categories: post post
 entry:
   id: 263
@@ -9,10 +9,10 @@ entry:
   uid: 143
   data:
     title: The Bucket Analogy for Photo Exposures
-    excerpt: ""
-  created_at: "2010-08-30 05:16:38"
-  updated_at: "2010-08-30 05:16:38"
-  pub_date: "2008-12-26 09:58:27"
+    excerpt: ''
+  created_at: '2010-08-30 05:16:38'
+  updated_at: '2010-08-30 05:16:38'
+  pub_date: '2008-12-26 09:58:27'
   disabled: 0
 ---
 

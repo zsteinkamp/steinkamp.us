@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "DIY: iPhone Macro"
-date: "2012-04-21 14:49:12"
+title: 'DIY: iPhone Macro'
+date: '2012-04-21 14:49:12'
 excerpt: It's easy to capture amazing close-up photos with your smartphone.  All you need is a nerdy motivation and a little magnifier...
 ---
 

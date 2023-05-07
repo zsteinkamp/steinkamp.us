@@ -1,7 +1,7 @@
 ---
 layout: post
 title: OpenDNS on DD-WRT
-date: "2008-01-06 14:00:00"
+date: '2008-01-06 14:00:00'
 categories: post post
 entry:
   id: 254
@@ -9,10 +9,10 @@ entry:
   uid: 114
   data:
     title: OpenDNS on DD-WRT
-    excerpt: ""
-  created_at: "2010-08-30 05:16:38"
-  updated_at: "2010-08-30 05:16:38"
-  pub_date: "2008-01-06 14:00:00"
+    excerpt: ''
+  created_at: '2010-08-30 05:16:38'
+  updated_at: '2010-08-30 05:16:38'
+  pub_date: '2008-01-06 14:00:00'
   disabled: 0
 ---
 

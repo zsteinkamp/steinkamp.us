@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mucca Pazza at the Groupon Holiday Party
-date: "2010-12-12 04:29:51"
+date: '2010-12-12 04:29:51'
 source: youtube
 uid: C4u4YcYrC2s
 excerpt: |

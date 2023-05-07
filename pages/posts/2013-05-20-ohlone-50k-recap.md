@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ohlone 50K Recap
-date: "2013-05-20 15:27:01"
+date: '2013-05-20 15:27:01'
 entry:
   data:
     excerpt:
@@ -9,9 +9,9 @@ entry:
       6 months of training covering 435 miles and climbing more than 80,000 feet,
       the race is now in the bag.
     title: Ohlone 50K Recap
-  created_at: "2013-05-20 15:45:48"
-  updated_at: "2013-05-20 17:33:08"
-  pub_date: "2013-05-20 15:27:01"
+  created_at: '2013-05-20 15:45:48'
+  updated_at: '2013-05-20 17:33:08'
+  pub_date: '2013-05-20 15:27:01'
   disabled: 0
 ---
 

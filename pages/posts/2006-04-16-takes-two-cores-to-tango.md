@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Takes Two (Cores) To Tango
-date: "2006-04-16 19:00:00"
+date: '2006-04-16 19:00:00'
 categories: post post
 entry:
   id: 235
@@ -12,9 +12,9 @@ entry:
     excerpt:
       Apple's new Intel-based Mac Minis are all they are cracked up to be,
       and then some...
-  created_at: "2010-08-30 05:16:38"
-  updated_at: "2010-08-30 05:16:38"
-  pub_date: "2006-04-16 19:00:00"
+  created_at: '2010-08-30 05:16:38'
+  updated_at: '2010-08-30 05:16:38'
+  pub_date: '2006-04-16 19:00:00'
   disabled: 0
 ---
 

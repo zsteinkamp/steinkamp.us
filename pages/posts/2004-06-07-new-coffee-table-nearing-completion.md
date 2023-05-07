@@ -1,7 +1,7 @@
 ---
 layout: post
 title: New Coffee Table Nearing Completion
-date: "2004-06-07 10:19:06"
+date: '2004-06-07 10:19:06'
 ---
 
 Since we got our new furniture, including home made TV

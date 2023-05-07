@@ -1,7 +1,7 @@
 ---
 layout: post
 title: New Shocks for Arti's Car
-date: "2012-04-29 14:39:39"
+date: '2012-04-29 14:39:39'
 excerpt: |
   I spent the bulk of yesterday replacing the shocks on Arti's car -- a
   2007 328i wagon.  We bought the car new, and it has about 90K miles on it now.  Overall,

@@ -1,4 +1,4 @@
-import PostIndex from "../../components/PostIndex";
+import PostIndex from '../../components/PostIndex'
 
 export const postindex = {
   render: PostIndex,
@@ -11,4 +11,4 @@ export const postindex = {
       type: String,
     },
   },
-};
+}

@@ -1,17 +1,17 @@
 ---
 layout: post
 title: Shangri-La Toes
-date: "2011-05-25 05:24:00"
+date: '2011-05-25 05:24:00'
 categories: post post
 entry:
   id: 611
   source: post
   data:
     title: Shangri-La Toes
-    excerpt: ""
-  created_at: "2011-05-25 05:25:22"
-  updated_at: "2011-05-25 05:25:22"
-  pub_date: "2011-05-25 05:24:00"
+    excerpt: ''
+  created_at: '2011-05-25 05:25:22'
+  updated_at: '2011-05-25 05:25:22'
+  pub_date: '2011-05-25 05:24:00'
   disabled: 0
 ---
 

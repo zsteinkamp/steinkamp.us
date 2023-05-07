@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ed Levin to Sunol and Back
-date: "2013-03-25 03:07:31"
+date: '2013-03-25 03:07:31'
 excerpt: |
   For today's long run, I chose to go from Ed Levin County Park in Milpitas,
   up to Monument Peak, then north past Mt. Allison, behind Mission Peak, down

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Trail Running: What I've Learned So Far"
-date: "2013-05-09 23:20:33"
+date: '2013-05-09 23:20:33'
 categories: post post
 entry:
   id: 922
@@ -12,9 +12,9 @@ entry:
       for the Ohlone Wilderness 50K, I've learned a few things about body maintenance,
       drinking, eating, and other things running-related.
     title: "Trail Running: What I've Learned So Far"
-  created_at: "2013-05-10 00:03:57"
-  updated_at: "2013-07-01 00:00:25"
-  pub_date: "2013-05-09 23:20:33"
+  created_at: '2013-05-10 00:03:57'
+  updated_at: '2013-07-01 00:00:25'
+  pub_date: '2013-05-09 23:20:33'
   disabled: 0
 ---
 

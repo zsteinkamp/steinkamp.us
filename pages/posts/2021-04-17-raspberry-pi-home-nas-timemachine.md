@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Home Time Machine / NAS With a Raspberry Pi
-date: "2021-04-17 12:00:00"
+date: '2021-04-17 12:00:00'
 thumbnail: https://photos.steinkamp.us/photo/zzz_blog_images/2021041711321985-1775920485079464067-IMG_2227.jpg?size=300x300&crop
 ---
 

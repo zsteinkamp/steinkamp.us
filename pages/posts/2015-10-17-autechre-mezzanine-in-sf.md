@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Autechre @ Mezzanine in SF
-date: "2015-10-17 07:00:00"
+date: '2015-10-17 07:00:00'
 thumbnail: /images/autechre.jpg
 ---
 

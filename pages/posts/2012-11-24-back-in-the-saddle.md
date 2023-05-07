@@ -1,17 +1,17 @@
 ---
 layout: post
 title: Back in the Saddle
-date: "2012-11-24 20:14:28"
+date: '2012-11-24 20:14:28'
 categories: post post
 entry:
   id: 890
   source: post
   data:
-    excerpt: ""
+    excerpt: ''
     title: Back in the Saddle
-  created_at: "2012-11-24 20:28:07"
-  updated_at: "2012-11-24 20:28:07"
-  pub_date: "2012-11-24 20:14:28"
+  created_at: '2012-11-24 20:28:07'
+  updated_at: '2012-11-24 20:28:07'
+  pub_date: '2012-11-24 20:14:28'
   disabled: 0
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Angry Birds
-date: "2012-02-18 21:16:24"
+date: '2012-02-18 21:16:24'
 ---
 
 Marina's latest clay obsession...

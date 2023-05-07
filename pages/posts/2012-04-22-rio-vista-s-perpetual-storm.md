@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Rio Vista's Perpetual Storm
-date: "2012-04-22 04:27:20"
+date: '2012-04-22 04:27:20'
 excerpt: |
   In the weather app I use on my phone, there is a map view with configurable
   overlays.  One of the most useful is the Doppler Radar overlay, which usually

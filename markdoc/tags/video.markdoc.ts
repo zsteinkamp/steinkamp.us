@@ -1,4 +1,4 @@
-import Video from "@/components/Video";
+import Video from '@/components/Video'
 
 export const video = {
   render: Video,
@@ -6,7 +6,7 @@ export const video = {
     src: { type: String },
     autoPlay: { type: Boolean, default: false },
     loop: { type: Boolean, default: false },
-    type: { type: String, default: "audio/mpeg" },
+    type: { type: String, default: 'audio/mpeg' },
     className: { type: String },
   },
-};
+}

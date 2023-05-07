@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Last Long Run Before O50K
-date: "2013-04-21 23:02:24"
+date: '2013-04-21 23:02:24'
 categories: post post
 entry:
   id: 918
@@ -14,9 +14,9 @@ entry:
       my steps.  \n\nStats: 27.8mi, 7300ft climb, 1800 calories food, 300oz water,
       3lbs net loss bodyweight."
     title: Last Long Run Before O50K
-  created_at: "2013-04-21 23:16:12"
-  updated_at: "2013-04-21 23:16:12"
-  pub_date: "2013-04-21 23:02:24"
+  created_at: '2013-04-21 23:16:12'
+  updated_at: '2013-04-21 23:16:12'
+  pub_date: '2013-04-21 23:02:24'
   disabled: 0
 ---
 
