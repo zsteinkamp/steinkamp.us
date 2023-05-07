@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Systems of Working - The Role of Leadership
-date: '2019-08-24 23:09:30'
+date: "2019-08-24 23:09:30"
 ---
+
 There are as many systems of working as there are development teams. One
 important dimension in evaluating a system of working is identifying the role
 of leadership in the team.
@@ -10,6 +11,7 @@ of leadership in the team.
 Here are a few systems of working that you may encounter in the wild:
 
 ### In this corner: Command and Control
+
 On one end of the leadership scale is what I call "Command and Control". This
 is the typical single-leader taskmaster model. In this system of working, there
 is a fleet of "resources" (they are never referred to as "people") who answer
@@ -19,16 +21,19 @@ given amount of time. The team is rewarded for shipping a set of predefined
 tasks by a particular date. The date is normally determined outside the team.
 
 Benefits:
-* Outside parties are happy to have received a date where their work will be "delivered".
-* Fixed scope of work decided early on facilitates resource planning.
-* One way to work with a team of disengaged or low-skilled employees.
+
+- Outside parties are happy to have received a date where their work will be "delivered".
+- Fixed scope of work decided early on facilitates resource planning.
+- One way to work with a team of disengaged or low-skilled employees.
 
 Drawbacks:
-* Encourages apathy, discourages individual ownership.
-* Guaranteed waste (padding delivery date too much) or burnout (delivery date too aggressive).
-* Individual development is secondary concern.
+
+- Encourages apathy, discourages individual ownership.
+- Guaranteed waste (padding delivery date too much) or burnout (delivery date too aggressive).
+- Individual development is secondary concern.
 
 ### In the other corner: Self-Organizing Teams
+
 At the other end of the scale is the "Self-Organizing Team". This is a team of
 leaders. They collaborate to define the best outcome for the success of the
 business and divide tasks between themselves. They know each other's strengths
@@ -37,15 +42,18 @@ and commitments are decided within the team after collecting input from stakehol
 Roles within the team are fluid and decided by the team.
 
 Benefits:
-* A great environment for a motivated and engaged team. Encourages such behavior.
-* Individuals feel like individuals, not cogs in a machine.
-* Provides an opportunity for Agile principles to spread through the organization.
+
+- A great environment for a motivated and engaged team. Encourages such behavior.
+- Individuals feel like individuals, not cogs in a machine.
+- Provides an opportunity for Agile principles to spread through the organization.
 
 Drawbacks:
-* Other parts of the organization (Finance, HR, other dev teams) may not know how to work with such a team.
-* At its extreme, the role of the people-manager becomes unclear, especially regarding reviews and compensation.
+
+- Other parts of the organization (Finance, HR, other dev teams) may not know how to work with such a team.
+- At its extreme, the role of the people-manager becomes unclear, especially regarding reviews and compensation.
 
 ### Somewhere in the middle: People Garden
+
 At some point between these two extremes is a model that I call a "People
 Garden". This is a team with a manager (gardener) whose top concern is simply
 the growth of their team. Growth has many contexts -- empowerment, capability,
@@ -58,14 +66,16 @@ maximum effectiveness. The manager is judged on the improvement vector of their
 team and their team's ability to satisfy the needs of the business.
 
 Benefits:
-* Grows an engaged team of expanding capability.
-* Encourages team members to become invested in deciding priorities and setting expectations, which builds a sense of ownership.
-* Provides an opportunity for Agile principles to spread through the organization.
-* Fits into typical corporate model of private compensation, reviews, and rewards.
+
+- Grows an engaged team of expanding capability.
+- Encourages team members to become invested in deciding priorities and setting expectations, which builds a sense of ownership.
+- Provides an opportunity for Agile principles to spread through the organization.
+- Fits into typical corporate model of private compensation, reviews, and rewards.
 
 Drawbacks:
-* May not work well with expectations of the rest of the business.
-* Requires a mature, capable team (most are!)
+
+- May not work well with expectations of the rest of the business.
+- Requires a mature, capable team (most are!)
 
 In my experience, the People Garden yields the happiest, most productive teams that fit in with normal work culture.
 

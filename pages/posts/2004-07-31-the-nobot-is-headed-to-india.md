@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Nobot is Headed to India
-date: '2004-07-31 09:49:12'
+date: "2004-07-31 09:49:12"
 categories: post post
 entry:
   id: 162
@@ -9,16 +9,17 @@ entry:
   uid: 22
   data:
     title: The Nobot is Headed to India
-    excerpt: ''
-  created_at: '2010-08-30 05:16:37'
-  updated_at: '2010-08-30 05:16:37'
-  pub_date: '2004-07-31 09:49:12'
+    excerpt: ""
+  created_at: "2010-08-30 05:16:37"
+  updated_at: "2010-08-30 05:16:37"
+  pub_date: "2004-07-31 09:49:12"
   disabled: 0
 ---
+
 Well, today's the day we pack up our stuff for a three
-week trip to India.  We're leaving from SFO late
+week trip to India. We're leaving from SFO late
 tonight, flying 15 hours to Hong Kong, a short
-layover, then a few hours to Singapore.  12 hours in
+layover, then a few hours to Singapore. 12 hours in
 Singapore (with a pint sized hotel room), then another
 4 hour flight to Bangalore.
 
@@ -37,5 +38,5 @@ I'm going to disable publishing to the nobot for now,
 since I like to keep tabs on things, and I won't be
 able to while on the road.
 
-So enjoy your August everyone.  I hope to have lots of
+So enjoy your August everyone. I hope to have lots of
 photos and stories to share when we return.

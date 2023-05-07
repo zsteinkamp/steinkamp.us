@@ -1,9 +1,10 @@
 ---
 layout: post
 title: Miniminimus
-date: '2011-08-27 20:05:02'
+date: "2011-08-27 20:05:02"
 ---
-I got a pair of <a href="http://www.zombierunner.com/store/brands/new_balance/minimalist_shoes/">New Balance Minimus shoes</a> at Zombie Runner this week.  Really love how they fit and feel, but I wasn't crazy about the big silver N on each shoe...
+
+I got a pair of <a href="http://www.zombierunner.com/store/brands/new_balance/minimalist_shoes/">New Balance Minimus shoes</a> at Zombie Runner this week. Really love how they fit and feel, but I wasn't crazy about the big silver N on each shoe...
 
 <p>
 <a href="http://www.flickr.com/photos/thenobot/6086760886/" title="Minimus by thenobot, on Flickr"><img src="https://farm7.static.flickr.com/6077/6086760886_4af23717de_z.jpg" width="611" height="444" alt="Minimus"></a>

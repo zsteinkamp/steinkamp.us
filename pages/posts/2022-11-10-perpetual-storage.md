@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 'Perpetual Storage'
-date: '2022-11-10 12:00:00'
-thumbnail: '/images/stone-tablet.jpg'
+title: "Perpetual Storage"
+date: "2022-11-10 12:00:00"
+thumbnail: "/images/stone-tablet.jpg"
 ---
 
 Where does the data go?

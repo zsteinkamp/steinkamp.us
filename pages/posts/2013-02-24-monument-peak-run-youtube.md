@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Monument Peak Run
-date: '2013-02-24 21:54:45'
+date: "2013-02-24 21:54:45"
 source: youtube
 uid: jNGF3t6DOm0
 excerpt: |

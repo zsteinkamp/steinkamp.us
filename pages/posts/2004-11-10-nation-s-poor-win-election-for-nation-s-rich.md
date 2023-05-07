@@ -1,20 +1,21 @@
 ---
 layout: post
 title: Nation's Poor Win Election for Nation's Rich
-date: '2004-11-10 08:44:16'
+date: "2004-11-10 08:44:16"
 categories: post post
 entry:
   id: 207
   source: post
   uid: 67
   data:
-    excerpt: ''
+    excerpt: ""
     title: Nation's Poor Win Election for Nation's Rich
-  created_at: '2010-08-30 05:16:38'
-  updated_at: '2010-08-30 05:16:38'
-  pub_date: '2004-11-10 08:44:16'
+  created_at: "2010-08-30 05:16:38"
+  updated_at: "2010-08-30 05:16:38"
+  pub_date: "2004-11-10 08:44:16"
   disabled: 0
 ---
+
 (from <a
 href="http://www.theonion.com/news/index.php?issue=4045&n=0&ref=myy">The
 Onion</a>)
@@ -24,7 +25,7 @@ of the U.S. population provided the decisive factor in
 another presidential election last Tuesday, handing
 control of the government to the rich and powerful
 once again.
-Bush and Cheney accept victory.	
+Bush and Cheney accept victory.
 Above: Bush and Cheney accept victory.
 
 "The Republican partythe party of industrial
@@ -67,7 +68,7 @@ black-lung disease in the company coal mines."
 
 Kaldrin was one of many who listed moral issues among
 their primary reasons for voting Republican.
-Bush supporters vote in Kendall, FL.	
+Bush supporters vote in Kendall, FL.
 Above: Bush supporters vote in Kendall, FL.
 
 "Our society is falling apartour treasured values are
@@ -97,4 +98,4 @@ think, the system works."
 
 Added Bush: "God bless America's backwards hicks,
 lunchpail-toting blockheads, doddering elderly, and
-bumpity-car-driving Spanish-speakers." 
+bumpity-car-driving Spanish-speakers."

@@ -1,14 +1,13 @@
-import { useRouter } from 'next/router'
+import { useRouter } from "next/router";
 
-const BackButton = ({ label="<<< Back", className }) => {
+const BackButton = ({ label = "<<< Back", className }) => {
   const router = useRouter();
 
   return (
     <button type="button" onClick={() => router.back()} className={className}>
-      { label }
+      {label}
     </button>
   );
 };
 
 export default BackButton;
-

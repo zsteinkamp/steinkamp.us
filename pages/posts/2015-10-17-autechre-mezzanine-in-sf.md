@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Autechre @ Mezzanine in SF
-date: '2015-10-17 07:00:00'
+date: "2015-10-17 07:00:00"
 thumbnail: /images/autechre.jpg
 ---
 
 While mindlessly surfing the internet I stumbled across [Autechre's website](http://autechre.ws/) and saw they were planning a North American tour. The San Francisco date was coming right up on October 16, 2015. Well heck yes I was going to go! Anyone who has listened to music with me knows that Autechre is #1 on my list. So I got in touch with a couple of Ae-friendly friends. It happened that Ben was as excited to go as I was, so I got us some tickets. Good thing I jumped on them, since the show sold out that week.
 
-I drove up to Ben's house in San Francisco, stopping for a quick charge at Peter Pan BMW service center near SFO. $10 for a charge -- ouch! But better that than have to find a place in the city or on the way home. My car could *maybe* have done the round trip on one charge, but I'd rather not be stranded.
+I drove up to Ben's house in San Francisco, stopping for a quick charge at Peter Pan BMW service center near SFO. $10 for a charge -- ouch! But better that than have to find a place in the city or on the way home. My car could _maybe_ have done the round trip on one charge, but I'd rather not be stranded.
 
 ANyhow, I got to Ben's at about 8pm. We hung out for a bit, walked to get some food, and made our way to the show at a club called Mezzanine. Doors were at 8:30, and the first of two openers started at 9. We got there about 9:30, right in the heat of DJ Rob Hall's set. He was playing some great music that I'd never heard. The place wasn't quite filled up, but it was still early.
 
@@ -22,7 +22,7 @@ I've since bought a couple of Cygnus' releases on iTunes and have listened many 
 
 Cygnus wrapped up and surprisingly Rob Hall came back on and played some tracks. It was almost midnight at this point.
 
-The multicolor, perpetually moving club lights that had been in full effect for the duration of the show so far went black. There was just a single blacklight fixture in the middle of the room that stayed on, but that mistake was soon corrected and it was powered down. 
+The multicolor, perpetually moving club lights that had been in full effect for the duration of the show so far went black. There was just a single blacklight fixture in the middle of the room that stayed on, but that mistake was soon corrected and it was powered down.
 
 We were left without visuals to plant any imagery in our minds. There were no lights on the stage either. Just from some ambient glow, I saw the baseball cap of Autechre's Sean Booth peeking out from behind his MacBook Pro, and his fingers busy doing who knows what. He must have snuck onto the stage, hunched over so nobody could see. Slowly but surely, he seized control of the sound from DJ Rob Hall, manipulating the recorded track with effects surely from centuries in the future. He took what was an already abstract track, and did things with it that made the original seem positively bland. It's such a challenge to describe what the sounds were at this point -- words cannot possibly capture the moebius of sounds and tones in that room.
 

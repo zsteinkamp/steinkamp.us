@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-const { fontFamily } = require('tailwindcss/defaultTheme')
+const { fontFamily } = require("tailwindcss/defaultTheme");
 
 module.exports = {
   content: [
@@ -11,11 +11,9 @@ module.exports = {
     extend: {
       fontFamily: {
         condensed: ['"Roboto Condensed"', ...fontFamily.sans],
-        sans: ['Inter', ...fontFamily.sans],
+        sans: ["Inter", ...fontFamily.sans],
       },
     },
   },
-  plugins: [
-    require('@tailwindcss/line-clamp'),
-  ],
-}
+  plugins: [require("@tailwindcss/line-clamp")],
+};

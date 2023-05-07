@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Consolidate and Loop in Ableton Live
-date: '2022-03-05 12:00:00'
+date: "2022-03-05 12:00:00"
 categories: post
 entry:
   source: post
@@ -21,25 +21,25 @@ Today I had the idea to try Apple's "Automator" app to implement a shortcut. Aut
 
 ## Download and Install
 
-* Download the [Consolidate and Loop .zip file](/images/consolidateAndLoop/ConsolidateAndLoop.zip).
-* Double-click the file to uncompress it.
-* Double-click the `Consolidate and Loop.workflow` file.
-* The system will ask you if you want to install it, click Install.
-![Screenshot of confirmation](/images/consolidateAndLoop/install.png)
-* If you switch to Ableton Live, you should now see it in the Services menu.
-![Screenshot of Services menu](/images/consolidateAndLoop/services_menu.png)
+- Download the [Consolidate and Loop .zip file](/images/consolidateAndLoop/ConsolidateAndLoop.zip).
+- Double-click the file to uncompress it.
+- Double-click the `Consolidate and Loop.workflow` file.
+- The system will ask you if you want to install it, click Install.
+  ![Screenshot of confirmation](/images/consolidateAndLoop/install.png)
+- If you switch to Ableton Live, you should now see it in the Services menu.
+  ![Screenshot of Services menu](/images/consolidateAndLoop/services_menu.png)
 
 ## Mapping a Keystroke
 
 To map a keystroke to this new Service, do the following:
 
-* Open System Preferences.
-* Go to the Keyboard preferences.
-* Select the "Shortcuts" tab.
-* Select "Services" from the left column.
-* Scroll to the bottom of the right column, and select "Consolidate and Loop".
-* Click the "Add Shortcut" button, then press Cmd-Shift-J.
-![Screenshot of Keyboard shortcut](/images/consolidateAndLoop/key_shortcut.png)
+- Open System Preferences.
+- Go to the Keyboard preferences.
+- Select the "Shortcuts" tab.
+- Select "Services" from the left column.
+- Scroll to the bottom of the right column, and select "Consolidate and Loop".
+- Click the "Add Shortcut" button, then press Cmd-Shift-J.
+  ![Screenshot of Keyboard shortcut](/images/consolidateAndLoop/key_shortcut.png)
 
 So now back in Ableton Live, you can now press Cmd-Shift-J to Consolidate + Loop a selection and stay in the creative flow.
 
@@ -47,15 +47,15 @@ So now back in Ableton Live, you can now press Cmd-Shift-J to Consolidate + Loop
 
 If you want to go through the steps yourself to learn how to create a similar Service in the future, here you go. Do the following:
 
-* Open Ableton Live and make a selection in a MIDI track. It can be empty.
-* Launch the Automator app.
-* Create a new "Quick Action".
-* Set up its basic settings (Workflow receives "no input" from "Ableton Live Suite 11")
-* Add a "Watch Me Do" action.
-* Click Record.
-* Switch to Ableton Live.
-* Press Cmd-J, Shift-Tab, Shift-Tab, Cmd-L.
-* Stop recording.
-* Save the action as "Consolidate and Loop".
+- Open Ableton Live and make a selection in a MIDI track. It can be empty.
+- Launch the Automator app.
+- Create a new "Quick Action".
+- Set up its basic settings (Workflow receives "no input" from "Ableton Live Suite 11")
+- Add a "Watch Me Do" action.
+- Click Record.
+- Switch to Ableton Live.
+- Press Cmd-J, Shift-Tab, Shift-Tab, Cmd-L.
+- Stop recording.
+- Save the action as "Consolidate and Loop".
 
 It will now appear in Live's Services menu.

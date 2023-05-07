@@ -1,9 +1,10 @@
 ---
 layout: post
 title: 2016 Ohlone 50K -- Caffeine and Blisters Edition
-date: '2016-05-24 05:09:08'
+date: "2016-05-24 05:09:08"
 thumbnail: https://photos.steinkamp.us/photo/2016-05-24_ohlone_50k/home_stretch.jpg?size=300x300&crop
 ---
+
 Well, the 2016 Ohlone 50K is in the tie-dyed goodie bag. This year was such an experience in learning, growth, and overcoming adversity.
 
 The story starts toward the end of last year when I started running with "Club Nina" -- a loosely organized group of about 20 local trail crazies led by the gregarious and motivated Nina G. My routine went from "a couple short neighborhood runs during the week and a weekend trail run" to "pre-dawn weekday trail runs with Nina and friends and a longer weekend run." My weekly mileage went from 20 to 30 to 40 through this year, still only running three days a week. Since we were running trails, we were running hills, so my weekly elevation more than doubled too. Nina and I are well matched, not only in pace, but in our motivation for trail running. Feeling like a part of nature and observing its ever changing faces is a big part of why we choose to do this. Nina's enthusiasm for miles, feet, and nature photos have kept me honest in training for this race. Other friends in Club Nina share this zeal too, and so we all get along really well. It's been a real pleasure to get to know some of these folks like Beto, Jeremy, Jamey, Donnie, Paul, Alex, Larry, Matt, Jeff, Jeff, Tim, and others, and I hope that continues.
@@ -49,7 +50,7 @@ I ran a bit with a guy named John from Las Vegas who works in law enforcement fo
 
 {% captionedimage alt="The Bluff" src="https://photos.steinkamp.us/photo/2016-05-24_ohlone_50k/the_bluff.jpg?size=1600x1600" caption="The view from near The Bluff" /%}
 
-A mile or so before Rose Peak, a Fire Rescue truck motored past me on the trail. Damn, I thought, I really hope there isn't a medical problem with one of the runners ahead. Turns out they were just relocating from one aid station to another. *whew*
+A mile or so before Rose Peak, a Fire Rescue truck motored past me on the trail. Damn, I thought, I really hope there isn't a medical problem with one of the runners ahead. Turns out they were just relocating from one aid station to another. _whew_
 
 "Top o' the mountain to ye" I shouted at the folks working the tent at the top of Rose Peak (mile 20) handing out bracelets. From there, the trail descends a bit to the Maggie's Half Acre aid station, which historically has been my favorite. This year didn't disappoint, with a bowl of fresh strawberries (YES! LIFE!) and some ice for my water.
 
@@ -85,4 +86,4 @@ We sat in the grass and relaxed and chatted for another hour or so with new and 
 
 {% captionedimage alt="Elevation profile and aid stations" src="https://photos.steinkamp.us/photo/2016-05-24_ohlone_50k/aid_station_map.jpg" caption="The elevation profile of the course and the aid station locations. Mission Peak (2500ft) is the first bump on the left, Rose Peak (3850ft) is the highest point. Overall there is about 8500 feet of climbing in this race." /%}
 
-The calm after the storm is always a mixed blessing. On one hand, the hard work is over. Without the pressure of a big race, there's a lot more flexiblility in weekly exercising activities. On the other hand, the level of fitness from doing consistent 24+ mile runs on the weekend is such a great feeling. There's balance in there somewhere, and I will find it. I *am* certainly looking forward to the 2017 Ohlone 50K and shooting to come in under six hours.
+The calm after the storm is always a mixed blessing. On one hand, the hard work is over. Without the pressure of a big race, there's a lot more flexiblility in weekly exercising activities. On the other hand, the level of fitness from doing consistent 24+ mile runs on the weekend is such a great feeling. There's balance in there somewhere, and I will find it. I _am_ certainly looking forward to the 2017 Ohlone 50K and shooting to come in under six hours.

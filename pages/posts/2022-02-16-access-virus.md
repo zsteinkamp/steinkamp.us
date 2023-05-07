@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Access Virus and Me
-date: '2022-02-16 12:00:00'
+date: "2022-02-16 12:00:00"
 categories: post
 entry:
   source: post
@@ -50,7 +50,6 @@ Fast forward to January 2022. Through some random internet surfing, I [came acro
 The project runs flawlessly on my computer inside of Ableton Live. I can have several Virus instances running at the same time, and bonus: all of my sounds are there! It's like a time capsule for me. Being able to play those sounds takes me right back to the moments when I made them. Pure joy!
 
 ![Screenshot of the DSP56300 Virus Emulator](/images/virus-emu.png)
-
 
 The Virus is still sold, but it's not being developed any more. Christoph Kemper shifted his focus around 2010 to making and releasing a revolutionary tool for guitarists. It's a box that can "learn" the nuances of a particular amp/cabinet/mic combo, and simulate it on its own. The [Kemper Profiler](https://www.kemper-amps.com/) has become its own big success in the guitar world.
 

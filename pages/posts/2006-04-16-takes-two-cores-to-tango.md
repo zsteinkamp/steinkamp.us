@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Takes Two (Cores) To Tango
-date: '2006-04-16 19:00:00'
+date: "2006-04-16 19:00:00"
 categories: post post
 entry:
   id: 235
@@ -9,13 +9,15 @@ entry:
   uid: 95
   data:
     title: Takes Two (Cores) To Tango
-    excerpt: Apple's new Intel-based Mac Minis are all they are cracked up to be,
+    excerpt:
+      Apple's new Intel-based Mac Minis are all they are cracked up to be,
       and then some...
-  created_at: '2010-08-30 05:16:38'
-  updated_at: '2010-08-30 05:16:38'
-  pub_date: '2006-04-16 19:00:00'
+  created_at: "2010-08-30 05:16:38"
+  updated_at: "2010-08-30 05:16:38"
+  pub_date: "2006-04-16 19:00:00"
   disabled: 0
 ---
+
 <h1>January 2005</h1>
 I stood in line at 6AM in Valley Fair in January 2005 to be one of the first
 people to get the original Power PC Mac Minis, and was rewarded with a
@@ -39,13 +41,13 @@ where it took their heavily burdoned servers more than a minute to verify my
 credit card, I had a new Mini configured and in their system.
 
 I selected the $22 "overnight shipping" option because I'm impatient, but later
-got it refunded because the system was built in China and FedEx'd to my house.  There
+got it refunded because the system was built in China and FedEx'd to my house. There
 is no overnight FedEx from China ;-).
 
-The machine is wicked fast.  It just smokes the G4 PPC Mini in anything, except for
+The machine is wicked fast. It just smokes the G4 PPC Mini in anything, except for
 when it runs apps compiled for PowerPC using the Rosetta translation utility, then things are
-slightly slower than the old Mini.  Not a big problem, since most things I use are compiled
-now for both Intel and PowerPC.  A notable exception is Photoshop, but I can work around that
+slightly slower than the old Mini. Not a big problem, since most things I use are compiled
+now for both Intel and PowerPC. A notable exception is Photoshop, but I can work around that
 for now.
 
 <h1>April 2006</h1>
@@ -53,7 +55,7 @@ for now.
 feel sluggish.  The <a href='http://labs.macromedia.com/technologies/lightroom/'>Lightroom</a>
 beta is my new favorite software.  I really don't feel the need to use Photoshop for
 anything but making new graphics or icons for the web site or <em>really</em> messing
-with digital photos.  
+with digital photos.
 
 Aperture 1.1 should be in stores in a couple of weeks, so we'll see if it will
 knock Lightroom from the champion's spot.

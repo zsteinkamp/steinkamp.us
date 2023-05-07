@@ -1,10 +1,11 @@
 ---
 layout: post
 title: Feedback FRACK for Ableton Live
-date: '2021-03-17 12:00:00'
+date: "2021-03-17 12:00:00"
 categories: post
-thumbnail: '/images/feedback-sidechain.png'
+thumbnail: "/images/feedback-sidechain.png"
 ---
+
 Inspired by Hainbach's video on [Pinging](https://www.youtube.com/watch?v=qJRXxkswXdg), but lacking outboard hardware, I decided to explore creating a feedback device in Ableton Live.
 
 Normally, when you want to build a feedback loop in Live, you would use a Return track set up to feed back to itself, either directly by enabling its own send, or via an Audio Track set up to take input from the Return track and sending some of its output back to the Return track.
@@ -12,7 +13,6 @@ Normally, when you want to build a feedback loop in Live, you would use a Return
 While this does work, it's fairly clumsy since there are multiple tracks involved. Creating a new Return track for every experiment you want to have clutters the workspace and there is a physical/mental distance between the device making the initial sound and its feedback loop. I thought that it must be possible, given what Live offers, to have a single device that implements a feedback loop.
 
 Well, I figured it out, and you can [download the Feedback FRACK device here](/audio/FeedbackFRACK.adg). Note that this device was created in Live 11, and will not work in earlier versions. :(
-
 
 ## Using the Feedback FRACK
 

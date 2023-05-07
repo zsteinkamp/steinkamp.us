@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Faderboard Version 3
-date: '2022-01-08 12:00:00'
+date: "2022-01-08 12:00:00"
 categories: post
 entry:
   source: post
@@ -12,6 +12,7 @@ This post details a significant update to my original Faderboard device for Able
 The [prior version](/post/2021/12/01/faderboard-in-ableton.html) worked fine, but changing sounds was very cumbersome, requiring updating the sample loaded into 8 Simpler devices. This new version uses a single sample "drop zone", and offers some nice usability and capability improvements.
 
 ## Demo
+
 Here is an instance of zs-Faderboard3 playing the example sample, sent through a Pedal device then into [Valhalla Supermassive](https://valhalladsp.com/shop/reverb/valhalla-supermassive/) on the "We Are Stardust" preset.
 
 {% youtube src="https://www.youtube.com/embed/UWtkUmbyKyc" title="YouTube video player" width="100%" /%}
@@ -22,11 +23,11 @@ The demo shows off the device's loop management abilities too, including seamles
 
 Click the link below to download the Max For Live device:
 
-* [zs-Faderboard3.amxd](https://github.com/zsteinkamp/m4l-zs-Faderboard3/blob/main/zs-Faderboard3.amxd?raw=true)
+- [zs-Faderboard3.amxd](https://github.com/zsteinkamp/m4l-zs-Faderboard3/blob/main/zs-Faderboard3.amxd?raw=true)
 
 After downloading, you can then add the device file to your User Library in Ableton Live, or directly into a MIDI track. You can then drag a sample onto the "Drop Sample Here" area. The .wav file below is a nice example to start with. You can also drag a clip directly from an Audio track in Ableton Live to the drop zone.
 
-* [Harmonic Flights- D3.wav](https://github.com/zsteinkamp/m4l-zs-Faderboard3/blob/main/samples/Harmonic%20Flights-%20D3.wav?raw=true)
+- [Harmonic Flights- D3.wav](https://github.com/zsteinkamp/m4l-zs-Faderboard3/blob/main/samples/Harmonic%20Flights-%20D3.wav?raw=true)
 
 Set the root note for your sample. For example, the above sample is rooted at D3.
 
@@ -44,14 +45,14 @@ Here's a long demo showing how that can work:
 
 Download the touchOSC definition here:
 
-* [zs-Faderboard3.tosc](https://github.com/zsteinkamp/m4l-zs-Faderboard3/blob/main/zs-Faderboard3.tosc?raw=true)
+- [zs-Faderboard3.tosc](https://github.com/zsteinkamp/m4l-zs-Faderboard3/blob/main/zs-Faderboard3.tosc?raw=true)
 
 You can then configure touchOSC on the iPad to send MIDI over "Network Session 1".
 
-* In the touchOSC editor page, click the little chain icon in the top row, next to the wifi icon.
-* Ensure `Connection 1` is checked, and click the down arrow on the right side of that row.
-* That should reveal a `Send Port` and `Receive Port` option.
-* For both `Send Port` and `Receive Port`, touch `Browse` and choose `Network Session 1`
+- In the touchOSC editor page, click the little chain icon in the top row, next to the wifi icon.
+- Ensure `Connection 1` is checked, and click the down arrow on the right side of that row.
+- That should reveal a `Send Port` and `Receive Port` option.
+- For both `Send Port` and `Receive Port`, touch `Browse` and choose `Network Session 1`
 
 {% captionedimage src="/images/midiSetup/touchOSC_network_config.jpeg" alt="touchOSC network config" /%}
 
@@ -59,13 +60,13 @@ After you tap `Done`, touchOSC will send messages over network MIDI.
 
 To set up the Mac to receive the network MIDI data, follow these instructions:
 
-* Ensure touchOSC is open on the iPad
-* On the Mac, open the app `Audio MIDI Setup`
-* Click the `Window` menu and choose `Show MIDI Studio`
-* Click the `MIDI Studio` menu and choose `Open MIDI Network Setup...`
-* If the `My Sessions` panel is empty, click the `+` button to create a `Session 1`
-* Check the checkbox next to `Session 1`
-* In the `Directory` panel, click your iPad, then click the `Connect` button
+- Ensure touchOSC is open on the iPad
+- On the Mac, open the app `Audio MIDI Setup`
+- Click the `Window` menu and choose `Show MIDI Studio`
+- Click the `MIDI Studio` menu and choose `Open MIDI Network Setup...`
+- If the `My Sessions` panel is empty, click the `+` button to create a `Session 1`
+- Check the checkbox next to `Session 1`
+- In the `Directory` panel, click your iPad, then click the `Connect` button
 
 {% captionedimage src="/images/midiSetup/network_midi_setup.png" alt="Network Midi Setup" /%}
 
@@ -73,10 +74,10 @@ Now the iPad and the Mac can exchange MIDI messages over wifi!
 
 To enable MIDI control over WiFi for touchOSC in Ableton Live, follow these instructions:
 
-* Open Ableton Live
-* Open Preferences (`Cmd`+`,`)
-* Select the `Link / Tempo / Midi` panel
-* In the `MIDI Ports` section, ensure the `Track` and `Remote` checkboxes are selected for BOTH the `In: Network (Session 1)` and `Out: Network (Session 1)` rows.
+- Open Ableton Live
+- Open Preferences (`Cmd`+`,`)
+- Select the `Link / Tempo / Midi` panel
+- In the `MIDI Ports` section, ensure the `Track` and `Remote` checkboxes are selected for BOTH the `In: Network (Session 1)` and `Out: Network (Session 1)` rows.
 
 {% captionedimage src="/images/midiSetup/ableton_live_network_midi_setup.png" alt="Ableton Live MIDI config" /%}
 

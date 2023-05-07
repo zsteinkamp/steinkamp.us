@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 'What I Learned At Stripe'
-date: '2022-11-10 12:00:00'
+title: "What I Learned At Stripe"
+date: "2022-11-10 12:00:00"
 toc: true
-thumbnail: 'https://marketplace.mypurecloud.com/e381987c-6f3e-4fc7-b562-8526d3e0ac45/companylogo_bf4b0be5.jpg'
+thumbnail: "https://marketplace.mypurecloud.com/e381987c-6f3e-4fc7-b562-8526d3e0ac45/companylogo_bf4b0be5.jpg"
 ---
 
 In February 2022, I left my job at Splunk to take some time first to relax then to [focus on finding a fantastic next job](/post/2022/02/06/what-comes-next.html). I managed to do both during my three months of funemployment, landing a job at Stripe in the [Atlas](https://stripe.com/atlas) team in May. I was [laid off](https://techcrunch.com/2022/11/03/stripe-cuts-14-of-its-workforce-ceo-says-they-overhired-for-the-world-were-in/) in November 2022, along with most people who were hired during this time.
@@ -24,20 +24,17 @@ This practice normalizes gratitude in the team, and sets a mild expectation for 
 
 One thing I was surprised to see on my first day at Stripe was the default "thank you" emoji in Slack is the Ty Beanie Baby heart. I was initially afraid to use it (sending hearts to coworkers?!?!?!), but in time I learned to see it as a tool for elevating the good vibes. Once I got over the initial shyness around using it, I felt more liberated to share my gratitude in this very strong way.
 
-
 ## The DRI
 
 Each task and project in the team has a single person who is responsible for that thing in that moment - the Directly Responsible Individual, or DRI. The DRI for something may shift as time passes, and this fact is communicated clearly to the team and stakeholders when it happens.
 
 This helps to avoid the tragedy of the commons where shared ownership results in no ownership. It also builds on a culture of top-to-bottom responsibility, which builds more capable team members and gives higher quality output. A common question asked in team meetings when a great idea is presented is "who wants to DRI that idea?" This way, fewer great ideas fall between the cracks of responsibility between people.
 
-
 ## Hiring for growth, diversity, and EQ
 
 So many companies hire solely on technical aptitude, then design the role of the engineer as an implementer of others' ideas. Stripe (and specifically the Atlas team) biases hiring much more strongly on aspirations, track record, taste, and potential. Of course, the technical bar is still very high, but it's not the only bar.
 
 The team is filled with enthusiastic, energetic, fantastic communicators who are motivated to deliver ideal user experiences. In the right environment, people with these skills are able to produce a better product and build a better team culture than a dull, code-focused, command-and-control kind of environment.
-
 
 ## Learning in public
 
@@ -49,22 +46,19 @@ This builds awareness through the team of what is happening, and provides teamma
 
 The team also embraces mentorship, pairing, and teaching opportunities at every turn. Weekly team meetings regularly have teaching/learning segments, Slack Huddles are used for quick pairing sessions, and the team regularly "mobs" documents to help shape ideas or wordsmith messages in real time.
 
-
 ## Shipped emails
 
 A project in the Atlas team was considered done when a Shipped email was sent. This message, sent either to a team-specific group or a company-wide group (depending on impact) summarizes the problem and context around the problem, describes the solution approach (usually with screenshots or screen recordings), and quantifies the impact with metrics. It usually ends with a "we haven't won yet..." section where future phases or strategies may be laid out.
 
-It's not uncommon for a project to *begin* with writing (but not sending!) the Shipped email, serving as a north star for understanding the scope and goals of a project.
+It's not uncommon for a project to _begin_ with writing (but not sending!) the Shipped email, serving as a north star for understanding the scope and goals of a project.
 
 Shipped emails are echoed automatically to a Slack channel, and there is invariably a great react-ji storm underneath, along with a discussion or kudos thread.
-
 
 ## Dates have a % confidence
 
 I'm generally [not a fan](/post/2019/08/24/on-dates.html) of assigning due dates to development tasks, since so much of a project is unknown when we start it. We probably have a rough idea of magnitude, but so often project managers push for specific dates, which sets the team up for failure. The Atlas team does track date estimations, but those dates are always accompanied with a confidence level in that date. It is understood and embraced that these numbers will change over time, and changes are always communicated clearly in writing, and sometimes discussed in weekly "Ships Review" meetings.
 
 At a higher level, this is a good example of embracing the reality of the world when doing project management. So many companies get this wrong, and suffer as a result.
-
 
 ## Direct user feedback
 
@@ -76,11 +70,9 @@ The Atlas team would regularly hold open customer calls, with members of all dis
 
 We would also funnel in-app customer feedback directly and immediately to a Slack channel, along with a Twitter search bot that would post to the same channel if anyone tweeted about our product. New account sign-ups also are sent in real time to a Slack channel, including business name and description. This energizes the team, knowing they are working on a live product with an amazing breadth of customers.
 
-
 ## Keep it positive, keep it public
 
 The team culture in Atlas was always positive and light-hearted, but never insensitive or snarky. Hiring people who know how to communicate challenges in a positive way helps to reinforce this. Keeping team channels public helps to keep everyone on the straight and narrow in avoiding badmouthing other people or teams in the company. Shit-talking was culturally unacceptable in the team. If a private DM conversation started to go in that direction, someone would speak up to take the conversation to a public channel, and things returned to a more constructive tone.
-
 
 ## Friction logs
 
@@ -89,7 +81,6 @@ When I started in the team, my first task was to "friction log" Stripe Atlas. Th
 The team absolutely devours this information, since everyone is very aware of the tendency of developers who are very close to a product to start to become blind to its frictions. Our job as a team is to deliver the most friction-free experience to our users, and this practice helps to support that.
 
 Friction logging is a Stripe-wide practice, so people from our team would regularly friction log offerings or dependencies from other teams, since we are their end-users. This feedback was always welcome and frequently resulted in improvements delivered in short order.
-
 
 ## More open data warehouse
 
@@ -123,16 +114,14 @@ One big CICD risk-mitigating tool in Stripe's toolkit is a very well engineered 
 
 Actual CICD also encourages iterative development, since the overhead of shipping an incremental change is very low. This also promotes higher quality work, since the developers can more efficiently take smaller steps on their way to delivering a new feature.
 
-
 ## Remote development can work
 
 Cloud hosts, provisioned on-demand with a branch checked out and ready to go were the main vessels of development. This is a boon for productivity maximization, since if you were blocked on someone on a project you were working on, you could switch instantly to a different project, already running and ready to go on a second remote devbox.
-
 
 ## Big investments in dev tooling pay multiples
 
 Stripe's developer tools were absolutely next-level -- with tight integration between VSCode, Sorbet (the company's type safety layer for Ruby), Typescript, mountains of auto-generated files (e.g. .`proto` files for protocol buffers), and the dozens of services up and running on the devbox, viewable and controllable from within VSCode. Stripe's investment in dev tooling made for a very homogenous codebase, since idioms were super strictly enforced by the auto-generation layers.
 
-----
+---
 
-*Stripe colleagues, what did I miss? Email me :) zack@steinkamp.us*
+_Stripe colleagues, what did I miss? Email me :) zack@steinkamp.us_

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My Fastest Mile
-date: '2022-02-06 13:00:00'
+date: "2022-02-06 13:00:00"
 categories: post
 entry:
   source: post
@@ -19,12 +19,12 @@ If the ascent was my focus, the descent was a humdrum necessary slog back to the
 
 So I reached out to the Mission Peak Facebook group (this was 2013ish), asking for tips on improving my downhill pace and comfort. I wasn't sure what I would get in reply, but what I got was better than anything I imagined. A nice guy named Jerry replied that he could help me improve my pace. We worked out a time to meet at the Stanford Ave entrance, and we had a nice chat as we jogged up the Peak, keeping a pace that made me feel like I'd have a good amount of energy left at the top. On the way up, Jerry went over the important parts of his downhill running technique (he called it "Chi Running").
 
-* Put your perception in your navel. It is your center of mass, so it is most important to feel what it feels.
-* Chin at a comfortable height to minimize throat constriction.
-* Footfalls under you, not in front of you.
-* Lean forward and back for your gas pedal. Lean forward for faster, back for slower.
-* Elbows 90 degrees.
-* Arms can be like two cat's tails to balance when things get technical.
+- Put your perception in your navel. It is your center of mass, so it is most important to feel what it feels.
+- Chin at a comfortable height to minimize throat constriction.
+- Footfalls under you, not in front of you.
+- Lean forward and back for your gas pedal. Lean forward for faster, back for slower.
+- Elbows 90 degrees.
+- Arms can be like two cat's tails to balance when things get technical.
 
 We got to the summit, and Jerry squeezed the buttons on his GPS watch to start recording, and said, "ok try to keep up with me!" One thing that you should know is that Jerry was 68 years old at the time. On the way up, I was thinking to myself, "Ok this should be ok. He's an old guy. How fast could he be?" As soon as Jerry started running, I knew I was so so wrong.
 

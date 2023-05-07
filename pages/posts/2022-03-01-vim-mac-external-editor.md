@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Using Terminal vim as an External Editor on Mac
-date: '2022-03-01 12:00:00'
+date: "2022-03-01 12:00:00"
 categories: post
 entry:
   source: post
@@ -26,6 +26,7 @@ I set out today to solve this problem once and for all, and eventually pieced a 
 4. Ensure you are running `/bin/bash` as the shell, and that you have the "Pass input" dropdown set to `as arguments`.
 
 5. Paste this script code:
+
 ```
 osascript <<END
 tell application "Terminal"

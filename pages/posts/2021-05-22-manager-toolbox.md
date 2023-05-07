@@ -1,18 +1,19 @@
 ---
 layout: post
 title: Manager Toolbox
-date: '2021-05-22 13:00:00'
+date: "2021-05-22 13:00:00"
 categories: post
 entry:
   source: post
 ---
 
 Here's the tl;dr:
->   * Your job is to grow your team.
->   * Write down expectations of team members, broken down by level.
->   * Quantify your team's capabilities.
->   * Remember good work and areas to improve.
->   * Plan appropriately -- individually and with the group.
+
+> - Your job is to grow your team.
+> - Write down expectations of team members, broken down by level.
+> - Quantify your team's capabilities.
+> - Remember good work and areas to improve.
+> - Plan appropriately -- individually and with the group.
 
 Now read on for more detail, including actual tools to implement the above.
 
@@ -26,12 +27,11 @@ In the last 3.5 years, I've finally embraced this job, and really learned to lov
 
 In this post, I want to share what has helped me to really enjoy the manager role, and in particular some tools that I have developed in order to make this job work for me and my team.
 
-* [Attitude / Philosophy](#attitude--philosophy)
-* [Written Advancement Path](#written-advancement-path)
-* [Quantified Technical Skill](#quantified-technical-skill)
-* [Trophy Case](#trophy-case)
-* [Fractal Planning](#fractal-planning)
-
+- [Attitude / Philosophy](#attitude--philosophy)
+- [Written Advancement Path](#written-advancement-path)
+- [Quantified Technical Skill](#quantified-technical-skill)
+- [Trophy Case](#trophy-case)
+- [Fractal Planning](#fractal-planning)
 
 ## Attitude / Philosophy
 
@@ -40,7 +40,6 @@ Perhaps it's an over-simplification, but from what I've observed there are two k
 ### Antipattern: The Taskmaster
 
 Given the nature of for-profit business and the lack of real attention given to developing individuals to excel at the manager job, unfortunately it appears The Taskmaster is the dominant management style in the industry. The Taskmaster is likely driven by a single metric: output. They see their team as "resources" who complete tasks. The more tasks completed, the better. The Taskmaster micromanages who is doing what, and has neat little compartments for what each person in their team is allowed to do. Creative or motivated people typically get frustrated working for a Taskmaster, and will likely flee after they've built up enough frustration for their lack of growth. Yes, there are individuals who thrive working for a Taskmaster. These tend to be the "just a job" types, who don't necessarily think about their own growth or development, or they are content with building their skills on their own time, then change jobs to achieve that growth.
-
 
 ### Better: The Gardener
 
@@ -84,49 +83,40 @@ Each person in my team has a Trophy Case document. This is simply a timestamped 
 
 [Example Trophy Case Document](https://docs.google.com/document/d/1MqgFMxU24WjvofwvQ4QVS5qh8AREln7Ck0A1qVGt9_I/edit#)
 
-
 ## Fractal Planning
 
 Our jobs exist within several simultaneous time scales, and conversations appropriate to a given time scale should happen on various intervals and with various populations.
 
-
 ### Weekly or Biweekly
-
 
 #### Individual
 
 Discuss "how are you?" types of questions. The point of the high-frequency individual discussion is to understand any challenges this person is facing right now, ideas they have, and bidirectional feedback on trajectory. Note that "next week's tasks" is not in this list -- that is not something that should be discussed in 1:1 time. Open up the Trophy Case and see if there's something that should be added or adjusted.
 
-
 #### Team
 
 Feedback for what is going well, what needs course correction, ideas the team has, important teaching or learning opportunities (i.e. demos), tactical alignment on in-flight projects, context on upcoming projects.
 
-
 ### Quarterly
-
 
 #### Individual
 
 Reflect on accomplishments of the past quarter. This is a nice time to review the last few months of Trophy Case entries. The quarterly discussion is also the right time to set aspirational, tactical development goals for the upcoming quarter and write them down.
 
-
 #### Team
 
 Similar to the individual, but at the team level. Accomplishments, goals, and progress on last quarter's goals. Write it all down. Publicly acknowledge individuals who made a big impact, grew their skills, or stretched farther than they thought they could.
 
-
 ### Annual
-
 
 #### Individual
 
 A deeper reflection on aspirations, career goals, and personal development - in terms of hard and soft skills. Writing all of this down serves to organize everyone's thoughts, and create a plan that is more likely to be acted upon.
-
 
 #### Team
 
 Review big accomplishments, call out your superstars, have a more strategic discussion around process and technology. What big directions does the team want to go this year? Get the big ideas out and start to break them down and lay out a quarterly roadmap.
 
 ## Conclusion
+
 These are some of the tools I use to find joy and success in my current role. Please share your tools that help you find management nirvana in the comments below.

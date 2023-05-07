@@ -1,9 +1,10 @@
 ---
 layout: post
 title: Last Minute Marathon
-date: '2015-10-11 05:36:02'
+date: "2015-10-11 05:36:02"
 thumbnail: https://photos.steinkamp.us/photo/zzz_blog_images/last_minute_marathon-2015SttS.jpg?size=300x300&crop
 ---
+
 I've run the Skyline to the Sea (SttS) 50K race for the last two years (2013 and 2014). This year I decided I'd skip it. The Ohlone 50K was moved to three weeks before Stts, and I had plans to do the Levi's Gran Fondo bike ride one week prior.
 
 But then I got to talking with my friend and awesome runner Donnie about SttS. He's placed well in the race before, and we were talking about how it would be fun to run the marathon distance option for SttS. The 50K course adds a grueling, steep, exposed 5 mile loop to the 26 mile trail. It's always been my low point in the race. To avoid that loop took about half the mental weight out of the race. So then it would be "fun" right?
@@ -18,7 +19,7 @@ So with exactly 12 hours of preparation time, I decided to run a marathon. A mar
 
 Heh...
 
-Up and at 'em at 4:50AM on Saturday. Breakfast, shower, gather up stuff, out the door at 6am to drive to the parking area near the finish at Waddell Beach -- about halfway between Half Moon Bay and Santa Cruz. Exit the car, and hop aboard one of the yellow school busses to get a ride up to the start of the race at Saratoga Gap. The busses left at 7AM sharp, and arrived at the start at about 8:20. Quick pit stop, get my, well I mean Thomas's, number ("Yes *I* am Thomas Andersen, the one and only. In the flesh!"), and mosey over to the Skyline to the Sea trailhead for the 9AM start.
+Up and at 'em at 4:50AM on Saturday. Breakfast, shower, gather up stuff, out the door at 6am to drive to the parking area near the finish at Waddell Beach -- about halfway between Half Moon Bay and Santa Cruz. Exit the car, and hop aboard one of the yellow school busses to get a ride up to the start of the race at Saratoga Gap. The busses left at 7AM sharp, and arrived at the start at about 8:20. Quick pit stop, get my, well I mean Thomas's, number ("Yes _I_ am Thomas Andersen, the one and only. In the flesh!"), and mosey over to the Skyline to the Sea trailhead for the 9AM start.
 
 {% captionedimage alt="The Starting Line" caption="The Starting Line" src="https://photos.steinkamp.us/photo/zzz_blog_images/last_minute_marathon-2015SttS.jpg" /%}
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What I Know About Mixing And Mastering Right Now
-date: '2021-02-27 12:00:00'
+date: "2021-02-27 12:00:00"
 categories: post
 entry:
   source: post
@@ -29,6 +29,6 @@ Once the loud part of the song sounds GOOD and is hitting -13db LUFS short term,
 
 After recording that automation, play the whole song again start to finish, and now look at Youlean Loudness Meter's "Integrated LUFS" reading. It should be -13.5db or so for streaming services. If it's too low or too high, you can adjust the level of the first Utility device in the mastering chain. Since that signal is getting compressed, you may need to adjust more than the difference between your actual integrated LUFS and the target. For example, if your song reads -15db LUFS (1.5db too quiet), you may need to add 3db on the first Utlity to overcome the compressors in the chain. This may necessitate revisiting mix levels, multiband compressor settings, etc. It's all connected, and prepare to have to make several iterations.
 
-So that's it ... that's what I'm doing now to get my songs sounding polished. I used to have to render a song maybe 10 times  before loudnesspenalty.com showed that it was within .7db of Spotify's target, and the other service numbers would be all over the place. With this new technique, my render nails the target loudness, as reported by loudnesspenalty.com, and the numbers are very even across the different services.
+So that's it ... that's what I'm doing now to get my songs sounding polished. I used to have to render a song maybe 10 times before loudnesspenalty.com showed that it was within .7db of Spotify's target, and the other service numbers would be all over the place. With this new technique, my render nails the target loudness, as reported by loudnesspenalty.com, and the numbers are very even across the different services.
 
 Hopefully I'll look back at this in a month or a year and shake my head at what an idiot I was, since this is a lifelong learning and improving process.

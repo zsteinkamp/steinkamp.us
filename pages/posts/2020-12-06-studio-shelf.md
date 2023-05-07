@@ -1,10 +1,11 @@
 ---
 layout: post
 title: Studio Shelf
-date: '2020-12-06 00:00:00'
+date: "2020-12-06 00:00:00"
 thumbnail: https://photos.steinkamp.us/photo/2020-12-06_music-shelf/threefourths_studio.jpg?size=300x300&crop
 excerpt: Photos and instructions to make a useful tabletop shelf for your music studio.
 ---
+
 My music studio layout seems to always be changing. Just like in doing most things, we either discover new and better ways of doing things, or our ideas, environment, or tastes change. My current music room has been pretty good so far. The main components of the room are a large 4k monitor, standing desk, keyboard/trackpad, MIDI knob controller, 88-key controller keyboard, audio interface, and an Ableton Push 2. These seem to be a good combination in terms of the human-computer interface. What I've noticed I've been doing most of all is searching for a desk/device layout that works best for me.
 
 Keeping everything within arms reach is a worthy goal, but it seemed impossible to have the keyboard/trackpad and Push 2 both front-and-center. I tried putting the Push on a laptop stand, but it was too tall. Additionally, the knob controller (BCR-2000) and audio interface tended to get pushed to the sides, which made for a stretch or a mess on the desk.
@@ -28,10 +29,10 @@ Here it is without anything on it:
 
 This ended up being a very straightforward project to make, just taking an hour or so one morning. Here's what you need to do it:
 
-* Three pieces of melamine shelf material, 36" x 8"
-* 14 screws, not longer than two of the shelves stacked together
-* 4 adhesive felt pads
-* A saw that can cut at an angle (i.e. a chop saw, skil saw, table saw, or hand-saw)
+- Three pieces of melamine shelf material, 36" x 8"
+- 14 screws, not longer than two of the shelves stacked together
+- 4 adhesive felt pads
+- A saw that can cut at an angle (i.e. a chop saw, skil saw, table saw, or hand-saw)
 
 Note that the dimensions here are really not critical. You should have a look at the design here, but make it work for you and your gear. This design is very flexible and can accommodate all kinds of different sizes.
 

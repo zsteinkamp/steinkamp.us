@@ -1,22 +1,22 @@
-import { YouTube } from '../../components/YouTube';
+import { YouTube } from "../../components/YouTube";
 
 export const youtube = {
   render: YouTube,
   attributes: {
     src: {
       type: String,
-      required: true
+      required: true,
     },
     title: {
       type: String,
-      required: true
+      required: true,
     },
     width: {
       type: String,
-      default: '100%'
+      default: "100%",
     },
     className: {
-      type: String
-    }
-  }
+      type: String,
+    },
+  },
 };

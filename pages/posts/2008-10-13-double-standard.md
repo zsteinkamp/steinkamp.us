@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Double Standard?
-date: '2008-10-13 00:00:00'
+date: "2008-10-13 00:00:00"
 categories: post post
 entry:
   id: 260
@@ -9,13 +9,15 @@ entry:
   uid: 120
   data:
     title: Double Standard?
-    excerpt: With the election in just a few weeks, here are some interesting questions
+    excerpt:
+      With the election in just a few weeks, here are some interesting questions
       to consider...
-  created_at: '2010-08-30 05:16:38'
-  updated_at: '2010-08-30 05:16:38'
-  pub_date: '2008-10-13 00:00:00'
+  created_at: "2010-08-30 05:16:38"
+  updated_at: "2010-08-30 05:16:38"
+  pub_date: "2008-10-13 00:00:00"
   disabled: 0
 ---
+
 (sent to me by a friend)
 
 With the election in just a few weeks, here are some interesting questions to consider:
@@ -36,10 +38,11 @@ If these questions reflected reality, would the election numbers still be as clo
 
 With America facing historic debt, 2 wars, stumbling health care, a weakened dollar, all-time high prison population, mortgage crises, bank
 foreclosures, global warming, peak oil, etc., who would you hire?
- 
+
 Educational Background:
- 
+
 Obama:
+
 <ul>
 <li>Columbia University - B.A. Political Science with a Specialization in International Relations.
 <li>Harvard University - Juris Doctor (J.D.) Magna Cum Laude
@@ -53,6 +56,7 @@ Biden:
 vs.
 
 McCain:
+
 <ul>
 <li>United States Naval Academy - Class rank: 894 of 899
 </ul> 

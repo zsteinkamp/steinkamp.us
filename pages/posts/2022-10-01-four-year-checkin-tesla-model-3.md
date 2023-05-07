@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 'Four Year Checkin: Tesla Model 3'
-date: '2022-10-01 12:00:00'
-thumbnail: '/images/tesla-thumb.jpg'
+title: "Four Year Checkin: Tesla Model 3"
+date: "2022-10-01 12:00:00"
+thumbnail: "/images/tesla-thumb.jpg"
 ---
 
-In November  2018, I decided to order a Tesla Model 3. So far it's been a joy to own and drive. This post details my history and experiences with the car, and gets into just how much money I've saved by choosing this car over something comparable. Spoiler: It's seriously no contest.
+In November 2018, I decided to order a Tesla Model 3. So far it's been a joy to own and drive. This post details my history and experiences with the car, and gets into just how much money I've saved by choosing this car over something comparable. Spoiler: It's seriously no contest.
 
 ![The Car!](/images/tesla.jpg)
 
@@ -54,4 +54,5 @@ As I mentioned above, for the most part I charge the car at home. For me, it's f
 Longer road trips require a tiny bit of planning ahead, though the car's nav system will take you to superchargers appropriately on its own. Tesla's Supercharger network is incredibly well thought out. There are always banks of 8-20 chargers, so if there is ever a wait, it's been minimal (just a few minutes if that). The chargers are located close to food or coffee, so it's always been a nice opportunity after a few hours driving to take a little break and stretch my legs. 15-30 minutes is the right amount of time for a quick break, then it's back on the highway.
 
 ## Overall
+
 I've never regretted getting this car. For the money, it really can't be beat - by a long shot.

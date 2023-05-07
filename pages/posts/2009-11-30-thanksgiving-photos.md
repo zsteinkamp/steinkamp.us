@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Thanksgiving photos
-date: '2009-11-30 20:09:56'
+date: "2009-11-30 20:09:56"
 categories: post post
 entry:
   id: 271
@@ -9,10 +9,10 @@ entry:
   uid: 211
   data:
     title: Thanksgiving photos
-    excerpt: ''
-  created_at: '2010-08-30 05:16:39'
-  updated_at: '2010-08-30 05:16:39'
-  pub_date: '2009-11-30 20:09:56'
+    excerpt: ""
+  created_at: "2010-08-30 05:16:39"
+  updated_at: "2010-08-30 05:16:39"
+  pub_date: "2009-11-30 20:09:56"
   disabled: 0
 ---
 

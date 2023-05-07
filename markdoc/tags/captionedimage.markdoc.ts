@@ -1,4 +1,4 @@
-import CaptionedImage from '@/components/CaptionedImage';
+import CaptionedImage from "@/components/CaptionedImage";
 
 export const captionedimage = {
   render: CaptionedImage,

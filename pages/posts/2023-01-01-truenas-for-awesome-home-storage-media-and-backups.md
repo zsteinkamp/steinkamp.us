@@ -1,18 +1,17 @@
 ---
 layout: post
-title: 'TrueNAS for Awesome Home Storage, Media, and Backups'
-date: '2023-01-01 12:00:00'
-thumbnail: 'https://photos.steinkamp.us/photo/zzz_blog_images/truenas/truenas_box.jpg?size=300x300'
+title: "TrueNAS for Awesome Home Storage, Media, and Backups"
+date: "2023-01-01 12:00:00"
+thumbnail: "https://photos.steinkamp.us/photo/zzz_blog_images/truenas/truenas_box.jpg?size=300x300"
 ---
 
-yo I'm a constant optimizer and evolver with basically everything. I also enjoy working with computers, so challenges around technology are more fun for me than  they are chores. This post captures my current solution of using TrueNAS for home network file sharing, media serving, and backups.
+yo I'm a constant optimizer and evolver with basically everything. I also enjoy working with computers, so challenges around technology are more fun for me than they are chores. This post captures my current solution of using TrueNAS for home network file sharing, media serving, and backups.
 
 [![The Setup](/images/truenas/truenas_box.jpg)](/images/truenas/truenas_box.jpg)
 
 ## Context
 
 A while back, I wrote about how I was using a Raspberry Pi as a fun Linux server for the home. I attached a couple of 2.5" 4TB HDDs to it and shared them with Samba for general file storage and Time Machine backups. This was a functional solution, but it was really slow and kind of a physical mess, with the drives hooked to the Pi through a powered USB hub because the Pi doesn't have enough juice to drive two drives.
-
 
 [![Raspberry Pi Mess](https://photos.steinkamp.us/photo/zzz_blog_images/2021041711321985-1775920485079464067-IMG_2227.jpg)](https://photos.steinkamp.us/photo/zzz_blog_images/2021041711321985-1775920485079464067-IMG_2227.jpg)
 
@@ -22,7 +21,6 @@ My next solution was to ditch the Pi and hook a 4TB NVMe in a USB 3.2 enclosure 
 
 [![External 4TB NVME on Mac Mini](/images/truenas/mini_usb_nvme.jpg)](/images/truenas/mini_usb_nvme.jpg)
 
-
 ## Enter TrueNAS
 
 I visited my buddy Eric, and he told me about his solution for his house. Eric is a person that I know to be totally legit when it comes to technology advice. He mentioned he was running software called [TrueNAS](https://www.truenas.com/) on a dedicated computer. He's always good for an industrial strength solution, and so I listened carefully.
@@ -31,11 +29,9 @@ TrueNAS is basically FreeBSD with a friendly management layer, with deep functio
 
 Being that it's FreeBSD under the hood, the computer can be used for more than storage too. There are a number of Services like dynamic DNS, ftpd, iSCSI, and OpenVPN that you can enable. Additionally, there are plugins that can be installed from the TrueNAS UI like Plex (home media server) with just a click.
 
-
 ### A Bit About FreeBSD Jails
 
 Plugins run something called a "jail" which is kind of similar to a Docker container, but not completely the same. Jails have their own virtual network interface, can only see other processes within the jail, and have their own root filesystem. With TrueNAS, you can mount directories from storage pools into the jail to give the jail access to whatever it needs. For instance, for running Plex, you need to mount the directory in the NAS's storage pool containing your media files (movies, music, pictures) so that Plex can index and serve them. By keeping the storage and the service separate, it allows for better security, easier management of the storage, as well as making upgrades to the plugin very straightforward.
-
 
 ## Let's Go!
 

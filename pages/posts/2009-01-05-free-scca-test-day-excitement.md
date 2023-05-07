@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Free SCCA Test Day Excitement
-date: '2009-01-05 11:06:15'
+date: "2009-01-05 11:06:15"
 categories: post post
 entry:
   id: 265
@@ -9,12 +9,13 @@ entry:
   uid: 160
   data:
     title: Free SCCA Test Day Excitement
-    excerpt: ''
-  created_at: '2010-08-30 05:16:38'
-  updated_at: '2010-08-30 05:16:38'
-  pub_date: '2009-01-05 11:06:15'
+    excerpt: ""
+  created_at: "2010-08-30 05:16:38"
+  updated_at: "2010-08-30 05:16:38"
+  pub_date: "2009-01-05 11:06:15"
   disabled: 0
 ---
+
 Derek and I drove up to Thunderhill on Sunday morning for a free test day there. Anyone with an SCCA racing license and a race-ready car could just show up and enjoy a full day of driving, err I mean testing. This was also going to be the first time we tried out doing the "arrive and drive" thing with Evil Genius Racing. We pay them to house, transport, and prep the car, and we just get to show up and get in!
 
 Fish and Justin of Evil Genius had the car all set for us when we arrived a bit after 9am. Engine warmed up, tire pressures set, wheels torqued. This was nice!
@@ -23,7 +24,7 @@ It had been almost 6 months since I had been on track, so my first session was j
 
 Derek had a good next session. Thunderhill is the least familiar of the three local tracks to him, so we had a good chalk talk session after he came in with his video + the track map in front of us.
 
-My next session started off good. The car was more warm, and my brain was warm too. On my second lap, I came up on a blue MG (or was it a Triumph?) on his out lap. He let me by in T2, and he was taking it pretty easy through T3-4-5-6. I guess he decided that was enough warming up, since he caught me in T7. I lifted and pointed him by (it was a test day after all!) and he passed me without incident going into T8. He was quite a ways ahead in T9. After I came over the hill in T9, I could see that he caught up with two Miatas and was going for a passing move into T10. It was a very, ahem, "optimistic" move, since they looked to be three abreast going into the turn. 
+My next session started off good. The car was more warm, and my brain was warm too. On my second lap, I came up on a blue MG (or was it a Triumph?) on his out lap. He let me by in T2, and he was taking it pretty easy through T3-4-5-6. I guess he decided that was enough warming up, since he caught me in T7. I lifted and pointed him by (it was a test day after all!) and he passed me without incident going into T8. He was quite a ways ahead in T9. After I came over the hill in T9, I could see that he caught up with two Miatas and was going for a passing move into T10. It was a very, ahem, "optimistic" move, since they looked to be three abreast going into the turn.
 
 The little blue car either had a problem with his brakes or dropped a tire off the inside, because he spun 90 degrees and had all tires locked up. The moment he started spinning, I was at my braking reference for T10. I had only a few tenths of a second to decide what to do. My decisions were to either go left and have sure car-to-car contact (he was blocking my view of the apex of the turn), or go right and have a wild ride in the dirt. I chose the latter.
 

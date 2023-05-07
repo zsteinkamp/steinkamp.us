@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Waiting For a Service to Actually Become Available in docker-compose
-date: '2017-10-19 03:09:30'
+date: "2017-10-19 03:09:30"
 ---
+
 If you use docker-compose to run an app, more than likely you use container links in the form of "depends_on:" in your docker-compose.yml, like this:
 
 ```

@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Run a Tapered Fork on a 1.5" Cannondale
-date: '2014-08-20 16:11:54'
+date: "2014-08-20 16:11:54"
 ---
+
 If you have bought a Cannondale mountain bike, you may be surprised at the limited number of fork options due to Cannondale's non-standard straight 1.5" headtube choice. Most bikes use a straight 1 1/8" headtube. Nicer frames use a tapered 1 1/8" to 1 1/2" design. The larger diameter is stiffer and provides for a larger bearing surface, so Cannondale wasn't being totally arbitrary with their choice, but it's nonstandard nonetheless.
 
 If you're looking for a replacement, there are very few options. I got a 1.5" Rock Shox Recon Gold TK a while back, and it's a great fork for the money -- about $300-350 online. This was made by Rock Shox for Cannondale's top-of-the-line Trail SL 29er hardtail. It was significantly better at dampening rough trails and keeping the tire in contact with the ground than the RST Deuce that came with my Trail SL4.

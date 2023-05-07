@@ -1,7 +1,7 @@
 ---
 layout: post
 title: VIM -- Frustrated With Perl Comments?
-date: '2005-02-10 00:00:00'
+date: "2005-02-10 00:00:00"
 categories: post post
 entry:
   id: 221
@@ -9,17 +9,19 @@ entry:
   uid: 81
   data:
     title: VIM -- Frustrated With Perl Comments?
-    excerpt: ''
-  created_at: '2010-08-30 05:16:38'
-  updated_at: '2010-08-30 05:16:38'
-  pub_date: '2005-02-10 00:00:00'
+    excerpt: ""
+  created_at: "2010-08-30 05:16:38"
+  updated_at: "2010-08-30 05:16:38"
+  pub_date: "2005-02-10 00:00:00"
   disabled: 0
 ---
+
 vimmers --
 
-i've been writing LOTS of perl and CSS lately.  one thing that has
+i've been writing LOTS of perl and CSS lately. one thing that has
 been frustrating for, oh, the last FIVE years, has been how VIM
 indents perl comments and CSS properties with 'cindent' enabled.
+
 <ul>
 <li>since they look like C preprocessor directives, perl comments
   are shoved back to column 1 (e.g. "# unintelligible regex").</li>
@@ -30,9 +32,9 @@ i like everything about cindent, except for the two cases above.
 for the work i'm doing now, i'd gladly give up C preprocessor and
 label indenting for better Perl and CSS behavior.
 
-anyhow, i just decided to solve this problem once and for all.  of
+anyhow, i just decided to solve this problem once and for all. of
 course, VIM can do exactly what i want it to, it's just a matter
-of figuring out the right stuff to put in .vimrc .  so here it is:
+of figuring out the right stuff to put in .vimrc . so here it is:
 
 <pre>
   set cindent

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Homemade Rollbar Camera Mount
-date: '2008-03-15 00:00:00'
+date: "2008-03-15 00:00:00"
 categories: post post
 entry:
   id: 258
@@ -9,14 +9,16 @@ entry:
   uid: 118
   data:
     title: Homemade Rollbar Camera Mount
-    excerpt: A cheap, simple, and flexible way of mounting a video camera to a rollbar
+    excerpt:
+      A cheap, simple, and flexible way of mounting a video camera to a rollbar
       inside of a car.  This works better for my bullet camera than the expensive
       IO Port mount.
-  created_at: '2010-08-30 05:16:38'
-  updated_at: '2010-08-30 05:16:38'
-  pub_date: '2008-03-15 00:00:00'
+  created_at: "2010-08-30 05:16:38"
+  updated_at: "2010-08-30 05:16:38"
+  pub_date: "2008-03-15 00:00:00"
   disabled: 0
 ---
+
 I like to make my own camera mounts. I've finally gotten around to taking photos of the one I did for the rollbar in the Miata.
 
 <a href="http://flickr.com/photos/thenobot/2335198479/in/set-72157604127192277/"><img src="https://farm3.static.flickr.com/2314/2335198479_70cfea9abf.jpg"></a>
@@ -44,12 +46,15 @@ I like to make my own camera mounts. I've finally gotten around to taking photos
 </ul>
 
 <a href="http://flickr.com/photos/thenobot/2335198407/in/set-72157604127192277/"><img src="https://farm3.static.flickr.com/2161/2335198407_dec55083af.jpg"></a>
+
 <p>(Photo showing the notches in the aluminum to locate the hose clamps).</p>
 
-It will take some experimentation to find the right position for the camera.  I've found the best position puts the horizon halfway between the bottom of the windshield and the bottom of the rearview mirror.
+It will take some experimentation to find the right position for the camera. I've found the best position puts the horizon halfway between the bottom of the windshield and the bottom of the rearview mirror.
+
 <h3><a href="http://thenobot.org/video/watch.php?20080229-scca_school_highlights.mov">Click here</a> for a video shot using the mount.</h3>
 
 The full setup is:
+
 <ul>
 <li>Sony 580-line bullet cam 3.6mm lens ($200)
 <li>Hoyttech stereo mics ($30)
@@ -59,4 +64,4 @@ The full setup is:
 <li>Radio shack power inverter to run the AC adapter to power the camera ($30)
 </ul>
 
-The mics, recorder, and inverter stay in a box bolted to the trunk floor.  They plug into a cigarette lighter power jack wired up in the trunk.
+The mics, recorder, and inverter stay in a box bolted to the trunk floor. They plug into a cigarette lighter power jack wired up in the trunk.

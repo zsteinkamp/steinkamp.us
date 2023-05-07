@@ -1,12 +1,7 @@
 export function Strava({ className, src }) {
   return (
     <div className={className}>
-      <iframe
-        src={src}
-        width="100%"
-        frameBorder="0"
-        scrolling="no"
-      />
+      <iframe src={src} width="100%" frameBorder="0" scrolling="no" />
       <style jsx>
         {`
           iframe {

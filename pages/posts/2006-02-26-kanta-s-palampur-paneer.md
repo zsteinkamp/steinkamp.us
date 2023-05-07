@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Kanta's Palampur Paneer
-date: '2006-02-26 21:00:00'
+date: "2006-02-26 21:00:00"
 categories: post post
 entry:
   id: 232
@@ -9,23 +9,26 @@ entry:
   uid: 92
   data:
     title: Kanta's Palampur Paneer
-    excerpt: Arti's mom makes a delicious Paneer dish.  It's made in a rich, creamy,
+    excerpt:
+      Arti's mom makes a delicious Paneer dish.  It's made in a rich, creamy,
       spicy sauce with sauteed veggies.   Simple to make, and really delicious.  Give
       it a go and learn how to make real Indian food!
-  created_at: '2010-08-30 05:16:38'
-  updated_at: '2010-08-30 05:16:38'
-  pub_date: '2006-02-26 21:00:00'
+  created_at: "2010-08-30 05:16:38"
+  updated_at: "2010-08-30 05:16:38"
+  pub_date: "2006-02-26 21:00:00"
   disabled: 0
 ---
+
 <p>Paneer is a staple of Indian vegetarian dishes.  It is made by boiling milk with diluted lemon juice, then separating the curd.  The curd is placed in a cheesecloth and run under water, then pressed under a heavy weight to press out the water.  You can buy it in an Indian market in slabs resembling Tofu.  Paneer tastes a bit like fresh mozarella cheese, albeit less fatty and more mild.</p>
 
 <p>Oftentimes, Arti's mom will make a really tasty dish with Paneer, red bell peppers, and onions in a very rich and spicy cream sauce.  We asked her about how she prepares it today, and came up with this recipe doing some experimentation in the kitchen.</p>
 
-<p>We had it for dinner this evening, and it's the real deal!  It really tastes like good Indian food, which is way more that we can say for our attempts at making Thai curry at home.</p>  
+<p>We had it for dinner this evening, and it's the real deal!  It really tastes like good Indian food, which is way more that we can say for our attempts at making Thai curry at home.</p>
 
 <p>Many of these ingredients will be difficult to find at a "regular" supermarket, so you will be better off finding an Indian grocery store nearby.</p>
 
 <b>Ingredients</b><br><em>(Makes 4-6 servings)</em>
+
 <ul>
 <li>1+ lbs of Paneer, cut into small chunks (1cm x 1cm x 2cm).  We used a brand called "Desi".</li>
 <li>A red bell pepper, sliced, with peices about  two inches long</li>

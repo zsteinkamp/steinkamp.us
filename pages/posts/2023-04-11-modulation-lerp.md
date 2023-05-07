@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 'New Max for Live Device: Modulation Lerp'
-date: '2023-04-11 12:00:00'
+title: "New Max for Live Device: Modulation Lerp"
+date: "2023-04-11 12:00:00"
 thumbnail: /images/lerp/lerp.png
 ---
 
@@ -15,7 +15,7 @@ from the beginning. His idea could be accomplished a string of the stock Live
 LFOs, but the ergonomics of that solution were really lacking.
 
 Ben's idea was to have explicit controls for lower and upper bounds (`Input A` or
- `Input B` -- neither has to be greater than the other) and a third control `A <=> B` for
+`Input B` -- neither has to be greater than the other) and a third control `A <=> B` for
 the linar position between `A` and `B`. So with `A <=> B` at 50%, then a
 value halfway between `A` and `B` would be returned. At 0%, then `A` would be
 returned. You guessed it -- 100% `A <=> B` means that `B` is returned.

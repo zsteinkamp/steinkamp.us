@@ -1,26 +1,27 @@
 ---
 layout: post
 title: Protect Your Git Repo With a Test Hook
-date: '2011-04-15 04:22:02'
+date: "2011-04-15 04:22:02"
 categories: post post
 entry:
   id: 513
   source: post
   data:
     title: Protect Your Git Repo With a Test Hook
-    excerpt: ''
-  created_at: '2011-04-15 04:22:02'
-  updated_at: '2011-04-15 04:23:22'
-  pub_date: '2011-04-15 04:22:02'
+    excerpt: ""
+  created_at: "2011-04-15 04:22:02"
+  updated_at: "2011-04-15 04:23:22"
+  pub_date: "2011-04-15 04:22:02"
   disabled: 0
 ---
-We have a situation at work where we're using a git repository as a data source.  The quality/correctness of the files checked in to this repo is critical to the operation of a larger and very important system.
 
-To help ward off mistakes, we built a series of unit tests using Test::Unit::TestCase, and hooked it into our Rakefile so that before committing a change we (usually) run "rake test" and let the automated tests do their thing.  It's so cool that it can do over 1000 checks in a small fraction of a second.  As we identify other pitfalls, we can avoid them in the future by adding new tests.
+We have a situation at work where we're using a git repository as a data source. The quality/correctness of the files checked in to this repo is critical to the operation of a larger and very important system.
 
-As long as people run "rake test" before pushing their code to the central repository, everything is fine.  But people are not consistent like computers...
+To help ward off mistakes, we built a series of unit tests using Test::Unit::TestCase, and hooked it into our Rakefile so that before committing a change we (usually) run "rake test" and let the automated tests do their thing. It's so cool that it can do over 1000 checks in a small fraction of a second. As we identify other pitfalls, we can avoid them in the future by adding new tests.
 
-Since the correctness of the data in this repo is so important, we put a small script on our git server that prevents commits that do not pass the tests from being "received" by the server.  The script is in `{repodir}/hooks/pre-receive`, and it looks something like this:
+As long as people run "rake test" before pushing their code to the central repository, everything is fine. But people are not consistent like computers...
+
+Since the correctness of the data in this repo is so important, we put a small script on our git server that prevents commits that do not pass the tests from being "received" by the server. The script is in `{repodir}/hooks/pre-receive`, and it looks something like this:
 
 ```
 #!/usr/bin/env ruby
@@ -85,4 +86,4 @@ $Log.info "#{ME} exit"
 exit 0
 ```
 
-Now it is impossible for a change that does not pass the tests to go out.  Another nice feature of this system is that the tests are part of the code in the repo, so nothing else needs to change on the git server side when we change our tests.
+Now it is impossible for a change that does not pass the tests to go out. Another nice feature of this system is that the tests are part of the code in the repo, so nothing else needs to change on the git server side when we change our tests.

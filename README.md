@@ -23,9 +23,10 @@ docker compose build && docker compose up -d --force-recreate
 ```
 
 ## Makefile targets
+
 If your system has `make` installed, you can use that to speed running some
 commands:
 
-* `make devup` - Start the development mode server and tail the logs
-* `make devdown` - Stop the development mode server
-* `make prod` - Build and start/restart the production server then tail the logs. Can be safely interrupted (`Ctrl-C`) without stopping the server.
+- `make devup` - Start the development mode server and tail the logs
+- `make devdown` - Stop the development mode server
+- `make prod` - Build and start/restart the production server then tail the logs. Can be safely interrupted (`Ctrl-C`) without stopping the server.

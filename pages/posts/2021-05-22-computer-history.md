@@ -1,9 +1,10 @@
 ---
 layout: post
 title: My Computer History
-date: '2021-05-22 12:00:00'
-thumbnail: '/images/computer-history/thumb.png'
+date: "2021-05-22 12:00:00"
+thumbnail: "/images/computer-history/thumb.png"
 ---
+
 My earliest computer memory was with my dad in his office at The Gap in Kentucky in the early 1980s. He would sometimes need to go in to work on weekends, and for reasons I don't remember, he would bring me with him and let me sit in front of an Apple III (yes, three) and noodle on it with VisiCalc or BASIC while he worked elsewhere.
 
 ![Apple III computer.](/images/computer-history/Apple3.jpg)
@@ -24,8 +25,7 @@ This computer had no way to "save" anything. You could type in a program, up to 
 
 My mom recalls a story that any programmer from any era can relate to:
 
-
-> I remember a day when you were probably 9 and Dick was working the night shift, the two of you sat at the Hoosier desk in the family room in side by side chairs trying to write a program to answer multiplication problems.  You guys tried and tried, no luck. Soon it was time for Dick to go to work.  After he left, you continued working for a few more minutes then, in disgust, you turned off the computer and stomped off to play outside.  You were outside for maybe 15 minutes before you rushed back in, sat back down at the computer and wrote four lines of code that delivered the answers to all your multiplication problems.  TaDa!
+> I remember a day when you were probably 9 and Dick was working the night shift, the two of you sat at the Hoosier desk in the family room in side by side chairs trying to write a program to answer multiplication problems. You guys tried and tried, no luck. Soon it was time for Dick to go to work. After he left, you continued working for a few more minutes then, in disgust, you turned off the computer and stomped off to play outside. You were outside for maybe 15 minutes before you rushed back in, sat back down at the computer and wrote four lines of code that delivered the answers to all your multiplication problems. TaDa!
 
 After a few months, my parents bought a Commodore Datasette, which plugged into the computer and allowed it to save and load programs from cassette tapes. This brought a lot of peace to the house, since dumb sisters could no longer spoil my hours of work, and allowed me to more easily experiment with improving programs. It was very very slow, and it had a little counter on the side, so if I was saving more than one program on a tape, then I would need to write down not only the program name, but the tape counter number to fast-forward or rewind before loading it.
 
@@ -37,7 +37,7 @@ One day for reasons that I don't know, the VIC-20 stopped working. My parents pu
 
 Again, my mom's memory is clear:
 
-> I remember being totally surprised when the Vic-20 was returned as a Commodore 64.  I called Commodore to ask what they'd like us to do, since we had gotten a different computer than the one we'd sent in.  They said, "It isn't worth it for us to send back a Vic-20.  We always replace them with a Commodore 64 now.  Enjoy it!"
+> I remember being totally surprised when the Vic-20 was returned as a Commodore 64. I called Commodore to ask what they'd like us to do, since we had gotten a different computer than the one we'd sent in. They said, "It isn't worth it for us to send back a Vic-20. We always replace them with a Commodore 64 now. Enjoy it!"
 
 Along with its increased memory and 40 column text, the C64 had some impressive graphics capabilities called "sprites" and a legendary sound chip that basically made it into a 4 voice synthesizer. Fun fact: there are some actual synthesizers sold in the 2000s that used this sound chip.
 
@@ -66,7 +66,8 @@ In the summer between 5th and 6th grade, my mom enrolled me in a camp at Cal Sta
 In 6th grade, instead of going to morning recess, I would go to the 2nd grade class and teach the kids there how to use the Apple II they had in their classroom. Definitely my choice!
 
 One more nugget from my mom, that anyone who knows me today can certainly understand:
-> When you were helping the 2nd graders learn to use their Apple 2s, the kids called you The Computer Wiz.  I was in the office one day, when a mom said to me, "Aren't you The Computer Wiz's mom?"  I told her I was.  She said, "Well, thanks a lot!  My 2nd grader will only wear shorts to school because The Computer Wiz only wears shorts!"  That still makes me laugh!
+
+> When you were helping the 2nd graders learn to use their Apple 2s, the kids called you The Computer Wiz. I was in the office one day, when a mom said to me, "Aren't you The Computer Wiz's mom?" I told her I was. She said, "Well, thanks a lot! My 2nd grader will only wear shorts to school because The Computer Wiz only wears shorts!" That still makes me laugh!
 
 I would also sometimes hang out after school in the computer lab with Mr. Shupe and play Choplifter on the fleet of Apple IIs there. I also made a neighborhood friend whose dad had an Apple IIe in a custom wood chassis. We would play Zork and Hitchhiker's Guide To The Galaxy all afternoon. One day he wondered aloud if I only liked him for his computer … well, we did have a lot of fun on that computer!
 
@@ -116,7 +117,7 @@ I took a detour through OS/2 Warp in the 1994-1995 timeframe. What an futuristic
 
 ![OS/2 WARP desktop in VGA graphics.](/images/computer-history/os2.png)
 
- In 1995 my world changed when Windows 95 was released. I found a bundle to purchase that combined Windows 95 with the CorelDraw 6 suite. It even came with a novelty CorelDraw inflatable hot air balloon. CorelDraw allowed me to take my freelancing a lot farther, and I started to get more jobs doing graphics and page layout work.
+In 1995 my world changed when Windows 95 was released. I found a bundle to purchase that combined Windows 95 with the CorelDraw 6 suite. It even came with a novelty CorelDraw inflatable hot air balloon. CorelDraw allowed me to take my freelancing a lot farther, and I started to get more jobs doing graphics and page layout work.
 
 ![CorelDraw 6 on Windows 95.](/images/computer-history/coreldraw602.jpg)
 

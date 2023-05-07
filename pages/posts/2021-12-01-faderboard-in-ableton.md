@@ -1,13 +1,14 @@
 ---
 layout: post
 title: Vestax Faderboard (-ish) In Ableton Live
-date: '2021-12-01 12:00:00'
+date: "2021-12-01 12:00:00"
 categories: post
 entry:
   source: post
 ---
 
 ## ===================
+
 ## UPDATE AVAILABLE
 
 I've re-implemented this as a self-contained M4L device with more similar functionality to the original Faderboard, along with some additions like MIDI note control and multiple outputs.
@@ -15,10 +16,10 @@ I've re-implemented this as a self-contained M4L device with more similar functi
 [Read about the updated version here.](/post/2022/01/08/Faderboard-Version-3.html)
 
 ## ===================
+
 ## Original post is below...
 
 Hainbach [released a video today](https://www.youtube.com/watch?v=E1Kr0EJwZ-c) on the Vestax Faderboard. As soon as I saw how it worked, I knew that this was something very cool and interesting.
-
 
 {% youtube src="https://www.youtube.com/embed/E1Kr0EJwZ-c" title="YouTube video player" /%}
 
@@ -57,6 +58,7 @@ The 8 knobs on the 8 CC to Note devices are mapped to the Instrument Rack knobs 
 Instrument Rack knobs 9-16 are also mapped to control their respective Chain Volume, which now gives us the volume control over each voice.
 
 The rest of the Instrument Rack knobs control:
+
 1. Pitch Shift (+/- 48 semitones)
 2. Filter Cutoff
 3. Filter Resonance

@@ -1,14 +1,14 @@
-import { Strava } from '../../components/Strava';
+import { Strava } from "../../components/Strava";
 
 export const strava = {
   render: Strava,
   attributes: {
     src: {
       type: String,
-      required: true
+      required: true,
     },
     className: {
-      type: String
-    }
-  }
+      type: String,
+    },
+  },
 };
