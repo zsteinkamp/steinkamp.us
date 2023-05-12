@@ -129,6 +129,9 @@ h4 {
 p {
   margin-bottom: 2rem;
 }
+li p {
+  margin-bottom: 1rem;
+}
 article ul {
   list-style-type: disc;
 }
@@ -181,6 +184,7 @@ button {
   line-height: 2.5rem;
 }
 .resume .job-company {
+  line-height: 2.5rem;
 }
 .resume ul {
   list-style-type: disc;
