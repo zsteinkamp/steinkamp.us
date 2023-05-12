@@ -191,6 +191,9 @@ button {
   padding-left: 1rem;
   margin-bottom: 2rem;
 }
+.resume li p {
+  margin-bottom: 0rem;
+}
 
 @media print {
   body {
