@@ -189,7 +189,7 @@ I was ready to throw in the towel, but then the announcement came that we could 
 
 {% captionedimage src="/images/2023-06-17_st-lucia/IMG_9267.JPG" caption="Arriving in Miami." /%}
 
-Our remote travel agent Arti came through and found a direct flight to San Francisco the next morning. Armed with that information, we headed through immigration and customs and took our bags to the AA ticket counter. At this point it was about 12:30am. A very helpful agent Malcom hooked us up not only with that flight, which would get us home in time for Marina to go to her graduation party at Kanta's house, but he also comped a hotel room for us to sleep and some meal vouchers.
+Our remote travel agent Arti came through and found a direct flight to San Francisco the next morning. Armed with that information, we headed through immigration and customs and took our bags to the AA ticket counter. At this point it was about 12:30am. A very helpful agent Malcom hooked us up not only with that flight, which would get us home in time for Marina to go to her graduation party at Kanta's house, but he also comped a hotel room for us to sleep and some meal vouchers. You rock, Malcom! Thank you.
 
 It was a quick shuttle ride to the hotel. Marina doordashed some McDonald's for "dinner" which showed up in the hotel lobby as we were waiting to check in. Bless this child! We had a nice meal then zonked out for about 5 hours until we needed to wake up and get on a shuttle back to the airport.
 
