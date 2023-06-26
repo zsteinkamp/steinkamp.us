@@ -56,7 +56,7 @@ Each morning was a really delicious buffet breakfast, with everything from bread
 {% captionedimage src="/images/2023-06-17_st-lucia/IMG_9211.JPG" caption="Breakfast one day." /%}
 {% captionedimage src="/images/2023-06-17_st-lucia/IMG_8862.JPG" caption="Passion fruit from the breakfast bar, omelet and toast behind." /%}
 
-We booked a boat tour of the west side of the island from Bong Boy Tours. Nick was the salesperson working our beach, and he was another guy I had some great conversations with to help me understand what life was really like on St Lucia. One thing that I found interesting was that Nick and most others that I talked with generally appreciate the opportunities that the tourism industry is providing to them. This is a really interesting topic to me -- the balance between local culture and tourism income. Conversations with Nick and others helped me to see the virtue of the tourism dollars.
+We booked a boat tour of the west side of the island from Benny's Boat Tours. Nick was the salesperson working our beach, and he was another guy I had some great conversations with to help me understand what life was really like on St Lucia. One thing that I found interesting was that Nick and most others that I talked with generally appreciate the opportunities that the tourism industry is providing to them. This is a really interesting topic to me -- the balance between local culture and tourism income. Conversations with Nick and others helped me to see the virtue of the tourism dollars.
 
 Rasta D was our guide on the boat tour.
 
