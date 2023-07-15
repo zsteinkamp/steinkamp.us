@@ -31,7 +31,7 @@ h7 {
 
 /* Document level adjustments */
 html {
-  font-size: clamp(10px, 2vmin + 1px, 18px);
+  font-size: 18px;
   box-sizing: border-box;
 }
 
