@@ -24,7 +24,7 @@ I have been building web applications since 1995, and at mega-scale starting in 
 #### Senior Architect {% .job-role %}
 
 - Member of the NGINX Experiments, Research, and Development (NERD) Team. Worked as an embedded resource in various product teams as well as developing new product prototypes.
-- Led an initiative with the [NGINX Amplify](https://www.nginx.com/products/nginx-amplify/) team to help refresh and expand the brand to resonate better with application developers. This was done by taking a user-centric approach to developing NGINX reference materials, refining the software installation and setup process, working with adjacent teams to and working with this talented team to incorporate more modern software development and delivery practices.
+- Led an initiative with the [NGINX Amplify](https://www.nginx.com/products/nginx-amplify/) team to help expand the brand through improvements to usability, community, and platform capability to resonate better with modern application developers.
   {% /avoidbreak %}
 
 {% avoidbreak %}
