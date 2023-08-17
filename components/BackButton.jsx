@@ -1,12 +1,13 @@
 import { useRouter } from 'next/router'
+import Link from 'next/link'
 
 const BackButton = ({ label = '<<< Back', className }) => {
   const router = useRouter()
 
   return (
-    <button type="button" onClick={() => router.back()} className={className}>
+    <Link href="/" className={className}>
       {label}
-    </button>
+    </Link>
   )
 }
 
