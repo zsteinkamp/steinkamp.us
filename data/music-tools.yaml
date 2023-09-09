@@ -1,3 +1,21 @@
+- title: Key Stepper
+  image: https://github.com/zsteinkamp/m4l-KeyStepper/raw/main/images/KeyStepper.gif
+  link: https://github.com/zsteinkamp/m4l-KeyStepper
+  description: |
+    A step sequencer that is advanced only via incoming MIDI notes. It supports
+    pattern lengths of 1-32 steps, and with configurable pitch, velocity, and
+    probability per step. Complex polyrhythms and shifting times are easily
+    possible.
+
+- title: Chord Ripper
+  image: https://github.com/zsteinkamp/m4l-ChordRipper/raw/main/images/ChordRipper.png
+  link: https://github.com/zsteinkamp/m4l-ChordRipper
+  description: |
+    Decompose chords across multiple tracks. Add the device to each track you
+    want to feed off the chord and set the desired voice/channel. Play a MIDI
+    chord into any track containing this device, and its notes will be
+    distributed across the tracks sharing the same channel.
+
 - title: Modulation Lerp
   image: https://github.com/zsteinkamp/m4l-Modulation-Lerp/raw/main/images/device.gif
   link: https://github.com/zsteinkamp/m4l-Modulation-Lerp
