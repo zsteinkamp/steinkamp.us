@@ -38,7 +38,7 @@ const PostLayout: React.FC<PostLayoutProps> = ({ pageProps, children }) => {
             </div>
           </header>
           <div className="">{children}</div>
-          <BackButton className="link float-right" />
+          <BackButton className="link" />
         </div>
       </article>
       <SiteFooter />

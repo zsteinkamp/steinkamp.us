@@ -10,6 +10,11 @@ thumtnail: '/images/KeyStepperChordRipper.png'
 I just finished a marathon session with Max For Live and have two new devices to
 show for it.
 
+## Download the Devices
+
+* ### [KeyStepper](https://github.com/zsteinkamp/m4l-KeyStepper)
+* ### [ChordRipper](https://github.com/zsteinkamp/m4l-ChordRipper)
+
 What I wanted was a way to play a chord of MIDI notes on one track, and have the
 individual notes from the chord sent to different tracks, so that I could have
 different instruments playing the different notes from the chord.
@@ -28,9 +33,3 @@ of notes on and off, and different length repeating loops (e.g. a 13 step loop
   played over a 16 beat section repeats in many many different ways).
 
 The possibilities are pretty endless. :) 
-
-## Download the Devices
-
-* ### [KeyStepper](https://github.com/zsteinkamp/m4l-KeyStepper)
-* ### [ChordRipper](https://github.com/zsteinkamp/m4l-ChordRipper)
-
