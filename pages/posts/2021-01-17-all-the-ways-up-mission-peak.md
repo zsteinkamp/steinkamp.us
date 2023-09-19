@@ -35,7 +35,7 @@ I've seen a lot of people walking very nervously on the rocky part, but the rock
 
 ## **Most Popular in 2020: From Ohlone College**
 
-Roundtrip Distance: **6 miles** / Elevation Gain: **2100 feet** / [Strava Route](https://www.strava.com/routes/2786044164935287262) / [Ohlone College Site](https://www.ohlone.edu/">Ohlone College Site)
+Roundtrip Distance: **6 miles** / Elevation Gain: **2100 feet** / [Strava Route](https://www.strava.com/routes/2786044164935287262) / [Ohlone College Site](https://www.ohlone.edu/)
 
 #### Getting There / Parking
 
