@@ -2,7 +2,7 @@
 layout: post
 title: 'Stepwise Chord Ripper'
 date: '2023-09-09 12:00:00'
-thumtnail: '/images/KeyStepperChordRipper.png'
+thumbnail: '/images/KeyStepperChordRipper.png'
 ---
 
 ![Key Stepper](/images/KeyStepperChordRipper.png)
