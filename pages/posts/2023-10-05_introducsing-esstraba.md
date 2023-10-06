@@ -40,3 +40,5 @@ You can navigate between photos with arrow keys, and return to the list where yo
 
 ### [Esstraba! on GitHub](https://github.com/zsteinkamp/esstraba)
 Sooo, do you want your own Esstraba!🎉?
+
+[Or check out my Esstraba!🎉](https://esstraba.steinkamp.us/)
