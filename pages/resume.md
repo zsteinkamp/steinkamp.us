@@ -56,9 +56,9 @@ I have been building web applications since 1995, and at mega-scale starting in 
 - Architected and built a flexible, simple, maintainable application platform using React, Sails.js, Node.js, Postgres, Redis, AWS ECS, and Docker.
 - Developed a super efficient local software development workflow and toolkit, leaning heavily into the capabilites of Docker.
 - Led initiative around metrics and monitoring, establishing standards and practices as well as delivering department-level dashboards.
-- Developed a system to [quantify team member technical area aptitude](/post/2021/05/22/manager-toolbox.html#quantified-technical-skill) to inform hiring decisions and personal development plans.
-- Developed a [written skills matrix](/post/2021/05/22/manager-toolbox.html#written-advancement-path) to show team members a clear path to growth and promotion.
-- Involved in all key departmental hires in all roles (engineering, design, product management, senior leadership) and took the lead in developing a set of [guidelines to help all interviewers](/post/2019/08/10/how-to-interview-post.html) be more effective.
+- Developed a system to [quantify team member technical area aptitude](/posts/2021-05-22-manager-toolbox#quantified-technical-skill) to inform hiring decisions and personal development plans.
+- Developed a [written skills matrix](/posts/2021-05-22-manager-toolbox#written-advancement-path) to show team members a clear path to growth and promotion.
+- Involved in all key departmental hires in all roles (engineering, design, product management, senior leadership) and took the lead in developing a set of [guidelines to help all interviewers](/posts/2019-08-10-how-to-interview) be more effective.
   {% /avoidbreak %}
 
 {% avoidbreak %}
@@ -99,7 +99,7 @@ I have been building web applications since 1995, and at mega-scale starting in 
 #### Expert Engineer / Director of Engineering {% .job-role %}
 
 - Managed, mentored, and enabled a platform infrastructure engineering team responsible for ops automation, application frameworks, data infrastructure software, and real-time metrics.
-- Conceived and implemented a [secure, employee-friendly single-sign-on system](/post/2011/01/05/google-apps-authentication-for-internal-company-sit-post.html) used to protect over 500 internal company tools.
+- Conceived and implemented a [secure, employee-friendly single-sign-on system](/posts/2011-01-05-google-apps-authentication-for-internal-company-sit) used to protect over 500 internal company tools.
 - Participated in most aspects of obtaining and maintaining PCI Level 1 certification -- system design, engineering, documentation, evidence gathering, working with auditors, security design, international roll-out. Published a [description of Groupon's PCI solution](https://web.archive.org/web/20201128041157/https://engineering.groupon.com/2014/misc/pci-at-groupon-the-tokenizer/) on the company public engineering blog.
 - Invented a [real-time metrics collection, transport, visualization and alerting system](https://web.archive.org/web/20190311025045/https://engineering.groupon.com/2013/misc/evolving-realtime-metrics-and-monitoring-at-groupon/) using a mix of open source technology and homegrown software that handles millions of datapoints per minute.
 - Responsible for education, evangelization, and development of security best practices. Implemented a grassroots security program to build a strong security culture within the engineering org.
@@ -192,13 +192,13 @@ with block-level data deduplication.
 
 ## Related Posts
 
-- [Manager Toolbox](/post/2021/05/22/manager-toolbox.html)
-- [On Availability](/post/2020/11/21/on-availability-post.html)
-- [Virtuous Dev Team Metrics](/post/2020/09/05/virtuous-dev-team-metrics.html)
-- [Systems of Working - The Role of Leadership](/post/2019/08/24/systems-of-working-the-role-of-leadership.html)
-- [On Efficiency](/post/2019/08/24/on-efficiency.html)
-- [On Dates](/post/2019/08/24/on-dates.html)
-- [How To Interview](/post/2019/08/10/how-to-interview-post.html)
+- [Manager Toolbox](/posts/2021-05-22-manager-toolbox)
+- [On Availability](/posts/2020-11-21-on-availability)
+- [Virtuous Dev Team Metrics](/posts/2020-09-05-virtuous-dev-team-metrics)
+- [Systems of Working - The Role of Leadership](/posts/2019-08-24-systems-of-working-the-role-of-leadership)
+- [On Efficiency](/posts/2019-08-24-on-efficiency)
+- [On Dates](/posts/2019-08-24-on-dates)
+- [How To Interview](/posts/2019-08-10-how-to-interview)
 
 ## Personal
 
@@ -208,5 +208,5 @@ with block-level data deduplication.
 - Photographer
 - High Performance Driving Instructor for the [BMWCCA](http://www.ggcbmwcca.org/) and former SCCA club racer.
 - Woodworker
-- Programmer [since age 8](/post/2021/05/22/computer-history.html)
+- Programmer [since age 8](/posts/2021-05-22-computer-history)
   {% /avoidbreak %}

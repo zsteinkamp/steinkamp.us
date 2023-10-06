@@ -41,7 +41,7 @@ const SiteHeader = () => {
             Plugins
           </Link>
           <Link className="page-link" href="/resume">
-            Résumé
+            Resume
           </Link>
         </div>
       </nav>
