@@ -82,6 +82,15 @@
   description: |
     An audio effect rack that provides controls like an effects send, as well as a ducking feature for any effect.
 
+- title: zs Feedback Matrix
+  image: https://github.com/zsteinkamp/zs-Feedback-Matrix/raw/main/images/device.png
+  link: https://github.com/zsteinkamp/zs-Feedback-Matrix
+  description: |
+    This effect rack device is two independent effects channels (chains) that
+    have complete feedback capability, both per-channel and between channels!
+    You can put any effects in either chain, and experiment with feedback and
+    cross-feedback.
+
 - title: KS-Synth
   image: https://github.com/zsteinkamp/m4l-KS-Synth/raw/main/images/device.png
   link: https://github.com/zsteinkamp/m4l-KS-Synth
