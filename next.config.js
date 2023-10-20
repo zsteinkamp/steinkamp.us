@@ -7,6 +7,15 @@ module.exports = withMarkdoc({ schemaPath: './markdoc' })({
   },
   pageExtensions: ['md', 'mdoc', 'js', 'jsx', 'ts', 'tsx'],
   reactStrictMode: true,
+  redirects: async () => {
+    return [
+      {
+        source: '/post/:slug*',
+        destination: '/api/post/:slug*',
+        permanent: false
+      }
+    ]
+  },
   images: {
     remotePatterns: [
       { hostname: 'marketplace.mypurecloud.com' },
