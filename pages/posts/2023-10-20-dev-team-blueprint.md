@@ -15,7 +15,7 @@ To me, the actual importance of that mission is that we can **use it as a tool**
 
 ## **Reflecting**
 
-This organization has a heavy feeling. I'm using "heavy" emotionally, not physically. I've loved meeting and talking with everyone I've talked with so far. I have consistently felt feelings of hope and awe of peoples' skill, but also a weight - as if enthusiasm is being subdued by a heavy blanket. I have worked in these environments in the past, too. Systematic removal of responsibility from developers, a punitive leadership structure, deadlines ruling the roost, and infrequent software releases add up to a job that is easy to resent.
+This organization has a heavy feeling. I'm using "heavy" emotionally, not physically. I've loved meeting and talking with everyone I've talked with so far. I have consistently felt feelings of hope and awe of peoples' skill, but also a weight - as if enthusiasm is being subdued by a heavy blanket. I have worked in these environments in the past, too. In prior jobs I have seen systematic removal of responsibility from individuals, a punitive leadership structure, deadlines ruling the roost, and infrequent software releases adding up to a job that is easy to resent.
 
 I have also worked in environments where those weighted blankets do not exist - where there is a clear feeling of personal ownership of the value the team is delivering to the customer. Where bugs are fixed and deployed right away. Where each team member feels connected to their customers and what they actually need. Where people feel individually valued for their contributions and supported from all sides. Where the team recognizes and celebrates the improvements they ship.
 
