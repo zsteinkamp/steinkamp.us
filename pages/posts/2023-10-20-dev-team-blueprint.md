@@ -146,7 +146,7 @@ In order to combat technology-micro-silos from emerging, developers of similar d
 
 Merge requests (MRs) are appropriately accompanied by automated tests. An MR represents no more than a couple of days of work. Progress against large initiatives is accomplished incrementally, with a feature flag system gating access the new work, first to the developer, then to stakeholders, then to all users. This allows progress to be made in public with small changes to the production environment – minimizing risk and maximizing stability. Once an MR is merged, it is sent to the build/test/deploy pipeline for production deployment. This pipeline enforces quality and security checks at many layers.
 
----
+## A Complex System
 
 Product development teams are an example of a complex system. Complex systems have interconnected subsystems. Some of those connections may be unexpected or unexpectedly powerful. 
 
