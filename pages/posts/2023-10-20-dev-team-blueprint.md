@@ -7,7 +7,7 @@ thumbnail: '/images/blueprint.jpg'
 
 _(Written to my colleagues on my personal computer.)_
 
-As you clearly know, my mission is to help ship a great product by a fixed deadline that already feels like it's coming right up. To me, that mission is an important one. We need to be able to demonstrate that we can deliver valuable products in a timely manner. I am confident in our abilities there.
+As you probably know, my mission is to help ship a great product by a fixed deadline that already feels like it's coming right up. To me, that mission is an important one. We need to be able to demonstrate that we can deliver valuable products in a timely manner. I am confident in our abilities there.
 
 However, this is the superficial mission.
 
