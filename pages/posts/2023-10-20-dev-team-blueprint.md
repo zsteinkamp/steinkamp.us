@@ -2,6 +2,7 @@
 layout: post
 title: 'A Dev Team Blueprint'
 date: '2023-10-20 12:00:00'
+thumbnail: '/images/blueprint.jpg'
 ---
 
 _(Written to my colleagues on my personal computer.)_
