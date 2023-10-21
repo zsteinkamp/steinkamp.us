@@ -5,18 +5,15 @@ date: '2023-10-20 12:00:00'
 thumbnail: '/images/blueprint.jpg'
 ---
 
-_(Written to my colleagues on my personal computer.)_
+It's possible that your organization needs to scramble. Perhaps strategy takes a sudden left turn. It's crunch time and you are a part of making it happen. This is your mission, right?
 
-As you probably know, my mission is to help ship a great product by a fixed deadline that already feels like it's coming right up. To me, that mission is an important one. We need to be able to demonstrate that we can deliver valuable products in a timely manner. I am confident in our abilities there.
+Well, sort of. This is your **superficial** mission.
 
-However, this is the superficial mission.
-
-To me, the actual importance of that mission is that we can **use it as a tool** to achieve something a **lot more important**.
-
+Perhaps this mission can also be leveraged **as a tool** to achieve something a **lot more important**.
 
 ## **Reflecting**
 
-This organization has a heavy feeling. I'm using "heavy" emotionally, not physically. I've loved meeting and talking with everyone I've talked with so far. I have consistently felt feelings of hope and awe of peoples' skill, but also a weight - as if enthusiasm is being subdued by a heavy blanket. I have worked in these environments in the past, too. In prior jobs I have seen systematic removal of responsibility from individuals, a punitive leadership structure, deadlines ruling the roost, and infrequent software releases adding up to a job that is easy to resent.
+Perhaps your organization has a heavy feeling. I'm using "heavy" emotionally, not physically. I'm sure everyone is lovely and has impressive backgrounds in your teams, but what about the feeling of weight? Weight shows up as if enthusiasm is being subdued by a heavy blanket. I have worked in these environments in the past.
 
 I have also worked in environments where those weighted blankets do not exist - where there is a clear feeling of personal ownership of the value the team is delivering to the customer. Where bugs are fixed and deployed right away. Where each team member feels connected to their customers and what they actually need. Where people feel individually valued for their contributions and supported from all sides. Where the team recognizes and celebrates the improvements they ship.
 
@@ -32,7 +29,7 @@ In my experience, the improvement in environment and outcomes correlates with:
 
 Responsible people are usually capable of being responsible in many ways. The best environments I've worked in are those where there are no boundaries of what a person is allowed to do to make progress. If we take away responsibilities of quality, security, reliability, architecture, planning, and dreaming about the future, what are we left with? 
 
-By putting those responsibilities in the hands of the development team, with support from experts, we build an environment of elevated connection to all the facets of the product surface and the customer experience. This exposure builds impressive skills in your team members.
+By putting those responsibilities in the hands of the development team, with support from experts, you can build an environment of elevated connection to all the facets of the product surface and the customer experience. This exposure builds impressive skills in your team members.
 
 Your best team members will thrive in this environment and your natural leaders will show themselves.
 
@@ -58,7 +55,7 @@ The support of **teammates**, who know how it is to do what we do and exist to l
 
 ## **Lack of Self-Imposed Time Boundaries**
 
-Of course there are sometimes important moments in time that we have to plan around. I acknowledge the presence of the Trade Show Date or the Contract Expiration Date. This is more about self-inflicted dates...
+Of course there are sometimes important moments in time that we have to plan around. I acknowledge the presence of the Trade Show Date or the Contract Expiration Date. This part is more about self-inflicted dates...
 
 Above a certain level, each periodic milestone you add to your team's calendar, the less efficient the team will run. This is because these periodic milestones usually correlate with a planning cycle or a synchronous flow in the team that only has one section of the team working at maximum efficiency (e.g. develop, test, release).
 
