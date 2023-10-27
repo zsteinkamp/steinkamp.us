@@ -9,11 +9,11 @@ excerpt: |
 
 One of the best decisions I have made in the last several years is to commit to meeting with my therapist every two weeks, no matter what.
 
-Daniella helped me tremendously when I was deep in the throes of learning to accept divorce. I found her through Psychology Today's therapist directory. I had been seeing a marriage counselor for several months, but once it was obvious things were not going to turn around in my marriage, I shifted to taking care of myself.
+I found her through Psychology Today's therapist directory. I had been seeing a marriage counselor for several months, but once it was obvious things were not going to turn around in my marriage, I shifted my attention to my own care and growth.
 
-She had a nice picture and her blurb felt like she was operating in a familiar space. I got really lucky that I found her on the first shot. We had a short intro conversation and I felt comfortable with her right away.
+In the directory, Daniella had a nice picture and her blurb felt like she was operating in a familiar space. I got really lucky that I found her on the first shot. We had a short intro conversation and I felt comfortable with her right away.
 
-I met with her in her office near downtown San Jose every two weeks starting in 2015. It happened to be a convenient location for my commute. Life took her to the east coast, and so we continued meeting over video from there on out. I took a pause for a short time early on, but reached out again when I was facing a new and difficult situation, and have kept the continuity since then.
+I met with her in her office near downtown San Jose every two weeks starting in 2015. It happened to be a convenient location for my commute. Life took her to the east coast, and so we continued meeting over video from there on out. I took a pause from therapy for a short time early on, but reached out again when I was facing a new and difficult situation, and have kept the continuity since then.
 
 There's something about Daniela's whip-sharp New York sensibilities mixed with her deep insights, pure compassion, and clear perceptions that help me to help us make good use of our time together. She's from a different world than me, and so that distance brings about space for her different perspective than mine. She brings ideas and thought patterns from her education and personal background that would never occur to me. I highly recommend finding a therapist that can complement you like this.
 
@@ -22,9 +22,9 @@ I could go on about how understanding one's self can draw a direct line to a mor
 If **none** of that speaks to you, then please read on. This post is for you. 🤑
 
 
-## The$i$
+## $Thesis
 
-The investment of time and money into regular therapy sessions yields a significant positive financial benefit. To support this, I'll start with some foundational understanding then describe my own situation and how I think therapy has led to improvement in my own financial situation.
+The investment of time and money into regular therapy sessions yields a significant positive financial benefit. To support this, I'll start with some foundational understanding of some of the outcomes of therapy, how they relate to success in a job, then describe my own situation and how I think therapy has led to improvement in my own financial situation.
 
 
 ## Laying the Foundation
@@ -40,6 +40,8 @@ By being astute students of ourselves, we can approach situations like negotiati
 ### An Evolved Understanding of Emotion
 
 Psychology is a science. My biweekly therapy sessions serve to educate me on the science of emotion and human behavior. This education carries beyond the immediate relationship or issue Daniella and I are talking about in that moment, but into an overall understanding of the structures of human emotion and systems of behavior.
+
+Daniella is an effective teacher, leaning 100% into guiding our conversations, making me feel like my breakthroughs of understanding are my own ideas rather than a result of a lecture. 
 
 We explore how our primitive origins as very social creatures are deeply embedded in our own behaviors in this modern life. We talk through how past traumas or experiences can influence present responses in surprising ways. We find compassion for those who seem to be bringing discomfort to the table and feel how that helps to foster peace and rationality.
 
@@ -79,7 +81,7 @@ Of course there are many many other factors in the complex system of a career, b
 
 ## The Economics
 
-Let's assume a hypothetical situation of a person making $100K/year. Biweekly therapy sessions at $200/hour add up to a total of roughly $5,000 per year. If it takes seven years for the person to double their salary to $200K, then we're looking at a $100,000 gain with an investment of $35,000.
+Let's assume a hypothetical situation of a person making $100K/year. Biweekly therapy sessions at $200/hour add up to a total of roughly $5K per year. If it takes seven years for the person to double their salary to $200K, then we're looking at a $100K gain with an investment of $35K.
 
 This is nearly a **17%** annual rate of return. Starting out at $200K/year increases the ROI to **28%**, since the seven year investment of $35K remains the same. The average annual ROI for the S&P 500 is roughly 10%.
 
