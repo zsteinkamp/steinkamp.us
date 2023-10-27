@@ -121,6 +121,7 @@ h2 {
 h3 {
   font-family: var(--font-condensed);
   font-size: 1.5rem;
+  margin-top: 1rem;
 }
 h4 {
   font-family: var(--font-condensed);
