@@ -22,7 +22,7 @@ I could go on about how understanding one's self can draw a direct line to a mor
 If **none** of that speaks to you, then please read on. This post is for you. 🤑
 
 
-## Thesis
+## The$i$
 
 The investment of time and money into regular therapy sessions yields a significant positive financial benefit. To support this, I'll start with some foundational understanding then describe my own situation and how I think therapy has led to improvement in my own financial situation.
 
