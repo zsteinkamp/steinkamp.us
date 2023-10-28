@@ -11,7 +11,7 @@ One of the best decisions I have made in the last several years is to commit to 
 
 I found her through Psychology Today's therapist directory. I had been seeing a marriage counselor for several months, but once it was obvious things were not going to turn around in my marriage, I shifted my attention to my own care and growth.
 
-In the directory, Daniella had a nice picture and her blurb felt like she was operating in a familiar space. I got really lucky that I found her on the first shot. We had a short intro conversation and I felt comfortable with her right away.
+In the directory, Daniela had a nice picture and her blurb felt like she was operating in a familiar space. I got really lucky that I found her on the first shot. We had a short intro conversation and I felt comfortable with her right away.
 
 I met with her in her office near downtown San Jose every two weeks starting in 2015. It happened to be a convenient location for my commute. Life took her to the east coast, and so we continued meeting over video from there on out. I took a pause from therapy for a short time early on, but reached out again when I was facing a new and difficult situation, and have kept the continuity since then.
 
@@ -39,9 +39,9 @@ By being astute students of ourselves, we can approach situations like negotiati
 
 ### An Evolved Understanding of Emotion
 
-Psychology is a science. My biweekly therapy sessions serve to educate me on the science of emotion and human behavior. This education carries beyond the immediate relationship or issue Daniella and I are talking about in that moment, but into an overall understanding of the structures of human emotion and systems of behavior.
+Psychology is a science. My biweekly therapy sessions serve to educate me on the science of emotion and human behavior. This education carries beyond the immediate relationship or issue Daniela and I are talking about in that moment, but into an overall understanding of the structures of human emotion and systems of behavior.
 
-Daniella is an effective teacher, leaning 100% into guiding our conversations, making me feel like my breakthroughs of understanding are my own ideas rather than a result of a lecture. 
+Daniela is an effective teacher, leaning 100% into guiding our conversations, making me feel like my breakthroughs of understanding are my own ideas rather than a result of a lecture. 
 
 We explore how our primitive origins as very social creatures are deeply embedded in our own behaviors in this modern life. We talk through how past traumas or experiences can influence present responses in surprising ways. We find compassion for those who seem to be bringing discomfort to the table and feel how that helps to foster peace and rationality.
 
