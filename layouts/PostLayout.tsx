@@ -15,7 +15,7 @@ interface PostLayoutProps {
 
 const PostLayout: React.FC<PostLayoutProps> = ({ pageProps, children }) => {
   const file = pageProps.markdoc.file.path
-  const { title, date, description } = pageProps.markdoc.frontmatter
+  const { title, date, excerpt, thumbnail } = pageProps.markdoc.frontmatter
   const fmtDate = dayjs(date).utc().format('MMMM D, YYYY')
   const fileParts = file.split('/')
   const isSub = fileParts.length > 1 && fileParts[1] !== 'posts'
@@ -23,7 +23,13 @@ const PostLayout: React.FC<PostLayoutProps> = ({ pageProps, children }) => {
     <>
       <Head>
         <title>{title}</title>
-        <meta name="description" content={description} />
+        <meta property="og:type" content="article" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="title" content={title} />
+        <meta property="og:title" content={title} />
+        <meta name="description" content={excerpt} />
+        <meta property="og:description" content={excerpt} />
+        { thumbnail && <meta property="og:image" content={thumbnail} /> }
       </Head>
       <SiteHeader />
       <article className={`pl-4 pr-4 pt-8 pb-8 max-w-3xl min-h-screen m-auto`}>
