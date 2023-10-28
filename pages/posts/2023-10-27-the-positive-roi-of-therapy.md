@@ -92,6 +92,6 @@ This is nearly a **17%** annual rate of return. Starting out at $200K/year incre
 
 Of course, this is a synthetic situation and I'm a single data point and everyone will have a different experience. But my hope here is to plant a seed that may not have been there before - that therapy is an **investment** with a **positive ROI**.
 
-Life is an series of experiences. Each experience is a teaching moment. By investing in becoming a student of our own humanity, we can face those experiences with deeper understanding and get more value from them.
+Life is an series of experiences. Each experience is a teaching moment. By investing in becoming a student of our own humanity, we can face those experiences with deeper understanding and get more value from them. I don't think I've mastered anything here, and old patterns creep in from time to time. But at least now through this investment, I have an awareness of when that happens and can more mindfully approach the situation. Then better things happen.
 
 Here's to your health and success!
