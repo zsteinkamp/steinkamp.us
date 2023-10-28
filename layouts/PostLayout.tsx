@@ -27,9 +27,9 @@ const PostLayout: React.FC<PostLayoutProps> = ({ pageProps, children }) => {
         <meta property="og:locale" content="en_US" />
         <meta property="title" content={title} />
         <meta property="og:title" content={title} />
-        <meta name="description" content={excerpt} />
-        <meta property="og:description" content={excerpt} />
-        { thumbnail && <meta property="og:image" content={thumbnail} /> }
+        { excerpt && <meta name="description" content={excerpt} /> }
+        { excerpt && <meta property="og:description" content={excerpt} /> }
+        { thumbnail && <meta property="og:image" content={`https://steinkamp.us${thumbnail}`} /> }
       </Head>
       <SiteHeader />
       <article className={`pl-4 pr-4 pt-8 pb-8 max-w-3xl min-h-screen m-auto`}>
