@@ -94,4 +94,6 @@ Of course, this is a synthetic situation and I'm a single data point and everyon
 
 Life is an series of experiences. Each experience is a teaching moment. By investing in becoming a student of our own humanity, we can face those experiences with deeper understanding and get more value from them. I don't think I've mastered anything here, and old patterns creep in from time to time. But at least now through this investment, I have an awareness of when that happens and can more mindfully approach the situation. Then better things happen.
 
+You don't have to have a personal crisis to seek the guidance of a therapist. An hour of emotional and behavioral consulting every fortnight - file it as an investment in yourself and to others. 
+
 Here's to your health and success!
