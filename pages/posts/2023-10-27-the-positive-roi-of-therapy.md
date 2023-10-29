@@ -32,7 +32,7 @@ The investment of time and money into regular therapy sessions yields a signific
 
 ### Understanding Yourself
 
-Having a deep understanding of yourself is a superpower. Knowing your sensitivities and how to direct them, knowing how you tend to perceive others, knowing how your history influences your perceptions, having awareness of your biases, understanding various bodily sensations as indicators of emotional state and building a mindful relationship with them. Much of therapy involves self-discovery and self-understanding.
+Having a deep understanding of yourself is a superpower. Knowing your sensitivities and how to direct them. Knowing how you tend to perceive others. Knowing how your traumas influence your perceptions. Having awareness of your biases. Understanding various bodily sensations as indicators of emotional state and building a mindful relationship with them. Much of therapy involves self-discovery and self-understanding.
 
 By being astute students of ourselves, we can approach situations like negotiations and design discussions and yield better outcomes without as many emotional bruises along the way. By keeping discussions on-track, in a constructive direction, with an awareness of the vector of emotion we can make better use of our time and likely arrive at more creative solutions. This is good for us and good for business.
 
@@ -45,14 +45,14 @@ Daniela is an effective teacher, leaning 100% into guiding our conversations, ma
 
 We explore how our primitive origins as very social creatures are deeply embedded in our own behaviors in this modern life. We talk through how past traumas or experiences can influence present responses in surprising ways. We find compassion for those who seem to be bringing discomfort to the table and feel how that helps to foster peace and rationality.
 
-By building a blueprint for a better, more evolved, more peaceful understanding of human behavior, we can more skillfully navigate tricky situations. We can confidently engage in conversations that would have otherwise made us shy away, for fear of the unknown of discomfort.
+By building a blueprint for a better, more evolved, more peaceful understanding of human behavior, we can more skillfully navigate tricky situations in life and in work. We can confidently engage in conversations that would have otherwise made us shy away, for fear of the unknown of discomfort. Consistently better outcomes are the result.
 
 
 ### Practicing Hard Communication
 
 Well-functioning therapy can be seen as a training ground for open communication around otherwise difficult issues. Too often, we hide from discomforts, cozy in a place where they don't need to be surfaced. This is anti-productive on many levels, and in business can even be seen as negligence or dishonesty if you are aware of a bad situation but are afraid to talk about it out of fear of uncomfortable feelings.
 
-A patient in effective therapy has a high level of comfort with their therapist. Therapy is most productive when nothing is held back - be it words or emotions. It may take some time to arrive at that level of comfort with a therapist, but it should be the goal, with appropriate time-to-success boundaries set. The presence of good chemistry is just as important in a therapist-patient relationship as any other close relationship.
+One hallmark of a patient engaged in effective therapy is that they have a high level of comfort with their therapist. Therapy is most productive when nothing is held back - be it words or emotions. It may take some time to arrive at that level of comfort with a therapist, but it should be the goal; with appropriate time-to-success boundaries set. The presence of good chemistry is just as important in a therapist-patient relationship as any other close relationship.
 
 Therapy is, among other things, practice talking about difficult things. It's a training center for honing in on crafting messages of honesty and compassion, keeping our wits about us in the face of anger or fear. This is a critical foundation for effective personal and business communication.
 
@@ -61,14 +61,14 @@ Therapy is, among other things, practice talking about difficult things. It's a 
 
 Given the foundations above, we can draw a solid line between a person honing these skills and that person finding success at work. We work with people, and are at our best when we work well together. By having an evolved view of the behaviors of ourselves and our fellow humans, we can work more harmoniously and efficiently.
 
-These skills also make up significant aspects of the difference between ineffective and effective leadership.
+These skills also make up significant aspects of the difference between ineffective and effective leadership. Effective leaders able to skillfully read the room, they know their team, and the team reciprocates the modeled compassion and respect.
 
 Those who exhibit these qualities are more likely to yield positive outcomes when they are involved. Those positive outcomes are hopefully noticed by your leadership, and you should be rewarded with a quicker path to promotion as a result. Furthermore, by keeping work interactions in a highly constructive direction your own learning of your work domain will be maximized since you will not be as distracted by interpersonal issues.
 
 
 ## My Experience
 
-Seven+ years on, I view my divorce as the origin moment of an era of invaluable growth. It brought me to a state of  introspection and awareness of this world of emotion and behavior that I was really clueless about. I see this reflected in my personal life, especially my relationship with my daughters and family. I also see it reflected in my happiness and effectiveness in my job.
+Seven+ years on, I view my divorce as the origin moment of an era of invaluable growth. It brought me to a state of  introspection and awareness of this world of emotion and behavior that I was really truly clueless about. I see this reflected in my personal life, especially my relationship with my daughters and family. I also see it reflected in my happiness and effectiveness in my job.
 
 I have learned to really love the role of manager or leader of a team. I love getting to know my teammates at a deeper level, since I feel like I can help the team work together very effectively with this knowledge. Each team member is their own very unique person, and brings something unique to the group. By getting to know your team at this level, you can better maximize productivity and harmony in the group. By being unafraid to confront difficult topics, you can lead your team to resolution or compassionate compromise faster. Your employees will be happier and do their best work.
 
@@ -87,13 +87,15 @@ This is nearly a **17%** annual rate of return. Starting out at $200K/year incre
 
 **True Statement: Therapy pays far better than the stock market!**
 
+Chances are your health insurance will cover most of the cost of regular therapy sessions. **ROI approaches infinity!** 🚀
+
 
 ## Wrap
 
-Of course, this is a synthetic situation and I'm a single data point and everyone will have a different experience. But my hope here is to plant a seed that may not have been there before - that therapy is an **investment** with a **positive ROI**.
+Of course, this is a synthetic situation and I'm a single data point and everyone will have a different experience. But my hope here is to plant a seed that may not have been there before - to contemplate therapy as an **investment** with a **exceedingly positive ROI**.
 
-Life is an series of experiences. Each experience is a teaching moment. By investing in becoming a student of our own humanity, we can face those experiences with deeper understanding and get more value from them. I don't think I've mastered anything here, and old patterns creep in from time to time. But at least now through this investment, I have an awareness of when that happens and can more mindfully approach the situation. Then better things happen.
+Life is an series of experiences. Each experience is a teaching moment. By investing in becoming a student of our own humanity, we can face those experiences with deeper understanding and get more value from them. I don't think I've mastered anything here by a long shot, and old patterns creep in from time to time. But at least now, through this investment, I have an awareness of when negative patterns start to show up and can more mindfully approach the situation. Better things usually happen.
 
-You don't have to have a personal crisis to seek the guidance of a therapist. An hour of emotional and behavioral consulting every fortnight - file it as an investment in yourself and to others. 
+You don't have to be in a personal crisis to seek the guidance of a therapist. An hour of emotional and behavioral consulting every fortnight - file it as an investment in yourself and to others. 
 
 Here's to your health and success!
