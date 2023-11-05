@@ -1,6 +1,6 @@
 import { Image } from 'next/image'
 
-const CaptionedImage = ({ src, alt, caption, className }) => {
+const CaptionedImage = ({ src, alt, caption, className="" }) => {
   return (
     <figure className={`mb-8 ${className}`}>
       <img alt={alt || src} src={src} />

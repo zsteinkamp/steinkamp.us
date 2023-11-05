@@ -1,5 +1,5 @@
 {
-  "dockerComposeFile": "../dev/docker-compose.yml",
+  "dockerComposeFile": "../steinkamp_us_dev/docker-compose.yml",
   "service": "web",
   "workspaceFolder": "/app",
   "shutdownAction": "stopCompose"

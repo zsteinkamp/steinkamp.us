@@ -1,7 +1,7 @@
 import yaml from 'js-yaml'
 import fsp from 'fs/promises'
 import Head from 'next/head'
-import Link from 'next/link'
+import CaptionedImage from '@/components/CaptionedImage'
 import ReactMarkdown from 'react-markdown'
 
 export const getStaticProps = async () => {
@@ -66,8 +66,9 @@ const Songs: React.FC<SongsProps> = ({ data }) => {
         here, along with a short description of the origin and construction of
         the song.
       </p>
+      <CaptionedImage src="/images/studio.jpg" caption="My setup, Oct 2023." alt="My setup, Oct 2023." />
       <p>
-        You can listen to my music here, or on{' '}
+        My music is available for listening here, or on{' '}
         <a href="https://open.spotify.com/artist/4zlbGPYkjV7EpxXHyfZNAh?si=51oxTGABQIGwOdBS_YaYBw">
           Spotify
         </a>
