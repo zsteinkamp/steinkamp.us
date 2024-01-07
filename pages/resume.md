@@ -209,10 +209,10 @@ with block-level data deduplication.
 ## Personal
 
 - Music maker ([Spotify](https://open.spotify.com/artist/4zlbGPYkjV7EpxXHyfZNAh) / [Apple](https://itunes.apple.com/us/artist/zack-steinkamp/id1217691470))
-- Avid [cyclist, trail runner, and ultramarathoner](http://app.strava.com/athletes/1752986).
+- Avid [cyclist, trail runner, and ultramarathoner](https://app.strava.com/athletes/1752986).
 - Music [tool maker](/music-tools/)
 - Photographer
-- High Performance Driving Instructor for the [BMWCCA](http://www.ggcbmwcca.org/) and former SCCA club racer.
+- High Performance Driving Instructor for the [BMWCCA](https://www.ggcbmwcca.org/) and former SCCA club racer.
 - Woodworker
 - Programmer [since age 8](/posts/2021-05-22-computer-history)
   {% /avoidbreak %}

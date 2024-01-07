@@ -25,7 +25,7 @@ I set out at 9am (dang it DST!) and got to the peak in 2h30m. Took only a little
 
 Loving Strava's calorie counter (5165kcal)...
 
-{% strava src="http://app.strava.com/activities/43939823/embed/db8f1421674ace2ed1d0935ec04373f4ac4c9f5a" /%}
+{% strava src="https://app.strava.com/activities/43939823/embed/db8f1421674ace2ed1d0935ec04373f4ac4c9f5a" /%}
 
 I could see the Sierras from the summit of Rose Peak. Super clear day!
 

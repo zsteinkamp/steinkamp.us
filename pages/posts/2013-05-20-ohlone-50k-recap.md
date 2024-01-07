@@ -15,19 +15,19 @@ entry:
   disabled: 0
 ---
 
-Last October I decided to run the [Ohlone Wilderness Trail 50K](http://ohlone50k.com/). Leading up to that decision was a few years of hiking in the East Bay hills, a newfound enjoyment in running, and daily trips to Zombie Runner where I learned about the race.
+Last October I decided to run the [Ohlone Wilderness Trail 50K](https://ohlone50k.com/). Leading up to that decision was a few years of hiking in the East Bay hills, a newfound enjoyment in running, and daily trips to Zombie Runner where I learned about the race.
 
 After 6 months of training covering 435 miles and climbing more than 80,000 feet, the race is now in the bag.
 
-{% strava src="http://app.strava.com/activities/55203238/embed/226f1f170031f1ef95cd00f83dd0d98d35447fa7" /%}
+{% strava src="https://app.strava.com/activities/55203238/embed/226f1f170031f1ef95cd00f83dd0d98d35447fa7" /%}
 
-It wasn't all so easy though. In February I got over-exuberant with my training and ended up with a knee injury that took me off the trails for two weeks. The guys at [Score Clinic](http://www.scoreclinic.com/) got me back out there though. Armed with a better plan, and a healthy respect for caring for my muscles and joints I got back in the training groove again. Building up from 12 mile runs to a 28 mile run didn't end up being as difficult as it seemed when first laying out [the plan](https://docs.google.com/spreadsheet/ccc?key=0Av7-a2OfybnddENwQ1ljVnAwdTUwWDQySE9SNGs5RXc). Taking deliberate, small increases in the training runs is the key, as is daily foam-rolling and stretching and building knowledge of what my body needs nutrition- and hydration-wise when "out there" for hours at a time.
+It wasn't all so easy though. In February I got over-exuberant with my training and ended up with a knee injury that took me off the trails for two weeks. The guys at [Score Clinic](https://www.scoreclinic.com/) got me back out there though. Armed with a better plan, and a healthy respect for caring for my muscles and joints I got back in the training groove again. Building up from 12 mile runs to a 28 mile run didn't end up being as difficult as it seemed when first laying out [the plan](https://docs.google.com/spreadsheet/ccc?key=0Av7-a2OfybnddENwQ1ljVnAwdTUwWDQySE9SNGs5RXc). Taking deliberate, small increases in the training runs is the key, as is daily foam-rolling and stretching and building knowledge of what my body needs nutrition- and hydration-wise when "out there" for hours at a time.
 
-After my last long training run I was feeling great. A couple weeks after that run, I was well in the taper portion of the plan, and my legs felt super energized. They were like springs coiled up, ready to explode. I let that feeling get the best of me by going for an [overly intense 10 miler on Mission Peak and Mt. Allison](http://app.strava.com/activities/53280591) where I set several personal bests -- but afterward I started to get some knee pain again.
+After my last long training run I was feeling great. A couple weeks after that run, I was well in the taper portion of the plan, and my legs felt super energized. They were like springs coiled up, ready to explode. I let that feeling get the best of me by going for an [overly intense 10 miler on Mission Peak and Mt. Allison](https://app.strava.com/activities/53280591) where I set several personal bests -- but afterward I started to get some knee pain again.
 
-My plan called for a [16 mile heat training run](http://app.strava.com/activities/53686007) two days later -- a week before the race -- which turned into a hot mess. I developed blisters on my feet from the new, different, racier shoes than what I had trained in and significant knee pain running on slight downhill grades. After 20 weeks of training, I had totally screwed it up in the final week!
+My plan called for a [16 mile heat training run](https://app.strava.com/activities/53686007) two days later -- a week before the race -- which turned into a hot mess. I developed blisters on my feet from the new, different, racier shoes than what I had trained in and significant knee pain running on slight downhill grades. After 20 weeks of training, I had totally screwed it up in the final week!
 
-A visit to Dr. Tomo at Score on Monday had my knee feeling pretty good. I did a [6mi checkout run](http://app.strava.com/activities/54876017) the day before the race, and the knee pain returned in a fairly severe way. Back to Score for an emergency visit with Dr. Brandon, who hooked me up with a light ART release, a chiropractic adjustment to my spine and ankles, and some rock tape to support the over-tight aductor muscles that were causing the pain. His sendoff of "well, good luck!" made me think tomorrow's race would be a crap shoot.
+A visit to Dr. Tomo at Score on Monday had my knee feeling pretty good. I did a [6mi checkout run](https://app.strava.com/activities/54876017) the day before the race, and the knee pain returned in a fairly severe way. Back to Score for an emergency visit with Dr. Brandon, who hooked me up with a light ART release, a chiropractic adjustment to my spine and ankles, and some rock tape to support the over-tight aductor muscles that were causing the pain. His sendoff of "well, good luck!" made me think tomorrow's race would be a crap shoot.
 
 I was hemming and hawing to Arti the night before about how I thought the race would be a disaster. She told me not to worry about it -- athletes run with pain all the time. This kind of pain wasn't something that would be a long term injury, so she said just run with it Sunday and deal with it Monday. Well, OK!
 
@@ -37,7 +37,7 @@ Most runners will drive to the race finish at Lake Del Valle early in the mornin
 
 At the start of the race, most people took off running.
 
-{% youtube src="http://www.youtube.com/embed/ykoD2gpARto?rel=0" title="Race Start" /%}
+{% youtube src="https://www.youtube.com/embed/ykoD2gpARto?rel=0" title="Race Start" /%}
 
 Zombie Don had been pounding the race strategy into my head for months -- walk up the Peak, nice and easy down to Sunol. I felt like I was dead last on the initial climb, but I knew this was how I was going to be able to finish the race.
 
@@ -71,16 +71,16 @@ Arti brought a blanket, flip-flops, some warm raviolis, and other snacks with he
 
 I've never invested this much time and energy into anything before in my life. It's been a great lesson in planning, learning, and understanding what a person is capable of. I'm not sure what will come next, but I'm certainly not finished running.
 
-Results have been [posted](http://ultrasignup.com/results_event.aspx?did=17151)! 119th place!
+Results have been [posted](https://ultrasignup.com/results_event.aspx?did=17151)! 119th place!
 
 ### Bursting with gratitude for...
 
 **Arti** -- So encouraging, so patient, so practical, and so accommodating of my nutty training regimin. Her zeal for fitness and personal betterment has been contagious.
 
-**Don (and Gillian and Zac)** at [Zombie Runner](http://www.zombierunner.com/) -- Thanks for all the advice, encouragement, and for selling only the good stuff in your store. From shoes, to running food, to clothes, and the Cool Off bandana (my unfair advantage!). All the good stuff -- not to mention my daily Zombie Chai. I know I wouldn't have signed up for the race, or even considered getting into running back in August, if you didn't exist.
+**Don (and Gillian and Zac)** at [Zombie Runner](https://www.zombierunner.com/) -- Thanks for all the advice, encouragement, and for selling only the good stuff in your store. From shoes, to running food, to clothes, and the Cool Off bandana (my unfair advantage!). All the good stuff -- not to mention my daily Zombie Chai. I know I wouldn't have signed up for the race, or even considered getting into running back in August, if you didn't exist.
 
-**Tomo and Brandon** at [Score Clinic](http://scoreclinic.com/) in San Jose -- Experts in fixing broken athletes. Thanks for getting me back on my feet -- twice!
+**Tomo and Brandon** at [Score Clinic](https://scoreclinic.com/) in San Jose -- Experts in fixing broken athletes. Thanks for getting me back on my feet -- twice!
 
-**[Peter](https://twitter.com/evilops), [Franck](http://app.strava.com/athletes/316301), [Beat](http://beultra.com/wordpress/), Joey, and [Steve](http://app.strava.com/athletes/132160)** -- Runners I've known or met out on the trails. The camaraderie of this sport is such a nice bonus on top of all of its other good attributes. Thanks guys for the teaching and encouragement.
+**[Peter](https://twitter.com/evilops), [Franck](https://app.strava.com/athletes/316301), [Beat](https://beultra.com/wordpress/), Joey, and [Steve](https://app.strava.com/athletes/132160)** -- Runners I've known or met out on the trails. The camaraderie of this sport is such a nice bonus on top of all of its other good attributes. Thanks guys for the teaching and encouragement.
 
 **Race Organizers (Larry, Rajeev, Helmut) and Aid Station Volunteers** -- Thanks for giving up your free time to help make sure it was a great race. It wouldn't happen without you!
