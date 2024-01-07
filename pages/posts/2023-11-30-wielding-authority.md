@@ -16,7 +16,7 @@ Parents who lovingly wield their authority are rewarded with children who grow u
 
 Here's one example:
 
-{% youtube src="http://www.youtube.com/embed/5Q37xbZIvaU?rel=0" title="Can I Pet That Dogue?" /%}
+{% youtube src="https://www.youtube.com/embed/5Q37xbZIvaU?rel=0" title="Can I Pet That Dogue?" /%}
 
 This is a case of loving authority -- parents emphatically answering the girl's request with "NO!" and holding her arm back to keep her away from the bear. The parents authority is shown as an unopposable force, using their superior physical strength and emotional authority over the child to keep her safe.
 
