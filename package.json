@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@giscus/react": "^2.4.0",
     "@markdoc/markdoc": "^0.2.2",
     "@markdoc/next.js": "^0.2.2",
     "@tailwindcss/line-clamp": "^0.4.2",

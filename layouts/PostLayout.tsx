@@ -7,6 +7,7 @@ dayjs.extend(utc)
 import SiteHeader from '@/components/SiteHeader'
 import SiteFooter from '@/components/SiteFooter'
 import BackButton from '@/components/BackButton'
+import Giscus from '@giscus/react'
 
 interface PostLayoutProps {
   pageProps: AppProps['pageProps']
@@ -18,7 +19,7 @@ const PostLayout: React.FC<PostLayoutProps> = ({ pageProps, children }) => {
   const { title, date, excerpt, thumbnail } = pageProps.markdoc.frontmatter
   const fmtDate = dayjs(date).utc().format('MMMM D, YYYY')
   const fileParts = file.split('/')
-  const isSub = fileParts.length > 1 && fileParts[1] !== 'posts'
+
   return (
     <>
       <Head>
@@ -46,6 +47,19 @@ const PostLayout: React.FC<PostLayoutProps> = ({ pageProps, children }) => {
           <div className="">{children}</div>
           <BackButton className="link" />
         </div>
+        <Giscus
+          repo="zsteinkamp/steinkamp.us"
+          repoId="R_kgDOJOYKlQ"
+          category="Announcements"
+          categoryId="DIC_kwDOJOYKlc4CdMxW"
+          mapping="url"
+          strict="0"
+          reactionsEnabled="1"
+          emitMetadata="0"
+          inputPosition="bottom"
+          lang="en"
+          loading="lazy"
+        />
       </article>
       <SiteFooter />
     </>
