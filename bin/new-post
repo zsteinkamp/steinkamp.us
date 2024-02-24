@@ -1,0 +1,48 @@
+#!/bin/bash
+
+set -x
+set -e
+
+if [ ! -d .git ]
+then
+  echo 'This script must be run from the project root directory.'
+fi
+
+echo
+echo '=================================================================='
+echo 'New Post!'
+echo '=================================================================='
+echo
+read -r -p "Title? " POST_TITLE
+
+if [ "" == "${POST_TITLE}" ]
+then
+  exit 1
+fi
+
+POST_TITLE_SLUG=$(echo $POST_TITLE | perl -pe 's/[^a-z0-9]/-/gi' | perl -pe 's/(^-+|-+$)//' | awk '{print tolower($0)}')
+POST_DATE=$(date +%Y-%m-%d)
+POST_FNAME="pages/posts/${POST_DATE}_${POST_TITLE_SLUG}.md"
+
+if [ -f $POST_FNAME ]
+then
+  echo "File [$POST_FNAME] exists."
+  exit 2
+fi
+
+cat << EOF > $POST_FNAME
+---
+layout: post
+title: ${POST_TITLE}
+date: '${POST_DATE} 12:00:00'
+thumbnail: /images/sample.jpg
+excerpt: |
+  Short excerpt, teaser, or placeholder for this post.
+---
+
+Content starts here. Use H2 (##) for article headers.
+EOF
+
+echo Done.
+echo "  $POST_FNAME"
+vim $POST_FNAME
