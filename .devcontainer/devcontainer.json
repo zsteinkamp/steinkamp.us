@@ -2,5 +2,12 @@
   "dockerComposeFile": "../steinkamp_us_dev/docker-compose.yml",
   "service": "web",
   "workspaceFolder": "/app",
-  "shutdownAction": "stopCompose"
+  "shutdownAction": "stopCompose",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "stripe.markdoc-language-support"
+      ]
+    }
+  }
 }

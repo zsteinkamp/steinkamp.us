@@ -12,9 +12,15 @@ I will always prefer the window seat.
 
 If you don't have a preference, then, may I?
 
+{% captionedimage src="/images/lenticular/IMG_0664.JPG" caption="San Francisco from above." className="half-height" /%}
+
 To me, half of the fun of going somewhere is to see where we are going from high above. The landscapes are all so varied, with layer upon layer of stories stacked up for us to see from our cruising altitude.
 
+{% captionedimage src="/images/lenticular/IMG_0668.JPG" caption="Black Mountain from the west. I had a memorable coyote encounter on that zig-zaggy trail." className="half-height" /%}
+
 I also love seeing my hometown and home hills from above as we leave or return. This is something I've always enjoyed -- seeing the landscapefrom the new perspective, and playing geographic guessing games around reservoir names, highways, or peaks.
+
+{% captionedimage src="/images/lenticular/IMG_0673.JPG" caption="Mt Umunhum near by!" className="half-height" /%}
 
 In late January, 2024, I flew from San Jose to Seattle for a work trip. The
 views on the way there were stunning as usual, with the timing of the flight
@@ -23,10 +29,9 @@ the day.
 
 {% captionedimage src="/images/lenticular/shastaOnTheWay.jpg" caption="Mt Shasta soaks it in." className="half-height" /%}
 
-
 On the return trip (Jan 26), I was just amazed at what I was seeing from early on. The clouds were sparse and we were in them, so they went whizzing by at 500 miles an hour (sadly I didn't think to take a video!). We popped out of the clouds and the sights changed right away to different textures and patterns all around.
 
-{% captionedimage src="/images/lenticular/texturesAboveAndBelow.jpg" caption="Textures above and below." className="half-height" /%}
+{% captionedimage src="/images/lenticular/texturesAboveAndBelow.jpg" caption="Textures above and below." /%}
 
 Then something odd was emerging from in front of the airplane. A strange cloud formation took shape like nothing I had seen before. I waited until the last second before it was covered by the wing to take this, to get as close as possible.
 
