@@ -160,6 +160,10 @@ article code {
   border-width: 1px;
   @apply bg-stone-200 dark:bg-stone-800 border-stone-300 dark:border-stone-700;
 }
+article .half-height img {
+  max-height: 30rem;
+}
+
 article blockquote {
   border-left: 2px solid #ddd;
   padding: 2rem 2rem 0.1rem 2rem;
