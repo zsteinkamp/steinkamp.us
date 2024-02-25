@@ -226,9 +226,6 @@ button {
   @apply flex items-center mb-4 pl-8 pr-8 pb-4 pt-4 border-b-2 border-stone-200 dark:border-stone-800 bg-stone-100 dark:bg-stone-800 noprint;
 }
 @media only screen and (min-width: 650px) {
-  .basic-outer {
-    margin-top: 2.3rem;
-  }
   .site-container footer {
     @apply dark:bg-stone-900;
   }
