@@ -43,6 +43,9 @@ const SiteHeader = () => {
           <Link className="page-link" href="/resume">
             Resume
           </Link>
+          <Link className="page-link" href="/about">
+            About
+          </Link>
         </div>
       </nav>
     </header>
