@@ -61,7 +61,19 @@ html {
   margin-left: 19rem;
   margin-top: 1.4rem;
 }
-@media screen and (max-width: 650px) {
+.posts {
+  margin-top: -1.2rem;
+}
+.posts .post-item {
+  @apply grid grid-cols-4 gap-4 p-8 rounded-lg mt-0 bg-transparent hover:bg-stone-200 dark:hover:bg-stone-800;
+}
+@media screen and (max-width: 800px) {
+  .posts .post-item {
+    padding: 1rem 0;
+  }
+  .posts .post-item h2 {
+    margin: 0;
+  }
   .site-nav .page-link {
     display: inline;
     margin-top: 0rem;
@@ -122,7 +134,6 @@ html {
 body {
   @apply bg-stone-100 dark:bg-stone-900;
 }
-
 .link,
 a {
   @apply text-blue-700 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200 visited:text-blue-700 dark:visited:text-blue-400 transition-colors duration-200;
@@ -225,7 +236,10 @@ button {
 .SiteHeader {
   @apply flex items-center mb-4 pl-8 pr-8 pb-4 pt-4 border-b-2 border-stone-200 dark:border-stone-800 bg-stone-100 dark:bg-stone-800 noprint;
 }
-@media only screen and (min-width: 650px) {
+@media only screen and (min-width: 800px) {
+  .basic-outer {
+    margin-top: 2.3rem;
+  }
   .site-container footer {
     @apply dark:bg-stone-900;
   }

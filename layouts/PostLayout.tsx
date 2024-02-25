@@ -36,7 +36,6 @@ const PostLayout: React.FC<PostLayoutProps> = ({ pageProps, children }) => {
         <SiteHeader />
         <article className={`pl-4 pr-4 pt-8 pb-8 max-w-3xl min-h-screen m-auto`}>
           <div className="">
-            <BackButton className="link float-right" />
             <header className="">
               <div className="">
                 <h1 className="mt-3 font-bold font-header text-4xl">
@@ -46,7 +45,6 @@ const PostLayout: React.FC<PostLayoutProps> = ({ pageProps, children }) => {
               </div>
             </header>
             <div className="">{children}</div>
-            <BackButton className="link" />
           </div>
           <Giscus
             repo="zsteinkamp/steinkamp.us"
