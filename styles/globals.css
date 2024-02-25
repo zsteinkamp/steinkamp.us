@@ -36,7 +36,13 @@ html {
   font-size: 18px;
   box-sizing: border-box;
 }
-
+img[src*='#right'] {
+    float: right;
+    margin-left: 2rem;
+}
+img[src*='#round'] {
+    border-radius: 0.5rem;
+}
 .site-nav {
   position: relative;
 }
@@ -241,7 +247,8 @@ button {
 }
 @media only screen and (min-width: 800px) {
   .basic-outer {
-    margin-top: 2.3rem;
+    margin-top: 2.4rem;
+    margin-right: 4rem;
   }
   .site-container footer {
     @apply dark:bg-stone-900;

@@ -7,7 +7,8 @@
     "vscode": {
       "extensions": [
         "stripe.markdoc-language-support",
-        "bradlc.vscode-tailwindcss"
+        "bradlc.vscode-tailwindcss",
+        "csstools.postcss"
       ]
     }
   }

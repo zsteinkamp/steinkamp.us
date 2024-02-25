@@ -14,6 +14,7 @@ The server software is built on [Next.js](https://nextjs.org/) and extended with
 
 ## About Me
 
+![Headshot](/images/headshot.jpg#right#round)
 I'm a [lifelong nerd](/posts/2021-05-22-computer-history), starting at age 7 in 1981 sitting for hours in awe of LOGO (Turtle Graphics) on an Apple ][, soon graduating to BASIC on a Commodore VIC-20 and then C64, and onward through the PC and Mac eras. 
 
 I started [working in technology](/resume) starting at age 17. I was lucky enough to hit the crest of the Internet revolution in the mid-late 1990s, being at the right place at the right time. My first "real" job out of school was at Yahoo!, then on to cofound a data visualization startup, then in various growing and pivoting companies in nearly every role and technical area possible.
@@ -21,6 +22,10 @@ I started [working in technology](/resume) starting at age 17. I was lucky enoug
 I have developed a particular interest in maximizing joy and productivity in technical teams through developing innovative and sensible team and work structures.
 
 Outside of work, I enjoy [making music](/music), [software for other electronic musicians](/music-tools), and have recently been exploring the space of Filesystem Apps - take and keep ownership of your data without compromising experience.
+
+I plan on retiring soon (2024) and look forward to devoting focused energy on doing the best for myself, the people close to me, and my communities, absent the quest for a paycheck.
+
+Let's chat!
 
 [zack@steinkamp.us](mailto:zack@steinkamp.us)  
 [https://steinkamp.us/](https://steinkamp.us)  
