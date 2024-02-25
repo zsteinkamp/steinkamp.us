@@ -16,9 +16,11 @@ const SiteLayout: React.FC<SiteLayoutProps> = ({ pageProps, children }) => {
   }
 
   return (
-    <PageLayout pageProps={pageProps}>
-      <main>{children}</main>
-    </PageLayout>
+    <div className="site-container">
+      <PageLayout pageProps={pageProps}>
+        <main>{children}</main>
+      </PageLayout>
+    </div>
   )
 }
 

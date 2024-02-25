@@ -30,3 +30,10 @@ commands:
 - `make devup` - Start the development mode server and tail the logs
 - `make devdown` - Stop the development mode server
 - `make prod` - Build and start/restart the production server then tail the logs. Can be safely interrupted (`Ctrl-C`) without stopping the server.
+
+## TODOs
+
+Ideas for future enhancements or fixes:
+
+* Change layout to fixed left column, scrolling body
+* Embed for musics-hosted musics to replace bandcamp

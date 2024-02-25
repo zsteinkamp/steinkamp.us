@@ -6,7 +6,8 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        "stripe.markdoc-language-support"
+        "stripe.markdoc-language-support",
+        "bradlc.vscode-tailwindcss"
       ]
     }
   }

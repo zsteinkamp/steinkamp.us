@@ -32,35 +32,37 @@ const PostLayout: React.FC<PostLayoutProps> = ({ pageProps, children }) => {
         {excerpt && <meta property="og:description" content={excerpt} />}
         {thumbnail && <meta property="og:image" content={`https://steinkamp.us${thumbnail}`} />}
       </Head>
-      <SiteHeader />
-      <article className={`pl-4 pr-4 pt-8 pb-8 max-w-3xl min-h-screen m-auto`}>
-        <div className="">
-          <BackButton className="link float-right" />
-          <header className="">
-            <div className="">
-              <div className="mt-4 text-stone-400">{fmtDate}</div>
-              <h1 className="mb-8 font-bold font-condensed text-4xl">
-                {title}
-              </h1>
-            </div>
-          </header>
-          <div className="">{children}</div>
-          <BackButton className="link" />
-        </div>
-        <Giscus
-          repo="zsteinkamp/steinkamp.us"
-          repoId="R_kgDOJOYKlQ"
-          category="Announcements"
-          categoryId="DIC_kwDOJOYKlc4CdMxW"
-          mapping="url"
-          strict="0"
-          reactionsEnabled="1"
-          emitMetadata="0"
-          inputPosition="bottom"
-          lang="en"
-          loading="lazy"
-        />
-      </article>
+      <div className="header-content">
+        <SiteHeader />
+        <article className={`pl-4 pr-4 pt-8 pb-8 max-w-3xl min-h-screen m-auto`}>
+          <div className="">
+            <BackButton className="link float-right" />
+            <header className="">
+              <div className="">
+                <h1 className="mt-3 font-bold font-header text-4xl">
+                  {title}
+                </h1>
+                <div className="mb-8 text-stone-400">{fmtDate}</div>
+              </div>
+            </header>
+            <div className="">{children}</div>
+            <BackButton className="link" />
+          </div>
+          <Giscus
+            repo="zsteinkamp/steinkamp.us"
+            repoId="R_kgDOJOYKlQ"
+            category="Announcements"
+            categoryId="DIC_kwDOJOYKlc4CdMxW"
+            mapping="url"
+            strict="0"
+            reactionsEnabled="1"
+            emitMetadata="0"
+            inputPosition="bottom"
+            lang="en"
+            loading="lazy"
+          />
+        </article>
+      </div>
       <SiteFooter />
     </>
   )

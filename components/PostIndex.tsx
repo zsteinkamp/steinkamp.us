@@ -33,7 +33,7 @@ const PostIndex: React.FC<PostIndexProps> = ({ posts, className = '' }) => {
               <div className="text-stone-400 dark:text-stone-500 text-sm">
                 {dayjs(post.date).utc().format('MMMM, YYYY')}
               </div>
-              <h2 className="font-condensed text-2xl mb-2 mt-2">
+              <h2 className="font-header text-2xl mb-2 mt-2">
                 {post.title}
               </h2>
               <div className="text-stone-600 dark:text-stone-400 line-clamp-3">
