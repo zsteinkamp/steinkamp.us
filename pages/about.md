@@ -8,7 +8,7 @@ I guess there are a couple angles on what kind of "About" you might be after. Ch
 
 ## About This Site
 
-This site is served from a Linux machine inside my house, through my PFSense Firewall, out my cable internet connection, through Cloudflare's CDN service, and onward to you. 
+This site is served from a Linux machine inside my house, through a [PFSense](https://www.pfsense.org/) Firewall, out the cable internet connection, through [Cloudflare's CDN service](https://www.cloudflare.com/), and onward to you.
 
 The server software is built on [Next.js](https://nextjs.org/) and extended with [Markdoc](https://markdoc.dev/) support. I've built a set of components that are relevant to the kind of content I post. The [software source code](https://github.com/zsteinkamp/steinkamp.us/) is available to anyone to copy and modify.
 
