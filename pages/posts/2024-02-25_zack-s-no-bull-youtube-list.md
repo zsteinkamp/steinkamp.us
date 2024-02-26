@@ -97,6 +97,6 @@ Irreverent and snarky explorations of technology items we likely take for grante
 {% youtube src="https://www.youtube.com/embed/Limpr1L8Pss?si=LG1K3CXKHaziRWXM" title="All about the Popcorn Button on your microwave" /%}
 
 ## Veritasium
-One of YouTube's greatest success stories with 16 million subscribers, [Veritasium](https://www.youtube.com/@veritasium) presents interesting science topics for non-scientists. His top-quality production combined with the access that being a wildly successful information source.
+One of YouTube's greatest success stories with 16 million subscribers, [Veritasium](https://www.youtube.com/@veritasium) presents interesting science topics for non-scientists. His top-quality production combined with the access that being a wildly successful information source gives him the ability to deliver very interesting and informative content.
 
 {% youtube src="https://www.youtube.com/embed/Q51-gLL_MRM?si=wi-eLn_jHuubkNtx" title="Japan's largest earthquake simulator" /%}
