@@ -6,8 +6,10 @@ dayjs.extend(utc)
 
 import SiteHeader from '@/components/SiteHeader'
 import SiteFooter from '@/components/SiteFooter'
-import BackButton from '@/components/BackButton'
 import Giscus from '@giscus/react'
+
+import collectHeadings from '@/util/collectHeadings'
+import TableOfContents from '@/components/TableOfContents'
 
 interface PostLayoutProps {
   pageProps: AppProps['pageProps']
@@ -16,9 +18,13 @@ interface PostLayoutProps {
 
 const PostLayout: React.FC<PostLayoutProps> = ({ pageProps, children }) => {
   const file = pageProps.markdoc.file.path
-  const { title, date, excerpt, thumbnail } = pageProps.markdoc.frontmatter
+  const { title, date, excerpt, thumbnail, toc } = pageProps.markdoc.frontmatter
   const fmtDate = dayjs(date).utc().format('MMMM D, YYYY')
-  const fileParts = file.split('/')
+
+  let headings = null
+  if (toc) {
+    headings = collectHeadings(pageProps.markdoc.content)
+  }
 
   return (
     <>
@@ -44,6 +50,7 @@ const PostLayout: React.FC<PostLayoutProps> = ({ pageProps, children }) => {
                 <div className="mb-8 text-stone-400">{fmtDate}</div>
               </div>
             </header>
+            {toc && <TableOfContents headings={headings} className="" />}
             <div className="">{children}</div>
           </div>
           <Giscus

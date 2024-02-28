@@ -8,7 +8,9 @@
       "extensions": [
         "stripe.markdoc-language-support",
         "bradlc.vscode-tailwindcss",
-        "csstools.postcss"
+        "csstools.postcss",
+        "rvest.vs-code-prettier-eslint",
+        "esbenp.prettier-vscode"
       ]
     }
   }

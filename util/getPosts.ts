@@ -68,7 +68,7 @@ const getPosts = async (indexPath: string, newestFirst: boolean = true) => {
             // TODO parse markdown
             const content = Markdoc.transform(ast)
             const html = Markdoc.renderers.html(content)
-            excerpt = stripHtml(html).result.substr(0, 512)
+            excerpt = stripHtml(html).result.substring(0, 512)
           }
 
           return {

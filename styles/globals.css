@@ -34,11 +34,11 @@ html {
   box-sizing: border-box;
 }
 img[src*='#right'] {
-    float: right;
-    margin-left: 2rem;
+  float: right;
+  margin-left: 2rem;
 }
 img[src*='#round'] {
-    border-radius: 0.5rem;
+  border-radius: 0.5rem;
 }
 .site-nav {
   position: relative;
@@ -71,7 +71,7 @@ img[src*='#round'] {
   margin-top: -1.2rem;
 }
 .posts .post-item {
-  @apply grid grid-cols-4 gap-4 p-8 rounded-lg mt-0 bg-transparent hover:bg-stone-200 dark:hover:bg-stone-800;
+  @apply mt-0 grid grid-cols-4 gap-4 rounded-lg bg-transparent p-8 hover:bg-stone-200 dark:hover:bg-stone-800;
 }
 @media screen and (max-width: 800px) {
   .posts .post-item {
@@ -90,7 +90,7 @@ img[src*='#round'] {
     margin-left: 0;
   }
   .site-nav {
-    @apply bg-stone-100 dark:bg-stone-800 border-stone-300 dark:border-stone-700;
+    @apply border-stone-300 bg-stone-100 dark:border-stone-700 dark:bg-stone-800;
     position: absolute;
     top: 3.5rem;
     right: 1rem;
@@ -114,7 +114,7 @@ img[src*='#round'] {
     padding-left: 0.5rem;
     padding-top: 0.5rem;
     text-align: center;
-    @apply border-stone-300 dark:border-stone-700 rounded-lg;
+    @apply rounded-lg border-stone-300 dark:border-stone-700;
   }
   .site-nav .menu-icon > svg {
     @apply fill-stone-600 dark:fill-stone-400;
@@ -142,13 +142,13 @@ body {
 }
 .link,
 a {
-  @apply text-blue-700 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200 visited:text-blue-700 dark:visited:text-blue-400 transition-colors duration-200;
+  @apply text-blue-700 transition-colors duration-200 visited:text-blue-700 hover:text-blue-800 dark:text-blue-400 dark:visited:text-blue-400 dark:hover:text-blue-200;
 }
 .SiteHeader a h1 {
-  @apply text-stone-800 dark:text-stone-200 visited:text-stone-800 dark:visited:text-stone-200;
+  @apply text-stone-800 visited:text-stone-800 dark:text-stone-200 dark:visited:text-stone-200;
 }
 .SiteHeader a {
-  @apply text-stone-600 dark:text-stone-400 hover:text-black dark:hover:text-white visited:text-stone-600 dark:visited:text-stone-400;
+  @apply text-stone-600 visited:text-stone-600 hover:text-black dark:text-stone-400 dark:visited:text-stone-400 dark:hover:text-white;
 }
 h1 {
   font-family: var(--font-header);
@@ -198,7 +198,7 @@ article code {
   padding: 0.25rem;
   border-radius: 0.5rem;
   border-width: 1px;
-  @apply bg-stone-200 dark:bg-stone-800 border-stone-300 dark:border-stone-700;
+  @apply border-stone-300 bg-stone-200 dark:border-stone-700 dark:bg-stone-800;
 }
 article .half-height img {
   max-height: 30rem;
@@ -240,7 +240,7 @@ button {
   margin-bottom: 0rem;
 }
 .SiteHeader {
-  @apply flex items-center mb-4 pl-8 pr-8 pb-4 pt-4 border-b-2 border-stone-200 dark:border-stone-800 bg-stone-100 dark:bg-stone-800 noprint;
+  @apply noprint mb-4 flex items-center border-b-2 border-stone-200 bg-stone-100 pl-8 pr-8 pb-4 pt-4 dark:border-stone-800 dark:bg-stone-800;
 }
 @media only screen and (min-width: 800px) {
   .basic-outer {
@@ -257,7 +257,7 @@ button {
     display: flex;
   }
   .SiteHeader {
-    @apply flex flex-col items-center mb-4 pl-8 pr-8 pb-4 pt-4 border-stone-200 dark:border-stone-800 bg-stone-100 dark:bg-stone-900 noprint;
+    @apply noprint mb-4 flex flex-col items-center border-stone-200 bg-stone-100 pl-8 pr-8 pb-4 pt-4 dark:border-stone-800 dark:bg-stone-900;
     border-bottom: none;
     border-right-width: 2px;
     position: fixed;
@@ -278,4 +278,24 @@ button {
   .noprint {
     display: none;
   }
+}
+
+.TableOfContents {
+  max-width: calc(min(20rem, 50%));
+  @apply float-right mt-0 pl-8;
+}
+.TableOfContents .level-2 {
+  margin-left: 0rem;
+}
+.TableOfContents .level-3 {
+  margin-left: 2rem;
+}
+.TableOfContents .level-4 {
+  margin-left: 4rem;
+}
+.TableOfContents .level-5 {
+  margin-left: 6rem;
+}
+.TableOfContents .level-6 {
+  margin-left: 8rem;
 }
