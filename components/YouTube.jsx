@@ -5,8 +5,8 @@ export function YouTube({ className, src, title, width }) {
         src={src}
         title={title}
         width={width}
-        frameBorder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        frameBorder='0'
+        allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
         allowFullScreen
       />
       <style jsx>

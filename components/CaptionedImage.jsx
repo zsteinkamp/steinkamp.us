@@ -1,11 +1,9 @@
-import { Image } from 'next/image'
-
-const CaptionedImage = ({ src, alt, caption, className="" }) => {
+const CaptionedImage = ({ src, alt, caption, className = '' }) => {
   return (
     <figure className={`mb-8 ${className}`}>
       <a href={src}>
         <img alt={alt || src} src={src} />
-        <figcaption className="italic text-sm">{caption}</figcaption>
+        <figcaption className='text-sm italic'>{caption}</figcaption>
       </a>
     </figure>
   )

@@ -11,7 +11,7 @@ export const getStaticProps = async () => {
 }
 
 interface IndexProps {
-  posts: Array<any>
+  posts: Array<Record<string, string>>
 }
 
 const Index: React.FC<IndexProps> = ({ posts }) => {

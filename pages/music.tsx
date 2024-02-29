@@ -15,21 +15,21 @@ export const getStaticProps = async () => {
 }
 
 interface SongsProps {
-  data: Array<any>
+  data: Array<Record<string, string>>
 }
 
 const Songs: React.FC<SongsProps> = ({ data }) => {
   const songs = data.map((song, i) => {
     return (
-      <div key={i} className="grid grid-cols-4">
-        <h4 className="pr-8 pt-2 text-right text-stone-500 dark:text-stone-500">
+      <div key={i} className='grid grid-cols-4'>
+        <h4 className='pr-8 pt-2 text-right text-stone-500 dark:text-stone-500'>
           {song.date}
         </h4>
-        <div className="col-span-3 ">
+        <div className='col-span-3 '>
           <h2>{song.title}</h2>
           {song.bandcampId && (
             <iframe
-              className="rounded-lg w-full h-24 border-none"
+              className='h-24 w-full rounded-lg border-none'
               src={`https://bandcamp.com/EmbeddedPlayer/${
                 song.type || 'track'
               }=${
@@ -49,7 +49,7 @@ const Songs: React.FC<SongsProps> = ({ data }) => {
       <Head>
         <title>{`Zack Steinkamp's Music `}</title>
         <meta
-          name="description"
+          name='description'
           content="Music that I've made over the years."
         />
       </Head>
@@ -59,34 +59,38 @@ const Songs: React.FC<SongsProps> = ({ data }) => {
         instruments out of them, or design new sounds with synthesizers. I used
         to have a room full of equipment, but now I just use a laptop and some
         external MIDI controllers. If you use Spotify, you can{' '}
-        <a href="https://open.spotify.com/playlist/5s96egT8OPl3O3bMlk04qp?si=idq446saSgiDHgX43wsONw">
+        <a href='https://open.spotify.com/playlist/5s96egT8OPl3O3bMlk04qp?si=idq446saSgiDHgX43wsONw'>
           add my playlist
         </a>
         , which I keep up to date with new music I release. I post new songs
         here, along with a short description of the origin and construction of
         the song.
       </p>
-      <CaptionedImage src="/images/studio.jpg" caption="My setup, Oct 2023." alt="My setup, Oct 2023." />
+      <CaptionedImage
+        src='/images/studio.jpg'
+        caption='My setup, Oct 2023.'
+        alt='My setup, Oct 2023.'
+      />
       <p>
         My music is available for listening here, or on{' '}
-        <a href="https://open.spotify.com/artist/4zlbGPYkjV7EpxXHyfZNAh?si=51oxTGABQIGwOdBS_YaYBw">
+        <a href='https://open.spotify.com/artist/4zlbGPYkjV7EpxXHyfZNAh?si=51oxTGABQIGwOdBS_YaYBw'>
           Spotify
         </a>
         ,{' '}
-        <a href="https://music.apple.com/us/artist/zack-steinkamp/1217691470">
+        <a href='https://music.apple.com/us/artist/zack-steinkamp/1217691470'>
           iTunes / Apple Music
         </a>
         ,{' '}
-        <a href="https://www.amazon.com/s?k=Zack+Steinkamp&i=digital-music&search-type=ss">
+        <a href='https://www.amazon.com/s?k=Zack+Steinkamp&i=digital-music&search-type=ss'>
           Amazon Music
         </a>
         ,{' '}
-        <a href="https://www.youtube.com/channel/UCVKBjFZJYJ-0-5TiOHWj-OQ">
+        <a href='https://www.youtube.com/channel/UCVKBjFZJYJ-0-5TiOHWj-OQ'>
           YouTube
         </a>
         , or pretty much any other streaming service by searching for my name.
       </p>
-      <div className="w-full pt-8">{songs}</div>
+      <div className='w-full pt-8'>{songs}</div>
     </>
   )
 }

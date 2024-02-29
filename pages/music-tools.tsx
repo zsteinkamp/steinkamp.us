@@ -2,7 +2,6 @@ import yaml from 'js-yaml'
 import fs from 'fs'
 import Head from 'next/head'
 import Link from 'next/link'
-import Image from 'next/image'
 import ReactMarkdown from 'react-markdown'
 
 export async function getStaticProps() {
@@ -16,7 +15,7 @@ export async function getStaticProps() {
 }
 
 interface MusicToolsProps {
-  data: Array<any>
+  data: Array<Record<string, string>>
 }
 
 const MusicToolsPage: React.FC<MusicToolsProps> = ({ data }) => {
@@ -30,14 +29,14 @@ const MusicToolsPage: React.FC<MusicToolsProps> = ({ data }) => {
 
   const appList = data.map((app) => {
     return (
-      <div className="pt-8" key={app.link}>
-        <div className="flex justify-between">
+      <div className='pt-8' key={app.link}>
+        <div className='flex justify-between'>
           <h2>
             <Link href={app.link} title={app.title}>
               {app.title}
             </Link>
           </h2>
-          <div className="self-end">
+          <div className='self-end'>
             <Link href={app.link}>More Info / Download</Link>
           </div>
         </div>
@@ -56,8 +55,8 @@ const MusicToolsPage: React.FC<MusicToolsProps> = ({ data }) => {
       <Head>
         <title>Music Tools</title>
         <meta
-          name="description"
-          content="Tools that I have created for other musicians, mostly in Max for Live."
+          name='description'
+          content='Tools that I have created for other musicians, mostly in Max for Live.'
         />
       </Head>
       <h1>Music Tools / Plugins</h1>

@@ -5,7 +5,7 @@ import utc from 'dayjs/plugin/utc'
 dayjs.extend(utc)
 
 interface PostIndexProps {
-  posts: Array<any>
+  posts: Array<Record<string, string>>
   className?: string
 }
 
@@ -14,14 +14,11 @@ const PostIndex: React.FC<PostIndexProps> = ({ posts, className = '' }) => {
     <ul className={`posts ${className}`}>
       {posts.map((post) => (
         <li key={post.slug}>
-          <Link
-            className="post-item"
-            href={post.slug}
-          >
+          <Link className='post-item' href={post.slug}>
             <div>
               {post.thumbnail && (
                 <Image
-                  className="object-cover w-36 aspect-square max-w-36 rounded-lg"
+                  className='max-w-36 aspect-square w-36 rounded-lg object-cover'
                   src={post.thumbnail}
                   width={300}
                   height={300}
@@ -29,14 +26,12 @@ const PostIndex: React.FC<PostIndexProps> = ({ posts, className = '' }) => {
                 />
               )}
             </div>
-            <div className="col-span-3">
-              <div className="text-stone-400 dark:text-stone-500 text-sm">
+            <div className='col-span-3'>
+              <div className='text-sm text-stone-400 dark:text-stone-500'>
                 {dayjs(post.date).utc().format('MMMM, YYYY')}
               </div>
-              <h2 className="font-header text-2xl mb-2 mt-2">
-                {post.title}
-              </h2>
-              <div className="text-stone-600 dark:text-stone-400 line-clamp-3">
+              <h2 className='font-header mb-2 mt-2 text-2xl'>{post.title}</h2>
+              <div className='text-stone-600 line-clamp-3 dark:text-stone-400'>
                 {post.excerpt}
               </div>
             </div>

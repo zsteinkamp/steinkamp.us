@@ -1,7 +1,7 @@
 export function Bandcamp({ className, src }) {
   return (
     <div className={className}>
-      <iframe src={src} frameBorder="0" />
+      <iframe src={src} frameBorder='0' />
       <style jsx>
         {`
           iframe {
