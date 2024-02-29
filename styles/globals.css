@@ -9,6 +9,7 @@
 :root {
   --font-header: 'Roboto Condensed';
   --font-header: 'Averia Serif Libre';
+  --toc-width: calc(min(20rem, 50%));
 }
 
 body {
@@ -281,8 +282,14 @@ button {
 }
 
 .TableOfContents {
-  max-width: calc(min(20rem, 50%));
-  @apply float-right mt-0 pl-8;
+  display: block;
+  @apply mt-0 text-sm;
+}
+@media screen and (min-width: 1024px) {
+  .TableOfContents {
+    max-width: var(--toc-width);
+    @apply float-right pl-8;
+  }
 }
 .TableOfContents .level-2 {
   margin-left: 0rem;

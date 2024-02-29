@@ -16,7 +16,7 @@ Dr. Robert Sapolsky is a professor of neurobiology, neuroscience, and neurosurge
 
 {% youtube src="https://www.youtube.com/embed/NNnIGh9g6fA?si=kUPPOR4o7Anv0MCI" title="Dr. Sapolsky Bio 150 Playlist" /%}
 
-## Michael Sandel's Harvard Lectures
+## Michael Sandel's Lectures
 
 Titled "What's the right thing to do?", philosopher Michael Sandel walks Harvard students through the nuance of moral dilemmas, the origins of society and government, and law. He's an engaging speaker and is not afraid to lean into the experiences of his students to keep the lectures moving.
 

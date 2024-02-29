@@ -1,5 +1,8 @@
-function createHeadingSlug(title: string) {
-  return title
+function createHeadingSlug(title: string): string {
+  if (typeof (title) !== 'string') {
+    return 'unknown'
+  }
+  return (title || "")
     .replace(/[?]/g, '')
     .replace(/\s+/g, '-')
     .toLowerCase();

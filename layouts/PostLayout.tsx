@@ -21,10 +21,7 @@ const PostLayout: React.FC<PostLayoutProps> = ({ pageProps, children }) => {
   const { title, date, excerpt, thumbnail, toc } = pageProps.markdoc.frontmatter
   const fmtDate = dayjs(date).utc().format('MMMM D, YYYY')
 
-  let headings = null
-  if (toc) {
-    headings = collectHeadings(pageProps.markdoc.content)
-  }
+  const headings = collectHeadings(pageProps.markdoc.content)
 
   return (
     <>
@@ -50,8 +47,10 @@ const PostLayout: React.FC<PostLayoutProps> = ({ pageProps, children }) => {
                 <div className="mb-8 text-stone-400">{fmtDate}</div>
               </div>
             </header>
-            {toc && <TableOfContents headings={headings} className="" />}
-            <div className="">{children}</div>
+            <div className="mainArea">
+              {headings && headings.length > 0 && <TableOfContents headings={headings} className="" />}
+              <div className="">{children}</div>
+            </div>
           </div>
           <Giscus
             repo="zsteinkamp/steinkamp.us"
