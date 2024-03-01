@@ -10,10 +10,11 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        condensed: ['"Roboto Condensed"', ...fontFamily.sans],
+        header: ['"Averia Serif Libre"', ...fontFamily.sans],
         sans: ['Inter', ...fontFamily.sans],
       },
     },
   },
+  darkMode: 'class',
   plugins: [require('@tailwindcss/line-clamp')],
 }

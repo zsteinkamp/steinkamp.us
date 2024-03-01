@@ -12,9 +12,13 @@ module.exports = withMarkdoc({ schemaPath: './markdoc' })({
       {
         source: '/post/:slug*',
         destination: '/api/post/:slug*',
-        permanent: false
-      }
+        permanent: false,
+      },
     ]
+  },
+  compiler: {
+    // Enables the styled-components SWC transform
+    styledComponents: true,
   },
   images: {
     remotePatterns: [
