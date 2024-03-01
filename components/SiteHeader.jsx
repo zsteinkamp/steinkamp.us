@@ -1,9 +1,9 @@
 // ./components/SiteHeader.jsx
 import Link from 'next/link'
 
-const SiteHeader = () => {
+const SiteHeader = ({ className = '' }) => {
   return (
-    <header className='SiteHeader'>
+    <header className={`SiteHeader ${className}`}>
       <Link href={'/'} className='transition-colors'>
         <figure title='steinkamp.us'>
           <h1 className='font-header text-3xl hover:text-black dark:hover:text-white'>

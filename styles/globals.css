@@ -41,26 +41,6 @@ img[src*='#right'] {
 img[src*='#round'] {
   border-radius: 0.5rem;
 }
-.site-nav {
-  position: relative;
-}
-.site-nav .nav-trigger {
-  display: none;
-}
-.site-nav .menu-icon {
-  display: none;
-}
-.site-nav .page-link:not(:last-child) {
-  margin-right: 20px;
-}
-.site-nav .page-link {
-  display: block;
-  margin-top: 2rem;
-  margin-left: -4rem;
-}
-.site-nav .page-link:hover {
-  cursor: pointer;
-}
 .header-content > article {
   margin-left: 19rem;
 }
@@ -74,6 +54,7 @@ img[src*='#round'] {
 .posts .post-item {
   @apply mt-0 grid grid-cols-4 gap-4 rounded-lg bg-transparent p-8 hover:bg-stone-200 dark:hover:bg-stone-800;
 }
+
 @media screen and (max-width: 800px) {
   .posts .post-item {
     padding: 1rem 0;
@@ -145,6 +126,31 @@ body {
 a {
   @apply text-blue-700 transition-colors duration-200 visited:text-blue-700 hover:text-blue-800 dark:text-blue-400 dark:visited:text-blue-400 dark:hover:text-blue-200;
 }
+.site-nav {
+  position: relative;
+}
+.site-nav .nav-trigger {
+  display: none;
+}
+.site-nav .menu-icon {
+  display: none;
+}
+.site-nav .page-link:not(:last-child) {
+  margin-right: 20px;
+}
+.site-nav .page-link {
+  display: block;
+  margin-top: 2rem;
+  margin-left: -4rem;
+}
+.site-nav .page-link:hover {
+  cursor: pointer;
+}
+.SiteHeader.compact .site-nav .page-link {
+  margin-top: 0rem;
+  margin-left: -4rem;
+}
+
 .SiteHeader a h1 {
   @apply text-stone-800 visited:text-stone-800 dark:text-stone-200 dark:visited:text-stone-200;
 }
