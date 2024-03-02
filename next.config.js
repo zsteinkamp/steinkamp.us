@@ -25,6 +25,7 @@ module.exports = withMarkdoc({ schemaPath: './markdoc' })({
       { hostname: 'marketplace.mypurecloud.com' },
       { hostname: '**.photobucket.com' },
       { hostname: 'i.ytimg.com' },
+      { hostname: 'github.com' },
       { hostname: '**.steinkamp.us' },
       { hostname: '**.static.flickr.com' },
       { hostname: '**.staticflickr.com' },

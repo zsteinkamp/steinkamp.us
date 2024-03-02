@@ -2,6 +2,7 @@ import yaml from 'js-yaml'
 import fs from 'fs'
 import Head from 'next/head'
 import Link from 'next/link'
+import Image from 'next/image'
 import ReactMarkdown from 'react-markdown'
 
 export async function getStaticProps() {
@@ -64,6 +65,11 @@ const MusicToolsPage: React.FC<MusicToolsProps> = ({ data }) => {
         I have made a handful of tools for electronic musicians who use Ableton
         Live Suite, which includes Max For Live.
       </p>
+
+      <Image className="mb-8" width="1024" height="148"
+        src='https://github.com/zsteinkamp/m4l-Modulation-Lerp/raw/main/images/device.gif'
+        alt='Example Plugin - Modulation Lerp'
+      />
 
       <p>
         Max For Live is a visual signal processing environment that integrates
