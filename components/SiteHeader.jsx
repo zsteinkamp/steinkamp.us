@@ -9,9 +9,7 @@ const SiteHeader = ({ className = '' }) => {
         <figure title='steinkamp.us'>
           <h1 className='font-header text-3xl hover:text-black dark:hover:text-white'>
             <ThemeSwitcher />
-            <Link href={'/'} className='transition-colors'>
-              steinkamp.us
-            </Link>
+            <Link href={'/'}>steinkamp.us</Link>
           </h1>
         </figure>
         <nav className='site-nav flex grow justify-end gap-8'>

@@ -14,7 +14,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  @apply text-stone-700 dark:text-stone-400;
+  @apply text-stone-700 transition-colors duration-200 dark:text-stone-400;
 }
 
 h1,
@@ -68,15 +68,16 @@ img[src*='#round'] {
   margin-top: 1.4rem;
 }
 .posts {
-  margin-top: -1.2rem;
+  margin-top: 0.7rem;
 }
 .posts .post-item {
-  @apply mt-[1.7rem] mb-[3rem] grid grid-cols-4 gap-4 rounded-lg bg-transparent p-0 hover:bg-stone-200 dark:hover:bg-stone-800;
+  @apply grid grid-cols-4 gap-4 rounded-lg bg-transparent p-0 hover:bg-stone-200 dark:hover:bg-stone-800;
+  margin-bottom: clamp(0rem, 5vw, 2.5rem);
 }
 
 @media screen and (max-width: 800px) {
   .posts .post-item {
-    padding: 1rem 0;
+    padding: 0rem 0;
   }
   .posts .post-item h2 {
     margin: 0;
@@ -153,20 +154,20 @@ a {
 }
 h1 {
   font-family: var(--font-header);
-  font-size: 2.25rem;
+  font-size: clamp(1.8rem, 2.5vw, 2.25rem);
 }
 h2 {
   font-family: var(--font-header);
-  font-size: 1.75rem;
+  font-size: clamp(1.3rem, 3vw, 1.75rem);
 }
 h3 {
   font-family: var(--font-header);
-  font-size: 1.5rem;
+  font-size: clamp(1.1rem, 1.75vw, 1.5rem);
   margin-top: 1rem;
 }
 h4 {
   font-family: var(--font-header);
-  font-size: 1.25rem;
+  font-size: clamp(1rem, 1.5vw, 1.25rem);
 }
 p {
   margin-bottom: 2rem;
@@ -241,7 +242,7 @@ button {
   margin-bottom: 0rem;
 }
 .SiteHeader {
-  @apply noprint mb-4 flex items-center border-b-2 border-stone-200 bg-stone-100 pl-8 pr-8 pb-4 pt-4 dark:border-stone-800 dark:bg-stone-800;
+  @apply noprint mb-4 flex items-center border-b-2 border-stone-200 bg-stone-100 pl-4 pr-8 pb-4 pt-4 transition-all duration-200 dark:border-stone-800 dark:bg-stone-800;
 }
 @media only screen and (min-width: 800px) {
   .basic-outer {
@@ -258,12 +259,8 @@ button {
     display: flex;
   }
   .SiteHeader {
-    @apply noprint mb-4 flex flex-col items-center border-stone-200 bg-stone-100 pl-8 pr-8 pb-4 pt-4 dark:border-stone-800 dark:bg-stone-900;
-    border-bottom: none;
-    border-right-width: 2px;
-    position: fixed;
+    @apply noprint fixed mb-4 mt-8 flex flex-col items-center border-b-0 border-r-[2px] border-stone-200 bg-stone-100 pl-8 pr-8 pb-4 pt-4 dark:border-stone-800 dark:bg-stone-900;
     height: calc(100dvh - 5rem);
-    margin-top: 2rem;
   }
 }
 
@@ -281,9 +278,6 @@ button {
   }
 }
 
-.TableOfContents {
-  @apply mt-0 block pl-8 text-sm lg:float-right lg:[max-width:var(--toc-width)] 2xl:fixed 2xl:top-[3.7rem] 2xl:left-[66rem] 2xl:float-none 2xl:max-w-xs;
-}
 .TableOfContents .level-2 {
   margin-left: 0rem;
 }
