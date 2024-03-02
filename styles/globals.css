@@ -282,7 +282,7 @@ button {
 }
 
 .TableOfContents {
-  @apply mt-0 block pl-8 text-sm lg:float-right lg:[max-width:var(--toc-width)];
+  @apply mt-0 block pl-8 text-sm lg:float-right lg:[max-width:var(--toc-width)] 2xl:fixed 2xl:top-[3.7rem] 2xl:left-[66rem] 2xl:float-none 2xl:max-w-xs;
 }
 .TableOfContents .level-2 {
   margin-left: 0rem;
