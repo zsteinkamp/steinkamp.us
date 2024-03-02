@@ -282,14 +282,7 @@ button {
 }
 
 .TableOfContents {
-  display: block;
-  @apply mt-0 text-sm;
-}
-@media screen and (min-width: 1024px) {
-  .TableOfContents {
-    max-width: var(--toc-width);
-    @apply float-right pl-8;
-  }
+  @apply mt-0 block pl-8 text-sm lg:float-right lg:[max-width:var(--toc-width)];
 }
 .TableOfContents .level-2 {
   margin-left: 0rem;
@@ -305,4 +298,7 @@ button {
 }
 .TableOfContents .level-6 {
   margin-left: 8rem;
+}
+.ThemeSwitcher {
+  transform: translateY(3px);
 }
