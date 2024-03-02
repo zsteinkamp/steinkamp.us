@@ -66,7 +66,10 @@ const MusicToolsPage: React.FC<MusicToolsProps> = ({ data }) => {
         Live Suite, which includes Max For Live.
       </p>
 
-      <Image className="mb-8" width="1024" height="148"
+      <Image
+        className='mb-8'
+        width='1024'
+        height='148'
         src='https://github.com/zsteinkamp/m4l-Modulation-Lerp/raw/main/images/device.gif'
         alt='Example Plugin - Modulation Lerp'
       />
