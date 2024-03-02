@@ -42,7 +42,9 @@ const MusicToolsPage: React.FC<MusicToolsProps> = ({ data }) => {
         </div>
         <div>
           <Link href={app.link} title={app.title}>
-            <img alt={app.title} src={app.image} />
+            <picture>
+              <img alt={app.title} src={app.image} />
+            </picture>
           </Link>
         </div>
         <ReactMarkdown>{app.description}</ReactMarkdown>
