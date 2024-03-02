@@ -29,6 +29,7 @@ h7 {
 
 /* Document level adjustments */
 html {
+  scroll-padding-top: 2.9rem;
   font-size: 18px;
   box-sizing: border-box;
 }
