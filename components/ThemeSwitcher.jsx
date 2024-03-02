@@ -77,11 +77,11 @@ export default function ThemeSwitcher() {
         {
           // eliminate non-themed flash
           `
-        let themeLocalStorage   = localStorage.getItem('${THEME_KEY}')
-        let themeSystem         = window.matchMedia('(prefers-color-scheme: dark)').matches ? '${THEME_DARK}' : '${THEME_LIGHT}'
+            let themeLocalStorage   = localStorage.getItem('${THEME_KEY}')
+            let themeSystem         = window.matchMedia('(prefers-color-scheme: dark)').matches ? '${THEME_DARK}' : '${THEME_LIGHT}'
 
-        document.documentElement.classList.add(themeLocalStorage ?? themeSystem)
-      `
+            document.documentElement.classList.add(themeLocalStorage ?? themeSystem)
+          `
         }
       </Script>
       <button

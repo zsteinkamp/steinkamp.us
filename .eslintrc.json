@@ -11,7 +11,7 @@
     "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended"
   ],
-  "ignorePatterns": ["**/node_modules/", "/dist/", "/lib/"],
+  "ignorePatterns": ["**/node_modules/", "/dist/"],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaVersion": "latest",
