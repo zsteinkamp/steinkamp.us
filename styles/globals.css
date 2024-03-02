@@ -95,7 +95,6 @@ img[src*='#round'] {
     position: absolute;
     top: 3.5rem;
     right: 1rem;
-    border: 1px solid;
   }
   .site-nav label[for='nav-trigger'] {
     display: block;
@@ -128,6 +127,7 @@ img[src*='#round'] {
     display: block;
     float: right;
     padding-bottom: 0.5rem;
+    border: 1px solid;
   }
   .site-nav .page-link {
     display: block;
