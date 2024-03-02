@@ -6,12 +6,12 @@ import Script from 'next/script'
 // I have simplified it, not just by reducing the number of themes from 3 to 2,
 // but given a clearer understanding of how React works.
 
-const THEME_LIGHT = 'light'
-const THEME_DARK = 'dark'
-const THEME_KEY = 'theme'
-
 export default function ThemeSwitcher() {
   const [theme, setTheme] = useState()
+
+  const THEME_LIGHT = 'light'
+  const THEME_DARK = 'dark'
+  const THEME_KEY = 'theme'
 
   const toggleTheme = () => {
     setTheme(theme === THEME_DARK ? THEME_LIGHT : THEME_DARK)

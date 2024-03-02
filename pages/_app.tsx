@@ -2,7 +2,6 @@ import SiteLayout from '../layouts/SiteLayout'
 import type { ReactElement, ReactNode } from 'react'
 import type { NextPage } from 'next'
 import type { AppProps } from 'next/app'
-import { ThemeSwitcherHeadScriptBody } from '@/components/ThemeSwitcher'
 
 import '@/styles/globals.css'
 
@@ -16,11 +15,8 @@ type AppPropsWithLayout = AppProps & {
 
 export default function App({ Component, pageProps }: AppPropsWithLayout) {
   return (
-    <>
-      <ThemeSwitcherHeadScriptBody />
-      <SiteLayout pageProps={pageProps}>
-        <Component {...pageProps} />
-      </SiteLayout>
-    </>
+    <SiteLayout pageProps={pageProps}>
+      <Component {...pageProps} />
+    </SiteLayout>
   )
 }
