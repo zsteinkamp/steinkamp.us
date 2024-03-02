@@ -10,7 +10,6 @@ import Giscus from '@giscus/react'
 
 import collectHeadings from '@/util/collectHeadings'
 import TableOfContents from '@/components/TableOfContents'
-import DarkSwitcher from '@/components/DarkSwitcher'
 
 interface PostLayoutProps {
   pageProps: AppProps['pageProps']
@@ -39,7 +38,6 @@ const PostLayout: React.FC<PostLayoutProps> = ({ pageProps, children }) => {
       <div className="header-content">
         <SiteHeader />
         <article className={`pl-4 pr-4 pt-8 pb-8 max-w-3xl min-h-screen m-auto`}>
-          <DarkSwitcher />
           <div className="">
             <header className="">
               <div className="">
