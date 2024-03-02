@@ -64,14 +64,14 @@ img[src*='#round'] {
   margin-left: 19rem;
 }
 .basic-outer {
-  margin-left: 16.5rem;
+  margin-left: 19rem;
   margin-top: 1.4rem;
 }
 .posts {
   margin-top: -1.2rem;
 }
 .posts .post-item {
-  @apply mt-0 grid grid-cols-4 gap-4 rounded-lg bg-transparent p-8 hover:bg-stone-200 dark:hover:bg-stone-800;
+  @apply mt-[1.7rem] mb-[3rem] grid grid-cols-4 gap-4 rounded-lg bg-transparent p-0 hover:bg-stone-200 dark:hover:bg-stone-800;
 }
 
 @media screen and (max-width: 800px) {
