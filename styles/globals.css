@@ -61,9 +61,6 @@ img[src*='#round'] {
   cursor: pointer;
 }
 
-html {
-}
-
 @media screen and (max-width: 767px) {
   .site-nav .page-link {
     display: inline;
@@ -130,20 +127,20 @@ a {
 }
 h1 {
   font-family: var(--font-header);
-  font-size: clamp(1.5rem, 3vw, 2.25rem);
+  font-size: clamp(1.75rem, 3vw, 2.25rem);
 }
 h2 {
   font-family: var(--font-header);
-  font-size: clamp(1.25rem, 2.5vw, 1.75rem);
+  font-size: clamp(1.4rem, 2.95vw, 1.75rem);
 }
 h3 {
   font-family: var(--font-header);
-  font-size: clamp(1rem, 2vw, 1.5rem);
+  font-size: clamp(1.25rem, 2vw, 1.5rem);
   margin-top: 1rem;
 }
 h4 {
   font-family: var(--font-header);
-  font-size: clamp(0.75rem, 1.5vw, 1.25rem);
+  font-size: clamp(1rem, 1.5vw, 1.25rem);
 }
 p {
   margin-bottom: 2rem;

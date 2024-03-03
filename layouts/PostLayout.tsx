@@ -33,7 +33,7 @@ const PostLayout: React.FC<PostLayoutProps> = ({ pageProps, children }) => {
         {excerpt && <meta property="og:description" content={excerpt} />}
         {thumbnail && <meta property="og:image" content={`https://steinkamp.us${thumbnail}`} />}
       </Head>
-      <article className={`pl-12 pr-4 pt-8 pb-8 max-w-3xl min-h-screen`}>
+      <article className={`pl-4 md:pl-12 pr-4 pt-4 md:pt-8 pb-8 max-w-3xl min-h-screen`}>
         <div className="">
           <header className="">
             <div className="">
