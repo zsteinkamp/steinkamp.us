@@ -29,9 +29,9 @@ const SiteLayout: React.FC<SiteLayoutProps> = ({ pageProps, children }) => {
           <PageLayout pageProps={pageProps}>
             <main>{children}</main>
           </PageLayout>
+          <SiteFooter />
         </div>
       </div>
-      <SiteFooter />
     </>
   )
 }

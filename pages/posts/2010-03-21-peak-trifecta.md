@@ -32,7 +32,9 @@ I sped down the peak, getting to the Ohlone parking lot in about 45 minutes. I c
 
 Total distance was 10.8 miles. I would totally do it again. Maybe this time the other way.
 
+```
 <div class="dipity_embed" style="width:640px"><iframe width="640" height="480" src="http://www.dipity.com/zs/Peak-Trifecta/embed_tl?" style="border:1px solid #CCC;"></iframe><p style="margin:0;font-family:Arial,sans;font-size:13px;text-align:center"><a href="http://www.dipity.com/zs/Peak-Trifecta">Peak Trifecta</a> on <a href="http://www.dipity.com/" />Dipity</a>.</p></div>
+```
 
 Here's a map with photos that I took along the route...
 

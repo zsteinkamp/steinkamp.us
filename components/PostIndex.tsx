@@ -27,7 +27,7 @@ const PostIndex: React.FC<PostIndexProps> = ({ posts, className = '' }) => {
                   />
                 )}
               </div>
-              <div className='flex-shrink flex-grow ml-4 overflow-hidden'>
+              <div className='flex-shrink flex-grow ml-4 md:ml-8 overflow-hidden'>
                 <div className='text-sm text-stone-400 dark:text-stone-500'>
                   {dayjs(post.date).utc().format('MMMM, YYYY')}
                 </div>
