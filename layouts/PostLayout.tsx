@@ -33,20 +33,14 @@ const PostLayout: React.FC<PostLayoutProps> = ({ pageProps, children }) => {
         {excerpt && <meta property="og:description" content={excerpt} />}
         {thumbnail && <meta property="og:image" content={`https://steinkamp.us${thumbnail}`} />}
       </Head>
-      <article className={`pl-4 md:pl-12 pr-4 pt-4 md:pt-8 pb-8 max-w-3xl min-h-screen`}>
-        <div className="">
-          <header className="">
-            <div className="">
-              <h1 className="mt-3 font-bold font-header text-4xl">
-                {title}
-              </h1>
-              <div className="mb-8 text-stone-400">{fmtDate}</div>
-            </div>
-          </header>
-          <div className="mainArea">
-            {headings && headings.length > 0 && <TableOfContents headings={headings} className="" />}
-            <div className="">{children}</div>
-          </div>
+      <article className="max-w-2xl">
+        <h1 className="">
+          {title}
+        </h1>
+        <div className="mb-8 text-stone-400">{fmtDate}</div>
+        <div className="mainArea">
+          {headings && headings.length > 0 && <TableOfContents headings={headings} className="" />}
+          <div className="">{children}</div>
         </div>
         <Giscus
           repo="zsteinkamp/steinkamp.us"

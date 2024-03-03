@@ -17,8 +17,8 @@ const SiteHeader = ({ className = '' }) => {
     { label: 'About', href: '/about' },
   ]
 
-  const headerLinkClasses =
-    'text-stone-600 visited:text-stone-600 hover:text-black dark:text-stone-400 dark:visited:text-stone-400 dark:hover:text-white'
+  const linkColorClasses =
+    'dark:hover:text-whitepage-link text-stone-600 visited:text-stone-600 hover:text-black dark:text-stone-400 dark:visited:text-stone-400'
 
   return (
     <>
@@ -28,7 +28,7 @@ const SiteHeader = ({ className = '' }) => {
         <figure title='steinkamp.us'>
           <h1 className='dark:visited:text-stone-200; font-header text-3xl text-stone-800 visited:text-stone-800 hover:text-black dark:text-stone-200 dark:hover:text-white'>
             <ThemeSwitcher className='translate-y-[3px] pr-2' />
-            <Link href={'/'} className={headerLinkClasses}>
+            <Link href={'/'} className={linkColorClasses}>
               steinkamp.us
             </Link>
           </h1>
@@ -46,7 +46,7 @@ const SiteHeader = ({ className = '' }) => {
           <div className='trigger font-header'>
             {links.map((linkObj) => (
               <Link
-                className={`page-link ${headerLinkClasses}`}
+                className={`page-link ${linkColorClasses}`}
                 key={linkObj.label}
                 href={linkObj.href}
                 target={linkObj.target}

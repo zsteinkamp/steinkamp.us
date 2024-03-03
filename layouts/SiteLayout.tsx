@@ -25,7 +25,7 @@ const SiteLayout: React.FC<SiteLayoutProps> = ({ pageProps, children }) => {
         <div className="md:flex-shrink-0 md:flex-grow-0 md:basis-auto shadow-lg">
           <SiteHeader />
         </div>
-        <div className="md:flex-grow md:flex-shrink md:mr-12 ml-4 mr-4 md:max-w-3xl">
+        <div className="md:pt-[2.8rem] pb-8 md:flex-grow md:flex-shrink ml-4 mr-4 md:ml-12 md:mr-12 md:max-w-3xl min-h-screen">
           <PageLayout pageProps={pageProps}>
             <main>{children}</main>
           </PageLayout>
