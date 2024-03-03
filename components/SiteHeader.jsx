@@ -5,10 +5,12 @@ import ThemeSwitcher from '@/components/ThemeSwitcher'
 const SiteHeader = ({ className = '' }) => {
   return (
     <>
-      <header className={`SiteHeader ${className}`}>
+      <header
+        className={`SiteHeader noprint ml-4 mb-4 flex h-[4.5rem] items-center border-b-2 border-stone-200 dark:border-stone-800 md:sticky md:top-12 md:mt-12 md:ml-4 md:mr-4 md:flex-col md:border-b-0 ${className}`}
+      >
         <figure title='steinkamp.us'>
-          <h1 className='font-header text-3xl hover:text-black dark:hover:text-white'>
-            <ThemeSwitcher />
+          <h1 className='dark:visited:text-stone-200; font-header text-3xl text-stone-800 visited:text-stone-800 hover:text-black dark:text-stone-200 dark:hover:text-white'>
+            <ThemeSwitcher className='translate-y-[3px] pr-2' />
             <Link href={'/'}>steinkamp.us</Link>
           </h1>
         </figure>

@@ -4,9 +4,9 @@ import Script from 'next/script'
 // Inspired (and to a large degree copied) from Andrew Nelson's post on the topic
 // https://medium.com/@--andrewnelson/add-a-dark-mode-toggle-to-your-nextjs-react-app-375b230a4c27
 // I have simplified it, not just by reducing the number of themes from 3 to 2,
-// but given a clearer understanding of how React works.
+// but deleted unneeded code and simplified data interactions.
 
-export default function ThemeSwitcher() {
+export default function ThemeSwitcher({ className }) {
   const [theme, setTheme] = useState()
 
   const THEME_LIGHT = 'light'
@@ -88,7 +88,7 @@ export default function ThemeSwitcher() {
         key='themeToggle'
         onClick={toggleTheme}
         data-theme={theme}
-        className='ThemeSwitcher translate-y-0.5 pr-2'
+        className={`ThemeSwitcher ${className}`}
       >
         {buttonIcon(theme)}
       </button>

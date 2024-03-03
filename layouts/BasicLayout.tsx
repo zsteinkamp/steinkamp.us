@@ -1,15 +1,13 @@
 import Head from 'next/head'
 import { AppProps } from 'next/app'
 
-import SiteHeader from '@/components/SiteHeader'
-import SiteFooter from '@/components/SiteFooter'
-
 interface BasicLayoutProps {
   pageProps: AppProps['pageProps']
+  className?: string
   children?: React.ReactNode
 }
 
-const BasicLayout: React.FC<BasicLayoutProps> = ({ pageProps, children }) => {
+const BasicLayout: React.FC<BasicLayoutProps> = ({ pageProps, className = "", children }) => {
   const { title, description } = pageProps.markdoc?.frontmatter || {
     title: 'steinkamp.us',
     description: 'steinkamp.us',
@@ -28,11 +26,9 @@ const BasicLayout: React.FC<BasicLayoutProps> = ({ pageProps, children }) => {
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
       </Head>
-      <SiteHeader />
-      <div className={`pl-4 pr-4 max-w-3xl min-h-screen m-auto basic-outer ${outerClass}`}>
+      <div className={`md:ml-12 mt-[2.4rem] min-h-screen ${className} ${outerClass}`}>
         {children}
       </div>
-      <SiteFooter />
     </>
   )
 }
