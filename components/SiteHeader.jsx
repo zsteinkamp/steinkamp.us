@@ -33,7 +33,7 @@ const SiteHeader = ({ className = '' }) => {
             </Link>
           </h1>
         </figure>
-        <nav className='site-nav absolute top-[3.5rem] right-4 flex grow justify-end gap-8 border-stone-300 bg-stone-100 dark:border-stone-700 dark:bg-stone-800 md:relative md:top-0'>
+        <nav className='site-nav absolute top-[3.5rem] right-4 flex grow justify-end gap-8 border-stone-300 bg-stone-200 dark:border-stone-700 dark:bg-stone-800 md:relative md:top-0 md:bg-stone-100 md:dark:bg-stone-900'>
           <input
             type='checkbox'
             id='nav-trigger'
@@ -55,7 +55,7 @@ const SiteHeader = ({ className = '' }) => {
             </span>
           </label>
 
-          <div className='trigger float-right rounded-lg bg-stone-200 pb-2 font-header shadow-xl dark:bg-stone-800 md:float-none md:bg-transparent md:shadow-none'>
+          <div className='trigger float-right rounded-lg pb-2 font-header shadow-xl md:float-none md:shadow-none'>
             {links.map((linkObj) => (
               <Link
                 className={`page-link mt-0 ml-0 block cursor-pointer p-8 md:mt-8 md:p-2 ${linkColorClasses}`}
