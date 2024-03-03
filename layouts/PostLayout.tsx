@@ -37,7 +37,7 @@ const PostLayout: React.FC<PostLayoutProps> = ({ pageProps, children }) => {
         <h1 className="">
           {title}
         </h1>
-        <div className="mb-8 text-stone-400">{fmtDate}</div>
+        <div className="mb-8 text-date-light dark:text-date-dark">{fmtDate}</div>
         <div className="mainArea">
           {headings && headings.length > 0 && <TableOfContents headings={headings} className="" />}
           <div className="">{children}</div>

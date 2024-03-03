@@ -15,14 +15,14 @@ export const getStaticProps = async () => {
 }
 
 interface SongsProps {
-  data: Array<Record<string, string>>
+  data: Array<Record<string, strig>>
 }
 
 const Songs: React.FC<SongsProps> = ({ data }) => {
   const songs = data.map((song, i) => {
     return (
       <div key={i} className='grid grid-cols-4'>
-        <h4 className='pr-8 pt-2 text-right text-stone-500 dark:text-stone-500'>
+        <h4 className='pr-8 pt-2 text-right text-date-light dark:text-date-dark'>
           {song.date}
         </h4>
         <div className='col-span-3 '>
@@ -30,11 +30,9 @@ const Songs: React.FC<SongsProps> = ({ data }) => {
           {song.bandcampId && (
             <iframe
               className='h-24 w-full rounded-lg border-none'
-              src={`https://bandcamp.com/EmbeddedPlayer/${
-                song.type || 'track'
-              }=${
-                song.bandcampId
-              }/size=large/bgcol=666666/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/`}
+              src={`https://bandcamp.com/EmbeddedPlayer/${song.type || 'track'
+                }=${song.bandcampId
+                }/size=large/bgcol=666666/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/`}
               seamless
             ></iframe>
           )}

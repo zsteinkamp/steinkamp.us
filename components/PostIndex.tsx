@@ -15,7 +15,7 @@ const PostIndex: React.FC<PostIndexProps> = ({ posts, className = '' }) => {
       {posts.map((post) => (
         <li key={post.slug} className=''>
           <Link
-            className='hover:bg-stone-200 dark:hover:bg-stone-800'
+            className='hover:bg-shadebg-light dark:hover:bg-shadebg-dark'
             href={post.slug}
           >
             <div className='flex rounded-lg bg-transparent p-4'>
@@ -32,10 +32,10 @@ const PostIndex: React.FC<PostIndexProps> = ({ posts, className = '' }) => {
               </div>
               <div className='ml-4 flex-shrink flex-grow overflow-hidden md:ml-8'>
                 <h2 className='m-0'>{post.title}</h2>
-                <div className='mt-[-0.25rem] text-sm text-stone-400 dark:text-stone-500'>
+                <div className='mb-[0.25rem] text-sm text-date-light dark:text-date-dark'>
                   {dayjs(post.date).utc().format('MMMM, YYYY')}
                 </div>
-                <div className='text-stone-600 line-clamp-3 dark:text-stone-400'>
+                <div className='text-text-light line-clamp-3 dark:text-text-dark'>
                   {post.excerpt}
                 </div>
               </div>

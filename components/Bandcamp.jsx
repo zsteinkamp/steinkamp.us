@@ -9,7 +9,7 @@ export function Bandcamp({ className, src }) {
             width: 100%;
             margin: 2rem 0;
             border-radius: 4px;
-            @apply dark:bg-stone-900;
+            @apply dark:bg-pagebg-dark;
           }
         `}
       </style>
