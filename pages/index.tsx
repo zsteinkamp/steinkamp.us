@@ -16,7 +16,7 @@ interface IndexProps {
 
 const Index: React.FC<IndexProps> = ({ posts }) => {
   return <>
-    <PostIndex className="md:mt-[-1.3rem] md:mr-8 max-w-2xl" posts={posts} />
+    <PostIndex className="md:mt-[-0.8rem] md:mr-8 max-w-2xl" posts={posts} />
   </>
 }
 export default Index

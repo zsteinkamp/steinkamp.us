@@ -3,6 +3,23 @@ import Link from 'next/link'
 import ThemeSwitcher from '@/components/ThemeSwitcher'
 
 const SiteHeader = ({ className = '' }) => {
+  const links = [
+    { label: 'Posts', href: '/' },
+    { label: 'Photos', href: 'https://photos.steinkamp.us/', target: '_blank' },
+    {
+      label: "Pop's Pages",
+      href: 'https://dick.steinkamp.us/',
+      target: '_blank',
+    },
+    { label: 'Music', href: '/music' },
+    { label: 'Plugins', href: '/music-tools' },
+    { label: 'Resume', href: '/resume' },
+    { label: 'About', href: '/about' },
+  ]
+
+  const headerLinkClasses =
+    'text-stone-600 visited:text-stone-600 hover:text-black dark:text-stone-400 dark:visited:text-stone-400 dark:hover:text-white'
+
   return (
     <>
       <header
@@ -11,7 +28,9 @@ const SiteHeader = ({ className = '' }) => {
         <figure title='steinkamp.us'>
           <h1 className='dark:visited:text-stone-200; font-header text-3xl text-stone-800 visited:text-stone-800 hover:text-black dark:text-stone-200 dark:hover:text-white'>
             <ThemeSwitcher className='translate-y-[3px] pr-2' />
-            <Link href={'/'}>steinkamp.us</Link>
+            <Link href={'/'} className={headerLinkClasses}>
+              steinkamp.us
+            </Link>
           </h1>
         </figure>
         <nav className='site-nav flex grow justify-end gap-8'>
@@ -25,31 +44,16 @@ const SiteHeader = ({ className = '' }) => {
           </label>
 
           <div className='trigger font-header'>
-            <Link className='page-link' href='/'>
-              Posts
-            </Link>
-            <Link
-              className='page-link'
-              href='https://photos.steinkamp.us/'
-              target='_blank'
-            >
-              Photos
-            </Link>
-            <Link className='page-link' href='https://dick.steinkamp.us/'>
-              Pop&apos;s Pages
-            </Link>
-            <Link className='page-link' href='/music'>
-              Music
-            </Link>
-            <Link className='page-link' href='/music-tools'>
-              Plugins
-            </Link>
-            <Link className='page-link' href='/resume'>
-              Resume
-            </Link>
-            <Link className='page-link' href='/about'>
-              About
-            </Link>
+            {links.map((linkObj) => (
+              <Link
+                className={`page-link ${headerLinkClasses}`}
+                key={linkObj.label}
+                href={linkObj.href}
+                target={linkObj.target}
+              >
+                {linkObj.label}
+              </Link>
+            ))}
           </div>
         </nav>
       </header>

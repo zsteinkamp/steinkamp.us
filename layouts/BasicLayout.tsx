@@ -26,7 +26,7 @@ const BasicLayout: React.FC<BasicLayoutProps> = ({ pageProps, className = "", ch
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
       </Head>
-      <div className={`md:ml-12 md:mt-[2.7rem] min-h-screen ${className} ${outerClass}`}>
+      <div className={`md:ml-12 md:mt-[2.8rem] min-h-screen ${className} ${outerClass}`}>
         {children}
       </div>
     </>
