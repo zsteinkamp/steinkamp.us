@@ -4,6 +4,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
 import ReactMarkdown from 'react-markdown'
+import createHeadingSlug from '@/util/createHeadingSlug'
 
 export async function getStaticProps() {
   const data = yaml.load(fs.readFileSync('data/music-tools.yaml', 'utf8'))
@@ -20,10 +21,13 @@ interface MusicToolsProps {
 }
 
 const MusicToolsPage: React.FC<MusicToolsProps> = ({ data }) => {
+  data.forEach((e) => {
+    e.slug = createHeadingSlug(e.title)
+  })
   const titleList = data.map((app) => {
     return (
       <li key={app.link}>
-        <Link href={`#${app.title}`}>{app.title}</Link>
+        <Link href={`#${app.slug}`}>{app.title}</Link>
       </li>
     )
   })
@@ -32,7 +36,7 @@ const MusicToolsPage: React.FC<MusicToolsProps> = ({ data }) => {
     return (
       <div className='pt-8' key={app.link}>
         <div className='flex justify-between'>
-          <h2>
+          <h2 id={app.slug}>
             <Link href={app.link} title={app.title}>
               {app.title}
             </Link>
