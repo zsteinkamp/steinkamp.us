@@ -14,7 +14,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  @apply text-stone-700 transition-colors duration-200 dark:text-stone-400;
+  @apply bg-stone-100 text-stone-700 transition-colors duration-200 dark:bg-stone-900 dark:text-stone-400;
 }
 
 h1,
@@ -39,9 +39,6 @@ img[src*='#right'] {
 }
 img[src*='#round'] {
   border-radius: 0.5rem;
-}
-body {
-  @apply bg-stone-100 dark:bg-stone-900;
 }
 .link,
 a {
@@ -168,77 +165,12 @@ button {
   margin-left: 8rem;
 }
 
-.site-nav {
-  position: relative;
-}
-.site-nav .nav-trigger {
-  display: none;
-}
-.site-nav .menu-icon {
-  display: none;
-}
-.site-nav .page-link:not(:last-child) {
-  margin-right: 20px;
-}
-.site-nav .page-link {
-  display: block;
-  margin-top: 2rem;
-  margin-left: -4rem;
-}
-.site-nav .page-link:hover {
-  cursor: pointer;
-}
-
 @media screen and (max-width: 767px) {
-  .site-nav .page-link {
-    display: inline;
-    margin-top: 0rem;
-    margin-left: 0rem;
-  }
-  .site-nav {
-    @apply border-stone-300 bg-stone-100 dark:border-stone-700 dark:bg-stone-800;
-    position: absolute;
-    top: 3.5rem;
-    right: 1rem;
-  }
-  .site-nav label[for='nav-trigger'] {
-    display: block;
-    position: absolute;
-    top: -2.7rem;
-    right: 0.6rem;
-    width: 2rem;
-    height: 2rem;
-    z-index: 2;
-    cursor: pointer;
-  }
-  .site-nav .menu-icon {
-    display: block;
-    height: 2.6rem;
-    width: 2.6rem;
-    border: 1px solid;
-    padding-left: 0.5rem;
-    padding-top: 0.5rem;
-    text-align: center;
-    @apply rounded-lg border-stone-300 dark:border-stone-700;
-  }
-  .site-nav .menu-icon > svg {
-    @apply fill-stone-600 dark:fill-stone-400;
-  }
   .site-nav input ~ .trigger {
     clear: both;
     display: none;
   }
   .site-nav input:checked ~ .trigger {
     display: block;
-    float: right;
-    padding-bottom: 0.5rem;
-    border: 1px solid;
-  }
-  .site-nav .page-link {
-    display: block;
-    padding: 2rem;
-  }
-  .site-nav .page-link:not(:last-child) {
-    margin-right: 0;
   }
 }
