@@ -30,9 +30,11 @@ const Songs: React.FC<SongsProps> = ({ data }) => {
           {song.bandcampId && (
             <iframe
               className='h-24 w-full rounded-lg border-none'
-              src={`https://bandcamp.com/EmbeddedPlayer/${song.type || 'track'
-                }=${song.bandcampId
-                }/size=large/bgcol=666666/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/`}
+              src={`https://bandcamp.com/EmbeddedPlayer/${
+                song.type || 'track'
+              }=${
+                song.bandcampId
+              }/size=large/bgcol=666666/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/`}
               seamless
             ></iframe>
           )}

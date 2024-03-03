@@ -23,17 +23,17 @@ const SiteHeader = ({ className = '' }) => {
   return (
     <>
       <header
-        className={`noprint border-border-light dark:border-border-dark ml-4 mb-4 flex h-[4.5rem] items-center border-b-2 md:sticky md:top-12 md:mt-12 md:ml-4 md:mr-4 md:flex-col md:border-b-0 ${className}`}
+        className={`noprint ml-4 mb-4 flex h-[4.5rem] items-center border-b-2 border-border-light dark:border-border-dark md:sticky md:top-12 md:mt-12 md:ml-4 md:mr-4 md:flex-col md:border-b-0 ${className}`}
       >
         <figure title='steinkamp.us'>
-          <h1 className='dark:visited:text-header-dark; text-header-light visited:text-header-light hover:text-header-light dark:text-header-dark dark:hover:text-header-dark font-header text-3xl'>
+          <h1 className='dark:visited:text-header-dark; font-header text-3xl text-header-light visited:text-header-light hover:text-header-light dark:text-header-dark dark:hover:text-header-dark'>
             <Link href={'/'} className={linkColorClasses}>
               steinkamp.us
             </Link>
             <ThemeSwitcher className='translate-y-[3px] pl-2' />
           </h1>
         </figure>
-        <nav className='site-nav border-border-light bg-shadebg-light dark:border-border-dark dark:bg-shadebg-dark md:bg-pagebg-light md:dark:bg-pagebg-dark absolute top-[3.5rem] right-4 flex grow justify-end gap-8 rounded-xl md:relative md:top-0'>
+        <nav className='site-nav absolute top-[3.5rem] right-4 flex grow justify-end gap-8 rounded-xl border-border-light bg-shadebg-light dark:border-border-dark dark:bg-shadebg-dark md:relative md:top-0 md:bg-pagebg-light md:dark:bg-pagebg-dark'>
           <input
             type='checkbox'
             id='nav-trigger'
@@ -43,7 +43,7 @@ const SiteHeader = ({ className = '' }) => {
             htmlFor='nav-trigger'
             className='absolute top-[-2.7rem] right-[0.6rem] z-20 block h-8 w-8 cursor-pointer md:hidden'
           >
-            <span className='menu-icon border-1 center border-border-light dark:border-border-dark block h-11 w-11 rounded-lg border-2 pl-2 pt-2'>
+            <span className='menu-icon border-1 center block h-11 w-11 rounded-lg border-2 border-border-light pl-2 pt-2 dark:border-border-dark'>
               <svg
                 viewBox='0 0 18 15'
                 width='1.5rem'
