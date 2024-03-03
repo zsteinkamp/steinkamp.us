@@ -55,7 +55,7 @@ const SiteHeader = ({ className = '' }) => {
             </span>
           </label>
 
-          <div className='trigger float-right rounded-lg bg-stone-200 pb-2 font-header shadow-xl dark:bg-stone-800 md:float-none md:bg-transparent md:shadow-none'>
+          <div className='trigger float-right rounded-lg bg-stone-200 pb-2 font-header shadow-xl dark:bg-stone-900 md:float-none md:bg-transparent md:shadow-none'>
             {links.map((linkObj) => (
               <Link
                 className={`page-link mt-0 ml-0 block cursor-pointer p-8 md:mt-8 md:p-2 ${linkColorClasses}`}

@@ -14,7 +14,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  @apply bg-stone-100 text-stone-700 transition-colors duration-200 dark:bg-stone-900 dark:text-stone-400;
+  @apply bg-stone-100 text-stone-700 dark:bg-stone-900 dark:text-stone-400;
 }
 
 h1,
