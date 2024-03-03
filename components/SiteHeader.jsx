@@ -27,10 +27,10 @@ const SiteHeader = ({ className = '' }) => {
       >
         <figure title='steinkamp.us'>
           <h1 className='dark:visited:text-header-dark; text-header-light visited:text-header-light hover:text-header-light dark:text-header-dark dark:hover:text-header-dark font-header text-3xl'>
-            <ThemeSwitcher className='translate-y-[3px] pr-2' />
             <Link href={'/'} className={linkColorClasses}>
               steinkamp.us
             </Link>
+            <ThemeSwitcher className='translate-y-[3px] pl-2' />
           </h1>
         </figure>
         <nav className='site-nav border-border-light bg-shadebg-light dark:border-border-dark dark:bg-shadebg-dark md:bg-pagebg-light md:dark:bg-pagebg-dark absolute top-[3.5rem] right-4 flex grow justify-end gap-8 rounded-xl md:relative md:top-0'>

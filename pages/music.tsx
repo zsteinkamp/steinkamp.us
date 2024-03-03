@@ -15,7 +15,7 @@ export const getStaticProps = async () => {
 }
 
 interface SongsProps {
-  data: Array<Record<string, strig>>
+  data: Array<Record<string, string>>
 }
 
 const Songs: React.FC<SongsProps> = ({ data }) => {

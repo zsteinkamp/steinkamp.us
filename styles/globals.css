@@ -5,15 +5,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --font-header: 'Averia Serif Libre';
-  --toc-width: calc(min(20rem, 50%));
-}
-
 body {
-  margin: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   @apply bg-pagebg-light dark:bg-pagebg-dark text-text-light dark:text-text-dark;
 }
 
@@ -24,41 +16,35 @@ h4,
 h5,
 h6,
 h7 {
-  @apply text-header-light dark:text-header-dark;
+  @apply text-header-light dark:text-header-dark font-header;
 }
 
 /* Document level adjustments */
 html {
-  scroll-padding-top: 3rem;
   font-size: 18px;
-  box-sizing: border-box;
+  @apply scroll-pt-12;
 }
 img[src*='#right'] {
-  float: right;
-  margin-left: 2rem;
+  @apply float-right ml-8;
 }
 img[src*='#round'] {
-  border-radius: 0.5rem;
+  @apply rounded-md;
 }
 .link,
 a {
   @apply text-link-base-light visited:text-link-visited-light hover:text-link-hover-light dark:text-link-base-dark dark:visited:text-link-visited-dark dark:hover:text-link-hover-dark transition-colors duration-200;
 }
 h1 {
-  font-family: var(--font-header);
   @apply text-3xl font-bold md:text-4xl;
 }
 h2 {
-  font-family: var(--font-header);
   @apply text-2xl md:text-3xl;
 }
 h3 {
-  font-family: var(--font-header);
   @apply text-xl md:text-2xl;
   margin-top: 1rem;
 }
 h4 {
-  font-family: var(--font-header);
   font-size: clamp(1rem, 1.5vw, 1.25rem);
   @apply text-base;
 }
