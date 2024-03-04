@@ -25,7 +25,7 @@ const SiteHeader = ({ className = '' }) => {
         <figure title='steinkamp.us' className='relative'>
           <div
             style={{ textAlign: 'center' }}
-            className={`-z-20 hidden w-full translate-y-[-5.5rem] text-center text-[10rem] opacity-40 after:content-['👋'] dark:opacity-30 dark:after:content-['🌊'] md:absolute md:block`}
+            className={`-z-20 hidden w-full translate-y-[-5.5rem] text-center text-[10rem] opacity-30 after:content-['👋'] dark:opacity-30 dark:after:content-['🌊'] md:absolute md:block`}
           ></div>
           <h1 className='text-center font-header text-3xl'>
             <Link
