@@ -10,7 +10,7 @@ body {
   @apply bg-pagebg-light text-text-light dark:bg-pagebg-dark dark:text-text-dark;
 }
 * {
-  transition: all 0.2s;
+  transition: background-color 2s;
 }
 
 h1,
