@@ -3,7 +3,7 @@ const { fontFamily } = require('tailwindcss/defaultTheme')
 const colors = require('tailwindcss/colors')
 
 const shade = colors.stone
-const linkbase = colors.blue
+const linkbase = colors.sky
 
 module.exports = {
   content: [
@@ -24,12 +24,19 @@ module.exports = {
         border: { dark: shade['800'], light: shade['200'] },
         text: { dark: shade['400'], light: shade['600'] },
         date: { dark: shade['500'], light: shade['500'] },
-        themetoggle: { dark: linkbase['400'], light: colors.orange['400'] },
+        themetoggle: {
+          dark: linkbase['700'],
+          light: colors.orange['400'],
+          hover: {
+            light: linkbase['500'],
+            dark: colors.orange['300'],
+          },
+        },
         mid: { dark: shade['200'], light: shade['800'] },
         header: { dark: shade['200'], light: shade['900'] },
         link: {
-          base: { dark: linkbase['400'], light: linkbase['700'] },
-          visited: { dark: linkbase['400'], light: linkbase['700'] },
+          base: { dark: linkbase['600'], light: linkbase['700'] },
+          visited: { dark: linkbase['600'], light: linkbase['700'] },
           hover: { dark: linkbase['300'], light: linkbase['800'] },
         },
       },
