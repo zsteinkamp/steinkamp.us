@@ -61,7 +61,7 @@ const SiteHeader = ({ className = '' }) => {
           <div className='trigger float-right rounded-lg pb-2 font-header shadow-xl md:float-none md:w-full md:shadow-none'>
             {links.map((linkObj) => (
               <Link
-                className={`page-link mt-0 ml-0 block cursor-pointer p-8 text-center text-shadetext-light visited:text-shadetext-light hover:text-header-light dark:text-text-dark dark:visited:text-text-dark dark:hover:text-header-dark md:mt-8 md:p-2`}
+                className={`page-link mt-0 ml-0 block cursor-pointer p-4 text-center text-shadetext-light visited:text-shadetext-light hover:text-header-light dark:text-text-dark dark:visited:text-text-dark dark:hover:text-header-dark md:mt-8 md:p-2`}
                 key={linkObj.label}
                 href={linkObj.href}
                 target={linkObj.target}
@@ -69,7 +69,7 @@ const SiteHeader = ({ className = '' }) => {
                 {linkObj.label}
               </Link>
             ))}
-            <ThemeSwitcher className='ThemeSwitcher page-link ml-16 mt-8 block w-full pb-8 md:ml-9' />
+            <ThemeSwitcher className='ThemeSwitcher page-link ml-12 block w-full pt-4 pb-8 md:ml-9' />
           </div>
         </nav>
       </header>
