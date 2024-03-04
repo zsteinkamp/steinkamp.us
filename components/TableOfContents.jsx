@@ -1,9 +1,13 @@
+import { useHeadsObserver } from '@/hooks/HeadsObserver'
+
 function TableOfContents({
   headings,
   minLevel = 0,
   maxLevel = 999,
   className = '',
 }) {
+  const { activeId } = useHeadsObserver()
+
   return (
     <div
       className={`TableOfContents noprint mt-0 block text-sm hover:opacity-100 lg:float-right lg:max-w-xs lg:pl-8 2xl:fixed 2xl:left-[62rem] 2xl:float-none ${className}`}
@@ -19,7 +23,20 @@ function TableOfContents({
               key={heading.slug}
               className={`ml-${Math.max(0, (parseInt(heading.level) - 1) * 2)}`}
             >
-              <a href={`#${heading.slug}`}>{heading.title}</a>
+              <a
+                onClick={(e) => {
+                  e.preventDefault()
+                  document.querySelector(`#${heading.slug}`).scrollIntoView({
+                    behavior: 'smooth',
+                  })
+                }}
+                style={{
+                  fontWeight: activeId === heading.slug ? 'bold' : 'normal',
+                }}
+                href={`#${heading.slug}`}
+              >
+                {heading.title}
+              </a>
             </li>
           )
         })}
