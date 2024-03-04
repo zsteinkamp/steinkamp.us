@@ -20,6 +20,7 @@ module.exports = {
       colors: {
         pagebg: { dark: shade['900'], light: shade['100'] },
         shadebg: { dark: shade['800'], light: shade['200'] },
+        shadeshadow: { dark: colors.black, light: shade['300'] },
         shadetext: { dark: shade['400'], light: shade['600'] },
         border: { dark: shade['800'], light: shade['200'] },
         text: { dark: shade['400'], light: shade['500'] },
