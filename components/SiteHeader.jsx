@@ -24,7 +24,8 @@ const SiteHeader = ({ className = '' }) => {
       >
         <figure title='steinkamp.us' className='relative'>
           <div
-            className={`top-0 left-0 -z-20 hidden translate-y-[-5.5rem] text-[10rem] opacity-40 after:content-['👋'] dark:opacity-30 dark:after:content-['🌊'] md:absolute md:block`}
+            style={{ textAlign: 'center' }}
+            className={`-z-20 hidden w-full translate-y-[-5.5rem] text-center text-[10rem] opacity-40 after:content-['👋'] dark:opacity-30 dark:after:content-['🌊'] md:absolute md:block`}
           ></div>
           <h1 className='text-center font-header text-3xl'>
             <Link
@@ -35,7 +36,7 @@ const SiteHeader = ({ className = '' }) => {
             </Link>
           </h1>
         </figure>
-        <nav className='site-nav absolute top-[3.5rem] right-4 flex grow justify-end gap-8 rounded-xl border-border-light bg-shadebg-light dark:border-border-dark dark:bg-shadebg-dark md:relative md:top-0 md:bg-transparent dark:md:bg-transparent '>
+        <nav className='site-nav absolute top-[3.5rem] right-4 z-10 flex grow justify-end gap-8 rounded-xl border-border-light bg-shadebg-light dark:border-border-dark dark:bg-shadebg-dark md:relative md:right-0 md:top-0 md:bg-transparent dark:md:bg-transparent '>
           <input
             type='checkbox'
             id='nav-trigger'
@@ -57,7 +58,7 @@ const SiteHeader = ({ className = '' }) => {
             </span>
           </label>
 
-          <div className='trigger float-right rounded-lg pb-2 font-header shadow-xl md:float-none md:shadow-none'>
+          <div className='trigger float-right rounded-lg pb-2 font-header shadow-xl md:float-none md:w-full md:shadow-none'>
             {links.map((linkObj) => (
               <Link
                 className={`page-link mt-0 ml-0 block cursor-pointer p-8 text-center text-shadetext-light visited:text-shadetext-light hover:text-header-light dark:text-text-dark dark:visited:text-text-dark dark:hover:text-header-dark md:mt-8 md:p-2`}
@@ -68,7 +69,7 @@ const SiteHeader = ({ className = '' }) => {
                 {linkObj.label}
               </Link>
             ))}
-            <ThemeSwitcher className='ml-16 mt-8 mb-8 block w-full md:ml-9' />
+            <ThemeSwitcher className='ThemeSwitcher page-link ml-16 block w-full pb-8 md:ml-9 md:mt-8' />
           </div>
         </nav>
       </header>

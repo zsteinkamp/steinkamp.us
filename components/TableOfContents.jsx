@@ -6,10 +6,10 @@ function TableOfContents({
 }) {
   return (
     <div
-      className={`TableOfContents noprint mt-0 block text-sm opacity-70 hover:opacity-100 lg:float-right lg:max-w-xs lg:pl-8 2xl:fixed 2xl:left-[62rem] 2xl:float-none 2xl:max-h-screen 2xl:overflow-scroll ${className}`}
+      className={`TableOfContents noprint mt-0 block text-sm hover:opacity-100 lg:float-right lg:max-w-xs lg:pl-8 2xl:fixed 2xl:left-[62rem] 2xl:float-none ${className}`}
     >
       <h3 className='mt-0 pb-1'>In This Page</h3>
-      <ul>
+      <ul className='max-h-[50vh] overflow-scroll 2xl:max-h-[85vh] '>
         {headings.map((heading) => {
           if (heading.level > maxLevel || heading.level < minLevel) {
             return null
