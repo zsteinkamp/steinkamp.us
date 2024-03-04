@@ -17,26 +17,25 @@ const SiteHeader = ({ className = '' }) => {
     { label: 'About', href: '/about' },
   ]
 
-  const linkColorClasses =
-    'dark:hover:text-header-dark text-shadetext-light visited:text-shadetext-light hover:text-header-light dark:text-text-dark dark:visited:text-text-dark'
-
   return (
     <>
       <header
         className={`noprint ml-4 mb-4 flex h-[4.5rem] items-center border-b-2 border-border-light dark:border-border-dark md:sticky md:top-12 md:mt-12 md:ml-4 md:mr-4 md:flex-col md:border-b-0 ${className}`}
       >
-        <figure title='steinkamp.us'>
-          <h1 className='font-header text-3xl'>
+        <figure title='steinkamp.us' className='relative'>
+          <div className='top-0 left-0 -z-20 hidden translate-y-[-5rem] text-[10rem] opacity-40 md:absolute md:block'>
+            👋
+          </div>
+          <h1 className='text-center font-header text-3xl'>
             <Link
               href={'/'}
-              className=' text-mid-light visited:text-mid-light hover:text-header-light dark:text-mid-dark dark:visited:text-mid-dark dark:hover:text-header-dark'
+              className='text-mid-light visited:text-mid-light dark:text-mid-dark dark:visited:text-mid-dark hover:text-header-light dark:hover:text-header-dark'
             >
               steinkamp.us
             </Link>
-            <ThemeSwitcher className='translate-y-[3px] pl-2' />
           </h1>
         </figure>
-        <nav className='site-nav absolute top-[3.5rem] right-4 flex grow justify-end gap-8 rounded-xl border-border-light bg-shadebg-light dark:border-border-dark dark:bg-shadebg-dark md:relative md:top-0 md:bg-pagebg-light md:dark:bg-pagebg-dark'>
+        <nav className='site-nav absolute top-[3.5rem] right-4 flex grow justify-end gap-8 rounded-xl border-border-light bg-shadebg-light dark:border-border-dark dark:bg-shadebg-dark md:relative md:top-0 md:bg-pagebg-light md:bg-transparent dark:md:bg-transparent md:dark:bg-pagebg-dark'>
           <input
             type='checkbox'
             id='nav-trigger'
@@ -61,7 +60,7 @@ const SiteHeader = ({ className = '' }) => {
           <div className='trigger float-right rounded-lg pb-2 font-header shadow-xl md:float-none md:shadow-none'>
             {links.map((linkObj) => (
               <Link
-                className={`page-link mt-0 ml-0 block cursor-pointer p-8 md:mt-8 md:p-2 ${linkColorClasses}`}
+                className={`page-link mt-0 ml-0 block cursor-pointer p-8 text-center text-shadetext-light visited:text-shadetext-light hover:text-header-light dark:text-text-dark dark:visited:text-text-dark dark:hover:text-header-dark md:mt-8 md:p-2`}
                 key={linkObj.label}
                 href={linkObj.href}
                 target={linkObj.target}
@@ -69,6 +68,7 @@ const SiteHeader = ({ className = '' }) => {
                 {linkObj.label}
               </Link>
             ))}
+            <ThemeSwitcher className='ml-16 mt-8 mb-8 block w-full md:ml-9' />
           </div>
         </nav>
       </header>
