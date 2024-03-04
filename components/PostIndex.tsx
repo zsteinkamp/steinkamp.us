@@ -13,11 +13,11 @@ const PostIndex: React.FC<PostIndexProps> = ({ posts, className = '' }) => {
   return (
     <ul className={className}>
       {posts.map((post) => (
-        <li key={post.slug} className='hover:bg-shadebg-light dark:hover:bg-shadebg-dark rounded-xl'>
-          <Link
-            className=''
-            href={post.slug}
-          >
+        <li
+          key={post.slug}
+          className='rounded-xl hover:bg-shadebg-light dark:hover:bg-shadebg-dark'
+        >
+          <Link className='' href={post.slug}>
             <div className='flex rounded-lg bg-transparent p-4'>
               <div className='flex-shrink-0 flex-grow-0 basis-[5rem] md:basis-[8rem]'>
                 {post.thumbnail && (
