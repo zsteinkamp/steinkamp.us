@@ -29,7 +29,7 @@ const SiteHeader = ({ className = '' }) => {
           <h1 className='text-center font-header text-3xl'>
             <Link
               href={'/'}
-              className='text-mid-light visited:text-mid-light dark:text-mid-dark dark:visited:text-mid-dark hover:text-header-light dark:hover:text-header-dark'
+              className='text-mid-light visited:text-mid-light hover:text-header-light dark:text-mid-dark dark:visited:text-mid-dark dark:hover:text-header-dark'
             >
               steinkamp.us
             </Link>
