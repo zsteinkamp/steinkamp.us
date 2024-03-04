@@ -6,11 +6,6 @@ const SiteHeader = ({ className = '' }) => {
   const links = [
     { label: 'Posts', href: '/' },
     { label: 'Photos', href: 'https://photos.steinkamp.us/', target: '_blank' },
-    {
-      label: "Pop's Pages",
-      href: 'https://dick.steinkamp.us/',
-      target: '_blank',
-    },
     { label: 'Music', href: '/music' },
     { label: 'Plugins', href: '/music-tools' },
     { label: 'Resume', href: '/resume' },
@@ -30,7 +25,7 @@ const SiteHeader = ({ className = '' }) => {
             >
               <div
                 style={{ textAlign: 'center' }}
-                className={`hidden text-[6rem] leading-[5.5rem] opacity-80 after:content-['🙋‍♂️'] hover:opacity-100 dark:after:content-['🌊'] md:mt-[-1.5rem] md:block`}
+                className={`hidden text-[6rem] leading-[6rem] opacity-80 after:content-['🙋‍♂️'] hover:opacity-100 dark:after:content-['🌊'] md:mt-[-1.5rem] md:block`}
               ></div>
               steinkamp.us
             </Link>
@@ -69,7 +64,9 @@ const SiteHeader = ({ className = '' }) => {
                 {linkObj.label}
               </Link>
             ))}
-            <ThemeSwitcher className='ThemeSwitcher page-link ml-12 block w-full pt-4 pb-8 md:ml-9 md:mt-4' />
+            <div className='text-center'>
+              <ThemeSwitcher className='page-link pt-4 pb-8 md:mt-4' />
+            </div>
           </div>
         </nav>
       </header>
