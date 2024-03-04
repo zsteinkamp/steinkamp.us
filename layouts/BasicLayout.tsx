@@ -1,6 +1,9 @@
 import Head from 'next/head'
 import { AppProps } from 'next/app'
 
+import collectHeadings from '@/util/collectHeadings'
+import TableOfContents from '@/components/TableOfContents'
+
 interface BasicLayoutProps {
   pageProps: AppProps['pageProps']
   className?: string
@@ -13,7 +16,15 @@ const BasicLayout: React.FC<BasicLayoutProps> = ({ pageProps, className = "", ch
     description: 'steinkamp.us',
   }
 
-  const outerClass = pageProps.markdoc?.frontmatter?.outerClass || ''
+  let outerClass = null
+  let headings = null
+
+  if (pageProps.markdoc) {
+    outerClass = pageProps.markdoc.frontmatter?.outerClass || ''
+    if (pageProps.markdoc.frontmatter?.tableOfContents) {
+      headings = collectHeadings(pageProps.markdoc.content)
+    }
+  }
 
   return (
     <>
@@ -27,6 +38,7 @@ const BasicLayout: React.FC<BasicLayoutProps> = ({ pageProps, className = "", ch
         <meta property="og:description" content={description} />
       </Head>
       <div className={`${className} ${outerClass}`}>
+        {headings && <TableOfContents headings={headings} maxLevel={pageProps.markdoc?.frontmatter?.tocMaxLevel} className="" />}
         {children}
       </div>
     </>

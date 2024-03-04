@@ -6,7 +6,10 @@
 @tailwind utilities;
 
 body {
-  @apply bg-pagebg-light dark:bg-pagebg-dark text-text-light dark:text-text-dark;
+  @apply bg-pagebg-light text-text-light dark:bg-pagebg-dark dark:text-text-dark;
+}
+* {
+  transition: all 0.2s;
 }
 
 h1,
@@ -16,7 +19,7 @@ h4,
 h5,
 h6,
 h7 {
-  @apply text-header-light dark:text-header-dark font-header;
+  @apply font-header text-header-light dark:text-header-dark;
 }
 
 /* Document level adjustments */
@@ -32,7 +35,7 @@ img[src*='#round'] {
 }
 .link,
 a {
-  @apply text-link-base-light visited:text-link-visited-light hover:text-link-hover-light dark:text-link-base-dark dark:visited:text-link-visited-dark dark:hover:text-link-hover-dark transition-colors duration-200;
+  @apply text-link-base-light transition-colors duration-200 visited:text-link-visited-light hover:text-link-hover-light dark:text-link-base-dark dark:visited:text-link-visited-dark dark:hover:text-link-hover-dark;
 }
 h1 {
   @apply text-3xl font-bold md:text-4xl;
@@ -127,7 +130,7 @@ button {
   }
 
   .avoidbreak {
-    break-inside: avoid;
+    break-inside: inherit;
   }
 
   .noprint {

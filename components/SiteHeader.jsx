@@ -18,7 +18,7 @@ const SiteHeader = ({ className = '' }) => {
   ]
 
   const linkColorClasses =
-    'dark:hover:text-whitepage-link text-shadetext-light visited:text-shadetext-light hover:text-text-light dark:text-text-dark dark:visited:text-text-dark'
+    'dark:hover:text-header-dark text-shadetext-light visited:text-shadetext-light hover:text-header-light dark:text-text-dark dark:visited:text-text-dark'
 
   return (
     <>
@@ -26,8 +26,11 @@ const SiteHeader = ({ className = '' }) => {
         className={`noprint ml-4 mb-4 flex h-[4.5rem] items-center border-b-2 border-border-light dark:border-border-dark md:sticky md:top-12 md:mt-12 md:ml-4 md:mr-4 md:flex-col md:border-b-0 ${className}`}
       >
         <figure title='steinkamp.us'>
-          <h1 className='dark:visited:text-header-dark; font-header text-3xl text-header-light visited:text-header-light hover:text-header-light dark:text-header-dark dark:hover:text-header-dark'>
-            <Link href={'/'} className={linkColorClasses}>
+          <h1 className='font-header text-3xl'>
+            <Link
+              href={'/'}
+              className=' text-mid-light visited:text-mid-light dark:text-mid-dark dark:visited:text-mid-dark hover:text-header-light dark:hover:text-header-dark'
+            >
               steinkamp.us
             </Link>
             <ThemeSwitcher className='translate-y-[3px] pl-2' />

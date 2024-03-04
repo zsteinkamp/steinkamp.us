@@ -10,6 +10,8 @@ excerpt: |
 
 I will always prefer the window seat.
 
+{% captionedimage src="/images/lenticular/lenticular-zoom.jpg" caption="Here's the punch line." className="half-height" /%}
+
 If you don't have a preference, then, may I?
 
 {% captionedimage src="/images/lenticular/IMG_0664.JPG" caption="San Francisco from above." className="half-height" /%}
@@ -39,7 +41,7 @@ Then something odd was emerging from in front of the airplane. A strange cloud f
 
 Here it is at maximum digital zoom.
 
-{% captionedimage src="/images/lenticular/lenticular-zoom.jpg" caption="Full digital zoom." className="half-height" /%}
+{% captionedimage src="/images/lenticular/lenticular-zoom.jpg" caption="Full digital zoom." /%}
 
 Amazing lenticular clouds! I have never seen them stacked like this before. Have you?
 

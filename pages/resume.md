@@ -1,6 +1,8 @@
 ---
 title: Zack Steinkamp
 outerClass: resume
+tableOfContents: true
+tocMaxLevel: 3
 ---
 
 # Zack Steinkamp
@@ -26,12 +28,12 @@ I have been building web applications since 1995, and at mega-scale starting in 
 - Member of the NGINX Experiments, Research, and Development (NERD) Team. Worked as an embedded resource in various product teams as well as developing new product prototypes.
 - Led an initiative with the [NGINX Amplify](https://www.nginx.com/products/nginx-amplify/) team to help expand the brand through improvements to usability, community, and platform capability to resonate better with modern application developers.
 - Contributor to [njs-acme](https://github.com/nginx/njs-acme) - an open source
-njs (Javascript) extension to NGINX to automate SSL/TLS certificate creation and renewal with ACME compliant services such as Let's Encrypt.
+  njs (Javascript) extension to NGINX to automate SSL/TLS certificate creation and renewal with ACME compliant services such as Let's Encrypt.
 - Held a multi-faceted leadership role in a 60 person team building a new cloud-based product offering.
   - Defined product strategy, organizational strategy, technical architecture
   - Led the team responsible for defining SaaS foundations: developer experience, production environment (IaC), CICD, observability, repository strategy, development workflow.
   - Brought new management and development practices that shifted company culture toward a happier, more efficient, more engaged force with higher product quality and more satisfied customers.
-  {% /avoidbreak %}
+    {% /avoidbreak %}
 
 {% avoidbreak %}
 
@@ -131,7 +133,7 @@ njs (Javascript) extension to NGINX to automate SSL/TLS certificate creation and
 - Designed and implemented system/application monitoring and product analytics solutions.
 - Co-architected and implemented a scalable (hundreds of TB) yet inexpensive storage infrastructure with block-level deduplication and encryption.
 - Co-architected and implemented inter-datacenter file and database replication
-with block-level data deduplication.
+  with block-level data deduplication.
 - Responsible for application security design and ongoing security testing.
   {% /avoidbreak %}
 
@@ -172,7 +174,6 @@ with block-level data deduplication.
 - Designed and built web-based visual data analysis tools for engineers, production staff, management, and executives.
 - Developed and delivered a company-wide availability monitoring and reporting solution, covering 200+ web properties.
 - Eventually took over management and technical lead responsibilities of the team.
-  {% /avoidbreak %}
 
 ##### Mar 1999 - Apr 2003 {% .job-date %}
 
