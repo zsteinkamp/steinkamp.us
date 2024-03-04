@@ -23,6 +23,8 @@ I have developed a particular interest in maximizing joy and productivity in tec
 
 Outside of work, I enjoy [making music](/music), [software for other electronic musicians](/music-tools), and have recently been exploring the space of Filesystem Apps - take and keep ownership of your data without compromising experience.
 
+Have a look at [my dad's website](https://dick.steinkamp.us/) showcasing his history of creating, preserving, or resurrecting interesting vehicles of the past.
+
 I plan on retiring soon (2024) and look forward to devoting focused energy on doing the best for myself, the people close to me, and my communities, absent the quest for a paycheck.
 
 Let's chat!
