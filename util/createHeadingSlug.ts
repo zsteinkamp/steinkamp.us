@@ -3,7 +3,7 @@ function createHeadingSlug(title: string): string {
     return 'unknown'
   }
   return (title || "")
-    .replace(/[?]/g, '')
+    .replace(/[^a-z0-9 ]/ig, '')
     .replace(/\s+/g, '-')
     .toLowerCase();
 }
