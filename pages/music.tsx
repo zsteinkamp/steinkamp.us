@@ -33,6 +33,8 @@ const Songs: React.FC<SongsProps> = ({ data }) => {
   })
 
   const songs = data.map((song, i) => {
+    const embedSrc = `https://bandcamp.com/EmbeddedPlayer/${song.type || 'track'}=${song.bandcampId}/size=large/bgcol=666666/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/`
+
     return (
       <div key={i} className='grid grid-cols-4'>
         <h4 className='pr-8 pt-2 text-right text-date-light dark:text-date-dark'>
@@ -43,9 +45,7 @@ const Songs: React.FC<SongsProps> = ({ data }) => {
           {song.bandcampId && (
             <iframe
               className='h-24 w-full rounded-lg border-none'
-              src={`https://bandcamp.com/EmbeddedPlayer/${song.type || 'track'
-                }=${song.bandcampId
-                }/size=large/bgcol=666666/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/`}
+              src={embedSrc}
               seamless
             ></iframe>
           )}
