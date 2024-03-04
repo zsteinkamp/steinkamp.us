@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
 @tailwind base;
@@ -42,7 +42,7 @@ h1 {
   @apply text-3xl font-bold md:text-4xl;
 }
 h2 {
-  @apply text-2xl md:text-3xl;
+  @apply mt-8 mb-4 text-2xl md:text-3xl;
 }
 h3 {
   @apply text-xl md:text-2xl;
@@ -53,7 +53,7 @@ h4 {
   @apply text-base;
 }
 p {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 li p {
   margin-bottom: 1rem;

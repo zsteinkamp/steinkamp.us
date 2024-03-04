@@ -20,18 +20,18 @@ const SiteHeader = ({ className = '' }) => {
   return (
     <>
       <header
-        className={`noprint ml-4 mb-4 flex h-[4.5rem] items-center border-b-2 border-border-light dark:border-border-dark md:sticky md:top-12 md:mt-12 md:ml-4 md:mr-4 md:flex-col md:border-b-0 ${className}`}
+        className={`noprint ml-4 mb-4 flex h-[4.5rem] items-center border-b-2 border-border-light dark:border-border-dark md:sticky md:top-12 md:mt-12 md:ml-4 md:mr-4 md:w-[12rem] md:flex-col md:border-b-0 ${className}`}
       >
         <figure title='steinkamp.us' className='relative'>
-          <div
-            style={{ textAlign: 'center' }}
-            className={`-z-20 hidden w-full translate-y-[-5.5rem] text-center text-[10rem] opacity-30 after:content-['👋'] dark:opacity-30 dark:after:content-['🌊'] md:absolute md:block`}
-          ></div>
-          <h1 className='text-center font-header text-3xl'>
+          <h1 className='text-center font-header text-4xl md:mb-2 md:mt-[0rem] md:text-xl'>
             <Link
               href={'/'}
               className='text-mid-light visited:text-mid-light hover:text-header-light dark:text-mid-dark dark:visited:text-mid-dark dark:hover:text-header-dark'
             >
+              <div
+                style={{ textAlign: 'center' }}
+                className={`hidden text-[6rem] leading-[5.5rem] opacity-80 after:content-['🙋‍♂️'] hover:opacity-100 dark:after:content-['🌊'] md:mt-[-1.5rem] md:block`}
+              ></div>
               steinkamp.us
             </Link>
           </h1>
@@ -61,7 +61,7 @@ const SiteHeader = ({ className = '' }) => {
           <div className='trigger float-right rounded-lg pb-2 font-header shadow-xl md:float-none md:w-full md:shadow-none'>
             {links.map((linkObj) => (
               <Link
-                className={`page-link mt-0 ml-0 block cursor-pointer p-4 text-center text-shadetext-light visited:text-shadetext-light hover:text-header-light dark:text-text-dark dark:visited:text-text-dark dark:hover:text-header-dark md:mt-8 md:p-2`}
+                className={`page-link mt-0 ml-0 block cursor-pointer p-4 text-center text-shadetext-light visited:text-shadetext-light hover:text-header-light dark:text-text-dark dark:visited:text-text-dark dark:hover:text-header-dark md:mt-4 md:p-2`}
                 key={linkObj.label}
                 href={linkObj.href}
                 target={linkObj.target}
