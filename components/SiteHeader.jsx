@@ -35,7 +35,7 @@ const SiteHeader = ({ className = '' }) => {
             </Link>
           </h1>
         </figure>
-        <nav className='site-nav absolute top-[3.5rem] right-4 flex grow justify-end gap-8 rounded-xl border-border-light bg-shadebg-light dark:border-border-dark dark:bg-shadebg-dark md:relative md:top-0 md:bg-pagebg-light md:bg-transparent dark:md:bg-transparent md:dark:bg-pagebg-dark'>
+        <nav className='site-nav absolute top-[3.5rem] right-4 flex grow justify-end gap-8 rounded-xl border-border-light bg-shadebg-light dark:border-border-dark dark:bg-shadebg-dark md:relative md:top-0 md:bg-transparent dark:md:bg-transparent '>
           <input
             type='checkbox'
             id='nav-trigger'
