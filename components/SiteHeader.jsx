@@ -15,18 +15,14 @@ const SiteHeader = ({ className = '' }) => {
   return (
     <>
       <header
-        className={`noprint ml-4 mb-4 flex h-[4.5rem] items-center border-b-2 border-border-light dark:border-border-dark md:sticky md:top-12 md:mt-12 md:ml-4 md:mr-4 md:w-[12rem] md:flex-col md:border-b-0 ${className}`}
+        className={`noprint ml-4 mb-4 flex h-[4.5rem] items-center border-b-2 border-border-light dark:border-border-dark md:sticky md:top-12 md:mt-12 md:ml-0 md:mr-4 md:w-[12rem] md:flex-col md:border-b-0 ${className}`}
       >
         <figure title='steinkamp.us' className='relative'>
-          <h1 className='text-center font-header text-4xl md:mb-2 md:mt-[0rem] md:text-xl'>
+          <h1 className='text-center font-header text-4xl md:mb-2 md:mt-2 md:text-xl'>
             <Link
               href={'/'}
               className='text-mid-light visited:text-mid-light hover:text-header-light dark:text-mid-dark dark:visited:text-mid-dark dark:hover:text-header-dark'
             >
-              <div
-                style={{ textAlign: 'center' }}
-                className={`hidden text-[6rem] leading-[6rem] opacity-80 after:content-['🙋‍♂️'] hover:opacity-100 dark:after:content-['🌊'] md:mt-[-1.5rem] md:block`}
-              ></div>
               steinkamp.us
             </Link>
           </h1>
