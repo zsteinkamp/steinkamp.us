@@ -34,7 +34,7 @@ const PostLayout: React.FC<PostLayoutProps> = ({ pageProps, children }) => {
         {thumbnail && <meta property="og:image" content={`https://steinkamp.us${thumbnail}`} />}
       </Head>
       <article className="max-w-2xl">
-        {headings && headings.length > 0 && <TableOfContents headings={headings} className="mt-2" />}
+        {headings && headings.length > 0 && <TableOfContents headings={headings} className="mt-[0.6rem]" />}
         <h1 className="">
           {title}
         </h1>
