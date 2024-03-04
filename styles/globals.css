@@ -88,6 +88,10 @@ article code {
 article .half-height img {
   max-height: 30rem;
 }
+.TableOfContents ul li {
+  padding-left: 0.15rem;
+  line-height: 1.53rem;
+}
 
 article blockquote {
   border-left: 2px solid #ddd;

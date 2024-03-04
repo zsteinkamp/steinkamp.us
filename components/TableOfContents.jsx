@@ -22,6 +22,9 @@ function TableOfContents({
             <li
               key={heading.slug}
               className={`ml-${Math.max(0, (parseInt(heading.level) - 1) * 2)}`}
+              style={{
+                listStyleType: activeId === heading.slug ? 'disc' : 'circle',
+              }}
             >
               <a
                 onClick={(e) => {
@@ -29,9 +32,6 @@ function TableOfContents({
                   document.querySelector(`#${heading.slug}`).scrollIntoView({
                     behavior: 'smooth',
                   })
-                }}
-                style={{
-                  fontWeight: activeId === heading.slug ? 'bold' : 'normal',
                 }}
                 href={`#${heading.slug}`}
               >
