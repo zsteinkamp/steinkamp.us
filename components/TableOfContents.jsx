@@ -6,7 +6,7 @@ function TableOfContents({
 }) {
   return (
     <div
-      className={`TableOfContents noprint mt-0 block text-sm lg:float-right lg:max-w-xs lg:pl-8 2xl:fixed 2xl:left-[62rem] 2xl:float-none 2xl:max-h-screen 2xl:overflow-scroll ${className}`}
+      className={`TableOfContents noprint mt-0 block text-sm opacity-70 hover:opacity-100 lg:float-right lg:max-w-xs lg:pl-8 2xl:fixed 2xl:left-[62rem] 2xl:float-none 2xl:max-h-screen 2xl:overflow-scroll ${className}`}
     >
       <h3 className='mt-0 pb-1'>In This Page</h3>
       <ul>

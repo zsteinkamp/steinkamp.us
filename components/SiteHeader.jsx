@@ -23,9 +23,9 @@ const SiteHeader = ({ className = '' }) => {
         className={`noprint ml-4 mb-4 flex h-[4.5rem] items-center border-b-2 border-border-light dark:border-border-dark md:sticky md:top-12 md:mt-12 md:ml-4 md:mr-4 md:flex-col md:border-b-0 ${className}`}
       >
         <figure title='steinkamp.us' className='relative'>
-          <div className='top-0 left-0 -z-20 hidden translate-y-[-5rem] text-[10rem] opacity-40 dark:opacity-30 md:absolute md:block'>
-            👋
-          </div>
+          <div
+            className={`top-0 left-0 -z-20 hidden translate-y-[-5.5rem] text-[10rem] opacity-40 after:content-['👋'] dark:opacity-30 dark:after:content-['🌊'] md:absolute md:block`}
+          ></div>
           <h1 className='text-center font-header text-3xl'>
             <Link
               href={'/'}
