@@ -69,7 +69,7 @@ const SiteHeader = ({ className = '' }) => {
                 {linkObj.label}
               </Link>
             ))}
-            <ThemeSwitcher className='ThemeSwitcher page-link ml-12 block w-full pt-4 pb-8 md:ml-9' />
+            <ThemeSwitcher className='ThemeSwitcher page-link ml-12 block w-full pt-4 pb-8 md:ml-9 md:mt-4' />
           </div>
         </nav>
       </header>
