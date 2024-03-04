@@ -3,6 +3,8 @@ import fsp from 'fs/promises'
 import Head from 'next/head'
 import CaptionedImage from '@/components/CaptionedImage'
 import ReactMarkdown from 'react-markdown'
+import createHeadingSlug from '@/util/createHeadingSlug'
+import TableOfContents from '@/components/TableOfContents'
 
 export const getStaticProps = async () => {
   const data = yaml.load(await fsp.readFile('data/songs.yaml', 'utf8'))
@@ -19,6 +21,17 @@ interface SongsProps {
 }
 
 const Songs: React.FC<SongsProps> = ({ data }) => {
+  data.forEach((song) => {
+    song.slug = createHeadingSlug(song.title)
+  })
+  const headings = data.map((song) => {
+    return {
+      slug: song.slug,
+      title: song.title,
+      level: 2,
+    }
+  })
+
   const songs = data.map((song, i) => {
     return (
       <div key={i} className='grid grid-cols-4'>
@@ -26,15 +39,13 @@ const Songs: React.FC<SongsProps> = ({ data }) => {
           {song.date}
         </h4>
         <div className='col-span-3 '>
-          <h2>{song.title}</h2>
+          <h2 id={song.slug}>{song.title}</h2>
           {song.bandcampId && (
             <iframe
               className='h-24 w-full rounded-lg border-none'
-              src={`https://bandcamp.com/EmbeddedPlayer/${
-                song.type || 'track'
-              }=${
-                song.bandcampId
-              }/size=large/bgcol=666666/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/`}
+              src={`https://bandcamp.com/EmbeddedPlayer/${song.type || 'track'
+                }=${song.bandcampId
+                }/size=large/bgcol=666666/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/`}
               seamless
             ></iframe>
           )}
@@ -45,7 +56,7 @@ const Songs: React.FC<SongsProps> = ({ data }) => {
   })
 
   return (
-    <>
+    <article>
       <Head>
         <title>{`Zack Steinkamp's Music `}</title>
         <meta
@@ -53,7 +64,8 @@ const Songs: React.FC<SongsProps> = ({ data }) => {
           content="Music that I've made over the years."
         />
       </Head>
-      <h1>{`Music I've Made`}</h1>
+      <TableOfContents headings={headings} className="mt-[0.6rem]" />
+      <h1>Music I've Made</h1>
       <p>
         One of my hobbies is music-making. I like to record sounds and make
         instruments out of them, or design new sounds with synthesizers. I used
@@ -91,7 +103,7 @@ const Songs: React.FC<SongsProps> = ({ data }) => {
         , or pretty much any other streaming service by searching for my name.
       </p>
       <div className='w-full pt-8'>{songs}</div>
-    </>
+    </article>
   )
 }
 

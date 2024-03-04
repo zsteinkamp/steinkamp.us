@@ -38,7 +38,7 @@ const BasicLayout: React.FC<BasicLayoutProps> = ({ pageProps, className = "", ch
         <meta property="og:description" content={description} />
       </Head>
       <div className={`${className} ${outerClass}`}>
-        {headings && <TableOfContents headings={headings} maxLevel={pageProps.markdoc?.frontmatter?.tocMaxLevel} className="" />}
+        {headings && <TableOfContents headings={headings} minLevel={pageProps.markdoc?.frontmatter?.tocMinLevel} maxLevel={pageProps.markdoc?.frontmatter?.tocMaxLevel} className={pageProps.markdoc?.frontmatter?.tocClassName} />}
         {children}
       </div>
     </>

@@ -5,6 +5,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import ReactMarkdown from 'react-markdown'
 import createHeadingSlug from '@/util/createHeadingSlug'
+import TableOfContents from '@/components/TableOfContents'
 
 export async function getStaticProps() {
   const data = yaml.load(fs.readFileSync('data/music-tools.yaml', 'utf8'))
@@ -21,15 +22,17 @@ interface MusicToolsProps {
 }
 
 const MusicToolsPage: React.FC<MusicToolsProps> = ({ data }) => {
-  data.forEach((e) => {
-    e.slug = createHeadingSlug(e.title)
+  // populate the `slug` attribute
+  data.forEach((app) => {
+    app.slug = createHeadingSlug(app.title)
   })
-  const titleList = data.map((app) => {
-    return (
-      <li key={app.link}>
-        <Link href={`#${app.slug}`}>{app.title}</Link>
-      </li>
-    )
+
+  const headings = data.map((app) => {
+    return {
+      slug: app.slug,
+      title: app.title,
+      level: 2,
+    }
   })
 
   const appList = data.map((app) => {
@@ -56,7 +59,7 @@ const MusicToolsPage: React.FC<MusicToolsProps> = ({ data }) => {
   })
 
   return (
-    <>
+    <article>
       <Head>
         <title>Music Tools</title>
         <meta
@@ -64,6 +67,7 @@ const MusicToolsPage: React.FC<MusicToolsProps> = ({ data }) => {
           content='Tools that I have created for other musicians, mostly in Max for Live.'
         />
       </Head>
+      <TableOfContents headings={headings} className="mt-[0.6rem]" />
       <h1>Music Tools / Plugins</h1>
       <p>
         I have made a handful of tools for electronic musicians who use Ableton
@@ -95,10 +99,9 @@ const MusicToolsPage: React.FC<MusicToolsProps> = ({ data }) => {
         about the devices.
       </p>
 
-      {titleList}
 
       {appList}
-    </>
+    </article>
   )
 }
 
