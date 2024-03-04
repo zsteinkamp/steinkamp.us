@@ -5,6 +5,7 @@
 @tailwind components;
 @tailwind utilities;
 
+.TableOfContents,
 body {
   @apply bg-pagebg-light text-text-light dark:bg-pagebg-dark dark:text-text-dark;
 }
