@@ -15,7 +15,7 @@ const PostIndex: React.FC<PostIndexProps> = ({ posts, className = '' }) => {
       {posts.map((post) => (
         <li
           key={post.slug}
-          className='rounded-xl hover:bg-shadebg-light dark:hover:bg-shadebg-dark'
+          className='rounded-xl hover:bg-shadebg-light dark:hover:bg-shadebg-dark md:mb-4'
         >
           <Link className='' href={post.slug}>
             <div className='flex rounded-lg bg-transparent p-4'>
