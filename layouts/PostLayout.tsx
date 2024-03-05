@@ -15,7 +15,6 @@ interface PostLayoutProps {
 }
 
 const PostLayout: React.FC<PostLayoutProps> = ({ pageProps, children }) => {
-  const file = pageProps.markdoc.file.path
   const { title, date, excerpt, thumbnail } = pageProps.markdoc.frontmatter
   const fmtDate = dayjs(date).utc().format('MMMM D, YYYY')
 
@@ -34,7 +33,13 @@ const PostLayout: React.FC<PostLayoutProps> = ({ pageProps, children }) => {
         {thumbnail && <meta property="og:image" content={`https://steinkamp.us${thumbnail}`} />}
       </Head>
       <article className="max-w-2xl">
-        {headings && headings.length > 0 && <TableOfContents headings={headings} className="mt-[0.5rem]" />}
+        {headings && headings.length > 0 &&
+          <TableOfContents
+            headings={headings}
+            minLevel={pageProps.markdoc?.frontmatter?.tocMinLevel}
+            maxLevel={pageProps.markdoc?.frontmatter?.tocMaxLevel}
+            className={`mt-[0.5rem] ${pageProps.markdoc?.frontmatter?.tocClassName}`}
+          />}
         <h1 className="">
           {title}
         </h1>

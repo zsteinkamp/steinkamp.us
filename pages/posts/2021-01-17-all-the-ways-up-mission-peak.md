@@ -3,6 +3,7 @@ layout: post
 title: All The Ways Up Mission Peak
 date: '2021-01-17 12:00:00'
 thumbnail: https://photos.steinkamp.us/photo/2021-01-17_mission-peak/2021011716054444-4759711745111788283-IMG_0221.JPG?size=300x300&crop
+tocMaxLevel: 2
 ---
 
 Anyone who knows me reasonably well knows I have a soft spot for Mission Peak. I grew up in Fremont, and begrudgingly hiked up the Peak with my family every so often, complaining the whole time. It was hot. It was dry. I was thirsy. I was tired. Except for the time was a teenager and took a detour around the Hidden Valley area and headed off-trail, straight up the peak face. That was adventure! (not recommended, of course!)
