@@ -5,7 +5,7 @@ This is a [Markdoc](https://markdoc.dev/) / [Next.js](https://nextjs.org/) proje
 First, run the development server:
 
 ```bash
-cd dev && docker compose up
+make devup
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -19,13 +19,10 @@ production mode, which listens on port 3125.
 
 ```bash
 # in the project root directory
-docker compose build && docker compose up -d --force-recreate
+make prod
 ```
 
 ## Makefile targets
-
-If your system has `make` installed, you can use that to speed running some
-commands:
 
 - `make devup` - Start the development mode server and tail the logs
 - `make devdown` - Stop the development mode server
@@ -35,5 +32,4 @@ commands:
 
 Ideas for future enhancements or fixes:
 
-* Change layout to fixed left column, scrolling body
-* Embed for musics-hosted musics to replace bandcamp
+- Embed for musics-hosted musics to replace bandcamp
