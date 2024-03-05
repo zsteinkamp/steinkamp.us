@@ -3,7 +3,6 @@ layout: post
 title: Wielding Authority
 date: '2023-11-30 12:00:00'
 thumbnail: /images/authority.jpg
-toc: true
 excerpt: |
   How our views of competent authority as adults is shaped by our experiences as children, how that shows up in adult life, and how we can benefit from a categorical reboot of the role of authority.
 ---
