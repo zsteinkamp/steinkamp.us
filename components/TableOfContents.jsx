@@ -13,7 +13,7 @@ function TableOfContents({
       className={`TableOfContents noprint mt-0 block text-sm hover:opacity-100 lg:float-right lg:max-w-xs lg:pl-8 xl:fixed xl:left-[58.5rem] xl:float-none ${className}`}
     >
       <h3 className='mt-0 pb-1'>In This Page</h3>
-      <ul className='max-h-[50vh] overflow-scroll xl:max-h-[85vh] '>
+      <ul className='max-h-[50vh] overflow-y-auto xl:max-h-[85vh] '>
         {headings.map((heading) => {
           if (heading.level > maxLevel || heading.level < minLevel) {
             return null
