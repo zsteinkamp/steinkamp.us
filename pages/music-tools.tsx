@@ -67,7 +67,7 @@ const MusicToolsPage: React.FC<MusicToolsProps> = ({ data }) => {
           content='Tools that I have created for other musicians, mostly in Max for Live.'
         />
       </Head>
-      <TableOfContents headings={headings} className='mt-[0.6rem]' />
+      <TableOfContents headings={headings} className='mt-[0.5rem]' />
       <h1>Music Tools / Plugins</h1>
       <p>
         I have made a handful of tools for electronic musicians who use Ableton

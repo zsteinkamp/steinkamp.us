@@ -4,7 +4,7 @@ outerClass: resume
 tableOfContents: true
 tocMaxLevel: 3
 tocMinLevel: 2
-tocClassName: 'mt-[0.6rem]'
+tocClassName: 'mt-[0.5rem]'
 ---
 
 # Zack Steinkamp
