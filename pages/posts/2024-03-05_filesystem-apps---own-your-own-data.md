@@ -3,7 +3,10 @@ layout: post
 title: Filesystem Apps - Own Your Own Data
 date: '2024-03-05 12:00:00'
 excerpt: |
-  Short excerpt, teaser, or placeholder for this post.
+  Cloud services will come and go, but your memories are yours forever. Take
+  charge of your media legacy with Filesystem Apps.
+thumbnail: /images/fsapps/photodirs.png
+
 ---
 
 In the past few years, I've built a few applications that I call "Filesystem Apps".
