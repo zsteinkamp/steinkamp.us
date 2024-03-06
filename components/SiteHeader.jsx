@@ -23,7 +23,7 @@ const SiteHeader = ({ className = '' }) => {
               href={'/'}
               className='text-themetoggle-light visited:text-themetoggle-light hover:text-themetoggle-hover-light dark:text-themetoggle-dark dark:visited:text-themetoggle-dark dark:hover:text-themetoggle-hover-dark'
             >
-              Zack's
+              Zack&apos;s
               <br />
               Website
             </Link>
