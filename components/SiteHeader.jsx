@@ -21,7 +21,7 @@ const SiteHeader = ({ className = '' }) => {
           <div className='text-center font-header text-4xl font-bold md:mb-2 md:mt-[-1.25rem] md:text-xl'>
             <Link
               href={'/'}
-              className='text-themetoggle-light visited:text-themetoggle-light hover:text-themetoggle-hover-light dark:text-themetoggle-dark dark:visited:text-themetoggle-dark dark:hover:text-themetoggle-hover-dark'
+              className='text-mid-light visited:text-mid-light hover:text-header-light dark:text-mid-dark dark:visited:text-mid-dark dark:hover:text-header-dark'
             >
               Zack&apos;s
               <br />

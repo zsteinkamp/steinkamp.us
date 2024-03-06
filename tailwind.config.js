@@ -27,10 +27,10 @@ module.exports = {
         date: { dark: shade['500'], light: shade['500'] },
         themetoggle: {
           dark: linkbase['700'],
-          light: colors.orange['600'],
+          light: colors.orange['400'],
           hover: {
             light: colors.orange['400'],
-            dark: linkbase['400'],
+            dark: linkbase['600'],
           },
         },
         mid: { dark: shade['400'], light: shade['800'] },
