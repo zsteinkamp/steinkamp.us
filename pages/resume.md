@@ -30,9 +30,9 @@ I have been building web applications since 1995, and at mega-scale starting in 
 - Led an initiative with the [NGINX Amplify](https://www.nginx.com/products/nginx-amplify/) team to help expand the brand through improvements to usability, community, and platform capability to resonate better with modern application developers.
 - Contributor to [njs-acme](https://github.com/nginx/njs-acme) - an open source
   njs (Javascript) extension to NGINX to automate SSL/TLS certificate creation and renewal with ACME compliant services such as Let's Encrypt.
-- Held a multi-faceted leadership role in a 60 person team building a new cloud-based product offering.
-  - Defined product strategy, organizational strategy, technical architecture
-  - Led the team responsible for defining SaaS foundations: developer experience, production environment (IaC), CICD, observability, repository strategy, development workflow.
+- Held a multi-faceted leadership role in a 40 person team building a new cloud-based product offering.
+  - Helped to define product strategy, organizational strategy, technical architecture
+  - Led the team responsible for breaking ground on new SaaS foundations: developer experience, production environment (IaC), CICD, observability, repository strategy, development workflow.
   - Brought new management and development practices that shifted company culture toward a happier, more efficient, more engaged force with higher product quality and more satisfied customers.
     {% /avoidbreak %}
 
