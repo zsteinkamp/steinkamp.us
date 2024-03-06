@@ -13,28 +13,28 @@ In the past few years, I've built a few applications that I call "Filesystem App
 
 ![Photodirs Screenshots](https://github.com/zsteinkamp/photodirs/raw/main/images/light-mode.png)
 
-A Filesystem App is an application that presents a specific and useful interface to a directory or directory hierarchy. The directory structure and the files it contains are the entirety of the long-term state of the application. This is in contrast to most applications that store their state in proprietary databases or in cloud services.
+A Filesystem App is an application that presents a specific and useful interface to a directory or directory hierarchy. The directory structure and the files it contains are the entirety of the long-term state of the application. For example, if you keep your photos organized into directories representing albums, you could imagine a file viewer tailored for this purpose.
 
-When implemented well, Filesystem Apps retain (or even improve!) the end-user's control of their own data. Source data should always be able to be mounted read-only. If the user wants to allow write access, native metadata management (e.g. modifying EXIF data to set title or description) should be preferred over metadata sidecar files. When metadata sidecar files are unavoidable, they should follow simple conventions with future application in mind. They should be in YAML format for simple human and machine parsing. This should lead to emergence of metadata standards.
+This is in contrast to most applications that store their state in proprietary databases or in cloud services. Those services and apps will be obsolete one day - then what do you do with all the time you've invested in their platform? You have to repeat it with the next thing. What a drag!
+
+Filesystem Apps keep your files under your control. When implemented well, Filesystem Apps retain (or even improve!) the end-user's control of their own data. Source data should always be able to be mounted read-only. If the user wants to allow write access, native metadata management (e.g. modifying EXIF data to set title or description) should be preferred over metadata sidecar files. When metadata sidecar files are unavoidable, they should follow simple conventions with future application in mind. They should be in YAML format for simple human and machine parsing. This should lead to emergence of metadata standards.
 
 Filesystem Apps will not appeal to everyone. Their appeal will be with people who want to retain control of their source data, regardless of future application. They appreciate the security that Filesystem Apps can offer, keeping your data fully within your control but presenting an ideal experience to interact with those files. A Filesystem App power user will appreciate the ability to use standards-compliant metadata mechanisms and/or a text editor as a CMS, with instant updates.
 
-Filesystem Apps are delivered as Docker images or over the AWS Marketplace. When run as a Docker image, simply run `make` and follow the prompts to configure your source directory. When run from the AWS Marketplace, you just need to configure the S3 bucket to act as your source data.
-
+Filesystem Apps are delivered as Docker images or over the AWS Marketplace (in the future!). When run as a Docker image, simply run `make` and follow the prompts to configure your source directory. When run from the AWS Marketplace, you just need to configure the S3 bucket to act as your source data.
 
 ## Photodirs
 
 ![Photodirs Screenshots](https://github.com/zsteinkamp/photodirs/raw/main/images/light-mode.png)
 ![Photodirs Screenshots](https://github.com/zsteinkamp/photodirs/raw/main/images/photo-page.png)
 
-Photodirs is a Filesystem App centered around browsing images, as well as serving images with dynamic resizing and transcoding. It combines a modern web interface to your photos, organized by their directory structure. You can create an `album.yml` file that contains metadata around the directory title, description, thumbnail images, etc. Photodirs is also a full-featured photo hosting solution, with dynamic resizing and transcoding. It has native .HEIC and RAW support. Metadata such as title and description are read from the media files themselves, keeping your annotations and titles inside your files for future use.
+Photodirs is a Filesystem App centered around browsing images and videos, as well as serving images with dynamic resizing and video transcoding. It combines a modern web interface to your media files, organized by their directory structure. You can create an `album.yml` file that contains metadata around the directory title, description, thumbnail images, etc. Photodirs is also a full-featured photo hosting solution, with dynamic resizing and transcoding. It has native HEIC, RAW, and wide video format support. Metadata such as title and description are read from the media files themselves, keeping your annotations and titles inside your files for future use.
 
 Photodirs is always watching its source directory, so putting new images online is as simple as creating a folder and copying in some images or video files. There are no other actions to take.
 
 To get started, [clone the repository](https://github.com/zsteinkamp/photodirs) and run `make` to configure the source directory and choose options, like read-only or read-write.
 
 [Source Code](https://github.com/zsteinkamp/photodirs) | [Example Site](https://photos.steinkamp.us/)
-
 
 ## Esstraba
 
@@ -69,4 +69,3 @@ My blog platform is somewhat filesystem-based. The posts are written in Markdoc 
 ## What's Next?
 
 What other filesystem apps can you think of? Let me know here!
-
