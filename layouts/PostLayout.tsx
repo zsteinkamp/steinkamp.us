@@ -38,7 +38,7 @@ const PostLayout: React.FC<PostLayoutProps> = ({ pageProps, children }) => {
             headings={headings}
             minLevel={pageProps.markdoc?.frontmatter?.tocMinLevel}
             maxLevel={pageProps.markdoc?.frontmatter?.tocMaxLevel}
-            className={`mt-[0.5rem] ${pageProps.markdoc?.frontmatter?.tocClassName}`}
+            className={pageProps.markdoc?.frontmatter?.tocClassName}
           />}
         <h1 className="">
           {title}

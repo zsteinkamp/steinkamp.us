@@ -18,14 +18,16 @@ const SiteHeader = ({ className = '' }) => {
         className={`noprint ml-4 mb-4 flex h-[4.5rem] items-center border-b-2 border-border-light dark:border-border-dark md:sticky md:top-12 md:mt-12 md:ml-0 md:mr-4 md:w-[12rem] md:flex-col md:border-b-0 ${className}`}
       >
         <figure title='steinkamp.us' className='relative'>
-          <h1 className='text-center font-header text-4xl md:mb-2 md:mt-2 md:text-xl'>
+          <div className='text-center font-header text-4xl font-bold md:mb-2 md:mt-[-1.25rem] md:text-xl'>
             <Link
               href={'/'}
-              className='text-mid-light visited:text-mid-light hover:text-header-light dark:text-mid-dark dark:visited:text-mid-dark dark:hover:text-header-dark'
+              className='text-themetoggle-light visited:text-themetoggle-light hover:text-themetoggle-hover-light dark:text-themetoggle-dark dark:visited:text-themetoggle-dark dark:hover:text-themetoggle-hover-dark'
             >
-              steinkamp.us
+              Zack's
+              <br />
+              Website
             </Link>
-          </h1>
+          </div>
         </figure>
         <nav className='site-nav absolute top-[3.5rem] right-4 z-10 flex grow justify-end gap-8 rounded-xl border-border-light bg-shadebg-light dark:border-border-dark dark:bg-shadebg-dark md:relative md:right-0 md:top-0 md:bg-transparent dark:md:bg-transparent '>
           <input
