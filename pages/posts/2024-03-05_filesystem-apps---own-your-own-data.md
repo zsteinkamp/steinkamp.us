@@ -6,7 +6,6 @@ excerpt: |
   Cloud services will come and go, but your memories are yours forever. Take
   charge of your media legacy with Filesystem Apps.
 thumbnail: /images/fsapps/photodirs.png
-
 ---
 
 In the past few years, I've built a few applications that I call "Filesystem Apps".
@@ -44,8 +43,6 @@ Esstraba is a Strava archive export viewer. Point Esstraba at your downloaded .z
 
 Strava allows you to download your archive once per week, so keep that in mind.
 
-Run `make` to configure your source .zip location and Esstraba will start up.
-
 [Source Code](https://github.com/zsteinkamp/esstraba) | [Example Site](https://esstraba.steinkamp.us/)
 
 ## Musics
@@ -53,8 +50,6 @@ Run `make` to configure your source .zip location and Esstraba will start up.
 ![Musics Screenshot](https://github.com/zsteinkamp/musics/raw/main/public/screenshot2.png)
 
 Making music is a hobby of mine. As with any art, it's not done until it's shown to the public. As part of the music-making process, I like to listen to my work-in-progress in different places and situations, like the car or in different headphones. Uploading those songs to services like SoundCloud or Bandcamp takes time, so I had the idea to just build a web frontend to the directory where I render my work-in-progress music to. This would let me open it using any web browser anywhere in the world. I think providing that look into work-in-progress is an interesting thing for an artist to ponder.
-
-Clone the repository and run `make` to set up the source directory.
 
 [Source Code](https://github.com/zsteinkamp/musics) | [Example Site](https://musics.steinkamp.us/)
 
