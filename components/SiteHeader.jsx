@@ -18,14 +18,12 @@ const SiteHeader = ({ className = '' }) => {
         className={`noprint ml-4 mb-4 flex h-[4.5rem] items-center border-b-2 border-border-light dark:border-border-dark md:sticky md:top-12 md:mt-12 md:ml-0 md:mr-4 md:w-[12rem] md:flex-col md:border-b-0 ${className}`}
       >
         <figure title='steinkamp.us' className='relative'>
-          <div className='text-center font-header text-4xl font-bold md:mb-2 md:mt-[-1.25rem] md:text-xl'>
+          <div className='text-center font-header text-xl font-bold md:mb-2 md:mt-[-1.25rem]'>
             <Link
               href={'/'}
-              className='text-mid-light visited:text-mid-light hover:text-header-light dark:text-mid-dark dark:visited:text-mid-dark dark:hover:text-header-dark'
+              className='text-mid-light visited:text-mid-light hover:text-header-light dark:text-mid-dark dark:visited:text-mid-dark dark:hover:text-header-dark md:[word-spacing:5rem]'
             >
-              Zack&apos;s
-              <br />
-              Website
+              Zack&apos;s Website
             </Link>
           </div>
         </figure>
