@@ -10,9 +10,9 @@ thumbnail: /images/fsapps/photodirs.png
 
 In the past few years, I've built a few applications that I call "Filesystem Apps".
 
-![Photodirs Screenshots](https://github.com/zsteinkamp/photodirs/raw/main/images/light-mode.png)
-
 A Filesystem App is an application that presents a specific and useful interface to a directory or directory hierarchy. The directory structure and the files it contains are the entirety of the long-term state of the application. For example, if you keep your photos organized into directories representing albums, you could imagine a file viewer tailored for this purpose.
+
+![Photodirs Screenshots](https://github.com/zsteinkamp/photodirs/raw/main/images/light-mode.png)
 
 This is in contrast to most applications that store their state in proprietary databases or in cloud services. Those services and apps will be obsolete one day - then what do you do with all the time you've invested in their platform? You have to repeat it with the next thing. What a drag!
 
