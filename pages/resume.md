@@ -208,13 +208,13 @@ I have been building web applications since 1995, and at mega-scale starting in 
 - [On Dates](/posts/2019-08-24-on-dates)
 - [How To Interview](/posts/2019-08-10-how-to-interview)
 
-## Personal
+## Interests
 
-- Music maker ([Spotify](https://open.spotify.com/artist/4zlbGPYkjV7EpxXHyfZNAh) / [Apple](https://itunes.apple.com/us/artist/zack-steinkamp/id1217691470))
-- Avid [cyclist, trail runner, and ultramarathoner](https://app.strava.com/athletes/1752986).
-- Music [tool maker](/music-tools/)
-- Photographer
-- High Performance Driving Instructor for the [BMWCCA](https://www.ggcbmwcca.org/) and former SCCA club racer.
-- Woodworker
-- Programmer [since age 8](/posts/2021-05-22-computer-history)
+- Music making ([Spotify](https://open.spotify.com/artist/4zlbGPYkjV7EpxXHyfZNAh) / [Apple](https://itunes.apple.com/us/artist/zack-steinkamp/id1217691470))
+- [Cycling and Trail running](https://esstraba.steinkamp.us/).
+- Music [tool making](/music-tools/)
+- Photography
+- Racing / Performance driving instruction
+- Woodworking
+- [Programming](/posts/2021-05-22-computer-history)
   {% /avoidbreak %}
