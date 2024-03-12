@@ -21,9 +21,15 @@ const SiteHeader = ({ className = '' }) => {
           <div className='text-center font-header text-xl font-bold md:mb-2 md:mt-[-1.25rem]'>
             <Link
               href={'/'}
-              className='text-mid-light visited:text-mid-light hover:text-header-light dark:text-mid-dark dark:visited:text-mid-dark dark:hover:text-header-dark md:[word-spacing:5rem]'
+              className='flex whitespace-nowrap text-mid-light visited:text-mid-light hover:text-header-light dark:text-mid-dark dark:visited:text-mid-dark dark:hover:text-header-dark md:flex-col md:whitespace-normal md:[word-spacing:5rem]'
             >
-              Zack&apos;s Website
+              <div className='mx-2 block text-2xl dark:hidden md:text-7xl'>
+                👋
+              </div>
+              <div className='mx-2 hidden text-2xl dark:block md:text-7xl'>
+                🌊
+              </div>
+              <div className='text-2xl md:text-base'>steinkamp.us</div>
             </Link>
           </div>
         </figure>
