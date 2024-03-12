@@ -9,10 +9,9 @@ thumbnail: '/images/njs-acme/njs-acme.png'
 
 NGINX has just open-sourced a project that drastically reduces the effort required to add HTTPS support to your NGINX webservers. This project makes use of NJS (which allows for extending NGINX with JavaScript) to integrate an [ACME](https://en.wikipedia.org/wiki/Automatic_Certificate_Management_Environment) (Automated Certificate Management Environment) client into NGINX itself. This client communicates with ACME services like [Let's Encrypt](https://letsencrypt.org/) to manage SSL/TLS certificates automatically on your NGINX server.
 
-![Header Logos](/images/njs-acme/njs-acme.png "NGINX + NJS + njs-acme + ACME = CERTS")
+![Header Logos](/images/njs-acme/njs-acme.png 'NGINX + NJS + njs-acme + ACME = CERTS')
 
 If you want to try it out, head over to the [njs-acme repository](https://github.com/nginx/njs-acme) for detailed installation instructions. We're working on improving this installation experience now, so installation should get easier over time.
-
 
 ## Background
 
@@ -22,20 +21,17 @@ Through the years, public interest in security and privacy has escalated. This h
 
 In 2021, Google pushed a change to Chrome where it would connect to sites over HTTPS by default, and warn the user if their communication with a site was not encrypted. This was a pivotal moment in the history of the Web, and inspired more site operators, even tiny ones, to set up HTTPS.
 
-![Chrome Security Warning](/images/njs-acme/not-secure.png "Security Warning")
-
+![Chrome Security Warning](/images/njs-acme/not-secure.png 'Security Warning')
 
 In February of 2023, I joined F5/NGINX as an engineer and architect with an eye on growing NGINX's position as a market leader.
 
-
 ## The Problem
 
-In surveying sentiment inside and outside of the company, one shortcoming in NGINX that came up over and over was the difficulty in setting up NGINX to serve requests over HTTPS, especially when it comes to managing certificates. I have felt this pain myself in my own NGINX installations, recently having spent an entire weekend getting NGINX containers on my home server to communicate seamlessly with a [Certbot](https://certbot.eff.org/) container to share and manage TLS certificates. The result was a fragile system with many moving parts.
+In surveying sentiment inside and outside of the company, one shortcoming in NGINX that came up over and over was the relative difficulty in setting up NGINX to serve requests over HTTPS, especially when it comes to managing certificates. I have felt this pain myself in my own NGINX installations, recently having spent an entire weekend getting NGINX containers on my home server to communicate seamlessly with a [Certbot](https://certbot.eff.org/) container to share and manage TLS certificates. The result was a fragile system with many moving parts.
 
 One major hurdle with working with NGINX is that it requires a server restart when updating certificates. This small detail requires every user to engineer elaborate systems to orchestrate a server restart when certificates are updated.
 
 Modern NGINX competitors have taken an HTTPS-first approach, with ACME support built in, and minimal configuration required to make use of it. This ease-of-use has been the main benefit of our competition, and shows us that it's no longer acceptable in the market to make NGINX users learn the intricacies of configuring and restarting NGINX.
-
 
 ## NJS to the Rescue
 
@@ -47,10 +43,9 @@ My teammate [Maxim Ivanitiskiy](https://github.com/ivanitskiy) took an interest 
 
 I got more involved after Maxim's initial working prototype was ready, and provided some feedback and enhancements to make the end-user experience a little simpler. I tested it along the way on my home webserver. The day I could remove the baroque certbot solution was a good one!
 
-
 ## About the Solution
 
-[njs-acme](https://github.com/nginx/njs-acme) is written in TypeScript and is transpiled to a single .js file that needs to be installed on the NGINX server. The njs-acme repository contains a Dockerfile and make target so that an NGINX container can be built with njs-acme already installed.
+[njs-acme](https://github.com/nginx/njs-acme) is written in TypeScript and is transpiled to a single `acme.js` file that needs to be installed on the NGINX server. The njs-acme repository contains a Dockerfile and make target so that an NGINX container can be built with njs-acme already installed.
 
 ```
 > make docker-build
@@ -74,14 +69,14 @@ Here is an excerpt from my `docker-compose.yml` file showing the `nginx/nginx-nj
     ports:
       - "80:80"
       - "443:443"
-    hostname: home.steinkamp.us
+    hostname: yourdomain.com
     environment:
-      - NJS_ACME_SERVER_NAMES=steinkamp.us home.steinkamp.us photos.steinkamp.us
-      - NJS_ACME_ACCOUNT_EMAIL=zack@steinkamp.us
+      - NJS_ACME_SERVER_NAMES=yourdomain.com other.yourdomain.com
+      - NJS_ACME_ACCOUNT_EMAIL=your@mail.com
 ```
 
 Given these two required configuration parameters, njs-acme will handle communication with an ACME provider like Let's Encrypt, creating and sending the Certificate Signing Request, serving the HTTP challenge response, storing the certificate/key, as well as renewing the certificate automatically. When the certificate is renewed, njs-acme will begin using the new certificate without requiring a server restart.
 
-![Sequence Diagram](/images/njs-acme/sequence.png "Sequence Diagram")
+![Sequence Diagram](/images/njs-acme/sequence.png 'Sequence Diagram')
 
 This is a huge improvement that will benefit many current and future NGINX users. Please check out the [njs-acme source code repository](https://github.com/nginxinc/njs-acme), and open an issue or a pull request if something isn't as good as it could be.
