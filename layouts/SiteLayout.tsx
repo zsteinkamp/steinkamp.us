@@ -5,6 +5,7 @@ import React from 'react'
 
 import SiteHeader from '@/components/SiteHeader'
 import SiteFooter from '@/components/SiteFooter'
+import Head from 'next/head'
 
 interface SiteLayoutProps {
   pageProps: AppProps['pageProps']
@@ -21,6 +22,11 @@ const SiteLayout: React.FC<SiteLayoutProps> = ({ pageProps, children }) => {
 
   return (
     <>
+      <Head>
+        <link rel="alternate" type="application/rss+xml" title="RSS Feed for steinkamp.us" href="/rss.xml" />
+        <link rel="alternate" type="application/rss+json" title="RSS+JSON Feed for steinkamp.us" href="/rss.json" />
+        <link rel="alternate" type="application/atom+xml" title="ATOM Feed for steinkamp.us" href="/atom.xml" />
+      </Head>
       <div className="md:flex">
         <div className="md:flex-shrink-0 md:flex-grow-0 md:basis-auto shadow-lg md:bg-shadebg-light dark:md:bg-shadebg-dark md:shadow-xl dark:shadow-shadeshadow-dark shadow-shadeshadow-light">
           <SiteHeader />
