@@ -20,7 +20,10 @@ const getFirstImageUrl = (ast: any) => {
   return null
 }
 
-const getPosts = async (indexPath: string, newestFirst: boolean = true) => {
+export type PostType = Record<string, any>
+export type PostsListType = PostType[]
+
+const getPosts = async (indexPath: string, newestFirst: boolean = true): Promise<PostsListType> => {
   // Find all Markdown files in the specified directory
   const POSTS_DIR = path.join(process.cwd(), 'pages', indexPath)
   const postsPath = await glob('*', { cwd: POSTS_DIR })
