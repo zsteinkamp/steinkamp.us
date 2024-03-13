@@ -1,5 +1,4 @@
 import { useHeadsObserver } from '@/hooks/HeadsObserver'
-import { useEffect } from 'react'
 
 function TableOfContents({
   headings,

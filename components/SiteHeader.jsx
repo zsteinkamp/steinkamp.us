@@ -1,5 +1,6 @@
 // ./components/SiteHeader.jsx
 import Link from 'next/link'
+import Image from 'next/image'
 import ThemeSwitcher from '@/components/ThemeSwitcher'
 
 const SiteHeader = ({ className = '' }) => {
@@ -21,15 +22,27 @@ const SiteHeader = ({ className = '' }) => {
           <div className='text-center font-header text-xl font-bold md:mb-2 md:mt-[-1.25rem]'>
             <Link
               href={'/'}
-              className='flex whitespace-nowrap text-mid-light visited:text-mid-light hover:text-header-light dark:text-mid-dark dark:visited:text-mid-dark dark:hover:text-header-dark md:flex-col md:whitespace-normal md:[word-spacing:5rem]'
+              className='flex items-center whitespace-nowrap text-mid-light visited:text-mid-light hover:text-header-light dark:text-mid-dark dark:visited:text-mid-dark dark:hover:text-header-dark md:flex-col md:whitespace-normal md:[word-spacing:5rem]'
             >
-              <div className='mx-2 block text-2xl dark:hidden md:text-7xl'>
-                👋
+              <div className='mr-2 w-12 md:mx-10 md:w-[6rem]'>
+                <Image
+                  width='833'
+                  height='700'
+                  src='/images/wave-h.png'
+                  className='inline aspect-[833/700] dark:hidden'
+                  alt='steinkamp.us'
+                />
+                <Image
+                  width='833'
+                  height='700'
+                  src='/images/wave-w.png'
+                  className='hidden aspect-[833/700] dark:inline'
+                  alt='steinkamp.us'
+                />
               </div>
-              <div className='mx-2 hidden text-2xl dark:block md:text-7xl'>
-                🌊
+              <div className='leading-12 text-2xl md:text-base'>
+                steinkamp.us
               </div>
-              <div className='text-2xl md:text-base'>steinkamp.us</div>
             </Link>
           </div>
         </figure>
