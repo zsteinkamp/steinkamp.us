@@ -1,4 +1,5 @@
 import { useHeadsObserver } from '@/hooks/HeadsObserver'
+import { useEffect } from 'react'
 
 function TableOfContents({
   headings,
@@ -8,6 +9,15 @@ function TableOfContents({
 }) {
   const { activeId } = useHeadsObserver()
 
+  const fullHeadings = [
+    {
+      level: 2,
+      slug: 'top',
+      title: 'Top',
+    },
+    ...headings,
+  ]
+
   return (
     <div
       className={`TableOfContents noprint mt-[0.7rem] block text-sm hover:opacity-100 lg:float-right lg:max-w-xs lg:pl-8 xl:fixed xl:left-[58.5rem] xl:float-none ${className}`}
@@ -16,7 +26,7 @@ function TableOfContents({
         In This Page
       </div>
       <ul className='max-h-[50vh] overflow-y-auto xl:max-h-[85vh] '>
-        {headings.map((heading) => {
+        {fullHeadings.map((heading) => {
           if (heading.level > maxLevel || heading.level < minLevel) {
             return null
           }

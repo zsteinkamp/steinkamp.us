@@ -14,7 +14,7 @@ export function useHeadsObserver() {
     }
 
     observer.current = new IntersectionObserver(handleObsever, {
-      rootMargin: '0% 0% -35% 0px',
+      rootMargin: '10% 0% -50% 0px',
     })
 
     const elements = document.querySelectorAll('h2, h3', 'h4')
