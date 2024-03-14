@@ -39,7 +39,7 @@ const DateBuckets: React.FC<DateBucketsProps> = ({
         className='group relative h-12 bg-pagebg-light text-center font-sans text-xs font-normal uppercase dark:bg-pagebg-dark'
       >
         <div
-          className={`absolute left-0 bottom-0 w-full bg-shadeshadow-light group-hover:bg-shadeshadow-light dark:bg-shadebg-dark dark:group-hover:bg-shadebg-dark`}
+          className={`absolute left-0 bottom-0 w-full bg-shadeshadow-light group-hover:bg-shadeshadow-light dark:bg-mid-dark dark:group-hover:bg-mid-dark`}
           style={{ height: bucketPct }}
         />
         <div className='absolute top-[-1rem] hidden w-full group-hover:block '>

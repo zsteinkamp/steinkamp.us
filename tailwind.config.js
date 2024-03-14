@@ -33,7 +33,7 @@ module.exports = {
             dark: linkbase['600'],
           },
         },
-        mid: { dark: shade['400'], light: shade['800'] },
+        mid: { dark: shade['600'], light: shade['800'] },
         header: { dark: shade['200'], light: shade['900'] },
         link: {
           base: { dark: linkbase['600'], light: linkbase['700'] },

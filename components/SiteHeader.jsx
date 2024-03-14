@@ -22,7 +22,7 @@ const SiteHeader = ({ className = '' }) => {
           <div className='text-center font-header text-xl font-bold md:mb-2 md:mt-[-1.25rem]'>
             <Link
               href={'/'}
-              className='flex items-center whitespace-nowrap text-mid-light visited:text-mid-light hover:text-header-light dark:text-mid-dark dark:visited:text-mid-dark dark:hover:text-header-dark md:flex-col md:whitespace-normal md:[word-spacing:5rem]'
+              className='flex items-center whitespace-nowrap md:flex-col md:whitespace-normal md:[word-spacing:5rem]'
             >
               <div className='mr-2 w-12 md:mx-10 md:w-[6rem]'>
                 <Image
