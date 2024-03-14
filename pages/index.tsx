@@ -32,6 +32,7 @@ interface IndexProps {
 const Index: React.FC<IndexProps> = ({ posts, buckets }) => {
   const [minSlider, setMinSlider] = useState(buckets.minDate)
   const [maxSlider, setMaxSlider] = useState(buckets.maxDate)
+  const [filter, setFilter] = useState("")
   const [filteredPosts, setFilteredPosts] = useState(posts)
 
   const handleSliderChange = (e: number[]) => {
@@ -55,11 +56,15 @@ const Index: React.FC<IndexProps> = ({ posts, buckets }) => {
         .valueOf()
       //console.log("IN HERE", { minSlider, maxSlider, postDate, goodMin: postDate >= minSlider, goodMax: postDate <= maxSlider })
       if (postDate >= minSlider && postDate <= maxSlider) {
-        tempPosts.push(post)
+        if (filter === "" ||
+          (post.title.toLowerCase().indexOf(filter) > -1 || post.excerpt.toLowerCase().indexOf(filter) > -1)
+        ) {
+          tempPosts.push(post)
+        }
       }
     }
     setFilteredPosts(tempPosts)
-  }, [minSlider, maxSlider])
+  }, [minSlider, maxSlider, filter])
 
   return (
     <>
@@ -85,9 +90,16 @@ const Index: React.FC<IndexProps> = ({ posts, buckets }) => {
           withTracks
         />
       </div>
-      <h4 className='text-text-light dark:text-text-dark'>
-        Showing {filteredPosts.length} posts...
-      </h4>
+      <div className='grid grid-cols-2'>
+        <div>
+          <h4 className='text-text-light dark:text-text-dark'>
+            Showing {filteredPosts.length} posts...
+          </h4>
+        </div>
+        <div className='text-right'>
+          <input placeholder="Filter..." type="text" onChange={(e) => setFilter(e.target.value)} className="px-1 text-xs" />
+        </div>
+      </div>
       <PostIndex className='max-w-2xl md:mt-8' posts={filteredPosts} />
     </>
   )
