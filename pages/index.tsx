@@ -75,7 +75,7 @@ const Index: React.FC<IndexProps> = ({ posts, buckets }) => {
         <ReactSlider
           onChange={(e) => handleSliderChange(e)}
           className='mt-[-1rem]'
-          thumbClassName='text-xs font-bold w-10 text-center mt-1 pt-1 pb-1 text-white bg-red-600 cursor-pointer'
+          thumbClassName='text-xs font-bold w-10 rounded text-center mt-1 pt-1 pb-1 text-white dark:text-black bg-link-base-light dark:bg-link-base-dark hover:bg-link-hover-light hover:dark:bg-link-hover-dark cursor-pointer'
           trackClassName='h-4 mt-4 ml-2 mr-2'
           min={buckets.minDate}
           max={buckets.maxDate}
@@ -103,7 +103,7 @@ const Index: React.FC<IndexProps> = ({ posts, buckets }) => {
             placeholder='Filter...'
             type='text'
             onChange={(e) => setFilter(e.target.value)}
-            className='px-1 text-xs'
+            className='px-1 rounded text-xs'
           />
         </div>
       </div>

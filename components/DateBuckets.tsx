@@ -36,10 +36,10 @@ const DateBuckets: React.FC<DateBucketsProps> = ({
     return (
       <div
         key={key}
-        className='group relative h-12 bg-pagebg-light text-center font-sans text-xs font-normal uppercase hover:bg-shadebg-light dark:bg-pagebg-dark hover:dark:bg-shadebg-dark'
+        className='group relative h-12 bg-pagebg-light dark:bg-pagebg-dark text-center font-sans text-xs font-normal uppercase'
       >
         <div
-          className={`absolute left-0 bottom-0 w-full bg-link-base-light group-hover:bg-link-hover-light`}
+          className={`absolute left-0 bottom-0 w-full bg-shadeshadow-light dark:bg-shadebg-dark group-hover:bg-shadeshadow-light dark:group-hover:bg-shadebg-dark`}
           style={{ height: bucketPct }}
         />
         <div className='absolute top-[-1rem] hidden w-full group-hover:block '>
@@ -55,7 +55,7 @@ const DateBuckets: React.FC<DateBucketsProps> = ({
     )
   })
 
-  return <div className='grid grid-flow-col'>{bucketDivs}</div>
+  return <div className='grid grid-flow-col gap-1'>{bucketDivs}</div>
 }
 
 export default DateBuckets
