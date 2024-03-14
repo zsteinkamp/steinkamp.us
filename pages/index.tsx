@@ -103,7 +103,7 @@ const Index: React.FC<IndexProps> = ({ posts, buckets }) => {
             placeholder='Filter...'
             type='text'
             onChange={(e) => setFilter(e.target.value)}
-            className='px-1 rounded text-xs'
+            className='rounded px-1 text-xs'
           />
         </div>
       </div>
