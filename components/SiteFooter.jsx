@@ -34,7 +34,6 @@ const SiteFooter = () => {
             />
             <path
               className='fill-pagebg-light dark:fill-pagebg-dark'
-              class='symbol'
               d='m 1,2 a 5,5 0 0 1 5,5 h 1 a 6,6 0 0 0 -6,-6 z'
             />
           </svg>
