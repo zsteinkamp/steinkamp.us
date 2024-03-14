@@ -13,6 +13,13 @@ body {
   transition: background-color 0.2s;
 }
 
+:root.dark {
+  color-scheme: dark;
+}
+:root.light {
+  color-scheme: light;
+}
+
 h1,
 h2,
 h3,
