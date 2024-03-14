@@ -1,13 +1,16 @@
-import { DateBucketType } from "@/util/getDateBuckets"
-import dayjs, { OpUnitType } from "dayjs"
+import { DateBucketType } from '@/util/getDateBuckets'
+import dayjs, { OpUnitType } from 'dayjs'
 
 type DateBucketsProps = {
   dateBuckets: DateBucketType
   className?: string
 }
-const DateBuckets: React.FC<DateBucketsProps> = ({ dateBuckets, className = "" }) => {
+const DateBuckets: React.FC<DateBucketsProps> = ({
+  dateBuckets,
+  className = '',
+}) => {
   if (dateBuckets.granularity === undefined) {
-    return (<div className={className}>Error</div>)
+    return <div className={className}>Error</div>
   }
 
   function granularityToFormat(granularity: OpUnitType) {
@@ -15,13 +18,13 @@ const DateBuckets: React.FC<DateBucketsProps> = ({ dateBuckets, className = "" }
       return 'YYYY'
     }
     if (granularity === 'month') {
-      return "YYYY MMM"
+      return 'YYYY MMM'
     }
     if (granularity === 'week') {
-      return "YYYY-mm-dd"
+      return 'YYYY-mm-dd'
     }
     if (granularity === 'day') {
-      return "YYYY-mm-dd"
+      return 'YYYY-mm-dd'
     }
   }
 
@@ -29,21 +32,30 @@ const DateBuckets: React.FC<DateBucketsProps> = ({ dateBuckets, className = "" }
   bucketKeys.sort()
   const bucketDivs = bucketKeys.map((key) => {
     const bucketVal = dateBuckets.buckets[key]
-    const bucketPct = Math.round((bucketVal / dateBuckets.maxVal) * 100) + "%"
+    const bucketPct = Math.round((bucketVal / dateBuckets.maxVal) * 100) + '%'
     return (
-      <div key={key} className="relative bg-pagebg-light dark:bg-pagebg-dark group h-12 font-sans text-xs uppercase font-normal text-center hover:bg-shadebg-light hover:dark:bg-shadebg-dark">
-        <div className={`absolute bg-link-base-light group-hover:bg-link-hover-light left-0 w-full bottom-0`} style={{ height: bucketPct }} />
-        <div className="absolute w-full hidden group-hover:block top-[-1rem] ">
+      <div
+        key={key}
+        className='group relative h-12 bg-pagebg-light text-center font-sans text-xs font-normal uppercase hover:bg-shadebg-light dark:bg-pagebg-dark hover:dark:bg-shadebg-dark'
+      >
+        <div
+          className={`absolute left-0 bottom-0 w-full bg-link-base-light group-hover:bg-link-hover-light`}
+          style={{ height: bucketPct }}
+        />
+        <div className='absolute top-[-1rem] hidden w-full group-hover:block '>
           {bucketVal}
         </div>
-        <div className="absolute w-full bottom-[-1rem] hidden group-hover:block">
-          {dateBuckets.granularity && dayjs(parseInt(key)).utc().format(granularityToFormat(dateBuckets.granularity))}
+        <div className='absolute bottom-[-1rem] hidden w-full group-hover:block'>
+          {dateBuckets.granularity &&
+            dayjs(parseInt(key))
+              .utc()
+              .format(granularityToFormat(dateBuckets.granularity))}
         </div>
       </div>
     )
   })
 
-  return (<div className="grid grid-flow-col">{bucketDivs}</div>)
+  return <div className='grid grid-flow-col'>{bucketDivs}</div>
 }
 
 export default DateBuckets
