@@ -4,10 +4,12 @@ import dayjs, { OpUnitType } from 'dayjs'
 type DateBucketsProps = {
   dateBuckets: DateBucketType
   className?: string
+  onBucketClick?: Function
 }
 const DateBuckets: React.FC<DateBucketsProps> = ({
   dateBuckets,
   className = '',
+  onBucketClick,
 }) => {
   if (dateBuckets.granularity === undefined) {
     return <div className={className}>Error</div>
@@ -36,7 +38,8 @@ const DateBuckets: React.FC<DateBucketsProps> = ({
     return (
       <div
         key={key}
-        className='group relative h-12 bg-pagebg-light text-center font-sans text-xs font-normal uppercase dark:bg-pagebg-dark'
+        onClick={(e) => onBucketClick && onBucketClick(parseInt(key))}
+        className='cursor-pointer group relative h-12 bg-pagebg-light text-center font-sans text-xs font-normal uppercase dark:bg-pagebg-dark'
       >
         <div
           className={`absolute left-0 bottom-0 w-full bg-shadeshadow-light group-hover:bg-shadeshadow-light dark:bg-mid-dark dark:group-hover:bg-mid-dark`}

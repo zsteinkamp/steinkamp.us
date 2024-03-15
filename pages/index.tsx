@@ -40,7 +40,7 @@ const Index: React.FC<IndexProps> = ({ posts, buckets }) => {
       return
     }
     setMinSlider(dayjs(e[0]).utc().startOf(buckets.granularity).valueOf())
-    setMaxSlider(dayjs(e[1]).utc().startOf(buckets.granularity).valueOf())
+    setMaxSlider(dayjs(e[1]).utc().endOf(buckets.granularity).valueOf())
     //console.log("SLIDER CHANGE", { e })
   }
 
@@ -68,46 +68,60 @@ const Index: React.FC<IndexProps> = ({ posts, buckets }) => {
     setFilteredPosts(tempPosts)
   }, [minSlider, maxSlider, filter])
 
+  const onBucketClick = (ts: number) => {
+    console.log('TOP', { type: typeof ts, ts })
+    if (!buckets.granularity) {
+      return
+    }
+    const maxdjs = dayjs(ts).utc().endOf(buckets.granularity)
+    const maxval = maxdjs.valueOf()
+    console.log('SET MAX SLIDER', { type: typeof ts, ts, maxval, maxdjs })
+    setMinSlider(ts)
+    setMaxSlider(maxval)
+  }
+
   return (
     <>
-      <DateBuckets dateBuckets={buckets} />
-      <div className='mb-8'>
-        <ReactSlider
-          onChange={(e) => handleSliderChange(e)}
-          className='mt-[-1rem]'
-          thumbClassName='text-xs font-bold w-10 rounded text-center mt-1 pt-1 pb-1 text-white dark:text-black bg-link-base-light dark:bg-link-base-dark hover:bg-link-hover-light hover:dark:bg-link-hover-dark cursor-pointer'
-          trackClassName='h-4 mt-4 ml-2 mr-2'
-          min={buckets.minDate}
-          max={buckets.maxDate}
-          defaultValue={[buckets.minDate, buckets.maxDate]}
-          ariaLabel={['Lower thumb', 'Upper thumb']}
-          ariaValuetext={(state) =>
-            `Thumb value ${dayjs(state.valueNow).utc().format('YYYY')}`
-          }
-          renderThumb={(props, state) => (
-            <div {...props}>{dayjs(state.valueNow).utc().format('YYYY')}</div>
-          )}
-          pearling
-          minDistance={10}
-          withTracks
-        />
-      </div>
-      <div className='grid grid-cols-2'>
-        <div>
-          <h4 className='text-text-light dark:text-text-dark'>
-            Showing {filteredPosts.length} posts...
-          </h4>
+      <div className="sticky bg-pagebg-light dark:bg-pagebg-dark top-0 py-1">
+        <div className='grid grid-cols-2'>
+          <div>
+            <h4 className='text-text-light dark:text-text-dark'>
+              Showing {filteredPosts.length} posts
+            </h4>
+          </div>
+          <div className='text-right'>
+            <input
+              placeholder='Filter...'
+              type='text'
+              onChange={(e) => setFilter(e.target.value)}
+              className='rounded px-1 text-xs'
+            />
+          </div>
         </div>
-        <div className='text-right'>
-          <input
-            placeholder='Filter...'
-            type='text'
-            onChange={(e) => setFilter(e.target.value)}
-            className='rounded px-1 text-xs'
+        <DateBuckets dateBuckets={buckets} onBucketClick={onBucketClick} />
+        <div className='pb-8'>
+          <ReactSlider
+            onChange={(e) => handleSliderChange(e)}
+            className='mt-[-1rem]'
+            thumbClassName='text-xs font-bold w-10 rounded text-center mt-1 pt-1 pb-1 text-white dark:text-black bg-link-base-light dark:bg-link-base-dark hover:bg-link-hover-light hover:dark:bg-link-hover-dark cursor-pointer'
+            trackClassName='h-4 mt-4 ml-2 mr-2'
+            min={buckets.minDate}
+            max={buckets.maxDate}
+            value={[Number(minSlider), Number(maxSlider)]}
+            ariaLabel={['Lower thumb', 'Upper thumb']}
+            ariaValuetext={(state) =>
+              `Thumb value ${dayjs(state.valueNow).utc().format('YYYY')}`
+            }
+            renderThumb={(props, state) => (
+              <div {...props}>{dayjs(state.valueNow).utc().format('YYYY')}</div>
+            )}
+            pearling
+            minDistance={10}
+            withTracks
           />
         </div>
       </div>
-      <PostIndex className='max-w-2xl md:mt-8' posts={filteredPosts} />
+      <PostIndex className='max-w-2xl md:mt-6' posts={filteredPosts} />
     </>
   )
 }
