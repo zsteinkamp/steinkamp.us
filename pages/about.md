@@ -15,7 +15,7 @@ The server software is built on [Next.js](https://nextjs.org/) and extended with
 ## About Me
 
 ![Headshot](/images/headshot.jpg#right#round)
-I'm a [lifelong nerd](/posts/2021-05-22-computer-history), starting at age 7 in 1981 sitting for hours in awe of LOGO (Turtle Graphics) on an Apple ][, soon graduating to BASIC on a Commodore VIC-20 and then C64, and onward through the PC and Mac eras. 
+I'm a [lifelong nerd](/posts/2021-05-22-computer-history), starting at age 7 in 1981 sitting for hours in awe of LOGO (Turtle Graphics) on an Apple ][, soon graduating to BASIC on a Commodore VIC-20 and then C64, and onward through the PC and Mac eras.
 
 I started [working in technology](/resume) starting at age 17. I was lucky enough to hit the crest of the Internet revolution in the mid-late 1990s, being at the right place at the right time. My first "real" job out of school was at Yahoo!, then on to cofound a data visualization startup, then in various growing and pivoting companies in nearly every role and technical area possible.
 
