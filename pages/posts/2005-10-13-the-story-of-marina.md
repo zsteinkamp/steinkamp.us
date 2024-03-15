@@ -2,24 +2,14 @@
 layout: post
 title: The Story of Marina
 date: '2005-10-13 00:00:00'
-categories: post post
-entry:
-  id: 228
-  source: post
-  uid: 88
-  data:
-    title: The Story of Marina
-    excerpt:
-      A recap of the events leading up to, and including the birth of our beautiful
-      Marina.
-  created_at: '2010-08-30 05:16:38'
-  updated_at: '2010-08-30 05:16:38'
-  pub_date: '2005-10-13 00:00:00'
-  disabled: 0
+excerpt: |
+  A recap of the events leading up to, and including the birth of our beautiful
+  Marina.
+thumbnail: https://photos.steinkamp.us/photo/2006-05-24_marina-stands-crawls/CRW_1056.CRW?size=300x300
 ---
 
-Shortly after we returned from our Christmas/New Years <a
-href="/pictures/20041225-galapagos/">trip to the Galapagos</a>, Arti knew she
+Shortly after we returned from our Christmas/New Years
+[trip to the Galapagos](https://photos.steinkamp.us/2004-12-25_galapagos), Arti knew she
 was pregnant. A home pregnancy test and a trip to the doctor confirmed this.
 This was great news, since we had decided to take the next step and "pulled the
 goalie" a few months back. That was cool -- a baby conceived in the Land of
@@ -31,8 +21,8 @@ watch the tiny heart valves opening and closing so quickly. The
 magnitude of the situation hadn't really set in though. Our baby was just a little
 tadpole on a TV screen.
 
-In February, we took another trip -- this time we went to <a
-href="/pictures/20050214-kauai/">Kauai</a> with Derek &amp; Emily, as well as
+In February, we took another trip -- this time we went to
+[Kauai](https://photos.steinkamp.us/2005-02-14_kauai) with Derek & Emily, as well as
 Todd, Becca, Nate, and Chloe. This was a fantastic trip, and very relaxing.
 It was lots of fun to be in such a beautiful place with good friends and
 family. Arti was feeling a little bit of morning sickness at this point, but
@@ -41,8 +31,7 @@ precautions.
 
 One very quiet night in our cozy house I had a dream about our new baby. It
 was a quick dream -- very succinct. An old figure approached me on the bed
-from the other side of the room. [S]he said plainly <i>"you are going to have a
-daughter and you should name her Marina"</i>. This figure had visited me in dreams
+from the other side of the room. [S]he said plainly _"you are going to have a daughter and you should name her Marina"_. This figure had visited me in dreams
 before, and has given good advice, so I took this very seriously.
 
 I woke up immediately and woke up Arti. I told her about this dream. She thought
@@ -84,8 +73,7 @@ important member of her family. Since she was stuck with "Steinkamp" at the end 
 her name, an Indian name would be a good balance. After reviewing some candidates,
 I really liked her maternal grandmother's name "Kailash". It sounded nice,
 and I thought that it was a respectful gesture to Arti's grandmother. My
-friend AJ turned me on to the name's <a
-href="http://en.wikipedia.org/wiki/Mount_Kailash">significance</a>.
+friend AJ turned me on to the name's [significance](http://en.wikipedia.org/wiki/Mount_Kailash).
 
 The due date came and went with Arti feeling only mild, occasional
 Braxton-Hicks contractions. It was 9 days later that things really got
@@ -95,7 +83,8 @@ Arti knew something was brewing in her belly the morning of September 21. The co
 seemed to be coming from lower in her belly, and were a tiny bit sharper than the
 ones she had felt in the previous days. They still weren't sharp enough to stop
 her in her tracks, so we went about our day. The three of us went to lunch, and
-decided a walk would help jump-start things. While walking on the <a href="http://maps.google.com/maps?q=701+first+ave,+sunnyvale,+ca&ll=37.420404,-122.023226&spn=0.004582,0.011579&t=k&hl=en">paths behind Yahoo!</a>
+decided a walk would help jump-start things. While walking on the
+[paths behind Yahoo!](http://maps.google.com/maps?q=701+first+ave,+sunnyvale,+ca&ll=37.420404,-122.023226&spn=0.004582,0.011579&t=k&hl=en)
 the contractions got strong enough so that Arti had to pause to let it pass. We knew the time was near!
 
 At 5pm or so, things were really heating up. In the middle of a contraction,
