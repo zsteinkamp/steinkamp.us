@@ -5,7 +5,13 @@ export type IFrameProps = {
 }
 
 const IFrame: React.FC<IFrameProps> = ({ src, title, className }) => {
-  return (<iframe src={src} className={`w-full aspect-square ${className}`} title={title} />)
+  return (
+    <iframe
+      src={src}
+      className={`aspect-square w-full ${className}`}
+      title={title}
+    />
+  )
 }
 
 export default IFrame
