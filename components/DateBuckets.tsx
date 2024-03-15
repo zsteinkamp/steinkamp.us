@@ -30,6 +30,10 @@ const DateBuckets: React.FC<DateBucketsProps> = ({
     }
   }
 
+  //      <div className='absolute top-[0rem] hidden w-full group-hover:block '>
+  //        {bucketVal}
+  //      </div>
+
   const bucketKeys = Object.keys(dateBuckets.buckets)
   bucketKeys.sort()
   const bucketDivs = bucketKeys.map((key) => {
@@ -45,10 +49,7 @@ const DateBuckets: React.FC<DateBucketsProps> = ({
           className={`absolute left-0 bottom-0 w-full bg-shadeshadow-light group-hover:bg-shadeshadow-light dark:bg-mid-dark dark:group-hover:bg-mid-dark`}
           style={{ height: bucketPct }}
         />
-        <div className='absolute top-[-1rem] hidden w-full group-hover:block '>
-          {bucketVal}
-        </div>
-        <div className='absolute bottom-[-1rem] hidden w-full group-hover:block'>
+        <div className='absolute top-0 hidden w-full group-hover:block'>
           {dateBuckets.granularity &&
             dayjs(parseInt(key))
               .utc()
