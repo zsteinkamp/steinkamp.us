@@ -20,6 +20,10 @@ body {
   color-scheme: light;
 }
 
+.monoSvg path {
+  @apply fill-shadeshadow-light dark:fill-shadeshadow-dark;
+}
+
 h1,
 h2,
 h3,

@@ -28,7 +28,7 @@ const SiteLayout: React.FC<SiteLayoutProps> = ({ pageProps, children }) => {
         <link rel="alternate" type="application/atom+xml" title="ATOM Feed for steinkamp.us" href="/atom.xml" />
       </Head>
       <div className="md:flex">
-        <div className="md:flex-shrink-0 md:flex-grow-0 md:basis-auto shadow-lg md:bg-shadebg-light dark:md:bg-shadebg-dark md:shadow-xl dark:shadow-shadeshadow-dark shadow-shadeshadow-light">
+        <div className="md:flex-shrink-0 md:flex-grow-0 md:basis-auto shadow-lg bg-shadebg-light dark:bg-shadebg-dark md:shadow-xl dark:shadow-shadeshadow-dark shadow-shadeshadow-light">
           <SiteHeader />
         </div>
         <div className="md:pt-[2.8rem] pb-8 md:flex-grow md:flex-shrink ml-4 mr-4 md:ml-12 md:mr-12 md:max-w-2xl min-h-screen">

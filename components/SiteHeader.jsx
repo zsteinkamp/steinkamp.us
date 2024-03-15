@@ -2,6 +2,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import ThemeSwitcher from '@/components/ThemeSwitcher'
+import Mono from '@/components/Mono'
 
 const SiteHeader = ({ className = '' }) => {
   const links = [
@@ -16,31 +17,18 @@ const SiteHeader = ({ className = '' }) => {
   return (
     <>
       <header
-        className={`noprint ml-4 mb-4 flex h-[4.5rem] items-center border-b-2 border-border-light dark:border-border-dark md:sticky md:top-12 md:mt-12 md:ml-0 md:mr-4 md:w-[12rem] md:flex-col md:border-b-0 ${className}`}
+        className={`noprint relative ml-4 mb-4 flex h-[4.5rem] items-center border-b-2 border-border-light dark:border-border-dark md:sticky md:top-[3.25rem] md:mt-[3.25rem] md:ml-0 md:mr-4 md:w-[12rem] md:flex-col md:border-b-0 ${className}`}
       >
-        <figure title='steinkamp.us' className='relative'>
-          <div className='text-center font-header text-xl font-bold md:mb-2 md:mt-[-1.25rem]'>
+        <figure title='steinkamp.us' className=''>
+          <div className='absolute top-0 left-[-1rem] mr-2 w-12 md:top-[-10.5rem] md:left-0 md:mr-0 md:w-[13rem]'>
+            <Mono />
+          </div>
+          <div className='text-center md:mb-2 md:mt-0'>
             <Link
               href={'/'}
               className='flex items-center whitespace-nowrap md:flex-col md:whitespace-normal md:[word-spacing:5rem]'
             >
-              <div className='mr-2 w-12 md:mx-10 md:w-[6rem]'>
-                <Image
-                  width='833'
-                  height='700'
-                  src='/images/wave-h.png'
-                  className='inline aspect-[833/700] dark:hidden'
-                  alt='steinkamp.us'
-                />
-                <Image
-                  width='833'
-                  height='700'
-                  src='/images/wave-w.png'
-                  className='hidden aspect-[833/700] dark:inline'
-                  alt='steinkamp.us'
-                />
-              </div>
-              <div className='leading-12 text-2xl md:text-base'>
+              <div className='leading-12 z-10 font-header text-2xl'>
                 steinkamp.us
               </div>
             </Link>

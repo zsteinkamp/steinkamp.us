@@ -80,7 +80,7 @@ const Index: React.FC<IndexProps> = ({ posts, buckets }) => {
 
   return (
     <>
-      <div className='sticky top-0 bg-pagebg-light py-1 dark:bg-pagebg-dark'>
+      <div className='sticky top-0 bg-pagebg-light pt-[0.9rem] dark:bg-pagebg-dark'>
         <div className='grid grid-cols-2'>
           <div>
             <h4 className='text-text-light dark:text-text-dark'>
@@ -97,7 +97,7 @@ const Index: React.FC<IndexProps> = ({ posts, buckets }) => {
           </div>
         </div>
         <DateBuckets dateBuckets={buckets} onBucketClick={onBucketClick} />
-        <div className='pb-8'>
+        <div className='pb-10'>
           <ReactSlider
             onChange={(e) => handleSliderChange(e)}
             className='mt-[-1rem]'
