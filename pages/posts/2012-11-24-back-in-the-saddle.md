@@ -21,7 +21,7 @@ My initial plan was to follow the O50K course up and over Mission Peak then run 
 
 Here's the route:
 
-<iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?msa=0&amp;msid=204175310944031498999.0004cf434739fb2405362&amp;ie=UTF8&amp;t=f&amp;ll=37.509045,-121.893654&amp;spn=0.032681,0.054932&amp;z=14&amp;ecpose=37.48237593,-121.89365387,3296.71,0,44.973,0&amp;output=embed"></iframe><br /><small>View <a href="https://maps.google.com/maps/ms?msa=0&amp;msid=204175310944031498999.0004cf434739fb2405362&amp;ie=UTF8&amp;t=f&amp;ll=37.509045,-121.893654&amp;spn=0.032681,0.054932&amp;z=14&amp;ecpose=37.48237593,-121.89365387,3296.71,0,44.973,0&amp;source=embed" style="color:#0000FF;text-align:left">Mission Peak 10 Miles</a> in a larger map</small>
+{% iframe src="https://maps.google.com/maps/ms?msa=0&msid=204175310944031498999.0004cf434739fb2405362&ie=UTF8&t=f&ll=37.509045,-121.893654&spn=0.032681,0.054932&z=14&ecpose=37.48237593,-121.89365387,3296.71,0,44.973,0&output=embed" title="Mission Peak 10 Miles" %}
 
 Arti and I went to Zombie Runner last night to pick up a new pair of shoes -- I ended up getting a pair of [Altra Running Superior](http://www.zombierunner.com/store/brands/altra_running/product4349.html) shoes to try out. I've enjoyed the Minimus that I've been running in, but mine are about a half size too short and I was going to experiment with something with a little more cushion. The Altras in 13 fit the bill. I'm normally 11.5 but running downhill demands some extra toe space. The Altras have a nice roomy toe box, and are made of some really great feeling materials.
 
