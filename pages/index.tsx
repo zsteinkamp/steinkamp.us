@@ -69,20 +69,18 @@ const Index: React.FC<IndexProps> = ({ posts, buckets }) => {
   }, [minSlider, maxSlider, filter])
 
   const onBucketClick = (ts: number) => {
-    console.log('TOP', { type: typeof ts, ts })
     if (!buckets.granularity) {
       return
     }
     const maxdjs = dayjs(ts).utc().endOf(buckets.granularity)
     const maxval = maxdjs.valueOf()
-    console.log('SET MAX SLIDER', { type: typeof ts, ts, maxval, maxdjs })
     setMinSlider(ts)
     setMaxSlider(maxval)
   }
 
   return (
     <>
-      <div className="sticky bg-pagebg-light dark:bg-pagebg-dark top-0 py-1">
+      <div className='sticky top-0 bg-pagebg-light py-1 dark:bg-pagebg-dark'>
         <div className='grid grid-cols-2'>
           <div>
             <h4 className='text-text-light dark:text-text-dark'>
