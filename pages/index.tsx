@@ -38,13 +38,9 @@ const hasSessionStorage = () => {
 }
 
 const Index: React.FC<IndexProps> = ({ posts, buckets }) => {
-  const initMinDate = hasSessionStorage() && parseInt(window.sessionStorage.getItem(SSK_MIN_DATE) || '0') || buckets.minDate
-  const initMaxDate = hasSessionStorage() && parseInt(window.sessionStorage.getItem(SSK_MAX_DATE) || '0') || buckets.maxDate
-  const initFilter = hasSessionStorage() && window.sessionStorage.getItem(SSK_FILTER) || ''
-
-  const [minSlider, setMinSlider] = useState(initMinDate)
-  const [maxSlider, setMaxSlider] = useState(initMaxDate)
-  const [filter, setFilter] = useState(initFilter)
+  const [minSlider, setMinSlider] = useState(buckets.minDate)
+  const [maxSlider, setMaxSlider] = useState(buckets.maxDate)
+  const [filter, setFilter] = useState('')
   const [filteredPosts, setFilteredPosts] = useState(posts)
 
   const updateMinSlider = (val: number) => {
@@ -59,6 +55,14 @@ const Index: React.FC<IndexProps> = ({ posts, buckets }) => {
     hasSessionStorage() && window.sessionStorage.setItem(SSK_FILTER, filterVal)
     setFilter(filterVal)
   }
+
+  useEffect(() => {
+    if (hasSessionStorage()) {
+      updateMinSlider(parseInt(window.sessionStorage.getItem(SSK_MIN_DATE) || '0') || buckets.minDate)
+      updateMaxSlider(parseInt(window.sessionStorage.getItem(SSK_MAX_DATE) || '0') || buckets.maxDate)
+      updateFilterVal(window.sessionStorage.getItem(SSK_FILTER) || '')
+    }
+  }, [])
 
   const handleSliderChange = (e: number[]) => {
     if (undefined === buckets.granularity) {
