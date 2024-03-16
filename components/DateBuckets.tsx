@@ -43,10 +43,10 @@ const DateBuckets: React.FC<DateBucketsProps> = ({
       <div
         key={key}
         onClick={() => onBucketClick && onBucketClick(parseInt(key))}
-        className='group relative h-12 cursor-pointer bg-pagebg-light text-center font-sans text-xs font-normal uppercase dark:bg-pagebg-dark'
+        className='group relative h-12 cursor-pointer bg-pagebg text-center font-sans text-xs font-normal uppercase'
       >
         <div
-          className={`absolute left-0 bottom-0 w-full bg-shadeshadow-light group-hover:bg-shadeshadow-light dark:bg-mid-dark dark:group-hover:bg-mid-dark`}
+          className={`absolute left-0 bottom-0 w-full bg-shadeshadow group-hover:bg-shadeshadow`}
           style={{ height: bucketPct }}
         />
         <div className='absolute top-0 hidden w-full group-hover:block'>

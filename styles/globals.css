@@ -7,21 +7,140 @@
 
 .TableOfContents,
 body {
-  @apply bg-pagebg-light text-text-light dark:bg-pagebg-dark dark:text-text-dark;
+  @apply bg-pagebg text-text;
 }
 * {
   transition: background-color 0.2s;
 }
 
+/*
+  const shade = colors.stone
+  const linkbase = colors.sky
+
+  const shade: {
+    '50': "#fafaf9";
+    '100': "#f5f5f4";
+    '200': "#e7e5e4";
+    '300': "#d6d3d1";
+    '400': "#a8a29e";
+    '500': "#78716c";
+    '600': "#57534e";
+    '700': "#44403c";
+    '800': "#292524";
+    '900': "#1c1917";
+  }
+
+  const linkbase: {
+    '50': "#f0f9ff";
+    '100': "#e0f2fe";
+    '200': "#bae6fd";
+    '300': "#7dd3fc";
+    '400': "#38bdf8";
+    '500': "#0ea5e9";
+    '600': "#0284c7";
+    '700': "#0369a1";
+    '800': "#075985";
+    '900': "#0c4a6e";
+  }
+
+  DefaultColors.orange: {
+    '50': "#fff7ed";
+    '100': "#ffedd5";
+    '200': "#fed7aa";
+    '300': "#fdba74";
+    '400': "#fb923c";
+    '500': "#f97316";
+    '600': "#ea580c";
+    '700': "#c2410c";
+    '800': "#9a3412";
+    '900': "#7c2d12";
+  }
+
+  pagebg: { dark: shade['900'], light: shade['100'] },
+  shadebg: { dark: shade['800'], light: shade['200'] },
+  shadeshadow: { dark: colors.black, light: shade['300'] },
+  shadetext: { dark: shade['400'], light: shade['600'] },
+  border: { dark: shade['800'], light: shade['200'] },
+  text: { dark: shade['400'], light: shade['500'] },
+  date: { dark: shade['500'], light: shade['500'] },
+  themetoggle: {
+    dark: linkbase['700'],
+    light: colors.orange['400'],
+    hover: {
+      light: colors.orange['400'],
+      dark: linkbase['600'],
+    },
+  },
+  mid: { dark: shade['600'], light: shade['800'] },
+  header: { dark: shade['200'], light: shade['900'] },
+  link: {
+    base: { dark: linkbase['600'], light: linkbase['700'] },
+    visited: { dark: linkbase['600'], light: linkbase['700'] },
+    hover: { dark: linkbase['300'], light: linkbase['500'] },
+  },
+*/
+
+:root {
+  color-scheme: light;
+  --shade-50: #fafaf9;
+  --shade-100: #f5f5f4;
+  --shade-200: #e7e5e4;
+  --shade-300: #d6d3d1;
+  --shade-400: #a8a29e;
+  --shade-500: #78716c;
+  --shade-600: #57534e;
+  --shade-700: #44403c;
+  --shade-800: #292524;
+  --shade-900: #1c1917;
+
+  --link-50: #f0f9ff;
+  --link-100: #e0f2fe;
+  --link-200: #bae6fd;
+  --link-300: #7dd3fc;
+  --link-400: #38bdf8;
+  --link-500: #0ea5e9;
+  --link-600: #0284c7;
+  --link-700: #0369a1;
+  --link-800: #075985;
+  --link-900: #0c4a6e;
+
+  --pagebg: var(--shade-100);
+  --shadebg: var(--shade-200);
+  --shadeshadow: var(--shade-300);
+  --shadetext: var(--shade-600);
+  --border: var(--shade-200);
+  --text: var(--shade-500);
+  --date: var(--shade-500);
+  --themetoggle: #fb923c; /* colors.orange['400'] */
+  --themetoggle-hover: #fdba74; /* colors.orange['300'] */
+  --mid: var(--shade-800);
+  --header: var(--shade-900);
+  --link-base: var(--link-700);
+  --link-visited: var(--link-700);
+  --link-hover: var(--link-500);
+  --thumb-text: white;
+}
 :root.dark {
   color-scheme: dark;
-}
-:root.light {
-  color-scheme: light;
+  --pagebg: var(--shade-900);
+  --shadebg: var(--shade-800);
+  --shadeshadow: black;
+  --shadetext: var(--shade-400);
+  --border: var(--shade-800);
+  --text: var(--shade-400);
+  --date: var(--shade-500);
+  --themetoggle: var(--link-700);
+  --themetoggle-hover: var(--link-600);
+  --mid: var(--link-600);
+  --header: var(--link-200);
+  --link-base: var(--link-600);
+  --link-visited: var(--link-600);
+  --link-hover: var(--link-300);
+  --thumb-text: black;
 }
 
 .monoSvg path {
-  @apply fill-shadeshadow-light dark:fill-shadeshadow-dark;
+  @apply fill-shadeshadow;
 }
 
 h1,
@@ -31,7 +150,7 @@ h4,
 h5,
 h6,
 h7 {
-  @apply font-header text-header-light dark:text-header-dark;
+  @apply font-header text-header;
 }
 
 /* Document level adjustments */
@@ -47,7 +166,7 @@ img[src*='#round'] {
 }
 .link,
 a {
-  @apply text-link-base-light transition-colors duration-200 visited:text-link-visited-light hover:text-link-hover-light dark:text-link-base-dark dark:visited:text-link-visited-dark dark:hover:text-link-hover-dark;
+  @apply text-link-base visited:text-link-visited hover:text-link-hover transition-colors duration-200;
 }
 h1 {
   @apply text-3xl font-bold md:text-4xl;
@@ -88,13 +207,13 @@ article pre {
   margin-bottom: 2rem;
   padding: 1rem;
   overflow-x: auto;
-  @apply bg-shadebg-light dark:bg-shadebg-dark;
+  @apply bg-shadebg;
 }
 article code {
   padding: 0.25rem;
   border-radius: 0.5rem;
   border-width: 1px;
-  @apply border-border-light bg-shadebg-light dark:border-border-dark dark:bg-shadebg-dark;
+  @apply border-border bg-shadebg;
 }
 article .half-height img {
   max-height: 30rem;
@@ -109,7 +228,7 @@ article blockquote {
   padding: 2rem 2rem 0.1rem 2rem;
   margin-bottom: 2rem;
   font-style: italic;
-  @apply bg-shadebg-light dark:bg-shadebg-dark;
+  @apply bg-shadebg;
 }
 button {
   @apply cursor-pointer;
@@ -122,7 +241,7 @@ button {
 .resume h2 {
   margin-bottom: 1rem;
   border-bottom: 2px solid;
-  @apply border-border-light dark:border-border-dark;
+  @apply border-border;
 }
 .resume .job-date {
   float: right;

@@ -174,3 +174,5 @@ reactions to things, or how she recognized me or Arti.
 
 I'm sure I'll have lots more stories to tell. I wanted to get this one down
 though so that one day Marina can read it.
+
+![Marina Hams](https://photos.steinkamp.us/photo/2005-12-02_polkadot/CRW_9779-marina_four.jpg?size=1600x1600)

@@ -80,10 +80,10 @@ const Index: React.FC<IndexProps> = ({ posts, buckets }) => {
 
   return (
     <>
-      <div className='sticky top-0 bg-pagebg-light pt-[0.9rem] dark:bg-pagebg-dark'>
+      <div className='sticky top-0 bg-pagebg pt-[0.9rem]'>
         <div className='grid grid-cols-2'>
           <div>
-            <h4 className='text-text-light dark:text-text-dark'>
+            <h4 className='text-text'>
               Showing {filteredPosts.length} posts
             </h4>
           </div>
@@ -101,7 +101,10 @@ const Index: React.FC<IndexProps> = ({ posts, buckets }) => {
           <ReactSlider
             onChange={(e) => handleSliderChange(e)}
             className='mt-[-1rem]'
-            thumbClassName='text-xs font-bold w-10 rounded text-center mt-1 pt-1 pb-1 text-white dark:text-black bg-link-base-light dark:bg-link-base-dark hover:bg-link-hover-light hover:dark:bg-link-hover-dark cursor-pointer'
+            thumbClassName='
+              text-xs font-bold w-10 rounded text-center mt-1 pt-1
+              pb-1 bg-link-base text-thumb-text hover:bg-link-hover cursor-pointer
+              '
             trackClassName='h-4 mt-4 ml-2 mr-2'
             min={buckets.minDate}
             max={buckets.maxDate}

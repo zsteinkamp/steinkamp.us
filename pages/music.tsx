@@ -37,7 +37,7 @@ const Songs: React.FC<SongsProps> = ({ data }) => {
 
     return (
       <div key={i} className='grid grid-cols-4'>
-        <h4 className='pr-8 pt-2 text-right text-date-light dark:text-date-dark'>
+        <h4 className='pr-8 pt-2 text-right text-date'>
           {song.date}
         </h4>
         <div className='col-span-3 '>

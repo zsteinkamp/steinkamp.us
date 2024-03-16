@@ -43,7 +43,7 @@ const PostLayout: React.FC<PostLayoutProps> = ({ pageProps, children }) => {
         <h1 className="">
           {title}
         </h1>
-        <div className="mb-8 text-date-light dark:text-date-dark">{fmtDate}</div>
+        <div className="mb-8 text-date">{fmtDate}</div>
         <div className="mb-16">{children}</div>
         <Giscus
           repo="zsteinkamp/steinkamp.us"
