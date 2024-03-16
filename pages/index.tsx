@@ -44,11 +44,13 @@ const Index: React.FC<IndexProps> = ({ posts, buckets }) => {
   const [filteredPosts, setFilteredPosts] = useState(posts)
 
   const updateMinSlider = (val: number) => {
-    hasSessionStorage() && window.sessionStorage.setItem(SSK_MIN_DATE, val.toString())
+    hasSessionStorage() &&
+      window.sessionStorage.setItem(SSK_MIN_DATE, val.toString())
     setMinSlider(val)
   }
   const updateMaxSlider = (val: number) => {
-    hasSessionStorage() && window.sessionStorage.setItem(SSK_MAX_DATE, val.toString())
+    hasSessionStorage() &&
+      window.sessionStorage.setItem(SSK_MAX_DATE, val.toString())
     setMaxSlider(val)
   }
   const updateFilterVal = (filterVal: string) => {
@@ -58,8 +60,14 @@ const Index: React.FC<IndexProps> = ({ posts, buckets }) => {
 
   useEffect(() => {
     if (hasSessionStorage()) {
-      updateMinSlider(parseInt(window.sessionStorage.getItem(SSK_MIN_DATE) || '0') || buckets.minDate)
-      updateMaxSlider(parseInt(window.sessionStorage.getItem(SSK_MAX_DATE) || '0') || buckets.maxDate)
+      updateMinSlider(
+        parseInt(window.sessionStorage.getItem(SSK_MIN_DATE) || '0') ||
+          buckets.minDate
+      )
+      updateMaxSlider(
+        parseInt(window.sessionStorage.getItem(SSK_MAX_DATE) || '0') ||
+          buckets.maxDate
+      )
       updateFilterVal(window.sessionStorage.getItem(SSK_FILTER) || '')
     }
   }, [])
@@ -68,7 +76,10 @@ const Index: React.FC<IndexProps> = ({ posts, buckets }) => {
     if (undefined === buckets.granularity) {
       return
     }
-    const minSliderVal = dayjs(e[0]).utc().startOf(buckets.granularity).valueOf()
+    const minSliderVal = dayjs(e[0])
+      .utc()
+      .startOf(buckets.granularity)
+      .valueOf()
     const maxSliderVal = dayjs(e[1]).utc().endOf(buckets.granularity).valueOf()
     updateMinSlider(minSliderVal)
     updateMaxSlider(maxSliderVal)
