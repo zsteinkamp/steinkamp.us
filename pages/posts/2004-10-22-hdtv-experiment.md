@@ -2,18 +2,8 @@
 layout: post
 title: HDTV Experiment
 date: '2004-10-22 00:22:18'
-categories: post post
-entry:
-  id: 201
-  source: post
-  uid: 61
-  data:
-    title: HDTV Experiment
-    excerpt: ''
-  created_at: '2010-08-30 05:16:38'
-  updated_at: '2010-08-30 05:16:38'
-  pub_date: '2004-10-22 00:22:18'
-  disabled: 0
+tags:
+  - Nerd
 ---
 
 So we have this big <a href='http://www.sharpusa.com/products/ModelLanding/0,1058,1040,00.html'>LCD TV</a> in the living room. It has

@@ -2,18 +2,8 @@
 layout: post
 title: Hello From Singapore
 date: '2004-08-01 20:57:14'
-categories: post post
-entry:
-  id: 186
-  source: post
-  uid: 46
-  data:
-    title: Hello From Singapore
-    excerpt: ''
-  created_at: '2010-08-30 05:16:37'
-  updated_at: '2010-08-30 05:16:37'
-  pub_date: '2004-08-01 20:57:14'
-  disabled: 0
+tags:
+  - Travel
 ---
 
 Greetings from the Singapore International Airport.

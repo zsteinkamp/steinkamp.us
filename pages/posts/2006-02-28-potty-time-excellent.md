@@ -2,21 +2,12 @@
 layout: post
 title: Potty Time, Excellent
 date: '2006-02-28 17:00:00'
-categories: post post
-entry:
-  id: 233
-  source: post
-  uid: 93
-  data:
-    title: Potty Time, Excellent
-    excerpt:
-      Toilet train an infant?  Unheard of in disposable American diaper culture,
-      most babies around the world are potty trained by the time they are a year old.  We
-      decided we would get Marina on the track to becoming Diaper Free...
-  created_at: '2010-08-30 05:16:38'
-  updated_at: '2010-08-30 05:16:38'
-  pub_date: '2006-02-28 17:00:00'
-  disabled: 0
+excerpt: |
+  Toilet train an infant?  Unheard of in disposable American diaper culture,
+  most babies around the world are potty trained by the time they are a year old.  We
+  decided we would get Marina on the track to becoming Diaper Free...
+tags:
+  - Family
 ---
 
 <img align='right' src='/images/marina_diaper_free.jpg' alt='Marina on her potty.' style='border:1px solid black'>Zack and I decided early on that when Marina could

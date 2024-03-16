@@ -2,23 +2,14 @@
 layout: post
 title: Takes Two (Cores) To Tango
 date: '2006-04-16 19:00:00'
-categories: post post
-entry:
-  id: 235
-  source: post
-  uid: 95
-  data:
-    title: Takes Two (Cores) To Tango
-    excerpt:
-      Apple's new Intel-based Mac Minis are all they are cracked up to be,
-      and then some...
-  created_at: '2010-08-30 05:16:38'
-  updated_at: '2010-08-30 05:16:38'
-  pub_date: '2006-04-16 19:00:00'
-  disabled: 0
+excerpt: |
+  Apple's new Intel-based Mac Minis are all they are cracked up to be,
+  and then some...
+tags:
+  - Nerd
 ---
 
-<h1>January 2005</h1>
+## January 2005
 I stood in line at 6AM in Valley Fair in January 2005 to be one of the first
 people to get the original Power PC Mac Minis, and was rewarded with a
 fantastic computer that became the computing hub of the house.  After attaching
@@ -29,7 +20,7 @@ would use Photoshop to work on images, Live and Reason to compose music.  It
 did it all, and now they are telling me that the new one is four times
 faster?!?!  Where do I sign up?
 
-<h1>February 2006</h1>
+## February 2006
 <a href="/pictures/20060318-mac_mini/"><img align="right" 
 src="/pictures/20060318-mac_mini/images/CRW_0429.jpg" 
 width="300" height="200"></a>I've been waiting for this day for a long time.  
@@ -50,7 +41,7 @@ slightly slower than the old Mini. Not a big problem, since most things I use ar
 now for both Intel and PowerPC. A notable exception is Photoshop, but I can work around that
 for now.
 
-<h1>April 2006</h1>
+## April 2006
 "duomini" has been a pleasure to use each day.  It makes my G4 PowerBook and old Mini
 feel sluggish.  The <a href='http://labs.macromedia.com/technologies/lightroom/'>Lightroom</a>
 beta is my new favorite software.  I really don't feel the need to use Photoshop for

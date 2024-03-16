@@ -3,20 +3,13 @@ layout: post
 title: 25 Days of Thunderhill
 date: '2006-12-05 00:00:00'
 categories: post post
-entry:
-  id: 246
-  source: post
-  uid: 106
-  data:
-    title: 25 Days of Thunderhill
-    excerpt:
-      I managed to hook up with the Car and Driver / BMW of North America team
-      that raced in the 25 Hours of Thunderhill endurance race in two 335d Diesel
-      race cars.
-  created_at: '2010-08-30 05:16:38'
-  updated_at: '2010-08-30 05:16:38'
-  pub_date: '2006-12-05 00:00:00'
-  disabled: 0
+excerpt: |
+  I managed to hook up with the Car and Driver / BMW of North America team
+  that raced in the 25 Hours of Thunderhill endurance race in two 335d Diesel
+  race cars.
+tags:
+  - Cars
+  - Driving
 ---
 
 NASA held its annual "25 Hours of Thunderhill" race this past Saturday and

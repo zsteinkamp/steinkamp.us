@@ -1,22 +1,14 @@
 ---
 layout: post
-title: Wowsers!  Ground Control Coilover Kit Rules!
+title: Wow!  Ground Control Coilover Kit Rules!
 date: '2005-08-13 00:21:00'
-categories: post post
-entry:
-  id: 227
-  source: post
-  uid: 87
-  data:
-    title: Wowsers!  Ground Control Coilover Kit Rules!
-    excerpt:
-      'If you are thinking that your E46 M3 doesn''t quite have "the handles",
-      read on.  By using a good quality suspension system, the car can be transformed
-      from "Capable GT Car" to "OMGWTFBBQ Handling Machine". '
-  created_at: '2010-08-30 05:16:38'
-  updated_at: '2010-08-30 05:16:38'
-  pub_date: '2005-08-13 00:21:00'
-  disabled: 0
+excerpt: |
+  'If you are thinking that your E46 M3 doesn''t quite have "the handles",
+  read on.  By using a good quality suspension system, the car can be transformed
+  from "Capable GT Car" to "OMGWTFBBQ Handling Machine". '
+tags:
+  - Cars
+  - Driving
 ---
 
 During last weekend's BMW CCA Car Control Clinic, I realized that the BMW tuned

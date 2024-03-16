@@ -2,20 +2,13 @@
 layout: post
 title: In-Car Camera 2.0
 date: '2006-09-03 17:00:00'
-categories: post post
-entry:
-  id: 244
-  source: post
-  uid: 104
-  data:
-    title: In-Car Camera 2.0
-    excerpt:
-      The latest revision of my quest to get the best possible setup for putting
-      a camera in/on the car.
-  created_at: '2010-08-30 05:16:38'
-  updated_at: '2010-08-30 05:16:38'
-  pub_date: '2006-09-03 17:00:00'
-  disabled: 0
+excerpt: |
+  The latest revision of my quest to get the best possible setup for putting
+  a camera in/on the car.
+tags:
+  - Cars
+  - Driving
+  - Nerd
 ---
 
 Just finished putting together some pieces for my "2.0" version in-car setup.

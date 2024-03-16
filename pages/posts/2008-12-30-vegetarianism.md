@@ -2,6 +2,10 @@
 layout: post
 title: Vegetarianism
 date: '2008-12-30 16:59:15'
+tags:
+- Cooking
+- Memories
+- Dreams
 ---
 
 Such a lame blog title I know. "Great, another self-absorbed hippie with a blog". Well, maybe. Anyhow, this is the story.

@@ -2,20 +2,12 @@
 layout: post
 title: Thunderhill NCRC Recap
 date: '2006-05-09 00:00:00'
-categories: post post
-entry:
-  id: 236
-  source: post
-  uid: 96
-  data:
-    title: Thunderhill NCRC Recap
-    excerpt:
-      This could very well have been the ideal day at the track.  Great company,
-      great cars, great weather, and lots of learning was done.
-  created_at: '2010-08-30 05:16:38'
-  updated_at: '2010-08-30 05:16:38'
-  pub_date: '2006-05-09 00:00:00'
-  disabled: 0
+excerpt: |
+  This could very well have been the ideal day at the track.  Great company,
+  great cars, great weather, and lots of learning was done.
+tags:
+  - Cars
+  - Driving
 ---
 
 What a fantastic day at Thunderhill! High 70's, clear skies, green grass -- it doesn't get much better than that up in Willows.I met my folks at the Best Western in Willows on Thursday evening. They had driven down from Washington, and were visiting family in Chico. It's a half-hour drive from there to Willows. <a href='http://johnr.com/'>JohnR</a> and I caravaned up from the Bay Area for the event.

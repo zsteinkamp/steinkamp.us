@@ -2,18 +2,10 @@
 layout: post
 title: Infineon Coastal Driving Recap
 date: '2006-06-06 10:00:00'
-categories: post post
-entry:
-  id: 239
-  source: post
-  uid: 99
-  data:
-    title: Infineon Coastal Driving Recap
-    excerpt: Another great day at the track.  The mysteries of Sears are slowly unlocked...
-  created_at: '2010-08-30 05:16:38'
-  updated_at: '2010-08-30 05:16:38'
-  pub_date: '2006-06-06 10:00:00'
-  disabled: 0
+excerpt: Another great day at the track.  The mysteries of Sears are slowly unlocked...
+tags:
+  - Cars
+  - Driving
 ---
 
 Back now from a great day at Infineon with the <a href='http://coastaldriving.org/'>PCA Coastal Driving School</a>. They're an outfit associated with the Porsche Club of America's Monterey Bay and Loma Prieta regions.

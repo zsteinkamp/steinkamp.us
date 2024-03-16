@@ -103,6 +103,7 @@ export default function getDateBuckets(
   ret.minDate = minDate.valueOf()
   ret.maxDate = maxDate.valueOf()
   ret.tags = Object.keys(tagsObj)
+  ret.tags.sort()
 
   //console.log({ ret })
 

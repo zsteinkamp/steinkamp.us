@@ -2,18 +2,8 @@
 layout: post
 title: The Nobot is Headed to India
 date: '2004-07-31 09:49:12'
-categories: post post
-entry:
-  id: 162
-  source: post
-  uid: 22
-  data:
-    title: The Nobot is Headed to India
-    excerpt: ''
-  created_at: '2010-08-30 05:16:37'
-  updated_at: '2010-08-30 05:16:37'
-  pub_date: '2004-07-31 09:49:12'
-  disabled: 0
+tags:
+  - Travel
 ---
 
 Well, today's the day we pack up our stuff for a three

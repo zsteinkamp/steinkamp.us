@@ -2,18 +2,9 @@
 layout: post
 title: Goodbye Yahoo!, Hello Pinger!
 date: '2007-01-12 00:00:00'
-categories: post post
-entry:
-  id: 250
-  source: post
-  uid: 110
-  data:
-    title: Goodbye Yahoo!, Hello Pinger!
-    excerpt: ''
-  created_at: '2010-08-30 05:16:38'
-  updated_at: '2010-08-30 05:16:38'
-  pub_date: '2007-01-12 00:00:00'
-  disabled: 0
+tags:
+- Work
+- Software
 ---
 
 I start my new job this coming Monday!

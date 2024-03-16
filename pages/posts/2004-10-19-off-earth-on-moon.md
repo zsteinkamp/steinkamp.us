@@ -2,18 +2,9 @@
 layout: post
 title: Off-Earth / On-Moon
 date: '2004-10-19 23:20:05'
-categories: post post
-entry:
-  id: 200
-  source: post
-  uid: 60
-  data:
-    title: Off-Earth / On-Moon
-    excerpt: ''
-  created_at: '2010-08-30 05:16:38'
-  updated_at: '2010-08-30 05:16:38'
-  pub_date: '2004-10-19 23:20:05'
-  disabled: 0
+tags:
+  - Memories
+  - Dreams
 ---
 
 Had to write this down -- it was the first dream I had

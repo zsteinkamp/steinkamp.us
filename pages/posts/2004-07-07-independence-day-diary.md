@@ -2,18 +2,9 @@
 layout: post
 title: Independence Day Diary
 date: '2004-07-07 22:43:09'
-categories: post post
-entry:
-  id: 158
-  source: post
-  uid: 18
-  data:
-    title: Independence Day Diary
-    excerpt: ''
-  created_at: '2010-08-30 05:16:37'
-  updated_at: '2010-08-30 05:16:37'
-  pub_date: '2004-07-07 22:43:09'
-  disabled: 0
+tags:
+  - Memories
+  - Family
 ---
 
 Went home from work friday feeling prety low. I had the achy

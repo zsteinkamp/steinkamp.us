@@ -3,20 +3,13 @@ layout: post
 title: New FCABs and RTABs or The Search for Steering Feel
 date: '2006-07-19 20:00:00'
 categories: post post
-entry:
-  id: 241
-  source: post
-  uid: 101
-  data:
-    title: New FCABs and RTABs or The Search for Steering Feel
-    excerpt:
-      We tell the story of one man's quest to make a BMW feel like a Porsche.  It's
-      a wild ride that is sure to keep every member of the family on their edge of
-      their seats!
-  created_at: '2010-08-30 05:16:38'
-  updated_at: '2010-08-30 05:16:38'
-  pub_date: '2006-07-19 20:00:00'
-  disabled: 0
+excerpt: |
+  We tell the story of one man's quest to make a BMW feel like a Porsche.  It's
+  a wild ride that is sure to keep every member of the family on their edge of
+  their seats!
+tags:
+  - Cars
+  - Driving
 ---
 
 Porsches have ruined me for other cars. Every time I'm able to drive one, I realize just a little bit more of the magic of what makes people coo-coo for them.

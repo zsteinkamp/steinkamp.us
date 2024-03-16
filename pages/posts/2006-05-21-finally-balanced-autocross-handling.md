@@ -2,33 +2,24 @@
 layout: post
 title: Finally!  Balanced Autocross Handling
 date: '2006-05-21 09:00:00'
-categories: post post
-entry:
-  id: 237
-  source: post
-  uid: 97
-  data:
-    title: Finally!  Balanced Autocross Handling
-    excerpt:
-      The M3 is now dialed in for good times on the autocross course.  Read
-      on to learn some things that will help your E46 M3 get around those cones!
-  created_at: '2010-08-30 05:16:38'
-  updated_at: '2010-08-30 05:16:38'
-  pub_date: '2006-05-21 09:00:00'
-  disabled: 0
+excerpt: |
+  The M3 is now dialed in for good times on the autocross course.  Read
+  on to learn some things that will help your E46 M3 get around those cones!
+tags:
+  - Cars
+  - Driving
 ---
 
 I've been doing HPDE events at local race tracks for the past 10 months in my 05 ZCP, and have been pretty happy with how the car felt at higher speeds. Prior to this past week, I've had the following modifications to the car:
 
-<ul>
-<li>GC Coilovers (Single Adjustable Konis, 440f / 550r)
-<li>GC Camber plates
-<li>Front end: Camber: -2.6 deg, zero toe
-<li>Rear end: Camber: -2.0 deg (the minimum for the ride height), 1/16 toe in
-<li>Motul RBF-600 brake fluid
-<li>Stoptech SS braided teflon lines
-<li>PF-01 pads on the front (Axxis Ultimate for Auto-X)
-</ul>
+- GC Coilovers (Single Adjustable Konis, 440f / 550r)
+- GC Camber plates
+- Front end: Camber: -2.6 deg, zero toe
+- Rear end: Camber: -2.0 deg (the minimum for the ride height), 1/16 toe in
+- Motul RBF-600 brake fluid
+- Stoptech SS braided teflon lines
+- PF-01 pads on the front (Axxis Ultimate for Auto-X)
+
 Autocrossing on this setup left a bit to be desired.  The safety-biased handling that works well for my intermediate level skills at higher speeds  just turns piggish at autocross speeds.
 
 At last month's autocross, my first practice run was my best time for the day. That's pathetic. It showed me that I was trying to drive WAY to fast, and just overdriving the understeering balance of the car.

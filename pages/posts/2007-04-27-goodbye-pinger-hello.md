@@ -1,19 +1,11 @@
 ---
 layout: post
-title: Goodbye Pinger, Hello ____!
+title: Goodbye Pinger, Hello _!
 date: '2007-04-27 00:00:00'
-categories: post post
-entry:
-  id: 251
-  source: post
-  uid: 111
-  data:
-    title: Goodbye Pinger, Hello ____!
-    excerpt: Springtime brings all kinds of new things.
-  created_at: '2010-08-30 05:16:38'
-  updated_at: '2010-08-30 05:16:38'
-  pub_date: '2007-04-27 00:00:00'
-  disabled: 0
+excerpt: Springtime brings all kinds of new things.
+tags:
+- Work
+- Software
 ---
 
 OK, so it was only three months at Pinger.

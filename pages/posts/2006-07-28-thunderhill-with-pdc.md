@@ -2,20 +2,12 @@
 layout: post
 title: Thunderhill with PDC
 date: '2006-07-28 00:00:00'
-categories: post post
-entry:
-  id: 242
-  source: post
-  uid: 102
-  data:
-    title: Thunderhill with PDC
-    excerpt:
-      Back from a great day at the track with a small group of junkies known
-      as "PDC".
-  created_at: '2010-08-30 05:16:38'
-  updated_at: '2010-08-30 05:16:38'
-  pub_date: '2006-07-28 00:00:00'
-  disabled: 0
+tags:
+- Cars
+- Driving
+excerpt: |
+  Back from a great day at the track with a small group of junkies known
+  as "PDC".
 ---
 
 PDC is a casual group of track junkies organized by Mark Dadgar, who is also

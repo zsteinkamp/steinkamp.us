@@ -2,18 +2,8 @@
 layout: post
 title: Proud to be CRT Free
 date: '2004-09-10 10:56:16'
-categories: post post
-entry:
-  id: 191
-  source: post
-  uid: 51
-  data:
-    title: Proud to be CRT Free
-    excerpt: ''
-  created_at: '2010-08-30 05:16:38'
-  updated_at: '2010-08-30 05:16:38'
-  pub_date: '2004-09-10 10:56:16'
-  disabled: 0
+tags:
+  - Nerd
 ---
 
 Today marks a milestone in the Nobot household. It's

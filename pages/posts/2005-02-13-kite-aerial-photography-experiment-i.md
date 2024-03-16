@@ -2,18 +2,11 @@
 layout: post
 title: Kite Aerial Photography, Experiment I
 date: '2005-02-13 12:56:19'
-categories: post post
-entry:
-  id: 225
-  source: post
-  uid: 85
-  data:
-    title: Kite Aerial Photography, Experiment I
-    excerpt: ''
-  created_at: '2010-08-30 05:16:38'
-  updated_at: '2010-08-30 05:16:38'
-  pub_date: '2005-02-13 12:56:19'
-  disabled: 0
+tags:
+  - Nerd
+  - Projects
+  - Photography
+  - Art
 ---
 
 It all started when I saw <a

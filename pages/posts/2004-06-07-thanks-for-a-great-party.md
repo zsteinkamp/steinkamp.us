@@ -2,6 +2,8 @@
 layout: post
 title: Thanks For A Great Party
 date: '2004-06-07 09:50:09'
+tags:
+ - Uncategorized
 ---
 
 Thanks to all who came on Saturday to our house for

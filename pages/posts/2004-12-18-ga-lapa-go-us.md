@@ -2,18 +2,8 @@
 layout: post
 title: Ga-Lapa-Go-Us
 date: '2004-12-18 22:42:35'
-categories: post post
-entry:
-  id: 213
-  source: post
-  uid: 73
-  data:
-    title: Ga-Lapa-Go-Us
-    excerpt: ''
-  created_at: '2010-08-30 05:16:38'
-  updated_at: '2010-08-30 05:16:38'
-  pub_date: '2004-12-18 22:42:35'
-  disabled: 0
+tags:
+  - Travel
 ---
 
 I'm packing up now for our trip to the Galapagos.

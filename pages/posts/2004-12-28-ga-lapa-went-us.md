@@ -2,18 +2,8 @@
 layout: post
 title: Ga-Lapa-Went-Us
 date: '2004-12-28 15:11:36'
-categories: post post
-entry:
-  id: 214
-  source: post
-  uid: 74
-  data:
-    title: Ga-Lapa-Went-Us
-    excerpt: ''
-  created_at: '2010-08-30 05:16:38'
-  updated_at: '2010-08-30 05:16:38'
-  pub_date: '2004-12-28 15:11:36'
-  disabled: 0
+tags:
+  - Travel
 ---
 
 What a trip! We returned from our Ecuador / Galapagos vacay

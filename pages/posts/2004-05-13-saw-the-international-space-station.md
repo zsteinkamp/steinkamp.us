@@ -2,6 +2,8 @@
 layout: post
 title: Saw the International Space Station
 date: '2004-05-13 23:22:20'
+tags:
+  - Nerd
 ---
 
 watched the ISS pass over this past thursday. it was magnitude

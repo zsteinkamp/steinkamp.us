@@ -2,20 +2,11 @@
 layout: post
 title: New Tricks
 date: '2006-02-14 09:26:00'
-categories: post post
-entry:
-  id: 231
-  source: post
-  uid: 91
-  data:
-    title: New Tricks
-    excerpt:
-      A short summary of Marina's development in the past month or so.  Potty
-      training, rolling over, grabbing things, and interest in food are her new tricks.
-  created_at: '2010-08-30 05:16:38'
-  updated_at: '2010-08-30 05:16:38'
-  pub_date: '2006-02-14 09:26:00'
-  disabled: 0
+excerpt: |
+  A short summary of Marina's development in the past month or so.  Potty
+  training, rolling over, grabbing things, and interest in food are her new tricks.
+tags:
+  - Family
 ---
 
 It's been a while since I've written anything here. I've mostly been consumed with day-to-day stuff: Marina, Arti, work, projects. I thought it would be good to write down what Marina has been up to in the past month or so.

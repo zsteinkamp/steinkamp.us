@@ -2,18 +2,9 @@
 layout: post
 title: Naomi Rolls
 date: '2009-01-05 20:35:14'
-categories: post post
-entry:
-  id: 266
-  source: post
-  uid: 165
-  data:
-    title: Naomi Rolls
-    excerpt: ''
-  created_at: '2010-08-30 05:16:38'
-  updated_at: '2010-08-30 05:16:38'
-  pub_date: '2009-01-05 20:35:14'
-  disabled: 0
+tags:
+- Family
+- Videos
 ---
 
 She's been working on this for a couple of weeks now...

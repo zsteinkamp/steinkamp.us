@@ -2,18 +2,8 @@
 layout: post
 title: Lightning Stories
 date: '2004-06-12 11:27:38'
-categories: post post
-entry:
-  id: 177
-  source: post
-  uid: 37
-  data:
-    title: Lightning Stories
-    excerpt: ''
-  created_at: '2010-08-30 05:16:37'
-  updated_at: '2010-08-30 05:16:37'
-  pub_date: '2004-06-12 11:27:38'
-  disabled: 0
+tags:
+  - Memories
 ---
 
 Here are two stories for the archives....

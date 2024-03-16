@@ -2,18 +2,8 @@
 layout: post
 title: Say Hello to My Little Friend
 date: '2005-02-01 14:09:18'
-categories: post post
-entry:
-  id: 220
-  source: post
-  uid: 80
-  data:
-    excerpt: ''
-    title: Say Hello to My Little Friend
-  created_at: '2010-08-30 05:16:38'
-  updated_at: '2010-08-30 05:22:29'
-  pub_date: '2005-02-01 14:09:18'
-  disabled: 0
+tags:
+  - Family
 ---
 
 <br><img src=/blog_images/baby_8_weeks.jpg alt="7.25Weeks">

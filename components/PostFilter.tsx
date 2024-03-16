@@ -95,7 +95,7 @@ const PostFilter: React.FC<PostFilterProps> = ({ posts, buckets, filteredPosts, 
         ) {
           const selTagKeys = Object.keys(selTags)
           let addRecord = selTagKeys.length === 0 // default to false if any tags are selected, true if no tags are selected
-          //console.log('HERE NOFO', { selTagKeys, tags: post.tags })
+          //console.log('HERE NOFO', { addRecord, selTagKeys, tags: post.tags })
           if (selTagKeys.length > 0 && post.tags && post.tags.length > 0) {
             for (const selTagKey of selTagKeys) {
               if (post.tags.indexOf(selTagKey) > -1) {

@@ -2,18 +2,8 @@
 layout: post
 title: Nation's Poor Win Election for Nation's Rich
 date: '2004-11-10 08:44:16'
-categories: post post
-entry:
-  id: 207
-  source: post
-  uid: 67
-  data:
-    excerpt: ''
-    title: Nation's Poor Win Election for Nation's Rich
-  created_at: '2010-08-30 05:16:38'
-  updated_at: '2010-08-30 05:16:38'
-  pub_date: '2004-11-10 08:44:16'
-  disabled: 0
+tags:
+  - Uncategorized
 ---
 
 (from <a

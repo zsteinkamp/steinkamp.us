@@ -2,18 +2,9 @@
 layout: post
 title: Rambles On Art and Photography
 date: '2004-10-04 11:18:00'
-categories: post post
-entry:
-  id: 198
-  source: post
-  uid: 58
-  data:
-    title: Rambles On Art and Photography
-    excerpt: ''
-  created_at: '2010-08-30 05:16:38'
-  updated_at: '2010-08-30 05:16:38'
-  pub_date: '2004-10-04 11:18:00'
-  disabled: 0
+tags:
+  - Art
+  - Photography
 ---
 
 Saturday, Arti and I drove up to SF to check out some

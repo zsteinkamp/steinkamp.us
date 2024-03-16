@@ -2,6 +2,9 @@
 layout: post
 title: TV Stand Finished!
 date: '2004-06-02 08:58:55'
+tags:
+  - Woodworking
+  - Projects
 ---
 
 At long last ... the TV stand is finished, installed,
