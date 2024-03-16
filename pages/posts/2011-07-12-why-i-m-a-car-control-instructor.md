@@ -13,6 +13,9 @@ entry:
   updated_at: '2011-07-12 04:30:18'
   pub_date: '2011-07-12 03:40:47'
   disabled: 0
+tags:
+  - Driving
+  - Cars
 ---
 
 Almost seven years ago I did my first BMWCCA Car Control Clinic as a student. The CCC is an all-day high performance driving school, with a focus on real-world skills. It's also a prerequisite for the club's driving schools held at local racetracks like Laguna Seca or Infineon Raceway. The CCC is held in a vast expanse of pavement, either in the Candlestick Park parking lot or an unused section of tarmac at the Marina Airport near Monterey.

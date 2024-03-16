@@ -7,7 +7,7 @@ import ReactSlider from "react-slider"
 const SSK_MIN_DATE = 'minDate'
 const SSK_MAX_DATE = 'maxDate'
 const SSK_FILTER = 'filter'
-const SSK_TAG_ARR = 'tagArr'
+const SSK_SEL_TAGS = 'selTags'
 
 const hasSessionStorage = () => {
   return !!(typeof window !== 'undefined' && window.sessionStorage)
@@ -20,11 +20,13 @@ interface PostFilterProps {
   setFilteredPosts: (arg0: Record<string, string>[]) => void
 }
 
+type selTagsType = Record<string, boolean>
+
 const PostFilter: React.FC<PostFilterProps> = ({ posts, buckets, filteredPosts, setFilteredPosts }) => {
   const [minSlider, setMinSlider] = useState(buckets.minDate)
   const [maxSlider, setMaxSlider] = useState(buckets.maxDate)
   const [filter, setFilter] = useState('')
-  const [tagArr, setTagArr] = useState([] as string[])
+  const [selTags, setSelTags] = useState({} as Record<string, boolean>)
 
   const updateMinSlider = (val: number) => {
     hasSessionStorage() &&
@@ -40,9 +42,10 @@ const PostFilter: React.FC<PostFilterProps> = ({ posts, buckets, filteredPosts, 
     hasSessionStorage() && window.sessionStorage.setItem(SSK_FILTER, filterVal)
     setFilter(filterVal)
   }
-  const updateTagArr = (tagArr: string[]) => {
-    hasSessionStorage() && window.sessionStorage.setItem(SSK_TAG_ARR, JSON.stringify(tagArr))
-    setTagArr(tagArr)
+  const updateSelTags = (selTags: selTagsType) => {
+    //console.log({ selTags })
+    hasSessionStorage() && window.sessionStorage.setItem(SSK_SEL_TAGS, JSON.stringify(selTags))
+    setSelTags(selTags)
   }
 
   useEffect(() => {
@@ -56,7 +59,7 @@ const PostFilter: React.FC<PostFilterProps> = ({ posts, buckets, filteredPosts, 
         buckets.maxDate
       )
       updateFilterVal(window.sessionStorage.getItem(SSK_FILTER) || '')
-      updateTagArr(JSON.parse(window.sessionStorage.getItem(SSK_TAG_ARR) || '[]'))
+      updateSelTags(JSON.parse(window.sessionStorage.getItem(SSK_SEL_TAGS) || '{}'))
     }
   }, [])
 
@@ -90,12 +93,25 @@ const PostFilter: React.FC<PostFilterProps> = ({ posts, buckets, filteredPosts, 
           filter === '' ||
           JSON.stringify(post).toLowerCase().indexOf(filter.toLowerCase()) > -1
         ) {
-          tempPosts.push(post)
+          const selTagKeys = Object.keys(selTags)
+          let addRecord = selTagKeys.length === 0 // default to false if any tags are selected, true if no tags are selected
+          //console.log('HERE NOFO', { selTagKeys, tags: post.tags })
+          if (selTagKeys.length > 0 && post.tags && post.tags.length > 0) {
+            for (const selTagKey of selTagKeys) {
+              if (post.tags.indexOf(selTagKey) > -1) {
+                addRecord = true
+                break
+              }
+            }
+          }
+          if (addRecord) {
+            tempPosts.push(post)
+          }
         }
       }
     }
     setFilteredPosts(tempPosts)
-  }, [minSlider, maxSlider, filter])
+  }, [minSlider, maxSlider, filter, selTags])
 
   const onBucketClick = (ts: number) => {
     if (!buckets.granularity) {
@@ -112,9 +128,19 @@ const PostFilter: React.FC<PostFilterProps> = ({ posts, buckets, filteredPosts, 
     updateFilterVal(filterVal)
   }
 
-  const onTagChange = (e: ChangeEvent<HTMLInputElement>) => {
-    const tagArr = e.target.value.split(',')
-    updateTagArr(tagArr)
+  const handleTagToggle = (tag: string, e: ChangeEvent<HTMLInputElement>) => {
+    const isEnabled = e.target.checked
+    //console.log({ tag, value: e.target.checked })
+    const newTags = { ...selTags }
+    if (isEnabled) {
+      newTags[tag] = true
+    } else {
+      //console.log('WANNA DELETE', JSON.stringify(newTags))
+      delete (newTags[tag])
+      //console.log('AFTER DELETE', JSON.stringify(newTags))
+    }
+    //console.log({ newTags })
+    updateSelTags(newTags)
   }
 
   return (
@@ -128,13 +154,13 @@ const PostFilter: React.FC<PostFilterProps> = ({ posts, buckets, filteredPosts, 
             placeholder='Filter...'
             type='text'
             value={filter}
-            onChange={onFilterChange}
+            onChange={(e) => onFilterChange(e)}
             className='rounded px-1 text-xs'
           />
         </div>
       </div>
       <DateBuckets dateBuckets={buckets} onBucketClick={onBucketClick} />
-      <div className='pb-10'>
+      <div className='pb-9'>
         <ReactSlider
           onChange={(e) => handleSliderChange(e)}
           className='mt-[-1rem]'
@@ -157,6 +183,22 @@ const PostFilter: React.FC<PostFilterProps> = ({ posts, buckets, filteredPosts, 
           minDistance={10}
           withTracks
         />
+      </div>
+      <div className="flex flex-wrap justify-center">
+        {buckets.tags.map((tag) => {
+          return (
+            <div key={tag} className="mb-1">
+              <label className={`${selTags[tag] ? "bg-link-base border-link-hover text-pagebg" : "bg-shadebg border-shadeshadow"} cursor-pointer py-1 px-2 border-1 rounded mr-1 text-xs hover:bg-link-hover`}>
+                {tag}
+                <input type="checkbox"
+                  className="hidden"
+                  checked={!!selTags[tag]}
+                  onChange={(e) => handleTagToggle(tag, e)}
+                />
+              </label>
+            </div>
+          )
+        })}
       </div>
     </div>
   )

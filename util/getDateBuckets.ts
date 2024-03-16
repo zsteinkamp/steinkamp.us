@@ -1,12 +1,15 @@
 import { PostsListType } from './getPosts'
 import dayjs, { ManipulateType, OpUnitType } from 'dayjs'
 
+export type TagArrType = string[]
+
 export type DateBucketType = {
   maxVal: number
   minDate: number
   maxDate: number
   granularity?: OpUnitType
   buckets: Record<string, number>
+  tags: TagArrType
 }
 
 export default function getDateBuckets(
@@ -19,11 +22,19 @@ export default function getDateBuckets(
     maxDate: -Infinity,
     granularity: undefined,
     buckets: {},
+    tags: [],
   }
   // get min/max
   let minDate = null as dayjs.Dayjs | null
   let maxDate = null as dayjs.Dayjs | null
+  const tagsObj = {} as Record<string, boolean>
+
   posts.forEach((post) => {
+    if (post.tags) {
+      for (const tag of post.tags) {
+        tagsObj[tag] = true
+      }
+    }
     const postDate = dayjs(post.date).utc()
     if (null === minDate || postDate < minDate) {
       minDate = postDate
@@ -91,6 +102,7 @@ export default function getDateBuckets(
 
   ret.minDate = minDate.valueOf()
   ret.maxDate = maxDate.valueOf()
+  ret.tags = Object.keys(tagsObj)
 
   //console.log({ ret })
 

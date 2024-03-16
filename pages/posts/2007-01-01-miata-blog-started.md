@@ -14,6 +14,9 @@ entry:
   updated_at: '2010-08-30 05:16:38'
   pub_date: '2007-01-01 00:00:00'
   disabled: 0
+tags:
+  - Cars
+  - Driving
 ---
 
 I've started a new blog to chronicle the birth and life of a little racecar that Derek and I are building. It's called "<a href='http://specthismiata.com/'>spec.this.miata " (http://specthismiata.com/)</a>. We're building a Spec Miata, which is basically a Miata with a hardtop, rollcage, and improved suspension.

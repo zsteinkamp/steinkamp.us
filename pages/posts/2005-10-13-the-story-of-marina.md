@@ -6,6 +6,9 @@ excerpt: |
   A recap of the events leading up to, and including the birth of our beautiful
   Marina.
 thumbnail: https://photos.steinkamp.us/photo/2006-05-24_marina-stands-crawls/CRW_1056.CRW?size=300x300
+tags:
+  - Family
+  - Parenting
 ---
 
 Shortly after we returned from our Christmas/New Years

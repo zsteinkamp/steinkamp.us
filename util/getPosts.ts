@@ -82,6 +82,7 @@ const getPosts = async (
             date: dayjs(data.date).utc().toISOString(),
             type: data.source || 'post',
             excerpt: excerpt,
+            tags: data.tags || [],
             thumbnail,
             slug,
           }
