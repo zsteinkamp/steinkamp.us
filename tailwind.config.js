@@ -1,9 +1,5 @@
 /** @type {import('tailwindcss').Config} */
 const { fontFamily } = require('tailwindcss/defaultTheme')
-const colors = require('tailwindcss/colors')
-
-const shade = colors.stone
-const linkbase = colors.sky
 
 module.exports = {
   content: [
