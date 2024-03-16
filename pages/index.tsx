@@ -173,6 +173,3 @@ const Index: React.FC<IndexProps> = ({ posts, buckets }) => {
   )
 }
 export default Index
-
-/*
- */
