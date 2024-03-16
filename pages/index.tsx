@@ -6,7 +6,7 @@ import generateRssFeed from '@/util/GenerateRssFeed'
 import getDateBuckets, { DateBucketType } from '@/util/getDateBuckets'
 import DateBuckets from '@/components/DateBuckets'
 import dayjs from 'dayjs'
-import { useEffect, useState } from 'react'
+import { ChangeEvent, useEffect, useState } from 'react'
 
 export const getStaticProps = async () => {
   const posts = await getPosts('posts')
@@ -29,18 +29,45 @@ interface IndexProps {
   buckets: DateBucketType
 }
 
+const SSK_MIN_DATE = 'minDate'
+const SSK_MAX_DATE = 'maxDate'
+const SSK_FILTER = 'filter'
+
+const hasSessionStorage = () => {
+  return !!(typeof window !== 'undefined' && window.sessionStorage)
+}
+
 const Index: React.FC<IndexProps> = ({ posts, buckets }) => {
-  const [minSlider, setMinSlider] = useState(buckets.minDate)
-  const [maxSlider, setMaxSlider] = useState(buckets.maxDate)
-  const [filter, setFilter] = useState('')
+  const initMinDate = hasSessionStorage() && parseInt(window.sessionStorage.getItem(SSK_MIN_DATE) || '0') || buckets.minDate
+  const initMaxDate = hasSessionStorage() && parseInt(window.sessionStorage.getItem(SSK_MAX_DATE) || '0') || buckets.maxDate
+  const initFilter = hasSessionStorage() && window.sessionStorage.getItem(SSK_FILTER) || ''
+
+  const [minSlider, setMinSlider] = useState(initMinDate)
+  const [maxSlider, setMaxSlider] = useState(initMaxDate)
+  const [filter, setFilter] = useState(initFilter)
   const [filteredPosts, setFilteredPosts] = useState(posts)
+
+  const updateMinSlider = (val: number) => {
+    hasSessionStorage() && window.sessionStorage.setItem(SSK_MIN_DATE, val.toString())
+    setMinSlider(val)
+  }
+  const updateMaxSlider = (val: number) => {
+    hasSessionStorage() && window.sessionStorage.setItem(SSK_MAX_DATE, val.toString())
+    setMaxSlider(val)
+  }
+  const updateFilterVal = (filterVal: string) => {
+    hasSessionStorage() && window.sessionStorage.setItem(SSK_FILTER, filterVal)
+    setFilter(filterVal)
+  }
 
   const handleSliderChange = (e: number[]) => {
     if (undefined === buckets.granularity) {
       return
     }
-    setMinSlider(dayjs(e[0]).utc().startOf(buckets.granularity).valueOf())
-    setMaxSlider(dayjs(e[1]).utc().endOf(buckets.granularity).valueOf())
+    const minSliderVal = dayjs(e[0]).utc().startOf(buckets.granularity).valueOf()
+    const maxSliderVal = dayjs(e[1]).utc().endOf(buckets.granularity).valueOf()
+    updateMinSlider(minSliderVal)
+    updateMaxSlider(maxSliderVal)
     //console.log("SLIDER CHANGE", { e })
   }
 
@@ -74,8 +101,13 @@ const Index: React.FC<IndexProps> = ({ posts, buckets }) => {
     }
     const maxdjs = dayjs(ts).utc().endOf(buckets.granularity)
     const maxval = maxdjs.valueOf()
-    setMinSlider(ts)
-    setMaxSlider(maxval)
+    updateMinSlider(ts)
+    updateMaxSlider(maxval)
+  }
+
+  const onFilterChange = (e: ChangeEvent<HTMLInputElement>) => {
+    const filterVal = e.target.value.trim()
+    updateFilterVal(filterVal)
   }
 
   return (
@@ -89,7 +121,8 @@ const Index: React.FC<IndexProps> = ({ posts, buckets }) => {
             <input
               placeholder='Filter...'
               type='text'
-              onChange={(e) => setFilter(e.target.value)}
+              value={filter}
+              onChange={onFilterChange}
               className='rounded px-1 text-xs'
             />
           </div>
