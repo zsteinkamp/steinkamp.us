@@ -121,7 +121,7 @@ const Index: React.FC<IndexProps> = ({ posts, buckets }) => {
   }
 
   const onFilterChange = (e: ChangeEvent<HTMLInputElement>) => {
-    const filterVal = e.target.value.trim()
+    const filterVal = e.target.value
     updateFilterVal(filterVal)
   }
 
