@@ -83,9 +83,7 @@ const Index: React.FC<IndexProps> = ({ posts, buckets }) => {
       <div className='sticky top-0 bg-pagebg pt-[0.9rem]'>
         <div className='grid grid-cols-2'>
           <div>
-            <h4 className='text-text'>
-              Showing {filteredPosts.length} posts
-            </h4>
+            <h4 className='text-text'>Showing {filteredPosts.length} posts</h4>
           </div>
           <div className='text-right'>
             <input

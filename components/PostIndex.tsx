@@ -35,9 +35,7 @@ const PostIndex: React.FC<PostIndexProps> = ({ posts, className = '' }) => {
                 <div className='mb-[0.25rem] text-sm text-date'>
                   {dayjs(post.date).utc().format('MMMM, YYYY')}
                 </div>
-                <div className='text-text line-clamp-3'>
-                  {post.excerpt}
-                </div>
+                <div className='text-text line-clamp-3'>{post.excerpt}</div>
               </div>
             </div>
           </Link>

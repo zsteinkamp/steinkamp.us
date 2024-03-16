@@ -15,18 +15,8 @@ const SiteFooter = () => {
         by <Link href='/resume'>Zack Steinkamp</Link>
         <Link href='/rss.xml'>
           <svg viewBox='0 0 8 8' className='ml-2 inline h-4'>
-            <rect
-              className='fill-themetoggle'
-              width='8'
-              height='8'
-              rx='1.5'
-            />
-            <circle
-              className='fill-pagebg'
-              cx='2'
-              cy='6'
-              r='1'
-            />
+            <rect className='fill-themetoggle' width='8' height='8' rx='1.5' />
+            <circle className='fill-pagebg' cx='2' cy='6' r='1' />
             <path
               className='fill-pagebg'
               fill='white'
