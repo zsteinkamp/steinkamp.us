@@ -16,7 +16,7 @@ interface PostLayoutProps {
 
 const PostLayout: React.FC<PostLayoutProps> = ({ pageProps, children }) => {
   const { title, date, excerpt, thumbnail } = pageProps.markdoc.frontmatter
-  const fmtDate = dayjs(date).utc().format('MMMM D, YYYY')
+  const fmtDate = dayjs(date).format('MMMM D, YYYY')
 
   const headings = collectHeadings(pageProps.markdoc.content)
 

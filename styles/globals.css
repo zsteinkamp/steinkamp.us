@@ -166,7 +166,7 @@ img[src*='#round'] {
 }
 .link,
 a {
-  @apply text-link-base visited:text-link-visited hover:text-link-hover transition-colors duration-200;
+  @apply text-link-base transition-colors duration-200 visited:text-link-visited hover:text-link-hover;
 }
 h1 {
   @apply text-3xl font-bold md:text-4xl;
@@ -218,11 +218,6 @@ article code {
 article .half-height img {
   max-height: 30rem;
 }
-.TableOfContents ul li {
-  padding-left: 0.15rem;
-  line-height: 1.53rem;
-}
-
 article blockquote {
   border-left: 2px solid #ddd;
   padding: 2rem 2rem 0.1rem 2rem;
