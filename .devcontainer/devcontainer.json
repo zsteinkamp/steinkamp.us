@@ -10,8 +10,8 @@
         "bradlc.vscode-tailwindcss",
         "csstools.postcss",
         "rvest.vs-code-prettier-eslint",
-        "esbenp.prettier-vscode"
-      ]
-    }
-  }
+        "esbenp.prettier-vscode",
+      ],
+    },
+  },
 }

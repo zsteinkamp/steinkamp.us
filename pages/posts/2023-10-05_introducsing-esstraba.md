@@ -13,13 +13,13 @@ Continuing on my apparent obsession with filesystem-based applications ([musics]
 
 ## Umm ok, and, so, um, why?
 
-This is for the people that have some of their most treasured memories in Strava -- pre-dawn trail runs with friends, PRs, races you trained for months to prepare for. These are memories I want to keep forever and to revisit any time. 
+This is for the people that have some of their most treasured memories in Strava -- pre-dawn trail runs with friends, PRs, races you trained for months to prepare for. These are memories I want to keep forever and to revisit any time.
 
 ![Memories](/images/esstraba/memory.jpg)
 
 Strava may not be around forever, so I don't want to risk losing access to these important moments. Thankfully, Strava has built a bulk-export feature. This is fantastic! Thank you to whomever at Strava pushed that one through.
 
-## Enter Esstraba!🎉 
+## Enter Esstraba!🎉
 
 Esstraba! is a Strava bulk download zip file viewer. Simply extract the downloaded `.zip` file to the `data/` directory and run `make prod`. This will start two docker containers -- one that knows how to read the files in the `data/` directory, and one to provide the web frontend.
 
@@ -37,8 +37,8 @@ You can navigate between photos with arrow keys, and return to the list where yo
 
 ![Esstraba!🎉 Photos](/images/esstraba/photo.png)
 
-
 ### [Esstraba! on GitHub](https://github.com/zsteinkamp/esstraba)
+
 Sooo, do you want your own Esstraba!🎉?
 
 [Or check out my Esstraba!🎉](https://esstraba.steinkamp.us/)

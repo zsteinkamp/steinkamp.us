@@ -1,5 +1,5 @@
-import { PostsListType } from "./getPosts";
-import dayjs, { ManipulateType, OpUnitType } from "dayjs";
+import { PostsListType } from './getPosts'
+import dayjs, { ManipulateType, OpUnitType } from 'dayjs'
 
 export type DateBucketType = {
   maxVal: number
@@ -9,13 +9,16 @@ export type DateBucketType = {
   buckets: Record<string, number>
 }
 
-export default function getDateBuckets(posts: PostsListType, targetNumBuckets: number): DateBucketType {
+export default function getDateBuckets(
+  posts: PostsListType,
+  targetNumBuckets: number
+): DateBucketType {
   const ret: DateBucketType = {
     maxVal: 0,
     minDate: Infinity,
     maxDate: -Infinity,
     granularity: undefined,
-    buckets: {}
+    buckets: {},
   }
   // get min/max
   let minDate = null as dayjs.Dayjs | null
@@ -40,10 +43,10 @@ export default function getDateBuckets(posts: PostsListType, targetNumBuckets: n
 
   // map a duration name to milliseconds
   const granularityDurations: [number, OpUnitType][] = [
-    [86400000, "day"],
-    [86400000 * 7, "week"],
-    [86400000 * 30, "month"],
-    [86400000 * 365, "year"],
+    [86400000, 'day'],
+    [86400000 * 7, 'week'],
+    [86400000 * 30, 'month'],
+    [86400000 * 365, 'year'],
   ]
 
   for (const [granDur, granStr] of granularityDurations) {
@@ -74,7 +77,11 @@ export default function getDateBuckets(posts: PostsListType, targetNumBuckets: n
     if (!post.date) {
       continue
     }
-    const bucket = dayjs(post.date).utc().startOf(ret.granularity).valueOf().toString()
+    const bucket = dayjs(post.date)
+      .utc()
+      .startOf(ret.granularity)
+      .valueOf()
+      .toString()
     //console.log({ title: post.title, date: post.date, bucket: dayjs(bucket).format('YYYY MMM') })
     ret.buckets[bucket]++
     if (ret.buckets[bucket] > ret.maxVal) {

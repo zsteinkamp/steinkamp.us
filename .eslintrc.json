@@ -5,12 +5,7 @@
     "node": true,
     "jasmine": true
   },
-  "extends": [
-    "eslint:recommended",
-    "next/core-web-vitals",
-    "plugin:@typescript-eslint/recommended",
-    "plugin:prettier/recommended"
-  ],
+  "extends": ["next", "prettier"],
   "ignorePatterns": ["**/node_modules/", "/dist/", "/lib/"],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {

@@ -1,4 +1,4 @@
-import IFrame from "@/components/IFrame"
+import IFrame from '@/components/IFrame'
 
 export const iframe = {
   render: IFrame,

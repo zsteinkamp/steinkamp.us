@@ -24,39 +24,43 @@ const PostLayout: React.FC<PostLayoutProps> = ({ pageProps, children }) => {
     <>
       <Head>
         <title>{title}</title>
-        <meta property="og:type" content="article" />
-        <meta property="og:locale" content="en_US" />
-        <meta property="title" content={title} />
-        <meta property="og:title" content={title} />
-        {excerpt && <meta name="description" content={excerpt} />}
-        {excerpt && <meta property="og:description" content={excerpt} />}
-        {thumbnail && <meta property="og:image" content={`https://steinkamp.us${thumbnail}`} />}
+        <meta property='og:type' content='article' />
+        <meta property='og:locale' content='en_US' />
+        <meta property='title' content={title} />
+        <meta property='og:title' content={title} />
+        {excerpt && <meta name='description' content={excerpt} />}
+        {excerpt && <meta property='og:description' content={excerpt} />}
+        {thumbnail && (
+          <meta
+            property='og:image'
+            content={`https://steinkamp.us${thumbnail}`}
+          />
+        )}
       </Head>
-      <article className="max-w-2xl">
-        {headings && headings.length > 0 &&
+      <article className='max-w-2xl'>
+        {headings && headings.length > 0 && (
           <TableOfContents
             headings={headings}
             minLevel={pageProps.markdoc?.frontmatter?.tocMinLevel}
             maxLevel={pageProps.markdoc?.frontmatter?.tocMaxLevel}
             className={pageProps.markdoc?.frontmatter?.tocClassName}
-          />}
-        <h1 className="">
-          {title}
-        </h1>
-        <div className="mb-8 text-date">{fmtDate}</div>
-        <div className="mb-16">{children}</div>
+          />
+        )}
+        <h1 className=''>{title}</h1>
+        <div className='mb-8 text-date'>{fmtDate}</div>
+        <div className='mb-16'>{children}</div>
         <Giscus
-          repo="zsteinkamp/steinkamp.us"
-          repoId="R_kgDOJOYKlQ"
-          category="Announcements"
-          categoryId="DIC_kwDOJOYKlc4CdMxW"
-          mapping="url"
-          strict="0"
-          reactionsEnabled="1"
-          emitMetadata="0"
-          inputPosition="bottom"
-          lang="en"
-          loading="lazy"
+          repo='zsteinkamp/steinkamp.us'
+          repoId='R_kgDOJOYKlQ'
+          category='Announcements'
+          categoryId='DIC_kwDOJOYKlc4CdMxW'
+          mapping='url'
+          strict='0'
+          reactionsEnabled='1'
+          emitMetadata='0'
+          inputPosition='bottom'
+          lang='en'
+          loading='lazy'
         />
       </article>
     </>

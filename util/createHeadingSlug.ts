@@ -1,15 +1,15 @@
 function createHeadingSlug(title: string): string {
-  if (typeof (title) !== 'string') {
+  if (typeof title !== 'string') {
     return 'unknown'
   }
-  let slug = (title || "")
-    .replace(/[^a-z0-9 ]/ig, '')
+  let slug = (title || '')
+    .replace(/[^a-z0-9 ]/gi, '')
     .replace(/\s+/g, '-')
-    .toLowerCase();
+    .toLowerCase()
 
   // cannot start with a number
   if (slug.match(/^[0-9]/)) {
-    slug = "a" + slug
+    slug = 'a' + slug
   }
   return slug
 }

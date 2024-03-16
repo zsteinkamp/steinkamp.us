@@ -29,10 +29,10 @@
       #app .cell.on {
         background-color: black;
         border-color: #333;
-        box-shadow: 2px 5px 8px rgba(0,0,0,0.25);
+        box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.25);
         z-index: 1;
         margin-top: -5px;
-        margin-left:-2px;
+        margin-left: -2px;
       }
       #controls {
         display: grid;
@@ -42,7 +42,7 @@
       }
       #controls div {
         grid-row: 1;
-          text-align:center;
+        text-align: center;
       }
       #iterations {
         display: inline-block;
@@ -51,8 +51,7 @@
     </style>
   </head>
   <body>
-    <div id="app">
-    </div>
+    <div id="app"></div>
     <div id="controls">
       <div>
         <button id="play" onclick="playPause();">Play / Pause</button>
@@ -60,25 +59,55 @@
         <button id="restart" onclick="reset();">Reset</button>
       </div>
       <div>
-        <label for="spawn">Random Init:</label> <input type="number" onChange="setVal('random'); reset();" id="random" step="0.05" min="0" max="1" />
+        <label for="spawn">Random Init:</label>
+        <input
+          type="number"
+          onChange="setVal('random'); reset();"
+          id="random"
+          step="0.05"
+          min="0"
+          max="1"
+        />
       </div>
       <div>
-        <label for="lonely">Lonely At:</label> <input type="number" onChange="setVal('lonely')" id="lonely" min="0" max="8" />
+        <label for="lonely">Lonely At:</label>
+        <input
+          type="number"
+          onChange="setVal('lonely')"
+          id="lonely"
+          min="0"
+          max="8"
+        />
       </div>
       <div>
-        <label for="crowded">Crowded At:</label> <input type="number" onChange="setVal('crowded')" id="crowded" min="0" max="8" />
+        <label for="crowded">Crowded At:</label>
+        <input
+          type="number"
+          onChange="setVal('crowded')"
+          id="crowded"
+          min="0"
+          max="8"
+        />
       </div>
       <div>
-        <label for="spawn">Spawn At:</label> <input type="number" onChange="setVal('spawn')" id="spawn" min="0" max="8" />
+        <label for="spawn">Spawn At:</label>
+        <input
+          type="number"
+          onChange="setVal('spawn')"
+          id="spawn"
+          min="0"
+          max="8"
+        />
       </div>
+      <div>Iterations: <span id="iterations">0</span></div>
       <div>
-        Iterations: <span id="iterations">0</span>
-      </div>
-      <div>
-        <a target="code" href="https://github.com/zsteinkamp/zsteinkamp.github.io/blob/master/life">CODE</a>
+        <a
+          target="code"
+          href="https://github.com/zsteinkamp/zsteinkamp.github.io/blob/master/life"
+          >CODE</a
+        >
       </div>
     </div>
     <script src="index.js"></script>
   </body>
 </html>
-

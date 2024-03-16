@@ -10,7 +10,11 @@ interface BasicLayoutProps {
   children?: React.ReactNode
 }
 
-const BasicLayout: React.FC<BasicLayoutProps> = ({ pageProps, className = "", children }) => {
+const BasicLayout: React.FC<BasicLayoutProps> = ({
+  pageProps,
+  className = '',
+  children,
+}) => {
   const { title, description } = pageProps.markdoc?.frontmatter || {
     title: 'steinkamp.us',
     description: 'steinkamp.us',
@@ -30,15 +34,22 @@ const BasicLayout: React.FC<BasicLayoutProps> = ({ pageProps, className = "", ch
     <>
       <Head>
         <title>{title || 'steinkamp.us'}</title>
-        <meta name="description" content={description || 'steinkamp.us'} />
-        <meta property="og:type" content="article" />
-        <meta property="og:locale" content="en_US" />
-        <meta property="title" content={title} />
-        <meta property="og:title" content={title} />
-        <meta property="og:description" content={description} />
+        <meta name='description' content={description || 'steinkamp.us'} />
+        <meta property='og:type' content='article' />
+        <meta property='og:locale' content='en_US' />
+        <meta property='title' content={title} />
+        <meta property='og:title' content={title} />
+        <meta property='og:description' content={description} />
       </Head>
       <div className={`${className} ${outerClass}`}>
-        {headings && <TableOfContents headings={headings} minLevel={pageProps.markdoc?.frontmatter?.tocMinLevel} maxLevel={pageProps.markdoc?.frontmatter?.tocMaxLevel} className={pageProps.markdoc?.frontmatter?.tocClassName} />}
+        {headings && (
+          <TableOfContents
+            headings={headings}
+            minLevel={pageProps.markdoc?.frontmatter?.tocMinLevel}
+            maxLevel={pageProps.markdoc?.frontmatter?.tocMaxLevel}
+            className={pageProps.markdoc?.frontmatter?.tocClassName}
+          />
+        )}
         {children}
       </div>
     </>

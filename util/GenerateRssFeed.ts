@@ -1,15 +1,17 @@
-import fs from 'fs';
-import { Feed } from 'feed';
-import { PostsListType } from './getPosts';
+import fs from 'fs'
+import { Feed } from 'feed'
+import { PostsListType } from './getPosts'
 
-export default async function generateRssFeed(posts: PostsListType): Promise<void> {
-  const site_url = 'https://steinkamp.us/';
+export default async function generateRssFeed(
+  posts: PostsListType
+): Promise<void> {
+  const site_url = 'https://steinkamp.us/'
 
   //console.log('GENERATE RSS')
 
   const feedOptions = {
     title: 'steinkamp.us',
-    description: 'Zack Steinkamp\'s website posts.',
+    description: "Zack Steinkamp's website posts.",
     id: site_url,
     link: site_url,
     image: `${site_url}/logo.png`,
@@ -21,9 +23,9 @@ export default async function generateRssFeed(posts: PostsListType): Promise<voi
       json: `${site_url}/rss.json`,
       atom: `${site_url}/atom.xml`,
     },
-  };
+  }
 
-  const feed = new Feed(feedOptions);
+  const feed = new Feed(feedOptions)
 
   posts.slice(0, 50).forEach((post) => {
     let image = post.thumbnail
@@ -36,12 +38,12 @@ export default async function generateRssFeed(posts: PostsListType): Promise<voi
       link: `${site_url}/blog/${post.slug}`,
       description: post.excerpt,
       date: new Date(post.date),
-      image: image ? image.replaceAll("&", "&amp;") : null,
-    });
-  });
+      image: image ? image.replaceAll('&', '&amp;') : null,
+    })
+  })
 
   // Write out static RSS files
-  fs.writeFileSync('./public/rss.xml', feed.rss2());
-  fs.writeFileSync('./public/rss.json', feed.json1());
-  fs.writeFileSync('./public/atom.xml', feed.atom1());
+  fs.writeFileSync('./public/rss.xml', feed.rss2())
+  fs.writeFileSync('./public/rss.json', feed.json1())
+  fs.writeFileSync('./public/atom.xml', feed.atom1())
 }

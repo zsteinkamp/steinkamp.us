@@ -20,10 +20,10 @@ I firmly believe people are well intentioned. We really want to be good and do t
 
 It is a faith in our own answers to these questions that guides us through decisions in what to do with our life. It also acts as a filter on our experiences that colors our perception of those experiences. We're stubborn creatures, and we're particularly good at attributing the cause of an event to make it fit within our personal faith structure.
 
-* "Haitians made a pact with the devil, therefore there was a giant earthquake there."
-* "You insulted a man last month so Karma is paying you back with financial woes."
-* "I helped an old woman cross the street, so God is rewarding me with this job promotion."
-* "We prayed that the police would find that girl, and they did. Prayer works!"
+- "Haitians made a pact with the devil, therefore there was a giant earthquake there."
+- "You insulted a man last month so Karma is paying you back with financial woes."
+- "I helped an old woman cross the street, so God is rewarding me with this job promotion."
+- "We prayed that the police would find that girl, and they did. Prayer works!"
 
 A particularly interesting faith-based behavior I've taken note of lately is that of the last example -- prayer. I can fully get behind the "let's stay on the righteous path" or "rub a dub dub, thanks for the grub" kind of prayer, but I have issues with prayer whose intent is to actually affect change in the world. This hits the point of the title of this post -- do practitioners of this type of prayer really think that God is a democracy?
 

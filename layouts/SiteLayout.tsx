@@ -23,16 +23,31 @@ const SiteLayout: React.FC<SiteLayoutProps> = ({ pageProps, children }) => {
   return (
     <>
       <Head>
-        <link rel="alternate" type="application/rss+xml" title="RSS Feed for steinkamp.us" href="/rss.xml" />
-        <link rel="alternate" type="application/rss+json" title="RSS+JSON Feed for steinkamp.us" href="/rss.json" />
-        <link rel="alternate" type="application/atom+xml" title="ATOM Feed for steinkamp.us" href="/atom.xml" />
+        <link
+          rel='alternate'
+          type='application/rss+xml'
+          title='RSS Feed for steinkamp.us'
+          href='/rss.xml'
+        />
+        <link
+          rel='alternate'
+          type='application/rss+json'
+          title='RSS+JSON Feed for steinkamp.us'
+          href='/rss.json'
+        />
+        <link
+          rel='alternate'
+          type='application/atom+xml'
+          title='ATOM Feed for steinkamp.us'
+          href='/atom.xml'
+        />
       </Head>
-      <div className="md:flex">
-        <div className="md:flex-shrink-0 md:flex-grow-0 md:basis-auto shadow-lg bg-shadebg md:shadow-xl shadow-shadeshadow">
+      <div className='md:flex'>
+        <div className='bg-shadebg shadow-lg shadow-shadeshadow md:flex-shrink-0 md:flex-grow-0 md:basis-auto md:shadow-xl'>
           <SiteHeader />
         </div>
-        <div className="md:pt-[2.8rem] pb-8 md:flex-grow md:flex-shrink ml-4 mr-4 md:ml-12 md:mr-12 md:max-w-2xl min-h-screen">
-          <h2 className="h-0 leading-[0px] m-0 p-0" id="top"></h2>
+        <div className='ml-4 mr-4 min-h-screen pb-8 md:ml-12 md:mr-12 md:max-w-2xl md:flex-shrink md:flex-grow md:pt-[2.8rem]'>
+          <h2 className='m-0 h-0 p-0 leading-[0px]' id='top'></h2>
           <PageLayout pageProps={pageProps}>
             <main>{children}</main>
           </PageLayout>

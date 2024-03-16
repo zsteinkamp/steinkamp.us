@@ -19,6 +19,8 @@ Next time I'll probably knock 30 minutes off since I'll do less backtracking. It
 > <a href="http://www.flickr.com/photos/thenobot/8055540401/" title="Ride from Groupon to Home by thenobot, on Flickr"><img src="https://farm9.staticflickr.com/8174/8055540401_d9664bc186_z.jpg" width="640" height="478" alt="Ride from Groupon to Home"></a>
 
 ## UPDATE 2014
+
 Cut that original time in half.
-* https://esstraba.steinkamp.us/activity/137925972
-* https://www.strava.com/activities/137925972/overview
+
+- https://esstraba.steinkamp.us/activity/137925972
+- https://www.strava.com/activities/137925972/overview
