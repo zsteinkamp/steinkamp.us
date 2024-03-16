@@ -10,7 +10,7 @@ excerpt: |
 
 Second time riding home today. It took 30 minutes less today, despite taking a bit longer route. This is mostly due to not taking wrong turns and having to backtrack ;-).
 
-<iframe width="640" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?msid=204175310944031498999.0004cbe919311217577c0&amp;msa=0&amp;ie=UTF8&amp;t=m&amp;ll=37.372886,-122.0224&amp;spn=0.218271,0.438766&amp;z=11&amp;output=embed"></iframe><br /><small>View <a href="https://maps.google.com/maps/ms?msid=204175310944031498999.0004cbe919311217577c0&amp;msa=0&amp;ie=UTF8&amp;t=m&amp;ll=37.372886,-122.0224&amp;spn=0.218271,0.438766&amp;z=11&amp;source=embed" style="color:#0000FF;text-align:left">Ride Home 2012-12-12</a> in a larger map.  26 miles, 2h00m.</small>
+{% iframe title="Ride Home 2012-12-12" src="https://maps.google.com/maps/ms?msid=204175310944031498999.0004cbe919311217577c0&msa=0&ie=UTF8&t=m&ll=37.372886,-122.0224&spn=0.218271,0.438766&z=11&output=embed" /%}
 
 This is the pedestrian bridge over 101 near Oregon Expressway:
 

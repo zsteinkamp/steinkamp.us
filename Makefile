@@ -12,3 +12,6 @@ prod:
 
 prodlogs:
 	docker compose logs -f
+
+post:
+	bin/new-post

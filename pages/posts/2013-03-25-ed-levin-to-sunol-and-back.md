@@ -11,7 +11,7 @@ excerpt: |
 
 For today's long run, I chose to go from Ed Levin County Park in Milpitas, up to Monument Peak, then north past Mt. Allison, behind Mission Peak, down to Sunol Regional Park, then turn around and run back.
 
-{% strava src="http://app.strava.com/activities/45730815/embed/ade4b275069bf164781976e1ac8fbfa98dc38f94" /%}
+{% strava src="https://app.strava.com/activities/45730815/embed/ade4b275069bf164781976e1ac8fbfa98dc38f94" /%}
 
 It was a beautiful day today -- cool breeze, warm sun, and wildflowers aplenty...
 

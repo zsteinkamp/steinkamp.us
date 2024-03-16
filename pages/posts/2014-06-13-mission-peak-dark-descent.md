@@ -38,4 +38,4 @@ I managed to pull off some low-7 pace miles on the way down which was surprising
 
 Anyhow, I made it down without any incidents. A cool-off jog back to the car and we were done! I love this hill!
 
-{% strava src="http://app.strava.com/activities/152910179/embed/08d8082f56d83867db3dd6f3fe029d1a7c506a14" /%}
+{% strava src="https://app.strava.com/activities/152910179/embed/08d8082f56d83867db3dd6f3fe029d1a7c506a14" /%}

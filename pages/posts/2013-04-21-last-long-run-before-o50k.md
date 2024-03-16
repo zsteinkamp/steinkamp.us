@@ -38,4 +38,4 @@ Here's what 1800 calories looks like: (yep, I'm a huge fan of Honey Stinger prod
 
 I'm pretty sure these legs have another 3 miles in them for the big race on May 19!
 
-{% strava src="http://app.strava.com/activities/49998843/embed/3518ed28fe01d41ab18021c4e786f331cd707128" /%}
+{% strava src="https://app.strava.com/activities/49998843/embed/3518ed28fe01d41ab18021c4e786f331cd707128" /%}

@@ -4,9 +4,10 @@ import dayjs from 'dayjs'
 import utc from 'dayjs/plugin/utc'
 dayjs.extend(utc)
 
-import SiteHeader from '@/components/SiteHeader'
-import SiteFooter from '@/components/SiteFooter'
-import BackButton from '@/components/BackButton'
+import Giscus from '@giscus/react'
+
+import collectHeadings from '@/util/collectHeadings'
+import TableOfContents from '@/components/TableOfContents'
 
 interface PostLayoutProps {
   pageProps: AppProps['pageProps']
@@ -14,11 +15,11 @@ interface PostLayoutProps {
 }
 
 const PostLayout: React.FC<PostLayoutProps> = ({ pageProps, children }) => {
-  const file = pageProps.markdoc.file.path
   const { title, date, excerpt, thumbnail } = pageProps.markdoc.frontmatter
   const fmtDate = dayjs(date).utc().format('MMMM D, YYYY')
-  const fileParts = file.split('/')
-  const isSub = fileParts.length > 1 && fileParts[1] !== 'posts'
+
+  const headings = collectHeadings(pageProps.markdoc.content)
+
   return (
     <>
       <Head>
@@ -31,23 +32,33 @@ const PostLayout: React.FC<PostLayoutProps> = ({ pageProps, children }) => {
         {excerpt && <meta property="og:description" content={excerpt} />}
         {thumbnail && <meta property="og:image" content={`https://steinkamp.us${thumbnail}`} />}
       </Head>
-      <SiteHeader />
-      <article className={`pl-4 pr-4 pt-8 pb-8 max-w-3xl min-h-screen m-auto`}>
-        <div className="">
-          <BackButton className="link float-right" />
-          <header className="">
-            <div className="">
-              <div className="mt-4 text-stone-400">{fmtDate}</div>
-              <h1 className="mb-8 font-bold font-condensed text-4xl">
-                {title}
-              </h1>
-            </div>
-          </header>
-          <div className="">{children}</div>
-          <BackButton className="link" />
-        </div>
+      <article className="max-w-2xl">
+        {headings && headings.length > 0 &&
+          <TableOfContents
+            headings={headings}
+            minLevel={pageProps.markdoc?.frontmatter?.tocMinLevel}
+            maxLevel={pageProps.markdoc?.frontmatter?.tocMaxLevel}
+            className={pageProps.markdoc?.frontmatter?.tocClassName}
+          />}
+        <h1 className="">
+          {title}
+        </h1>
+        <div className="mb-8 text-date">{fmtDate}</div>
+        <div className="mb-16">{children}</div>
+        <Giscus
+          repo="zsteinkamp/steinkamp.us"
+          repoId="R_kgDOJOYKlQ"
+          category="Announcements"
+          categoryId="DIC_kwDOJOYKlc4CdMxW"
+          mapping="url"
+          strict="0"
+          reactionsEnabled="1"
+          emitMetadata="0"
+          inputPosition="bottom"
+          lang="en"
+          loading="lazy"
+        />
       </article>
-      <SiteFooter />
     </>
   )
 }

@@ -12,15 +12,20 @@ module.exports = withMarkdoc({ schemaPath: './markdoc' })({
       {
         source: '/post/:slug*',
         destination: '/api/post/:slug*',
-        permanent: false
-      }
+        permanent: false,
+      },
     ]
+  },
+  compiler: {
+    // Enables the styled-components SWC transform
+    styledComponents: true,
   },
   images: {
     remotePatterns: [
       { hostname: 'marketplace.mypurecloud.com' },
       { hostname: '**.photobucket.com' },
       { hostname: 'i.ytimg.com' },
+      { hostname: 'github.com' },
       { hostname: '**.steinkamp.us' },
       { hostname: '**.static.flickr.com' },
       { hostname: '**.staticflickr.com' },

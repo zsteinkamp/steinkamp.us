@@ -20,4 +20,4 @@ I went up everyone's favorite east bay peak this morning to see just how quickly
 
 I came down the south side of the peak and crossed over at Hidden Valley back to the Peak Trail. Map is below...
 
-<iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps/ms?ie=UTF8&hl=en&t=p&msa=0&msid=101677505428675869574.00048f607530f228286ad&ll=37.50959,-121.890607&spn=0.01634,0.027423&z=15&output=embed"></iframe><br /><small>View <a href="http://maps.google.com/maps/ms?ie=UTF8&hl=en&t=p&msa=0&msid=101677505428675869574.00048f607530f228286ad&ll=37.50959,-121.890607&spn=0.01634,0.027423&z=15&source=embed" style="color:#0000FF;text-align:left">20100903 Mission Peak For Time</a> in a larger map</small>
+{% iframe title="20100903 Mission Peak For Time" src="http://maps.google.com/maps/ms?ie=UTF8&hl=en&t=p&msa=0&msid=101677505428675869574.00048f607530f228286ad&ll=37.50959,-121.890607&spn=0.01634,0.027423&z=15&output=embed" %}

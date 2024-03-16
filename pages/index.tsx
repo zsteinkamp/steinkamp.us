@@ -1,20 +1,130 @@
+//import ReactSlider from 'react-slider'
+import ReactSlider from 'react-slider'
 import getPosts from '@/util/getPosts'
 import PostIndex from '@/components/PostIndex'
+import generateRssFeed from '@/util/GenerateRssFeed'
+import getDateBuckets, { DateBucketType } from '@/util/getDateBuckets'
+import DateBuckets from '@/components/DateBuckets'
+import dayjs from 'dayjs'
+import { useEffect, useState } from 'react'
 
 export const getStaticProps = async () => {
   const posts = await getPosts('posts')
+  const buckets = getDateBuckets(posts, 20)
+
+  // Void function that writes out rss.xml in the public/ directory.
+  // Calling here as a convenient spot that is run once at build time.
+  generateRssFeed(posts)
+
   return {
     props: {
-      posts: posts,
+      posts,
+      buckets,
     },
   }
 }
 
 interface IndexProps {
-  posts: Array<any>
+  posts: Array<Record<string, string>>
+  buckets: DateBucketType
 }
 
-const Index: React.FC<IndexProps> = ({ posts }) => {
-  return <PostIndex posts={posts} />
+const Index: React.FC<IndexProps> = ({ posts, buckets }) => {
+  const [minSlider, setMinSlider] = useState(buckets.minDate)
+  const [maxSlider, setMaxSlider] = useState(buckets.maxDate)
+  const [filter, setFilter] = useState('')
+  const [filteredPosts, setFilteredPosts] = useState(posts)
+
+  const handleSliderChange = (e: number[]) => {
+    if (undefined === buckets.granularity) {
+      return
+    }
+    setMinSlider(dayjs(e[0]).utc().startOf(buckets.granularity).valueOf())
+    setMaxSlider(dayjs(e[1]).utc().endOf(buckets.granularity).valueOf())
+    //console.log("SLIDER CHANGE", { e })
+  }
+
+  useEffect(() => {
+    const tempPosts = []
+    if (undefined === buckets.granularity) {
+      return
+    }
+    for (const post of posts) {
+      const postDate = dayjs(post.date)
+        .utc()
+        .startOf(buckets.granularity)
+        .valueOf()
+      //console.log("IN HERE", { minSlider, maxSlider, postDate, goodMin: postDate >= minSlider, goodMax: postDate <= maxSlider })
+      if (postDate >= minSlider && postDate <= maxSlider) {
+        if (
+          filter === '' ||
+          post.title.toLowerCase().indexOf(filter) > -1 ||
+          post.excerpt.toLowerCase().indexOf(filter) > -1
+        ) {
+          tempPosts.push(post)
+        }
+      }
+    }
+    setFilteredPosts(tempPosts)
+  }, [minSlider, maxSlider, filter])
+
+  const onBucketClick = (ts: number) => {
+    if (!buckets.granularity) {
+      return
+    }
+    const maxdjs = dayjs(ts).utc().endOf(buckets.granularity)
+    const maxval = maxdjs.valueOf()
+    setMinSlider(ts)
+    setMaxSlider(maxval)
+  }
+
+  return (
+    <>
+      <div className='sticky top-0 bg-pagebg pt-[0.9rem]'>
+        <div className='grid grid-cols-2'>
+          <div>
+            <h4 className='text-text'>Showing {filteredPosts.length} posts</h4>
+          </div>
+          <div className='text-right'>
+            <input
+              placeholder='Filter...'
+              type='text'
+              onChange={(e) => setFilter(e.target.value)}
+              className='rounded px-1 text-xs'
+            />
+          </div>
+        </div>
+        <DateBuckets dateBuckets={buckets} onBucketClick={onBucketClick} />
+        <div className='pb-10'>
+          <ReactSlider
+            onChange={(e) => handleSliderChange(e)}
+            className='mt-[-1rem]'
+            thumbClassName='
+              text-xs font-bold w-10 rounded text-center mt-1 pt-1
+              pb-1 bg-link-base text-thumb-text hover:bg-link-hover cursor-pointer
+              '
+            trackClassName='h-4 mt-4 ml-2 mr-2'
+            min={buckets.minDate}
+            max={buckets.maxDate}
+            value={[Number(minSlider), Number(maxSlider)]}
+            ariaLabel={['Lower thumb', 'Upper thumb']}
+            ariaValuetext={(state) =>
+              `Thumb value ${dayjs(state.valueNow).utc().format('YYYY')}`
+            }
+            renderThumb={(props, state) => (
+              <div {...props}>{dayjs(state.valueNow).utc().format('YYYY')}</div>
+            )}
+            pearling
+            minDistance={10}
+            withTracks
+          />
+        </div>
+      </div>
+      <PostIndex className='max-w-2xl md:mt-6' posts={filteredPosts} />
+    </>
+  )
 }
 export default Index
+
+/*
+ */

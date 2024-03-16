@@ -28,12 +28,22 @@ From Mt. Allison, it was about a 20 minute hike up to the top of Mission Peak. F
 
 Only when I started up the incline to the Peak here did I encounter another person. For the 3 hours prior, I didn't walk past anybody! There were probably 25 people at the top of Mission Peak.
 
-I sped down the peak, getting to the Ohlone parking lot in about 45 minutes. I called Arti, and let her know that I had "landed". I walked up Mission Boulevard, got some frozen yogurt (so good after a long hike!) and walked down to the Park &amp; Ride lot next to the McDonald's at 680.
+I sped down the peak, getting to the Ohlone parking lot in about 45 minutes. I called Arti, and let her know that I had "landed". I walked up Mission Boulevard, got some frozen yogurt (so good after a long hike!) and walked down to the Park & Ride lot next to the McDonald's at 680.
 
 Total distance was 10.8 miles. I would totally do it again. Maybe this time the other way.
 
-<div class="dipity_embed" style="width:640px"><iframe width="640" height="480" src="http://www.dipity.com/zs/Peak-Trifecta/embed_tl?" style="border:1px solid #CCC;"></iframe><p style="margin:0;font-family:Arial,sans;font-size:13px;text-align:center"><a href="http://www.dipity.com/zs/Peak-Trifecta">Peak Trifecta</a> on <a href="http://www.dipity.com/" />Dipity</a>.</p></div>
+```
+<div class="dipity_embed" style="width:640px">
+  <iframe width="640" height="480"
+    src="http://www.dipity.com/zs/Peak-Trifecta/embed_tl?"
+    style="border:1px solid #CCC;"></iframe>
+  <p style="margin:0;font-family:Arial,sans;font-size:13px;text-align:center">
+    <a href="http://www.dipity.com/zs/Peak-Trifecta">Peak Trifecta</a>
+    on <a href="http://www.dipity.com/">Dipity</a>.
+  </p>
+</div>
+```
 
 Here's a map with photos that I took along the route...
 
-<iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps/ms?ie=UTF8&amp;t=p&amp;msa=0&amp;msid=101677505428675869574.00048257356f51ac2e4f7&amp;ll=37.460995,-121.863956&amp;spn=0.016351,0.027466&amp;z=15&amp;output=embed"></iframe><br /><small>View <a href="http://maps.google.com/maps/ms?ie=UTF8&amp;t=p&amp;msa=0&amp;msid=101677505428675869574.00048257356f51ac2e4f7&amp;ll=37.460995,-121.863956&amp;spn=0.016351,0.027466&amp;z=15&amp;source=embed" style="color:#0000FF;text-align:left">Peak Trifecta</a> in a larger map</small>
+{% iframe title="Peak Trifecta" src="http://maps.google.com/maps/ms?ie=UTF8&t=p&msa=0&msid=101677505428675869574.00048257356f51ac2e4f7&ll=37.460995,-121.863956&spn=0.016351,0.027466&z=15&output=embed" %}

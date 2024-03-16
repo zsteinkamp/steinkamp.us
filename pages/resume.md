@@ -1,6 +1,9 @@
 ---
 title: Zack Steinkamp
 outerClass: resume
+tableOfContents: true
+tocMaxLevel: 3
+tocMinLevel: 2
 ---
 
 # Zack Steinkamp
@@ -26,12 +29,12 @@ I have been building web applications since 1995, and at mega-scale starting in 
 - Member of the NGINX Experiments, Research, and Development (NERD) Team. Worked as an embedded resource in various product teams as well as developing new product prototypes.
 - Led an initiative with the [NGINX Amplify](https://www.nginx.com/products/nginx-amplify/) team to help expand the brand through improvements to usability, community, and platform capability to resonate better with modern application developers.
 - Contributor to [njs-acme](https://github.com/nginx/njs-acme) - an open source
-njs (Javascript) extension to NGINX to automate SSL/TLS certificate creation and renewal with ACME compliant services such as Let's Encrypt.
-- Held a multi-faceted leadership role in a 60 person team building a new cloud-based product offering.
-  - Defined product strategy, organizational strategy, technical architecture
-  - Led the team responsible for defining SaaS foundations: developer experience, production environment (IaC), CICD, observability, repository strategy, development workflow.
+  njs (Javascript) extension to NGINX to automate SSL/TLS certificate creation and renewal with ACME compliant services such as Let's Encrypt.
+- Held a multi-faceted leadership role in a 40 person team building a new cloud-based product offering.
+  - Helped to define product strategy, organizational strategy, technical architecture
+  - Led the team responsible for breaking ground on new SaaS foundations: developer experience, production environment (IaC), CICD, observability, repository strategy, development workflow.
   - Brought new management and development practices that shifted company culture toward a happier, more efficient, more engaged force with higher product quality and more satisfied customers.
-  {% /avoidbreak %}
+    {% /avoidbreak %}
 
 {% avoidbreak %}
 
@@ -131,7 +134,7 @@ njs (Javascript) extension to NGINX to automate SSL/TLS certificate creation and
 - Designed and implemented system/application monitoring and product analytics solutions.
 - Co-architected and implemented a scalable (hundreds of TB) yet inexpensive storage infrastructure with block-level deduplication and encryption.
 - Co-architected and implemented inter-datacenter file and database replication
-with block-level data deduplication.
+  with block-level data deduplication.
 - Responsible for application security design and ongoing security testing.
   {% /avoidbreak %}
 
@@ -172,7 +175,6 @@ with block-level data deduplication.
 - Designed and built web-based visual data analysis tools for engineers, production staff, management, and executives.
 - Developed and delivered a company-wide availability monitoring and reporting solution, covering 200+ web properties.
 - Eventually took over management and technical lead responsibilities of the team.
-  {% /avoidbreak %}
 
 ##### Mar 1999 - Apr 2003 {% .job-date %}
 
@@ -206,13 +208,13 @@ with block-level data deduplication.
 - [On Dates](/posts/2019-08-24-on-dates)
 - [How To Interview](/posts/2019-08-10-how-to-interview)
 
-## Personal
+## Interests
 
-- Music maker ([Spotify](https://open.spotify.com/artist/4zlbGPYkjV7EpxXHyfZNAh) / [Apple](https://itunes.apple.com/us/artist/zack-steinkamp/id1217691470))
-- Avid [cyclist, trail runner, and ultramarathoner](http://app.strava.com/athletes/1752986).
-- Music [tool maker](/music-tools/)
-- Photographer
-- High Performance Driving Instructor for the [BMWCCA](http://www.ggcbmwcca.org/) and former SCCA club racer.
-- Woodworker
-- Programmer [since age 8](/posts/2021-05-22-computer-history)
+- Music making ([Spotify](https://open.spotify.com/artist/4zlbGPYkjV7EpxXHyfZNAh) / [Apple](https://itunes.apple.com/us/artist/zack-steinkamp/id1217691470))
+- [Cycling and Trail running](https://esstraba.steinkamp.us/).
+- Music [tool making](/music-tools/)
+- Photography
+- Racing / Performance driving instruction
+- Woodworking
+- [Programming](/posts/2021-05-22-computer-history)
   {% /avoidbreak %}

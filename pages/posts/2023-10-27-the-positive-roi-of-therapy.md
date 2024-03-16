@@ -7,7 +7,9 @@ excerpt: |
   Beyond the usually understood benefits of therapy (dealing with trauma, triggers, relationships, etc.), this post presents a thesis that regular therapy yields a positive ROI over traditional investments.
 ---
 
-> One of the best decisions I have made in the last several years is to commit to meeting with my therapist every two weeks, no matter what. This ongoing investment in myself isn't always driven by crisis, as most people likely associate with therapy. Sure, challenging emotional situations come up from time to time and it's great to have a therapist for those times. But for the most part what keeps me coming back to therapy is what I learn about myself and the emotional and behavioral structure of people. This not only helps me to craft more meaningful relationships with friends and family, but has also brought career success. That's what this post is about.
+One of the best decisions I have made in the last several years is to commit to meeting with my therapist every two weeks, no matter what. This ongoing investment in myself isn't always driven by crisis, as most people likely associate with therapy. Sure, challenging emotional situations come up from time to time and it's great to have a therapist for those times. But for the most part what keeps me coming back to therapy is what I learn about myself and the emotional and behavioral structure of people. This not only helps me to craft more meaningful relationships with friends and family, but has also brought career success. That's what this post is about.
+
+## Backdrop
 
 I found Daniela through Psychology Today's therapist directory. I had been seeing a marriage counselor for several months, but once it was obvious things were not going to turn around in my marriage, I shifted my attention to my own care and growth.
 
@@ -21,14 +23,11 @@ I could go on about how understanding one's self can draw a direct line to a mor
 
 If **none** of that speaks to you, then please read on. This post is for you. 🤑
 
-
 ## $Thesis
 
 The investment of time and money into regular therapy sessions yields a significant positive financial benefit. To support this, I'll start with some foundational understanding of some of the outcomes of therapy, how they relate to success in a job, then describe my own situation and how I think therapy has led to improvement in my own financial situation.
 
-
 ## Laying the Foundation
-
 
 ### Understanding Yourself
 
@@ -36,17 +35,15 @@ Having a deep understanding of yourself is a superpower. Knowing your sensitivit
 
 By being astute students of ourselves, we can approach situations like negotiations and design discussions and yield better outcomes without as many emotional bruises along the way. By keeping discussions on-track, in a constructive direction, with an awareness of the vector of emotion we can make better use of our time and likely arrive at more creative solutions. This is good for us and good for business.
 
-
 ### An Evolved Understanding of Emotion
 
 Psychology is a science. My biweekly therapy sessions serve to educate me on the science of emotion and human behavior. This education carries beyond the immediate relationship or issue Daniela and I are talking about in that moment, but into an overall understanding of the structures of human emotion and systems of behavior.
 
-Daniela is an effective teacher, leaning 100% into guiding our conversations, making me feel like my breakthroughs of understanding are my own ideas rather than a result of a lecture. 
+Daniela is an effective teacher, leaning 100% into guiding our conversations, making me feel like my breakthroughs of understanding are my own ideas rather than a result of a lecture.
 
 We explore how our primitive origins as very social creatures are deeply embedded in our own behaviors in this modern life. We talk through how past traumas or experiences can influence present responses in surprising ways. We find compassion for those who seem to be bringing discomfort to the table and feel how that helps to foster peace and rationality.
 
 By building a blueprint for a better, more evolved, more peaceful understanding of human behavior, we can more skillfully navigate tricky situations in life and in work. We can confidently engage in conversations that would have otherwise made us shy away, for fear of the unknown of discomfort. Consistently better outcomes are the result.
-
 
 ### Practicing Hard Communication
 
@@ -56,7 +53,6 @@ One hallmark of a patient engaged in effective therapy is that they have a high 
 
 Therapy is, among other things, practice talking about difficult things. It's a training center for honing in on crafting messages of honesty and compassion, keeping our wits about us in the face of anger or fear. This is a critical foundation for effective personal and business communication.
 
-
 ## Putting it Together
 
 Given the foundations above, we can draw a solid line between a person honing these skills and that person finding success at work. We work with people, and are at our best when we work well together. By having an evolved view of the behaviors of ourselves and our fellow humans, we can work more harmoniously and efficiently.
@@ -65,10 +61,9 @@ These skills also make up significant aspects of the difference between ineffect
 
 Those who exhibit these qualities are more likely to yield positive outcomes when they are involved. Those positive outcomes are hopefully noticed by your leadership, and you should be rewarded with a quicker path to promotion as a result. Furthermore, by keeping work interactions in a highly constructive direction your own learning of your work domain will be maximized since you will not be as distracted by interpersonal issues.
 
-
 ## My Experience
 
-Seven+ years on, I view my divorce as the origin moment of an era of invaluable growth. It brought me to a state of  introspection and awareness of this world of emotion and behavior that I was really truly clueless about. I see this reflected in my personal life, especially my relationship with my daughters and family. I also see it reflected in my happiness and effectiveness in my job.
+Seven+ years on, I view my divorce as the origin moment of an era of invaluable growth. It brought me to a state of introspection and awareness of this world of emotion and behavior that I was really truly clueless about. I see this reflected in my personal life, especially my relationship with my daughters and family. I also see it reflected in my happiness and effectiveness in my job.
 
 I have learned to really love the role of manager or leader of a team. I love getting to know my teammates at a deeper level, since I feel like I can help the team work together very effectively with this knowledge. Each team member is their own very unique person, and brings something unique to the group. By getting to know your team at this level, you can better maximize productivity and harmony in the group. By being unafraid to confront difficult topics, you can lead your team to resolution or compassionate compromise faster. Your employees will be happier and do their best work.
 
@@ -77,7 +72,6 @@ Since this turning point in my life, my salary has doubled. The seven years prio
 The nature of improvements that I've been able to bring to my roles is dimensionally different now than it was before 2015. In those earlier times, I was honing my technical breadth and depth but always feeling like an imposter or checkbox-checker as a manager. Since 2015 I have pivoted to more impactful roles in leadership, taken on more responsibility, and had more of a hand in the success and happiness of the people around me.
 
 Of course there are many many other factors in the complex system of a career, but most of my increased satisfaction at work is emotional in nature. Learning how to more skillfully connect with and motivate my teammates has allowed us to be more successful. I attribute this satisfaction and success directly to what I've learned in therapy.
-
 
 ## The Economics
 
@@ -89,13 +83,12 @@ This is nearly a **17%** annual rate of return. Starting out at $200K/year incre
 
 Chances are your health insurance will cover most of the cost of regular therapy sessions. **ROI approaches infinity!** 🚀
 
-
 ## Wrap
 
 Of course, this is a synthetic situation and I'm a single data point and everyone will have a different experience. But my hope here is to plant a seed that may not have been there before - to contemplate therapy as an **investment** with a **exceedingly positive ROI**.
 
 Life is an series of experiences. Each experience is a teaching moment. By investing in becoming a student of our own humanity, we can face those experiences with deeper understanding and get more value from them. I don't think I've mastered anything here by a long shot, and old patterns creep in from time to time. But at least now, through this investment, I have an awareness of when negative patterns start to show up and can more mindfully approach the situation. Better things usually happen.
 
-You don't have to be in a personal crisis to seek the guidance of a therapist. An hour of emotional and behavioral consulting every fortnight - file it as an investment in yourself and to others. 
+You don't have to be in a personal crisis to seek the guidance of a therapist. An hour of emotional and behavioral consulting every fortnight - file it as an investment in yourself and to others.
 
 Here's to your health and success!

@@ -3,6 +3,7 @@ layout: post
 title: All The Ways Up Mission Peak
 date: '2021-01-17 12:00:00'
 thumbnail: https://photos.steinkamp.us/photo/2021-01-17_mission-peak/2021011716054444-4759711745111788283-IMG_0221.JPG?size=300x300&crop
+tocMaxLevel: 2
 ---
 
 Anyone who knows me reasonably well knows I have a soft spot for Mission Peak. I grew up in Fremont, and begrudgingly hiked up the Peak with my family every so often, complaining the whole time. It was hot. It was dry. I was thirsy. I was tired. Except for the time was a teenager and took a detour around the Hidden Valley area and headed off-trail, straight up the peak face. That was adventure! (not recommended, of course!)
@@ -13,19 +14,19 @@ A lot of people know Mission Peak. They know it's a butt-kicker, but they make t
 
 ![Mission Peak](https://photos.steinkamp.us/photo/2021-07-22_mission-peak/IMG_2913.JPG?size=1600x1600)
 
-## **In General**
+## In General
 
 This is a hot, dry place when the weather is warm. Bring at least a liter of water per person/creature. Also when it's warm, you may see a rattlesnake. Don't freak out, just give it plenty of distance and continue on your way. The cows on Mission Peak are the most chill cows ever. Just give them their space (you will be able to see if they are nervous ... just give them more space if that's the case). You may see a coyote. Again, don't freak out. Just clap your hands (or not) and they will run away. You may see turkeys! You may see hawks and eagles! You may see tarantulas! They are harmless. Don't litter!
 
-## **Most Popular: From Stanford Ave Trailhead**
+## Most Popular: From Stanford Ave Trailhead
 
 Roundtrip Distance: **6 miles** / Elevation Gain: **2100 feet** / [Strava Route](https://www.strava.com/routes/2786043726377427422) / [Mission Peak Site](https://www.ebparks.org/parks/mission/)
 
-#### Getting There / Parking
+### Getting There / Parking
 
 Just off of Mission Boulevard in Fremont is Stanford Avenue. At the top of this street is a small parking lot, a bathroom, and water fountain. If you're lucky, park in the lot. Otherwise you will need to drive back down the street and find street parking. Heed the street parking rules!
 
-#### The Trail
+### The Trail
 
 From the trailhead, push open the gate and begin the hike up. There is a fork in the trail just a few minutes after you start. Stay to the left, unless you want to take the Horse Heaven Trail (detailed in the next section). The trail serpentines up the face of the Peak for 3 pretty consistently steep miles. There are a few places to stop and rest along the way. Just before the last half-mile or so, there is a bathroom, and then the trail wraps around the back of the peak, then makes a right turn (clearly labeled with a "PEAK =>" sign) to make the last steep climb up, finishing with a couple tenths of a mile of rocks.
 
@@ -33,15 +34,15 @@ I've seen a lot of people walking very nervously on the rocky part, but the rock
 
 ![Mission Peak!](https://photos.steinkamp.us/photo/2021-07-22_mission-peak/IMG_2922.JPG?size=1600x1600)
 
-## **Most Popular in 2020: From Ohlone College**
+## Most Popular in 2020: From Ohlone College
 
 Roundtrip Distance: **6 miles** / Elevation Gain: **2100 feet** / [Strava Route](https://www.strava.com/routes/2786044164935287262) / [Ohlone College Site](https://www.ohlone.edu/)
 
-#### Getting There / Parking
+### Getting There / Parking
 
 Ohlone College is an easy destination to put in your GPS. There's a huge parking garage near the trailhead. It is $3 or $4 for parking (not enforced on holidays). After you park, exit the garage where you went in, cross the road, and walk to the trailhead which is just above the tennis courts.
 
-#### The Trail
+### The Trail
 
 While the same distance and elevation gain as its more popular cousin (Stanford Ave trailhead), the Ohlone College route only shares the final half-mile or so, and offers more variety. Head up the hill from the trailhead, go through the gate, then make a hard right turn to begin the first long climb. Pass the large, square house that my family called the "Taj Mahal" when it was built in the 80s, but it's showing its age now. There is some shade at the end of this climb, where the trail turns to the left and goes behind the foothills.
 
@@ -49,15 +50,15 @@ The climb continues and passes a small pond (dry at the end of the summer, somet
 
 ![Mission Peak!!!!](https://photos.steinkamp.us/photo/2021-01-17_mission-peak/2021011716054444-9125760981370084764-IMG_7368_HEIC.JPG?size=1600x1600)
 
-## **Most Popular With Counterculturalists: Horse Heaven Trail**
+## Most Popular With Counterculturalists: Horse Heaven Trail
 
 Roundtrip Distance: **6 miles** / Elevation Gain: **2150 feet** / [Strava Route](https://www.strava.com/routes/2786043949499888622) / [Mission Peak Site](https://www.ebparks.org/parks/mission/)
 
-#### Getting There / Parking
+### Getting There / Parking
 
 It's the same as the "Most Popular: From Stanford Ave Trailhead" above.
 
-#### The Trail
+### The Trail
 
 Very shortly after going through the gate a the Stanford Ave trailhead, there will be a fork in the trail to the right that goes downhill. This is the way to Horse Heaven! (Fun fact: the ranchers that used to live on Mission Peak would take their dying horses up Horse Heaven to send them to Horse Heaven!)
 
@@ -67,15 +68,15 @@ It's possible to make a loop, going up the main trail and down Horse Heaven, or 
 
 ![Mission Peak!!](https://photos.steinkamp.us/photo/2021-01-17_mission-peak/2021011716054444-4759711745111788283-IMG_0221.JPG?size=1600x1600)
 
-## **Most Popular With Ultramarathoners: From Sunol**
+## Most Popular With Ultramarathoners: From Sunol
 
 Roundtrip Distance: **10 miles** / Elevation Gain: **2150 feet** / [Strava Route](https://www.strava.com/routes/2786044389566703598) / [Sunol Regional Wilderness Site](https://www.ebparks.org/parks/sunol/)
 
-#### Getting There / Parking
+### Getting There / Parking
 
 Sunol is a beautiful place. You can get there from Calaveras Road (take the Calaveras exit closer to Pleasanton, vs the one in Milpitas, unless you like to drive on windy roads and have an extra 30 minutes to spare). Parking is $5 or $6, plus $2 for the [Ohlone Wilderness Trail permit](https://www.ebparks.org/parks/ohlone/default.htm#trailmap), which doubles as one of the best trail maps in existence. After paying the nice ranger, park in the small lot to the right of the road, next to the horse area.
 
-#### The Trail
+### The Trail
 
 The trailhead is a metal gate next to a couple picnic tables in the afforementioned Horse Area parking lot. Sign-in at the trailhead sign-in station, then open the gate and begin the ascent! This is also not a very popular trail.
 
@@ -87,15 +88,15 @@ The Ohlone Wilderness Trail dead-ends into the Eagle Trail, next to a small camp
 
 ![Up from the south side](https://photos.steinkamp.us/photo/2021-07-22_mission-peak/IMG_2947.JPG?size=1600x1600)
 
-## **Most Popular With Adventurers: From Ed Levin County Park**
+## Most Popular With Adventurers: From Ed Levin County Park
 
 Roundtrip Distance: **12 miles** / Elevation Gain: **2350 feet** / [Strava Route](https://www.strava.com/routes/2786044688364144554) / [Ed Levin Park Site](https://www.sccgov.org/sites/parks/parkfinder/Pages/Ed-Levin.aspx)
 
-#### Getting There / Parking
+### Getting There / Parking
 
 Ed Levin park is a little ways off of Calaveras Road, in the hills above Milpitas. After paying at the ranger station at the entrance, continue up the road, passing a couple of parking lots. When you get to the dog park, park your car in the lot to the right.
 
-#### The Trail
+### The Trail
 
 The trailhead is past the dog park and labeled as the Tularcitos Trail. Go up the first hill, then make a left at the first gate to the top of that hill. This is the Monument Peak Trail. There are several roads that hang glider people use to drive to do their hang gliding thing, but stick to the linked route / trails and you will be fine.
 
@@ -105,7 +106,7 @@ After you've gone a half mile or so past the road to Mt Allison, this trail has 
 
 ![Mission Peak!!!](https://photos.steinkamp.us/photo/2021-01-17_mission-peak/2021011716054444--2534621354471602481-IMG_0658.JPG?size=1600x1600)
 
-## **Congratulations!**
+## Congratulations!
 
 You've made it to the top of the peak! Next time out, try a new way, or mix ways in and out for some variety. The trail network on Mission Ridge is such that you could summit the Peak dozens of times and not do the same route twice.
 

@@ -10,14 +10,13 @@ function getPath(slug: string[]): string {
   let name = slug[3]
 
   name = name.replace(/\.html$/, '')
-  name = name.replace(/\-post$/, '')
+  name = name.replace(/-post$/, '')
 
   return `/posts/${year}-${month}-${day}-${name}`
 }
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
   let { slug } = req.query
-  let dest = '/'
   if (!slug) {
     return res.redirect('/')
   }

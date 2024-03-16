@@ -4,6 +4,8 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
 import ReactMarkdown from 'react-markdown'
+import createHeadingSlug from '@/util/createHeadingSlug'
+import TableOfContents from '@/components/TableOfContents'
 
 export async function getStaticProps() {
   const data = yaml.load(fs.readFileSync('data/music-tools.yaml', 'utf8'))
@@ -16,28 +18,33 @@ export async function getStaticProps() {
 }
 
 interface MusicToolsProps {
-  data: Array<any>
+  data: Array<Record<string, string>>
 }
 
 const MusicToolsPage: React.FC<MusicToolsProps> = ({ data }) => {
-  const titleList = data.map((app) => {
-    return (
-      <li key={app.link}>
-        <Link href={`#${app.title}`}>{app.title}</Link>
-      </li>
-    )
+  // populate the `slug` attribute
+  data.forEach((app) => {
+    app.slug = createHeadingSlug(app.title)
+  })
+
+  const headings = data.map((app) => {
+    return {
+      slug: app.slug,
+      title: app.title,
+      level: 2,
+    }
   })
 
   const appList = data.map((app) => {
     return (
-      <div className="pt-8" key={app.link}>
-        <div className="flex justify-between">
-          <h2>
+      <div className='pt-8' key={app.link}>
+        <div className='flex justify-between'>
+          <h2 id={app.slug}>
             <Link href={app.link} title={app.title}>
               {app.title}
             </Link>
           </h2>
-          <div className="self-end">
+          <div className='self-end'>
             <Link href={app.link}>More Info / Download</Link>
           </div>
         </div>
@@ -52,19 +59,28 @@ const MusicToolsPage: React.FC<MusicToolsProps> = ({ data }) => {
   })
 
   return (
-    <>
+    <article>
       <Head>
         <title>Music Tools</title>
         <meta
-          name="description"
-          content="Tools that I have created for other musicians, mostly in Max for Live."
+          name='description'
+          content='Tools that I have created for other musicians, mostly in Max for Live.'
         />
       </Head>
+      <TableOfContents headings={headings} className='' />
       <h1>Music Tools / Plugins</h1>
       <p>
         I have made a handful of tools for electronic musicians who use Ableton
         Live Suite, which includes Max For Live.
       </p>
+
+      <Image
+        className='mb-8'
+        width='1024'
+        height='148'
+        src='https://github.com/zsteinkamp/m4l-Modulation-Lerp/raw/main/images/device.gif'
+        alt='Example Plugin - Modulation Lerp'
+      />
 
       <p>
         Max For Live is a visual signal processing environment that integrates
@@ -83,10 +99,8 @@ const MusicToolsPage: React.FC<MusicToolsProps> = ({ data }) => {
         about the devices.
       </p>
 
-      {titleList}
-
       {appList}
-    </>
+    </article>
   )
 }
 

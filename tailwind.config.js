@@ -1,5 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 const { fontFamily } = require('tailwindcss/defaultTheme')
+const colors = require('tailwindcss/colors')
+
+const shade = colors.stone
+const linkbase = colors.sky
 
 module.exports = {
   content: [
@@ -10,10 +14,28 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        condensed: ['"Roboto Condensed"', ...fontFamily.sans],
-        sans: ['Inter', ...fontFamily.sans],
+        header: ['"Averia Serif Libre"', ...fontFamily.sans],
+        sans: ['Source Sans Pro', ...fontFamily.sans],
+      },
+      colors: {
+        pagebg: 'var(--pagebg)',
+        shadebg: 'var(--shadebg)',
+        shadeshadow: 'var(--shadeshadow)',
+        shadetext: 'var(--shadetext)',
+        border: 'var(--border)',
+        text: 'var(--text)',
+        date: 'var(--date)',
+        themetoggle: 'var(--themetoggle)',
+        'themetoggle-hover': 'var(--themetoggle-hover)',
+        mid: 'var(--mid)',
+        header: 'var(--header)',
+        'link-base': 'var(--link-base)',
+        'link-visited': 'var(--link-visited)',
+        'link-hover': 'var(--link-hover)',
+        'thumb-text': 'var(--thumb-text)',
       },
     },
   },
+  darkMode: 'class',
   plugins: [require('@tailwindcss/line-clamp')],
 }
