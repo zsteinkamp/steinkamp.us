@@ -7,7 +7,7 @@ export type DateBucketType = {
   maxVal: number
   minDate: number
   maxDate: number
-  granularity?: OpUnitType
+  granularity: OpUnitType
   buckets: Record<string, number>
   tags: TagArrType
 }
@@ -20,7 +20,7 @@ export default function getDateBuckets(
     maxVal: 0,
     minDate: Infinity,
     maxDate: -Infinity,
-    granularity: undefined,
+    granularity: 'year',
     buckets: {},
     tags: [],
   }

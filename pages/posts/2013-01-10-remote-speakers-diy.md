@@ -1,12 +1,13 @@
 ---
 layout: post
+date: 2013-01-10
 title: Remote Speakers DIY
 excerpt: |
   This is a project I've wanted to do since we moved in.  With just a few
   simple parts, I installed independent remote speakers into our dining room.  Here's
   what it took...
 tags:
-- Nerd
+  - Nerd
 ---
 
 This is a project I've wanted to do since we moved in. With just a few simple parts, I installed independent remote speakers into our dining room. What I wanted was a system that was simple, controllable from an iPhone via AirPlay, and that didn't require going to another room and turning something on before we could listen to music.

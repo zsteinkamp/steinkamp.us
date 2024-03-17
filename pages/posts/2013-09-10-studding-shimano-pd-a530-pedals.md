@@ -7,7 +7,7 @@ excerpt: |
   on the other. The platform side is not that great, so I decided to fix that
   with some studs from another set of pedals.
 tags:
-- Video
+- Videos
 - Outdoors
 ---
 

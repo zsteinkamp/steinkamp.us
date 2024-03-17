@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Trail Running: What I've Learned So Fartags:
+title: "Trail Running: What I've Learned So Far"
 date: '2013-05-09 23:20:33'
 tags:
-- Running
-- Outdoors
+  - Running
+  - Outdoors
 excerpt: |
   Since getting serious about running at the end of 2012 in preparation
   for the Ohlone Wilderness 50K, I've learned a few things about body maintenance,

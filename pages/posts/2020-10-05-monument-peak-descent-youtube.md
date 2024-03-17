@@ -7,6 +7,6 @@ uid: goelfXI5Xxg
 excerpt: Time-lapse mode on GoPro Hero 9, vertical orientation.
 tags:
 - Outdoors
-- Video
+- Videos
 - Running
 ---
