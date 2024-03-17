@@ -111,6 +111,7 @@ body {
   --border: var(--shade-200);
   --text: var(--shade-500);
   --date: var(--shade-500);
+  --date-lite: var(--shade-400);
   --themetoggle: #fb923c; /* colors.orange['400'] */
   --themetoggle-hover: #fdba74; /* colors.orange['300'] */
   --mid: var(--shade-800);
@@ -129,6 +130,7 @@ body {
   --border: var(--shade-800);
   --text: var(--shade-400);
   --date: var(--shade-500);
+  --date-lite: var(--shade-600);
   --themetoggle: var(--link-700);
   --themetoggle-hover: var(--link-600);
   --mid: var(--link-600);

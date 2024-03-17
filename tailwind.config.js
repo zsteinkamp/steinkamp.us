@@ -21,6 +21,7 @@ module.exports = {
         border: 'var(--border)',
         text: 'var(--text)',
         date: 'var(--date)',
+        'date-lite': 'var(--date-lite)',
         themetoggle: 'var(--themetoggle)',
         'themetoggle-hover': 'var(--themetoggle-hover)',
         mid: 'var(--mid)',

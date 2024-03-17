@@ -4,8 +4,17 @@ import dayjs from 'dayjs'
 import utc from 'dayjs/plugin/utc'
 dayjs.extend(utc)
 
+type PostType = {
+  title: string
+  date: number
+  slug: string
+  excerpt: string
+  thumbnail: string
+  tags: string[]
+}
+
 interface PostIndexProps {
-  posts: Array<Record<string, string>>
+  posts: PostType[]
   className?: string
 }
 
@@ -34,6 +43,7 @@ const PostIndex: React.FC<PostIndexProps> = ({ posts, className = '' }) => {
                 <h2 className='m-0'>{post.title}</h2>
                 <div className='mb-[0.25rem] text-sm text-date'>
                   {dayjs(post.date).utc().format('MMMM, YYYY')}
+                  {post.tags && post.tags.length && <span className="text-date-lite ml-1"> in {post.tags.join(", ")}</span>}
                 </div>
                 <div className='text-text line-clamp-3'>{post.excerpt}</div>
               </div>

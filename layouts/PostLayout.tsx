@@ -8,6 +8,7 @@ import Giscus from '@giscus/react'
 
 import collectHeadings from '@/util/collectHeadings'
 import TableOfContents from '@/components/TableOfContents'
+import { SSK_FILTER, SSK_MAX_DATE, SSK_MIN_DATE, SSK_SEL_TAGS, hasSessionStorage } from '@/components/PostFilter'
 
 interface PostLayoutProps {
   pageProps: AppProps['pageProps']
@@ -15,10 +16,20 @@ interface PostLayoutProps {
 }
 
 const PostLayout: React.FC<PostLayoutProps> = ({ pageProps, children }) => {
-  const { title, date, excerpt, thumbnail } = pageProps.markdoc.frontmatter
+  const { title, date, excerpt, thumbnail, tags } = pageProps.markdoc.frontmatter
   const fmtDate = dayjs(date).format('MMMM D, YYYY')
 
   const headings = collectHeadings(pageProps.markdoc.content)
+
+  const handleTagClick = (tag: string) => {
+    if (hasSessionStorage()) {
+      window.sessionStorage.removeItem(SSK_MIN_DATE)
+      window.sessionStorage.removeItem(SSK_MAX_DATE)
+      window.sessionStorage.removeItem(SSK_FILTER)
+      window.sessionStorage.setItem(SSK_SEL_TAGS, JSON.stringify({ [tag]: true }))
+      window.location.href = "/"
+    }
+  }
 
   return (
     <>
@@ -47,8 +58,18 @@ const PostLayout: React.FC<PostLayoutProps> = ({ pageProps, children }) => {
           />
         )}
         <h1 className=''>{title}</h1>
-        <div className='mb-8 text-date'>{fmtDate}</div>
-        <div className='mb-16'>{children}</div>
+        <div className='text-date'>{fmtDate}</div>
+        {tags && <div className="flex flex-wrap">
+          {tags.map((tag: string) => {
+            return (<div key={tag} className="mt-2 mb-1">
+              <label onClick={() => handleTagClick(tag)}
+                className={`bg-shadebg border-shadeshadow cursor-pointer py-1 px-2
+                  border-1 rounded mr-1 text-xs hover:bg-link-hover`}>
+                {tag}
+              </label></div>)
+          })}
+        </div>}
+        <div className='mt-8 mb-16'>{children}</div>
         <Giscus
           repo='zsteinkamp/steinkamp.us'
           repoId='R_kgDOJOYKlQ'

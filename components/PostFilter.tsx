@@ -4,12 +4,12 @@ import dayjs from 'dayjs'
 import { ChangeEvent, useEffect, useState } from 'react'
 import ReactSlider from "react-slider"
 
-const SSK_MIN_DATE = 'minDate'
-const SSK_MAX_DATE = 'maxDate'
-const SSK_FILTER = 'filter'
-const SSK_SEL_TAGS = 'selTags'
+export const SSK_MIN_DATE = 'minDate'
+export const SSK_MAX_DATE = 'maxDate'
+export const SSK_FILTER = 'filter'
+export const SSK_SEL_TAGS = 'selTags'
 
-const hasSessionStorage = () => {
+export const hasSessionStorage = () => {
   return !!(typeof window !== 'undefined' && window.sessionStorage)
 }
 
