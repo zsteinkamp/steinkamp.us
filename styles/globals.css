@@ -120,6 +120,8 @@ body {
   --link-visited: var(--link-700);
   --link-hover: var(--link-500);
   --thumb-text: white;
+  --histogram: var(--shade-300);
+  --histogram-hover: var(--shade-400);
 }
 :root.dark {
   color-scheme: dark;
@@ -134,11 +136,13 @@ body {
   --themetoggle: var(--link-700);
   --themetoggle-hover: var(--link-600);
   --mid: var(--link-600);
-  --header: var(--link-200);
+  --header: var(--shade-200);
   --link-base: var(--link-600);
   --link-visited: var(--link-600);
   --link-hover: var(--link-300);
   --thumb-text: black;
+  --histogram: var(--shade-700);
+  --histogram-hover: var(--shade-600);
 }
 
 .monoSvg path {

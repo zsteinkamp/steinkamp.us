@@ -46,10 +46,10 @@ const DateBuckets: React.FC<DateBucketsProps> = ({
         className='group relative h-12 cursor-pointer bg-pagebg text-center font-sans text-xs font-normal uppercase'
       >
         <div
-          className={`absolute left-0 bottom-0 w-full bg-shadeshadow group-hover:bg-shadeshadow`}
+          className={`absolute left-0 bottom-0 w-full bg-histogram group-hover:bg-histogram-hover`}
           style={{ height: bucketPct }}
         />
-        <div className='absolute top-0 hidden w-full group-hover:block'>
+        <div className='absolute bottom-[-1rem] hidden w-full group-hover:block'>
           {dateBuckets.granularity &&
             dayjs(parseInt(key))
               .utc()

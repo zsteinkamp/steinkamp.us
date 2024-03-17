@@ -30,6 +30,8 @@ module.exports = {
         'link-visited': 'var(--link-visited)',
         'link-hover': 'var(--link-hover)',
         'thumb-text': 'var(--thumb-text)',
+        histogram: 'var(--histogram)',
+        'histogram-hover': 'var(--histogram-hover)',
       },
     },
   },

@@ -156,7 +156,7 @@ const PostFilter: React.FC<PostFilterProps> = ({
   }
 
   return (
-    <div className='sticky top-0 bg-pagebg pt-[0.9rem]'>
+    <div className='sticky top-0 bg-pagebg pt-[0.9rem] pb-2'>
       <div className='grid grid-cols-2'>
         <div>
           <h4 className='text-text'>
