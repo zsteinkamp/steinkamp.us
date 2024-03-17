@@ -2,16 +2,8 @@ import Image from 'next/image'
 import Link from 'next/link'
 import dayjs from 'dayjs'
 import utc from 'dayjs/plugin/utc'
+import { PostType } from '@/util/getPosts'
 dayjs.extend(utc)
-
-type PostType = {
-  title: string
-  date: number
-  slug: string
-  excerpt: string
-  thumbnail: string
-  tags: string[]
-}
 
 interface PostIndexProps {
   posts: PostType[]

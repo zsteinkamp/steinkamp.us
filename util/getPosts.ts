@@ -20,7 +20,15 @@ const getFirstImageUrl = (ast: any) => {
   return null
 }
 
-export type PostType = Record<string, any>
+export type PostType = {
+  title: string
+  date: number
+  slug: string
+  excerpt: string
+  thumbnail: string
+  tags: string[]
+}
+
 export type PostsListType = PostType[]
 
 const getPosts = async (

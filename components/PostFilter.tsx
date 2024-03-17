@@ -3,6 +3,7 @@ import DateBuckets from '@/components/DateBuckets'
 import dayjs from 'dayjs'
 import { ChangeEvent, useEffect, useState } from 'react'
 import ReactSlider from 'react-slider'
+import { PostType } from '@/util/getPosts'
 
 export const SSK_MIN_DATE = 'minDate'
 export const SSK_MAX_DATE = 'maxDate'
@@ -14,10 +15,10 @@ export const hasSessionStorage = () => {
 }
 
 interface PostFilterProps {
-  posts: Record<string, string>[]
+  posts: PostType[]
   buckets: DateBucketType
-  filteredPosts: Record<string, string>[]
-  setFilteredPosts: (arg0: Record<string, string>[]) => void
+  filteredPosts: PostType[]
+  setFilteredPosts: (arg0: PostType[]) => void
 }
 
 type selTagsType = Record<string, boolean>
@@ -58,11 +59,11 @@ const PostFilter: React.FC<PostFilterProps> = ({
     if (hasSessionStorage()) {
       updateMinSlider(
         parseInt(window.sessionStorage.getItem(SSK_MIN_DATE) || '0') ||
-          buckets.minDate
+        buckets.minDate
       )
       updateMaxSlider(
         parseInt(window.sessionStorage.getItem(SSK_MAX_DATE) || '0') ||
-          buckets.maxDate
+        buckets.maxDate
       )
       updateFilterVal(window.sessionStorage.getItem(SSK_FILTER) || '')
       updateSelTags(
@@ -86,7 +87,7 @@ const PostFilter: React.FC<PostFilterProps> = ({
   }
 
   useEffect(() => {
-    const tempPosts = []
+    const tempPosts = [] as PostType[]
     if (undefined === buckets.granularity) {
       return
     }

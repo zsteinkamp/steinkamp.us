@@ -1,5 +1,5 @@
 //import ReactSlider from 'react-slider'
-import getPosts from '@/util/getPosts'
+import getPosts, { PostType } from '@/util/getPosts'
 import PostIndex from '@/components/PostIndex'
 import PostFilter from '@/components/PostFilter'
 import generateRssFeed from '@/util/GenerateRssFeed'
@@ -23,7 +23,7 @@ export const getStaticProps = async () => {
 }
 
 interface IndexProps {
-  posts: Array<Record<string, string>>
+  posts: PostType[]
   buckets: DateBucketType
 }
 
