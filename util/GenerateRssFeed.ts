@@ -38,7 +38,7 @@ export default async function generateRssFeed(
       link: `${site_url}/blog/${post.slug}`,
       description: post.excerpt,
       date: new Date(post.date),
-      image: image ? image.replaceAll('&', '&amp;') : null,
+      image: image ? image.replaceAll('&', '&amp;') : undefined,
     })
   })
 

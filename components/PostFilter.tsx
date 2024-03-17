@@ -199,7 +199,7 @@ const PostFilter: React.FC<PostFilterProps> = ({
           withTracks
         />
       </div>
-      <div className='flex flex-wrap justify-center'>
+      <div className='hidden md:flex flex-wrap justify-center'>
         {buckets.tags.map((tag) => {
           return (
             <div key={tag} className='mb-1'>
