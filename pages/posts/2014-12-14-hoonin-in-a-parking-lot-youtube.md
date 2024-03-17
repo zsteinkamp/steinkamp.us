@@ -7,6 +7,5 @@ uid: CEjDRyAWSxE
 excerpt: Fun in the rain, filmed by Andy.
 tags:
 - Videos
-- Cars
-- Driving
+- Cars & Driving
 ---

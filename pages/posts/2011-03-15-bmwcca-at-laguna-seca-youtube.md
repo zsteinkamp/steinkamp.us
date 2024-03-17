@@ -11,6 +11,5 @@ excerpt: |
   session of the day.
 tags:
 - Videos
-- Cars
-- Driving
+- Cars & Driving
 ---

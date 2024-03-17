@@ -6,8 +6,7 @@ excerpt: |
   The M3 is now dialed in for good times on the autocross course.  Read
   on to learn some things that will help your E46 M3 get around those cones!
 tags:
-  - Cars
-  - Driving
+  - Cars & Driving
 ---
 
 I've been doing HPDE events at local race tracks for the past 10 months in my 05 ZCP, and have been pretty happy with how the car felt at higher speeds. Prior to this past week, I've had the following modifications to the car:

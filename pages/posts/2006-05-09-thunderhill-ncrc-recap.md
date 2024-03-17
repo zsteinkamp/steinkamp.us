@@ -6,15 +6,14 @@ excerpt: |
   This could very well have been the ideal day at the track.  Great company,
   great cars, great weather, and lots of learning was done.
 tags:
-  - Cars
-  - Driving
+  - Cars & Driving
 ---
 
-What a fantastic day at Thunderhill! High 70's, clear skies, green grass -- it doesn't get much better than that up in Willows.I met my folks at the Best Western in Willows on Thursday evening. They had driven down from Washington, and were visiting family in Chico. It's a half-hour drive from there to Willows. <a href='http://johnr.com/'>JohnR</a> and I caravaned up from the Bay Area for the event.
+What a fantastic day at Thunderhill! High 70's, clear skies, green grass -- it doesn't get much better than that up in Willows.I met my folks at the Best Western in Willows on Thursday evening. They had driven down from Washington, and were visiting family in Chico. It's a half-hour drive from there to Willows. [JohnR](http://johnr.com/) and I caravaned up from the Bay Area for the event.
 
-It was my first outing with <a href='http://ncracing.com/'>NCRC</a>, and Pops' first time on a road course. We shared my car, running in two different run groups. NCRC does a great job of running a track event. It's more casual than the BMWCCA events I've been to, but it works.
+It was my first outing with [NCRC](http://ncracing.com/), and Pops' first time on a road course. We shared my car, running in two different run groups. NCRC does a great job of running a track event. It's more casual than the BMWCCA events I've been to, but it works.
 
-<img align='right' src='http://www.thenobot.org/pictures/20060505-thill/images/MF1A0247.jpg' width='300'>My first couple of sessions were done solo -- sans instructor. That's all fine and good, but this was a different configuration of the track than I've driven on. Rather than the steep uphill, 90 degree left-hander, and sharp downhill "Cyclone" Turn 5, we ran "The Bypass", which is a blind over-crest, off-camber right hand sweeper. My first time though it I felt like I was going to fly off the track. Solo sessions are fun, but there is very little learning that can happen at my level (skill- and confidence-).
+![](http://www.thenobot.org/pictures/20060505-thill/images/MF1A0247.jpg)My first couple of sessions were done solo -- sans instructor. That's all fine and good, but this was a different configuration of the track than I've driven on. Rather than the steep uphill, 90 degree left-hander, and sharp downhill "Cyclone" Turn 5, we ran "The Bypass", which is a blind over-crest, off-camber right hand sweeper. My first time though it I felt like I was going to fly off the track. Solo sessions are fun, but there is very little learning that can happen at my level (skill- and confidence-).
 
 Pops had a great instructor from the start. Jay Hudson is a long-time instructor, and a recent Club Racer. His patience and skills in the art of high performance driving instruction really made a great day for my dad. Pops came away from the day with a feeling of acomplishment, and a fine regard for the proper line on a race track. I'm very excited for his next trip to Thunderhill, since I think he'll be more comfortable dialing in some speed to his experience.
 
@@ -26,6 +25,5 @@ So really a great day at the track. The car felt awesome all day. It was my firs
 
 I've signed up for the BMWCCA school at Thunderhill in August, and am registered to do an event with Hank Watts' Coastal Driving School at Sears, err Infineon in June. I'm really looking forward to continuing this addiction, and hope to get Arti out to the track one of these days -- as soon as we can leave Marina with her Nana and Nani overnight...
 
-<a href='http://www.thenobot.org/pictures/20060505-thill/'>Photos are here.</a>
-
-<a href='http://www.thenobot.org/video/'>Videos are here.</a>
+- [Photos are here.](http://www.thenobot.org/pictures/20060505-thill/)
+- [Videos are here.](http://www.thenobot.org/video/)

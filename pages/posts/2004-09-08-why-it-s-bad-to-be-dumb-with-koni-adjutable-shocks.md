@@ -3,8 +3,7 @@ layout: post
 title: Why it's bad to be dumb with Koni adjutable shocks
 date: '2004-09-08 12:06:06'
 tags:
-  - Cars
-  - Driving
+  - Cars & Driving
   - Memories
 ---
 

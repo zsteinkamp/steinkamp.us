@@ -7,8 +7,7 @@ excerpt: |
   inside of a car.  This works better for my bullet camera than the expensive
   IO Port mount.
 tags:
-  - Cars
-  - Driving
+  - Cars & Driving
   - Nerd
 ---
 

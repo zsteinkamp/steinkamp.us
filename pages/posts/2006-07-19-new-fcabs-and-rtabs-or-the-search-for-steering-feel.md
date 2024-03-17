@@ -8,8 +8,7 @@ excerpt: |
   a wild ride that is sure to keep every member of the family on their edge of
   their seats!
 tags:
-  - Cars
-  - Driving
+  - Cars & Driving
 ---
 
 Porsches have ruined me for other cars. Every time I'm able to drive one, I realize just a little bit more of the magic of what makes people coo-coo for them.

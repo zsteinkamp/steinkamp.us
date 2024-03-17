@@ -15,6 +15,5 @@ excerpt: |
   (like!)
 tags:
 - Videos
-- Cars
-- Driving
+- Cars & Driving
 ---

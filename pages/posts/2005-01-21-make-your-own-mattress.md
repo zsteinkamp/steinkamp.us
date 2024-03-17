@@ -41,29 +41,18 @@ get some padding for a watertight camera box (really a 50 caliber
 U.S. Army ammo box), so I figured there's gotta be some place to
 get the right kinds of foam.
 
-<a href=http://bobsfoam.com/>Bob's Foam Factory</a> didn't carry
-memory foam, so I couldn't give them some more business. However,
-some searching did come up with a few places that did carry it.
+[Bob's Foam Factory](http://bobsfoam.com/) didn't carry memory foam, so I couldn't give them some more business. However, some searching did come up with a few places that did carry it.
 
-I settled on <a href=http://www.foamdistributing.com/>Foam
-Factory Inc. / Foam Distributing / economyfoam.com</a> (ya, all
-three names are on the site in some place or another). They had
-it all, and the prices were pretty good. They were running a free
-shipping offer too, so there ya go.
+I settled on [Foam Factory Inc. / Foam Distributing / economyfoam.com](http://www.foamdistributing.com/) (ya, all three names are on the site in some place or another). They had it all, and the prices were pretty good. They were running a free shipping offer too, so there ya go.
 
 Here's what I ordered (from the top surface of the mattress to the
 bottom layer):
 
-<ul>
-<li>$95 <a href=http://www.foamdistributing.com/products/memoryfoam4.html>MF4Q62</a>
-    Memory Foam 4.3LB - Queen - 60"x80"x 2"</li>
-<li>$182 <a href=http://www.foamdistributing.com/products/memoryfoam5.html>MF5Q63</a>
-    Memory Foam 5.3LB - Queen - 60"x80"x 3"</li>
-<li>$34 <a href=http://www.foamdistributing.com/products/eggcratecon.html>LRFE82</a>
-    Lux Regular Foam - Eggcrate - 82"x76"x 2-1/2"</li>
-<li>$114 <a href=http://www.foamdistributing.com/products/lux-hq.html>LHQFFS84</a>
-    Lux High Qual. Foam - Full Sheet - 82"x76"x 4"</li>
-</ul>
+- $95 [MF4Q62](http://www.foamdistributing.com/products/memoryfoam4.html) Memory Foam 4.3LB - Queen - 60"x80"x 2"
+- $182 [MF5Q63](http://www.foamdistributing.com/products/memoryfoam5.html) Memory Foam 5.3LB - Queen - 60"x80"x 3"
+- $34 [LRFE82](http://www.foamdistributing.com/products/eggcratecon.html) Lux Regular Foam - Eggcrate - 82"x76"x 2-1/2"
+- $114 [LHQFFS84](http://www.foamdistributing.com/products/lux-hq.html) Lux High Qual. Foam - Full Sheet - 82"x76"x 4"
+
 Total price, shipped, was less than $450.
 
 To ship the foam, they wrap it in plastic in some sort of vacuum

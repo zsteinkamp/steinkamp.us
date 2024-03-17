@@ -10,6 +10,5 @@ excerpt: |
   few laps :-)
 tags:
 - Videos
-- Cars
-- Driving
+- Cars & Driving
 ---

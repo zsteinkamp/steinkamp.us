@@ -7,8 +7,7 @@ excerpt: |
   read on.  By using a good quality suspension system, the car can be transformed
   from "Capable GT Car" to "OMGWTFBBQ Handling Machine". '
 tags:
-  - Cars
-  - Driving
+  - Cars & Driving
 ---
 
 During last weekend's BMW CCA Car Control Clinic, I realized that the BMW tuned

@@ -8,8 +8,7 @@ excerpt: |
   that raced in the 25 Hours of Thunderhill endurance race in two 335d Diesel
   race cars.
 tags:
-  - Cars
-  - Driving
+  - Cars & Driving
 ---
 
 NASA held its annual "25 Hours of Thunderhill" race this past Saturday and

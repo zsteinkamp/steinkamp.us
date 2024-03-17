@@ -10,7 +10,7 @@ tags:
   - Family
 ---
 
-<img align='right' src='/images/marina_diaper_free.jpg' alt='Marina on her potty.' style='border:1px solid black'>Zack and I decided early on that when Marina could
+![Marina on her potty.](/images/marina_diaper_free.jpg)Zack and I decided early on that when Marina could
 walk and communicate, she should also be potty
 trained. We couldn't see ourselves changing the diaper
 of a two year old after being instructed by her to do
@@ -26,7 +26,7 @@ When Marina was a few
 weeks old, Mimi sent me a New York Times Article about
 infant potty training. I think she sent it as a joke!
 The article suggested that the reader check out the
-website <a href='http://www.diaperfreebaby.org'>www.diaperfreebaby.org</a> for more information.
+website [www.diaperfreebaby.org](http://www.diaperfreebaby.org) for more information.
 After exploring the website I found a local group that
 I joined. I lurked on the list for many weeks, not
 quite sure how, when, or if we would ever start.
@@ -37,7 +37,7 @@ the list seemed to prefer the Baby Bjorn Little Potty
 unused for several weeks. I also decided to purchase a
 potty turtleneck that some people on the list talked
 about. A potty turtleneck is a nifty little accessory (like a toilet seat cozy) that takes the chill out of the BBLP. The turtleneck
-was made by some nice ladies at <a href='http://theecstore.com/'>The EC Store</a>. "EC"
+was made by some nice ladies at [The EC Store](http://theecstore.com/). "EC"
 stands for elimination communication - another name
 for infant potty training.
 
@@ -54,7 +54,7 @@ bathroom because she just went!" My mom told me to
 just do it. So I left it at that.
 
 A few more weeks went by. I read this book called
-Diaper Free by <a href='http://www.natural-wisdom.com/'>Ingrid Bauer</a>. It was interesting but it
+Diaper Free by [Ingrid Bauer](http://www.natural-wisdom.com/). It was interesting but it
 still didn't make sense to me. I wanted to have it all
 figured out before i tried it.
 
