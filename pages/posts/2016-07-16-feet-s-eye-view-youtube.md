@@ -6,7 +6,7 @@ source: youtube
 uid: iaSp9UD2qLQ
 excerpt: Saratoga Gap Trail, Castle Rock State Park
 tags:
-- Videos
-- Running
-- Outdoors
+  - Videos
+  - Running
+  - Outdoors
 ---

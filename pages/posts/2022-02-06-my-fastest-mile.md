@@ -3,10 +3,10 @@ layout: post
 title: My Fastest Mile
 date: '2022-02-06 13:00:00'
 tags:
-- Memories
-- Running
-- Mission Peak
-- Outdoors
+  - Memories
+  - Running
+  - Mission Peak
+  - Outdoors
 thumbnail: https://photos.steinkamp.us/photo/zzz_blog_images/fast_mile_1.jpg
 ---
 

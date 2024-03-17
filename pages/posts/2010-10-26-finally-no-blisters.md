@@ -3,8 +3,8 @@ layout: post
 title: Finally, No Blisters!
 date: '2010-10-26 05:29:42'
 tags:
-- Running
-- Outdoors
+  - Running
+  - Outdoors
 ---
 
 I gave my Asolo TPS 520 a lot of chances to do well. Great reviews on Zappos, designed in the Italian Alps, how could they not be awesome? Well after 50 miles and sore, blistered feet I knew how.

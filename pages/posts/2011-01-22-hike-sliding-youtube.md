@@ -8,6 +8,6 @@ excerpt: |
   During an off-trail-excursion I slipped on some tall grass.  What
   came next may very well be the world's next great sport.
 tags:
-- Videos
-- Outdoors
+  - Videos
+  - Outdoors
 ---

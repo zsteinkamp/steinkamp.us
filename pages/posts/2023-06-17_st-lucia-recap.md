@@ -4,8 +4,8 @@ title: 'St Lucia Trip Recap'
 date: '2023-06-17 12:00:00'
 thumbnail: '/images/2023-06-17_st-lucia/IMG_8821.JPG'
 tags:
-- Family
-- Travel
+  - Family
+  - Travel
 ---
 
 Marina, Naomi, and I decided last April to book a trip to St Lucia. When we were deciding where to go, we didn't know we wanted to visit St Lucia specifically, but we did know we wanted a Caribbean vacation. After doing a bit of internet research (e.g. googling "how to select a caribbean island") as well as looking at flight times to each, St Lucia came out on top for us -- it's a very nature-oriented country and is not terribly difficult to get to. It ended up being a great decision.

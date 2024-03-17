@@ -6,7 +6,7 @@ source: youtube
 uid: wMuKf9kvwHM
 excerpt: Running thru a couple hundred sheep today was a bit surreal.
 tags:
-- Running
-- Outdoors
-- Videos
+  - Running
+  - Outdoors
+  - Videos
 ---

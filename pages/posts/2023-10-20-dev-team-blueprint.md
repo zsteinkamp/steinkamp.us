@@ -4,10 +4,10 @@ title: 'A Dev Team Blueprint'
 date: '2023-10-20 12:00:00'
 thumbnail: '/images/blueprint.jpg'
 tags:
-- Management
-- Software
-- Hiring
-- Work
+  - Management
+  - Software
+  - Hiring
+  - Work
 ---
 
 It's possible that your organization needs to scramble. Perhaps strategy takes a sudden left turn. It's crunch time and you are a part of making it happen. This is your mission, right?

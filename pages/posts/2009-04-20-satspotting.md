@@ -3,7 +3,7 @@ layout: post
 title: Satspotting
 date: '2009-04-20 21:01:34'
 tags:
-- Nerd
+  - Nerd
 ---
 
 My folks used to live in the Santa Cruz mountains -- where it's nice and dark. They had a hot tub outside. When I'd visit, a dip in the tub at night was usually a nice thing. A couple of times, I'd luck out and spot a satellite zooming overhead. It was always a neat experience imagining this thing out there that people made -- doing its job, or just caught in orbit around the planet.

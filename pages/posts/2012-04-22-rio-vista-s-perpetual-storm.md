@@ -9,7 +9,7 @@ excerpt: |
   the radar overlay is that there is an area in the north bay, near Fairfield
   and Rio Vista that appears to always have storm-level activity over it.
 tags:
-- Nerd
+  - Nerd
 ---
 
 In the weather app I use on my phone, there is a map view with configurable overlays. One of the most useful is the Doppler Radar overlay, which usually shows precipitation level on a colorful scale.

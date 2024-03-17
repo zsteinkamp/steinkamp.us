@@ -3,8 +3,8 @@ layout: post
 title: My Super Efficient Email Workflow
 date: '2012-03-18 14:59:31'
 tags:
-- Nerd
-- Work
+  - Nerd
+  - Work
 ---
 
 Like most people, email is a big part of my workday, as well as personal life. Over the years I've worked out a very efficient way of going through the tons of email I receive, never missing an important message, and never having an oppressive number of unread messages. I've realized that email can be used effectively as a to-do list, and use it accordingly. Hopefully someone may find these tips bring more efficiency to their email lives!

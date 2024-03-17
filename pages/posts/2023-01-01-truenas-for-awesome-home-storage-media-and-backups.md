@@ -4,7 +4,7 @@ title: 'TrueNAS for Awesome Home Storage, Media, and Backups'
 date: '2023-01-01 12:00:00'
 thumbnail: 'https://photos.steinkamp.us/photo/zzz_blog_images/truenas/truenas_box.jpg?size=300x300'
 tags:
-- Nerd
+  - Nerd
 ---
 
 yo I'm a constant optimizer and evolver with basically everything. I also enjoy working with computers, so challenges around technology are more fun for me than they are chores. This post captures my current solution of using TrueNAS for home network file sharing, media serving, and backups.

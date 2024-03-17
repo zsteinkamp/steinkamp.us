@@ -7,9 +7,9 @@ excerpt: |
   6 months of training covering 435 miles and climbing more than 80,000 feet,
   the race is now in the bag.
 tags:
-- Mission Peak
-- Running
-- Outdoors
+  - Mission Peak
+  - Running
+  - Outdoors
 ---
 
 Last October I decided to run the [Ohlone Wilderness Trail 50K](https://ohlone50k.com/). Leading up to that decision was a few years of hiking in the East Bay hills, a newfound enjoyment in running, and daily trips to Zombie Runner where I learned about the race.

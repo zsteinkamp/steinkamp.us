@@ -8,9 +8,9 @@ excerpt: |
   to Sunol Regional Park, then turn around and run back.  22.5 miles / 5000 ft
   ascent / 5h20m.
 tags:
-- Running
-- Outdoors
-- Mission Peak
+  - Running
+  - Outdoors
+  - Mission Peak
 ---
 
 For today's long run, I chose to go from Ed Levin County Park in Milpitas, up to Monument Peak, then north past Mt. Allison, behind Mission Peak, down to Sunol Regional Park, then turn around and run back.

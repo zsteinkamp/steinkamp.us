@@ -3,11 +3,11 @@ layout: post
 title: On Building Your Security Team
 date: '2014-06-25 17:46:29'
 tags:
-- Nerd
-- Work
-- Software
-- Management
-- Hiring
+  - Nerd
+  - Work
+  - Software
+  - Management
+  - Hiring
 ---
 
 Perhaps your company is at the point in its growth curve where you need a person dedicated to security issues, or perhaps you're looking to reboot your security team because of some of the problems outlined below.

@@ -19,7 +19,7 @@ I've been doing HPDE events at local race tracks for the past 10 months in my 05
 - Stoptech SS braided teflon lines
 - PF-01 pads on the front (Axxis Ultimate for Auto-X)
 
-Autocrossing on this setup left a bit to be desired.  The safety-biased handling that works well for my intermediate level skills at higher speeds  just turns piggish at autocross speeds.
+Autocrossing on this setup left a bit to be desired. The safety-biased handling that works well for my intermediate level skills at higher speeds just turns piggish at autocross speeds.
 
 At last month's autocross, my first practice run was my best time for the day. That's pathetic. It showed me that I was trying to drive WAY to fast, and just overdriving the understeering balance of the car.
 

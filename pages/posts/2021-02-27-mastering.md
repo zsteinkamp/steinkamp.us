@@ -3,7 +3,7 @@ layout: post
 title: What I Know About Mixing And Mastering Right Now
 date: '2021-02-27 12:00:00'
 tags:
-- Music
+  - Music
 ---
 
 I've just learned some things about mastering and I thought I'd write them down.

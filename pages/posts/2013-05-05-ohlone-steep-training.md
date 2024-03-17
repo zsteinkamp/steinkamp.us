@@ -9,9 +9,9 @@ excerpt: |
   with a 2520 foot climb.  I saw two snakes and got my favorite view of my favorite
   peak.
 tags:
-- Mission Peak
-- Running
-- Outdoors
+  - Mission Peak
+  - Running
+  - Outdoors
 ---
 
 It's two weeks until O50K, and my training plan calls for shorter runs to taper to the event. Today I chose to start from Ohlone and run up and over Mission Peak then over to the bench at Mt. Allison. It was a total of 9.1 miles with a 2520 foot climb.

@@ -6,7 +6,7 @@ source: youtube
 uid: 7UZoViFV02A
 excerpt: Painting with new glitter paint!
 tags:
-- Family
-- Art
-- Videos
+  - Family
+  - Art
+  - Videos
 ---

@@ -6,6 +6,6 @@ source: youtube
 uid: Il5H9rVIdZw
 excerpt: 5th Grade Graduation
 tags:
-- Videos
-- Family
+  - Videos
+  - Family
 ---

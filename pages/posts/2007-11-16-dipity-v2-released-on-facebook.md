@@ -3,9 +3,9 @@ layout: post
 title: Dipity v2 Released on Facebook
 date: '2007-11-16 00:00:00'
 tags:
-- Work
-- Software
-- Nerd
+  - Work
+  - Software
+  - Nerd
 excerpt: |
   We have finally come out with our big release on Facebook's Application
   platform.  This update allows for the creation of Dipity events and will hopefully

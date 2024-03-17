@@ -6,7 +6,7 @@ source: youtube
 uid: zL4JpaIw5pU
 excerpt: Short clip of our Maui Easy Riders ride.
 tags:
-- Videos
-- Family
-- Outdoors
+  - Videos
+  - Family
+  - Outdoors
 ---

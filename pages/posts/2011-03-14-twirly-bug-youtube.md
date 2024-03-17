@@ -10,7 +10,7 @@ excerpt: |
   way and that.  Is it for digging or for tickling a predator&#39;s throat?  And
   what is it exactly?
 tags:
-- Videos
-- Family
-- Nerd
+  - Videos
+  - Family
+  - Nerd
 ---

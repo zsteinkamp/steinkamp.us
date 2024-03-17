@@ -3,9 +3,9 @@ layout: post
 title: Protect Your Git Repo With a Test Hook
 date: '2011-04-15 04:22:02'
 tags:
-- Nerd
-- Software
-- Work
+  - Nerd
+  - Software
+  - Work
 ---
 
 We have a situation at work where we're using a git repository as a data source. The quality/correctness of the files checked in to this repo is critical to the operation of a larger and very important system.

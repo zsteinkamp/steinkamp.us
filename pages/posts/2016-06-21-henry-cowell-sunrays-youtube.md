@@ -6,6 +6,6 @@ source: youtube
 uid: Rvu08z2ktnc
 excerpt: From a run in said park. The light this day was majestic.
 tags:
-- Outdoors
-- Videos
+  - Outdoors
+  - Videos
 ---

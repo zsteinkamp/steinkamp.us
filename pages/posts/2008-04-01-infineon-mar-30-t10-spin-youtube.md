@@ -6,6 +6,6 @@ source: youtube
 uid: NP3lltOrGM0
 excerpt: Don't Lift!
 tags:
-- Videos
-- Cars & Driving
+  - Videos
+  - Cars & Driving
 ---

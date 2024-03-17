@@ -3,8 +3,8 @@ layout: post
 title: Tri For Fun - Pleasanton 2013 Recap
 date: '2013-07-20 15:00:00'
 tags:
-- Running
-- Outdoors
+  - Running
+  - Outdoors
 ---
 
 It all started in May. Actually, it all started 11 years ago when Arti and I signed up for the 15th annual Tri For Fun in Pleasanton at Shadow Cliffs park. Swimming, biking, and running were all things that I did _not_ do, but we thought this would be fun. Well, Arti did at least.

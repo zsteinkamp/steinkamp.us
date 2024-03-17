@@ -3,9 +3,9 @@ layout: post
 title: Last Long Run Before O50K
 date: '2013-04-21 23:02:24'
 tags:
-- Running
-- Outdoors
-- Mission Peak
+  - Running
+  - Outdoors
+  - Mission Peak
 excerpt: |
   "I got a pretty early start today, getting out of bed at 5:30a to do
   the last long training run before the big race.  Hit the trail at 6:45 with

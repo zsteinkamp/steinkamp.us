@@ -4,8 +4,8 @@ title: Goodbye Pinger, Hello _!
 date: '2007-04-27 00:00:00'
 excerpt: Springtime brings all kinds of new things.
 tags:
-- Work
-- Software
+  - Work
+  - Software
 ---
 
 OK, so it was only three months at Pinger.

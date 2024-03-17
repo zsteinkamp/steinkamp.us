@@ -3,8 +3,8 @@ layout: post
 title: Selectively Disable Session Cookies in Rails 2.3
 date: '2011-01-25 02:43:44'
 tags:
-- Nerd
-- Software
+  - Nerd
+  - Software
 ---
 
 In doing a project at work to more fully utilize our content delivery network (CDN) and nginx to cache static content, we ran up on a cookie problem in Rails.

@@ -3,9 +3,9 @@ layout: post
 title: 'Bringing Customer Focus to Your Engineering Team'
 date: '2022-12-08 12:00:00'
 tags:
-- Work
-- Software
-- Management
+  - Work
+  - Software
+  - Management
 ---
 
 In my experience, one attribute that makes a great software engineering team is their level of customer focus. By customer focus, I mean understanding their customer's needs and placing that front and center in decision making. It's critical for a team to understand that the only reason they exist is because their customers find value in the product or service they are offering. Without the deep understanding of that customer that comes from direct engagement with the customer, the team will likely impede their own success by building the wrong thing.

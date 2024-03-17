@@ -7,9 +7,9 @@ excerpt: |
   cool, sunny morning ... mid-50s.  It was an ideal day out there today -- warm
   sun and cool breeze.  I covered 16 miles, 4200 ft elevation gain, in 3h40m.
 tags:
-- Mission Peak
-- Running
-- Outdoors
+  - Mission Peak
+  - Running
+  - Outdoors
 ---
 
 I hit the trail at 8am today in Ed Levin County Park. It was a beautiful, cool, sunny morning ... mid-50s. The plan was to take the Calera Creek Trail to the Agua Caliente Trail, along the Bay Area Ridge Trail, then up and over Mission Peak, and back behind the peak. I added a bit extra after the Peak to get a bit more distance.

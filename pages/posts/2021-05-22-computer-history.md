@@ -4,9 +4,9 @@ title: My Computer History
 date: '2021-05-22 12:00:00'
 thumbnail: '/images/computer-history/thumb.png'
 tags:
-- Nerd
-- Software
-- Memories
+  - Nerd
+  - Software
+  - Memories
 ---
 
 My earliest computer memory was with my dad in his office at The Gap in Kentucky in the early 1980s. He would sometimes need to go in to work on weekends, and for reasons I don't remember, he would bring me with him and let me sit in front of an Apple III (yes, three) and noodle on it with VisiCalc or BASIC while he worked elsewhere.

@@ -4,8 +4,8 @@ title: Labor Day Bike Day
 date: '2012-09-04 04:41:04'
 excerpt: We celebrated Labor today with some bicycle-oriented garage projects, and I went for a ride with Sean Kohler, after 12 years away from a mountain bike.
 tags:
-- Family
-- Outdoors
+  - Family
+  - Outdoors
 ---
 
 I took advantage of the day off by rearranging the garage a bit. While the girls rode their bikes in the front yard, I collected all the strollers -- there are four in the garage right now -- into a corner. This freed up some wall space where I could make holder for Arti's nice road bike to hold it up by the frame crossbar vs. hanging by the rim how we had it. I used some scrap 3/4" plywood to make two thin pieces that I screwed perpendicular to the studs. I shaped them so the frame would nestle into a dip in the rail, rounded all the edges, then covered them in rubbery shelf liner. Works great, and it's a lot easier to store and retrieve than the hanging method.

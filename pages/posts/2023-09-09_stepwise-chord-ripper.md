@@ -4,8 +4,8 @@ title: 'Stepwise Chord Ripper'
 date: '2023-09-09 12:00:00'
 thumbnail: '/images/KeyStepperChordRipper.png'
 tags:
-- Music
-- Software
+  - Music
+  - Software
 ---
 
 I just finished a marathon session with Max For Live and have two new devices to

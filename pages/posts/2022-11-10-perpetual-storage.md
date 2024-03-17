@@ -4,8 +4,8 @@ title: 'Perpetual Storage'
 date: '2022-11-10 12:00:00'
 thumbnail: '/images/stone-tablet.jpg'
 tags:
-- Nerd
-- Philosophy
+  - Nerd
+  - Philosophy
 ---
 
 Where does the data go?

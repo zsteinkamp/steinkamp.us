@@ -4,7 +4,7 @@ title: Two Days With a New Friend
 date: '2013-07-22 04:19:49'
 excerpt: The story of a weekend spent in and out of the garage with a hummingbird.
 tags:
-- Memories
+  - Memories
 ---
 
 After we got home from the Pleasanton Tri For Fun, I was excited to tear into my weekend bike project. I had gotten a new driveline (gears, cranks, shifters, chain etc) for my bike to upgrade what came on the bike originally. I had been planning it out all week, and Saturday was the day that I could execute the plan.

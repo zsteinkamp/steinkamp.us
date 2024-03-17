@@ -9,7 +9,7 @@ excerpt: |
   to someone who only follows the market or the Silicon Valley tabloids, but for
   me, Groupon is the place to be.  Here's why...
 tags:
-- Work
+  - Work
 ---
 
 (I've been writing this in my head for a couple of months now, and here's an opportunity to get it out.)

@@ -3,9 +3,9 @@ layout: post
 title: Using Terminal vim as an External Editor on Mac
 date: '2022-03-01 12:00:00'
 tags:
-- Music
-- Software
-- Nerd
+  - Music
+  - Software
+  - Nerd
 ---
 
 If you're reading this, then please allow me to welcome you -- a fellow person of specific needs and preferences!

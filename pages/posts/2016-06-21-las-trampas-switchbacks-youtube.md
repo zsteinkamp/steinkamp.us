@@ -6,7 +6,7 @@ source: youtube
 uid: r0GMiNbXooY
 excerpt: Taking it easy down this technical section.
 tags:
-- Outdoors
-- Videos
-- Running
+  - Outdoors
+  - Videos
+  - Running
 ---

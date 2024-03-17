@@ -8,8 +8,8 @@ excerpt: |
   up the hill.  My goal is to be able to run the whole way up by the end of July...
   title: Clear Day, and a new PB
 tags:
-- Outdoors
-- Mission Peak
+  - Outdoors
+  - Mission Peak
 ---
 
 I met up with Brendon at the Stanford Ave trailhead this morning. It was a beautiful, clear day. I managed a 56:00-ish time by working in some running up the hill. My goal is to be able to run the whole way up by the end of July...

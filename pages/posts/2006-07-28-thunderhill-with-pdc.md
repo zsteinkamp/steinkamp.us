@@ -3,7 +3,7 @@ layout: post
 title: Thunderhill with PDC
 date: '2006-07-28 00:00:00'
 tags:
-- Cars & Driving
+  - Cars & Driving
 excerpt: |
   Back from a great day at the track with a small group of junkies known
   as "PDC".

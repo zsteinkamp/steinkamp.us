@@ -3,7 +3,7 @@ layout: post
 title: 'Nice backup solution for PFSense => TrueNAS'
 date: '2023-01-21 12:00:00'
 tags:
-- Nerd
+  - Nerd
 ---
 
 For the last couple of weeks, I've been nerding out on some home networking stuff. I blame my friend Eric for introducing me to the wonders of TrueNAS and pfSense.

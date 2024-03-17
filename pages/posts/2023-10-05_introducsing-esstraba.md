@@ -4,10 +4,10 @@ title: 'Introducing Esstraba!🎉'
 date: '2023-10-05 12:00:00'
 thumbnail: '/images/esstraba/screenshot.png'
 tags:
-- Outdoors
-- Running
-- Software
-- Nerd
+  - Outdoors
+  - Running
+  - Software
+  - Nerd
 ---
 
 Continuing on my apparent obsession with filesystem-based applications ([musics](https://github.com/zsteinkamp/musics), [photodirs](https://github.com/zsteinkamp/photodirs), etc...), I present Esstraba!🎉 your self-hosted Strava bulk download zip file viewer.

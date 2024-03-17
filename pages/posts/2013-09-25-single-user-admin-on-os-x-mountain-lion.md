@@ -9,7 +9,7 @@ excerpt: |
   the command line.
 thumbnail: /images/osx-mountain-lion-icon.jpg
 tags:
-- Nerd
+  - Nerd
 ---
 
 It's easy to make a user an administrator on OS X using the GUI tools. But if you do not have access to an existing admin account, this is impossible. By booting into Single-User mode, you can make a non-Admin into an Admin using the command line.

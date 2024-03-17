@@ -1,8 +1,8 @@
-import { DateBucketType } from "@/util/getDateBuckets"
+import { DateBucketType } from '@/util/getDateBuckets'
 import DateBuckets from '@/components/DateBuckets'
 import dayjs from 'dayjs'
 import { ChangeEvent, useEffect, useState } from 'react'
-import ReactSlider from "react-slider"
+import ReactSlider from 'react-slider'
 
 export const SSK_MIN_DATE = 'minDate'
 export const SSK_MAX_DATE = 'maxDate'
@@ -22,7 +22,12 @@ interface PostFilterProps {
 
 type selTagsType = Record<string, boolean>
 
-const PostFilter: React.FC<PostFilterProps> = ({ posts, buckets, filteredPosts, setFilteredPosts }) => {
+const PostFilter: React.FC<PostFilterProps> = ({
+  posts,
+  buckets,
+  filteredPosts,
+  setFilteredPosts,
+}) => {
   const [minSlider, setMinSlider] = useState(buckets.minDate)
   const [maxSlider, setMaxSlider] = useState(buckets.maxDate)
   const [filter, setFilter] = useState('')
@@ -44,7 +49,8 @@ const PostFilter: React.FC<PostFilterProps> = ({ posts, buckets, filteredPosts, 
   }
   const updateSelTags = (selTags: selTagsType) => {
     //console.log({ selTags })
-    hasSessionStorage() && window.sessionStorage.setItem(SSK_SEL_TAGS, JSON.stringify(selTags))
+    hasSessionStorage() &&
+      window.sessionStorage.setItem(SSK_SEL_TAGS, JSON.stringify(selTags))
     setSelTags(selTags)
   }
 
@@ -52,14 +58,16 @@ const PostFilter: React.FC<PostFilterProps> = ({ posts, buckets, filteredPosts, 
     if (hasSessionStorage()) {
       updateMinSlider(
         parseInt(window.sessionStorage.getItem(SSK_MIN_DATE) || '0') ||
-        buckets.minDate
+          buckets.minDate
       )
       updateMaxSlider(
         parseInt(window.sessionStorage.getItem(SSK_MAX_DATE) || '0') ||
-        buckets.maxDate
+          buckets.maxDate
       )
       updateFilterVal(window.sessionStorage.getItem(SSK_FILTER) || '')
-      updateSelTags(JSON.parse(window.sessionStorage.getItem(SSK_SEL_TAGS) || '{}'))
+      updateSelTags(
+        JSON.parse(window.sessionStorage.getItem(SSK_SEL_TAGS) || '{}')
+      )
     }
   }, [])
 
@@ -97,7 +105,7 @@ const PostFilter: React.FC<PostFilterProps> = ({ posts, buckets, filteredPosts, 
           let addRecord = selTagKeys.length === 0 // default to false if any tags are selected, true if no tags are selected
           //console.log('HERE NOFO', { addRecord, selTagKeys, tags: post.tags })
           if (selTagKeys.length > 0 && post.tags && post.tags.length > 0) {
-            let matches = 0;
+            let matches = 0
             for (const selTagKey of selTagKeys) {
               if (post.tags.indexOf(selTagKey) > -1) {
                 matches++
@@ -139,7 +147,7 @@ const PostFilter: React.FC<PostFilterProps> = ({ posts, buckets, filteredPosts, 
       newTags[tag] = true
     } else {
       //console.log('WANNA DELETE', JSON.stringify(newTags))
-      delete (newTags[tag])
+      delete newTags[tag]
       //console.log('AFTER DELETE', JSON.stringify(newTags))
     }
     //console.log({ newTags })
@@ -150,7 +158,10 @@ const PostFilter: React.FC<PostFilterProps> = ({ posts, buckets, filteredPosts, 
     <div className='sticky top-0 bg-pagebg pt-[0.9rem]'>
       <div className='grid grid-cols-2'>
         <div>
-          <h4 className='text-text'>Showing {filteredPosts.length} post{filteredPosts.length === 1 ? "" : "s"}</h4>
+          <h4 className='text-text'>
+            Showing {filteredPosts.length} post
+            {filteredPosts.length === 1 ? '' : 's'}
+          </h4>
         </div>
         <div className='text-right'>
           <input
@@ -187,14 +198,17 @@ const PostFilter: React.FC<PostFilterProps> = ({ posts, buckets, filteredPosts, 
           withTracks
         />
       </div>
-      <div className="flex flex-wrap justify-center">
+      <div className='flex flex-wrap justify-center'>
         {buckets.tags.map((tag) => {
           return (
-            <div key={tag} className="mb-1">
-              <label className={`${selTags[tag] ? "bg-link-base border-link-hover text-pagebg" : "bg-shadebg border-shadeshadow"} cursor-pointer py-1 px-2 border-1 rounded mr-1 text-xs hover:bg-link-hover`}>
+            <div key={tag} className='mb-1'>
+              <label
+                className={`${selTags[tag] ? 'border-link-hover bg-link-base text-pagebg' : 'border-shadeshadow bg-shadebg'} border-1 mr-1 cursor-pointer rounded py-1 px-2 text-xs hover:bg-link-hover`}
+              >
                 {tag}
-                <input type="checkbox"
-                  className="hidden"
+                <input
+                  type='checkbox'
+                  className='hidden'
                   checked={!!selTags[tag]}
                   onChange={(e) => handleTagToggle(tag, e)}
                 />

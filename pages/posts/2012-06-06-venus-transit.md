@@ -4,8 +4,8 @@ title: Venus Transit
 date: '2012-06-06 00:54:13'
 excerpt: Venus cruised in front of the sun today.  Here is a photo of it...
 tags:
-- Nerd
-- Photography
+  - Nerd
+  - Photography
 ---
 
 Venus cruised in front of the sun today. Here is a photo of it...

@@ -7,8 +7,8 @@ excerpt: |
   2.5 hours, and covered 27 miles, most of it on the Bay Trail and Guadalupe River
   Trail.
 tags:
-- Outdoors
-- Work
+  - Outdoors
+  - Work
 ---
 
 I decided to ride my bike home from work today. Ended up taking about 2.5 hours, and covered 27 miles, most of it on the Bay Trail and Guadalupe River Trail.

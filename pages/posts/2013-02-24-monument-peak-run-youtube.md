@@ -9,6 +9,6 @@ excerpt: |
   of turkeys, a protective mama cow, and one baby coyote (sorry, no video of that).
   9.5 miles, 2750ft, 2h03m
 tags:
-- Running
-- Outdoors
+  - Running
+  - Outdoors
 ---

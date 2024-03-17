@@ -3,7 +3,7 @@ layout: post
 title: Apple TV as Remote Speakers
 date: '2008-02-15 00:00:00'
 tags:
-- Nerd
+  - Nerd
 ---
 
 I didn't see any mention of this in the news stories about the new Apple TV software or on Apple's site, but I noticed it today.

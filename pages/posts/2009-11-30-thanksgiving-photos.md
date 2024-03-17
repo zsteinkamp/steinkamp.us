@@ -3,8 +3,8 @@ layout: post
 title: Thanksgiving photos
 date: '2009-11-30 20:09:56'
 tags:
-- Family
-- Cooking
+  - Family
+  - Cooking
 ---
 
 <div style="text-align: left; padding: 3px;">

@@ -4,7 +4,7 @@ title: OpenDNS on DD-WRT
 date: '2008-01-06 14:00:00'
 categories: post post
 tags:
-- Nerd
+  - Nerd
 ---
 
 After checking out what <a href="http://opendns.com/">OpenDNS</a> provides, I was excited to give it a try on my network. I use a Linksys WRT-54GS with the excellent DD-WRT firmware. Since the original WRT-54 firmware was Linux based, Linksys had to release the source code to it, which spawned lots of variants offering better feature sets.

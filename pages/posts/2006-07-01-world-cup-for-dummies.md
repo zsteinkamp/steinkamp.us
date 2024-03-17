@@ -4,7 +4,7 @@ title: World Cup For Dummies
 date: '2006-07-01 14:00:00'
 excerpt: A brief guide to the World Cup, 2006.
 tags:
-- Uncategorized
+  - Uncategorized
 ---
 
 <center>

@@ -3,8 +3,8 @@ layout: post
 title: Into the 4th Dimension
 date: '2008-06-04 00:00:00'
 tags:
-- Nerd
-- Software
+  - Nerd
+  - Software
 excerpt: |
   We just released a new kind of photo viewer.  It will search Flickr for
   whatever you're interested in, wherever you're interested in it and give you

@@ -6,6 +6,6 @@ source: youtube
 uid: nDpvRjpomIE
 excerpt: Thanks teacher Carol for showing her how to swim!
 tags:
-- Videos
-- Family
+  - Videos
+  - Family
 ---

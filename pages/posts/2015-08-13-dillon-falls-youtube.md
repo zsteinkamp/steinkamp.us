@@ -6,8 +6,8 @@ source: youtube
 uid: 00Nw9tPKvJM
 excerpt: Amazing place to sit and rest and contemplate and appreciate.
 tags:
-- Videos
-- Outdoors
+  - Videos
+  - Outdoors
 ---
 
 Find it here: [YouTube](https://www.strava.com/activities/368217437)

@@ -3,8 +3,8 @@ layout: post
 title: Alternative Single Table Inheritance for Rails
 date: '2011-04-04 16:57:48'
 tags:
-- Nerd
-- Software
+  - Nerd
+  - Software
 excerpt: |
   Nearly as simple to implement as Rails built-in single table inheritance
   pattern, but infinitely flexible.
@@ -17,6 +17,7 @@ Rails provides a simple single-table inheritance capability by using a column ca
 If you need more complex logic to determine which class to instantiate or if you don't want to have your database value mirror your class name, then the solution is still fairly simple.
 
 In this case, I had a class called "Entry":
+
 ```
 class Entry < ActiveRecord::Base
 ...
@@ -24,6 +25,7 @@ end
 ```
 
 I wanted to derive a number of classes from Entry to represent specific types of entries...
+
 ```
 class EntryTwitter < Entry
 ...
@@ -35,6 +37,7 @@ end
 ```
 
 Step One: Define a method in your base class that uses the method "becomes()"...
+
 ```
 class Entry < ActiveRecord::Base
 ...
@@ -48,6 +51,7 @@ end
 ```
 
 You can test this by going into script/console and calling the #specialized_class method on your ActiveRecord object...
+
 ```
   >script/console
 Loading development environment (Rails 2.2.2)
@@ -59,6 +63,7 @@ Loading development environment (Rails 2.2.2)
 ```
 
 Now the last thing to do is to have ActiveRecord always call this method when it instantiates a class from a database record. The Base#instantiate method is the perfect place for this...
+
 ```
 class Entry < ActiveRecord::Base
 ...
@@ -74,6 +79,7 @@ end
 ```
 
 Now when you load any object from your table, it will be magically instantiated as the specialized class...
+
 ```
   >script/console
 Loading development environment (Rails 2.2.2)

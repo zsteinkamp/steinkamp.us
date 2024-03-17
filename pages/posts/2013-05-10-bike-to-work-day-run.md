@@ -8,9 +8,9 @@ excerpt: |
   of the ridge and visit Mt. Allison before heading back over and down Mission
   Peak. 9.7 miles, 2750ft climb, 2h05m.
 tags:
-- Mission Peak
-- Running
-- Outdoors
+  - Mission Peak
+  - Running
+  - Outdoors
 ---
 
 I chose to celebrate Bike to Work Day by going for a run this morning. My plan was to do the O50K climb up Mission Peak, but turn right at the top of the ridge and visit Mt. Allison before heading back over and down Mission Peak. 9.7 miles, 2750ft climb, 2h05m.

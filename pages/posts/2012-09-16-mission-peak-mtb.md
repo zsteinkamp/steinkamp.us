@@ -11,8 +11,8 @@ excerpt: |
   the farmhouse (sweet technical section!) and rejoined the main trail.  I'm really
   happy we did it!
 tags:
-- Mission Peak
-- Outdoors
+  - Mission Peak
+  - Outdoors
 ---
 
 Rode up Mission Peak today with Sean Kohler. I was expecting it to be harder than it was, but it was still a doozie. We did about 10 miles total, 2700 feet elevation gain. The first stretch up the peak was 2.8 miles and 1750 feet gain -- unrelentingly steep. From there we went around the back of the peak and up to Mt. Allison, then came back and went down the Grove Trail past the farmhouse and rejoined the main trail. I'm really happy we did it!

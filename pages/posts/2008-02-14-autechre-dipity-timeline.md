@@ -3,7 +3,7 @@ layout: post
 title: Autechre Dipity Timeline
 date: '2008-02-14 00:00:00'
 tags:
-- Nerd
+  - Nerd
 ---
 
 Here is a timeline from <a href="http://www.dipity.com/">Dipity</a>!

@@ -3,8 +3,8 @@ layout: post
 title: The Bucket Analogy for Photo Exposures
 date: '2008-12-26 09:58:27'
 tags:
-- Nerd
-- Photography
+  - Nerd
+  - Photography
 ---
 
 There are three primary aspects to a photographic exposure:

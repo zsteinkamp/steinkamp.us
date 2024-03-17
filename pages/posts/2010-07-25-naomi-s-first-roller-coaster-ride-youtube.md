@@ -6,6 +6,6 @@ source: youtube
 uid: OA9KUtvOJEU
 excerpt: At Great America
 tags:
-- Videos
-- Family
+  - Videos
+  - Family
 ---

@@ -3,7 +3,7 @@ layout: post
 title: Consolidate and Loop in Ableton Live
 date: '2022-03-05 12:00:00'
 tags:
-- Music
+  - Music
 ---
 
 I'm an efficiency freak. In either my personal or professional life, I'm always looking for ways to eliminate steps in a process, especially if those steps are ones that a person has to take. Sometimes, process changes are big and fundamental and sometimes they are micro-efficiencies. A micro-efficiency may save 2 seconds of waiting time, or eliminate one mouse click. If that savings happens frequently, then the investment in finding the efficiency can pay off. Another advantage of finding micro-efficiencies for human-computer interactions is that the human can spend more time thinking like a human vs. having to switch to thinking like a computer. In creative activities, this can preserve creative flow, resulting in an increase in joy in the world.

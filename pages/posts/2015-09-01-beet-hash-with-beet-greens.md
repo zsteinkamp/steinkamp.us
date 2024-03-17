@@ -11,7 +11,7 @@ excerpt: |
   I found that the greens are entirely edible -- stems and all. So begins tonight's
   experiment.
 tags:
-- Cooking
+  - Cooking
 ---
 
 I've been cooking a lot lately. I love cooking! I love the creativity of it, the chemistry and process, and of course eating good food. Given the choice, I'd take an environment like "Chopped" over a cookbook any day. Give me a few good ingredients and an empty plate and let's see what happens.

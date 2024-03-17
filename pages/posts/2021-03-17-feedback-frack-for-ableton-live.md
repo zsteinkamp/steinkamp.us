@@ -5,8 +5,8 @@ date: '2021-03-17 12:00:00'
 categories: post
 thumbnail: '/images/feedback-sidechain.png'
 tags:
-- Music
-- Software
+  - Music
+  - Software
 ---
 
 Inspired by Hainbach's video on [Pinging](https://www.youtube.com/watch?v=qJRXxkswXdg), but lacking outboard hardware, I decided to explore creating a feedback device in Ableton Live.

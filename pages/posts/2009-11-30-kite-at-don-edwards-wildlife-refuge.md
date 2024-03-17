@@ -3,7 +3,7 @@ layout: post
 title: Kite at Don Edwards Wildlife Refuge
 date: '2009-11-30 09:56:47'
 tags:
-- Family
+  - Family
 ---
 
 <div style="text-align: left; padding: 3px;">

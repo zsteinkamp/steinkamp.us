@@ -6,6 +6,6 @@ source: youtube
 uid: MKfrqbjxQ0k
 excerpt: Stopped recording just as disaster struck. :)
 tags:
-- Videos
-- Family
+  - Videos
+  - Family
 ---

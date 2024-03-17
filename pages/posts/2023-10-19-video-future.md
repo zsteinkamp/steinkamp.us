@@ -4,8 +4,8 @@ title: 'On Video'
 date: '2023-10-19 12:00:00'
 thumbnail: '/images/video/console_tv.jpg'
 tags:
-- Philosophy
-- Nerd
+  - Philosophy
+  - Nerd
 ---
 
 ## Origin

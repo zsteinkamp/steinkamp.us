@@ -3,8 +3,8 @@ layout: post
 title: The Window Drum Dilemma
 date: '2017-05-16 04:40:21'
 tags:
-- Nerd
-- Music
+  - Nerd
+  - Music
 excerpt: |
   Ever have a deep bass sound that's stunning in the studio, but falls
   flat on "regular" speakers? Perhaps this post can offer a solution to fix that.

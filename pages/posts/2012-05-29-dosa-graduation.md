@@ -3,8 +3,8 @@ layout: post
 title: Dosa Graduation
 date: '2012-05-29 03:29:35'
 tags:
-- Family
-- Cooking
+  - Family
+  - Cooking
 ---
 
 Marina tears into her first big masala dosa at Tirupathi Bhimas in Milpitas...

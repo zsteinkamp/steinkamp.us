@@ -6,6 +6,6 @@ source: youtube
 uid: NEoIPrdowd0
 excerpt: Marina was so nervous for Naomi. :)
 tags:
-- Videos
-- Family
+  - Videos
+  - Family
 ---

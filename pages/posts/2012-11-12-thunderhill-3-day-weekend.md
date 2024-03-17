@@ -9,7 +9,7 @@ excerpt: |
   classroom along with doing in-car instruction.  A great weekend, but I'm also
   glad to be home!
 tags:
-- Cars & Driving
+  - Cars & Driving
 ---
 
 Just got home from three days at Thunderhill Raceway with the GGC BMWWCCA.

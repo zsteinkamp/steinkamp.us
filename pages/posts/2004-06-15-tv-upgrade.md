@@ -22,7 +22,7 @@ Also, running the "Auto Setup" menu option on the TV under where the computer si
 
 Future Enhancements:
 
-* Today: Get an ART CleanBox, which connects unbalanced RCA to balanced XLR devices.  Since I'm using the Mackie monitors, I may as well hook them up balanced.  Also, the Echo Mia has balanced outs, so i can have as good a signal as possibly going into the receiver with the CleanBox.
-* Put a whole computer behind/under it so that I don't have to dock/undock the laptop every day.
-* Put the Echo Mia soundcard in the computer, to do Reason and other audio stuff nicely
-* Put a video capture card in the computer, preferably a hi-def model.  Initially i can use this to have a "tv window" while using the computer, maybe later to be used as a computer-based PVR.  Consumerism?  What's that?
+- Today: Get an ART CleanBox, which connects unbalanced RCA to balanced XLR devices. Since I'm using the Mackie monitors, I may as well hook them up balanced. Also, the Echo Mia has balanced outs, so i can have as good a signal as possibly going into the receiver with the CleanBox.
+- Put a whole computer behind/under it so that I don't have to dock/undock the laptop every day.
+- Put the Echo Mia soundcard in the computer, to do Reason and other audio stuff nicely
+- Put a video capture card in the computer, preferably a hi-def model. Initially i can use this to have a "tv window" while using the computer, maybe later to be used as a computer-based PVR. Consumerism? What's that?

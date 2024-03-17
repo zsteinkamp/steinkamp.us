@@ -3,8 +3,8 @@ layout: post
 title: Goodbye Yahoo!, Hello Pinger!
 date: '2007-01-12 00:00:00'
 tags:
-- Work
-- Software
+  - Work
+  - Software
 ---
 
 I start my new job this coming Monday!

@@ -3,8 +3,8 @@ layout: post
 title: Sunol to Rose Peak
 date: '2013-03-10 22:11:10'
 tags:
-- Running
-- Outdoors
+  - Running
+  - Outdoors
 excerpt: |
   I set out today to tackle Rose Peak once again.  I hiked it a couple
   years ago, but haven't done it since I've been running.  It behooves me to practice

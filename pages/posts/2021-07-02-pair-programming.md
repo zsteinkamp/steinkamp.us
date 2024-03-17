@@ -3,9 +3,9 @@ layout: post
 title: On Pair Programming
 date: '2021-07-02 12:00:00'
 tags:
-- Nerd
-- Software
-- Work
+  - Nerd
+  - Software
+  - Work
 ---
 
 When most people hear the phrase "pair programming" they probably imagine two programmers in front of one keyboard and monitor, taking turns typing alternate letters. It's a silly picture that doesn't do the idea justice. This document is intended to better explain the benefits of Pair Programming and different styles of practicing it.

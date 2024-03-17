@@ -6,6 +6,6 @@ source: youtube
 uid: U4XhgHqeIMQ
 excerpt: From our class field trip to YSI at Sanborn Park.
 tags:
-- Nerd
-- Videos
+  - Nerd
+  - Videos
 ---

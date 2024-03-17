@@ -6,6 +6,6 @@ source: youtube
 uid: SugM0SsqYjM
 excerpt: Woohoo! Highlight of the ride.
 tags:
-- Videos
-- Outdoors
+  - Videos
+  - Outdoors
 ---

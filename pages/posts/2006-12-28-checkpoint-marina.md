@@ -4,7 +4,7 @@ title: Checkpoint Marina
 date: '2006-12-28 00:00:00'
 excerpt: A few snapshots from a day in the life of 15 month old Marina.
 tags:
-- Family
+  - Family
 ---
 
 Arti went to do some shopping for the new house just after Marina fell asleep for her morning nap. I took the opportunity to do a few small things to the Miata race-car-in-progress. After an hour, I came back inside because I knew she'd be waking up soon.

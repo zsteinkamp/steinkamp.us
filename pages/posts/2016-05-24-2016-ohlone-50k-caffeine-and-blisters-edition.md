@@ -4,9 +4,9 @@ title: 2016 Ohlone 50K -- Caffeine and Blisters Edition
 date: '2016-05-24 05:09:08'
 thumbnail: https://photos.steinkamp.us/photo/2016-05-24_ohlone_50k/home_stretch.jpg?size=300x300&crop
 tags:
-- Mission Peak
-- Outdoors
-- Running
+  - Mission Peak
+  - Outdoors
+  - Running
 ---
 
 Well, the 2016 Ohlone 50K is in the tie-dyed goodie bag. This year was such an experience in learning, growth, and overcoming adversity.

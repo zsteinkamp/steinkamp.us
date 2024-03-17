@@ -3,8 +3,8 @@ layout: post
 title: One-Line Javascript Templates
 date: '2008-12-22 15:19:16'
 tags:
-- Nerd
-- Software
+  - Nerd
+  - Software
 ---
 
 I came up with this today. Maybe it's not original, but I think it's pretty cool.

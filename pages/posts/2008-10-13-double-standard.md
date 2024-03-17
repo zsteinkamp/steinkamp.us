@@ -6,7 +6,7 @@ excerpt: |
   With the election in just a few weeks, here are some interesting questions
   to consider...
 tags:
-- Uncategorized
+  - Uncategorized
 ---
 
 (sent to me by a friend)

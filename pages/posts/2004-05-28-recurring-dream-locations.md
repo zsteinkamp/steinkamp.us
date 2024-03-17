@@ -41,7 +41,7 @@ I've had many dreams in this location, always going to the secret
 
 Other common locations:
 
-  * beach town</li>
-  * green hills</li>
-  * the danky concrete toilet megaplex (tmi)
-  * hmmm ... i know there are others
+- beach town</li>
+- green hills</li>
+- the danky concrete toilet megaplex (tmi)
+- hmmm ... i know there are others

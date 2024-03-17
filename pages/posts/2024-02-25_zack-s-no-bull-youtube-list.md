@@ -7,8 +7,8 @@ toc: true
 excerpt: |
   YouTube is a wonder of the modern world. Sure, there's a ton of garbage there, but there is also quite a lot of gold.
 tags:
-- Videos
-- Philosophy
+  - Videos
+  - Philosophy
 ---
 
 IMO YouTube is one of the world's wonders. No other platform ingests and serves as many gigabytes of user-generated content as Google's Big Boi of video. While it hosts its fair share of crap, YouTube houses many wonderfully pure sources of information and inspiration. This post attempts to highlight such amazements of education and enlightenment.

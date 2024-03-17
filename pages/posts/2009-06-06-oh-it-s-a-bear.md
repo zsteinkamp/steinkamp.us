@@ -3,8 +3,8 @@ layout: post
 title: Oh it's a Bear!
 date: '2009-06-06 13:02:43'
 tags:
-- Videos
-- Family
+  - Videos
+  - Family
 ---
 
 Normal:

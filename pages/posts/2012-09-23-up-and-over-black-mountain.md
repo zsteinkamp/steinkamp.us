@@ -7,8 +7,8 @@ excerpt: |
   and down the Indian Creek Trail a bit.  Distance was 14 miles, 5000 feet total
   ascent, and took 2h50m.
 tags:
-- Outdoors
-- Running
+  - Outdoors
+  - Running
 ---
 
 Had a nice hike/run today from Rhus Ridge, up and over Black Mountain and down the Indian Creek Trail a bit. Distance was 14 miles, 5000 feet total ascent, and took 2h50m.

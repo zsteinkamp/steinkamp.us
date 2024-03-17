@@ -4,7 +4,7 @@ title: Coop Renovation
 date: '2012-07-05 04:25:21'
 excerpt: We changed the coop a bit today to give Twilight and Paisley (our new larger hens) more space to enter and exit, along with better rain protection.
 tags:
-- Family
+  - Family
 ---
 
 We changed the coop a bit today to give Twilight and Paisley (our new larger hens) more space to enter and exit, along with better rain protection.

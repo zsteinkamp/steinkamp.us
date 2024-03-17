@@ -6,5 +6,5 @@ source: youtube
 uid: wb8aaLtADuw
 excerpt: Ice and stim treatment for my knee.
 tags:
-- Videos
+  - Videos
 ---

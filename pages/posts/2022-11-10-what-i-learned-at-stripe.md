@@ -5,8 +5,8 @@ date: '2022-11-10 12:00:00'
 toc: true
 thumbnail: 'https://marketplace.mypurecloud.com/e381987c-6f3e-4fc7-b562-8526d3e0ac45/companylogo_bf4b0be5.jpg'
 tags:
-- Work
-- Philosophy
+  - Work
+  - Philosophy
 ---
 
 In February 2022, I left my job at Splunk to take some time first to relax then to [focus on finding a fantastic next job](/post/2022/02/06/what-comes-next.html). I managed to do both during my three months of funemployment, landing a job at Stripe in the [Atlas](https://stripe.com/atlas) team in May. I was [laid off](https://techcrunch.com/2022/11/03/stripe-cuts-14-of-its-workforce-ceo-says-they-overhired-for-the-world-were-in/) in November 2022, along with most people who were hired during this time.

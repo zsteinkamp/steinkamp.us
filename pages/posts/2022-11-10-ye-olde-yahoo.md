@@ -4,9 +4,9 @@ title: 'Ye Olde Yahoo!'
 date: '2022-11-10 12:00:00'
 thumbnail: '/images/yahoo.png'
 tags:
-- Work
-- Memories
-- Software
+  - Work
+  - Memories
+  - Software
 ---
 
 Early Yahoo! was a very special place. It was magical and rudimentary at the same time. I joined probably past the true magical era, and was hired in Yahoo!'s first hyper-growth, bulking-out phase (empno 850) at the beginning of 1999.

@@ -6,6 +6,6 @@ source: youtube
 uid: '-FKu3IXmumw'
 excerpt: She waited all day to show me this.  :-)
 tags:
-- Family
-- Videos
+  - Family
+  - Videos
 ---

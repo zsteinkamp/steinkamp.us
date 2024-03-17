@@ -6,6 +6,6 @@ source: youtube
 uid: JT6iRQV8kSM
 excerpt: Lava Adventure
 tags:
-- Videos
-- Family
+  - Videos
+  - Family
 ---

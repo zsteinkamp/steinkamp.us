@@ -6,6 +6,6 @@ source: youtube
 uid: B1Qv8xR93U0
 excerpt: Marina dances solo, then with the &quot;yiddle wamb&quot;
 tags:
-- Family
-- Videos
+  - Family
+  - Videos
 ---

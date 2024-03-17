@@ -3,9 +3,8 @@ layout: post
 title: Sound Making vs. Song Making
 date: '2017-05-16 03:50:38'
 tags:
-- Music
-excerpt:
-  For me, music-making has two phases -- sound-making and song-making.
+  - Music
+excerpt: For me, music-making has two phases -- sound-making and song-making.
   These are two very different disciplines. Sound-making is fun and spontaneous.
   Song-making can be those things too, but it also becomes extremely detailed
   and deliberate as the song inches closer to its final version.

@@ -10,6 +10,6 @@ excerpt: |
   Flip Video Mino HD -- my new favorite in-car camera.  This is from the second
   session of the day.
 tags:
-- Videos
-- Cars & Driving
+  - Videos
+  - Cars & Driving
 ---

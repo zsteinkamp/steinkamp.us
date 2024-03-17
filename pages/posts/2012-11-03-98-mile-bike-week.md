@@ -3,7 +3,7 @@ layout: post
 title: 98 Mile Bike Week
 date: '2012-11-03 15:07:45'
 tags:
-- Outdoors
+  - Outdoors
 ---
 
 Almost cracked 100 miles on the bike this week.

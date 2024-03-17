@@ -6,6 +6,6 @@ source: youtube
 uid: GHGd1qJO3Fw
 excerpt: From our trip there to get her "big girl bed".
 tags:
-- Videos
-- Family
+  - Videos
+  - Family
 ---
