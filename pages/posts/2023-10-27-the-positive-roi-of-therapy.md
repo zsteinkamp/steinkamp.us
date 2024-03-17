@@ -5,6 +5,9 @@ date: '2023-10-27 12:00:00'
 thumbnail: '/images/brain-money.jpg'
 excerpt: |
   Beyond the usually understood benefits of therapy (dealing with trauma, triggers, relationships, etc.), this post presents a thesis that regular therapy yields a positive ROI over traditional investments.
+tags:
+- Work
+- Philosophy
 ---
 
 One of the best decisions I have made in the last several years is to commit to meeting with my therapist every two weeks, no matter what. This ongoing investment in myself isn't always driven by crisis, as most people likely associate with therapy. Sure, challenging emotional situations come up from time to time and it's great to have a therapist for those times. But for the most part what keeps me coming back to therapy is what I learn about myself and the emotional and behavioral structure of people. This not only helps me to craft more meaningful relationships with friends and family, but has also brought career success. That's what this post is about.

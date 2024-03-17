@@ -2,18 +2,10 @@
 layout: post
 title: Peak Trifecta
 date: '2010-03-21 20:20:36'
-categories: post post
-entry:
-  id: 279
-  source: post
-  uid: 231
-  data:
-    title: Peak Trifecta
-    excerpt: ''
-  created_at: '2010-08-30 05:16:39'
-  updated_at: '2010-08-30 05:16:39'
-  pub_date: '2010-03-21 20:20:36'
-  disabled: 0
+tags:
+- Mission Peak
+- Outdoors
+- Running
 ---
 
 I went for a big hike today. I've been up Mission Peak a bunch of times, and I've always been curious about the the transmission antennas on the peaks to the south. In looking at the map, I knew that the peaks had names -- Mt. Allison and Monument Peak. Mt. Allison is 200 feet higher than Mission Peak. From the Google Maps satellite view, I could see that there were trails on these other peaks. So I set out to make a route.

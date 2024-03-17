@@ -6,6 +6,10 @@ thumbnail: /images/lenticular/lenticular-zoom.jpg
 excerpt: |
   I had a run-in with a cloud structure I've never seen, myself or in any
   photos. Follow the story of how I figured out where it was.
+tags:
+- Outdoors
+- Photography
+- Travel
 ---
 
 I will always prefer the window seat.

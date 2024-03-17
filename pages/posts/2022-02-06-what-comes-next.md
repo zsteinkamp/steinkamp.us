@@ -2,9 +2,9 @@
 layout: post
 title: What Comes Next?
 date: '2022-02-06 12:00:00'
-categories: post
-entry:
-  source: post
+tags:
+- Work
+- Software
 ---
 
 I have 25+ years of experience in the Internet applications space, with that time split between IC and management positions - but always hands-on as an engineer. I have worked in all layers of the stack in [many very different roles](/resume/) in many different languages, frameworks, problem domains, and organizational structures.

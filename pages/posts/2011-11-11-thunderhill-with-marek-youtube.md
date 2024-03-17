@@ -7,4 +7,7 @@ uid: EvLaZZx05xs
 excerpt: |
   A few laps at a PDC day around Thunderhill with Marek.  E36 M3 daily
   driver, Contour HD mounted to helmet.
+tags:
+- Cars
+- Driving
 ---

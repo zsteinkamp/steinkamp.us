@@ -2,22 +2,16 @@
 layout: post
 title: Ohlone Steep Training
 date: '2013-05-05 22:09:34'
-categories: post post
-entry:
-  id: 921
-  source: post
-  data:
-    excerpt:
-      It's two weeks until O50K, and my training plan calls for shorter runs
-      to taper to the event.  Today I chose to start from Ohlone and run up and over
-      Mission Peak then over to the bench at Mt. Allison.  It was a total of 9.1 miles
-      with a 2520 foot climb.  I saw two snakes and got my favorite view of my favorite
-      peak.
-    title: Ohlone Steep Training
-  created_at: '2013-05-05 22:20:51'
-  updated_at: '2013-05-05 22:20:51'
-  pub_date: '2013-05-05 22:09:34'
-  disabled: 0
+excerpt: |
+  It's two weeks until O50K, and my training plan calls for shorter runs
+  to taper to the event.  Today I chose to start from Ohlone and run up and over
+  Mission Peak then over to the bench at Mt. Allison.  It was a total of 9.1 miles
+  with a 2520 foot climb.  I saw two snakes and got my favorite view of my favorite
+  peak.
+tags:
+- Mission Peak
+- Running
+- Outdoors
 ---
 
 It's two weeks until O50K, and my training plan calls for shorter runs to taper to the event. Today I chose to start from Ohlone and run up and over Mission Peak then over to the bench at Mt. Allison. It was a total of 9.1 miles with a 2520 foot climb.

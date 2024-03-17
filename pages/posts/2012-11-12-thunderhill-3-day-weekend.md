@@ -2,22 +2,15 @@
 layout: post
 title: Thunderhill 3-Day Weekend
 date: '2012-11-12 15:27:36'
-categories: post post
-entry:
-  id: 886
-  source: post
-  data:
-    excerpt:
-      Just got home from three days at Thunderhill Raceway with the GGC BMWWCCA.   Friday
-      was an Instructor Training School, and Saturday/Sunday was the standard High
-      Performance Driver Education, where I got the opportunity to teach the C Group
-      classroom along with doing in-car instruction.  A great weekend, but I'm also
-      glad to be home!
-    title: Thunderhill 3-Day Weekend
-  created_at: '2012-11-12 16:19:54'
-  updated_at: '2012-11-12 16:19:54'
-  pub_date: '2012-11-12 15:27:36'
-  disabled: 0
+excerpt: |
+  Just got home from three days at Thunderhill Raceway with the GGC BMWWCCA.   Friday
+  was an Instructor Training School, and Saturday/Sunday was the standard High
+  Performance Driver Education, where I got the opportunity to teach the C Group
+  classroom along with doing in-car instruction.  A great weekend, but I'm also
+  glad to be home!
+tags:
+- Cars
+- Driving
 ---
 
 Just got home from three days at Thunderhill Raceway with the GGC BMWWCCA.

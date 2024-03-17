@@ -2,6 +2,11 @@
 layout: post
 title: Systems of Working - The Role of Leadership
 date: '2019-08-24 23:09:30'
+tags:
+- Management
+- Work
+- Software
+- Nerd
 ---
 
 There are as many systems of working as there are development teams. One

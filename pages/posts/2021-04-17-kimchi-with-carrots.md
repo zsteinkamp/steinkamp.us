@@ -4,6 +4,8 @@ title: Kimchi With Carrots
 date: '2021-04-17 12:00:00'
 categories: post
 thumbnail: https://photos.steinkamp.us/photo/zzz_blog_images/IMG_2239.JPG?size=300x300&crop
+tags:
+- Cooking
 ---
 
 I love kimchi! It's sauerkraut's Korean cousin and is useful in many dishes as a side. I'll eat it with a sausage on a tortilla with mayo and mustard for lunch, or put on top of an aloo parata with some sour cream. Add to fried rice for a spicy and sour kick, or use it to elevate eggs and potatoes. It's satisfying to make, as it self-fermets on the counter from a lovely spicy vegetable melange into a delicious and complex spicy sour fiesta. It keeps super well in the fridge, so it can always be there for you.

@@ -2,9 +2,9 @@
 layout: post
 title: Faderboard Version 3
 date: '2022-01-08 12:00:00'
-categories: post
-entry:
-  source: post
+tags:
+- Music
+- Software
 ---
 
 This post details a significant update to my original Faderboard device for Ableton Live. I finally made time to learn enough Max for Live to do this in the way that I always wanted.

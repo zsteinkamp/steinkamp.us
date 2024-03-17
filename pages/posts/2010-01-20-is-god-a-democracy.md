@@ -2,18 +2,8 @@
 layout: post
 title: Is God a Democracy?
 date: '2010-01-20 20:30:42'
-categories: post post
-entry:
-  id: 277
-  source: post
-  uid: 219
-  data:
-    title: Is God a Democracy?
-    excerpt: ''
-  created_at: '2010-08-30 05:16:39'
-  updated_at: '2010-08-30 05:16:39'
-  pub_date: '2010-01-20 20:30:42'
-  disabled: 0
+tags:
+- Philosophy
 ---
 
 I firmly believe people are well intentioned. We really want to be good and do the right thing. One thing that helps to guide us through life are our beliefs: Who is in charge? What does this all mean? Why are we here?

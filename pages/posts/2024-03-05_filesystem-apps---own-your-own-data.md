@@ -6,6 +6,10 @@ excerpt: |
   Cloud services will come and go, but your memories are yours forever. Take
   charge of your media legacy with Filesystem Apps.
 thumbnail: /images/fsapps/photodirs.png
+tags:
+- Software
+- Nerd
+- Philosophy
 ---
 
 In the past few years, I've built a few applications that I call "Filesystem Apps".

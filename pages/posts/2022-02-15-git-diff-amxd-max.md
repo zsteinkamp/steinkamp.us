@@ -2,9 +2,10 @@
 layout: post
 title: Making 'git diff' Work For .amxd
 date: '2022-02-15 12:00:00'
-categories: post
-entry:
-  source: post
+tags:
+- Nerd
+- Music
+- Software
 ---
 
 Here's a quick tip if you're using git for revision control in developing Max/MSP or Max For Live devices.

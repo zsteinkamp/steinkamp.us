@@ -6,6 +6,9 @@ excerpt: |
   Took the train up to Stanford today to interview some promising college
   Grads.  Then took the train to Mountain View and talked with Pablo about a new
   project, then left to ride home at 4:30.
+tags:
+- Work
+- Outdoors
 ---
 
 Took the train up to Stanford today to interview some promising college Grads. Then took the train to Mountain View and talked with Pablo about a new project, then left to ride home at 4:30.

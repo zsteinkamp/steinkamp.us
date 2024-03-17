@@ -2,21 +2,14 @@
 layout: post
 title: Sunol to Rose Peak
 date: '2013-03-10 22:11:10'
-categories: post post
-entry:
-  id: 915
-  source: post
-  data:
-    excerpt:
-      I set out today to tackle Rose Peak once again.  I hiked it a couple
-      years ago, but haven't done it since I've been running.  It behooves me to practice
-      it, since it's 1/3 of the Ohlone 50K.  Strava's calorie count is my favorite
-      part! (om nom nom)
-    title: Sunol to Rose Peak
-  created_at: '2013-03-10 22:18:02'
-  updated_at: '2013-03-10 22:18:02'
-  pub_date: '2013-03-10 22:11:10'
-  disabled: 0
+tags:
+- Running
+- Outdoors
+excerpt: |
+  I set out today to tackle Rose Peak once again.  I hiked it a couple
+  years ago, but haven't done it since I've been running.  It behooves me to practice
+  it, since it's 1/3 of the Ohlone 50K.  Strava's calorie count is my favorite
+  part! (om nom nom)
 ---
 
 I set out today to tackle Rose Peak once again. I hiked it a couple years ago, but haven't done it since I've been running. It behooves me to practice it, since it's 1/3 of the Ohlone 50K.

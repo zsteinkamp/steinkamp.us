@@ -6,6 +6,10 @@ excerpt: |
   I took my new favorite shoes out this morning (New Balance MT1010) for
   a run/hike in Sunol today.  This was the most enjoyable running time I've ever
   had.  This could be the start of something new...
+tags:
+- Running
+- Outdoors
+- Mission Peak
 ---
 
 I took my new favorite shoes out this morning (New Balance MT1010) for a run/hike in Sunol today. I had a time limit, since we were all meeting up at Kanta's house for lunch and a family celebration. I managed to get from Sunol to Mission Peak and back (12 miles) in just over 2.5 hours. It felt like I was mostly running, but looking back at the GPS data it was maybe 1/2 the time.

@@ -2,9 +2,10 @@
 layout: post
 title: Manager Toolbox
 date: '2021-05-22 13:00:00'
-categories: post
-entry:
-  source: post
+tags:
+- Management
+- Work
+- Software
 ---
 
 Here's the tl;dr:

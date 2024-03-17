@@ -2,6 +2,10 @@
 layout: post
 title: Virtuous Dev Team Metrics
 date: '2020-09-05 12:00:00'
+tags:
+- Work
+- Software
+- Management
 ---
 
 As the leader or member of a software development team, you may be encouraged, inspired, or even forced to track particular metrics of the team’s performance. This post seeks to identify those metrics that lead to the best outcomes for the team, the products they are building, and for the business. We will also look at some "industry standard" metrics and we will see how they can be counterproductive, since they don't actually lead to a stronger team, and are susceptible to being gamed.

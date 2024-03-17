@@ -5,6 +5,10 @@ date: '2023-11-30 12:00:00'
 thumbnail: /images/authority.jpg
 excerpt: |
   How our views of competent authority as adults is shaped by our experiences as children, how that shows up in adult life, and how we can benefit from a categorical reboot of the role of authority.
+tags:
+- Management
+- Work
+- Parenting
 ---
 
 This could have been also titled "Evolving Authority". What I want to explore here is how our views of competent authority as adults is shaped by our experiences as children, how that shows up in adult life, and how we can benefit from a categorical reboot of the role of authority.

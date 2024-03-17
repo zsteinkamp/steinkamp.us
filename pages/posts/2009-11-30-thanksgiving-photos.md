@@ -2,18 +2,9 @@
 layout: post
 title: Thanksgiving photos
 date: '2009-11-30 20:09:56'
-categories: post post
-entry:
-  id: 271
-  source: post
-  uid: 211
-  data:
-    title: Thanksgiving photos
-    excerpt: ''
-  created_at: '2010-08-30 05:16:39'
-  updated_at: '2010-08-30 05:16:39'
-  pub_date: '2009-11-30 20:09:56'
-  disabled: 0
+tags:
+- Family
+- Cooking
 ---
 
 <div style="text-align: left; padding: 3px;">

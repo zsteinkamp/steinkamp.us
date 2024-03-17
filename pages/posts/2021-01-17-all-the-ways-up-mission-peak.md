@@ -8,7 +8,6 @@ tags:
   - Mission Peak
   - Outdoors
   - Running
-  - Hiking
 ---
 
 Anyone who knows me reasonably well knows I have a soft spot for Mission Peak. I grew up in Fremont, and begrudgingly hiked up the Peak with my family every so often, complaining the whole time. It was hot. It was dry. I was thirsy. I was tired. Except for the time was a teenager and took a detour around the Hidden Valley area and headed off-trail, straight up the peak face. That was adventure! (not recommended, of course!)

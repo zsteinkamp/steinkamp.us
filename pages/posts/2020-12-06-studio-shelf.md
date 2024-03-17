@@ -4,6 +4,9 @@ title: Studio Shelf
 date: '2020-12-06 00:00:00'
 thumbnail: https://photos.steinkamp.us/photo/2020-12-06_music-shelf/threefourths_studio.jpg?size=300x300&crop
 excerpt: Photos and instructions to make a useful tabletop shelf for your music studio.
+tags:
+- Music
+- Nerd
 ---
 
 My music studio layout seems to always be changing. Just like in doing most things, we either discover new and better ways of doing things, or our ideas, environment, or tastes change. My current music room has been pretty good so far. The main components of the room are a large 4k monitor, standing desk, keyboard/trackpad, MIDI knob controller, 88-key controller keyboard, audio interface, and an Ableton Push 2. These seem to be a good combination in terms of the human-computer interface. What I've noticed I've been doing most of all is searching for a desk/device layout that works best for me.

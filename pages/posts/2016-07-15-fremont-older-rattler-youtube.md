@@ -8,4 +8,8 @@ excerpt: |
   Beto passed it first and was speechless. I was right behind him and
   jumped about four feet into the air and squeezed my water bottle and sprayed
   water everywhere.
+tags:
+- Videos
+- Running
+- Outdoors
 ---

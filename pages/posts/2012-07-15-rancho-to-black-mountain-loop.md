@@ -7,6 +7,8 @@ excerpt: |
   Antonio up the PG&E Trail, Mine Trail, Black Mountain Trail, Summit, Black Mountain
   Trail, Chemise Trail, past Deer Hollow Farm and back to the car.  Took just
   a bit longer than 4 hours.
+tags:
+- Outdoors
 ---
 
 Difficult and long hike today -- 16.5 mile roundtrip from Rancho San Antonio up the PG&E Trail, Mine Trail, Black Mountain Trail, Summit, Black Mountain Trail, Chemise Trail, past Deer Hollow Farm and back to the car. Took just a bit longer than 4 hours.

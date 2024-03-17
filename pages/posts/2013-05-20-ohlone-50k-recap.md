@@ -2,17 +2,14 @@
 layout: post
 title: Ohlone 50K Recap
 date: '2013-05-20 15:27:01'
-entry:
-  data:
-    excerpt:
-      Last October I decided to run the Ohlone Wilderness Trail 50K.  After
-      6 months of training covering 435 miles and climbing more than 80,000 feet,
-      the race is now in the bag.
-    title: Ohlone 50K Recap
-  created_at: '2013-05-20 15:45:48'
-  updated_at: '2013-05-20 17:33:08'
-  pub_date: '2013-05-20 15:27:01'
-  disabled: 0
+excerpt: |
+  Last October I decided to run the Ohlone Wilderness Trail 50K.  After
+  6 months of training covering 435 miles and climbing more than 80,000 feet,
+  the race is now in the bag.
+tags:
+- Mission Peak
+- Running
+- Outdoors
 ---
 
 Last October I decided to run the [Ohlone Wilderness Trail 50K](https://ohlone50k.com/). Leading up to that decision was a few years of hiking in the East Bay hills, a newfound enjoyment in running, and daily trips to Zombie Runner where I learned about the race.

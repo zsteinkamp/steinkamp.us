@@ -6,6 +6,9 @@ excerpt: |
   Second time riding home from work.  It took 30 minutes less today, despite
   taking a bit longer route.  This is mostly due to not taking wrong turns and
   having to backtrack ;-).
+tags:
+- Outdoors
+- Work
 ---
 
 Second time riding home today. It took 30 minutes less today, despite taking a bit longer route. This is mostly due to not taking wrong turns and having to backtrack ;-).

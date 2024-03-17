@@ -2,6 +2,8 @@
 layout: post
 title: Miniminimus
 date: '2011-08-27 20:05:02'
+tags:
+- Running
 ---
 
 I got a pair of <a href="http://www.zombierunner.com/store/brands/new_balance/minimalist_shoes/">New Balance Minimus shoes</a> at Zombie Runner this week. Really love how they fit and feel, but I wasn't crazy about the big silver N on each shoe...

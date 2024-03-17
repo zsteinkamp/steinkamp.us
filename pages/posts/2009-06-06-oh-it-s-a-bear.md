@@ -2,18 +2,9 @@
 layout: post
 title: Oh it's a Bear!
 date: '2009-06-06 13:02:43'
-categories: post post
-entry:
-  id: 273
-  source: post
-  uid: 205
-  data:
-    title: Oh it's a Bear!
-    excerpt: ''
-  created_at: '2010-08-30 05:16:39'
-  updated_at: '2010-08-30 05:16:39'
-  pub_date: '2009-06-06 13:02:43'
-  disabled: 0
+tags:
+- Videos
+- Family
 ---
 
 Normal:

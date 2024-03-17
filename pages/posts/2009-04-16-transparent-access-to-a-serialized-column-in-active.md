@@ -2,18 +2,9 @@
 layout: post
 title: Transparent Access to a Serialized Column in ActiveRecord
 date: '2009-04-16 20:28:53'
-categories: post post
-entry:
-  id: 270
-  source: post
-  uid: 187
-  data:
-    title: Transparent Access to a Serialized Column in ActiveRecord
-    excerpt: ''
-  created_at: '2010-08-30 05:16:38'
-  updated_at: '2010-08-30 05:16:38'
-  pub_date: '2009-04-16 20:28:53'
-  disabled: 0
+tags:
+- Nerd
+- Software
 ---
 
 I started a job a few weeks ago where we're using Ruby on Rails. I had never used it before, and am starting to learn why it has been able to grow as quickly as it has -- it's just damn cool in a lot of ways.

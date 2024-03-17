@@ -2,22 +2,16 @@
 layout: post
 title: Last Long Run Before O50K
 date: '2013-04-21 23:02:24'
-categories: post post
-entry:
-  id: 918
-  source: post
-  data:
-    excerpt:
-      "I got a pretty early start today, getting out of bed at 5:30a to do
-      the last long training run before the big race.  Hit the trail at 6:45 with
-      a plan to do the O50K course for 13-ish miles, then turn around and retrace
-      my steps.  \n\nStats: 27.8mi, 7300ft climb, 1800 calories food, 300oz water,
-      3lbs net loss bodyweight."
-    title: Last Long Run Before O50K
-  created_at: '2013-04-21 23:16:12'
-  updated_at: '2013-04-21 23:16:12'
-  pub_date: '2013-04-21 23:02:24'
-  disabled: 0
+tags:
+- Running
+- Outdoors
+- Mission Peak
+excerpt: |
+  "I got a pretty early start today, getting out of bed at 5:30a to do
+  the last long training run before the big race.  Hit the trail at 6:45 with
+  a plan to do the O50K course for 13-ish miles, then turn around and retrace
+  my steps.  \n\nStats: 27.8mi, 7300ft climb, 1800 calories food, 300oz water,
+  3lbs net loss bodyweight."
 ---
 
 I got a pretty early start today, getting out of bed at 5:30a to do the last long training run before the big race. Hit the trail at 6:45 with a plan to do the O50K course for 13-ish miles, then turn around and retrace my steps.

@@ -2,17 +2,10 @@
 layout: post
 title: Google Apps Authentication for Internal Company Sites
 date: '2011-01-05 16:44:37'
-categories: post post
-entry:
-  id: 452
-  source: post
-  data:
-    title: Google Apps Authentication for Internal Company Sites
-    excerpt: ''
-  created_at: '2011-01-05 16:44:37'
-  updated_at: '2011-01-05 17:05:02'
-  pub_date: '2011-01-05 16:44:37'
-  disabled: 0
+tags:
+- Nerd
+- Software
+- Work
 ---
 
 Recently I was challenged by my company's CEO to make accessing internal sites

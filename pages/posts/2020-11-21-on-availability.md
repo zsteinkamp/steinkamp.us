@@ -2,6 +2,10 @@
 layout: post
 title: On Availability
 date: '2020-11-21 12:00:00'
+tags:
+- Work
+- Nerd
+- Software
 ---
 
 If someone involved in Internet services is asked to name a metric in that domain, chances are you will hear the word "availability". On its surface, availability is a simple measurement to understand or describe -- it's just a measurement of the proportion of time a service is up and running within a given time period. Right? The reality, like with most top-line measurements, is far more nuanced, and without detailed context, the metric actually says nothing.

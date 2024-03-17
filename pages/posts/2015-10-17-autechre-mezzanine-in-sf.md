@@ -3,6 +3,9 @@ layout: post
 title: Autechre @ Mezzanine in SF
 date: '2015-10-17 07:00:00'
 thumbnail: /images/autechre.jpg
+tags:
+- Art
+- Music
 ---
 
 While mindlessly surfing the internet I stumbled across [Autechre's website](http://autechre.ws/) and saw they were planning a North American tour. The San Francisco date was coming right up on October 16, 2015. Well heck yes I was going to go! Anyone who has listened to music with me knows that Autechre is #1 on my list. So I got in touch with a couple of Ae-friendly friends. It happened that Ben was as excited to go as I was, so I got us some tickets. Good thing I jumped on them, since the show sold out that week.

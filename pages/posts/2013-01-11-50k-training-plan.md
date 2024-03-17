@@ -2,19 +2,12 @@
 layout: post
 title: 50K Training Plan
 date: '2013-01-11 04:58:55'
-categories: post post
-entry:
-  id: 904
-  source: post
-  data:
-    excerpt:
-      I put this Google Spreadsheet together to plan out how the heck I'm going
-      to build up to 31 miles distance.
-    title: 50K Training Plan
-  created_at: '2013-01-11 04:59:12'
-  updated_at: '2013-01-11 04:59:12'
-  pub_date: '2013-01-11 04:58:55'
-  disabled: 0
+tags:
+- Running
+- Outdoors
+excerpt: |
+  I put this Google Spreadsheet together to plan out how the heck I'm going
+  to build up to 31 miles distance.
 ---
 
 I put this Google Spreadsheet together to plan out how the heck I'm going to build up to 31 miles distance. My prior biggest run was 18 miles, and have never done any mid-week work. This week I started running an hour each morning three days a week and plan on continuing that to build a solid base.

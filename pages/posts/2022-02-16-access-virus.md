@@ -2,9 +2,8 @@
 layout: post
 title: Access Virus and Me
 date: '2022-02-16 12:00:00'
-categories: post
-entry:
-  source: post
+tags:
+- Music
 ---
 
 The [Access Virus](https://en.wikipedia.org/wiki/Access_Virus) is a music synthesizer that was first sold around 1997. It was one of the first "virtual analog" synths, which means that it uses computer code that simulates the behavior of analog circuits, rather than using computer code to play back samples. This approach brought more liveliness to its sounds compared with other synths of the time, and this appealed to a lot of different kinds of musicians. The Virus was a staple of many studios in the late 90s and through the 2010s, with people like Hans Zimmer, The Prodigy, Tool, Jean Michelle Jarre, Nine Inch Nails, Sasha, and Tycho being a handful of the notable musicians who have used it in their music.

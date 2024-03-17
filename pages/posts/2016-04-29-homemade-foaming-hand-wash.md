@@ -2,20 +2,9 @@
 layout: post
 title: Homemade Foaming Hand Wash
 date: '2016-04-29 04:23:02'
-categories: post post
-entry:
-  id: 1161
-  source: post
-  data:
-    excerpt: |-
-      I really like foaming hand soap. I love how it goes on, and how easy it is to wash off. I also love how it's really frugal -- one pump is really all you need to wash your hands. What I don't love are the pungent fragrances, even on "natural" products, or the price.
-
-      So with some DIY we can do better, right? Yes!
-    title: Homemade Foaming Hand Wash
-  created_at: '2016-04-29 04:39:47'
-  updated_at: '2016-04-29 04:55:17'
-  pub_date: '2016-04-29 04:23:02'
-  disabled: 0
+tags:
+- Nerd
+excerpt: I really like foaming hand soap. I love how it goes on, and how easy it is to wash off. I also love how it's really frugal -- one pump is really all you need to wash your hands. What I don't love are the pungent fragrances, even on "natural" products, or the price. So with some DIY we can do better, right? Yes!
 ---
 
 I really like foaming hand soap. I love how it goes on, and how easy it is to wash off. I also love how it's really frugal -- one pump is really all you need to wash your hands. What I don't love are the pungent fragrances, even on "natural" products, or the price.

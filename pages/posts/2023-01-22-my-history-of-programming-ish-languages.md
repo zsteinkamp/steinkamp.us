@@ -2,10 +2,10 @@
 layout: post
 title: 'My History of Programming(-ish) Languages'
 date: '2023-01-22 12:00:00'
-categories: post
-entry:
-  source: post
-  data:
+tags:
+- Memories
+- Nerd
+- Software
 ---
 
 I thought it would be good to write down the programming languages I've used and the context that I learned them in. So here we are.

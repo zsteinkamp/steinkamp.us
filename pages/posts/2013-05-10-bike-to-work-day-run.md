@@ -2,21 +2,15 @@
 layout: post
 title: Bike to Work Day Run
 date: '2013-05-10 03:58:32'
-categories: post post
-entry:
-  id: 923
-  source: post
-  data:
-    excerpt:
-      I chose to celebrate Bike to Work Day by going for a run this morning.
-      My plan was to do the O50K climb up Mission Peak, but turn right at the top
-      of the ridge and visit Mt. Allison before heading back over and down Mission
-      Peak. 9.7 miles, 2750ft climb, 2h05m.
-    title: Bike to Work Day Run
-  created_at: '2013-05-10 04:12:01'
-  updated_at: '2013-05-10 04:12:01'
-  pub_date: '2013-05-10 03:58:32'
-  disabled: 0
+excerpt: |
+  I chose to celebrate Bike to Work Day by going for a run this morning.
+  My plan was to do the O50K climb up Mission Peak, but turn right at the top
+  of the ridge and visit Mt. Allison before heading back over and down Mission
+  Peak. 9.7 miles, 2750ft climb, 2h05m.
+tags:
+- Mission Peak
+- Running
+- Outdoors
 ---
 
 I chose to celebrate Bike to Work Day by going for a run this morning. My plan was to do the O50K climb up Mission Peak, but turn right at the top of the ridge and visit Mt. Allison before heading back over and down Mission Peak. 9.7 miles, 2750ft climb, 2h05m.

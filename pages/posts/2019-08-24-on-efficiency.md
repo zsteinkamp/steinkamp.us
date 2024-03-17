@@ -2,6 +2,11 @@
 layout: post
 title: On Efficiency
 date: '2019-08-24 23:09:30'
+tags:
+- Management
+- Work
+- Software
+- Nerd
 ---
 
 As a software development team, we should be relentness in our pursuit of

@@ -10,6 +10,8 @@ excerpt: |
   I felt that in in sweeping turns with some undulations -- the car felt like
   it was moving around more than it should, and felt less stable than it should.  Sounds
   like the shocks are done!
+tags:
+- Cars
 ---
 
 Shocks, or better called "dampers", resist motion of the springs and tires in the car's suspension. Without a shock absorber, your tires would be bouncing wildly whenever you drove over any sort of bump. Tires are like rubber balls, and they're held to the car with springs -- lots of bouncing potential there! Shocks also slow down slower movements in the suspension, like as the car leans to one side in a turn or squats down under acceleration.

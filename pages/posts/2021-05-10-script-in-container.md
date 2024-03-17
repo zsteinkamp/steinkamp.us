@@ -3,6 +3,9 @@ layout: post
 title: The Best Ways To Run a Short Script in a Container
 date: '2021-05-10 12:00:00'
 thumbnail: '/images/turducken.jpg'
+tags:
+- Nerd
+- Software
 ---
 
 Gone are the days of managing installed versions of interpreters (Ruby, Javascript/Node.js, Python, ...), compilers, servers, databases, and caches on your local machine. A combination of free hypervisor software combined with LXC (Linux Containers) yielded Docker, a beautiful way to run many things in one machine with controlled isolation.

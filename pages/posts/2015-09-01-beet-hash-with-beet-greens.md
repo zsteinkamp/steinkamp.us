@@ -2,24 +2,16 @@
 layout: post
 title: Beet Hash with Beet Greens
 date: '2015-09-01 01:29:56'
-categories: post post
-entry:
-  id: 1118
-  source: post
-  data:
-    excerpt: |
-      Beets are a wonder food. Not only are they delicious, but the nutrition
-      (especially in the form of nitrates) they deliver to your body can help you
-      achieve improved athletic performance. I''ve never cooked beet greens, so my
-      first instinct was to cut off the greens and toss them out. But then I thought
-      about that and how nutritious the greens could be. After a quick google search,
-      I found that the greens are entirely edible -- stems and all. So begins tonight's
-      experiment.
-
-  created_at: '2015-09-01 01:45:09'
-  updated_at: '2015-09-01 01:55:30'
-  pub_date: '2015-09-01 01:29:56'
-  disabled: 0
+excerpt: |
+  Beets are a wonder food. Not only are they delicious, but the nutrition
+  (especially in the form of nitrates) they deliver to your body can help you
+  achieve improved athletic performance. I''ve never cooked beet greens, so my
+  first instinct was to cut off the greens and toss them out. But then I thought
+  about that and how nutritious the greens could be. After a quick google search,
+  I found that the greens are entirely edible -- stems and all. So begins tonight's
+  experiment.
+tags:
+- Cooking
 ---
 
 I've been cooking a lot lately. I love cooking! I love the creativity of it, the chemistry and process, and of course eating good food. Given the choice, I'd take an environment like "Chopped" over a cookbook any day. Give me a few good ingredients and an empty plate and let's see what happens.

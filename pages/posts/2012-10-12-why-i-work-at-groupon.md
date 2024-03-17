@@ -8,6 +8,8 @@ excerpt: |
   the company then, but I'm way more excited now.  This may come as a surprise
   to someone who only follows the market or the Silicon Valley tabloids, but for
   me, Groupon is the place to be.  Here's why...
+tags:
+- Work
 ---
 
 (I've been writing this in my head for a couple of months now, and here's an opportunity to get it out.)

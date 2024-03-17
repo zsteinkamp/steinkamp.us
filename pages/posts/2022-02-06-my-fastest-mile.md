@@ -2,11 +2,12 @@
 layout: post
 title: My Fastest Mile
 date: '2022-02-06 13:00:00'
-categories: post
-entry:
-  source: post
-  data:
-    thumbnail: https://photos.steinkamp.us/photo/zzz_blog_images/fast_mile_1.jpg
+tags:
+- Memories
+- Running
+- Mission Peak
+- Outdoors
+thumbnail: https://photos.steinkamp.us/photo/zzz_blog_images/fast_mile_1.jpg
 ---
 
 My fastest mile ever happened on the right shoulder blade of Mission Peak. See, Mission Peak sits facing Fremont, the Bay, the Peninsula. Watching over it all in its regal pose. For those lucky enough to know what it is like to stand up there, we get to share in that grand view; in that fortunate place.

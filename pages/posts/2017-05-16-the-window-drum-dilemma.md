@@ -2,19 +2,12 @@
 layout: post
 title: The Window Drum Dilemma
 date: '2017-05-16 04:40:21'
-categories: post post
-entry:
-  id: 1254
-  source: post
-  data:
-    title: The Window Drum Dilemma
-    excerpt:
-      Ever have a deep bass sound that's stunning in the studio, but falls
-      flat on "regular" speakers? Perhaps this post can offer a solution to fix that.
-  created_at: '2017-05-16 04:45:20'
-  updated_at: '2017-05-16 04:55:56'
-  pub_date: '2017-05-16 04:40:21'
-  disabled: 0
+tags:
+- Nerd
+- Music
+excerpt: |
+  Ever have a deep bass sound that's stunning in the studio, but falls
+  flat on "regular" speakers? Perhaps this post can offer a solution to fix that.
 ---
 
 It was a Thursday night. I was sound-making. I had an idea to get some sounds from my kitchen. Maybe something with a bowl. Maybe dropping something on the floor. Silverware can make some cool sounds. I had my Rode i-XY plugged into my phone. The Rode i-XY is a stereo mic with integrated app. It records with great detail and clarity, and it's pretty straightforward to move recordings to my computer using FTP (though AirDrop would be even easier).

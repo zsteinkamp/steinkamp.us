@@ -9,6 +9,9 @@ excerpt: |
   get up Black Mountain.  It's a 2800 foot peak to the west of Mountain View and
   Los Altos.  Rancho San Antonio Open Space Preserve is the closest park, and
   provides a great route up.
+tags:
+- Outdoors
+- Running
 ---
 
 Today I decided to try something new, since I'm pretty sure I've gone up and down Mission Peak, Mt. Allison, and Monument Peak every possible way now. Looking at Google Earth and talking with Arti, I decided to see how to get up Black Mountain. It's a 2800 foot peak to the west of Mountain View and Los Altos. Rancho San Antonio Open Space Preserve is the closest park, and provides a great route up.

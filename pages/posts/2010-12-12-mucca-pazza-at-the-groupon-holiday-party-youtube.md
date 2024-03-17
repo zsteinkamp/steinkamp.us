@@ -7,6 +7,9 @@ uid: C4u4YcYrC2s
 excerpt: |
   At the Field Museum in Chicago.  These guys were incredible ... the
   video does not do them justice!
+tags:
+- Videos
+- Work
 ---
 
 [Site](http://mucca-pazza.org/)

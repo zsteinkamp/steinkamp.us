@@ -5,7 +5,7 @@ date: '2004-03-12 00:00:00'
 excerpt: |
   I've had a website since 1994 or so, in some form or another. This post is all about the origins of this site and what came before what you are seeing today.
 tags:
-  - Programming
+  - Software
   - Memories
   - Nerd
 ---

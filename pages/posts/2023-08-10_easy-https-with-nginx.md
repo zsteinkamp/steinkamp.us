@@ -3,6 +3,9 @@ layout: post
 title: 'Easy HTTPS with NGINX and ACME'
 date: '2023-08-10 12:00:00'
 thumbnail: '/images/njs-acme/njs-acme.png'
+tags:
+- Nerd
+- Software
 ---
 
 ## Bottom Line

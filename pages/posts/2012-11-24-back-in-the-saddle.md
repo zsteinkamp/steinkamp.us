@@ -2,17 +2,10 @@
 layout: post
 title: Back in the Saddle
 date: '2012-11-24 20:14:28'
-categories: post post
-entry:
-  id: 890
-  source: post
-  data:
-    excerpt: ''
-    title: Back in the Saddle
-  created_at: '2012-11-24 20:28:07'
-  updated_at: '2012-11-24 20:28:07'
-  pub_date: '2012-11-24 20:14:28'
-  disabled: 0
+tags:
+- Mission Peak
+- Running
+- Outdoors
 ---
 
 With the [Ohlone 50k](http://ohlone50k.com) looming in May, I've been inspired to get back out there on foot on the trails. After a few weeks away, this weekend was the time to get back into it.

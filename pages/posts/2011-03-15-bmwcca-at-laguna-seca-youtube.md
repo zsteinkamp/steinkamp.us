@@ -9,4 +9,8 @@ excerpt: |
   foggy, then sunny.  Great students and a lot of track time too.  Shot with a
   Flip Video Mino HD -- my new favorite in-car camera.  This is from the second
   session of the day.
+tags:
+- Videos
+- Cars
+- Driving
 ---
