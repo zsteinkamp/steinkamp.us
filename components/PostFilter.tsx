@@ -204,7 +204,7 @@ const PostFilter: React.FC<PostFilterProps> = ({
           return (
             <div key={tag} className='mb-1'>
               <label
-                className={`${selTags[tag] ? 'border-link-hover bg-link-base text-pagebg' : 'border-shadeshadow bg-shadebg'} border-1 mr-1 cursor-pointer rounded py-1 px-2 text-xs hover:bg-link-hover`}
+                className={`${selTags[tag] ? 'border-link-hover bg-link-base text-pagebg' : 'border-shadeshadow bg-shadebg'} border-1 mr-1 cursor-pointer rounded py-1 px-2 text-xs hover:bg-link-hover hover:text-pagebg`}
               >
                 {tag}
                 <input
