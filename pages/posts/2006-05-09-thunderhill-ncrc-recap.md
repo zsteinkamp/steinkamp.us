@@ -13,7 +13,7 @@ What a fantastic day at Thunderhill! High 70's, clear skies, green grass -- it d
 
 It was my first outing with [NCRC](http://ncracing.com/), and Pops' first time on a road course. We shared my car, running in two different run groups. NCRC does a great job of running a track event. It's more casual than the BMWCCA events I've been to, but it works.
 
-![](http://www.thenobot.org/pictures/20060505-thill/images/MF1A0247.jpg)My first couple of sessions were done solo -- sans instructor. That's all fine and good, but this was a different configuration of the track than I've driven on. Rather than the steep uphill, 90 degree left-hander, and sharp downhill "Cyclone" Turn 5, we ran "The Bypass", which is a blind over-crest, off-camber right hand sweeper. My first time though it I felt like I was going to fly off the track. Solo sessions are fun, but there is very little learning that can happen at my level (skill- and confidence-).
+![M3 at Thunderhill](https://photos.steinkamp.us/2006-05-05_thill/MF1A0247.JPG)My first couple of sessions were done solo -- sans instructor. That's all fine and good, but this was a different configuration of the track than I've driven on. Rather than the steep uphill, 90 degree left-hander, and sharp downhill "Cyclone" Turn 5, we ran "The Bypass", which is a blind over-crest, off-camber right hand sweeper. My first time though it I felt like I was going to fly off the track. Solo sessions are fun, but there is very little learning that can happen at my level (skill- and confidence-).
 
 Pops had a great instructor from the start. Jay Hudson is a long-time instructor, and a recent Club Racer. His patience and skills in the art of high performance driving instruction really made a great day for my dad. Pops came away from the day with a feeling of acomplishment, and a fine regard for the proper line on a race track. I'm very excited for his next trip to Thunderhill, since I think he'll be more comfortable dialing in some speed to his experience.
 
@@ -25,5 +25,4 @@ So really a great day at the track. The car felt awesome all day. It was my firs
 
 I've signed up for the BMWCCA school at Thunderhill in August, and am registered to do an event with Hank Watts' Coastal Driving School at Sears, err Infineon in June. I'm really looking forward to continuing this addiction, and hope to get Arti out to the track one of these days -- as soon as we can leave Marina with her Nana and Nani overnight...
 
-- [Photos are here.](http://www.thenobot.org/pictures/20060505-thill/)
-- [Videos are here.](http://www.thenobot.org/video/)
+- [Photos are here.](https://photos.steinkamp.us/2006-05-05_thill)

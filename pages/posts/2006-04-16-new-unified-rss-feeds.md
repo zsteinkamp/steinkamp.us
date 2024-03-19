@@ -15,8 +15,4 @@ Previously, there was a feed for stories and a feed for pictures. With Marina, d
 
 So from now going forward, there is just a single feed from the Nobot. The old photos feed will still work for a long while, but you only need to subscribe to:
 
-<pre>
-<a href='http://thenobot.org/rss.php'>http://thenobot.org/rss.php</a>
-</pre>
-
 Ok, that's all for me. Back to the fun...

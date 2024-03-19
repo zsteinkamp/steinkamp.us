@@ -31,10 +31,6 @@ Prior to the event I maxxed out the negative camber in the front of the car to a
 
 In autocross conditions, the car is now (finally!) in its element. Gone is the necessity to have absurdly low corner entrance speeds to compensate for the low-speed understeer. The car is neutral feeling throughout the corner, and the tail is very (too?) easily coaxed out with a little gas or a strong lift.
 
-<div style='float:right; text-align:center;'>
-<a href='/video/watch.php?20060520-autox.mov'>
-<img src='/video/video.thenobot.org/20060520-autox.mov.jpg' width='120'><br>
-Watch one run.</a></div>
 Yesterday, I started out taking it pretty easy, and made a conscious effort to build from there, going as far as to not use full throttle anywhere until the third run.  But based on how the car felt, it was VERY difficult to hold back.  It just felt too good, entering and exiting turns with an eagerness I hadn't felt from it before.
 
 I had two much more experienced drivers ride along with me, and they were both taken aback by this E46 M3's ability to get around the corners.
