@@ -8,7 +8,7 @@ help: ## Show makefile targets and their descriptions
 		$(AWK) 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-28s\033[0m %s\n", $$1, $$2}' | sort
 
 prod: ## Build and run in production mode (default)
-	docker compose build && docker compose up -d --force-recreate && docker compose logs -f
+	docker compose build && docker compose up -d --force-recreate
 
 prodlogs: ## Tail production container logs
 	docker compose logs -f
