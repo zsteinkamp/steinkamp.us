@@ -37,7 +37,7 @@ const Index: React.FC<IndexProps> = ({ posts, buckets }) => {
         filteredPosts={filteredPosts}
         setFilteredPosts={setFilteredPosts}
       />
-      <PostIndex className='max-w-2xl md:mt-4' posts={filteredPosts} />
+      <PostIndex className='md:mt-4' posts={filteredPosts} />
     </>
   )
 }
