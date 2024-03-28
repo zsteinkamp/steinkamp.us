@@ -14,6 +14,8 @@ Anyone who knows me reasonably well knows I have a soft spot for Mission Peak. I
 
 Fast-forward to my late 30s. I was out of shape, overweight, and wanted to do something about it. I found hiking, then running, then the [Ohlone 50K race](https://www.ohlone50k.com/), which goes up and over Mission Peak as its "warm-up hill". In this journey I got to know the area called Mission Ridge, which is a small fold of land next to the Bay that houses Mission Peak, Mount Allison, and Monument Peak. There is a network of trails on this ridge and beyond that can take you dozens and dozens of miles from where you started.
 
+![Mission Ridge](/images/mission_ridge.jpg)
+
 A lot of people know Mission Peak. They know it's a butt-kicker, but they make the slog up from Fremont for fitness as well as the selfie-potential of the pole at the top, to prove to their friends that they too conquered Mission Peak. But I think relatively few people know just how much variety exists in ways of getting to the top. That's what this article is for.
 
 ![Mission Peak](https://photos.steinkamp.us/photo/2021-07-22_mission-peak/IMG_2913.JPG?size=1600x1600)
