@@ -42,7 +42,7 @@ const SiteLayout: React.FC<SiteLayoutProps> = ({ pageProps, children }) => {
           href='/atom.xml'
         />
       </Head>
-      <div className='md:flex'>
+      <div className='md:grid md:grid-cols-[12rem,80vw] xl:grid-cols-[12rem,60rem] md:justify-center'>
         <div className='bg-shadebg shadow-lg shadow-shadeshadow md:flex-shrink-0 md:flex-grow-0 md:basis-auto md:shadow-xl'>
           <SiteHeader />
         </div>

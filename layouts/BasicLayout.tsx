@@ -41,7 +41,7 @@ const BasicLayout: React.FC<BasicLayoutProps> = ({
         <meta property='og:title' content={title} />
         <meta property='og:description' content={description} />
       </Head>
-      <div className={`${className} ${outerClass}`}>
+      <div className={`relative ${className} ${outerClass}`}>
         {headings && (
           <TableOfContents
             headings={headings}

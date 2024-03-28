@@ -58,7 +58,7 @@ const PostLayout: React.FC<PostLayoutProps> = ({ pageProps, children }) => {
           />
         )}
       </Head>
-      <article className='max-w-2xl'>
+      <article className='max-w-2xl relative'>
         {headings && headings.length > 0 && (
           <TableOfContents
             headings={headings}
