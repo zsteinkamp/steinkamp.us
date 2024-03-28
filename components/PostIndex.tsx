@@ -11,6 +11,9 @@ interface PostIndexProps {
 }
 
 const PostIndex: React.FC<PostIndexProps> = ({ posts, className = '' }) => {
+  if (posts.length === 0) {
+    return <div className="mt-20 text-center"><em>No matching posts.</em></div>
+  }
   return (
     <ul className={className}>
       {posts.map((post) => (
