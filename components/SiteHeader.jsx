@@ -15,7 +15,7 @@ const SiteHeader = ({ className = '' }) => {
 
   return (
     <header
-      className={`noprint relative ml-4 mb-4 flex h-[4.5rem] items-center border-b-2 border-border md:sticky md:top-[3.25rem] md:mt-[3.25rem] md:ml-0 md:mr-4 md:w-[12rem] md:flex-col md:border-b-0 ${className}`}
+      className={`noprint relative ml-0 pl-4 mb-4 flex h-[4.5rem] items-center border-b-2 border-border md:sticky md:top-[3.25rem] md:mt-[3.25rem] md:ml-0 md:mr-4 md:w-[12rem] md:flex-col md:border-b-0 ${className}`}
     >
       <figure title='steinkamp.us' className=''>
         <div className='absolute top-0 left-[-1rem] mr-2 w-12 md:top-[-9.8rem] md:left-0 md:mr-0 md:w-[13rem]'>
