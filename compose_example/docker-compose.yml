@@ -1,0 +1,7 @@
+name: steinkamp.us-compose
+services:
+  web:
+    image: ghcr.io/zsteinkamp/steinkamp.us-web
+    ports:
+      - '4125:3125'
+    restart: unless-stopped
