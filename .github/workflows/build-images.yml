@@ -48,12 +48,13 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
+      # WEB CONTAINER
       - name: Docker meta
         id: meta
         uses: docker/metadata-action@v5
         with:
           images: |
-            ${{ env.REGISTRY }}/zsteinkamp/${{ env.IMAGE_BASE }}
+            ${{ env.REGISTRY }}/zsteinkamp/${{ env.IMAGE_BASE }}-web
           tags: |
             type=raw,value=latest
             type=sha
