@@ -28,6 +28,8 @@ This is a hot, dry place when the weather is warm. Bring at least a liter of wat
 
 Roundtrip Distance: **6 miles** / Elevation Gain: **2100 feet** / [Strava Route](https://www.strava.com/routes/2786043726377427422) / [Mission Peak Site](https://www.ebparks.org/parks/mission/)
 
+{% stravaRoute routeSrc="https://www.strava.com/routes/2786043726377427422" /%}
+
 #### Getting There / Parking
 
 Just off of Mission Boulevard in Fremont is Stanford Avenue. At the top of this street is a small parking lot, a bathroom, and water fountain. If you're lucky, park in the lot. Otherwise you will need to drive back down the street and find street parking. Heed the street parking rules!
@@ -43,6 +45,8 @@ I've seen a lot of people walking very nervously on the rocky part, but the rock
 ## Most Popular in 2020: From Ohlone College
 
 Roundtrip Distance: **6 miles** / Elevation Gain: **2100 feet** / [Strava Route](https://www.strava.com/routes/2786044164935287262) / [Ohlone College Site](https://www.ohlone.edu/)
+
+{% stravaRoute routeSrc="https://www.strava.com/routes/2786044164935287262" /%}
 
 #### Getting There / Parking
 
@@ -60,6 +64,8 @@ The climb continues and passes a small pond (dry at the end of the summer, somet
 
 Roundtrip Distance: **6 miles** / Elevation Gain: **2150 feet** / [Strava Route](https://www.strava.com/routes/2786043949499888622) / [Mission Peak Site](https://www.ebparks.org/parks/mission/)
 
+{% stravaRoute routeSrc="https://www.strava.com/routes/2786043949499888622" /%}
+
 #### Getting There / Parking
 
 It's the same as the "Most Popular: From Stanford Ave Trailhead" above.
@@ -74,9 +80,11 @@ It's possible to make a loop, going up the main trail and down Horse Heaven, or 
 
 ![Mission Peak!!](https://photos.steinkamp.us/photo/2021-01-17_mission-peak/2021011716054444-4759711745111788283-IMG_0221.JPG?size=1600x1600)
 
-### Most Popular With Ultramarathoners: From Sunol
+## Most Popular With Ultramarathoners: From Sunol
 
 Roundtrip Distance: **10 miles** / Elevation Gain: **2150 feet** / [Strava Route](https://www.strava.com/routes/2786044389566703598) / [Sunol Regional Wilderness Site](https://www.ebparks.org/parks/sunol/)
+
+{% stravaRoute routeSrc="https://www.strava.com/routes/2786044389566703598" /%}
 
 #### Getting There / Parking
 
@@ -97,6 +105,8 @@ The Ohlone Wilderness Trail dead-ends into the Eagle Trail, next to a small camp
 ## Most Popular With Adventurers: From Ed Levin County Park
 
 Roundtrip Distance: **12 miles** / Elevation Gain: **2350 feet** / [Strava Route](https://www.strava.com/routes/2786044688364144554) / [Ed Levin Park Site](https://www.sccgov.org/sites/parks/parkfinder/Pages/Ed-Levin.aspx)
+
+{% stravaRoute routeSrc="https://www.strava.com/routes/2786044688364144554" /%}
 
 #### Getting There / Parking
 
