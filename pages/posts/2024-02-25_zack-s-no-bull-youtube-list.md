@@ -25,6 +25,18 @@ Titled "What's the right thing to do?", philosopher Michael Sandel walks Harvard
 
 {% youtube src="https://www.youtube.com/embed/kBdfcR-8hEY?si=7ddicVo8bQ2s6Gv2" title="Justice: What's The Right Thing To Do? Episode 01 \"THE MORAL SIDE OF MURDER\"" /%}
 
+Along with this Justice course, Dr Sandel has many other lectures with different audiences on different topics, but all related in exploring the intersection of society and morality.
+
+## Anything Feynman
+
+Does Richard Feynman need introduction? A math and physics wizard since an early age, he was tapped to participate in the Manhattan Project as well as the two Space Shuttle disaster investigations. His superpower is clarity of vision, cutting through layers of decoration and BS to find the simple truth.
+
+{% youtube src="https://www.youtube.com/embed/uY-u1qyRM5w" title="Los Alamos From Below" /%}
+
+He's also known to play bongos at interesting times.
+
+{% youtube src="https://www.youtube.com/embed/qWabhnt91Uc" title="Feynman PLAYS THE BONGOS" /%}
+
 ## Ben Eater's Breadboard Computer Series
 
 I've been a big fan of computers since an early age, but I never really knew how they worked at a deep level until I watched all [40+ videos](https://www.youtube.com/playlist?list=PLowKtXNTBypGqImE405J2565dvjafglHU) where he builds a computer on a breadboard out of basic components, starting with an oscillator (timer) circuit.
