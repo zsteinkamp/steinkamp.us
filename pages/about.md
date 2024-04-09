@@ -29,6 +29,10 @@ I plan on retiring soon (2024) and look forward to devoting focused energy on do
 
 Let's chat!
 
+[GitHub](http://github.com/zsteinkamp)  
+[Twitter](https://twitter.com/zsteinkamp)  
+[YouTube](https://www.youtube.com/channel/UCuTj9ukcxpg4esbAaxUW6UA)  
+[Instagram](https://www.instagram.com/zsteinkamp/)  
 [zack@steinkamp.us](mailto:zack@steinkamp.us)  
 [https://steinkamp.us/](https://steinkamp.us)  
 Scotts Valley, California
