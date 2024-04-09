@@ -50,9 +50,7 @@ const BasicLayout: React.FC<BasicLayoutProps> = ({
             className={pageProps.markdoc?.frontmatter?.tocClassName}
           />
         )}
-        <div className="max-w-2xl">
-          {children}
-        </div>
+        <div className='max-w-2xl'>{children}</div>
       </div>
     </>
   )

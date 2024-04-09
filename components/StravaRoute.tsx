@@ -16,12 +16,16 @@ const StravaRoute: React.FC<StravaRouteArgs> = ({ className, routeSrc }) => {
   }
 
   if (!embedSrc) {
-    return <div><em>Invalid route ID in [{routeSrc}]</em></div>
+    return (
+      <div>
+        <em>Invalid route ID in [{routeSrc}]</em>
+      </div>
+    )
   }
 
   return (
     <div className={className}>
-      <iframe src={embedSrc} className="w-full my-4 mx-0 min-h-[40rem]" />
+      <iframe src={embedSrc} className='my-4 mx-0 min-h-[40rem] w-full' />
     </div>
   )
 }

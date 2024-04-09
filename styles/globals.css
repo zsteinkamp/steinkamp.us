@@ -148,6 +148,9 @@ body {
 .monoSvg path {
   @apply fill-shadeshadow;
 }
+.monoSvg path.bignugget {
+  fill: url(#grad1);
+}
 
 h1,
 h2,

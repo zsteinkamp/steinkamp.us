@@ -59,11 +59,11 @@ const PostFilter: React.FC<PostFilterProps> = ({
     if (hasSessionStorage()) {
       updateMinSlider(
         parseInt(window.sessionStorage.getItem(SSK_MIN_DATE) || '0') ||
-        buckets.minDate
+          buckets.minDate
       )
       updateMaxSlider(
         parseInt(window.sessionStorage.getItem(SSK_MAX_DATE) || '0') ||
-        buckets.maxDate
+          buckets.maxDate
       )
       updateFilterVal(window.sessionStorage.getItem(SSK_FILTER) || '')
       updateSelTags(
@@ -199,7 +199,7 @@ const PostFilter: React.FC<PostFilterProps> = ({
           withTracks
         />
       </div>
-      <div className='hidden md:flex flex-wrap justify-center'>
+      <div className='hidden flex-wrap justify-center md:flex'>
         {buckets.tags.map((tag) => {
           return (
             <div key={tag} className='mb-1'>

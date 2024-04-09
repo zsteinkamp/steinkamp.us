@@ -58,7 +58,7 @@ const PostLayout: React.FC<PostLayoutProps> = ({ pageProps, children }) => {
           />
         )}
       </Head>
-      <article className='max-w-2xl relative'>
+      <article className='relative max-w-2xl'>
         {headings && headings.length > 0 && (
           <TableOfContents
             headings={headings}
@@ -77,7 +77,7 @@ const PostLayout: React.FC<PostLayoutProps> = ({ pageProps, children }) => {
                   <label
                     onClick={() => handleTagClick(tag)}
                     className={`border-1 mr-1 cursor-pointer rounded border-shadeshadow
-                  bg-shadebg py-1 px-2 text-xs hover:bg-link-hover`}
+                  bg-shadebg py-1 px-2 text-xs hover:bg-link-hover hover:text-pagebg`}
                   >
                     {tag}
                   </label>
