@@ -24,7 +24,7 @@ const SiteHeader = ({ className = '' }) => {
         <div className='text-center md:mb-2 md:mt-0'>
           <Link
             href={'/'}
-            className='flex items-center whitespace-nowrap md:mt-[4rem] md:flex-col md:whitespace-normal md:[word-spacing:5rem]'
+            className='flex items-center whitespace-nowrap md:mt-[3.3rem] md:flex-col md:whitespace-normal md:[word-spacing:5rem]'
           >
             <div className='leading-12 z-10 font-header text-2xl'>
               steinkamp.us
