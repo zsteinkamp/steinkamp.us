@@ -56,7 +56,7 @@ My phone has GPS of course, but it never manages to show me where I am when I'm
 in a plane on Airplane Mode, so I didn't trust to just look at the GPS data the
 phone tagged the image with. But I will later on here!
 
-The picture was taken at 12:39pm PT on Jan 26, 2004. The flightaware.com
+The picture was taken at 12:39pm PT on Jan 26, 2024. The flightaware.com
 tracking data starts at 11:45am PT, so I just needed to skip forward 54 minutes
 in the tracking data to place the plane on a spot on the map when the image was
 taken.
