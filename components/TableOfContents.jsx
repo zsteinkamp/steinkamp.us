@@ -2,8 +2,8 @@ import { useHeadsObserver } from '@/hooks/HeadsObserver'
 
 function TableOfContents({
   headings,
-  minLevel = 0,
-  maxLevel = 999,
+  minLevel = 2,
+  maxLevel = 3,
   className = '',
 }) {
   const { activeId } = useHeadsObserver()
