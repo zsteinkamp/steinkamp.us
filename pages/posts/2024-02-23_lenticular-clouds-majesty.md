@@ -79,3 +79,5 @@ the plane then.
 Anyhoo, so Shasta made two starring appearances on this trip. First list up in golden
 sunlight, the second time under an amazingly complex layered arrangement of
 Nature's Majesty.
+
+{% captionedimage src="/images/lenticular/lenticular-zoom.jpg" caption="Again!" className="half-height" /%}
