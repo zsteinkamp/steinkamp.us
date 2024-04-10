@@ -18,13 +18,15 @@ Here's the tl;dr:
 
 Now read on for more detail, including actual tools to implement the above.
 
+## Background
+
 In my career as a software developer, I have ping-ponged several times between being an individual contributor and a manager. In all but one case in the past, the team needed a manager either because of growth or a manager departing, and I was picked because I was the "more senior" one or seemed like I could handle the duties. In talking with colleagues, this seems to be the norm in the industry. Companies rarely, if ever, provide guidance or training to managers, and actual tactical development team management skills is not something I have seen in any university program.
 
 Being "the manager" was a role that I would embrace initially, but would soon long for the simple days of the individual contributor, where I exercise my real passion -- making things. I shared this with a boss some number of years ago, and he valiantly tried to convince me that building my team could be viewed the same as building software. While true, I wasn't ready to hear that message at that time.
 
-In my current role at Splunk, I was hired as an individual contributor. My boss left the company soon after I joined, and the project I was hired to start was seeing lots of success, so the team quickly grew. Here I was again asked to step into the manager role. It was definitely the logical choice, and finally this was the opportunity that opened my eyes to what a manager is really supposed to DO.
+In my current (as of May, 2021) role at Splunk, I was hired as an individual contributor. My boss left the company soon after I joined, and the project I was hired to start was seeing lots of success, so the team quickly grew. Here I was again asked to step into the manager role. It was definitely the logical choice, and finally this was the opportunity that opened my eyes to what a manager is really supposed to DO.
 
-In the last 3.5 years, I've finally embraced this job, and really learned to love it. I think maturing as a person has something to do with it, and the skills and mindset of raising kids as a single parent certainly had something to do with it. Of course, I don't see my team as my kids, but there are some foundational skills that a person can learn in parenting that translate to management, such as appreciation for individuals, patience, discipline, and faith that other people will learn and grow. Hiring everyone in my team certainly was a benefit in this job, and led to a lot more satisfaction as a manager.
+In the last 3.5 years, I've finally embraced this job, and really learned to love it. I think [maturing as a person](2023-10-27-the-positive-roi-of-therapy) has something to do with it, and the skills and mindset of raising kids as a single parent certainly had something to do with it. Of course, I don't see my team as my kids, but there are some foundational skills that a person can learn in parenting that translate to management, such as appreciation for individuals, patience, discipline, and faith that other people will learn and grow. Hiring everyone in my team certainly was a benefit in this job, and led to a lot more satisfaction as a manager.
 
 In this post, I want to share what has helped me to really enjoy the manager role, and in particular some tools that I have developed in order to make this job work for me and my team.
 
