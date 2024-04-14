@@ -1,3 +1,10 @@
+- title: SimulScrub
+  image: https://github.com/zsteinkamp/m4l-SimulScrub/raw/main/images/device.gif
+  link: https://github.com/zsteinkamp/m4l-SimulScrub
+  description: |
+    Plays a number of contiguous time segments of an audio file simultaneously, with a flexible crossfader control to select which segment(s) you want to hear.
+    This allows you to scrub through time of a longer sample, while always playing the sample at 1x speed.
+
 - title: Chiastic Slide
   image: https://github.com/zsteinkamp/m4l-ChiasticSlide/raw/main/images/device.gif
   link: https://github.com/zsteinkamp/m4l-ChiasticSlide
