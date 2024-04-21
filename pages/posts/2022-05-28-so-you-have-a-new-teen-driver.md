@@ -14,7 +14,7 @@ So your teenager is old enough to learn to drive. That's awesome! For a parent, 
 
 I wrote this post to help parents help their kids survive to adulthood, and not wrapped in a cocoon locked in the house. Give them the best shot by giving them lots of opportunities to learn by doing.
 
-Why am I qualified to write this? So far, I have taught one of my kids to drive, and I have taught 100s of other kids in the [Tire Rack Street Survival](https://streetsurvival.org/) program as an in-car instructor. I myself have done dozens of high-performance driving schools as both a student and in-car instructor as well as competing in wheel-to-wheel racing. Through my own journey, I have learned what works and what doesn't, along with important aspects of driving that are ignored by "normal" driver education.
+Why am I qualified to write this? So far, I have taught both of my kids to drive, and I have taught 100s of other kids in the [Tire Rack Street Survival](https://streetsurvival.org/) program as an in-car instructor. I myself have done dozens of high-performance driving schools as both a student and in-car instructor as well as competing in wheel-to-wheel racing. Through my own journey, I have learned what works and what doesn't, along with important aspects of driving that are ignored by "normal" driver education.
 
 As I was approaching the time when Marina (my older daughter) was going to get her learner's permit, I was nervous and excited at the same time. I started teaching teens and adults important skills behind the wheel when she was a tiny baby, and was always excited for the opportunity to give my own child my focused attention. Kids are awesome learners, and if I could help shape how my own kids approach driving, then I knew I could rest a little easier once they were driving on their own.
 
@@ -88,7 +88,7 @@ This is another one for you too, perfect parent driver. The best drivers (even i
 
 ## Don't Fear the Freeway
 
-My most poignant memory of learning to drive was the stress I "experienced" from my dad the first time we went on the freeway. But the reality is, the freeway is not a chaotic mess like some city streets are. Practice merging, on- and off-ramps, changing lanes over and over. Practice practice practice. Use positive reinforcement. Ask leading questions rather than giving lectures. Keep a calm tone.
+My most poignant memory of learning to drive was the stress I "experienced" from my dad the first time we went on the freeway. But the reality is, the freeway is not a chaotic mess like some city streets are. Practice merging, on- and off-ramps, changing lanes over and over. Practice practice practice. Use positive reinforcement. Ask leading questions rather than giving lectures. Keep a calm tone. Keep looking far ahead.
 
 ## Reach Out
 
