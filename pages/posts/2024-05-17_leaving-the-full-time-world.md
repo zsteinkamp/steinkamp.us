@@ -60,7 +60,9 @@ Thanks to my dear friend Mona for also being a force to help bring me into Yahoo
 
 Thanks to Judy Swanson at the Cal Poly Library for letting me be the best nerd I could be, building web applications for the school, which set me up for an amazing career. Thanks to JohnR who saw my potential as an engineer in my interview at Yahoo! and steered me in that direction, to Kevin Athey who was an endlessly patient and generous mentor for me from the beginning, to Mammad Zadeh and Arturo Behar (both friends/managers in different teams) who taught me so much about programming and life. To Mark Johnson who got me in the door at Groupon and trusted me to run with some pretty big stuff, and to Kyle Oppenheim for giving me some absolutely amazing opportunities to grow. To AJ for being a great friend and partner in some crown-jewel projects, and to Jeff Weinstein for just being an amazing human being and helping to get me in the door at Stripe and teaching me so much about how to build great products.
 
-Big big thanks to Eric Douglas for being a great friend who joined Dipity, then brought me into three different companies where he managed teams where I learned and grew tremendously each time.
+Shoutout to Ben Garrett (bag) for being a great friend and mentor and for believing in the Dipity dream with us. :)
+
+Big big thanks to Eric Douglas for being a great friend who also joined Dipity, then brought me into three different companies where he managed teams where I learned and grew tremendously each time.
 
 Thanks to Amanda Grovom who played a pivotal role in my own post-divorce personal reinvention. Her friendship was a lovely gift that helped me to feel confidence in myself, and she was the person who convinced me to get back into music-making. That has become such an important part of my life, I can't thank Amanda enough.
 
