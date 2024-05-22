@@ -1,3 +1,9 @@
+- title: Chiastic Solo
+  image: https://github.com/zsteinkamp/m4l-ChiasticSolo/raw/main/images/device.gif
+  link: https://github.com/zsteinkamp/m4l-ChiasticSolo
+  description: |
+    Gives you a knob to control which track or chain is soloed in a group or rack. It makes some workflows in mastering or creating albums easier by letting you map a hardware knob to track selection.
+
 - title: SimulScrub
   image: https://github.com/zsteinkamp/m4l-SimulScrub/raw/main/images/device.gif
   link: https://github.com/zsteinkamp/m4l-SimulScrub
