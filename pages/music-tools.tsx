@@ -38,13 +38,13 @@ const MusicToolsPage: React.FC<MusicToolsProps> = ({ data }) => {
   const appList = data.map((app) => {
     return (
       <div className='pt-8' key={app.link}>
-        <div className='flex justify-between'>
+        <div className='flex justify-between items-end'>
           <h2 id={app.slug}>
             <Link href={app.link} title={app.title}>
               {app.title}
             </Link>
           </h2>
-          <div className='self-end'>
+          <div className='mb-4'>
             <Link href={app.link}>More Info / Download</Link>
           </div>
         </div>
