@@ -5,6 +5,11 @@ date: '2024-05-17 12:00:00'
 thumbnail: /images/retirement.jpg
 excerpt: |
   Lucky me to be able to leave this kush job to focus on the more important things in life.
+tags:
+  - Software
+  - Nerd
+  - Work
+  - Philosophy
 ---
 
 If my plan holds, yesterday was my last day of full-time employment. I'm excited and terrified.
