@@ -40,7 +40,7 @@ const PostIndex: React.FC<PostIndexProps> = ({ posts, className = '' }) => {
               </div>
               <div className='ml-4 flex-shrink flex-grow overflow-hidden md:ml-8'>
                 <h2 className='m-0 text-link-base'>{post.title}</h2>
-                <div className='mb-[0.25rem] text-sm text-date'>
+                <div className='mb-1 mt-1 text-date-lite'>
                   {dayjs(post.date).utc().format('MMMM, YYYY')}
                   {post.tags && post.tags.length && (
                     <span className='ml-1 text-date-lite'>

@@ -68,7 +68,7 @@ const PostLayout: React.FC<PostLayoutProps> = ({ pageProps, children }) => {
           />
         )}
         <h1 className=''>{title}</h1>
-        <div className='text-date'>{fmtDate}</div>
+        <div className='text-date mt-1'>{fmtDate}</div>
         {tags && (
           <div className='flex flex-wrap'>
             {tags.map((tag: string) => {

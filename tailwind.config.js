@@ -10,8 +10,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        header: ['"Averia Serif Libre"', ...fontFamily.sans],
-        sans: ['Source Sans Pro', ...fontFamily.sans],
+        header: ['"Playfair Display"', ...fontFamily.sans],
+        sans: ['"IBM Plex Sans"', ...fontFamily.sans],
       },
       colors: {
         pagebg: 'var(--pagebg)',
