@@ -10,7 +10,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        header: ['"Playfair Display"', ...fontFamily.sans],
+        header: ['"Noto Serif"', ...fontFamily.sans],
         sans: ['"IBM Plex Sans"', ...fontFamily.sans],
       },
       colors: {
