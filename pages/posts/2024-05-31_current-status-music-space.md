@@ -42,6 +42,7 @@ Highlights of the current setup:
   - It's Free!
 - Custom made from recycled IKEA furniture boards / planks (usually particle board with melamine coating in metric sizes!):
   - MacBook sits vertically in a wooden pocket on the side of the desk with ports exposed. Protip: Put some foam in the bottom of the pocket to cushion your MBP's landing.
+    ![Computer Pocket](https://photos.steinkamp.us/photo/music-battle-station/IMG_1124.JPG?size=1600x1600)
   - Wooden cable shelf underneath the rear of the desktop
     ![Cable Shelf](https://photos.steinkamp.us/photo/2024-05-20_cable-shelf/IMG_1023.JPG?size=1600x1600)
     ![Cable Shelf](https://photos.steinkamp.us/photo/2024-05-20_cable-shelf/IMG_1038.JPG?size=1600x1600)
