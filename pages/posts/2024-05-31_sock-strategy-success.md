@@ -3,6 +3,10 @@ layout: post
 title: Sock Strategy Success
 date: '2024-05-31 12:00:00'
 thumbnail: /images/sock-drawer.jpg
+tags:
+  - Nerd
+  - Philosophy
+  - Projects
 excerpt: |
   Please don't bother unless you're the kind of person that thinks that having 12 pairs of the same sock is the way to do it. Otherwise, Welcome Friend!
 ---

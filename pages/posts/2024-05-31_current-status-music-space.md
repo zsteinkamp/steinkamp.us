@@ -21,7 +21,7 @@ Highlights of the current setup:
 - Adjustable footrest
 - Amazon whatever top attached to the frame
 - Tall office chair with arms and back removed so it's more of a stool. Sit/stand but desk stays same.
-- 2x 34" 4k60 monitors
+- Stacked dual 34" 4k60 monitors
   - Ableton dual windows
   - Top is arrangement only
   - Bottom is mixer, clips, chains, VSTs
@@ -39,8 +39,9 @@ Highlights of the current setup:
   - Lets you map any parameter in the set to a slider on the iPad with a single touch
   - Use this as a performance device with multitouch and multiple pages of sliders.
   - Values, colors, track name, device name, parameter name are updated on the iPad to match the Live Set
-  - Free!
+  - It's Free!
 - Custom made from recycled IKEA furniture boards / planks (usually particle board with melamine coating in metric sizes!):
   - MacBook sits vertically in a wooden pocket on the side of the desk with ports exposed. Protip: Put some foam in the bottom of the pocket to cushion your MBP's landing.
   - Wooden cable shelf underneath the rear of the desktop
     ![Cable Shelf](https://photos.steinkamp.us/photo/2024-05-20_cable-shelf/IMG_1023.JPG?size=1600x1600)
+    I'm sure it will be different next week!
