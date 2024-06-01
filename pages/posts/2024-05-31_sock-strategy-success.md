@@ -69,7 +69,7 @@ Socks go in the drawer in an orderly fashion, like lovely logs.
 
 When removing a sock, take the frontmost one.
 
-When replacing washed socks, push any socks in the drawer forward and puth the freshly washed ones in the back.
+When replacing washed socks, pull any socks in the drawer forward and put the freshly washed ones in the back.
 
 So, socks feed forward. Get it?
 
