@@ -13,7 +13,7 @@ excerpt: |
 
 Last year I embarked on a journey. A journey of research. A journey of hope.
 
-Last year, after weeks of deliberation, I had finally reached the optimal point in crafting the ideal strategy for managing one's socks.
+Last year, after weeks of deliberation, I had finally reached the optimal point in crafting the ideal strategy for managing my socks.
 
 ## Nerd Alert
 
