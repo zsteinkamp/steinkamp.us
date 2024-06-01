@@ -19,7 +19,7 @@ function TableOfContents({
 
   return (
     <div
-      className={`TableOfContents noprint mt-[0.7rem] block text-sm hover:opacity-100 hidden lg:block lg:float-right lg:max-w-[15rem] lg:pl-8 xl:fixed xl:left-[calc(50vw+24rem)] xl:top-[2.8rem] xl:w-[12rem] xl:pl-0 ${className}`}
+      className={`TableOfContents noprint mt-[0.7rem] block hidden text-sm hover:opacity-100 lg:float-right lg:block lg:max-w-[15rem] lg:pl-8 xl:fixed xl:left-[calc(50vw+24rem)] xl:top-[2.8rem] xl:w-[12rem] xl:pl-0 ${className}`}
     >
       <div className='mt-0 pb-1 font-header text-xl font-bold text-header'>
         In This Page
@@ -32,7 +32,7 @@ function TableOfContents({
           return (
             <li
               key={heading.slug}
-              className={`pl-0.5 pb-1 ml-${Math.max(0, (parseInt(heading.level) - 1) * 2)}`}
+              className={`pl-0.5 pb-1 ml-${Math.max(0, (parseInt(heading.level) - 2) * 2)}`}
               style={{
                 listStyleType: activeId === heading.slug ? 'disc' : 'circle',
               }}
