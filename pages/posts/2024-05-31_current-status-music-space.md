@@ -44,4 +44,5 @@ Highlights of the current setup:
   - MacBook sits vertically in a wooden pocket on the side of the desk with ports exposed. Protip: Put some foam in the bottom of the pocket to cushion your MBP's landing.
   - Wooden cable shelf underneath the rear of the desktop
     ![Cable Shelf](https://photos.steinkamp.us/photo/2024-05-20_cable-shelf/IMG_1023.JPG?size=1600x1600)
+    ![Cable Shelf](https://photos.steinkamp.us/photo/2024-05-20_cable-shelf/IMG_1038.JPG?size=1600x1600)
     I'm sure it will be different next week!
