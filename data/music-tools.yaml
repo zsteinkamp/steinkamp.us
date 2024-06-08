@@ -1,8 +1,8 @@
-- title: Chiastic Solo
-  image: https://github.com/zsteinkamp/m4l-ChiasticSolo/raw/main/images/device.gif
-  link: https://github.com/zsteinkamp/m4l-ChiasticSolo
+- title: zs Knobbler3
+  image: https://github.com/zsteinkamp/m4l-zs-Knobbler3/raw/main/images/ipadInterface.jpg
+  link: https://github.com/zsteinkamp/m4l-zs-Knobbler3
   description: |
-    Gives you a knob to control which track or chain is soloed in a group or rack. It makes some workflows in mastering or creating albums easier by letting you map a hardware knob to track selection.
+    This is a combination of Max For Live device and TouchOSC layout that provides an auto-labeling tactile control surface for Ableton Live.
 
 - title: SimulScrub
   image: https://github.com/zsteinkamp/m4l-SimulScrub/raw/main/images/device.gif
@@ -17,18 +17,62 @@
   description: |
     Smoothly crossfade between any number of child tracks in a group or chains in a preceeding Instrument Rack or Audio Effect Rack device. Allows for crazy tempo-locked layering.
 
+- title: TapPanVerb
+  image: https://github.com/zsteinkamp/m4l-TapPanVerb/raw/main/images/device.png
+  link: https://github.com/zsteinkamp/m4l-TapPanVerb
+  description: |
+    A reverb + bucket-brigade delay tap field with control over timing and stereo placement of each tap. Up to 128 taps + an insane feedback control.
+
+- title: Modulation Math
+  image: https://github.com/zsteinkamp/m4l-Modulation-Math/raw/main/images/device.gif
+  link: https://github.com/zsteinkamp/m4l-Modulation-Math
+  description: |
+    This device combines two modulation signals using math, and outputs a signal you can then map to a parameter.
+
+- title: Fractal Note Echo
+  image: https://github.com/zsteinkamp/m4l-js-fractalNoteEcho/raw/main/images/iter2.3.png
+  link: https://github.com/zsteinkamp/m4l-js-fractalNoteEcho
+  description: |
+    This is a MIDI Effect device that will trigger notes in a fractal pattern. The base fractal shape (in terms of timing between echo taps) can be defined, then number of iterations and iteration scale can be controlled. The kinds of textures you can get out of it are really surprising, and have been inspiring to me. There is a natural beauty and harmony to fractals, which can contribute a more natural feel to your sounds.
+
+    This device is mostly implemented in Javascript in Max For Live. Super fun to make.
+
+- title: Modulation Lerp
+  image: https://github.com/zsteinkamp/m4l-Modulation-Lerp/raw/main/images/device.gif
+  link: https://github.com/zsteinkamp/m4l-Modulation-Lerp
+  description: |
+    This device produces a value in between two input values.
+
+- title: Modulation Delay
+  image: https://github.com/zsteinkamp/m4l-Modulation-Delay/raw/main/images/device.gif
+  link: https://github.com/zsteinkamp/m4l-Modulation-Delay
+  description: |
+    It's a feedbacking echo effect for modulation data! Turn pulses into automated oceans!
+
+- title: Modulation Stepper
+  image: https://github.com/zsteinkamp/m4l-Modulation-Stepper/raw/main/images/device.gif
+  link: https://github.com/zsteinkamp/m4l-Modulation-Stepper
+  description: |
+    Turns continuous modulation input into stair-stepped output at your chosen frequency or note interval.
+
 - title: Correlation Modulation
   image: https://github.com/zsteinkamp/m4l-CorrelationModulation/raw/main/images/CorrelationModulation.gif
   link: https://github.com/zsteinkamp/m4l-CorrelationModulation
   description: |
     Use a stereo signal's left/right phase correlation as a modulation source.
 
+- title: Chiastic Solo
+  image: https://github.com/zsteinkamp/m4l-ChiasticSolo/raw/main/images/device.gif
+  link: https://github.com/zsteinkamp/m4l-ChiasticSolo
+  description: |
+    Gives you a knob to control which track or chain is soloed in a group or rack. It makes some workflows in mastering or creating albums easier by letting you map a hardware knob to track selection.
+
 - title: Len Stepper
   image: https://github.com/zsteinkamp/m4l-LenStepper/raw/main/images/LenStepper.gif
   link: https://github.com/zsteinkamp/m4l-LenStepper
   description: |
     Len Stepper is a single-note arpeggiator that makes it
-    easy to create rhythmic patters with any measure division. Use it in
+    easy to create rhythmic patterns with any measure division. Use it in
     conjunction with Key Stepper to reliably create polyrythms and fugues.
 
 - title: Key Stepper
@@ -49,42 +93,6 @@
     chord into any track containing this device, and its notes will be
     distributed across the tracks sharing the same channel.
 
-- title: Modulation Lerp
-  image: https://github.com/zsteinkamp/m4l-Modulation-Lerp/raw/main/images/device.gif
-  link: https://github.com/zsteinkamp/m4l-Modulation-Lerp
-  description: |
-    This device produces a value in between two input values.
-
-- title: Modulation Math
-  image: https://github.com/zsteinkamp/m4l-Modulation-Math/raw/main/images/device.gif
-  link: https://github.com/zsteinkamp/m4l-Modulation-Math
-  description: |
-    This device combines two modulation signals using math, and outputs a signal you can then map to a parameter.
-
-- title: Modulation Delay
-  image: https://github.com/zsteinkamp/m4l-Modulation-Delay/raw/main/images/device.gif
-  link: https://github.com/zsteinkamp/m4l-Modulation-Delay
-  description: |
-    It's a feedbacking echo effect for modulation data! Turn pulses into automated oceans!
-
-- title: Modulation Stepper
-  image: https://github.com/zsteinkamp/m4l-Modulation-Stepper/raw/main/images/device.gif
-  link: https://github.com/zsteinkamp/m4l-Modulation-Stepper
-  description: |
-    Turns continuous modulation input into stair-stepped output at your chosen frequency or note interval.
-
-- title: TapPanVerb
-  image: https://github.com/zsteinkamp/m4l-TapPanVerb/raw/main/images/device.png
-  link: https://github.com/zsteinkamp/m4l-TapPanVerb
-  description: |
-    A reverb + bucket-brigade delay tap field with control over timing and stereo placement of each tap. Up to 128 taps + an insane feedback control.
-
-- title: zs Knobbler3
-  image: https://github.com/zsteinkamp/m4l-zs-Knobbler3/raw/main/images/ipadInterface.jpg
-  link: https://github.com/zsteinkamp/m4l-zs-Knobbler3
-  description: |
-    This is a combination of Max For Live device and TouchOSC layout that provides an auto-labeling tactile control surface for Ableton Live.
-
 - title: zs Faderboard3
   image: https://github.com/zsteinkamp/m4l-zs-Faderboard3/raw/main/images/device.png
   link: https://github.com/zsteinkamp/m4l-zs-Faderboard3
@@ -92,14 +100,6 @@
     This device was inspired by the Vestax Faderboard. It is an odd kind of sampler, with 10 voices to play back a sample at your chosen pitch. The thing that makes it unique is that each voice is played using a dedicated fader, and the sample is triggered when the fader leaves the silent position.
 
     You can also control voice left/right pan position, loop start and end (with the ability to go backwards!), and trigger all voices to restart playing.
-
-- title: Fractal Note Echo
-  image: https://github.com/zsteinkamp/m4l-js-fractalNoteEcho/raw/main/images/iter2.3.png
-  link: https://github.com/zsteinkamp/m4l-js-fractalNoteEcho
-  description: |
-    This is a MIDI Effect device that will trigger notes in a fractal pattern. The base fractal shape (in terms of timing between echo taps) can be defined, then number of iterations and iteration scale can be controlled. The kinds of textures you can get out of it are really surprising, and have been inspiring to me. There is a natural beauty and harmony to fractals, which can contribute a more natural feel to your sounds.
-
-    This device is mostly implemented in Javascript in Max For Live. Super fun to make.
 
 - title: Fibonacci Note Echo
   image: https://github.com/zsteinkamp/m4l-js-fibonacciNoteEcho/raw/main/images/screenshot.png
