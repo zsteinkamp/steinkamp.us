@@ -14,13 +14,16 @@ prodlogs: ## Tail production container logs
 	docker compose logs -f
 
 devup: ## Build and run in development mode
-	cd steinkamp_us_dev && docker compose build && docker compose up -d --force-recreate && docker compose logs -f
+	cd dev && docker compose build && docker compose up -d --force-recreate && docker compose logs -f
 
 devlogs: ## Tail development container logs
-	cd steinkamp_us_dev && docker compose logs -f
+	cd dev && docker compose logs -f
+
+devps: ## Stop development containers
+	cd dev && docker compose ps
 
 devdown: ## Stop development containers
-	cd steinkamp_us_dev && docker compose down
+	cd dev && docker compose down
 
 post: ## Create a new post
 	bin/new-post

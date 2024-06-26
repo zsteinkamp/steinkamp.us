@@ -37,7 +37,7 @@ I would have four pairs of this one that I got two months ago, three pairs of th
 
 Folding clothes was a pain in the ass because there were four kinds of socks to match up. Nobody got time for that!
 
-They would wear out at random times, spaced out quite a bit. So I ended up just limping along buying three packs when I started to run low. The problem was that frequently they were different kinds. I could have seven different kinds if I kept that up. No thank you, SIR!
+They would wear out at random times, spaced out quite a bit. So I ended up just limping along buying three-packs when I started to run low. The problem was that frequently they were different kinds. I could have seven different kinds if I kept that up. No thank you, SIR!
 
 Furthermore, once the clothes were folded, I would just haphazardly dump the paired socks into the sock drawer, with no rhyme or reason for what was happening. Maybe I'd even stir them around a little bit like they were sock soup in their big sock cauldren or some other masculine shit like that.
 
