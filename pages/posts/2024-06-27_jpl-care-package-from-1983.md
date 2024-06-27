@@ -17,36 +17,36 @@ As a kid, I was fascinated with space. The Space Shuttle's first launch happened
 
 Inside the envelope was an amazing collection of color 8x10 photos from JPL's Voyager missions and a couple of booklets.
 
-{% captionedimage caption="Voyager 2 with Uranus" src="https://photos.steinkamp.us/photo/2024-06-26-jpl/jpl-01-f.jpeg?size=1600x1600&v" className="inline-block w-[45%]" /%}
-
+Voyager 2 with Uranus
+{% captionedimage caption="" src="https://photos.steinkamp.us/photo/2024-06-26-jpl/jpl-01-f.jpeg?size=1600x1600&v" className="inline-block w-[45%]" /%}
 {% captionedimage caption="" src="https://photos.steinkamp.us/photo/2024-06-26-jpl/jpl-01-r.jpeg?size=1600x1600" className="inline-block w-[45%] pl-4"/%}
 
-{% captionedimage caption="Io from Voyager 1" src="https://photos.steinkamp.us/photo/2024-06-26-jpl/jpl-02-f.jpeg?size=1600x1600&v" className="inline-block w-[45%]" /%}
-
+Io from Voyager 1
+{% captionedimage caption="" src="https://photos.steinkamp.us/photo/2024-06-26-jpl/jpl-02-f.jpeg?size=1600x1600&v" className="inline-block w-[45%]" /%}
 {% captionedimage caption="" src="https://photos.steinkamp.us/photo/2024-06-26-jpl/jpl-02-r.jpeg?size=1600x1600" className="inline-block w-[45%] pl-4"/%}
 
-{% captionedimage caption="Saturn and its Moons" src="https://photos.steinkamp.us/photo/2024-06-26-jpl/jpl-03-f.jpeg?size=1600x1600&v" className="inline-block w-[45%]" /%}
-
+Saturn and its Moons
+{% captionedimage caption="" src="https://photos.steinkamp.us/photo/2024-06-26-jpl/jpl-03-f.jpeg?size=1600x1600&v" className="inline-block w-[45%]" /%}
 {% captionedimage caption="" src="https://photos.steinkamp.us/photo/2024-06-26-jpl/jpl-03-r.jpeg?size=1600x1600" className="inline-block w-[45%] pl-4"/%}
 
-{% captionedimage caption="Great Red Spot" src="https://photos.steinkamp.us/photo/2024-06-26-jpl/jpl-04-f.jpeg?size=1600x1600&v" className="inline-block w-[45%]" /%}
-
+Great Red Spot
+{% captionedimage caption="" src="https://photos.steinkamp.us/photo/2024-06-26-jpl/jpl-04-f.jpeg?size=1600x1600&v" className="inline-block w-[45%]" /%}
 {% captionedimage caption="" src="https://photos.steinkamp.us/photo/2024-06-26-jpl/jpl-04-r.jpeg?size=1600x1600" className="inline-block w-[45%] pl-4"/%}
 
-{% captionedimage caption="Jupiter's moon Enceladus" src="https://photos.steinkamp.us/photo/2024-06-26-jpl/jpl-05-f.jpeg?size=1600x1600&v" className="inline-block w-[45%]" /%}
-
+Jupiter's moon Enceladus
+{% captionedimage caption="" src="https://photos.steinkamp.us/photo/2024-06-26-jpl/jpl-05-f.jpeg?size=1600x1600&v" className="inline-block w-[45%]" /%}
 {% captionedimage caption="" src="https://photos.steinkamp.us/photo/2024-06-26-jpl/jpl-05-r.jpeg?size=1600x1600" className="inline-block w-[45%] pl-4"/%}
 
-{% captionedimage caption="Saturn's Rings" src="https://photos.steinkamp.us/photo/2024-06-26-jpl/jpl-06-f.jpeg?size=1600x1600&v" className="inline-block w-[45%]" /%}
-
+Saturn's Rings
+{% captionedimage caption="" src="https://photos.steinkamp.us/photo/2024-06-26-jpl/jpl-06-f.jpeg?size=1600x1600&v" className="inline-block w-[45%]" /%}
 {% captionedimage caption="" src="https://photos.steinkamp.us/photo/2024-06-26-jpl/jpl-06-r.jpeg?size=1600x1600" className="inline-block w-[45%] pl-4"/%}
 
-{% captionedimage caption="Saturn's Northern Hemisphere" src="https://photos.steinkamp.us/photo/2024-06-26-jpl/jpl-07-f.jpeg?size=1600x1600&v" className="inline-block w-[45%]" /%}
-
+Saturn's Northern Hemisphere
+{% captionedimage caption="" src="https://photos.steinkamp.us/photo/2024-06-26-jpl/jpl-07-f.jpeg?size=1600x1600&v" className="inline-block w-[45%]" /%}
 {% captionedimage caption="" src="https://photos.steinkamp.us/photo/2024-06-26-jpl/jpl-07-r.jpeg?size=1600x1600" className="inline-block w-[45%] pl-4"/%}
 
-{% captionedimage caption="Jupiter and Moons Collage" src="https://photos.steinkamp.us/photo/2024-06-26-jpl/jpl-08-f.jpeg?size=1600x1600&v" className="inline-block w-[45%]" /%}
-
+Jupiter and Moons Collage
+{% captionedimage caption="" src="https://photos.steinkamp.us/photo/2024-06-26-jpl/jpl-08-f.jpeg?size=1600x1600&v" className="inline-block w-[45%]" /%}
 {% captionedimage caption="" src="https://photos.steinkamp.us/photo/2024-06-26-jpl/jpl-08-r.jpeg?size=1600x1600" className="inline-block w-[45%] pl-4"/%}
 
 There were two pamphlets in there too. Click the thumbnail to view a PDF of the pamphlet.
