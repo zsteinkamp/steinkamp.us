@@ -13,9 +13,9 @@ I was going through a box of old things recently and came across this envelope.
 
 {% captionedimage src="https://photos.steinkamp.us/photo/2024-06-26-jpl/IMG_1286.JPG?size=1600x1600" /%}
 
-As a kid, I was fascinated with space. The Space Shuttle's first launch happened when I was sseven years old, so this was absolute prime time for space exploration to be at the forefront of my interests and imagination. I'm not sure what led to the envelope showing up at the house, but I suspect it was my mom who wrote to JPL asking for some cool stuff for a nerdy kid.
+As a kid, I was fascinated with space. The Space Shuttle's first launch happened when I was seven years old, so this was absolute prime time for space exploration to be at the forefront of my interests and imagination. I'm not sure what led to the envelope showing up at the house, but I suspect it was one of my parents who wrote to JPL asking for some cool stuff for their nerdy kid.
 
-Inside the envelope was an amazing collection of 8x10 prints from JPL's Voyager missions and a couple of booklets.
+Inside the envelope was an amazing collection of color 8x10 photos from JPL's Voyager missions and a couple of booklets.
 
 {% captionedimage caption="Voyager 2 with Uranus" src="https://photos.steinkamp.us/photo/2024-06-26-jpl/jpl-01-f.jpeg?size=1600x1600&v" className="inline-block w-[45%]" /%}
 
