@@ -43,6 +43,13 @@ I've been a big fan of computers since an early age, but I never really knew how
 
 {% youtube src="https://www.youtube.com/embed/kRlSFm519Bo?si=Otqk6_Xv5OK3UgCw" title="Ben Eater's Breadboard Computer playlist" /%}
 
+## MIT 22.01 Introduction to Nuclear Engineering and Ionizing Radiation
+
+Another great *entire course*, this time from MIT, on the chemistry and physics
+of ionizing radiation. [Whole playlist here](https://www.youtube.com/playlist?list=PLUl4u3cNGP61FVzAxBP09w2FMQgknTOqu).
+
+{% youtube src="https://www.youtube.com/embed/Ijst4g5KFN0" title="MIT 22.01 Introduction to Nuclear Engineering and Ionizing Radiation" /%}
+
 ## Mathologer
 
 Burkard Polster is a German mathemetician who teaches at a university in Australia. His videos are relatable, free from fluff, and always very interesting. His playful style, and step-by-step approach to the concepts he presents makes for time well spent.
