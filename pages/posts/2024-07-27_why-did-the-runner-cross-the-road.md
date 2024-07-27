@@ -13,7 +13,9 @@ Where visibility is good, run on the left side. If you're approaching a blind le
 
 ## Background
 
-I'm mostly a trail runner. The biggest dangers on a trail are snakes, twisted ankles, mountain lions, and mountain bikers. I will still run on the road at least once a week, mostly due to my whims and sometimes schedule pressure, despite the 2+ ton cars and trucks going 20-40mph past me.
+I'm mostly a trail runner. The biggest dangers on a trail are snakes, twisted ankles, mountain lions, and mountain bikers. These things can be real problems but are minor compared with the dangers we face running on roads.
+
+Out on the asphalt rivers, we have to contend with multi-ton behemouths whizzing by 20-40mph faster than us, piloted by people with varying skills and attention levels. Any coming together spells quick death or serious injury to the runner, and _maybe_ a trip to the body shop for the vehicle.
 
 I commuted by bike for several years, and was really surprised to observe that a LOT of drivers are looking at their phones while they are driving. It seemed that fully 1/3 of people would drive with a phone in their hand, spending more time looking at the screen than at what was happening around them. This really taught me to be weary of other drivers and _never_ assume they are paying attention.
 
@@ -21,7 +23,9 @@ Most road running has the luxury of sidewalks or some kind of separation from th
 
 ## Mostly Run on the Left
 
-In most cases, run on the left edge of the road. There is a simple reason for this -- by being able to see a car barreling down on you, whose driver is possibly not paying attention, you at least have a chance to get out of the way. If you were running on the right side, then the car would be coming up behind you. Optimize for being able to perceive dangers.
+In most cases, run on the left edge of the road. There is a simple reason for this -- by being able to see a car barreling down on you, whose driver is possibly not paying attention, you at least have a chance to get out of the way. If you were running on the right side, then the car would be coming up behind you. You could hear it, but they may not be paying attention, and are you really going to look over your shoulder any time you hear a car?
+
+Optimize for mutual perception. If at least one party perceives the other, at least there is a chance to do something in an imminent collision.
 
 {% captionedimage src="/images/runner/straight.png" caption="With good visibility, run on your left side." /%}
 
@@ -48,3 +52,5 @@ At the top of the crest, transition back to the left for the same reasons.
 Of course, the real world is full of nuance and exceptions. Use all of your senses and your smart brain to make the best decision for the moment. Find the right balance between your ability to see oncoming traffic, and that traffic's ability to see you.
 
 Ears can be incredibly useful senses for knowing what is going on around you. Headphones can change this for the worse.
+
+Be safe out there so you can keep runnin'!!!
