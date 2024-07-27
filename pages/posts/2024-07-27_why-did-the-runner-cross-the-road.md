@@ -11,6 +11,8 @@ excerpt: |
 
 Where visibility is good, run on the left side. If you're approaching a blind left turn or approaching a crest, run on the right side. No matter what, use your good judgment to analyze the nuance of the situation at hand to make the best decision.
 
+{% captionedimage src="/images/runner/straight.png" caption="With good visibility, run on your left side." /%}
+
 ## Background
 
 I'm mostly a trail runner. The biggest dangers on a trail are snakes, twisted ankles, mountain lions, and mountain bikers. These things can be real problems but are minor compared with the dangers we face running on roads.
