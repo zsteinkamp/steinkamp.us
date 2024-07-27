@@ -1,4 +1,3 @@
-version: '3'
 name: steinkamp_us_dev
 services:
   web:
