@@ -3,6 +3,9 @@ layout: post
 title: JPL Care Package From 1983
 date: '2024-06-27 12:00:00'
 thumbnail: https://photos.steinkamp.us/photo/2024-06-26-jpl/jpl-01-f.jpeg?size=1600x1600
+tags:
+  - Nerd
+  - Memories
 excerpt: |
   In March 1983, perhaps in response to a parental request for some nerdy materials for a nerdy kid, the Jet Propulsion Laboratory sent a large envelope to my house. Find out what was inside...
 ---

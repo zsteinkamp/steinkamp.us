@@ -3,6 +3,8 @@ layout: post
 title: Why Did the Runner Cross The Road?
 date: '2024-07-27 12:00:00'
 thumbnail: /images/runner/turn-good.png
+tags:
+  - Running
 excerpt: |
   A little post giving my $0.02 on what side of the road a runner should run on.
 ---
