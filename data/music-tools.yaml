@@ -102,7 +102,7 @@
     You can also control voice left/right pan position, loop start and end (with the ability to go backwards!), and trigger all voices to restart playing.
 
 - title: Fibonacci Note Echo
-  image: https://github.com/zsteinkamp/m4l-js-fibonacciNoteEcho/raw/main/images/screenshot.png
+  image: https://github.com/zsteinkamp/m4l-js-fibonacciNoteEcho/raw/main/images/screenshot.gif
   link: https://github.com/zsteinkamp/m4l-js-fibonacciNoteEcho
   description: |
     This is a MIDI Effect device that will repeat notes, with each repeat delay following the Fibonacci Sequence. You can control the number of repeats, time scale, pitch, and velocity change.
