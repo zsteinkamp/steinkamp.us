@@ -30,7 +30,7 @@
     This device combines two modulation signals using math, and outputs a signal you can then map to a parameter.
 
 - title: Fractal Note Echo
-  image: https://github.com/zsteinkamp/m4l-js-fractalNoteEcho/raw/main/images/iter2.3.png
+  image: https://github.com/zsteinkamp/m4l-js-fractalNoteEcho/raw/main/images/screenshot.gif
   link: https://github.com/zsteinkamp/m4l-js-fractalNoteEcho
   description: |
     This is a MIDI Effect device that will trigger notes in a fractal pattern. The base fractal shape (in terms of timing between echo taps) can be defined, then number of iterations and iteration scale can be controlled. The kinds of textures you can get out of it are really surprising, and have been inspiring to me. There is a natural beauty and harmony to fractals, which can contribute a more natural feel to your sounds.
