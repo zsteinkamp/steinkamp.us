@@ -94,12 +94,12 @@
     distributed across the tracks sharing the same channel.
 
 - title: zs Faderboard3
-  image: https://github.com/zsteinkamp/m4l-zs-Faderboard3/raw/main/images/device.png
+  image: https://github.com/zsteinkamp/m4l-zs-Faderboard3/raw/main/images/device.gif
   link: https://github.com/zsteinkamp/m4l-zs-Faderboard3
   description: |
     This device was inspired by the Vestax Faderboard. It is an odd kind of sampler, with 10 voices to play back a sample at your chosen pitch. The thing that makes it unique is that each voice is played using a dedicated fader, and the sample is triggered when the fader leaves the silent position.
 
-    You can also control voice left/right pan position, loop start and end (with the ability to go backwards!), and trigger all voices to restart playing.
+    You can also control voice left/right pan position, loop start and end (with the ability to go backwards!), and trigger all voices to restart playing. The device outputs a stereo mix, but all 10 stereo channels are available independently too.
 
 - title: Fibonacci Note Echo
   image: https://github.com/zsteinkamp/m4l-js-fibonacciNoteEcho/raw/main/images/screenshot.gif
