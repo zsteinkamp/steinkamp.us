@@ -25,36 +25,60 @@ const MusicToolsPage: React.FC<MusicToolsProps> = ({ data }) => {
   // populate the `slug` attribute
   data.forEach((app) => {
     app.slug = createHeadingSlug(app.title)
+    app.catSlug = createHeadingSlug(app.category)
   })
 
-  const headings = data.map((app) => {
-    return {
+  let lastCategory: string | null = null
+
+  const headings = data.sort((a, b) => a.title < b.title ? -1 : 1).sort((a, b) => a.category < b.category ? -1 : 1).map((app) => {
+    const retVal = []
+    if (app.category !== lastCategory) {
+      retVal.push({
+        slug: createHeadingSlug(app.category),
+        title: app.category,
+        level: 2,
+      })
+      lastCategory = app.category
+    }
+
+    retVal.push({
       slug: app.slug,
       title: app.title,
-      level: 2,
-    }
+      level: 3,
+    })
+
+    return retVal
   })
 
+  lastCategory = null
   const appList = data.map((app) => {
+    let category = null
+    if (lastCategory !== app.category) {
+      category = <h2 id={app.catSlug} className="mb-[-2rem]">{app.category}</h2>
+      lastCategory = app.category
+    }
     return (
-      <div className='pt-8' key={app.link}>
-        <div className='flex justify-between items-end'>
-          <h2 id={app.slug}>
-            <Link href={app.link} title={app.title}>
-              {app.title}
-            </Link>
-          </h2>
-          <div className='mb-4'>
-            <Link href={app.link}>More Info / Download</Link>
+      <>
+        {category}
+        <div className='pt-8' key={app.link}>
+          <div className='flex justify-between items-end'>
+            <h3 id={app.slug}>
+              <Link href={app.link} title={app.title}>
+                {app.title}
+              </Link>
+            </h3>
+            <div>
+              <Link href={app.link}>More Info / Download</Link>
+            </div>
           </div>
+          <div>
+            <Link href={app.link} title={app.title}>
+              <img alt={app.title} src={app.image} />
+            </Link>
+          </div>
+          <ReactMarkdown>{app.description}</ReactMarkdown>
         </div>
-        <div>
-          <Link href={app.link} title={app.title}>
-            <img alt={app.title} src={app.image} />
-          </Link>
-        </div>
-        <ReactMarkdown>{app.description}</ReactMarkdown>
-      </div>
+      </>
     )
   })
 
@@ -67,7 +91,7 @@ const MusicToolsPage: React.FC<MusicToolsProps> = ({ data }) => {
           content='Tools that I have created for other musicians, mostly in Max for Live.'
         />
       </Head>
-      <TableOfContents headings={headings} className='' />
+      <TableOfContents headings={headings.flat()} className='' />
       <h1>Music Tools / Plugins</h1>
       <p>
         I have made a handful of tools for electronic musicians who use Ableton
