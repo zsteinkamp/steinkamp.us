@@ -1,3 +1,10 @@
+- title: Quantize MIDI
+  category: Note Effects
+  image: https://github.com/zsteinkamp/m4l-Quantize-MIDI/raw/main/images/device.gif
+  link: https://github.com/zsteinkamp/m4l-Quantize-MIDI
+  description: |
+    This device allows you to variably quantize a stream of MIDI notes. Sweep from random to locked in to the song tempo, and everything in between. In the screen recording above, the "Amount" knob in the lower-left is controlling the degree of quantization.
+
 - title: zs Knobbler3
   category: Control
   image: https://github.com/zsteinkamp/m4l-zs-Knobbler3/raw/main/images/ipadInterface.jpg
