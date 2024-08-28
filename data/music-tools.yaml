@@ -1,3 +1,10 @@
+- title: Modulation Inertia
+  category: Modulators
+  image: https://github.com/zsteinkamp/m4l-Modulation-Inertia/raw/main/images/device.gif
+  link: https://github.com/zsteinkamp/m4l-Modulation-Inertia
+  description: |
+    This is a modulation utility that allows you to smooth out a modulation signal and map it to up to 8 other parameters, with independent control over rise and fall time.
+
 - title: Quantize MIDI
   category: Note Effects
   image: https://github.com/zsteinkamp/m4l-Quantize-MIDI/raw/main/images/device.gif
