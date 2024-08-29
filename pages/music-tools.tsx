@@ -30,7 +30,16 @@ const MusicToolsPage: React.FC<MusicToolsProps> = ({ data }) => {
 
   let lastCategory: string | null = null
 
-  const headings = data.sort((a, b) => a.title < b.title ? -1 : 1).sort((a, b) => a.category < b.category ? -1 : 1).map((app) => {
+  const sortOrder = [
+    "Modulators",
+    "Note Effects",
+    "Audio Effects",
+    "Instruments",
+    "Control",
+    "Utilities"
+  ]
+
+  const headings = data.sort((a, b) => a.title < b.title ? -1 : 1).sort((a, b) => sortOrder.indexOf(a.category) < sortOrder.indexOf(b.category) ? -1 : 1).map((app) => {
     const retVal = []
     if (app.category !== lastCategory) {
       retVal.push({
