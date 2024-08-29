@@ -104,7 +104,7 @@ const MusicToolsPage: React.FC<MusicToolsProps> = ({ data }) => {
       <h1>Music Tools / Plugins</h1>
       <p>
         I have made a handful of tools for electronic musicians who use Ableton
-        Live Suite, which includes Max For Live.
+        Live, which includes Max For Live.
       </p>
 
       <Image
