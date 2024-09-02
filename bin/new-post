@@ -35,6 +35,8 @@ layout: post
 title: ${POST_TITLE}
 date: '${POST_DATE} 12:00:00'
 thumbnail: /images/sample.jpg
+tags:
+  - Uncategorized
 excerpt: |
   Short excerpt, teaser, or placeholder for this post.
 ---
