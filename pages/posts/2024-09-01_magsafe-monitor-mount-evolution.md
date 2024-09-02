@@ -3,6 +3,8 @@ layout: post
 title: MagSafe Continuity Camera Monitor Mount
 date: '2024-09-01 12:00:00'
 thumbnail: /images/phone-mag-mount/IMG_0236.jpeg
+- Projects
+- Nerd
 excerpt: |
   I figured out a cool way to mount my phone to my monitor using a wireless charger. Check out the evolution...
 ---
@@ -31,9 +33,12 @@ One issue with prior solutions was that the Continuity Camera was a total batter
 
 {% captionedimage caption="Big idea of wireless charging" src="/images/phone-mag-mount/IMG_1703.JPG" /%}
 
-So a couple of cuts and a couple of holes drilled later, and I have what I think is the ideal Continuity Camera solution. The phone charges while it is doing its camera thing, so the battery is at least as good as where you left it when you're done. I've tried up to 40+ minute OBS recordings using the Continuity Camera as a source.
+So a couple of cuts and a couple of holes drilled later, and I have what I think is the a good Continuity Camera solution. The phone charges while it is doing its camera thing, so the battery is at least as good as where you left it when you're done. I've tried up to 40+ minute OBS recordings using the Continuity Camera as a source.
 
 {% captionedimage caption="Not pretty, but a good iteration!" src="/images/phone-mag-mount/IMG_1704.JPG" /%}
+
+I could probably cut off the unneeded portion of the wireless charger foot to clean it up. We'll see...
+
 {% captionedimage caption="View from the back, showing the USB charging cord." src="/images/phone-mag-mount/IMG_0238.jpeg" /%}
 
 The phone snaps right on to the mount, and is held very securely. This particular charger has a pivoting head, so it's really quite nice to aim.
@@ -59,3 +64,5 @@ Lo and behold, it gets even better.
 {% youtube src="https://www.youtube.com/embed/ZfTeoOacZa4?si=ugoVIWokLDVqT6jF" title="Example video shot with the Continuity Camera wireless charger mount." /%}
 
 What are your recording/streaming secrets?
+
+{% captionedimage caption="p.s. Safety first, tunes second." src="/images/phone-mag-mount/IMG_1688.JPG" /%}

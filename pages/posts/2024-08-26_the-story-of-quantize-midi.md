@@ -3,6 +3,10 @@ layout: post
 title: The Story of Quantize MIDI
 date: '2024-08-26 12:00:00'
 thumbnail: /images/quantize/device.png
+tags:
+- Music
+- Projects
+- Nerd
 excerpt: |
   All about the Max for Live device that can variably quantize a MIDI note stream in real time.
 
