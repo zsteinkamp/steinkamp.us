@@ -3,6 +3,7 @@ layout: post
 title: MagSafe Continuity Camera Monitor Mount
 date: '2024-09-01 12:00:00'
 thumbnail: /images/phone-mag-mount/IMG_0236.jpeg
+tags:
 - Projects
 - Nerd
 excerpt: |
