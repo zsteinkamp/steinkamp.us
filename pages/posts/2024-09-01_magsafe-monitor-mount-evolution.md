@@ -54,9 +54,11 @@ Then it hit me -- staring me in the face. The charger base itself is slotted! De
 
 Lo and behold, it gets even better.
 
-{% captionedimage caption="Looks good from the back." src="/images/phone-mag-mount/IMG_0241.jpeg" /%}
+{% captionedimage caption="Looks good from the front." src="/images/phone-mag-mount/IMG_0241.jpeg" /%}
 
-{% captionedimage caption="Looks good from the front." src="/images/phone-mag-mount/IMG_0243.jpeg" /%}
+{% captionedimage caption="Looks good from the back." src="/images/phone-mag-mount/IMG_0243.jpeg" /%}
+
+[This is the wireless charger on Amazon.](https://www.amazon.com/gp/product/B08SQBN68C/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1)
 
 ## Example Video
 
