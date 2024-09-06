@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev -p 3000",
+    "bundleZips": "tsx scripts/bundleZips.ts",
     "build": "next build",
     "start": "next start -p 3125",
     "lint": "prettier --check --ignore-path .gitignore .",
@@ -13,6 +14,9 @@
     "@giscus/react": "^2.4.0",
     "@markdoc/markdoc": "^0.2.2",
     "@markdoc/next.js": "^0.2.2",
+    "@next/env": "^14.2.8",
+    "@octokit/rest": "^21.0.2",
+    "adm-zip": "^0.5.16",
     "dayjs": "^1.11.7",
     "feed": "^4.2.2",
     "glob-promise": "^6.0.2",
@@ -30,6 +34,7 @@
   },
   "devDependencies": {
     "@tailwindcss/line-clamp": "^0.4.2",
+    "@types/adm-zip": "^0.5.5",
     "@types/js-yaml": "^4.0.8",
     "@types/node": "18.15.6",
     "@types/react": "18.0.28",
@@ -47,6 +52,7 @@
     "prettier-eslint": "^16.3.0",
     "prettier-plugin-tailwindcss": "^0.5.11",
     "tailwindcss": "^3.2.7",
+    "tsx": "^4.19.0",
     "typescript": "5.0.2"
   }
 }

@@ -6,6 +6,7 @@ import Image from 'next/image'
 import ReactMarkdown from 'react-markdown'
 import createHeadingSlug from '@/util/createHeadingSlug'
 import TableOfContents from '@/components/TableOfContents'
+import { categoryZipPath } from '@/util/downloadUtils'
 
 export async function getStaticProps() {
   const data = yaml.load(fs.readFileSync('data/music-tools.yaml', 'utf8'))
@@ -63,13 +64,19 @@ const MusicToolsPage: React.FC<MusicToolsProps> = ({ data }) => {
   const appList = data.map((app) => {
     let category = null
     if (lastCategory !== app.category) {
-      category = <h2 id={app.catSlug} className="mb-[-2rem]">{app.category}</h2>
+      category = <>
+        <h2 id={app.catSlug} className="mb-[-2rem]">{app.category}</h2>
+        <div className="text-right mt-2">
+          <Link href={categoryZipPath(app.category)} className="text-pagebg hover:text-pagebg hover:bg-link-hover bg-link-base p-2 rounded">Download .zip</Link>
+        </div>
+      </>
+
       lastCategory = app.category
     }
     return (
       <>
         {category}
-        <div className='pt-8' key={app.link}>
+        <div className='pb-4' key={app.link}>
           <div className='flex justify-between items-end'>
             <h3 id={app.slug}>
               <Link href={app.link} title={app.title}>
@@ -77,7 +84,7 @@ const MusicToolsPage: React.FC<MusicToolsProps> = ({ data }) => {
               </Link>
             </h3>
             <div>
-              <Link href={app.link}>More Info / Download</Link>
+              <Link href={app.link}>More Info</Link>
             </div>
           </div>
           <div>
