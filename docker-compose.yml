@@ -7,5 +7,7 @@ services:
     ports:
       - '3125:3125'
     restart: unless-stopped
+    volumes:
+      - ./public/zip:/app/public/zip
 volumes:
   app_node_modules:

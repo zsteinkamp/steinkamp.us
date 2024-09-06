@@ -10,6 +10,9 @@ help: ## Show makefile targets and their descriptions
 prod: ## Build and run in production mode (default)
 	docker compose build && docker compose up -d --force-recreate
 
+prodshell: ## Open a shell in the running prod container
+	docker compose exec web bash
+
 prodlogs: ## Tail production container logs
 	docker compose logs -f
 
