@@ -86,7 +86,7 @@
     Use a stereo signal's left/right phase correlation as a modulation source.
 
 - title: Chiastic Solo
-  category: Control
+  category: Audio Effects
   image: https://github.com/zsteinkamp/m4l-ChiasticSolo/raw/main/images/device.gif
   link: https://github.com/zsteinkamp/m4l-ChiasticSolo
   description: |

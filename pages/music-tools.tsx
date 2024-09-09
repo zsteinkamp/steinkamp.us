@@ -32,11 +32,11 @@ const MusicToolsPage: React.FC<MusicToolsProps> = ({ data }) => {
   let lastCategory: string | null = null
 
   const sortOrder = [
+    "Control",
     "Modulators",
     "Note Effects",
     "Audio Effects",
     "Instruments",
-    "Control",
     "Utilities"
   ]
 
