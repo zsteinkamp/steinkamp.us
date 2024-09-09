@@ -16,6 +16,9 @@ prodshell: ## Open a shell in the running prod container
 prodlogs: ## Tail production container logs
 	docker compose logs -f
 
+zip: ## Package .zip files for /music-tools
+	docker compose exec web npm run bundleZips
+
 devup: ## Build and run in development mode
 	cd dev && docker compose build && docker compose up -d --force-recreate && docker compose logs -f
 
