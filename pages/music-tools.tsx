@@ -135,7 +135,7 @@ const MusicToolsPage: React.FC<MusicToolsProps> = ({ data }) => {
       </p>
 
       <p>
-        Download .zip files of the latest versions of my devices below, or visit each project's GitHub page for more details.
+        Download .zip files of the latest versions of my devices below, or visit each project&apos;s GitHub page for more details.
       </p>
 
       {appList}
