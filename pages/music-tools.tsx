@@ -111,7 +111,7 @@ const MusicToolsPage: React.FC<MusicToolsProps> = ({ data }) => {
       <h1>Music Tools / Plugins</h1>
       <p>
         I have made a handful of tools for electronic musicians who use Ableton
-        Live, which includes Max For Live.
+        Live.
       </p>
 
       <Image
@@ -123,8 +123,8 @@ const MusicToolsPage: React.FC<MusicToolsProps> = ({ data }) => {
       />
 
       <p>
-        Max For Live is a visual signal processing environment that integrates
-        seamlessly with Ableton Live. This allows people like me to make my own
+        Max For Live is a visual development environment that integrates
+        seamlessly with Ableton Live. This allows people like me to make our own
         utilities, effects, sound generators, and automation within my digital
         audio workstation (DAW). This is an incredibly powerful capability of
         Ableton Live that sets it apart from other DAWs. We are no longer
@@ -135,8 +135,7 @@ const MusicToolsPage: React.FC<MusicToolsProps> = ({ data }) => {
       </p>
 
       <p>
-        This page serves as a jumping off point to more detailed information
-        about the devices.
+        Download .zip files of the latest versions of my devices below, or visit each project's GitHub page for more details.
       </p>
 
       {appList}
