@@ -4,7 +4,7 @@ title: Ode to Pickled Red Onions
 date: '2024-09-12 12:00:00'
 thumbnail: /images/pickled-red-onions/chilaquiles.jpg
 tags:
-  - Food
+  - Cooking
   - Projects
 excerpt: |
   Short excerpt, teaser, or placeholder for this post.
