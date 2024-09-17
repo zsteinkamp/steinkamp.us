@@ -7,7 +7,8 @@ tags:
   - Cooking
   - Projects
 excerpt: |
-  Short excerpt, teaser, or placeholder for this post.
+  A bit about what is one of the easiest, cheapest, and most versatile
+  condiments around.
 ---
 
 Pickled red onions are a condiment outlier when compared with others on the dimensions of cost, convenience, and coverage, the three C's of existence. They cost next to nothing to make, take 5 minutes to prepare, and may hold the Guinness World Record for number of dishes they improve. It is my goal to convince you of this too, if you are not yet a True Onion Believer.
