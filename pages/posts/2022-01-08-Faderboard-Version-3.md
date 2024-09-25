@@ -21,13 +21,11 @@ The demo shows off the device's loop management abilities too, including seamles
 
 ## Get Started
 
-Click the link below to download the Max For Live device:
-
-- [zs-Faderboard3.amxd](https://github.com/zsteinkamp/m4l-zs-Faderboard3/blob/main/zs-Faderboard3.amxd?raw=true)
+First, download the latest release of [zs-Faderboard3.amxd](https://github.com/zsteinkamp/m4l-zs-Faderboard3/releases)
 
 After downloading, you can then add the device file to your User Library in Ableton Live, or directly into a MIDI track. You can then drag a sample onto the "Drop Sample Here" area. The .wav file below is a nice example to start with. You can also drag a clip directly from an Audio track in Ableton Live to the drop zone.
 
-- [Harmonic Flights- D3.wav](https://github.com/zsteinkamp/m4l-zs-Faderboard3/blob/main/samples/Harmonic%20Flights-%20D3.wav?raw=true)
+- Download [Harmonic Flights- D3.wav](https://github.com/zsteinkamp/m4l-zs-Faderboard3/releases)
 
 Set the root note for your sample. For example, the above sample is rooted at D3.
 
@@ -45,7 +43,7 @@ Here's a long demo showing how that can work:
 
 Download the touchOSC definition here:
 
-- [zs-Faderboard3.tosc](https://github.com/zsteinkamp/m4l-zs-Faderboard3/blob/main/zs-Faderboard3.tosc?raw=true)
+- [zs-Faderboard3.tosc](https://github.com/zsteinkamp/m4l-zs-Faderboard3/releases)
 
 You can then configure touchOSC on the iPad to send MIDI over "Network Session 1".
 
