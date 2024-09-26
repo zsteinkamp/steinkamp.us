@@ -35,6 +35,8 @@ You can also set each voice to its own left/right panning location.
 
 ## touchOSC Integration over WiFi
 
+> UPDATE 2024-09-25 -- An alternative to using the specific TouchOSC template is to use my [Knobbler4](https://github.com/zsteinkamp/m4l-Knobbler4) device/template. It's a generic auto-labeling, auto-coloring parameter control surface that works for all devices in your Ableton Live set.
+
 If you have an iPad and a Mac, you can use the software touchOSC to create a set of virtual controls to control zs Faderboard3 over wireless MIDI.
 
 Here's a long demo showing how that can work:
