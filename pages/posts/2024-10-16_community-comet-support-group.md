@@ -55,7 +55,7 @@ An older guy who was able to see the comet through the camera's viewfinder thank
 
 This brought me back to a couple times in my childhood where we were in the parking lot of a planetarium and the local telescope club was meeting. There was always That Guy who _invited_ us to look through his telescope. That was so important, because otherwise I think people assume they are doing some Hard Science or something and Should Not Be Bothered.
 
-That Guy LOVES sharing his joy and ability with others. This is why That Guy is on this earth. To learn things, develop skills, to be able to DO and share all of that with everyone. Bonus points if there is nerdly appreciation.
+That Guy LOVES sharing his joy and ability with others. This is why That Guy is on this earth. To learn things, develop skills, to be able to DO and share all of that with everyone.
 
 {% captionedimage src="/images/2024-10-16-comet/200mm.jpg" caption="200mm - Can you find all three satellites?" /%}
 
