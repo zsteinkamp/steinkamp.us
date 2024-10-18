@@ -169,3 +169,10 @@
   link: https://github.com/zsteinkamp/m4l-TempoToMs
   description: |
     Displays a grid of durations, in milliseconds, of various note lengths at the current song tempo.
+
+- title: WavScope
+  category: Utilities
+  image: https://github.com/zsteinkamp/m4l-WavScope/raw/main/images/device.gif
+  link: https://github.com/zsteinkamp/m4l-WavScope
+  description: |
+    Visualize the audio waveform at that point in your audio chain. Can be useful if placed before and after an effect.
