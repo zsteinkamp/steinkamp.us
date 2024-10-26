@@ -34,12 +34,12 @@
   description: |
     Smoothly crossfade between any number of child tracks in a group or chains in a preceeding Instrument Rack or Audio Effect Rack device. Allows for crazy tempo-locked layering.
 
-- title: TapPanVerb
+- title: TapPanZeit
   category: Audio Effects
-  image: https://github.com/zsteinkamp/m4l-TapPanVerb/raw/main/images/device.png
-  link: https://github.com/zsteinkamp/m4l-TapPanVerb
+  image: https://github.com/zsteinkamp/m4l-TapPanZeit/raw/main/images/device.png
+  link: https://github.com/zsteinkamp/m4l-TapPanZeit
   description: |
-    A reverb + bucket-brigade delay tap field with control over timing and stereo placement of each tap. Up to 128 taps + an insane feedback control.
+    A bucket-brigade delay tap field with control over timing and stereo placement of each tap. Up to 128 taps + an insane feedback control.
 
 - title: Modulation Math
   category: Modulators
