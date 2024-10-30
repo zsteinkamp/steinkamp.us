@@ -42,7 +42,7 @@ const buildZips = async () => {
       const assetFname = path.basename(assetUrl.pathname)
       const contentsResp = await fetch(assetUrl)
       zip.addFile(assetFname, Buffer.from(await contentsResp.arrayBuffer()))
-      //console.log(`added file ${assetFname} to ${app.category}`)
+      console.log(`added file ${assetFname} to ${app.category}`)
     }
   }
 
@@ -51,7 +51,7 @@ const buildZips = async () => {
   for (const cat in categoryZips) {
     const zipFilename = path.join('public', categoryZipPath(cat))
     categoryZips[cat].writeZip(zipFilename)
-    //console.log(`wrote ${zipFilename}`)
+    console.log(`wrote ${zipFilename}`)
   }
 }
 
