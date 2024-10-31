@@ -50,8 +50,8 @@
 
 - title: Fractal Note Echo
   category: Note Effects
-  image: https://github.com/zsteinkamp/m4l-js-fractalNoteEcho/raw/main/images/screenshot.gif
-  link: https://github.com/zsteinkamp/m4l-js-fractalNoteEcho
+  image: https://github.com/zsteinkamp/m4l-FractalNoteEcho/raw/main/images/screenshot.gif
+  link: https://github.com/zsteinkamp/m4l-FractalNoteEcho
   description: |
     This is a MIDI Effect device that will trigger notes in a fractal pattern. The base fractal shape (in terms of timing between echo taps) can be defined, then number of iterations and iteration scale can be controlled. The kinds of textures you can get out of it are really surprising, and have been inspiring to me. There is a natural beauty and harmony to fractals, which can contribute a more natural feel to your sounds.
 
@@ -132,8 +132,8 @@
 
 - title: Fibonacci Note Echo
   category: Note Effects
-  image: https://github.com/zsteinkamp/m4l-js-fibonacciNoteEcho/raw/main/images/screenshot.gif
-  link: https://github.com/zsteinkamp/m4l-js-fibonacciNoteEcho
+  image: https://github.com/zsteinkamp/m4l-FibonacciNoteEcho/raw/main/images/screenshot.gif
+  link: https://github.com/zsteinkamp/m4l-FibonacciNoteEcho
   description: |
     This is a MIDI Effect device that will repeat notes, with each repeat delay following the Fibonacci Sequence. You can control the number of repeats, time scale, pitch, and velocity change.
 
