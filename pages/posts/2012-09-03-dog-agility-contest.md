@@ -8,7 +8,7 @@ excerpt: |
   to go to nationals this year in Denver.  There were some impressive dogs and
   handlers there today!
 tags:
-  - Uncategorized
+  - Memories
 ---
 
 Our friends Deanna and Nathan and their dogs compete in dog agility contests. We drove down to Prunedale today to see them do their stuff. They're getting ready to go to nationals this year in Denver. There were some impressive dogs and handlers there today!

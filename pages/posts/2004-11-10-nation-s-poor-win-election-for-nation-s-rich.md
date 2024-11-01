@@ -3,14 +3,12 @@ layout: post
 title: Nation's Poor Win Election for Nation's Rich
 date: '2004-11-10 08:44:16'
 tags:
-  - Uncategorized
+  - Philosophy
 ---
 
-(from <a
-href="http://www.theonion.com/news/index.php?issue=4045&n=0&ref=myy">The
-Onion</a>)
+(from [The Onion](http://www.theonion.com/news/index.php?issue=4045&n=0&ref=myy)
 
-WASHINGTON, DCThe economically disadvantaged segment
+WASHINGTON, DC - The economically disadvantaged segment
 of the U.S. population provided the decisive factor in
 another presidential election last Tuesday, handing
 control of the government to the rich and powerful
@@ -18,9 +16,9 @@ once again.
 Bush and Cheney accept victory.
 Above: Bush and Cheney accept victory.
 
-"The Republican partythe party of industrial
+"The Republican party, the party of industrial
 mega-capitalists, corporate financiers, power brokers,
-and the moneyed elitewould like to thank the
+and the moneyed elite would like to thank the
 undereducated rural poor, the struggling blue-collar
 workers in Middle America, and the God-fearing
 underpriviledged minorities who voted George W. Bush
@@ -31,7 +29,7 @@ against your own economic interest. For this, we
 humbly thank you."
 
 Added Rove: "You have acted beyond the call of
-dutyor, for that matter, good sense."
+duty, or, for that matter, good sense."
 
 According to Rove, the Republicans found strong
 support in non-urban areas populated by the people who
@@ -61,7 +59,7 @@ their primary reasons for voting Republican.
 Bush supporters vote in Kendall, FL.
 Above: Bush supporters vote in Kendall, FL.
 
-"Our society is falling apartour treasured values are
+"Our society is falling apart, our treasured values are
 under attack by terrorists," said Ellen Blaine of
 Givens, OH, a tiny rural farming community as likely
 to be attacked by terrorists as it is to be hit by a
