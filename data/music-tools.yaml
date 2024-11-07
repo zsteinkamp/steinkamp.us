@@ -117,9 +117,9 @@
   link: https://github.com/zsteinkamp/m4l-ChordRipper
   description: |
     Decompose chords across multiple tracks. Add the device to each track you
-    want to feed off the chord and set the desired voice/channel. Play a MIDI
+    want to feed off the chord and set the desired voice/group. Play a MIDI
     chord into any track containing this device, and its notes will be
-    distributed across the tracks sharing the same channel.
+    distributed across the tracks sharing the same group.
 
 - title: zs Faderboard3
   category: Instruments
