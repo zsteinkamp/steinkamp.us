@@ -135,6 +135,10 @@ const MusicToolsPage: React.FC<MusicToolsProps> = ({ data }) => {
       </p>
 
       <p>
+        Check out my <a target="zsmusic" href="https://www.youtube.com/playlist?list=PLqzTnRgmRId7rYvoVSoCvCWFgvfc8RcfW">YouTube playlist</a> for demos and tutorials centered around these devices.
+      </p>
+
+      <p>
         Download .zip files of the latest versions of my devices below, or visit each project&apos;s GitHub page for more details.
       </p>
 

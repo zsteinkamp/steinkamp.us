@@ -17,7 +17,7 @@
   image: https://github.com/zsteinkamp/m4l-Knobbler4/raw/main/images/external-with-hand.jpg
   link: https://github.com/zsteinkamp/m4l-Knobbler4
   description: |
-    This is a combination of Max For Live device and TouchOSC layout that provides an auto-labeling, auto-coloring, multitouch control surface for Ableton Live. Control the most important parameters in your Live Set with your fingers! Map a slider on your iPad easier than mapping a MIDI controller. Game changer.
+    This is a combination of Max For Live device and TouchOSC layout that provides a wireless, OSC-based, auto-labeling, auto-coloring, multitouch control surface for Ableton Live. Control the most important parameters in your Live Set with your fingers! Map a slider on your iPad easier than mapping a MIDI controller. Game changer.
 
 - title: SimulScrub
   category: Audio Effects
