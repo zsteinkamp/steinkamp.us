@@ -1,3 +1,10 @@
+- title: ScratchBacker
+  category: Instruments
+  image: https://github.com/zsteinkamp/m4l-ScratchBacker/raw/main/images/device.gif
+  link: https://github.com/zsteinkamp/m4l-ScratchBacker
+  description: |
+    This is a sample-playback device with a focus on scratching or turntablism. Define up to 12 scratch presets and trigger them with the keys C1-B1 while you use higher keys to trigger playing the sample.
+
 - title: Modulation Inertia
   category: Modulators
   image: https://github.com/zsteinkamp/m4l-Modulation-Inertia/raw/main/images/device.gif
