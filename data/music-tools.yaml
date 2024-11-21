@@ -99,6 +99,7 @@
   description: |
     NOT WORKING WITH LIVE 12 AT THE MOMENT :(
     Gives you a knob to control which track or chain is soloed in a group or rack. It makes some workflows in mastering or creating albums easier by letting you map a hardware knob to track selection.
+    NOT WORKING WITH LIVE 12 AT THE MOMENT :(
 
 - title: Len Stepper
   category: Note Effects
