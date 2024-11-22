@@ -32,7 +32,7 @@ function TableOfContents({
           return (
             <li
               key={heading.slug}
-              className={`pl-0.5 pb-1 ml-${Math.max(0, (parseInt(heading.level) - 2) * 2)}`}
+              className={`pl-0.5 pb-1 ml-${Math.max(0, (parseInt(heading.level) - 2) * 4)}`}
               style={{
                 listStyleType: activeId === heading.slug ? 'disc' : 'circle',
               }}
