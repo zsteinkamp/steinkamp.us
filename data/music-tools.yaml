@@ -1,3 +1,10 @@
+- title: MoireArp
+  category: Note Effects
+  image: https://github.com/zsteinkamp/m4l-MoireArp/raw/main/images/device.png
+  link: https://github.com/zsteinkamp/m4l-MoireArp
+  description: |
+    Listen to the numbers! MoireArp generates notes through layers of growing pattern lengths. [Video demo](https://www.youtube.com/watch?v=vrz0NxyW4qs)
+
 - title: ScratchBacker
   category: Instruments
   image: https://github.com/zsteinkamp/m4l-ScratchBacker/raw/main/images/device.gif
