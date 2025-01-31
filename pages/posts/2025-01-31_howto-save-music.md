@@ -10,7 +10,7 @@ excerpt: |
   tl;dr :: the Streamers (Spotify, Tidal, etc) do bizdev with Bandcamp to link up tracks in their streaming catalog with artists' Bandcamp catalogs. Streamers become a sales funnel to Bandcamp for these artists. Normal sales money relationship rules apply.
 ---
 
-tl;dr :: the Streamers (Spotify, Tidal, etc) do bizdev with Bandcamp to link up tracks in their streaming catalog with artists' Bandcamp catalogs. Streamers become a sales funnel to Bandcamp for these artists. Normal sales money relationship rules apply.
+tl;dr :: the Streamers (Spotify, Tidal, etc) do bizdev with Bandcamp to link up tracks in their streaming catalog with artists' Bandcamp catalogs. Streamers become a sales funnel to Bandcamp for these artists. Normal affiliate sales money relationship rules apply.
 
 These artists are not getting any more than money for a latte from the Streamers each month.
 
