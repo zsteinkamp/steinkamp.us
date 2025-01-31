@@ -20,7 +20,17 @@ I'm not saying that people can't make playlists and listen to whatever they want
 
 ## PHASE I
 
-For participating artists, prominently link to their Bandcamp home from their artist page. Link directly to identical tracks in Bandcamp from the "now playing" screen or in the flyout menu for each album/track ("Listen in Bandcamp"). These are verifiable/auditable leads.
+For participating artists, prominently link to their Bandcamp home from their artist page.
+
+![Artist Page](/images/2025-01-31-save_music/artist_clipping.png)
+
+Link directly to albums or tracks in Bandcamp from Album pages...
+
+![Album Page](/images/2025-01-31-save_music/album_fdw.png)
+
+...and in flyout menus for each album/track ("Buy on Bandcamp"). These are verifiable/auditable leads.
+
+![Song Flyout](/images/2025-01-31-save_music/track_flyout_ebo.png)
 
 > NOTE: Utilizing this navigation must be a seamless one in terms of the listening / audio continuity experience. A perfect handoff is mandatory. No gaps or pops, navigate directly to that track at that mm:ss moment in Bandcamp's app, playing.
 
