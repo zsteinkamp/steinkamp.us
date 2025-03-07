@@ -7,7 +7,8 @@ const SiteHeader = ({ className = '' }) => {
   const links = [
     { label: 'Posts', href: '/' },
     { label: 'Plugins', href: 'https://plugins.steinkamp.us/' },
-    { label: 'Photos', href: 'https://photos.steinkamp.us/', target: '_blank' },
+    { label: 'Photos', href: 'https://photos.steinkamp.us/' },
+    { label: 'Videos', href: 'https://www.youtube.com/@zsteinkamp' },
     { label: 'Music', href: '/music' },
     { label: 'Resume', href: '/resume' },
     { label: 'About', href: '/about' },
