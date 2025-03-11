@@ -16,9 +16,22 @@ Scotts Valley, California
 
 I have been building web applications since 1995, and at mega-scale starting in 1999. My interest and experience through the years has been very broad -- frontend, backend, data infrastructure, networking, security, devops, visual design, usability, infrastructure, people management, hiring, and work flow optimization.
 
-In May 2024, I left the full-time world to focus on family, friends, and positive community impact.
+In May 2024, I left the full-time world to focus on family, friends, and to
+develop and distribute my own sofware focused on music production.
 
 ## Experience
+
+#### December 2024 - Present {% .job-date %}
+
+### Self-Employed
+
+#### Independent Software Developer, Music Tools
+
+- Created a native iPad app with deep integration with Ableton Live.
+[Knobbler](https://plugins.steinkamp.us/m4l-Knobbler4) gives you a
+hyper-efficient way to control device parameters and navigate your Live Set.
+- Conceived, developed, and released more than [two dozen free and open source
+Max for Live devices](https://plugins.steinkamp.us/) to give musicians new tools to spark their creativity.
 
 #### March 2023 - May 2024 {% .job-date %}
 
