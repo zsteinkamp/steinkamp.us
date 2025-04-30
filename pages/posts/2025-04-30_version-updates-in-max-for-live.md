@@ -36,7 +36,7 @@ I use GitHub's Releases feature to manage device releases. When creating a relea
 
 Now that the device knows its own version, we need a mechanism for it to check to see if there is a newer version available. This requires an Internet connection to a service that knows the latest version number.
 
-I have dozens of Max for Live devices that I distribute this way, and I wanted a single place for people to be able to get information about them and download them. So I built plugins.steinkamp.us. It uses GitHub as its source of truth for documentation and releases, so just by creating a new release or changing some documentation in GitHub, plugins.steinkamp.us will be updated. You can [use or fork the GitHub repo](https://github.com/zsteinkamp/plugins) for your own purposes.
+I have dozens of Max for Live devices that I distribute this way, and I wanted a single place for people to be able to get information about them and download them. So I built [plugins.steinkamp.us](https://plugins.steinkamp.us/). It uses GitHub as its source of truth for documentation and releases, so just by creating a new release or changing some documentation in GitHub, plugins.steinkamp.us will be updated. You can [use or fork the GitHub repo](https://github.com/zsteinkamp/plugins) for your own purposes.
 
 One feature that I built into plugins.steinkamp.us to support version checks is a URL that returns the latest release number for a given plugin. For example:
 
