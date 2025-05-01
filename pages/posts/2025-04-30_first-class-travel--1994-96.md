@@ -129,7 +129,7 @@ I let Dana know when my last day was. He was happy for me.
 
 The next day, Dave's son Steve called me into his office (Steve took over when Dave died). He had a letter printed out. It was a counter-offer.
 
-They offered to pay off my car (about $12K) and pay my $75K a year to stay. I think they were afraid that David and Ivy wouldn't be able to pick up my slack. I absolutely knew that they could, and would in fact make things a lot better. It was a huge amount of money to me at the time, more than double the hourly rate I was making, but I also felt confident that I'd be able to make more than that soon after finishing college.
+They offered to pay off my car (about $12K) and pay me $75K a year to stay. I think they were afraid that David and Ivy wouldn't be able to pick up my slack. I absolutely knew that they could, and would in fact make things a lot better. It was a huge amount of money to me at the time, more than double the hourly rate I was making, but I also felt confident that I'd be able to make more than that soon after finishing college.
 
 I didn't think about it for more than two seconds. I needed to finish college. And I certainly didn't want to make First Class Travel my career.
 
