@@ -25,7 +25,7 @@ I got in touch with the person doing the hiring. Dana McCrae. A nice, quick witt
 
 The company was a corporate travel agency. Basically an outsourced travel desk for local businesses. This was in the days before Expedia and e-tickets, so along with travel agents we had a fleet of couriers to deliver paper tickets to our corporate customers. We also had a vacations department, which was a perk to the corporate customers -- they could use our services to plan their personal vacations. You really needed a travel agent to help select hotels and activities back then, since there wasn't an Internet to do research on.
 
-This was a great job. We were in a very nice building next to John Wayne Airport, the US Bank Building, up on the 8th floor. The building was all marble, with a huge foyer and an attached parking garage. We had to dress up in slacks, shirt, and tie to work there. I'd get a muffin most mornings from the beautiful middle eastern gal working the little cafe on the bottom floor. I was 18.
+This was a great job. We were in a very nice building next to John Wayne Airport, the US Bank Building, up on the 8th floor. The building was all marble, with a huge foyer and an attached parking garage. We had to dress up in slacks, shirt, and tie to work there. I'd get a muffin most mornings from the cute middle eastern gal working the little cafe on the bottom floor. I was 18.
 
 ## The Job
 
@@ -99,7 +99,7 @@ Mark was the main accountant in the office. He was a mostly nice guy, but ended 
 
 ## Angela
 
-Angela worked in Accounting with Mark. She was a beautiful and nice young lady and great at what she did. She had a twin sister who would come to the office semi-regularly. It was kind of a trip to see twin adults. She took over accounting when Mark was fired.
+Angela worked in Accounting with Mark. She was a lovely young lady and great at what she did. She had a twin sister who would come to the office semi-regularly. It was kind of a trip to see twin adults. She took over accounting when Mark was fired.
 
 ## Edwina
 

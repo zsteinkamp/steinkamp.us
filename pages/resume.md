@@ -145,9 +145,7 @@ Max for Live devices](https://plugins.steinkamp.us/) to give musicians new tools
 - Conceived and implemented a novel in-browser solution to display and manipulate 16 bits-per-pixel monochrome images in ways familiar to radiologists.
 - Involved in choosing datacenters, selecting hardware solutions, and installing hardware in datacenters.
 - Designed and implemented system/application monitoring and product analytics solutions.
-- Co-architected and implemented a scalable (hundreds of TB) yet inexpensive storage infrastructure with block-level deduplication and encryption.
-- Co-architected and implemented inter-datacenter file and database replication
-  with block-level data deduplication.
+- Co-architected and implemented a scalable (hundreds of TB) yet inexpensive storage infrastructure with inter-datacenter block-level deduplication and encryption.
 - Responsible for application security design and ongoing security testing.
   {% /avoidbreak %}
 
