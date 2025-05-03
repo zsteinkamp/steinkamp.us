@@ -75,7 +75,7 @@ Um, ok I guess? This was news to me.
 
 What?!?!!?! I had no idea what to say. Really. I was speechless and just walked out.
 
-Ivy was a lovely young Indonesian woman who I enjoyed working with and who was very good at what she did.
+Ivy was a lovely Indonesian woman who I enjoyed working with.
 
 ## Margo
 
@@ -99,7 +99,7 @@ Mark was the main accountant in the office. He was a mostly nice guy, but ended 
 
 ## Angela
 
-Angela worked in Accounting with Mark. She was a lovely young lady and great at what she did. She had a twin sister who would come to the office semi-regularly. It was kind of a trip to see twin adults. She took over accounting when Mark was fired.
+Angela worked in Accounting with Mark. She had a twin sister who would come to the office semi-regularly. It was kind of a trip to see twin adults. She took over accounting when Mark was fired. I felt like Angela was a very trustworthy choice.
 
 ## Edwina
 
@@ -113,7 +113,7 @@ Sean was also in the accounting department. He was a Vietnamese guy, and we got 
 
 I remember one pho place we went to, we opened the door and there were all these plants hanging from the ceiling. The plants were all at face-level for me. As soon as I walked in, everyone turned to look. I had to crouch down on the way to the table. I would let Sean order for me, and at this place he ordered cow blood pho. Cubes of congealed blood were in the soup. It was OK ... I wouldn't order it again. Another place he told me in his Vietnamese accent that he ordered us "Cow dick soup." I wasn't afraid!
 
-I later found out that Sean was buying computers with agency customer credit cards and then selling the computers in the classifieds in the newspaper.
+I later found out that Sean was buying computers with agency customer credit cards and then selling the computers in the classifieds in the newspaper. :facepalm:
 
 ## David
 
