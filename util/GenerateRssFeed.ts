@@ -5,15 +5,15 @@ import { PostsListType } from './getPosts'
 export default async function generateRssFeed(
   posts: PostsListType
 ): Promise<void> {
-  const site_url = 'https://steinkamp.us/'
+  const site_url = 'https://steinkamp.us'
 
   //console.log('GENERATE RSS')
 
   const feedOptions = {
     title: 'steinkamp.us',
     description: "Zack Steinkamp's website posts.",
-    id: site_url,
-    link: site_url,
+    id: site_url + '/',
+    link: site_url + '/',
     image: `${site_url}/logo.png`,
     favicon: `${site_url}/favicon.png`,
     copyright: `All rights reserved ${new Date().getFullYear()}`,
@@ -34,8 +34,8 @@ export default async function generateRssFeed(
     }
     feed.addItem({
       title: post.title,
-      id: `${site_url}/${post.slug}`,
-      link: `${site_url}/${post.slug}`,
+      id: `${site_url}${post.slug}`,
+      link: `${site_url}${post.slug}`,
       description: post.excerpt,
       date: new Date(post.date),
       image: image ? image.replaceAll('&', '&amp;') : undefined,
