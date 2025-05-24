@@ -34,8 +34,8 @@ export default async function generateRssFeed(
     }
     feed.addItem({
       title: post.title,
-      id: `${site_url}/blog/${post.slug}`,
-      link: `${site_url}/blog/${post.slug}`,
+      id: `${site_url}/${post.slug}`,
+      link: `${site_url}/${post.slug}`,
       description: post.excerpt,
       date: new Date(post.date),
       image: image ? image.replaceAll('&', '&amp;') : undefined,
