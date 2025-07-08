@@ -21,17 +21,25 @@ develop and distribute my own sofware focused on music production.
 
 ## Experience
 
+#### May 2025 - Present {% .job-date %}
+
+### VIP Volunteer, Santa Cruz County Parks {% .job-company %}
+
+#### Pace Trail Construction, Quail Hollow Ranch
+
+- Participated in, then led dozens of days building brand new trails in Quail Hollow Ranch. The Pace Trail is two loops totaling 4 miles in scenic and rugged terrain. Learning the art and science of trail making has given me a much deeper appreciation for every trail. Helped to publicize volunteer days, tracked daily progress, and documented additional County support needs, e.g. areas that need attention from a chainsaw crew.
+
 #### December 2024 - Present {% .job-date %}
 
-### Self-Employed
+### Self-Employed {% .job-company %}
 
 #### Independent Software Developer, Music Tools
 
 - Created a native iPad app with deep integration with Ableton Live.
-[Knobbler](https://plugins.steinkamp.us/m4l-Knobbler4) gives you a
-hyper-efficient way to control device parameters and navigate your Live Set.
+  [Knobbler](https://plugins.steinkamp.us/m4l-Knobbler4) gives you a
+  hyper-efficient way to control device parameters and navigate your Live Set.
 - Conceived, developed, and released more than [two dozen free and open source
-Max for Live devices](https://plugins.steinkamp.us/) to give musicians new tools to spark their creativity.
+  Max for Live devices](https://plugins.steinkamp.us/) to give musicians new tools to spark their creativity.
 
 #### March 2023 - May 2024 {% .job-date %}
 
