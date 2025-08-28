@@ -51,7 +51,7 @@ I saw Dana 15 years later after he had a stroke and open heart surgery. It was n
 
 ## The Sedgwicks
 
-The family that ran First Class Travel was First Class Dysfunctional. The patriarch, Dave, was a jolly old racist with a cauliflower nose. His wife was an imposing woman, in stature and presence. She ruled the roost. They had an old southern way about them and weren't afraid to argue loudly in the office. Dave loved to tell me stories of their prior scam businesses. Their son worked there too. Looking back, I'm pretty sure he was on coke every day. He also loved to tell me stories of his prior scams, mostly selling stolen speakers out of the back of his van in Huntington Beach in the 1970s.
+The family that ran First Class Travel was First Class Dysfunctional. The patriarch, Dave, was a jolly old racist with a cauliflower nose. His wife was an imposing woman, in stature and presence. She ruled the roost. They had an old southern way about them and weren't afraid to argue loudly in the office. Dave loved to tell me stories of their prior scam businesses. Their son worked there too. He loved to tell me stories of his prior scams, mostly selling stolen speakers out of the back of his van in Huntington Beach in the 1970s.
 
 Dave loved to tell the story of trying to fix a telephone issue by climbing up in the ceiling of the office, but grabbing the wrong wires and getting a mighty electric shock. "I was never the same after that." Visions of him with smoking hair.
 
@@ -79,7 +79,7 @@ Ivy was a lovely Indonesian woman who I enjoyed working with.
 
 ## Margo
 
-The business was growing when I joined, and about a year into it, Dana hired a woman named Margo to be my boss. She was good with the airline systems, and a whiz especially on the business side. She was always really nice to me, but seemed sad. She outwardly pined for the days before an autoimmune disorder changed her body shape. I think she was lonely. I hope I was wrong.
+The business was growing when I joined, and about a year into it, Dana hired a woman named Margo to be my boss. She was good with the airline systems, and a whiz especially on the business side.
 
 ## Salt Lake City
 
@@ -103,17 +103,15 @@ Angela worked in Accounting with Mark. She had a twin sister who would come to t
 
 ## Edwina
 
-Edwina was hired to help out in accounting. She was middle aged, petite and full of energy. She had hair like Pat Benatar. I noticed that if I was working in the computer room, she would often come in there looking for something or putting something away. She eventually started getting more bold with her moves, and eventually things got a little physical. Not in any kind of serious way, but it was definitely titillating (lol I can't believe I'm writing that). I enjoyed the attention, and I suppose she did too. I wasn't attached, and I'm not sure about her situation.
+Edwina was hired to help out in accounting. She was middle aged, petite and full of energy. She had hair like Pat Benatar. I noticed that if I was working in the computer room, she would often come in there looking for something or putting something away. She eventually started getting more bold with her moves, and eventually things got a little physical. Not in any kind of serious way, but it was definitely thrilling at times. I enjoyed the attention, and I suppose she did too. I wasn't attached, and I'm not sure about her situation.
 
 ## Sean
 
-Sean was also in the accounting department. He was a Vietnamese guy, and we got along well. Sean is the person who introduced me to Pho. We would get in his 85 Celica Supra and drive to Westminster ("Little Saigon" is the sign on the highway offramp).
+Sean was also in the accounting department. He was a Vietnamese guy, and we got along well. Sean is the person who introduced me to Pho. We would get in his 85 Celica Supra and drive to Westminster ("Little Saigon" is the sign on the highway offramp) for pho-ventures.
 
 ![1985 Celica Supra](/images/first-class/supra.jpg)
 
 I remember one pho place we went to, we opened the door and there were all these plants hanging from the ceiling. The plants were all at face-level for me. As soon as I walked in, everyone turned to look. I had to crouch down on the way to the table. I would let Sean order for me, and at this place he ordered cow blood pho. Cubes of congealed blood were in the soup. It was OK ... I wouldn't order it again. Another place he told me in his Vietnamese accent that he ordered us "Cow dick soup." I wasn't afraid!
-
-I later found out that Sean was buying computers with agency customer credit cards and then selling the computers in the classifieds in the newspaper. :facepalm:
 
 ## David
 
