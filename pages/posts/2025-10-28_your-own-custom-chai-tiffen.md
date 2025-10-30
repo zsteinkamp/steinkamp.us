@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Your Own Custom Chai Tiffen
+title: Your Own Custom Chai Tiffin
 date: '2025-10-28 12:00:00'
 thumbnail: /images/chai/00_all.jpg
 tags:
