@@ -104,3 +104,11 @@ Here is my typical recipe:
     ![Done](/images/chai/12_done.jpg)
 
 15. Pour into your mug through a strainer and enjoy!
+
+If you're making more than one portion, then the formula is (with N being the number of portions):
+
+- 3 + 3N ounces water
+- 8N ounces milk
+- N times spices / sugar above
+
+In other words, you are boiling off 3oz of water when cooking it. Each portion is 11oz of liquid.
