@@ -63,7 +63,19 @@ If you want to order all of these things at once, here's an Amazon List with eve
 
 ## My Recipe
 
-Here is my typical recipe:
+### Ingredients
+
+- 6 oz water
+- 8 oz milk / oatmilk
+- 1 tsp black tea (decaf is an option!)
+- 1 tsp sugar
+- 1 tsp dried grated ginger
+- 1/4 tsp coarse cinnamon
+- 1/8 tsp cardamom seeds
+- 1/8 tsp coarse ground black pepper
+- 3-5 whole cloves
+
+### Process
 
 1. Put your chosen small pot on a scale and zero it out.
 
