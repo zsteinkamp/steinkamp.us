@@ -20,11 +20,20 @@ In May 2024, I stepped away from full-time work after a career spanning 30 years
 
 #### May 2025 - Present {% .job-date %}
 
-### VIP Volunteer, Santa Cruz County Parks {% .job-company %}
+### Santa Cruz County Parks {% .job-company %}
 
-#### Pace Trail Construction, Quail Hollow Ranch
+#### VIP Volunteer, Pace Trail Construction, Quail Hollow Ranch
 
-- Participated in, then led dozens of days [building brand new trails](https://www.youtube.com/watch?v=haxiDoz3uSI&list=PLqzTnRgmRId5RpgQCsbcq-fqo0P-KjGIc) in Quail Hollow Ranch. The Pace Trail is two loops totaling 4 miles in scenic and rugged terrain. Learning the [art and science of trail making](https://www.natureshape.com/pubs/nstbd.html) has given me a much deeper appreciation for every trail. Helped to publicize volunteer days, tracked daily progress, and documented additional County support needs, e.g. areas that need attention from a chainsaw crew.
+- Participated in, then led 50+ days building brand new trails in [Quail Hollow Ranch](https://parks.santacruzcountyca.gov/Home/ExploreOurParksBeaches/AllCountyParks/QuailHollowRanchCountyPark.aspx). The Pace Trail is two loops totaling 4 miles in scenic and rugged terrain. Learning the [art and science of trail making](https://www.natureshape.com/pubs/nstbd.html) has given me a much deeper appreciation for every trail.
+- Helped to publicize volunteer days, [tracked daily progress](https://www.youtube.com/watch?v=haxiDoz3uSI&list=PLqzTnRgmRId5RpgQCsbcq-fqo0P-KjGIc), and documented additional County support needs, e.g. areas that need attention from a chainsaw crew.
+#### June 2025 - Present {% .job-date %}
+
+### Santa Cruz Mountains Trail Stewardship {% .job-company %}
+
+#### Volunteer
+
+- Participated in [Dig Days](https://act.santacruztrails.org/dig-days/) building and maintaining trails throughout the Santa Cruz Mountains.
+- Completed the Trail Crew Leader training program.
 
 #### December 2024 - Present {% .job-date %}
 
