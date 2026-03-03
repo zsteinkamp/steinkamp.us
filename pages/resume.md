@@ -14,10 +14,7 @@ Scotts Valley, California
 
 ## About
 
-I have been building web applications since 1995, and at mega-scale starting in 1999. My interest and experience through the years has been very broad -- frontend, backend, data infrastructure, networking, security, devops, visual design, usability, infrastructure, people management, hiring, and work flow optimization.
-
-In May 2024, I left the full-time world to focus on family, friends, and to
-develop and distribute my own sofware focused on music production.
+In May 2024, I stepped away from full-time work after a career spanning 30 years of riding a fortunate wave of technology. These days I regularly volunteer with Santa Cruz County Parks and other organizations [building and maintaining trails in the area](https://www.youtube.com/watch?v=haxiDoz3uSI&list=PLqzTnRgmRId5RpgQCsbcq-fqo0P-KjGIc). I also develop and distribute [free, open source music production software](https://plugins.steinkamp.us/). My professional experience has been very broad — frontend, backend, data infrastructure, networking, security, devops, visual design, usability, infrastructure, people management, hiring, work flow optimization, full bench cuts, and shovel selection.
 
 ## Experience
 
@@ -27,7 +24,7 @@ develop and distribute my own sofware focused on music production.
 
 #### Pace Trail Construction, Quail Hollow Ranch
 
-- Participated in, then led dozens of days building brand new trails in Quail Hollow Ranch. The Pace Trail is two loops totaling 4 miles in scenic and rugged terrain. Learning the art and science of trail making has given me a much deeper appreciation for every trail. Helped to publicize volunteer days, tracked daily progress, and documented additional County support needs, e.g. areas that need attention from a chainsaw crew.
+- Participated in, then led dozens of days [building brand new trails](https://www.youtube.com/watch?v=haxiDoz3uSI&list=PLqzTnRgmRId5RpgQCsbcq-fqo0P-KjGIc) in Quail Hollow Ranch. The Pace Trail is two loops totaling 4 miles in scenic and rugged terrain. Learning the [art and science of trail making](https://www.natureshape.com/pubs/nstbd.html) has given me a much deeper appreciation for every trail. Helped to publicize volunteer days, tracked daily progress, and documented additional County support needs, e.g. areas that need attention from a chainsaw crew.
 
 #### December 2024 - Present {% .job-date %}
 
@@ -229,11 +226,12 @@ develop and distribute my own sofware focused on music production.
 
 ## Interests
 
+- Trail Building and Maintenance
 - Music making ([Spotify](https://open.spotify.com/artist/4zlbGPYkjV7EpxXHyfZNAh) / [Apple](https://itunes.apple.com/us/artist/zack-steinkamp/id1217691470))
 - [Cycling and Trail running](https://esstraba.steinkamp.us/).
 - Music [tool making](/music-tools/)
-- Photography
-- Racing / Performance driving instruction
+- [Photography](https://photos.steinkamp.us/)
+- [Racing / Performance driving instruction](https://www.youtube.com/watch?v=i_6mk5otK9c&list=PLqzTnRgmRId7Xx-r3Kyqjb3C5dm2CJioz)
 - Woodworking
 - [Programming](/posts/2021-05-22-computer-history)
   {% /avoidbreak %}
