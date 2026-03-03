@@ -170,6 +170,9 @@ html {
 img[src*='#right'] {
   @apply float-right ml-8;
 }
+img[src*='#half'] {
+  width: 50%;
+}
 img[src*='#round'] {
   @apply rounded-md;
 }
