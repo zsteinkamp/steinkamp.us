@@ -32,6 +32,4 @@ post: ## Create a new post
 	bin/new-post
 
 deploy: ## Deploy to production server
-	@if [ -n "$$(git status --porcelain)" ]; then echo "Error: uncommitted changes"; exit 1; fi
-	@if [ -n "$$(git log origin/main..HEAD)" ]; then echo "Error: unpushed commits"; exit 1; fi
 	ssh linux "cd ~/dev/steinkamp.us && git pull && make"
