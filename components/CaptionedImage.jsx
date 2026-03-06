@@ -1,4 +1,7 @@
 const CaptionedImage = ({ src, alt, caption, className = '' }) => {
+  if (!caption) {
+    caption = alt
+  }
   return (
     <figure className={`mb-8 ${className}`}>
       <a href={src}>

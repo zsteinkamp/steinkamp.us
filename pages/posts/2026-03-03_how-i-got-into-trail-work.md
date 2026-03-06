@@ -18,11 +18,11 @@ My home park is Glenwood Preserve. It's a great spot just a few minutes from hom
 
 In early 2025, they advertised a French Broom pull event near the Highway 17 wildlife undercrossing -- a passage built under the highway so that animals can safely cross between habitats. I had heard about it but never seen it up close. It was not far from home and looked interesting, so I signed up. I had no idea what French Broom looked like, but I was excited to learn and help and see the undercrossing from below.
 
-![Volunteers among the redwoods near the Highway 17 wildlife undercrossing.](/images/trail-work/undercrossing-redwoods.jpg)
+{% captionedimage src="/images/trail-work/undercrossing-redwoods.jpg" alt="Volunteers among the redwoods near the Highway 17 wildlife undercrossing." /%}
 
 We spent the morning pulling broom, and afterward got a tour of the undercrossing itself. Walking under Highway 17 while cars roared overhead was surreal. You could see the animal tracks in the soil -- evidence that the crossing is doing its job. There are a dozen wildlife cameras under there too, and the Land Trust has [posted some videos](https://youtu.be/8y4ikULPXj0?si=Txu_YpFousXwuj0J&t=152) about it.
 
-![The group at the Highway 17 wildlife undercrossing.](/images/trail-work/undercrossing.jpg)
+{% captionedimage src="/images/trail-work/undercrossing.jpg" alt="The group at the Highway 17 wildlife undercrossing." /%}
 
 ## The Marywood Connection
 
@@ -38,11 +38,11 @@ This is where I first met Jeff and learned about the Pace project -- a plan to b
 
 Our group of 10 or so went on familiar trails up to the top of the ridge overlooking the park, then we took a secret turn and hiked down a secret path to a secret place with a ton of French Broom. Pulling broom was step one before the work pivoted to trails.
 
-![The broom pull crew at Quail Hollow Ranch.](/images/trail-work/quail-hollow-group.jpg)
+{% captionedimage src="/images/trail-work/quail-hollow-group.jpg" alt="The broom pull crew at Quail Hollow Ranch." /%}
 
 We pulled a huge amount of broom that day. The pile we made was enormous, and it's been interesting to watch it slowly decompose over the almost-year since. A visible marker of that day and a reminder that the work continues.
 
-![The crew in front of the broom pile at Quail Hollow.](/images/trail-work/quail-hollow-broom-pile.jpg)
+{% captionedimage src="/images/trail-work/quail-hollow-broom-pile.jpg" alt="The crew in front of the broom pile at Quail Hollow." /%}
 
 That broom pull was just the beginning.
 
@@ -83,13 +83,13 @@ It's been a pleasure getting to know these guys, along with Jesse the Parks Supe
 
 They were memorable days when we completed each of the two one-mile loops.
 
-![The crew at the completion of the first loop.](/images/trail-work/1stloop-crew.jpg)
+{% captionedimage src="/images/trail-work/1stloop-crew.jpg" alt="Derek (left), Mike (right) and other volunteers (middle)" /%}
 
-![Opening the champagne with a hoe.](/images/trail-work/1stloop-zack.jpg)
+{% captionedimage src="/images/trail-work/1stloop-zack.jpg" alt="Opening the Martinelli's with a Rogue Hoe." /%}
 
-![The stake marking the end of the second loop.](/images/trail-work/2ndloop-stake.jpg)
+{% captionedimage src="/images/trail-work/2ndloop-stake.jpg" alt="The stake marking the end of the second loop." /%}
 
-![Celebrating the completion of the second loop.](/images/trail-work/2ndloop-crew.jpg)
+{% captionedimage src="/images/trail-work/2ndloop-crew.jpg" alt="Celebrating the completion of the second loop." /%}
 
 ## The Access Trail
 
@@ -101,7 +101,7 @@ I kept the [SCMTS](https://www.santacruztrails.org/) events on my radar, since t
 
 SCMTS advertised a Trail Crew Leader training program, which caught my eye. Endless thanks to Jenn for changing up our Seattle / Scotts Valley schedule to allow me to do the in-person parts of the training. She's the one.
 
-![SCMTS Trail Crew Leader training.](/images/trail-work/scmts-training.jpg)
+{% captionedimage src="/images/trail-work/scmts-training.jpg" alt="SCMTS Trail Crew Leader training." /%}
 
 ## Natural Surface Trails by Design
 
