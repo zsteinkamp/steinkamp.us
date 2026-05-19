@@ -12,9 +12,9 @@ excerpt: |
   A puzzling benchmark led me down a rabbit hole into how Max stores strings, why my device was slowly poisoning the Max environment, and what I learned migrating 5,000 lines of TypeScript from [js] to [v8].
 ---
 
-[Knobbler](https://plugins.steinkamp.us/knobbler) is the Max for Live device I've been maintaining for several years. It pairs with the Knobbler companion app on iPad, iPhone, or Android to turn the touchscreen into an auto-labeling, auto-coloring, multitouch control surface for Ableton Live. Under the hood there's about 5,000 lines of TypeScript that compiles to JavaScript and runs inside Max's `[js]` JavaScript engine. It sends and receives a fair amount of network traffic — meter levels alone can update 33 times a second per visible track.
+[Knobbler](https://plugins.steinkamp.us/knobbler) is the Max for Live device I've been maintaining for several years. It pairs with the Knobbler companion app on iPad, iPhone, or Android to turn the touchscreen into an auto-labeling, auto-coloring, multitouch control surface for Ableton Live. Under the hood there's about 5,000 lines of TypeScript that compiles to JavaScript and runs inside Max's `[js]` JavaScript engine. It sends and receives a fair amount of network traffic — meter levels alone can update 30 times a second per visible track.
 
-{% captionedimage src="/images/2026-05-15-knobbler/knobbler-mixer.jpg" alt="The Knobbler iPad app showing a colorful multi-track mixer with live audio meters next to each fader" caption="The Knobbler mixer on iPad. Every one of those animated meter bars is fresh data flying across the network 33 times a second." /%}
+{% captionedimage src="/images/2026-05-15-knobbler/knobbler-mixer.jpg" alt="The Knobbler iPad app showing a colorful multi-track mixer with live audio meters next to each fader" caption="The Knobbler mixer on iPad. Every one of those animated meter bars is fresh data flying across the network 30 times a second." /%}
 
 Performance has always mattered. I'd done a round of benchmarking earlier this year comparing Max's older `[js]` engine to the newer `[v8]` engine, which uses Google's V8 (the same JavaScript engine that runs in Chrome and Node.js). The results were puzzling. `[v8]` came out 3-4x slower than `[js]` on basically every operation that touched the LiveAPI or the outlet bridge. The only thing it was faster at was pure JavaScript computation, where its modern JIT compiler ate `[js]`'s lunch.
 
@@ -24,9 +24,11 @@ I tabled the question and shipped the benchmarks as-is. The optimistic note in m
 
 ## The benchmark that made no sense
 
-Months later, I came back to it. I wanted to revisit the dream of moving to v8 for the modern JS features and better garbage collection. I emailed [Joshua Kit Clayton](https://cycling74.com/about), who works on JavaScript at Cycling '74 (the makers of Max), with the harness code and asked what was going on.
+Months later, I came back to it. I wanted to revisit the dream of moving to v8 for the modern JS features and better garbage collection. I floated the puzzle past [Philip Meyer](https://meyer-devices.com/), an absolute _ace_ Max and M4L developer. He was as surprised as me and said: Joshua needs to see this. I sat on it for a while, then was on a hike with David Zicarelli (who has has a little something to do with Max ;) and mentioned the performance surprise. He said "oh Joshua would be very interested in this!" So a couple weeks later I finally worked through my to-do list and emailed [Joshua Kit Clayton](https://cycling74.com/about), who works on JavaScript at Cycling '74 (the makers of Max), with the harness code and asked what he thought was going on.
 
 He came back within a day. He'd run the benchmark himself, in the opposite order — `[v8]` first, then `[js]`. The results flipped. `[v8]` was now *2x faster* than `[js]`, not 3-4x slower. The *only* difference was which engine ran first.
+
+_What?!?!?!_
 
 Then he explained why. My benchmark was specifically polluting Max's *global symbol table*. And this happens regardless of which JS engine you use — it's a Max-level thing, not a v8-vs-js thing. Whichever engine ran second was paying the inflated cost of looking up symbols in a hash table that the first run had bloated.
 
@@ -50,16 +52,9 @@ The hash function Max uses is computed from the first 16 characters of the strin
 
 And that's exactly the shape of the JSON payloads my device was sending: a fixed structural prefix (object braces, the same first key name, etc.) followed by varying numeric content well past the 16th character. Every payload hashed to the same bucket and that single bucket grew by tens of thousands of entries per hour — turning a constant-time hash lookup into a linear scan over a list that never stopped growing.
 
-And what was my Knobbler doing? Sending things like this every 30ms:
+The net result? The Max environment got slower and slower the longer Knobbler ran.
 
-```js
-outlet(0, ['/mixer/meters', numArrToJson(meterBuffer)])
-// produces: ['/mixer/meters', '[0.12,0.45,0,0.33,0.81,...]']
-```
-
-About 33 fresh JSON strings per second per device, all with the same prefix, all permanently bloating Max's global symbol table. About 120,000 new dead symbols per hour of meter use. The Max environment got slower and slower the longer Knobbler ran.
-
-Oh. My. Goodness.
+Not good!
 
 ## Testing what actually bloats
 
@@ -161,6 +156,6 @@ Going in, I thought I was investigating a minor performance question. Coming out
 - The newer `[v8]` engine isn't a drop-in replacement for `[js]`. It's stricter about types, dispatches messages slightly differently, reserves some message names, and exposes behavior that `[js]` was quietly papering over.
 - Reaching out to experts is almost always worth it. Joshua's two-sentence email saved me weeks of guessing. (See also: the [trail work post](/posts/2026-03-03_how-i-got-into-trail-work) and Troy.)
 
-A friend at Cycling '74. A test harness I can run again any time. A symbol-safe outbound OSC pipeline I can trust. And the warm feeling of finally understanding *why* my benchmarks were lying to me a year ago.
+A new friend or two at Cycling '74. A test harness I can run again any time. A symbol-safe outbound OSC pipeline I can trust. And the warm feeling of finally understanding *why* my benchmarks were lying to me a year ago.
 
 Not bad for a debugging session that started with "wait, why is `[v8]` slower?"
