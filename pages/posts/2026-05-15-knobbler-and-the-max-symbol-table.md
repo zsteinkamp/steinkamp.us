@@ -14,6 +14,8 @@ excerpt: |
 
 [Knobbler](https://plugins.steinkamp.us/knobbler) is the Max for Live device I've been maintaining for several years. It pairs with the Knobbler companion app on iPad, iPhone, or Android to turn the touchscreen into an auto-labeling, auto-coloring, multitouch control surface for Ableton Live. Under the hood there's about 5,000 lines of TypeScript that compiles to JavaScript and runs inside Max's `[js]` JavaScript engine. It sends and receives a fair amount of network traffic — meter levels alone can update 33 times a second per visible track.
 
+{% captionedimage src="/images/2026-05-15-knobbler/knobbler-mixer.jpg" alt="The Knobbler iPad app showing a colorful multi-track mixer with live audio meters next to each fader" caption="The Knobbler mixer on iPad. Every one of those animated meter bars is fresh data flying across the network 33 times a second." /%}
+
 Performance has always mattered. I'd done a round of benchmarking earlier this year comparing Max's older `[js]` engine to the newer `[v8]` engine, which uses Google's V8 (the same JavaScript engine that runs in Chrome and Node.js). The results were puzzling. `[v8]` came out 3-4x slower than `[js]` on basically every operation that touched the LiveAPI or the outlet bridge. The only thing it was faster at was pure JavaScript computation, where its modern JIT compiler ate `[js]`'s lunch.
 
 That didn't sit right. V8 is famously fast. Why would the actual hot path of a Max for Live device get *slower*?
