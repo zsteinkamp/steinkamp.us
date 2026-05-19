@@ -12,7 +12,7 @@ excerpt: |
   A puzzling benchmark led me down a rabbit hole into how Max stores strings, why my device was slowly poisoning the Max environment, and what I learned migrating 5,000 lines of TypeScript from [js] to [v8].
 ---
 
-Knobbler is the Max for Live device I've been maintaining for several years. It pairs with the Knobbler companion app on iPad, iPhone, or Android to turn the touchscreen into an auto-labeling, auto-coloring, multitouch control surface for Ableton Live. Under the hood there's about 5,000 lines of TypeScript that compiles to JavaScript and runs inside Max's `[js]` JavaScript engine. It sends and receives a fair amount of network traffic — meter levels alone can update 33 times a second per visible track.
+[Knobbler](https://plugins.steinkamp.us/knobbler) is the Max for Live device I've been maintaining for several years. It pairs with the Knobbler companion app on iPad, iPhone, or Android to turn the touchscreen into an auto-labeling, auto-coloring, multitouch control surface for Ableton Live. Under the hood there's about 5,000 lines of TypeScript that compiles to JavaScript and runs inside Max's `[js]` JavaScript engine. It sends and receives a fair amount of network traffic — meter levels alone can update 33 times a second per visible track.
 
 Performance has always mattered. I'd done a round of benchmarking earlier this year comparing Max's older `[js]` engine to the newer `[v8]` engine, which uses Google's V8 (the same JavaScript engine that runs in Chrome and Node.js). The results were puzzling. `[v8]` came out 3-4x slower than `[js]` on basically every operation that touched the LiveAPI or the outlet bridge. The only thing it was faster at was pure JavaScript computation, where its modern JIT compiler ate `[js]`'s lunch.
 
@@ -36,7 +36,7 @@ Max has a global hash table of interned strings called the **symbol table**. Eve
 outlet(0, ['/mixer/meters', '[0.12,0.45,...]'])
 ```
 
-…the strings `/mixer/meters` and `[0.12,0.45,...]` get *interned* — converted into permanent entries in this hash table — before they can be sent as Max atoms. The table is process-wide, never garbage collected, and lives for the life of Max.
+…the strings `/mixer/meters` and `[0.12,0.45,...]` get *interned* — converted into permanent entries in this hash table — before they can be sent as Max atoms. Interning is deduplicating: the first time Max sees a given string it adds an entry, and every later occurrence of that *same* string reuses it. So `/mixer/meters` only ever takes one slot no matter how often you send it. The problem is *distinct* strings — every new, never-seen-before string adds a permanent entry. The table is process-wide, never garbage collected, and lives for the life of Max.
 
 Symbols aren't just a string-deduplication mechanism. They're also how Max's `[send]`/`[receive]` system works internally. So every property name, every message selector, every patch object's scripting name is in there too. It's load-bearing infrastructure.
 
