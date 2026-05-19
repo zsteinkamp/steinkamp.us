@@ -2,6 +2,7 @@
 layout: post
 title: Knobbler, the Max Symbol Table, and a Migration to v8
 date: '2026-05-15 12:00:00'
+thumbnail: /images/2026-05-15-knobbler/max-size-output.png
 tags:
   - Music
   - Nerd
@@ -66,7 +67,7 @@ After a clean launch I'd see something like `1973 static symbols` and `40789 sym
 
 {% captionedimage src="/images/2026-05-15-knobbler/max-size-output.png" alt="The Max console showing two pairs of '1973 static symbols' / '40517 symbols in memory' and '1973 static symbols' / '40789 symbols in memory' messages" caption="Two checks a few seconds apart: 272 new symbols snuck into the table between them." /%}
 
-With that I wrote a small test harness called `k4-symbolTest.ts` that does three things:
+With that I wrote a small test harness that does three things:
 
 1. **prep** — pre-create 200,000 shared-prefix symbols (`sym_0` through `sym_199999`) and intern them.
 2. **bench** — outlet those same 200,000 symbols and time how long it takes. After a clean Max launch this is the baseline.
@@ -136,7 +137,7 @@ export function osc(addr: string, val: any) {
 }
 ```
 
-Numeric values take the fast path with no overhead. Anything else gets packaged as raw OSC bytes and skips Max's atom system entirely. The wire format on the network is identical to what `[udpsend]` would have produced — the receiving app didn't have to change a thing.
+Numeric values take the fast path with no overhead — Max never interns numeric atoms, so they can't touch the symbol table no matter how many you send. Anything else gets packaged as raw OSC bytes and skips Max's atom system entirely. The wire format on the network is identical to what `[udpsend]` would have produced — the receiving app didn't have to change a thing.
 
 ## The migration gotchas
 
@@ -146,7 +147,7 @@ Moving 11 JavaScript modules from `[js]` to `[v8]` surfaced a small parade of la
 
 **LiveAPI observer args come in the documented order.** A property observer's callback receives `[propertyName, value]`. That's what `[v8]` delivers. `[js]` delivered them *reversed* — `[value, propertyName]` — and code in my codebase had quietly grown up around the wrong order. One specific case: my sidebar mixer's track-change handler was checking the wrong array index, so the strip silently stopped updating on every track switch.
 
-**`refresh` is reserved.** Several modules had a `function refresh()` invoked via a Max message from the patcher. Under `[js]` this worked fine. Under `[v8]`, the message never reaches user code. Max intercepts `refresh` before dispatch — even an `anything()` catch-all doesn't see it. Cost me hours. The fix: rename to anything else.
+**`refresh` is reserved.** Several modules had a `function refresh()` invoked via a Max message from the patcher. Under `[js]` this worked fine. Under `[v8]`, the message never reaches user code. Max intercepts `refresh` before dispatch — even an `anything()` catch-all doesn't see it. Cost me hours. The fix: rename `refresh` to anything else.
 
 ## What it taught me
 
@@ -156,7 +157,7 @@ Going in, I thought I was investigating a minor performance question. Coming out
 - That table's hash function is sensitive to shared string prefixes in a way that punishes high-cardinality structured data like JSON.
 - The fix isn't avoiding strings — it's avoiding *interning* them. Either don't make them into Max atoms at all (rawbytes), or use atom types that don't intern (`t_string`, but only if the receiver knows what to do with it).
 - The newer `[v8]` engine isn't a drop-in replacement for `[js]`. It's stricter about types, dispatches messages slightly differently, reserves some message names, and exposes behavior that `[js]` was quietly papering over.
-- Reaching out to experts is almost always worth it. The Cycling '74 engineer's two-sentence email saved me weeks of guessing. (See also: the [trail work post](/posts/2026-03-03_how-i-got-into-trail-work) and Troy.)
+- Reaching out to experts is almost always worth it. Joshua's two-sentence email saved me weeks of guessing. (See also: the [trail work post](/posts/2026-03-03_how-i-got-into-trail-work) and Troy.)
 
 A friend at Cycling '74. A test harness I can run again any time. A symbol-safe outbound OSC pipeline I can trust. And the warm feeling of finally understanding *why* my benchmarks were lying to me a year ago.
 
