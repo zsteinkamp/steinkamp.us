@@ -44,7 +44,9 @@ Joshua's specific diagnosis cut even deeper:
 
 > If the strings that are turned into symbols hash to the same value because they have the same prefix, then there will be collisions that then compare the strings to see if a new symbol needs to be generated. So in general, it's not good form to create lots of symbols with the same prefix.
 
-The hash function Max uses is *prefix-sensitive*. So if you keep emitting strings like `[0.12,`, `[0.45,`, `[0.33,` — all the same `[0.` prefix — they all hash to nearby buckets. Each lookup has to walk a longer linked list before it finds a match or decides to make a new entry. The entire Max environment slowly gets slower.
+The hash function Max uses is computed from the first 16 characters of the string. So if you keep emitting distinct strings that share an identical 16-character prefix, they all hash to the same bucket. Each lookup then has to walk a longer linked list — string-comparing every entry — before it finds a match or decides to make a new one. The entire Max environment slowly gets slower.
+
+And that's exactly the shape of the JSON payloads my device was sending: a fixed structural prefix (object braces, the same first key name, etc.) followed by varying numeric content well past the 16th character. Every payload hashed to the same bucket and that single bucket grew by tens of thousands of entries per hour — turning a constant-time hash lookup into a linear scan over a list that never stopped growing.
 
 And what was my Knobbler doing? Sending things like this every 30ms:
 
