@@ -95,15 +95,9 @@ Both of those findings pointed at clean architectures for fixing the leak.
 
 ## A wrong turn, then the right turn
 
-My first design used Dicts as an intermediate. Each Knobbler module would write its payload to a shared per-instance Dict (keyed by OSC address), then emit a tiny fixed control message saying "hey, dict has data for `/mixer/meters`, please ship it." A separate `[v8]` adapter would read the Dict and send to `[udpsend]`, the Max object that puts OSC bytes onto UDP.
+My first design leaned on both of those findings at once. Dict values don't intern, and `[v8]`'s `new String(...)` produces a `t_string` atom that also doesn't intern — so I'd use the Dict to carry *native JavaScript data structures* between modules, and a `[v8]` sender to do the final hop to `[udpsend]`. Concretely: each Knobbler module (still on `[js]` at this point) would write its payload object to a shared per-instance Dict keyed by OSC address, then emit a tiny fixed control message saying "hey, Dict has data for `/mixer/meters`, please ship it." A separate `[v8]` adapter would read that Dict entry, `JSON.stringify` it, wrap the result in `new String(...)` so the atom going out was a `t_string`, and feed it to `[udpsend]`, the Max object that puts OSC bytes onto UDP. No symbol-table hit anywhere along the way.
 
-It worked. But it added a layer — a per-instance Dict, a control message, a sender adapter object in the patcher — and it only existed because half the codebase was still on `[js]`. Once I made the call to migrate *everything* to `[v8]` (Ableton Live 12.4 ships Max 9.1.4, which fixes the v8 memory leak issues that had been blocking me), the Dict layer became unnecessary.
-
-I tried `new String(...)` instead. Have modules call `outlet([addr, new String(JSON.stringify(value))])` directly. v8's atom would be a `t_string`, `[udpsend]` would do its normal OSC formatting, no leak. Beautiful.
-
-I deleted the entire Dict architecture and shipped the simpler version.
-
-Then I turned it on and Live filled the console with:
+Beautiful. I built it. I turned it on, and Live filled the console with:
 
 ```
 udpsend: OpenSoundControl: unrecognized argument type
@@ -116,15 +110,19 @@ Turns out `[udpsend]`'s OSC packer doesn't know how to encode `t_string` atoms. 
 
 Tempting workaround: convert the `String` back to a symbol just before handing it to `[udpsend]`. There are objects in Max that'll happily do that. But the moment you do, you've reinvented the leak — every unique string gets `gensym`'d on the way through, and the symbol table fills up just as fast as it did before. The problem just moved one hop down the chain.
 
+(Rumor has it that Max 9.2's `[udpsend]` will handle `t_string` atoms natively, which would make the `new String(...)` path a one-line fix. But Max 9.2 isn't shipped yet, and I needed something that works in Live today.)
+
 So close.
 
 ## rawbytes to the rescue
 
-`[udpsend]` in Max 9 has a `rawbytes` message that takes a list of byte values and ships them as a UDP packet, completely bypassing its OSC formatter. If I build the OSC packet bytes myself in JavaScript, I can hand `[udpsend]` the raw bytes and skip every part of the Max atom system for the variable-content payload.
+`[udpsend]` in Max 9 has a `rawbytes` message that takes a list of byte values — each byte arrives as an integer atom — and ships them as a UDP packet, completely bypassing its OSC formatter. That's the key: as established earlier, numeric atoms are never interned. So if I build the OSC packet bytes myself in JavaScript and hand `[udpsend]` that list of integers, the variable-content payload moves through Max as numbers, touches no symbols, and never grows the table by a single entry.
 
 OSC binary format is pretty simple: a null-terminated address string padded to 4 bytes, a comma-prefixed type tag string padded the same way, then the args (32-bit big-endian for ints and floats, padded strings for strings). About 50 lines of TypeScript to build the packet.
 
-The final architecture ended up cleaner than either of the earlier attempts. There's a single helper `osc(addr, value)` that everything goes through:
+With the Dict design dead, there was no longer a reason to keep half the codebase on `[js]` and half on `[v8]` — so I made the call to migrate *everything* to `[v8]`. (Ableton Live 12.4 ships Max 9.1.4, which fixes the v8 memory leak issues that had been blocking me.) Every module could now build its own OSC packet bytes and hand them directly to `[udpsend]`, no intermediary needed.
+
+The final architecture ended up cleaner than the original design. There's a single helper `osc(addr, value)` that everything goes through:
 
 ```ts
 export function osc(addr: string, val: any) {
