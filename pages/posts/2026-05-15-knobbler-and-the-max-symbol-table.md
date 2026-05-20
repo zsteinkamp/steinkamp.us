@@ -16,7 +16,7 @@ excerpt: |
 
 {% captionedimage src="/images/2026-05-15-knobbler/knobbler-mixer.jpg" alt="The Knobbler iPad app showing a colorful multi-track mixer with live audio meters next to each fader" caption="The Knobbler mixer on iPad. Every one of those animated meter bars is fresh data flying across the network 30 times a second." /%}
 
-Performance has always mattered. I'd done a round of benchmarking earlier this year comparing Max's older `[js]` engine to the newer `[v8]` engine, which uses Google's V8 (the same JavaScript engine that runs in Chrome and Node.js). The results were puzzling. `[v8]` came out 3-4x slower than `[js]` on basically every operation that touched the LiveAPI or the outlet bridge. The only thing it was faster at was pure JavaScript computation, where its modern JIT compiler ate `[js]`'s lunch.
+Performance has always mattered. I'd done a round of benchmarking earlier this year comparing Max's older `[js]` engine to the newer `[v8]` engine, which uses Google's V8 (the same JavaScript engine that runs in Chrome and Node.js). `[js]` is built on Mozilla's SpiderMonkey 1.8.5, which shipped with Firefox 4 back in 2011 — it tops out around ES5, so no `let`/`const`, no arrow functions, no `class`, no modern standard library. Writing TypeScript that compiles down to something that 15-year-old engine will accept is its own special adventure. The results were puzzling. `[v8]` came out 3-4x slower than `[js]` on basically every operation that touched the LiveAPI or the outlet bridge. The only thing it was faster at was pure JavaScript computation, where its modern JIT compiler ate `[js]`'s lunch.
 
 That didn't sit right. V8 is famously fast. Why would the actual hot path of a Max for Live device get *slower*?
 
