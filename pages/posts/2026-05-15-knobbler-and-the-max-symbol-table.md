@@ -146,6 +146,14 @@ Moving 11 JavaScript modules from `[js]` to `[v8]` surfaced a small parade of la
 
 **`refresh` is reserved.** Several modules had a `function refresh()` invoked via a Max message from the patcher. Under `[js]` this worked fine. Under `[v8]`, the message never reaches user code. Max intercepts `refresh` before dispatch — even an `anything()` catch-all doesn't see it. Cost me hours. The fix: rename `refresh` to anything else.
 
+## The aftermath
+
+I shipped it. The new Knobbler4 device is now 100% `[v8]`, top to bottom — no more split brain, no more `[js]` modules quietly poisoning the symbol table in the background.
+
+The symbol table stays flat. Performance is better than it's ever been — the modern V8 JIT handles the pure-JavaScript work my modules do, and the rawbytes pipeline means none of the high-cardinality network traffic ever touches a symbol again. Best of all, the thing that started this whole investigation is gone: long sessions in Live no longer start to feel laggy. The environment stays as snappy at hour three as it was at minute one.
+
+I can't wait for people to experience it.
+
 ## What it taught me
 
 Going in, I thought I was investigating a minor performance question. Coming out, I'd touched almost every module in the codebase and learned a stack of things I hadn't known:
