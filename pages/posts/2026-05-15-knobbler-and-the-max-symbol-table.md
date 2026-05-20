@@ -12,7 +12,7 @@ excerpt: |
   A puzzling benchmark led me down a rabbit hole into how Max stores strings, why my device was slowly poisoning the Max environment, and what I learned migrating 5,000 lines of TypeScript from [js] to [v8].
 ---
 
-[Knobbler](https://plugins.steinkamp.us/knobbler) is the Max for Live device I've been maintaining for several years. It pairs with the Knobbler companion app on iPad, iPhone, or Android to turn the touchscreen into an auto-labeling, auto-coloring, multitouch control surface for Ableton Live. Under the hood there's about 5,000 lines of TypeScript that compiles to JavaScript and runs inside Max's `[js]` JavaScript engine. It sends and receives a fair amount of network traffic — meter levels alone can update 30 times a second per visible track.
+[Knobbler](https://plugins.steinkamp.us/knobbler) is the Max for Live device I've been developing for several years. It pairs with the Knobbler companion app on iPad, iPhone, or Android to turn the touchscreen into an auto-labeling, auto-coloring, multitouch control surface for Ableton Live. Under the hood there's about 5,000 lines of TypeScript that compiles to JavaScript and runs inside Max's `[js]` JavaScript engine. It sends and receives a fair amount of network traffic — meter levels alone can update 30 times a second per visible track.
 
 {% captionedimage src="/images/2026-05-15-knobbler/knobbler-mixer.jpg" alt="The Knobbler iPad app showing a colorful multi-track mixer with live audio meters next to each fader" caption="The Knobbler mixer on iPad. Every one of those animated meter bars is fresh data flying across the network 30 times a second." /%}
 
