@@ -62,6 +62,11 @@ const MONTHS = [
 
 const iso = (d: Date) => d.toISOString().slice(0, 10)
 
+// Project names are GitHub repo slugs under github.com/zsteinkamp. The `.ORIG`
+// suffix marks a local-only variant whose real repo drops it.
+const repoUrl = (project: string) =>
+  `https://github.com/zsteinkamp/${project.replace(/\.ORIG$/, '')}`
+
 // Build a GitHub-style week grid for a single year. Returns columns of 7 days
 // (Sun..Sat); days outside the year are null.
 const buildYearWeeks = (year: number) => {
@@ -214,12 +219,15 @@ const DevDiary: React.FC<DiaryProps> = ({ entries }) => {
                         {e.projects && e.projects.length > 0 && (
                           <div className='mt-1 flex flex-wrap gap-2 text-sm text-date-lite'>
                             {e.projects.map((p) => (
-                              <span
+                              <a
                                 key={p}
-                                className='rounded bg-shadebg px-2 py-[1px]'
+                                href={repoUrl(p)}
+                                target='_blank'
+                                rel='noopener noreferrer'
+                                className='rounded bg-shadebg px-2 py-[1px] hover:underline'
                               >
                                 {p}
-                              </span>
+                              </a>
                             ))}
                           </div>
                         )}
