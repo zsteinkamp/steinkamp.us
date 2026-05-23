@@ -1,7 +1,7 @@
 import yaml from 'js-yaml'
 import fsp from 'fs/promises'
 import Head from 'next/head'
-import { useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import ReactMarkdown from 'react-markdown'
 
 type Impact = 'S' | 'M' | 'L'
@@ -90,9 +90,9 @@ const YearGrid: React.FC<{ year: number; byDate: Record<string, Entry> }> = ({
 }) => {
   const weeks = buildYearWeeks(year)
   return (
-    <div className='mb-6'>
+    <div className='shrink-0'>
       <h3 className='mb-2'>{year}</h3>
-      <div className='flex gap-[3px] overflow-x-auto pb-2'>
+      <div className='flex gap-[3px] pb-2'>
         {weeks.map((week, wi) => (
           <div key={wi} className='flex flex-col gap-[3px]'>
             {Array.from({ length: 7 }).map((_, di) => {
@@ -132,6 +132,13 @@ interface DiaryProps {
 
 const DevDiary: React.FC<DiaryProps> = ({ entries }) => {
   const [view, setView] = useState<'both' | 'grid' | 'journal'>('both')
+  const gridRef = useRef<HTMLDivElement>(null)
+
+  // Start scrolled to the most recent year (rightmost).
+  useEffect(() => {
+    const el = gridRef.current
+    if (el) el.scrollLeft = el.scrollWidth
+  }, [view])
 
   const byDate: Record<string, Entry> = {}
   entries.forEach((e) => {
@@ -190,8 +197,8 @@ const DevDiary: React.FC<DiaryProps> = ({ entries }) => {
       </div>
 
       {view !== 'journal' && (
-        <section>
-          {years.map((y) => (
+        <section ref={gridRef} className='flex gap-8 overflow-x-auto pb-2'>
+          {[...years].reverse().map((y) => (
             <YearGrid key={y} year={y} byDate={byDate} />
           ))}
         </section>
