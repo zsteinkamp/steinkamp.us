@@ -5595,13 +5595,16 @@
     - knobbler-native
     - m4l-Knobbler4
 - date: '2026-05-23'
-  impact: M
+  impact: L
   summary: >-
-    Added a Dev Diary to the site — a daily one-liner with an S/M/L impact
-    rating, rendered as a GitHub-style contribution grid over a grouped
-    long-form journal. Also added XY pad mapping support and axis color
-    backgrounds to knobbler-native, and fixed mapping-source pulse and
-    frozen v62 devices in m4l-Knobbler4.
+    Built a Dev Diary for the site — a daily one-liner with an S/M/L impact
+    rating, rendered as a single-row GitHub-style contribution grid over a
+    grouped long-form journal — backfilled it from seven years of git
+    history, and added a bin/devdiary collector to keep it current. Also
+    added XY pad mapping and axis color backgrounds to knobbler-native,
+    fixed the Level Meters toggle and mapping-source pulse, and reworked
+    slot-swap behavior and frozen v62 devices in m4l-Knobbler4. (in
+    progress as of 11:29)
   projects:
     - steinkamp.us
     - knobbler-native
