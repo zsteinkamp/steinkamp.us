@@ -126,18 +126,6 @@ const YearGrid: React.FC<{ year: number; byDate: Record<string, Entry> }> = ({
   )
 }
 
-const Legend: React.FC = () => (
-  <div className='mb-8 flex items-center gap-2 text-sm text-date'>
-    <span>Impact</span>
-    {(['S', 'M', 'L'] as Impact[]).map((i) => (
-      <span key={i} className='flex items-center gap-1'>
-        <span className={`h-[12px] w-[12px] rounded-[2px] ${cellClass(i)}`} />
-        {IMPACT_LABEL[i]}
-      </span>
-    ))}
-  </div>
-)
-
 interface DiaryProps {
   entries: Entry[]
 }
@@ -203,7 +191,6 @@ const DevDiary: React.FC<DiaryProps> = ({ entries }) => {
 
       {view !== 'journal' && (
         <section>
-          <Legend />
           {years.map((y) => (
             <YearGrid key={y} year={y} byDate={byDate} />
           ))}
