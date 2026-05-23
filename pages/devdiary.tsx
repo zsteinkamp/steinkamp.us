@@ -1,7 +1,7 @@
 import yaml from 'js-yaml'
 import fsp from 'fs/promises'
 import Head from 'next/head'
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef } from 'react'
 import ReactMarkdown from 'react-markdown'
 
 type Impact = 'S' | 'M' | 'L'
@@ -131,14 +131,13 @@ interface DiaryProps {
 }
 
 const DevDiary: React.FC<DiaryProps> = ({ entries }) => {
-  const [view, setView] = useState<'both' | 'grid' | 'journal'>('both')
   const gridRef = useRef<HTMLDivElement>(null)
 
   // Start scrolled to the most recent year (rightmost).
   useEffect(() => {
     const el = gridRef.current
     if (el) el.scrollLeft = el.scrollWidth
-  }, [view])
+  }, [])
 
   const byDate: Record<string, Entry> = {}
   entries.forEach((e) => {
@@ -162,19 +161,6 @@ const DevDiary: React.FC<DiaryProps> = ({ entries }) => {
     months.get(m)!.push(e)
   })
 
-  const tab = (key: typeof view, label: string) => (
-    <button
-      onClick={() => setView(key)}
-      className={`rounded-lg px-3 py-1 text-sm ${
-        view === key
-          ? 'bg-mid text-thumb-text'
-          : 'bg-shadebg text-shadetext hover:text-header'
-      }`}
-    >
-      {label}
-    </button>
-  )
-
   return (
     <article>
       <Head>
@@ -190,71 +176,61 @@ const DevDiary: React.FC<DiaryProps> = ({ entries }) => {
         gets a sentence or two and a Small / Medium / Large impact rating.
       </p>
 
-      <div className='mb-6 flex gap-2'>
-        {tab('both', 'Grid + Journal')}
-        {tab('grid', 'Grid')}
-        {tab('journal', 'Journal')}
-      </div>
+      <section ref={gridRef} className='flex gap-8 overflow-x-auto pb-2'>
+        {[...years].reverse().map((y) => (
+          <YearGrid key={y} year={y} byDate={byDate} />
+        ))}
+      </section>
 
-      {view !== 'journal' && (
-        <section ref={gridRef} className='flex gap-8 overflow-x-auto pb-2'>
-          {[...years].reverse().map((y) => (
-            <YearGrid key={y} year={y} byDate={byDate} />
-          ))}
-        </section>
-      )}
-
-      {view !== 'grid' && (
-        <section className='mt-4'>
-          {Array.from(byYear.keys()).map((y) => (
-            <div key={y}>
-              <h2>{y}</h2>
-              {Array.from(byYear.get(y)!.keys()).map((m) => (
-                <div key={m} className='mb-6'>
-                  <h3 className='text-date'>{MONTHS[m]}</h3>
-                  {byYear
-                    .get(y)!
-                    .get(m)!
-                    .map((e) => (
-                      <div
-                        key={e.date}
-                        id={`d-${e.date}`}
-                        className='grid scroll-mt-12 grid-cols-[3.5rem,1fr] gap-3 border-b border-border py-3'
-                      >
-                        <div className='text-right'>
-                          <div className='text-date'>{e.date.slice(8, 10)}</div>
-                          <span
-                            title={IMPACT_LABEL[e.impact]}
-                            className={`mt-1 inline-block h-[12px] w-[12px] rounded-[2px] ${cellClass(
-                              e.impact
-                            )}`}
-                          />
-                        </div>
-                        <div>
-                          <ReactMarkdown className='diary-summary'>
-                            {e.summary}
-                          </ReactMarkdown>
-                          {e.projects && e.projects.length > 0 && (
-                            <div className='mt-1 flex flex-wrap gap-2 text-sm text-date-lite'>
-                              {e.projects.map((p) => (
-                                <span
-                                  key={p}
-                                  className='rounded bg-shadebg px-2 py-[1px]'
-                                >
-                                  {p}
-                                </span>
-                              ))}
-                            </div>
-                          )}
-                        </div>
+      <section className='mt-4'>
+        {Array.from(byYear.keys()).map((y) => (
+          <div key={y}>
+            <h2>{y}</h2>
+            {Array.from(byYear.get(y)!.keys()).map((m) => (
+              <div key={m} className='mb-6'>
+                <h3 className='text-date'>{MONTHS[m]}</h3>
+                {byYear
+                  .get(y)!
+                  .get(m)!
+                  .map((e) => (
+                    <div
+                      key={e.date}
+                      id={`d-${e.date}`}
+                      className='grid scroll-mt-12 grid-cols-[3.5rem,1fr] gap-3 border-b border-border py-3'
+                    >
+                      <div className='text-right'>
+                        <div className='text-date'>{e.date.slice(8, 10)}</div>
+                        <span
+                          title={IMPACT_LABEL[e.impact]}
+                          className={`mt-1 inline-block h-[12px] w-[12px] rounded-[2px] ${cellClass(
+                            e.impact
+                          )}`}
+                        />
                       </div>
-                    ))}
-                </div>
-              ))}
-            </div>
-          ))}
-        </section>
-      )}
+                      <div>
+                        <ReactMarkdown className='diary-summary'>
+                          {e.summary}
+                        </ReactMarkdown>
+                        {e.projects && e.projects.length > 0 && (
+                          <div className='mt-1 flex flex-wrap gap-2 text-sm text-date-lite'>
+                            {e.projects.map((p) => (
+                              <span
+                                key={p}
+                                className='rounded bg-shadebg px-2 py-[1px]'
+                              >
+                                {p}
+                              </span>
+                            ))}
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  ))}
+              </div>
+            ))}
+          </div>
+        ))}
+      </section>
     </article>
   )
 }
