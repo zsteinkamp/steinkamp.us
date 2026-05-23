@@ -32,9 +32,21 @@ RSS/Atom/JSON feeds are generated at build time in `pages/index.tsx` and written
 
 Custom Markdoc tags in `markdoc/tags/` provide embeddable components (audio, video, youtube, bandcamp, iframe, strava, captioned-image). Custom node overrides in `markdoc/nodes/`. Next.js config extends page extensions to include `.md` and `.mdoc`.
 
+### Dev Diary
+
+`/devdiary` (`pages/devdiary.tsx`) renders a daily dev log from `data/devdiary.yaml`
+— data and layout are fully separated, like the music page. Each YAML entry is one
+calendar day: `date: 'YYYY-MM-DD'` (quoted so YAML keeps it a string), `impact:` one
+of `S`/`M`/`L` (Small/Medium/Large), a 1–2 sentence `summary` (Markdown links OK), and
+an optional `projects:` list. The page sorts by date, so entries can be appended in any
+order. It shows a GitHub-style contribution grid (cell color ramps with impact) above a
+long-form journal grouped year → month → day; a toggle switches between Grid+Journal /
+Grid / Journal. To add a day, append one entry to the YAML — nothing else to touch.
+
 ### Layout System
 
 Pages use a `getLayout` pattern (per-page layouts). Three layouts in `layouts/`:
+
 - **SiteLayout** — root wrapper with header, nav, responsive grid
 - **PostLayout** — article pages with title, date, tags, Giscus comments
 - **BasicLayout** — generic pages with optional table of contents

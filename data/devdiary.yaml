@@ -1,0 +1,20 @@
+# Dev Diary — one entry per day.
+#
+# Schema (per entry):
+#   date:    'YYYY-MM-DD'   (quoted, so YAML keeps it a string)
+#   impact:  S | M | L      (Small / Medium / Large change impact)
+#   summary: 1–2 sentence plain-language summary. Markdown links allowed.
+#   projects: optional list of repo/project names touched that day.
+#
+# Newest entries can go anywhere — the page sorts by date. Keep one entry
+# per calendar day; if more happened, fold it into that day's two sentences.
+
+- date: '2026-05-23'
+  impact: M
+  summary: >-
+    Added a Dev Diary to the site — a daily one-liner with an S/M/L impact
+    rating, rendered as a GitHub-style contribution grid over a grouped
+    long-form journal. Data lives in `data/devdiary.yaml`, fully separate
+    from the page layout.
+  projects:
+    - steinkamp.us
