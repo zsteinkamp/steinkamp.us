@@ -43,6 +43,14 @@ order. It shows a GitHub-style contribution grid (cell color ramps with impact) 
 long-form journal grouped year → month → day; a toggle switches between Grid+Journal /
 Grid / Journal. To add a day, append one entry to the YAML — nothing else to touch.
 
+**Keeping it current:** `bin/devdiary` (host script, not the container — it reads git
+across `~/dev`) prints a digest of commits from the day after the newest logged entry
+through today, grouped one block per day. Today is included and flagged `UNFINISHED DAY
+— as of <local time>`; any day already in the file is flagged `ALREADY LOGGED`. The
+script only collects — summarize each day into a `summary` + `S`/`M`/`L` `impact` and
+append to `data/devdiary.yaml`. `--from YYYY-MM-DD` overrides the start for backfill;
+`DEVDIARY_ROOT` / `--author` override the scan root and author filter.
+
 ### Layout System
 
 Pages use a `getLayout` pattern (per-page layouts). Three layouts in `layouts/`:

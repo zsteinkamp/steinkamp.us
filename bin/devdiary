@@ -1,0 +1,131 @@
+#!/usr/bin/env python3
+"""Collect a Dev Diary digest of git activity across all repos in ~/dev.
+
+Prints one block per day, from the day AFTER the newest entry already in
+data/devdiary.yaml through today. Today is always included (if it has any
+commits) and flagged as an unfinished day with the local run time, so a
+partial day is clearly marked. Hand this digest to Claude to summarize into
+diary entries, or read it yourself.
+
+The script only COLLECTS — it never writes summaries (that needs a human or
+an LLM). It does not modify devdiary.yaml.
+
+Usage:
+  bin/devdiary                 # gap (newest entry+1 .. today)
+  bin/devdiary --from 2026-05-01   # override start date (for backfill)
+  DEVDIARY_ROOT=/path bin/devdiary --author "Some Name"
+"""
+import os
+import re
+import sys
+import argparse
+import subprocess
+import collections
+from datetime import date, datetime, timedelta
+
+SKIP = {"DefinitelyTyped"}  # upstream clone, not authored history
+
+
+def sh(args, cwd):
+    return subprocess.run(
+        args, cwd=cwd, capture_output=True, text=True
+    ).stdout
+
+
+def newest_logged_date(data_path):
+    """Largest 'YYYY-MM-DD' date in the diary file, or None."""
+    if not os.path.exists(data_path):
+        return None, set()
+    dates = set(re.findall(r"^- date: '(\d{4}-\d{2}-\d{2})'", open(data_path).read(), re.M))
+    return (max(dates) if dates else None), dates
+
+
+def main():
+    here = os.path.dirname(os.path.abspath(__file__))
+    repo_root = os.path.dirname(here)
+    data_path = os.path.join(repo_root, "data", "devdiary.yaml")
+    dev_root = os.environ.get("DEVDIARY_ROOT", os.path.expanduser("~/dev"))
+
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--from", dest="start", help="start date YYYY-MM-DD (inclusive)")
+    ap.add_argument("--author", default="Zack Steinkamp")
+    args = ap.parse_args()
+
+    today = date.today()
+    newest, existing = newest_logged_date(data_path)
+    if args.start:
+        start = datetime.strptime(args.start, "%Y-%m-%d").date()
+    elif newest:
+        start = datetime.strptime(newest, "%Y-%m-%d").date() + timedelta(days=1)
+    else:
+        start = today  # empty file: just today
+
+    if start > today:
+        print(f"# Dev diary is up to date (newest entry: {newest}). Nothing new through {today}.")
+        return
+
+    start_s = start.isoformat()
+    days = collections.defaultdict(
+        lambda: {"commits": 0, "ins": 0, "dele": 0, "repos": collections.Counter(), "subjects": []}
+    )
+
+    repos = [
+        d for d in sorted(os.listdir(dev_root))
+        if d not in SKIP and os.path.isdir(os.path.join(dev_root, d, ".git"))
+    ]
+    for name in repos:
+        p = os.path.join(dev_root, name)
+        out = sh([
+            "git", "log", "--all", "--no-merges", f"--author={args.author}",
+            f"--since={start_s} 00:00:00", "--date=short",
+            "--pretty=format:@@@%ad\t%s", "--numstat",
+        ], p)
+        cur = None
+        for line in out.splitlines():
+            if line.startswith("@@@"):
+                d, _, subj = line[3:].partition("\t")
+                if d > today.isoformat():
+                    cur = None
+                    continue
+                cur = d
+                day = days[d]
+                day["commits"] += 1
+                day["repos"][name] += 1
+                day["subjects"].append((name, subj.strip()))
+            elif cur and "\t" in line:
+                a, b = line.split("\t")[:2]
+                if a.isdigit():
+                    days[cur]["ins"] += int(a)
+                if b.isdigit():
+                    days[cur]["dele"] += int(b)
+
+    if not days:
+        print(f"# No commits by {args.author!r} from {start_s} through {today}.")
+        return
+
+    now_local = datetime.now().strftime("%Y-%m-%d %H:%M %Z").strip()
+    print(f"# Dev diary digest: {start_s} .. {today} (run {now_local})")
+    print(f"# Append to {data_path} after summarizing. One entry per day, S/M/L impact.\n")
+
+    for d in sorted(days):
+        info = days[d]
+        repos_s = ", ".join(f"{r}({c})" for r, c in info["repos"].most_common())
+        flags = []
+        if d == today.isoformat():
+            flags.append(f"UNFINISHED DAY — as of {now_local}")
+        if d in existing:
+            flags.append("ALREADY LOGGED — skip unless updating")
+        flag_s = ("  [" + "; ".join(flags) + "]") if flags else ""
+        print(f"### {d}{flag_s}  | commits={info['commits']} churn=+{info['ins']}/-{info['dele']} | repos: {repos_s}")
+        seen = set()
+        for r, s in info["subjects"]:
+            key = (r, s.lower())
+            if key in seen:
+                continue
+            seen.add(key)
+            print(f"  - [{r}] {s}")
+        print()
+
+
+if __name__ == "__main__":
+    main()
