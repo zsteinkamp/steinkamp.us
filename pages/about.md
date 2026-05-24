@@ -21,7 +21,7 @@ I started [working in technology](/resume) starting at age 17. I was lucky enoug
 
 I left my last job in May 2024, closing a 30-year chapter in technology. It was the right time. I now get to devote my energy to the things that matter most to me — my people, my open spaces, and the projects that let me contribute to my maximum ability.
 
-Lately, I have been volunteering with [Santa Cruz County Parks](https://parks.santacruzcountyca.gov/) and [Santa Cruz Mountains Trail Stewardship](https://act.santacruztrails.org/). From May 2025 to April 2026 I helped build the Pace Trail, 2.5 miles of new trails connected to Quail Hollow Ranch. Learning the art and science of trail making has given me a much deeper appreciation for every trail I hike or run on.
+Lately, I have been volunteering with [Santa Cruz County Parks](https://parks.santacruzcountyca.gov/) and [Santa Cruz Mountains Trail Stewardship](https://act.santacruztrails.org/). From May 2025 to April 2026 I helped build the [Pace Trail](https://www.youtube.com/watch?v=jxAgprZzoeE&list=PLqzTnRgmRId5RpgQCsbcq-fqo0P-KjGIc&index=2), 2.5 miles of new trails connected to Quail Hollow Ranch. Learning the art and science of trail making has given me a much deeper appreciation for every trail I hike or run on.
 
 I also build [software for electronic musicians](/music-tools). I've released more than [two dozen free and open source Max for Live devices](https://plugins.steinkamp.us/), and most notably built [Knobbler](https://plugins.steinkamp.us/m4l-Knobbler4), a native iPad app for controlling Ableton Live. It continues to be the most satisfying stretch of programming of my life.
 
