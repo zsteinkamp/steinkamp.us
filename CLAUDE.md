@@ -38,8 +38,10 @@ Custom Markdoc tags in `markdoc/tags/` provide embeddable components (audio, vid
 — data and layout are fully separated, like the music page. Each YAML entry is one
 calendar day: `date: 'YYYY-MM-DD'` (quoted so YAML keeps it a string), `impact:` one
 of `S`/`M`/`L` (Small/Medium/Large), a 1–2 sentence `summary` (Markdown links OK), and
-an optional `projects:` list. The page sorts by date, so entries can be appended in any
-order. It shows a GitHub-style contribution grid (cell color ramps with impact) above a
+an optional `projects:` list. Each `projects` item is an object with `name` and the
+day's objective git stats for that repo — `commits`, `ins` (lines +), `del` (lines −);
+the page renders these on each repo chip. The page sorts by date, so entries can be
+appended in any order. It shows a GitHub-style contribution grid (cell color ramps with impact) above a
 long-form journal grouped year → month → day; a toggle switches between Grid+Journal /
 Grid / Journal. To add a day, append one entry to the YAML — nothing else to touch.
 
@@ -48,7 +50,10 @@ across `~/dev`) prints a digest of commits from the day after the newest logged 
 through today, grouped one block per day. Today is included and flagged `UNFINISHED DAY
 — as of <local time>`; any day already in the file is flagged `ALREADY LOGGED`. The
 script only collects — summarize each day into a `summary` + `S`/`M`/`L` `impact` and
-append to `data/devdiary.yaml`. `--from YYYY-MM-DD` overrides the start for backfill;
+append to `data/devdiary.yaml`. Each day's digest block ends with a ready-to-paste
+`projects:` block (per-repo `commits`/`ins`/`del`); those numbers are objective, so
+paste them verbatim and only hand-write the summary and impact. `--from YYYY-MM-DD`
+overrides the start for backfill; `--json` emits per-day per-repo stats as JSON;
 `DEVDIARY_ROOT` / `--author` override the scan root and author filter.
 
 ### Layout System

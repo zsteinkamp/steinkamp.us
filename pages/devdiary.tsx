@@ -6,12 +6,24 @@ import ReactMarkdown from 'react-markdown'
 
 type Impact = 'S' | 'M' | 'L'
 
+// Per-repo git stats for a day. Older entries may still be bare strings, so the
+// page normalizes either form to a Project before rendering.
+interface Project {
+  name: string
+  commits?: number
+  ins?: number
+  del?: number
+}
+
 interface Entry {
   date: string
   impact: Impact
   summary: string
-  projects?: string[]
+  projects?: (string | Project)[]
 }
+
+const asProject = (p: string | Project): Project =>
+  typeof p === 'string' ? { name: p } : p
 
 export const getStaticProps = async () => {
   const raw = (yaml.load(await fsp.readFile('data/devdiary.yaml', 'utf8')) ||
@@ -218,15 +230,33 @@ const DevDiary: React.FC<DiaryProps> = ({ entries }) => {
                         </ReactMarkdown>
                         {e.projects && e.projects.length > 0 && (
                           <div className='mt-1 flex flex-wrap gap-2 text-sm text-date-lite'>
-                            {e.projects.map((p) => (
+                            {e.projects.map(asProject).map((p) => (
                               <a
-                                key={p}
-                                href={repoUrl(p)}
+                                key={p.name}
+                                href={repoUrl(p.name)}
                                 target='_blank'
                                 rel='noopener noreferrer'
-                                className='rounded bg-shadebg px-2 py-[1px] hover:underline'
+                                title={
+                                  p.commits != null
+                                    ? `${p.commits} commit${
+                                        p.commits === 1 ? '' : 's'
+                                      }, +${p.ins ?? 0}/-${p.del ?? 0} lines`
+                                    : undefined
+                                }
+                                className='inline-flex items-center gap-1.5 rounded bg-shadebg px-2 py-[1px] hover:underline'
                               >
-                                {p}
+                                <span>{p.name}</span>
+                                {p.commits != null && (
+                                  <span className='font-mono text-xs opacity-70'>
+                                    {p.commits}c
+                                    <span className='ml-1 text-emerald-600 dark:text-emerald-400'>
+                                      +{p.ins ?? 0}
+                                    </span>
+                                    <span className='ml-0.5 text-red-500 dark:text-red-400'>
+                                      -{p.del ?? 0}
+                                    </span>
+                                  </span>
+                                )}
                               </a>
                             ))}
                           </div>
