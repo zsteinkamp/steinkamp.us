@@ -9222,22 +9222,23 @@
   impact: L
   summary: >-
     Built a Dev Diary for the site — a daily one-liner with an S/M/L impact
-    rating, rendered as a single-row GitHub-style contribution grid over a
-    grouped long-form journal — backfilled it from seven years of git
-    history, and added a bin/devdiary collector to keep it current. Also
-    added XY pad mapping and axis color backgrounds to knobbler-native,
-    fixed the Level Meters toggle and mapping-source pulse, and reworked
-    slot-swap behavior and frozen v62 devices in m4l-Knobbler4. (in
-    progress as of 11:29)
+    rating over a GitHub-style contribution grid — backfilled from seven
+    years of git history, then enriched it with per-repo commit and line
+    stats and added a new [/devplot](/devplot) page that graphs commits over
+    time (a monthly line plus a per-repo stacked area with hover detail,
+    click-to-fullscreen, and dated milestone markers). Also added XY pad
+    mapping, cue-point editing, and arrangement-loop/scrub controls to
+    knobbler-native, with matching cue and loop/position routes in
+    m4l-Knobbler4.
   projects:
+    - name: steinkamp.us
+      commits: 10
+      ins: 13961
+      del: 2115
     - name: knobbler-native
       commits: 10
       ins: 1445
       del: 302
-    - name: steinkamp.us
-      commits: 8
-      ins: 8261
-      del: 865
     - name: m4l-Knobbler4
       commits: 8
       ins: 416
