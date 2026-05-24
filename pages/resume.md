@@ -215,7 +215,7 @@ In May 2024, I stepped away from full-time work after a career spanning 30 years
 ### Early Work {% .job-company %}
 
 - 1996 - 1998 — **Cal Poly Kennedy Library:** Built large-scale websites for the university library — my first taste of professional web development.
-- 1993 - 1996 — **First Class Travel:** Ran IT and built internal software for a 40-person corporate travel agency.
+- 1993 - 1996 — **[First Class Travel](/posts/2025-04-30_first-class-travel--1994-96):** Ran IT and built internal software for a 40-person corporate travel agency.
 - 1993 — **WYSE Technology:** Assembled PCs and servers on the production floor.
 - 1992 — **Fry's Electronics:** Repaired and built PCs and helped customers at the service bench.
 - 1991 — **Home Express:** Sold furniture.
