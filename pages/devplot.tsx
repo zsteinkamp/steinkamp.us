@@ -3,10 +3,12 @@ import fsp from 'fs/promises'
 import Head from 'next/head'
 import { useEffect, useRef, useState } from 'react'
 
-// One point per calendar month: total commits across all repos that month.
+// One point per calendar month: totals across all repos that month.
 interface MonthPoint {
   month: string // 'YYYY-MM'
   commits: number
+  ins: number // lines added
+  del: number // lines removed
 }
 
 // Stacked monthly breakdown by repo. `repos` is the stack order (most commits
@@ -27,6 +29,8 @@ interface Champions {
 interface Project {
   name?: string
   commits?: number
+  ins?: number
+  del?: number
 }
 
 interface Entry {
@@ -54,10 +58,12 @@ export const getStaticProps = async () => {
   const raw = (yaml.load(await fsp.readFile('data/devdiary.yaml', 'utf8')) ||
     []) as Entry[]
 
-  // month -> repo -> commits, plus per-year and all-time repo totals.
+  // month -> repo -> commits, plus per-year and all-time repo totals, and
+  // per-month line churn (added/removed).
   const monthly: Record<string, Record<string, number>> = {}
   const yearly: Record<string, Record<string, number>> = {}
   const totals: Record<string, number> = {}
+  const churn: Record<string, { ins: number; del: number }> = {}
   for (const e of raw) {
     const month = String(e.date).slice(0, 7)
     const year = month.slice(0, 4)
@@ -68,6 +74,9 @@ export const getStaticProps = async () => {
       ;(monthly[month] ??= {})[name] = (monthly[month]?.[name] ?? 0) + c
       ;(yearly[year] ??= {})[name] = (yearly[year]?.[name] ?? 0) + c
       totals[name] = (totals[name] ?? 0) + c
+      const ch = (churn[month] ??= { ins: 0, del: 0 })
+      ch.ins += p.ins ?? 0
+      ch.del += p.del ?? 0
     }
   }
 
@@ -77,10 +86,12 @@ export const getStaticProps = async () => {
       ? []
       : monthsBetween(presentMonths[0], presentMonths[presentMonths.length - 1])
 
-  // Total commits per month (for the line chart).
+  // Per-month totals (commits for the line chart, ins/del for the churn chart).
   const series: MonthPoint[] = months.map((month) => ({
     month,
     commits: Object.values(monthly[month] ?? {}).reduce((s, c) => s + c, 0),
+    ins: churn[month]?.ins ?? 0,
+    del: churn[month]?.del ?? 0,
   }))
 
   // Every repo gets a band; stack order is biggest all-time first.
@@ -406,6 +417,141 @@ const CommitsByMonth: React.FC<{ series: MonthPoint[] }> = ({ series }) => {
   )
 }
 
+// Compact axis label: 13961 -> "14k", 1200 -> "1.2k".
+const fmtK = (v: number) =>
+  v >= 1000 ? `${(v / 1000).toFixed(v >= 10000 ? 0 : 1)}k` : String(v)
+
+const ADD_COLOR = '#10b981' // emerald-500
+const DEL_COLOR = '#ef4444' // red-500
+
+// Diverging area: lines added rise above the zero line, lines removed drop
+// below it, sharing the month x-axis with the commits chart above.
+const LinesPerMonth: React.FC<{ series: MonthPoint[] }> = ({ series }) => {
+  const n = series.length
+  const yMax = niceMax(Math.max(1, ...series.flatMap((p) => [p.ins, p.del])))
+  const x = (i: number) => xAt(i, n)
+  const mid = PAD.top + PLOT_H / 2
+  const half = PLOT_H / 2
+  const up = (v: number) => mid - (v / yMax) * half // added (above)
+  const down = (v: number) => mid + (v / yMax) * half // removed (below)
+  const hover = useHoverIdx(n)
+
+  const path = (
+    accessor: (p: MonthPoint) => number,
+    y: (v: number) => number
+  ) =>
+    series
+      .map(
+        (p, i) =>
+          `${i === 0 ? 'M' : 'L'}${x(i).toFixed(1)},${y(accessor(p)).toFixed(1)}`
+      )
+      .join(' ')
+  const close = (line: string) =>
+    n > 0
+      ? `${line} L${x(n - 1).toFixed(1)},${mid.toFixed(1)} L${x(0).toFixed(
+          1
+        )},${mid.toFixed(1)} Z`
+      : ''
+
+  const addLine = path((p) => p.ins, up)
+  const delLine = path((p) => p.del, down)
+  const hp = hover.idx != null ? series[hover.idx] : null
+
+  // Symmetric ticks: +half, +full above; -half, -full below.
+  const ticks = [
+    { v: yMax, y: up(yMax), label: fmtK(yMax) },
+    { v: yMax / 2, y: up(yMax / 2), label: fmtK(Math.round(yMax / 2)) },
+    { v: 0, y: mid, label: '0' },
+    { v: yMax / 2, y: down(yMax / 2), label: fmtK(Math.round(yMax / 2)) },
+    { v: yMax, y: down(yMax), label: fmtK(yMax) },
+  ]
+
+  return (
+    <svg
+      ref={hover.ref}
+      viewBox={`0 0 ${W} ${H}`}
+      className='h-auto w-full'
+      role='img'
+      aria-label='Lines added and removed per month'
+    >
+      {ticks.map((t, i) => (
+        <g key={i}>
+          <line
+            x1={PAD.left}
+            x2={W - PAD.right}
+            y1={t.y}
+            y2={t.y}
+            className='stroke-border'
+            strokeWidth={t.v === 0 ? 1.5 : 1}
+          />
+          <text
+            x={PAD.left - 8}
+            y={t.y}
+            dominantBaseline='middle'
+            textAnchor='end'
+            className='fill-date-lite text-[11px]'
+          >
+            {t.label}
+          </text>
+        </g>
+      ))}
+      <XYears months={series.map((p) => p.month)} x={x} />
+
+      <path d={close(addLine)} fill={ADD_COLOR} fillOpacity={0.15} />
+      <path d={close(delLine)} fill={DEL_COLOR} fillOpacity={0.15} />
+      <path
+        d={addLine}
+        fill='none'
+        stroke={ADD_COLOR}
+        strokeWidth={1.75}
+        strokeLinejoin='round'
+      />
+      <path
+        d={delLine}
+        fill='none'
+        stroke={DEL_COLOR}
+        strokeWidth={1.75}
+        strokeLinejoin='round'
+      />
+      <Annotations months={series.map((p) => p.month)} x={x} />
+
+      {hp && (
+        <>
+          <line
+            x1={x(hover.idx!)}
+            x2={x(hover.idx!)}
+            y1={PAD.top}
+            y2={PAD.top + PLOT_H}
+            className='stroke-date-lite'
+            strokeWidth={1}
+          />
+          <circle cx={x(hover.idx!)} cy={up(hp.ins)} r={3} fill={ADD_COLOR} />
+          <circle cx={x(hover.idx!)} cy={down(hp.del)} r={3} fill={DEL_COLOR} />
+          <Tooltip
+            px={x(hover.idx!)}
+            lines={[
+              { text: hp.month },
+              { text: `+${hp.ins.toLocaleString()} added`, color: ADD_COLOR },
+              { text: `−${hp.del.toLocaleString()} removed`, color: DEL_COLOR },
+            ]}
+          />
+        </>
+      )}
+
+      <rect
+        x={PAD.left}
+        y={PAD.top}
+        width={PLOT_W}
+        height={PLOT_H}
+        fill='transparent'
+        pointerEvents='all'
+        onMouseMove={hover.onMove}
+        onMouseLeave={hover.clear}
+      />
+    </svg>
+  )
+}
+
 const ChurnByRepo: React.FC<{ stack: Stack; champions: Champions }> = ({
   stack,
   champions,
@@ -635,7 +781,11 @@ const DevPlot: React.FC<{
   champions: Champions
 }> = ({ series, stack, champions }) => {
   const total = series.reduce((s, p) => s + p.commits, 0)
-  const [expanded, setExpanded] = useState<null | 'commits' | 'repos'>(null)
+  const totalIns = series.reduce((s, p) => s + p.ins, 0)
+  const totalDel = series.reduce((s, p) => s + p.del, 0)
+  const [expanded, setExpanded] = useState<
+    null | 'commits' | 'lines' | 'repos'
+  >(null)
 
   return (
     <article>
@@ -671,6 +821,31 @@ const DevPlot: React.FC<{
       </section>
 
       <section className='mt-8'>
+        <h2 className='mt-0'>Lines changed per month</h2>
+        <p className='text-sm text-date-lite'>
+          Lines added rise above the center line; lines removed drop below it —
+          same month axis as above.
+        </p>
+        {series.length > 0 ? (
+          <ChartFrame onExpand={() => setExpanded('lines')}>
+            <LinesPerMonth series={series} />
+          </ChartFrame>
+        ) : (
+          <p className='text-date-lite'>No data yet.</p>
+        )}
+        <p className='mt-2 text-sm text-date-lite'>
+          <span className='text-emerald-600 dark:text-emerald-400'>
+            +{totalIns.toLocaleString()}
+          </span>{' '}
+          /{' '}
+          <span className='text-red-500 dark:text-red-400'>
+            −{totalDel.toLocaleString()}
+          </span>{' '}
+          lines all time.
+        </p>
+      </section>
+
+      <section className='mt-8'>
         <h2 className='mt-0'>By repo</h2>
         <p className='text-sm text-date-lite'>
           Monthly commits stacked by repo ({stack.repos.length} repos), ordered
@@ -693,6 +868,24 @@ const DevPlot: React.FC<{
           <CommitsByMonth series={series} />
           <p className='mt-2 text-sm text-date-lite'>
             {total.toLocaleString()} commits across {series.length} months.
+          </p>
+        </Modal>
+      )}
+      {expanded === 'lines' && (
+        <Modal
+          title='Lines changed per month'
+          onClose={() => setExpanded(null)}
+        >
+          <LinesPerMonth series={series} />
+          <p className='mt-2 text-sm text-date-lite'>
+            <span className='text-emerald-600 dark:text-emerald-400'>
+              +{totalIns.toLocaleString()}
+            </span>{' '}
+            /{' '}
+            <span className='text-red-500 dark:text-red-400'>
+              −{totalDel.toLocaleString()}
+            </span>{' '}
+            lines all time.
           </p>
         </Modal>
       )}
