@@ -11,6 +11,7 @@ const SiteHeader = ({ className = '' }) => {
     { label: 'Videos', href: 'https://www.youtube.com/@zsteinkamp' },
     { label: 'Music', href: '/music' },
     { label: 'Dev Diary', href: '/devdiary' },
+    { label: 'Dev Plot', href: '/devplot' },
     { label: 'Resume', href: '/resume' },
     { label: 'About', href: '/about' },
   ]
