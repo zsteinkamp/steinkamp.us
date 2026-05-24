@@ -21,9 +21,9 @@ I started [working in technology](/resume) starting at age 17. I was lucky enoug
 
 I left my last job in May 2024, closing a 30-year chapter in technology. It was the right time. I now get to devote my energy to the things that matter most to me — my people, my open spaces, and the projects that let me contribute to my maximum ability.
 
-I volunteer regularly with [Santa Cruz County Parks](https://parks.santacruzcountyca.gov/) and [Santa Cruz Mountains Trail Stewardship](https://act.santacruztrails.org/), building and maintaining trails in the mountains around my home. Learning the art and science of trail making has given me a much deeper appreciation for every trail I walk or ride. It's hard, satisfying work with wonderful people.
+Lately, I have been volunteering with [Santa Cruz County Parks](https://parks.santacruzcountyca.gov/) and [Santa Cruz Mountains Trail Stewardship](https://act.santacruztrails.org/). From May 2025 to April 2026 I helped build the Pace Trail, 2.5 miles of new trails connected to Quail Hollow Ranch. Learning the art and science of trail making has given me a much deeper appreciation for every trail I hike or run on.
 
-I also build [software for electronic musicians](/music-tools). I've released more than [two dozen free and open source Max for Live devices](https://plugins.steinkamp.us/), and most recently built [Knobbler](https://plugins.steinkamp.us/m4l-Knobbler4), a native iPad app for controlling Ableton Live. It continues to be the most joyful stretch of programming of my life.
+I also build [software for electronic musicians](/music-tools). I've released more than [two dozen free and open source Max for Live devices](https://plugins.steinkamp.us/), and most notably built [Knobbler](https://plugins.steinkamp.us/m4l-Knobbler4), a native iPad app for controlling Ableton Live. It continues to be the most satisfying stretch of programming of my life.
 
 I still [make music](/music) too, and have a deep interest in the intersection of tactile interfaces and digital sound.
 
@@ -32,7 +32,6 @@ Have a look at [my dad's website](https://dick.steinkamp.us/) showcasing his his
 Let's chat!
 
 [GitHub](http://github.com/zsteinkamp)  
-[Twitter](https://twitter.com/zsteinkamp)  
 [YouTube](https://www.youtube.com/channel/UCuTj9ukcxpg4esbAaxUW6UA)  
 [Instagram](https://www.instagram.com/zsteinkamp/)  
 [zack@steinkamp.us](mailto:zack@steinkamp.us)  
