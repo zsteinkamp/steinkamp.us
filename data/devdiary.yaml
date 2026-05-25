@@ -9221,15 +9221,12 @@
 - date: '2026-05-23'
   impact: L
   summary: >-
-    Built a Dev Diary for the site — a daily one-liner with an S/M/L impact
-    rating over a GitHub-style contribution grid — backfilled from seven
-    years of git history, then enriched it with per-repo commit and line
-    stats and added a new [/devplot](/devplot) page that graphs commits over
-    time (a monthly line plus a per-repo stacked area with hover detail,
-    click-to-fullscreen, and dated milestone markers). Also added XY pad
-    mapping, cue-point editing, and arrangement-loop/scrub controls to
-    knobbler-native, with matching cue and loop/position routes in
-    m4l-Knobbler4.
+    Built a Dev Diary for the site — a daily S/M/L one-liner over a
+    GitHub-style contribution grid, backfilled from seven years of git
+    history — plus a new [/devplot](/devplot) page that graphs commits over
+    time. Also added XY pad mapping, cue-point editing, and
+    arrangement-loop/scrub controls to knobbler-native, with matching routes
+    in m4l-Knobbler4.
   projects:
     - name: steinkamp.us
       commits: 10
@@ -9250,15 +9247,12 @@
 - date: '2026-05-24'
   impact: M
   summary: >-
-    Shipped the Knobbler4 v63 device — arrangement transport control with
-    live song-position streaming and scrub, loop-edge setters, and cue point
-    add/rename/delete — and documented it with a new [Cue Points & Transport](https://plugins.steinkamp.us/m4l-Knobbler4/features#cue-points-transport)
-    features page plus OSC API updates. Also hardened slider touch handling in
-    knobbler-native: drags were lost when a finger paused before sliding (a
-    long-press gesture stealing the touch, on both regular sliders and XY
-    pads), and mixer/XY sliders could strand at a stale value — fixed at the
-    root by registering slider refs synchronously so no OSC update slips
-    through the mount gap.
+    Shipped the Knobbler4 v63 device — arrangement transport control
+    (song-position streaming with scrub, loop-edge setters, and cue point
+    add/rename/delete) — with a new [Cue Points & Transport](https://plugins.steinkamp.us/m4l-Knobbler4/features#cue-points-transport)
+    features page. Also hardened knobbler-native slider touch handling, fixing
+    drags lost on a pre-slide pause and sliders that could strand at a stale
+    value.
   projects:
     - name: knobbler-native
       commits: 7
