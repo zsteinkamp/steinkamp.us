@@ -9250,14 +9250,15 @@
     Shipped the Knobbler4 v63 device — arrangement transport control
     (song-position streaming with scrub, loop-edge setters, and cue point
     add/rename/delete) — with a new [Cue Points & Transport](https://plugins.steinkamp.us/m4l-Knobbler4/features#cue-points-transport)
-    features page. Also hardened knobbler-native slider touch handling, fixing
+    features page. Also hardened knobbler-native slider touch handling — fixing
     drags lost on a pre-slide pause and sliders that could strand at a stale
-    value.
+    value — and cut a build 220 release that fixes Android bluhand mapping
+    selection cancelling itself on tap.
   projects:
     - name: knobbler-native
-      commits: 7
-      ins: 99
-      del: 62
+      commits: 8
+      ins: 105
+      del: 81
     - name: m4l-Knobbler4
       commits: 3
       ins: 53965
