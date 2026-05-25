@@ -9252,7 +9252,7 @@
   summary: >-
     Shipped the Knobbler4 v63 device — arrangement transport control with
     live song-position streaming and scrub, loop-edge setters, and cue point
-    add/rename/delete — and documented it with a new Cue Points & Transport
+    add/rename/delete — and documented it with a new [Cue Points & Transport](https://plugins.steinkamp.us/m4l-Knobbler4/features#cue-points-transport)
     features page plus OSC API updates. Also hardened slider touch handling in
     knobbler-native: drags were lost when a finger paused before sliding (a
     long-press gesture stealing the touch, on both regular sliders and XY
