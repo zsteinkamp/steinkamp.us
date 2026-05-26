@@ -81,7 +81,7 @@ Here's the one I just shipped, and the most satisfying. Several of those structu
   … ]
 ```
 
-Every record re-sends `"t":`, `"sc":`, `"s":`, `"hsb":`… The _keys_ are often more bytes than the _values_. With N records you pay for the schema N times.
+Every record re-sends `"t":`, `"sc":`, `"s":`, `"n":`, `"c":`, `"hsb":`… The _keys_ are often more bytes than the _values_. With N records you pay for the schema N times.
 
 The fix is a columnar encoding — the same idea a database or a CSV uses. Name the columns once, then send rows of bare values:
 
