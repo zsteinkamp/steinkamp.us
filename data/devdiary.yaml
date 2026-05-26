@@ -9286,3 +9286,34 @@
       commits: 5
       ins: 924
       del: 471
+- date: '2026-05-26'
+  impact: L
+  summary: >-
+    Shipped Knobbler4 v65 — a new [Back to Arrangement](https://plugins.steinkamp.us/m4l-Knobbler4/features#back-to-arrangement)
+    toolbar button, a multiplayer reliability fix (clip views kept stalling in
+    long sessions, so observers are now bounded to a warm buffer around the
+    viewport), and a columnar OSC encoding plus generic payload chunking that
+    cut bandwidth on busy clip grids. Along the way fixed a UTF-8
+    packet-encoding bug that blanked panels on large sets and added a debug OSC
+    logger, and cut knobbler-native build 223 (expo-osc connection-state crash
+    fix, Android clip-tap fix, the Back to Arrangement button, columnar decode).
+    On the site, added syntax highlighting to all code blocks and published
+    [Knobbler's OSC Diet](https://steinkamp.us/posts/2026-05-26-knobbler-osc-diet),
+    a post on the five-step evolution of the wire format.
+  projects:
+    - name: m4l-Knobbler4
+      commits: 22
+      ins: 110224
+      del: 719
+    - name: knobbler-native
+      commits: 15
+      ins: 120
+      del: 29
+    - name: steinkamp.us
+      commits: 2
+      ins: 268
+      del: 1
+    - name: expo-osc
+      commits: 1
+      ins: 9
+      del: 0
