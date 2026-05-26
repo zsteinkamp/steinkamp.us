@@ -34,7 +34,11 @@ export const getStaticProps = async () => {
     .map((e) => ({ ...e, date: String(e.date).slice(0, 10) }))
     .sort((a, b) => a.date.localeCompare(b.date))
 
-  return { props: { entries } }
+  // ISR: re-read data/devdiary.yaml at runtime (at most once/min) so a plain
+  // `git pull` on the server updates the page without a rebuild. The prod
+  // container bind-mounts ./data (see docker-compose.yml), so the pulled file
+  // is what getStaticProps reads on revalidation.
+  return { props: { entries }, revalidate: 60 }
 }
 
 const IMPACT_LABEL: Record<Impact, string> = {

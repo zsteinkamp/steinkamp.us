@@ -9,5 +9,10 @@ services:
     restart: unless-stopped
     volumes:
       - ./public/zip:/app/public/zip
+      # Live YAML data (devdiary, etc.): mount the dir (not the single file) so a
+      # `git pull` — which replaces files with a new inode — is seen inside the
+      # container. Paired with ISR (revalidate) on the data-driven pages, a pull
+      # updates the site with no rebuild.
+      - ./data:/app/data:ro
 volumes:
   app_node_modules:
