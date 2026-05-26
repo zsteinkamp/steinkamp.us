@@ -455,58 +455,60 @@ const DevDiary: React.FC<DiaryProps> = ({ entries }) => {
                           )}`}
                         />
                       </div>
-                      <div>
-                        <ReactMarkdown className='diary-summary'>
-                          {e.summary}
-                        </ReactMarkdown>
+                      <div className='flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between'>
+                        <div className='min-w-0 flex-1'>
+                          <ReactMarkdown className='diary-summary'>
+                            {e.summary}
+                          </ReactMarkdown>
+                          {e.projects && e.projects.length > 0 && (
+                            <div className='mt-1 flex flex-wrap gap-2 text-sm text-date-lite'>
+                              {e.projects.map(asProject).map((p) => (
+                                <a
+                                  key={p.name}
+                                  href={repoUrl(p.name)}
+                                  target='_blank'
+                                  rel='noopener noreferrer'
+                                  title={
+                                    p.commits != null
+                                      ? `${p.commits} commit${
+                                          p.commits === 1 ? '' : 's'
+                                        }, +${p.ins ?? 0}/-${p.del ?? 0} lines`
+                                      : undefined
+                                  }
+                                  className='inline-flex items-center gap-1.5 rounded bg-shadebg px-2 py-[1px] hover:underline'
+                                >
+                                  <span>{p.name}</span>
+                                  {p.commits != null && (
+                                    <span className='font-mono text-xs opacity-70'>
+                                      {p.commits}c
+                                      <span className='ml-1 text-emerald-600 dark:text-emerald-400'>
+                                        +{p.ins ?? 0}
+                                      </span>
+                                      <span className='ml-0.5 text-red-500 dark:text-red-400'>
+                                        -{p.del ?? 0}
+                                      </span>
+                                    </span>
+                                  )}
+                                </a>
+                              ))}
+                            </div>
+                          )}
+                        </div>
                         {e.image && (
                           <a
                             href={e.image}
                             target='_blank'
                             rel='noopener noreferrer'
-                            className='mt-2 inline-block'
+                            className='block shrink-0'
                           >
                             {/* eslint-disable-next-line @next/next/no-img-element */}
                             <img
                               src={e.image}
                               alt={e.imageAlt || `${e.date} screenshot`}
                               loading='lazy'
-                              className='max-h-48 rounded-md border border-border'
+                              className='max-h-32 rounded-md border border-border sm:max-w-[14rem]'
                             />
                           </a>
-                        )}
-                        {e.projects && e.projects.length > 0 && (
-                          <div className='mt-1 flex flex-wrap gap-2 text-sm text-date-lite'>
-                            {e.projects.map(asProject).map((p) => (
-                              <a
-                                key={p.name}
-                                href={repoUrl(p.name)}
-                                target='_blank'
-                                rel='noopener noreferrer'
-                                title={
-                                  p.commits != null
-                                    ? `${p.commits} commit${
-                                        p.commits === 1 ? '' : 's'
-                                      }, +${p.ins ?? 0}/-${p.del ?? 0} lines`
-                                    : undefined
-                                }
-                                className='inline-flex items-center gap-1.5 rounded bg-shadebg px-2 py-[1px] hover:underline'
-                              >
-                                <span>{p.name}</span>
-                                {p.commits != null && (
-                                  <span className='font-mono text-xs opacity-70'>
-                                    {p.commits}c
-                                    <span className='ml-1 text-emerald-600 dark:text-emerald-400'>
-                                      +{p.ins ?? 0}
-                                    </span>
-                                    <span className='ml-0.5 text-red-500 dark:text-red-400'>
-                                      -{p.del ?? 0}
-                                    </span>
-                                  </span>
-                                )}
-                              </a>
-                            ))}
-                          </div>
                         )}
                       </div>
                     </div>
