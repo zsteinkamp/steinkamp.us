@@ -51,7 +51,7 @@ Numeric values that land in a short (10 ms) window get folded into a single `/ba
 /batch {"/val1":0.5,"/val2":0.32,"/val3":0.81, … }
 ```
 
-Thirty-two packets become **one**. The byte count is similar, but the _packet_ count — and the per-packet kernel/network overhead, and (crucially for Max) the number of times we cross the JS→Max boundary — drops by 32×. On a busy connect or a page switch, that's the difference between a smooth fill and a visible stutter.
+Thirty-two packets become **one**. The byte count is similar, but the _packet_ count — and the per-packet kernel/network overhead, and (crucially for Max) the number of times we cross the JS→Max boundary — drops by 32x. On a busy connect or a page switch, that's the difference between a smooth fill and a visible stutter.
 
 ## 4. Chunking: when one message is too big
 

@@ -284,6 +284,7 @@
       del: 20
 - date: '2020-08-29'
   impact: S
+  image: /images/devdiary/2020-08-29-bcr2000-follower.jpg
   summary: >-
     Added new images, updated the songs list, and updated .gitignore on the
     personal site.
@@ -352,6 +353,7 @@
       del: 0
 - date: '2020-12-06'
   impact: S
+  image: /images/devdiary/2020-12-06-diag-4-top.jpg
   summary: >-
     Added posts about felt pads and a studio shelf to the personal site.
   projects:
@@ -370,6 +372,7 @@
       del: 0
 - date: '2021-01-18'
   impact: S
+  image: /images/devdiary/2021-01-18-mission-peak.jpg
   summary: >-
     Made edits and spelling fixes to the Mission Peak article on the blog.
   projects:
@@ -397,6 +400,7 @@
       del: 0
 - date: '2021-03-04'
   impact: S
+  image: /images/devdiary/2021-03-04-room-audio-midi.jpg
   summary: >-
     Added a thumbnail and wrote content about texture and reverb on the
     blog.
@@ -435,6 +439,7 @@
       del: 33
 - date: '2021-03-17'
   impact: S
+  image: /images/devdiary/2021-03-17-feedback-sidechain.jpg
   summary: >-
     Wrote a detailed blog post about feedback/return track techniques with
     diagrams, examples, and notes on hiding ads in embedded players.
@@ -483,6 +488,7 @@
       del: 1
 - date: '2021-05-10'
   impact: S
+  image: /images/devdiary/2021-05-10-turducken.jpg
   summary: >-
     Published a blog post about the turdokken containerscript project.
   projects:
@@ -492,6 +498,7 @@
       del: 0
 - date: '2021-05-22'
   impact: M
+  image: /images/devdiary/2021-05-22-commodore-datasette-c2n-mk2.jpg
   summary: >-
     Added several new blog posts including a manager toolbox guide, a
     computer history piece, and updated the pinhole photography thumbnail.
@@ -576,6 +583,7 @@
       del: 40
 - date: '2021-06-22'
   impact: L
+  image: /images/devdiary/2021-06-22-plugin.jpg
   summary: >-
     Created the new m4l-FractalNoteEcho Max for Live project with initial
     commits, README, and screenshots, and published a corresponding blog
@@ -624,6 +632,7 @@
       del: 10
 - date: '2021-07-08'
   impact: M
+  image: /images/devdiary/2021-07-08-screenshot.jpg
   summary: >-
     Cleaned up and added shared utilities to both FibonacciNoteEcho and
     FractalNoteEcho, added a README and screenshot to Fibonacci, and
@@ -639,6 +648,7 @@
       del: 234
 - date: '2021-07-21'
   impact: L
+  image: /images/devdiary/2021-07-21-input-on.jpg
   summary: >-
     Created the new m4l-js-toggleInput Max for Live device with an initial
     commit and installation documentation.
@@ -659,6 +669,7 @@
       del: 2
 - date: '2021-07-25'
   impact: M
+  image: /images/devdiary/2021-07-25-screenshot.jpg
   summary: >-
     Fixed bugs and improved the visualization in FibonacciNoteEcho (first-
     note timing, Fibonacci sequence bug, naming consistency), and applied
@@ -694,6 +705,7 @@
       del: 1
 - date: '2021-08-14'
   impact: S
+  image: /images/devdiary/2021-08-14-iter2-4.jpg
   summary: >-
     Updated the blog's FractalNoteEcho post with a better intro and
     refreshed screenshots.
@@ -813,6 +825,7 @@
       del: 23
 - date: '2022-01-09'
   impact: L
+  image: /images/devdiary/2022-01-09-faderboard-boobie.jpg
   summary: >-
     Launched the m4l-zs-Faderboard3 project with its initial commit and
     rapidly built out full per-voice loop control including a loop position
@@ -829,6 +842,7 @@
       del: 6
 - date: '2022-01-10'
   impact: L
+  image: /images/devdiary/2022-01-10-faderboard-boobie-real.jpg
   summary: >-
     Fixed several bugs in Faderboard3 (sample restart, mono file handling,
     channel 9/10 off button), added a Restart All button, enhanced the
@@ -854,6 +868,7 @@
       del: 0
 - date: '2022-01-13'
   impact: S
+  image: /images/devdiary/2022-01-13-network-midi-setup.jpg
   summary: >-
     Wrote and completed a blog post on setting up Network MIDI on the
     personal website.
@@ -864,6 +879,7 @@
       del: 6
 - date: '2022-01-14'
   impact: S
+  image: /images/devdiary/2022-01-14-device.jpg
   summary: >-
     Added an example image and fixed pan automation display in Faderboard3,
     and published a new Music Tools page on the website.
@@ -945,6 +961,7 @@
       del: 8
 - date: '2022-02-15'
   impact: M
+  image: /images/devdiary/2022-02-15-device.jpg
   summary: >-
     Added a de-click feature to Faderboard3 with a default-zero setting and
     updated the device image and changelog; also published a post about the
@@ -960,6 +977,7 @@
       del: 6
 - date: '2022-02-16'
   impact: S
+  image: /images/devdiary/2022-02-16-virus-emu.jpg
   summary: >-
     Added a virus-related blog post with images and made resume CSS
     improvements on the website.
@@ -970,6 +988,7 @@
       del: 1
 - date: '2022-02-17'
   impact: L
+  image: /images/devdiary/2022-02-17-device.jpg
   summary: >-
     Made major changes to Faderboard3: expanded to 10 faders, added scale
     presets, enabled individual fader MIDI outputs, added Live play/stop
@@ -1006,6 +1025,7 @@
       del: 533
 - date: '2022-03-01'
   impact: S
+  image: /images/devdiary/2022-03-01-automator-vim.jpg
   summary: >-
     Published a blog post about using Automator with Vim on the personal
     website.
@@ -1035,6 +1055,7 @@
       del: 16
 - date: '2022-03-05'
   impact: S
+  image: /images/devdiary/2022-03-05-key-shortcut.jpg
   summary: >-
     Continued polishing the "what's next" page and resume, tightened up
     copy, and removed emoji placeholders on the website.
@@ -1054,6 +1075,7 @@
       del: 1
 - date: '2022-03-16'
   impact: S
+  image: /images/devdiary/2022-03-16-device.jpg
   summary: >-
     Wrote and published a blog post about the Knobbler M4L device, with
     styling and headline improvements on the website.
@@ -1089,6 +1111,7 @@
       del: 33660
 - date: '2022-04-08'
   impact: L
+  image: /images/devdiary/2022-04-08-device.jpg
   summary: >-
     Launched the m4l-Modulation-Math device with its initial commit, added
     live.banks Push mappings and a changelog, and published a blog post with
@@ -1104,6 +1127,7 @@
       del: 3
 - date: '2022-04-09'
   impact: L
+  image: /images/devdiary/2022-04-09-device.jpg
   summary: >-
     Created and published the m4l-CurrentParamKnob device with a frozen
     release, and continued refining Modulation-Math's layout, image, and
@@ -1119,6 +1143,7 @@
       del: 0
 - date: '2022-04-10'
   impact: M
+  image: /images/devdiary/2022-04-10-device.jpg
   summary: >-
     Prettified and documented both CurrentParamKnob and Modulation-Math with
     better images and cleanup.
@@ -1133,6 +1158,7 @@
       del: 158
 - date: '2022-04-14'
   impact: S
+  image: /images/devdiary/2022-04-14-spaghetti-before.jpg
   summary: >-
     Published a Max tips blog post with a table of contents and heading
     fixes on the personal website.
@@ -1163,6 +1189,7 @@
       del: 67
 - date: '2022-04-27'
   impact: L
+  image: /images/devdiary/2022-04-27-device.jpg
   summary: >-
     Released Modulation-Math 0.0.4 with multiple mapping destinations,
     launched the new m4l-TempoToMs device with initial commit and README,
@@ -1182,6 +1209,7 @@
       del: 0
 - date: '2022-04-28'
   impact: M
+  image: /images/devdiary/2022-04-28-device.jpg
   summary: >-
     Upgraded TempoToMs to use vexpr for calculations with improved colors
     and minor visual alignment fixes, publishing version 0.0.3.
@@ -1192,6 +1220,7 @@
       del: 1086
 - date: '2022-04-29'
   impact: L
+  image: /images/devdiary/2022-04-29-device.jpg
   summary: >-
     Created and published the m4l-KS-Synth (Karplus-Strong synthesizer)
     device with an initial frozen release, reduced polyphony for CPU
@@ -1217,6 +1246,7 @@
       del: 63
 - date: '2022-05-05'
   impact: L
+  image: /images/devdiary/2022-05-05-device.jpg
   summary: >-
     Launched the m4l-TapPanZeit device with initial commit, screenshots,
     instructions, and a linked blog post on the website.
@@ -1231,6 +1261,7 @@
       del: 0
 - date: '2022-05-06'
   impact: L
+  image: /images/devdiary/2022-05-06-device.jpg
   summary: >-
     Refined TapPanZeit with a visual refresh, help text on all controls,
     better Push assignments, and improved CPU utilization, publishing
@@ -1261,6 +1292,7 @@
       del: 3
 - date: '2022-05-15'
   impact: M
+  image: /images/devdiary/2022-05-15-device.jpg
   summary: >-
     Added a tap volume function control to TapPanZeit and published version
     0.0.4 with an updated device image.
@@ -1271,6 +1303,7 @@
       del: 48
 - date: '2022-05-16'
   impact: M
+  image: /images/devdiary/2022-05-16-img-1854.jpg
   summary: >-
     Published Modulation-Math 0.0.5 with Push knob assignment via live.banks
     configuration.
@@ -1314,6 +1347,7 @@
       del: 0
 - date: '2022-05-30'
   impact: L
+  image: /images/devdiary/2022-05-30-device.jpg
   summary: >-
     Created and published the m4l-Modulation-Stepper device with its first
     commit and README, and added it to the website's tools listing.
@@ -1338,6 +1372,7 @@
       del: 128
 - date: '2022-06-12'
   impact: M
+  image: /images/devdiary/2022-06-12-screenshot.jpg
   summary: >-
     Fixed the Fibonacci algorithm in FibonacciNoteEcho, updated the UI,
     corrected control order in the README, and published a frozen version.
@@ -1348,6 +1383,7 @@
       del: 130
 - date: '2022-06-13'
   impact: S
+  image: /images/devdiary/2022-06-13-moon-phone.jpg
   summary: >-
     Published a corrected frozen version 0.0.2 of FibonacciNoteEcho after
     resolving the algorithm fix.
@@ -1376,6 +1412,7 @@
       del: 8
 - date: '2022-10-01'
   impact: S
+  image: /images/devdiary/2022-10-01-tesla.jpg
   summary: >-
     Added a new_post helper script and published a Tesla-related blog post
     on the personal website.
@@ -1386,6 +1423,7 @@
       del: 0
 - date: '2022-10-18'
   impact: M
+  image: /images/devdiary/2022-10-18-device.jpg
   summary: >-
     Created the zs-Feedback-Matrix project with an initial commit, organized
     the frozen file into its own subdirectory, and documented the preset
@@ -1415,6 +1453,7 @@
       del: 5
 - date: '2022-11-10'
   impact: S
+  image: /images/devdiary/2022-11-10-yahoo.jpg
   summary: >-
     Published several new blog posts covering Yahoo, perpetual storage,
     Stripe, and a definition of DRI on the personal website.
@@ -1434,6 +1473,7 @@
       del: 2
 - date: '2022-11-14'
   impact: S
+  image: /images/devdiary/2022-11-14-3x9a1962.jpg
   summary: >-
     Applied general content updates to the personal website.
   projects:
@@ -1470,6 +1510,7 @@
       del: 44
 - date: '2022-11-29'
   impact: L
+  image: /images/devdiary/2022-11-29-device.jpg
   summary: >-
     Launched the m4l-Modulation-Delay device with initial commit, added a
     sum scope, published a frozen version with color updates and URL fix,
@@ -1485,6 +1526,7 @@
       del: 0
 - date: '2022-11-30'
   impact: L
+  image: /images/devdiary/2022-11-30-flowchart.jpg
   summary: >-
     Added tempo sync, fixed multi-mapping display and buffer size bugs in
     Modulation-Delay; created the zs-Send-Duck-Rack project with its initial
@@ -1504,6 +1546,7 @@
       del: 0
 - date: '2022-12-05'
   impact: L
+  image: /images/devdiary/2022-12-05-device.gif
   summary: >-
     Renamed and rebranded three Modulation devices (Math, Delay, Stepper) to
     consistent naming with integer version numbers, added animated GIFs to
@@ -1538,6 +1581,7 @@
       del: 2
 - date: '2022-12-25'
   impact: S
+  image: /images/devdiary/2022-12-25-current.jpg
   summary: >-
     Published a "Chain Views" blog post on the personal website on Christmas
     Day.
@@ -1548,6 +1592,7 @@
       del: 0
 - date: '2023-01-21'
   impact: M
+  image: /images/devdiary/2023-01-21-truenas-box.jpg
   summary: >-
     Spent the day polishing the personal GitHub Pages site with numerous
     small fixes, wording tweaks, thumbnail layout corrections, and added
@@ -1569,6 +1614,7 @@
       del: 3
 - date: '2023-01-29'
   impact: S
+  image: /images/devdiary/2023-01-29-img-7583.jpg
   summary: >-
     Added an empty robots.txt and introduced environment awareness to
     support a PROD_MODE flag for disabling livereload and incremental
@@ -1590,6 +1636,7 @@
       del: 1
 - date: '2023-02-16'
   impact: L
+  image: /images/devdiary/2023-02-16-truenas-temp-before.jpg
   summary: >-
     Kicked off heavy development on a new photodirs project, making
     substantial progress on the core functionality and fleshing out the
@@ -1685,6 +1732,7 @@
       del: 167
 - date: '2023-02-25'
   impact: M
+  image: /images/devdiary/2023-02-25-img-9010.jpg
   summary: >-
     Migrated photodirs to a production/dev directory split, improved
     logging, switched from moment to dayjs, and made solid progress on cache
@@ -1737,6 +1785,7 @@
       del: 698
 - date: '2023-03-05'
   impact: M
+  image: /images/devdiary/2023-03-05-img-2910.jpg
   summary: >-
     Fixed EXIF issues, added an exif-set script, extracted the thumbnail
     into its own component, and improved the photo element layout with
@@ -1748,6 +1797,7 @@
       del: 149
 - date: '2023-03-06'
   impact: L
+  image: /images/devdiary/2023-03-06-hero.jpg
   summary: >-
     Major photodirs session adding full video support with transcoding
     queue, a hero banner, keyboard navigation improvements, favicon/logo,
@@ -1802,6 +1852,7 @@
       del: 84
 - date: '2023-03-11'
   impact: M
+  image: /images/devdiary/2023-03-11-out.jpg
   summary: >-
     Added universal YAML sidecar file support for any photo/video, improved
     swipe feel, and migrated to node-exiftool for more robust EXIF handling
@@ -1919,6 +1970,7 @@
       del: 7
 - date: '2023-03-25'
   impact: L
+  image: /images/devdiary/2023-03-25-tesla.jpg
   summary: >-
     Launched the steinkamp.us personal site with an initial commit, setting
     up Markdoc and Docker and making it look presentable — a large new
@@ -2020,6 +2072,7 @@
       del: 59
 - date: '2023-04-10'
   impact: L
+  image: /images/devdiary/2023-04-10-device.gif
   summary: >-
     Created and published the m4l-Modulation-Lerp Max for Live device with
     initial commit and GIF, and added a post about it on steinkamp.us with
@@ -2035,6 +2088,7 @@
       del: 0
 - date: '2023-04-11'
   impact: S
+  image: /images/devdiary/2023-04-11-lerp.jpg
   summary: >-
     Improved the Modulation Lerp animation and added a video and post about
     it to steinkamp.us.
@@ -2070,6 +2124,7 @@
       del: 52
 - date: '2023-04-14'
   impact: M
+  image: /images/devdiary/2023-04-14-autechre.jpg
   summary: >-
     Fixed date handling and sorting in photodirs, added date display on the
     photo page, and published significant new content to steinkamp.us
@@ -2128,6 +2183,7 @@
       del: 52
 - date: '2023-04-21'
   impact: M
+  image: /images/devdiary/2023-04-21-access-virus-a.jpg
   summary: >-
     Added album links, YouTube thumbnails, and updated pop-related content
     and images on steinkamp.us.
@@ -2156,6 +2212,7 @@
       del: 33
 - date: '2023-04-30'
   impact: L
+  image: /images/devdiary/2023-04-30-poster-closeup.jpg
   summary: >-
     Launched a new memorial site (dick.steinkamp.us) with initial commit,
     baseline content, and multiple pages, and updated steinkamp.us to link
@@ -2171,6 +2228,7 @@
       del: 1310
 - date: '2023-05-01'
   impact: M
+  image: /images/devdiary/2023-05-01-68-rover-v8-trans.jpg
   summary: >-
     Added a timeline feature to dick.steinkamp.us with a sizeable new
     content commit.
@@ -2206,6 +2264,7 @@
       del: 1
 - date: '2023-05-12'
   impact: S
+  image: /images/devdiary/2023-05-12-honda-scrambler.jpg
   summary: >-
     Added scrambler motorcycle content and a 1988 photo to
     dick.steinkamp.us, and tightened up the resume on steinkamp.us.
@@ -2268,6 +2327,7 @@
       del: 34
 - date: '2023-06-13'
   impact: S
+  image: /images/devdiary/2023-06-13-68-volvo-amazon.jpg
   summary: >-
     Added timeline images and fixed sort order by project year on
     dick.steinkamp.us.
@@ -2278,6 +2338,7 @@
       del: 2
 - date: '2023-06-25'
   impact: M
+  image: /images/devdiary/2023-06-25-img-9203.jpg
   summary: >-
     Published new travel content for St. Lucia with photos and layout work
     on steinkamp.us across 7 commits.
@@ -2321,6 +2382,7 @@
       del: 397
 - date: '2023-07-12'
   impact: L
+  image: /images/devdiary/2023-07-12-screenshot.jpg
   summary: >-
     Released v3 of m4l-FibonacciNoteEcho with a note-based time mode and
     updated screenshot, accompanied by a large binary bump.
@@ -2331,6 +2393,7 @@
       del: 63
 - date: '2023-07-14'
   impact: S
+  image: /images/devdiary/2023-07-14-salad.jpg
   summary: >-
     Published two new posts (salad and jury duty) to steinkamp.us.
   projects:
@@ -2359,6 +2422,7 @@
       del: 1
 - date: '2023-08-10'
   impact: S
+  image: /images/devdiary/2023-08-10-sequence.jpg
   summary: >-
     Added njs-acme documentation or configuration to steinkamp.us.
   projects:
@@ -2406,6 +2470,7 @@
       del: 1
 - date: '2023-09-09'
   impact: L
+  image: /images/devdiary/2023-09-09-keystepper.gif
   summary: >-
     Published initial commits for two new Max for Live devices —
     m4l-ChordRipper and m4l-KeyStepper — and added posts about both on
@@ -2444,6 +2509,7 @@
       del: 1
 - date: '2023-09-24'
   impact: L
+  image: /images/devdiary/2023-09-24-logo192.jpg
   summary: >-
     Created a brand new esstraba project (Strava activity explorer) with
     initial checkin, Docker container setup, and over 30,000 lines of
@@ -2464,6 +2530,7 @@
       del: 14
 - date: '2023-09-26'
   impact: M
+  image: /images/devdiary/2023-09-26-logo192.jpg
   summary: >-
     Cleaned up the esstraba project substantially — fixed Tailwind config,
     improved fonts and date/time display, set up frontend ports, and added
@@ -2475,6 +2542,7 @@
       del: 416
 - date: '2023-09-27'
   impact: M
+  image: /images/devdiary/2023-09-27-screenshot.jpg
   summary: >-
     Added gzipped GPX support, a responsive Tailwind layout, a README
     screenshot, and various cleanup to esstraba.
@@ -2505,6 +2573,7 @@
       del: 7
 - date: '2023-09-30'
   impact: M
+  image: /images/devdiary/2023-09-30-marker-start.jpg
   summary: >-
     Implemented React context for app state so back button works correctly,
     and added start/end map markers to esstraba.
@@ -2555,6 +2624,7 @@
       del: 2
 - date: '2023-10-05'
   impact: M
+  image: /images/devdiary/2023-10-05-screenshot.jpg
   summary: >-
     Added chart support and decimation to esstraba, published a blog post
     about esstraba on steinkamp.us, and made various display refinements.
@@ -2619,6 +2689,7 @@
       del: 53
 - date: '2023-10-20'
   impact: M
+  image: /images/devdiary/2023-10-20-blueprint.jpg
   summary: >-
     Published a Dev Team Blueprint article with images and redirects, plus
     several other content and wording updates to steinkamp.us.
@@ -2639,6 +2710,7 @@
       del: 9
 - date: '2023-10-27'
   impact: S
+  image: /images/devdiary/2023-10-27-brain-money.jpg
   summary: >-
     Added OpenGraph metadata support and published new therapy and personal
     content to steinkamp.us across 8 commits.
@@ -2667,6 +2739,7 @@
       del: 1
 - date: '2023-11-05'
   impact: M
+  image: /images/devdiary/2023-11-05-studio.jpg
   summary: >-
     Improved the musics player styling significantly and updated the
     steinkamp.us site with musics content and devex improvements across 7
@@ -2691,6 +2764,7 @@
       del: 3
 - date: '2023-11-12'
   impact: L
+  image: /images/devdiary/2023-11-12-lenstepper.gif
   summary: >-
     Created and published the m4l-LenStepper Max for Live device with an
     initial commit, and added a post about it on steinkamp.us.
@@ -2743,6 +2817,7 @@
       del: 37
 - date: '2023-11-30'
   impact: S
+  image: /images/devdiary/2023-11-30-authority.jpg
   summary: >-
     Published a new post about wielding authority to steinkamp.us.
   projects:
@@ -2752,6 +2827,7 @@
       del: 0
 - date: '2023-12-02'
   impact: S
+  image: /images/devdiary/2023-12-02-treespacewars.jpg
   summary: >-
     Removed hard-coded heights from the musics project.
   projects:
@@ -2771,6 +2847,7 @@
       del: 11
 - date: '2023-12-09'
   impact: L
+  image: /images/devdiary/2023-12-09-correlationmodulation.gif
   summary: >-
     Created and published a new m4l-CorrelationModulation Max for Live
     device with README, live.banks support, and added a post about it on
@@ -2786,6 +2863,7 @@
       del: 0
 - date: '2023-12-10'
   impact: L
+  image: /images/devdiary/2023-12-10-correlationmodulation.gif
   summary: >-
     Overhauled m4l-CorrelationModulation with a real correlation
     calculation, and added a MIDI version to the m4l-Modulation-Math device
@@ -2801,6 +2879,7 @@
       del: 749
 - date: '2023-12-26'
   impact: S
+  image: /images/devdiary/2023-12-26-3x9a3638-01.jpg
   summary: >-
     Updated the dcraw_emu binary location and added .Trashes to the ignore
     list in photodirs.
@@ -2831,6 +2910,7 @@
       del: 27
 - date: '2024-01-09'
   impact: L
+  image: /images/devdiary/2024-01-09-device.gif
   summary: >-
     Made the initial commit of a brand-new Max for Live device, Chiastic
     Slide, and published a corresponding blog post on steinkamp.us.
@@ -2856,6 +2936,7 @@
       del: 119
 - date: '2024-01-27'
   impact: M
+  image: /images/devdiary/2024-01-27-screenshot2.jpg
   summary: >-
     Improved the musics project with album support, visual polish, and a key
     helper, while also updating Prettier configuration on steinkamp.us.
@@ -2905,6 +2986,7 @@
       del: 1
 - date: '2024-02-22'
   impact: L
+  image: /images/devdiary/2024-02-22-architecture.jpg
   summary: >-
     Merged a substantial pull request adding admin support and a
     configurator feature to the photodirs project, with nearly 8,000 lines
@@ -2916,6 +2998,7 @@
       del: 3732
 - date: '2024-02-23'
   impact: M
+  image: /images/devdiary/2024-02-23-flightaware03topo.jpg
   summary: >-
     Spent the day polishing the photodirs UI with visual improvements,
     gradient text, and color tweaks, while also updating the personal site's
@@ -2931,6 +3014,7 @@
       del: 5
 - date: '2024-02-24'
   impact: M
+  image: /images/devdiary/2024-02-24-img-2922.jpg
   summary: >-
     Heavily iterated on both photodirs and steinkamp.us UI, refining title
     popups, EXIF display, thumbnail chooser, and responsive layout across 25
@@ -2946,6 +3030,7 @@
       del: 64
 - date: '2024-02-25'
   impact: S
+  image: /images/devdiary/2024-02-25-youtube.jpg
   summary: >-
     Published a YouTube post on steinkamp.us, made a small photodirs CSS
     fix, and corrected a typo.
@@ -3047,6 +3132,7 @@
       del: 203
 - date: '2024-03-04'
   impact: M
+  image: /images/devdiary/2024-03-04-architecture.jpg
   summary: >-
     Refined photodirs animations and README diagrams, and continued tuning
     steinkamp.us shadow effects, heading numbers, and ToC alignment across
@@ -3062,6 +3148,7 @@
       del: 87
 - date: '2024-03-05'
   impact: M
+  image: /images/devdiary/2024-03-05-album-page.jpg
   summary: >-
     Published a "filesystem apps" blog post on steinkamp.us with
     screenshots, simplified the ToC component, and updated photodirs images.
@@ -3076,6 +3163,7 @@
       del: 14
 - date: '2024-03-06'
   impact: S
+  image: /images/devdiary/2024-03-06-do-now-do-later.jpg
   summary: >-
     Minor resume update and added spacing below posts on steinkamp.us.
   projects:
@@ -3106,6 +3194,7 @@
       del: 913
 - date: '2024-03-10'
   impact: M
+  image: /images/devdiary/2024-03-10-screenshot2.jpg
   summary: >-
     Fixed multiple routing and rendering bugs in musics, updated the README
     and screenshots, improved sorting, and polished responsiveness across 23
@@ -3126,6 +3215,7 @@
       del: 42
 - date: '2024-03-12'
   impact: M
+  image: /images/devdiary/2024-03-12-wave-w.jpg
   summary: >-
     Added RSS/Atom feed support, a top link nav, a wave header element, and
     image consistency improvements to steinkamp.us.
@@ -3151,6 +3241,7 @@
       del: 34
 - date: '2024-03-14'
   impact: L
+  image: /images/devdiary/2024-03-14-mono.jpg
   summary: >-
     Extended the steinkamp.us blog listing with a timeline view, iframe
     markdoc tag, and mono code improvements, shipping over 1,500 new lines.
@@ -3175,6 +3266,7 @@
       del: 284
 - date: '2024-03-16'
   impact: L
+  image: /images/devdiary/2024-03-16-screenshot.jpg
   summary: >-
     Overhauled steinkamp.us with tagging support for all posts, a session-
     storage- backed filter, hydration fixes, and Tailwind dark mode variable
@@ -3259,6 +3351,7 @@
       del: 2
 - date: '2024-03-27'
   impact: S
+  image: /images/devdiary/2024-03-27-mission-ridge.jpg
   summary: >-
     Added a Mission Ridge image and made minor layout fixes on steinkamp.us.
   projects:
@@ -3330,6 +3423,7 @@
       del: 948
 - date: '2024-04-09'
   impact: S
+  image: /images/devdiary/2024-04-09-skills-graph.jpg
   summary: >-
     Added toolbox links and updated the ToC heading limit defaults on
     steinkamp.us.
@@ -3349,6 +3443,7 @@
       del: 2
 - date: '2024-04-13'
   impact: L
+  image: /images/devdiary/2024-04-13-device.gif
   summary: >-
     Built and launched the m4l-SimulScrub device from initial commits
     through a polished release with README, GIF demo, and reverse toggle,
@@ -3391,6 +3486,7 @@
       del: 2
 - date: '2024-04-27'
   impact: L
+  image: /images/devdiary/2024-04-27-device.gif
   summary: >-
     Shipped major updates to m4l-ChiasticSlide (new visualization, grouped
     track support) and fixed looping/stop-start bugs in m4l-SimulScrub v2,
@@ -3458,6 +3554,7 @@
       del: 894
 - date: '2024-05-06'
   impact: L
+  image: /images/devdiary/2024-05-06-device.gif
   summary: >-
     Released m4l-SimulScrub v4 with decoupled speed and volume ramp
     controls, fixed bugs, and updated device images, totaling over 5,700
@@ -3469,6 +3566,7 @@
       del: 575
 - date: '2024-05-11'
   impact: S
+  image: /images/devdiary/2024-05-11-simulscrub-herk-yt.jpg
   summary: >-
     Updated video links in m4l-SimulScrub README.
   projects:
@@ -3478,6 +3576,7 @@
       del: 4
 - date: '2024-05-17'
   impact: S
+  image: /images/devdiary/2024-05-17-retirement.jpg
   summary: >-
     Published a retirement post and added a photo to steinkamp.us.
   projects:
@@ -3487,6 +3586,7 @@
       del: 1
 - date: '2024-05-19'
   impact: S
+  image: /images/devdiary/2024-05-19-twenty-years-ago.jpg
   summary: >-
     Minor content update on steinkamp.us.
   projects:
@@ -3496,6 +3596,7 @@
       del: 1
 - date: '2024-05-22'
   impact: L
+  image: /images/devdiary/2024-05-22-device.gif
   summary: >-
     Made the initial commit of m4l-ChiasticSolo with a fixed automation bug,
     FAQ section, and GIF demo, and added it to the personal site.
@@ -3528,6 +3629,7 @@
       del: 2
 - date: '2024-05-31'
   impact: M
+  image: /images/devdiary/2024-05-31-sock-drawer.jpg
   summary: >-
     Published a new photo/content post and made several visual touchups to
     steinkamp.us.
@@ -3585,6 +3687,7 @@
       del: 18
 - date: '2024-07-27'
   impact: S
+  image: /images/devdiary/2024-07-27-turn-bad.jpg
   summary: >-
     Published a "run side of road" blog post on steinkamp.us with touchups
     and an image.
@@ -3595,6 +3698,7 @@
       del: 4
 - date: '2024-07-28'
   impact: L
+  image: /images/devdiary/2024-07-28-devcontainers.jpg
   summary: >-
     Massive day: made initial commits across six M4L device repos
     (Knobbler4, MoireArp, TriggerSeq, FractalNoteEcho, CurrentParamStrip,
@@ -3635,6 +3739,7 @@
       del: 0
 - date: '2024-07-29'
   impact: L
+  image: /images/devdiary/2024-07-29-screenshot.gif
   summary: >-
     Shipped FibonacciNoteEcho v4 with per-step flash behavior and TypeScript
     migration, updated FractalNoteEcho to v4, and updated screenshots on the
@@ -3674,6 +3779,7 @@
       del: 2
 - date: '2024-08-05'
   impact: L
+  image: /images/devdiary/2024-08-05-device.gif
   summary: >-
     Released m4l-zs-Faderboard3 v2 fixing high CPU usage, multi-instance
     bugs, and adding loop start/end swap with updated documentation, plus
@@ -3698,6 +3804,7 @@
       del: 146
 - date: '2024-08-09'
   impact: L
+  image: /images/devdiary/2024-08-09-lenstepper.gif
   summary: >-
     Shipped m4l-LenStepper v4 with preset support and fixed bugs related to
     loading sets and changing presets, totaling nearly 4,000 lines changed.
@@ -3708,6 +3815,7 @@
       del: 745
 - date: '2024-08-10'
   impact: L
+  image: /images/devdiary/2024-08-10-keystepper.gif
   summary: >-
     Released m4l-KeyStepper v4 with presets and a phantom step fix, adding
     2,200 lines.
@@ -3718,6 +3826,7 @@
       del: 114
 - date: '2024-08-14'
   impact: M
+  image: /images/devdiary/2024-08-14-screenshot-2024-08-14.jpg
   summary: >-
     Reached a great working state on both FibonacciNoteEcho and
     FractalNoteEcho with significant refinements.
@@ -3797,6 +3906,7 @@
       del: 239
 - date: '2024-08-17'
   impact: L
+  image: /images/devdiary/2024-08-17-thumbnail.jpg
   summary: >-
     Added Live 12 modulation mode support to five modulation devices (Math
     v8, Lerp v3, Delay v4, Stepper v3, CorrelationModulation v2) with visual
@@ -3832,6 +3942,7 @@
       del: 1
 - date: '2024-08-20'
   impact: L
+  image: /images/devdiary/2024-08-20-zs-mapper.jpg
   summary: >-
     Made initial commits for the m4l-zs.mapper project (a new MIDI mapping
     utility) with extras support, totaling 22,000+ lines across two repos.
@@ -3880,6 +3991,7 @@
       del: 0
 - date: '2024-08-26'
   impact: L
+  image: /images/devdiary/2024-08-26-device.jpg
   summary: >-
     Launched the m4l-Quantize-MIDI device with initial commit, README, and
     fixed download links, and promoted it on steinkamp.us, adding 5,000+
@@ -3895,6 +4007,7 @@
       del: 0
 - date: '2024-08-27'
   impact: L
+  image: /images/devdiary/2024-08-27-device.gif
   summary: >-
     Created and published the m4l-Modulation-Inertia device with initial
     commit and README, adding 13,000+ lines.
@@ -3944,6 +4057,7 @@
       del: 1
 - date: '2024-09-01'
   impact: S
+  image: /images/devdiary/2024-09-01-img-1703.jpg
   summary: >-
     Published a magnetic monitor mount post on steinkamp.us.
   projects:
@@ -3967,6 +4081,7 @@
       del: 1
 - date: '2024-09-03'
   impact: S
+  image: /images/devdiary/2024-09-03-img-0241.jpg
   summary: >-
     Fixed YAML and content in a steinkamp.us post, adding an Amazon link.
   projects:
@@ -4001,6 +4116,7 @@
       del: 717
 - date: '2024-09-08'
   impact: L
+  image: /images/devdiary/2024-09-08-touchosc-screenshot.jpg
   summary: >-
     Froze Knobbler4 v1 with polished docs, TouchOSC files, renamed prefix,
     and published the Knobbler4 page on steinkamp.us, totaling 27,000+ lines
@@ -4016,6 +4132,7 @@
       del: 6
 - date: '2024-09-10'
   impact: L
+  image: /images/devdiary/2024-09-10-device.gif
   summary: >-
     Shipped m4l-ChiasticSlide v4 with improved orientation, minmax support,
     and a frozen release, across 9 commits and 3,000+ lines.
@@ -4026,6 +4143,7 @@
       del: 638
 - date: '2024-09-11'
   impact: S
+  image: /images/devdiary/2024-09-11-selected-param.jpg
   summary: >-
     Added selected parameter display to Knobbler4, updated the Knobbler4
     post on steinkamp.us, and fixed a few typos.
@@ -4040,6 +4158,7 @@
       del: 3
 - date: '2024-09-12'
   impact: S
+  image: /images/devdiary/2024-09-12-external-with-hand.jpg
   summary: >-
     Added Knobbler images and fixed a category bug on steinkamp.us.
   projects:
@@ -4049,6 +4168,7 @@
       del: 1
 - date: '2024-09-13'
   impact: M
+  image: /images/devdiary/2024-09-13-device.jpg
   summary: >-
     Released ChiasticSlide v5 tracking children population/colors, released
     TempoToMs v5 in a smaller layout that works as an audio device, and
@@ -4152,6 +4272,7 @@
       del: 46
 - date: '2024-09-22'
   impact: L
+  image: /images/devdiary/2024-09-22-key-device.jpg
   summary: >-
     Shipped Knobbler4 v2 with hot-tip images and supporting materials,
     adding 21,000+ lines.
@@ -4162,6 +4283,7 @@
       del: 3
 - date: '2024-09-24'
   impact: S
+  image: /images/devdiary/2024-09-24-autobot4-cover.jpg
   summary: >-
     Added jump-to-track documentation to Knobbler4 README.
   projects:
@@ -4208,6 +4330,7 @@
       del: 2
 - date: '2024-09-28'
   impact: S
+  image: /images/devdiary/2024-09-28-knobbler4-autobot-cover.jpg
   summary: >-
     Added SimulScrub video embeds to steinkamp.us.
   projects:
@@ -4226,6 +4349,7 @@
       del: 0
 - date: '2024-09-30'
   impact: M
+  image: /images/devdiary/2024-09-30-ports.jpg
   summary: >-
     Added iPad refresh support, improved title alignment, refined Bluhand
     color changes, and added a ports diagram to Knobbler4.
@@ -4236,6 +4360,7 @@
       del: 191
 - date: '2024-10-11'
   impact: S
+  image: /images/devdiary/2024-10-11-side-light.jpg
   summary: >-
     Published a shop light post on steinkamp.us.
   projects:
@@ -4245,6 +4370,7 @@
       del: 0
 - date: '2024-10-12'
   impact: L
+  image: /images/devdiary/2024-10-12-magnet-base.jpg
   summary: >-
     Released Knobbler4 v3 with improved current-param-knob responsiveness,
     bank reset on device change, and consolidated TouchOSC file with
@@ -4260,6 +4386,7 @@
       del: 0
 - date: '2024-10-16'
   impact: M
+  image: /images/devdiary/2024-10-16-3x9a4209-edit.jpg
   summary: >-
     Updated Faderboard3 with improved look and feel and fixed preset
     storage, plus published a comet observation post on steinkamp.us.
@@ -4274,6 +4401,7 @@
       del: 0
 - date: '2024-10-17'
   impact: L
+  image: /images/devdiary/2024-10-17-device.gif
   summary: >-
     Released bug-fix versions of KeyStepper v6, LenStepper v5, and
     TapPanZeit v6 (with presets), and shipped Faderboard3 v3 with an octaves
@@ -4301,6 +4429,7 @@
       del: 14
 - date: '2024-10-18'
   impact: L
+  image: /images/devdiary/2024-10-18-device.gif
   summary: >-
     Launched WavScope (waveform oscilloscope) as a new M4L device, added
     banks and ignore support to ChordRipper, published CurrentParamKnob, and
@@ -4369,6 +4498,7 @@
       del: 0
 - date: '2024-10-22'
   impact: L
+  image: /images/devdiary/2024-10-22-img-1992.jpg
   summary: >-
     Shipped Knobbler4 v4 with device presets, 16 assignable shortcut
     buttons, and a frozen candidate, adding 25,000+ lines.
@@ -4389,6 +4519,7 @@
       del: 1823
 - date: '2024-10-26'
   impact: L
+  image: /images/devdiary/2024-10-26-tappanzeit-thumb.jpg
   summary: >-
     Released TapPanZeit v7 (renamed from previous) with simplified and
     corrected delay math, SVG assets, and documentation, totaling 6,000+
@@ -4522,6 +4653,7 @@
       del: 3
 - date: '2024-10-30'
   impact: M
+  image: /images/devdiary/2024-10-30-device.jpg
   summary: >-
     Enhanced the osc-telemetry server with country lookup and JSON output,
     fixed the Faderboard3 v5 volume fader responsiveness, and updated device
@@ -4677,6 +4809,7 @@
       del: 27
 - date: '2024-11-02'
   impact: M
+  image: /images/devdiary/2024-11-02-wavscope-thumb-copy.jpg
   summary: >-
     Released WavScope v3 with split/join mode and a more compact layout.
   projects:
@@ -4714,6 +4847,7 @@
       del: 1964
 - date: '2024-11-11'
   impact: L
+  image: /images/devdiary/2024-11-11-device.gif
   summary: >-
     Completed and released m4l-ScratchBacker with README, images,
     instructions, and published it on steinkamp.us, adding 9,000+ lines.
@@ -4738,6 +4872,7 @@
       del: 1393
 - date: '2024-11-13'
   impact: L
+  image: /images/devdiary/2024-11-13-scratchbacker-thumb.jpg
   summary: >-
     Released ScratchBacker v2 and added a video link, adding 7,800+ new
     lines.
@@ -4777,6 +4912,7 @@
       del: 389
 - date: '2024-11-20'
   impact: L
+  image: /images/devdiary/2024-11-20-tpzhowitsmade-thumb.jpg
   summary: >-
     Released TapPanZeit v10 with small refinements from video prep
     obsession, adding 8,100 lines.
@@ -4805,6 +4941,7 @@
       del: 468
 - date: '2024-11-22'
   impact: L
+  image: /images/devdiary/2024-11-22-device.gif
   summary: >-
     Released TapPanZeit v11 with full stereo meters and a buffer-based
     architecture, added a Live 12 workaround to ChiasticSolo docs, totaling
@@ -4824,6 +4961,7 @@
       del: 3
 - date: '2024-11-23'
   impact: M
+  image: /images/devdiary/2024-11-23-evolving-parenting.jpg
   summary: >-
     Explored and reverted zs.mapper integration into six modulation devices,
     then improved zs.mapper installation instructions and consistency across
@@ -4867,6 +5005,7 @@
       del: 0
 - date: '2024-11-24'
   impact: S
+  image: /images/devdiary/2024-11-24-modulator-thumb.jpg
   summary: >-
     Minor README heading and terminology fixes in m4l-zs.mapper.
   projects:
@@ -4908,6 +5047,7 @@
       del: 379
 - date: '2024-11-27'
   impact: M
+  image: /images/devdiary/2024-11-27-moirearp-thumb.jpg
   summary: >-
     Released m4l-MoireArp v1 and published it on steinkamp.us with 5,000+
     lines added.
@@ -4922,6 +5062,7 @@
       del: 0
 - date: '2024-11-28'
   impact: L
+  image: /images/devdiary/2024-11-28-moirearpjam-thumb.jpg
   summary: >-
     Released Knobbler4 v6 using rack chain names/colors instead of track
     names, and fixed a bug where duplicate fader mappings only updated one
@@ -4933,6 +5074,7 @@
       del: 106
 - date: '2024-11-29'
   impact: M
+  image: /images/devdiary/2024-11-29-device.gif
   summary: >-
     Released m4l-ChiasticSlide v7 with an endless knob implementation using
     a sampling approach and updated images across 10 commits.
@@ -4977,6 +5119,7 @@
       del: 993
 - date: '2024-12-04'
   impact: L
+  image: /images/devdiary/2024-12-04-headshot.jpg
   summary: >-
     Released Knobbler4 v9 with bugfixes, a JS router simplification, and a
     fix for button value display on sliders, with 32,000+ lines changed.
@@ -4987,6 +5130,7 @@
       del: 5053
 - date: '2024-12-07'
   impact: M
+  image: /images/devdiary/2024-12-07-tpz-in60-thumb.jpg
   summary: >-
     Released ChiasticSlide v8 that detects and respects direction
     automation, and reverted a constant-power panning change in TapPanZeit
@@ -5002,6 +5146,7 @@
       del: 315
 - date: '2024-12-09'
   impact: S
+  image: /images/devdiary/2024-12-09-cs-in60-thumb.jpg
   summary: >-
     Reorganized layout and moved things around in Faderboard3.
   projects:
@@ -5011,6 +5156,7 @@
       del: 275
 - date: '2024-12-10'
   impact: M
+  image: /images/devdiary/2024-12-10-fb-in60-thumb.jpg
   summary: >-
     Released Faderboard3 v6 with a default cleanup, and added an
     endless/fixed toggle and accurate min/max volume visualization to
@@ -5069,6 +5215,7 @@
       del: 221
 - date: '2024-12-14'
   impact: M
+  image: /images/devdiary/2024-12-14-web-app-manifest-512x512.jpg
   summary: >-
     Heavily polished the plugins site with grid layout, favicon, better
     footer, category tiles, and MoireArp listing, across 20 commits, and
@@ -5088,6 +5235,7 @@
       del: 0
 - date: '2024-12-15'
   impact: M
+  image: /images/devdiary/2024-12-15-device.jpg
   summary: >-
     Released ChiasticSlide v10 with automation buttons, updated README
     images in multiple M4L repos, and simplified the plugins site layout.
@@ -5138,6 +5286,7 @@
       del: 2
 - date: '2024-12-17'
   impact: L
+  image: /images/devdiary/2024-12-17-external-with-hand.jpg
   summary: >-
     Released MoireArp v2 with scale awareness and added recent-plugins
     display and dynamic layout to the plugins site.
@@ -5152,6 +5301,7 @@
       del: 338
 - date: '2024-12-18'
   impact: L
+  image: /images/devdiary/2024-12-18-screenshot-2024-12-18.jpg
   summary: >-
     Released FibonacciNoteEcho v6 and FractalNoteEcho v6 with scale
     awareness, fixed an in-between note bug in MoireArp, and added category
@@ -5190,6 +5340,7 @@
       del: 1
 - date: '2024-12-20'
   impact: L
+  image: /images/devdiary/2024-12-20-moirejam6-thumb.jpg
   summary: >-
     Released Knobbler4 v10 fixing Current Param Knob string value display,
     and started scale-awareness work on Faderboard3, adding 24,000+ lines.
@@ -5204,6 +5355,7 @@
       del: 223
 - date: '2024-12-21'
   impact: L
+  image: /images/devdiary/2024-12-21-moirejam7faderboardmidi-thumb2.jpg
   summary: >-
     Released Faderboard3 v7 with scale awareness across four commits, adding
     10,000+ lines.
@@ -5214,6 +5366,7 @@
       del: 651
 - date: '2024-12-22'
   impact: S
+  image: /images/devdiary/2024-12-22-about-photo.jpg
   summary: >-
     Released FractalNoteEcho v7 fixing an out-of-scale note bug, and added
     an about page with email to the plugins site.
@@ -5251,6 +5404,7 @@
       del: 1
 - date: '2024-12-27'
   impact: S
+  image: /images/devdiary/2024-12-27-delaybuddy-thumb2.jpg
   summary: >-
     Updated expo-osc README with string presence documentation.
   projects:
@@ -5260,6 +5414,7 @@
       del: 10
 - date: '2024-12-28'
   impact: L
+  image: /images/devdiary/2024-12-28-adaptive-icon.jpg
   summary: >-
     Made 18 commits to the new knobbler-native React Native app, building
     out the Slider component, color system, flow layout, and basic GUI
@@ -5275,6 +5430,7 @@
       del: 0
 - date: '2024-12-29'
   impact: M
+  image: /images/devdiary/2024-12-29-splashscreen-logo.jpg
   summary: >-
     Continued knobbler-native development, getting banks, shortcuts, Bluhand
     view, double-tap, and a second page working across 18 commits.
@@ -5335,6 +5491,7 @@
       del: 57
 - date: '2025-01-03'
   impact: S
+  image: /images/devdiary/2025-01-03-adaptive-icon.jpg
   summary: >-
     Applied visual polish to knobbler-native including a black background,
     correct initial slider values on construction, and app name and icons.
@@ -5362,6 +5519,7 @@
       del: 93
 - date: '2025-01-05'
   impact: L
+  image: /images/devdiary/2025-01-05-app-icon-1024x1024-1x.jpg
   summary: >-
     Fixed a critical bug in knobbler-native where only one Knobbler device
     showed up at a time, improved device-name-based discovery, and added a
@@ -5476,6 +5634,7 @@
       del: 29
 - date: '2025-01-12'
   impact: L
+  image: /images/devdiary/2025-01-12-device-screenshot.jpg
   summary: >-
     Launched a new Max for Live device, m4l-Crisco (a lookahead limiter),
     with its initial v1 release. Also shipped m4l-Knobbler4 v12 featuring a
@@ -5500,6 +5659,7 @@
       del: 39
 - date: '2025-01-14'
   impact: S
+  image: /images/devdiary/2025-01-14-device-screenshot.jpg
   summary: >-
     Added a small TODO note to m4l-MoireArp about initial note state.
   projects:
@@ -5528,6 +5688,7 @@
       del: 45
 - date: '2025-01-20'
   impact: L
+  image: /images/devdiary/2025-01-20-live-theme-colors.jpg
   summary: >-
     Added track and device navigation buttons with Ableton-style colors to
     knobbler-native. Released m4l-Knobbler4 v13 with bank buttons,
@@ -5543,6 +5704,7 @@
       del: 54
 - date: '2025-01-21'
   impact: L
+  image: /images/devdiary/2025-01-21-device-screenshot.jpg
   summary: >-
     Added transport controls with icons to knobbler-native and improved font
     handling. Released m4l-Knobbler4 v14 with transport support, better
@@ -5558,6 +5720,7 @@
       del: 102
 - date: '2025-01-22'
   impact: L
+  image: /images/devdiary/2025-01-22-control-buttons-top.jpg
   summary: >-
     Added more action buttons to knobbler-native. Released m4l-Knobbler4 v15
     with extensive iPad app support: transport controls, Capture MIDI, loop,
@@ -5600,6 +5763,7 @@
       del: 164
 - date: '2025-01-26'
   impact: L
+  image: /images/devdiary/2025-01-26-img-c23317b798f0-1.jpg
   summary: >-
     Released m4l-Knobbler4 v16 (track/device browsing, tempo controls, macro
     knob limits). Continued developing m4l-PitchPath with preset support and
@@ -5619,6 +5783,7 @@
       del: 0
 - date: '2025-01-27'
   impact: L
+  image: /images/devdiary/2025-01-27-device.gif
   summary: >-
     Completed and released m4l-PitchPath v1 with relative mode, renaming
     from LineSeq, frozen files, readme, images, and observer improvements.
@@ -5667,6 +5832,7 @@
       del: 35
 - date: '2025-01-30'
   impact: M
+  image: /images/devdiary/2025-01-30-img-2645.jpg
   summary: >-
     Cleaned up hierarchical track/device structure handling in both
     knobbler-native and m4l-Knobbler4, and added more documentation to
@@ -5686,6 +5852,7 @@
       del: 309
 - date: '2025-01-31'
   impact: L
+  image: /images/devdiary/2025-01-31-track-ebo-bc.jpg
   summary: >-
     Major quality day: improved knobbler-native dropdown scroll behavior,
     automation state display, and UI styling. Updated m4l-Knobbler4 with
@@ -5711,6 +5878,7 @@
       del: 0
 - date: '2025-02-01'
   impact: L
+  image: /images/devdiary/2025-02-01-img-2665.jpg
   summary: >-
     Released m4l-Knobbler4 v18 with automation/enabled state, macro knob
     layout improvements, and consistent device/track payloads for the
@@ -5732,6 +5900,7 @@
       del: 52
 - date: '2025-02-02'
   impact: M
+  image: /images/devdiary/2025-02-02-img-0321.jpg
   summary: >-
     Polished knobbler-native with a unified dropdown, device on/off support,
     and color/spacing fixes. Updated m4l-Knobbler4 with name lookup caching,
@@ -5747,6 +5916,7 @@
       del: 50
 - date: '2025-02-03'
   impact: L
+  image: /images/devdiary/2025-02-03-img-0329.jpg
   summary: >-
     Released m4l-Knobbler4 v19 with device on/off support and performance
     improvements. Refined knobbler-native button styles and fixed several
@@ -5840,6 +6010,7 @@
       del: 36
 - date: '2025-02-08'
   impact: M
+  image: /images/devdiary/2025-02-08-img-2699.jpg
   summary: >-
     Polished knobbler-native animations, mapping UI, and sent Ableton track
     colors to the app. Added seamless Bluhand-to-Knobbler direct mapping in
@@ -5855,6 +6026,7 @@
       del: 136
 - date: '2025-02-09'
   impact: M
+  image: /images/devdiary/2025-02-09-screenshot-2025-02-09.jpg
   summary: >-
     Improved device on/off handling and simplified the record toggle in
     knobbler-native. Fixed record arm switches behavior in m4l-Knobbler4.
@@ -5869,6 +6041,7 @@
       del: 367
 - date: '2025-02-10'
   impact: M
+  image: /images/devdiary/2025-02-10-img-2701.jpg
   summary: >-
     Added toggleable device children display, switched Bluhand mapping from
     long-press to tap, and removed redundant color constants in knobbler-
@@ -5884,6 +6057,7 @@
       del: 29
 - date: '2025-02-11'
   impact: M
+  image: /images/devdiary/2025-02-11-screenshot-2025-02-11.jpg
   summary: >-
     Made significant progress on track output support in m4l-Knobbler4 in an
     in-progress working checkpoint.
@@ -5894,6 +6068,7 @@
       del: 438
 - date: '2025-02-12'
   impact: L
+  image: /images/devdiary/2025-02-12-screenshot-2025-02-12.jpg
   summary: >-
     Reached a working checkpoint for track output (actual params) in
     m4l-Knobbler4 with deduped output and freepeer task cancellation. Fixed
@@ -5974,6 +6149,7 @@
       del: 25
 - date: '2025-02-17'
   impact: S
+  image: /images/devdiary/2025-02-17-overall.jpg
   summary: >-
     Started writing documentation for m4l-Knobbler4 with overview images and
     initial doc structure.
@@ -5984,6 +6160,7 @@
       del: 28
 - date: '2025-02-18'
   impact: L
+  image: /images/devdiary/2025-02-18-overview-app-device.jpg
   summary: >-
     Completed substantial documentation for m4l-Knobbler4 with overview
     images, reordered content, and released v24 fixing mixer control
@@ -5999,6 +6176,7 @@
       del: 204
 - date: '2025-02-19'
   impact: L
+  image: /images/devdiary/2025-02-19-external-with-hand.jpg
   summary: >-
     Shipped m4l-Knobbler4 v25 and v26 fixing VST param bugs, and completed
     comprehensive documentation with USB images and full content. Built out
@@ -6019,6 +6197,7 @@
       del: 1
 - date: '2025-02-20'
   impact: M
+  image: /images/devdiary/2025-02-20-windows-firewall-1.jpg
   summary: >-
     Improved the m4l-Knobbler4 setup docs with Windows firewall images and
     better control surface wording. Added TypeScript fixes, docs sidebar,
@@ -6034,6 +6213,7 @@
       del: 12
 - date: '2025-02-21'
   impact: M
+  image: /images/devdiary/2025-02-21-knob-states.jpg
   summary: >-
     Expanded the m4l-Knobbler4 OSC API documentation, added slider/knob
     state descriptions, TOC, and download section. Improved plugins site
@@ -6049,6 +6229,7 @@
       del: 30
 - date: '2025-02-22'
   impact: L
+  image: /images/devdiary/2025-02-22-2025-02-22-knobblerforipadin60.jpg
   summary: >-
     Released m4l-Knobbler4 v27 fixing a crash bug for tracks with no
     devices. Added credits and attempted video embedding. Also added an
@@ -6064,6 +6245,7 @@
       del: 0
 - date: '2025-02-23'
   impact: S
+  image: /images/devdiary/2025-02-23-2025-02-23-knobblerwalkthru.jpg
   summary: >-
     Added video links to m4l-Knobbler4 documentation.
   projects:
@@ -6083,6 +6265,7 @@
       del: 11
 - date: '2025-02-25'
   impact: S
+  image: /images/devdiary/2025-02-25-screenshot-2025-02-25.jpg
   summary: >-
     Added Android support fixes to expo-osc and corresponding Android
     build/gesture changes to knobbler-native.
@@ -6097,6 +6280,7 @@
       del: 12
 - date: '2025-02-27'
   impact: S
+  image: /images/devdiary/2025-02-27-overall-16x9.jpg
   summary: >-
     Improved gesture handling in vertical sliders for Android in knobbler-
     native and attempted to hide the Android navigation bar. Minor updates
@@ -6116,6 +6300,7 @@
       del: 1
 - date: '2025-02-28'
   impact: S
+  image: /images/devdiary/2025-02-28-knobblerappstoreannotated.jpg
   summary: >-
     Bumped the Android version in knobbler-native.
   projects:
@@ -6125,6 +6310,7 @@
       del: 3
 - date: '2025-03-01'
   impact: L
+  image: /images/devdiary/2025-03-01-screenshot-2025-03-01.jpg
   summary: >-
     Released m4l-Knobbler4 v29 removing the control surface requirement
     (major usability improvement) with more reliable nav display. Published
@@ -6173,6 +6359,7 @@
       del: 283
 - date: '2025-03-05'
   impact: L
+  image: /images/devdiary/2025-03-05-device.jpg
   summary: >-
     Released m4l-Knobbler4 v30 with auto-collapse of racks, bidirectional
     OSC page automation, and track children toggling. Also launched a new
@@ -6197,6 +6384,7 @@
       del: 0
 - date: '2025-03-06'
   impact: M
+  image: /images/devdiary/2025-03-06-network-ports.jpg
   summary: >-
     Updated m4l-Knobbler4 docs with port info. Improved the plugins site
     with responsive layout, better nav, and yellow hover links. Released
@@ -6216,6 +6404,7 @@
       del: 5
 - date: '2025-03-07'
   impact: S
+  image: /images/devdiary/2025-03-07-user-library.jpg
   summary: >-
     Minor version bumps and iOS push notification warning fix in knobbler-
     native. Small updates to m4l-Knobbler4 docs and steinkamp.us.
@@ -6305,6 +6494,7 @@
       del: 15
 - date: '2025-03-16'
   impact: L
+  image: /images/devdiary/2025-03-16-ip-address.jpg
   summary: >-
     Released m4l-Knobbler4 v31 making it resilient to non-compliant MIDI
     devices. Removed zs-kick-2 from the plugins site listing.
@@ -6319,6 +6509,7 @@
       del: 8
 - date: '2025-03-17'
   impact: L
+  image: /images/devdiary/2025-03-17-overall.jpg
   summary: >-
     Released m4l-PitchPath v3 and v4 adding Phase controls, transport sync,
     presets, instructions, and fixing a timing bug. Updated plugins site
@@ -6342,6 +6533,7 @@
       del: 1
 - date: '2025-03-18'
   impact: S
+  image: /images/devdiary/2025-03-18-2025-03-18-pitchpath.jpg
   summary: >-
     Added a video and fixed an SVG to m4l-PitchPath. Minor border tweak in
     m4l-Knobbler4 and a backtick rendering fix in the plugins site.
@@ -6360,6 +6552,7 @@
       del: 0
 - date: '2025-03-19'
   impact: L
+  image: /images/devdiary/2025-03-19-2025-03-19-pitchpathupdate.jpg
   summary: >-
     Released m4l-PitchPath v5 with transport lock and a timing bug fix.
     Released m4l-Knobbler4 v31 simplifying device names on Bluhand. Multiple
@@ -6384,6 +6577,7 @@
       del: 1059
 - date: '2025-03-20'
   impact: L
+  image: /images/devdiary/2025-03-20-device.gif
   summary: >-
     Polished and completed m4l-TriggerSeq with readme, images, code cleanup,
     and better step placement — added it to the plugins site.
@@ -6398,6 +6592,7 @@
       del: 0
 - date: '2025-03-21'
   impact: M
+  image: /images/devdiary/2025-03-21-scratchbacker-thumb.jpg
   summary: >-
     Fixed SVG files in m4l-TriggerSeq and added random step generation.
     Added a video thumbnail to m4l-ScratchBacker.
@@ -6412,6 +6607,7 @@
       del: 0
 - date: '2025-03-22'
   impact: L
+  image: /images/devdiary/2025-03-22-device.gif
   summary: >-
     Major m4l-TriggerSeq update: released v2 with chord support (8 voices),
     tie mode, color improvements, presets, and crash fixes.
@@ -6426,6 +6622,7 @@
       del: 1
 - date: '2025-03-23'
   impact: L
+  image: /images/devdiary/2025-03-23-device.gif
   summary: >-
     Released m4l-TriggerSeq v3 with hold mode and wider swing range, plus
     poly/choke fixes. Added double-tap restore and Android build targets to
@@ -6497,6 +6694,7 @@
       del: 6
 - date: '2025-03-31'
   impact: L
+  image: /images/devdiary/2025-03-31-overall.jpg
   summary: >-
     Released m4l-CurrentParamKnob v2 with USB control support and debug
     tooling. Added it to the plugins site.
@@ -6511,6 +6709,7 @@
       del: 5
 - date: '2025-04-03'
   impact: L
+  image: /images/devdiary/2025-04-03-usb-knob.jpg
   summary: >-
     Added Ableton Live Variations support to both knobbler-native and
     m4l-Knobbler4 (v32), allowing the current variation to be displayed and
@@ -6531,6 +6730,7 @@
       del: 0
 - date: '2025-04-04'
   impact: L
+  image: /images/devdiary/2025-04-04-overall.jpg
   summary: >-
     Created and released a brand-new Max for Live device,
     m4l-VariationOctave, with initial commit and v1 frozen files, and added
@@ -6616,6 +6816,7 @@
       del: 61
 - date: '2025-04-13'
   impact: M
+  image: /images/devdiary/2025-04-13-shadow.jpg
   summary: >-
     Improved render performance in knobbler-native with pan gesture
     replacing double ScrollView and various scroll and shadow refinements.
@@ -6786,6 +6987,7 @@
       del: 3
 - date: '2025-04-30'
   impact: M
+  image: /images/devdiary/2025-04-30-android.jpg
   summary: >-
     Published a new versions blog post and other articles on steinkamp.us.
     Minor Android and spacing fixes for m4l-Knobbler4.
@@ -6800,6 +7002,7 @@
       del: 1
 - date: '2025-05-01'
   impact: S
+  image: /images/devdiary/2025-05-01-variations.jpg
   summary: >-
     Tweaked Variations display in m4l-Knobbler4.
   projects:
@@ -6828,6 +7031,7 @@
       del: 7
 - date: '2025-05-08'
   impact: S
+  image: /images/devdiary/2025-05-08-knobblerracksvariations2.jpg
   summary: >-
     Updated an image in m4l-Knobbler4 docs.
   projects:
@@ -6847,6 +7051,7 @@
       del: 981
 - date: '2025-05-10'
   impact: L
+  image: /images/devdiary/2025-05-10-keystepper.gif
   summary: >-
     Released m4l-KeyStepper v8 as a polished working state with updated
     docs, and continued toward scale awareness.
@@ -6866,6 +7071,7 @@
       del: 0
 - date: '2025-05-23'
   impact: S
+  image: /images/devdiary/2025-05-23-stepperstechno-02.jpg
   summary: >-
     Made small word and formatting updates to dick.steinkamp.us.
   projects:
@@ -6884,6 +7090,7 @@
       del: 7
 - date: '2025-05-26'
   impact: L
+  image: /images/devdiary/2025-05-26-dual-tablets.jpg
   summary: >-
     Released m4l-Knobbler4 v35 adding support for multiple tablets
     connecting simultaneously, with configurable listen port and various bug
@@ -6908,6 +7115,7 @@
       del: 0
 - date: '2025-06-07'
   impact: L
+  image: /images/devdiary/2025-06-07-overall.jpg
   summary: >-
     Created and released a brand-new Max for Live device, m4l-MIDI-CC-
     Bridge, with initial frozen files, and added it to the plugins site.
@@ -6956,6 +7164,7 @@
       del: 84
 - date: '2025-06-23'
   impact: M
+  image: /images/devdiary/2025-06-23-screenshot-2025-06-23.jpg
   summary: >-
     Continued building out the Current Param feature across knobbler-native
     (phone layout, param display, nav integration) and m4l-Knobbler4 (nav
@@ -6981,6 +7190,7 @@
       del: 700
 - date: '2025-06-25'
   impact: L
+  image: /images/devdiary/2025-06-25-tablet-and-phone-1.jpg
   summary: >-
     Completed and released knobbler-native with Current Param support (v36
     companion), achieving consistent styling for phone and tablet. Released
@@ -6996,6 +7206,7 @@
       del: 21
 - date: '2025-07-01'
   impact: S
+  image: /images/devdiary/2025-07-01-phone-shot-3.jpg
   summary: >-
     Bumped Android version codes and target SDK for knobbler-native.
   projects:
@@ -7005,6 +7216,7 @@
       del: 3
 - date: '2025-07-02'
   impact: S
+  image: /images/devdiary/2025-07-02-zero-cost-popup.jpg
   summary: >-
     Added cost information to m4l-Knobbler4 docs.
   projects:
@@ -7014,6 +7226,7 @@
       del: 0
 - date: '2025-07-03'
   impact: S
+  image: /images/devdiary/2025-07-03-screenshot-2025-07-03.jpg
   summary: >-
     Added ping/heartbeat support and removed immediate transport send in
     knobbler-native.
@@ -7024,6 +7237,7 @@
       del: 10
 - date: '2025-07-04'
   impact: S
+  image: /images/devdiary/2025-07-04-img-0408.jpg
   summary: >-
     Updated multiple tablets documentation in m4l-Knobbler4.
   projects:
@@ -7033,6 +7247,7 @@
       del: 1
 - date: '2025-07-07'
   impact: S
+  image: /images/devdiary/2025-07-07-trail-progress-2025-07.jpg
   summary: >-
     Minor plugins site update (restart).
   projects:
@@ -7042,6 +7257,7 @@
       del: 0
 - date: '2025-07-08'
   impact: L
+  image: /images/devdiary/2025-07-08-money.jpg
   summary: >-
     Released m4l-Knobbler4 v37 with ping/pong keepalive protocol to maintain
     reliable connections. Updated knobbler-native with margin tuning and
@@ -7061,6 +7277,7 @@
       del: 4
 - date: '2025-07-14'
   impact: L
+  image: /images/devdiary/2025-07-14-img-0406.jpg
   summary: >-
     Released m4l-Knobbler4 v38 with a reworked device discovery mechanism
     and updated documentation.
@@ -7105,6 +7322,7 @@
       del: 1
 - date: '2025-07-22'
   impact: L
+  image: /images/devdiary/2025-07-22-overall.jpg
   summary: >-
     Created and published a brand-new Max for Live device, m4l-Modulation-
     Deviation, with assets, GIF, and initial release. Added it to the
@@ -7129,6 +7347,7 @@
       del: 1
 - date: '2025-07-31'
   impact: S
+  image: /images/devdiary/2025-07-31-screenshot-2025-07-31.jpg
   summary: >-
     Added good resizing support to knobbler-native. Refined PitchPath and
     multi-device documentation on the plugins site.
@@ -7143,6 +7362,7 @@
       del: 62
 - date: '2025-08-01'
   impact: L
+  image: /images/devdiary/2025-08-01-trail-progress-2025-08.jpg
   summary: >-
     Released m4l-Knobbler4 v41 adding optional automated page change, per a
     feature request from Jamie Lidell.
@@ -7171,6 +7391,7 @@
       del: 0
 - date: '2025-08-11'
   impact: S
+  image: /images/devdiary/2025-08-11-trail-progress-2025-08.jpg
   summary: >-
     Minor license update in m4l-Quantize-MIDI.
   projects:
@@ -7210,6 +7431,7 @@
       del: 373
 - date: '2025-08-15'
   impact: M
+  image: /images/devdiary/2025-08-15-ipad-iap.jpg
   summary: >-
     Added StoreKit support, a PurchaseModule component, and set Android as a
     paid app in knobbler-native (v2025.8.15).
@@ -7230,6 +7452,7 @@
       del: 79
 - date: '2025-08-21'
   impact: S
+  image: /images/devdiary/2025-08-21-app-store-free.jpg
   summary: >-
     Added phone debug info and synced purchases on app start in knobbler-
     native (v2025.8.21).
@@ -7267,6 +7490,7 @@
       del: 53
 - date: '2025-08-28'
   impact: L
+  image: /images/devdiary/2025-08-28-overall.jpg
   summary: >-
     Released m4l-Modulation-Math v9 with clip modes (thanks to community
     report) and v10 reimplementing fold/wrap in native Max for better
@@ -7287,6 +7511,7 @@
       del: 8
 - date: '2025-08-29'
   impact: S
+  image: /images/devdiary/2025-08-29-screenshot-2025-08-29.jpg
   summary: >-
     Fixed a hostname trailing-period bug in m4l-Knobbler4 (community-
     diagnosed). Improved plugins site with Tailwind styling.
@@ -7314,6 +7539,7 @@
       del: 111
 - date: '2025-09-01'
   impact: L
+  image: /images/devdiary/2025-09-01-device.gif
   summary: >-
     Created and released a brand-new Max for Live device, m4l-ClearSends,
     with the initial check-in of over 8000 lines.
@@ -7324,6 +7550,7 @@
       del: 0
 - date: '2025-09-02'
   impact: M
+  image: /images/devdiary/2025-09-02-stand2.jpg
   summary: >-
     Released m4l-ClearSends v2 with a mappable button. Added tablet stand
     documentation to m4l-Knobbler4. Started work on the photodirs project
@@ -7352,6 +7579,7 @@
       del: 0
 - date: '2025-09-03'
   impact: L
+  image: /images/devdiary/2025-09-03-img-5605.jpg
   summary: >-
     Released m4l-Knobbler4 v42 with VST debouncing and parent object ID in
     device payloads. Added a collapsible nav panel to knobbler-native with
@@ -7367,6 +7595,7 @@
       del: 75
 - date: '2025-09-04'
   impact: L
+  image: /images/devdiary/2025-09-04-img-5607.jpg
   summary: >-
     Released m4l-Knobbler4 v43 adding a record observer. Fixed parent ID
     protection in knobbler-native.
@@ -7436,6 +7665,7 @@
       del: 2
 - date: '2025-09-14'
   impact: M
+  image: /images/devdiary/2025-09-14-delay-thumb.jpg
   summary: >-
     Created a new rack preset, zs-Delay-Filter-Roar-Rack, with initial
     commit. Updated m4l-Knobbler4 port docs and added it to the plugins
@@ -7470,6 +7700,7 @@
       del: 9
 - date: '2025-09-16'
   impact: L
+  image: /images/devdiary/2025-09-16-overall.jpg
   summary: >-
     Released m4l-ChiasticSolo v3 fixing a bug that prevented racking or
     automating the Selector dial (community bug report).
@@ -7480,6 +7711,7 @@
       del: 255
 - date: '2025-09-24'
   impact: M
+  image: /images/devdiary/2025-09-24-trail-progress-2025-09.jpg
   summary: >-
     Released m4l-WavScope v4 with sidechain support and credits. Added a
     contribute redirect to the plugins site.
@@ -7494,6 +7726,7 @@
       del: 0
 - date: '2025-09-25'
   impact: L
+  image: /images/devdiary/2025-09-25-device-full.gif
   summary: >-
     Released m4l-ChiasticSlide v11. Created and published a brand-new
     device, m4l-CrossfaderNote, with initial commit and documentation.
@@ -7508,6 +7741,7 @@
       del: 0
 - date: '2025-09-26'
   impact: M
+  image: /images/devdiary/2025-09-26-device.jpg
   summary: >-
     Released m4l-CrossfaderNote v1 with docs and images. Added it to the
     plugins site. Updated knobbler-native for RevenueCat customer info
@@ -7527,6 +7761,7 @@
       del: 0
 - date: '2025-09-29'
   impact: S
+  image: /images/devdiary/2025-09-29-trail-progress-2025-09.jpg
   summary: >-
     Added a debug modal and RC paywall display to knobbler-native
     (v2025.9.29 / build 144-146).
@@ -7643,6 +7878,7 @@
       del: 7
 - date: '2025-10-05'
   impact: S
+  image: /images/devdiary/2025-10-05-screenshot-2025-10-05.jpg
   summary: >-
     Released knobbler-native build 147 with version bump.
   projects:
@@ -7652,6 +7888,7 @@
       del: 9
 - date: '2025-10-07'
   impact: L
+  image: /images/devdiary/2025-10-07-img-5983.jpg
   summary: >-
     Released m4l-Knobbler4 v46 with quantItems for multiple-button parameter
     display. Added working multi-button UI to knobbler-native (v2025.10.7 /
@@ -7671,6 +7908,7 @@
       del: 40
 - date: '2025-10-08'
   impact: S
+  image: /images/devdiary/2025-10-08-shortcutbuttons.jpg
   summary: >-
     Fixed backward-compatibility in multi-button quant check in knobbler-
     native (build 149).
@@ -7681,6 +7919,7 @@
       del: 22
 - date: '2025-10-22'
   impact: L
+  image: /images/devdiary/2025-10-22-cuepointsscreenshot.jpg
   summary: >-
     Released m4l-Knobbler4 v47 with cue point sending. Updated knobbler-
     native with phone layout improvements (v2025.10.22 / build 150).
@@ -7718,6 +7957,7 @@
       del: 16
 - date: '2025-10-28'
   impact: S
+  image: /images/devdiary/2025-10-28-tiffin.jpg
   summary: >-
     Published a chai tiffin recipe post on steinkamp.us.
   projects:
@@ -7747,6 +7987,7 @@
       del: 92
 - date: '2025-10-31'
   impact: S
+  image: /images/devdiary/2025-10-31-device.gif
   summary: >-
     Added v12 images to m4l-ChiasticSlide.
   projects:
@@ -7783,6 +8024,7 @@
       del: 8
 - date: '2025-12-02'
   impact: S
+  image: /images/devdiary/2025-12-02-img-0624.jpg
   summary: >-
     Updated m4l-ChiasticSlide readme and plugins site text.
   projects:
@@ -7806,6 +8048,7 @@
       del: 9
 - date: '2025-12-04'
   impact: S
+  image: /images/devdiary/2025-12-04-bonjour1.jpg
   summary: >-
     Added Windows Bonjour/ad-hoc documentation to m4l-Knobbler4 based on a
     community contribution.
@@ -7816,6 +8059,7 @@
       del: 2
 - date: '2025-12-06'
   impact: S
+  image: /images/devdiary/2025-12-06-trail-progress-2025-12.jpg
   summary: >-
     Documentation word updates to m4l-ChiasticSlide and m4l-Knobbler4.
   projects:
@@ -7829,6 +8073,7 @@
       del: 1
 - date: '2025-12-09'
   impact: M
+  image: /images/devdiary/2025-12-09-img-7851.jpg
   summary: >-
     Modernized and fixed the plugins site codebase with significant
     refactoring.
@@ -7848,6 +8093,7 @@
       del: 1
 - date: '2025-12-12'
   impact: L
+  image: /images/devdiary/2025-12-12-cue-point-disp.jpg
   summary: >-
     Released knobbler-native v2025.12.12 / build 151 with cue point display
     time, default shortcuts visibility fix, and an audit fix. Released
@@ -7874,6 +8120,7 @@
       del: 67
 - date: '2025-12-26'
   impact: S
+  image: /images/devdiary/2025-12-26-screenshot-2025-12-26.jpg
   summary: >-
     Fixed a tempo edit bug in knobbler-native and updated the Hermes engine.
     Added Discord community buttons and blurb to the plugins site.
@@ -7911,6 +8158,7 @@
       del: 23
 - date: '2026-01-05'
   impact: S
+  image: /images/devdiary/2026-01-05-knobbler-mini.jpg
   summary: >-
     Added a Knobbler-Mini TouchOSC template for read-only use in vocal
     booths and updated plugin images.
@@ -7925,6 +8173,7 @@
       del: 1
 - date: '2026-01-06'
   impact: S
+  image: /images/devdiary/2026-01-06-2026-01-06-walkthru.jpg
   summary: >-
     Small ordering tweak in the M4L Knobbler4 device.
   projects:
@@ -7967,6 +8216,7 @@
       del: 16
 - date: '2026-01-12'
   impact: S
+  image: /images/devdiary/2026-01-12-trail-progress-2026-01.jpg
   summary: >-
     Removed two plugins (Chiastic Solo and Quantize MIDI) from the plugins
     listing.
@@ -7987,6 +8237,7 @@
       del: 111
 - date: '2026-01-14'
   impact: L
+  image: /images/devdiary/2026-01-14-overall.jpg
   summary: >-
     Launched a new M4L plugin, USB Scrubber, with initial commit,
     promotional image, and video link, and added it to the plugins site.
@@ -8001,6 +8252,7 @@
       del: 0
 - date: '2026-01-17'
   impact: S
+  image: /images/devdiary/2026-01-17-trail-progress-2026-01.jpg
   summary: >-
     Restored the Chiastic Solo plugin to the Utilities category on the
     plugins site.
@@ -8011,6 +8263,7 @@
       del: 0
 - date: '2026-01-22'
   impact: L
+  image: /images/devdiary/2026-01-22-device.gif
   summary: >-
     Launched a new M4L Chord Filter plugin with initial commit, added
     promotional content, and fixed a CPU hog in Knobbler4.
@@ -8052,6 +8305,7 @@
       del: 28
 - date: '2026-01-30'
   impact: L
+  image: /images/devdiary/2026-01-30-playcuepoint.jpg
   summary: >-
     Released M4L Knobbler4 v49 with Bonjour discovery and /playCuePoint OSC
     support, and made significant plugin site improvements.
@@ -8066,6 +8320,7 @@
       del: 47
 - date: '2026-02-01'
   impact: M
+  image: /images/devdiary/2026-02-01-cue-point-play-buttons.jpg
   summary: >-
     Fixed Android key issues, integrated Sentry error tracking, and cleaned
     up icons and emojis in knobbler-native build.
@@ -8080,6 +8335,7 @@
       del: 14
 - date: '2026-02-03'
   impact: L
+  image: /images/devdiary/2026-02-03-undo-redo.jpg
   summary: >-
     Big day across four repos: added undo/redo to Knobbler (v50 device +
     build 162 app), launched the new M4L NoteLimiter plugin, and updated the
@@ -8132,6 +8388,7 @@
       del: 1
 - date: '2026-02-13'
   impact: M
+  image: /images/devdiary/2026-02-13-tree-map.jpg
   summary: >-
     Started work on an X-Y pad feature in knobbler-native, and launched an
     audio version of the M4L MIDI CC Bridge plugin.
@@ -8162,6 +8419,7 @@
       del: 361
 - date: '2026-02-15'
   impact: S
+  image: /images/devdiary/2026-02-15-link-mode-xy-link.jpg
   summary: >-
     Added images and documentation for the X-Y pad feature, and updated
     Discord links across the plugins site.
@@ -8313,6 +8571,7 @@
       del: 247
 - date: '2026-02-28'
   impact: S
+  image: /images/devdiary/2026-02-28-trail-progress-done.jpg
   summary: >-
     Small polish pass: raised overview bar threshold, added animated scroll
     indicator for knobbler page nav, and increased two-finger precision
@@ -8339,6 +8598,7 @@
       del: 182
 - date: '2026-03-03'
   impact: M
+  image: /images/devdiary/2026-03-03-scmts-training.jpg
   summary: >-
     Published a trail work blog post, updated the About page bio, and
     overhauled the resume on steinkamp.us, while also polishing the mixer
@@ -8354,6 +8614,7 @@
       del: 83
 - date: '2026-03-04'
   impact: S
+  image: /images/devdiary/2026-03-04-mixer-phone.jpg
   summary: >-
     Several small mixer and RevenueCat debug improvements in knobbler-
     native, builds 173–176.
@@ -8388,6 +8649,7 @@
       del: 4
 - date: '2026-03-08'
   impact: L
+  image: /images/devdiary/2026-03-08-device.gif
   summary: >-
     Added current-param lock/show/hide, sync'd param state on refresh and
     foreground, added an App Port input, and synced mixer send scroll
@@ -8450,6 +8712,7 @@
       del: 568
 - date: '2026-03-12'
   impact: M
+  image: /images/devdiary/2026-03-12-screenshot-2026-03-12.jpg
   summary: >-
     Added live track name/color observers and group track clip slot support
     with diagonal stripes and playing-status indicators for the clips page.
@@ -8479,6 +8742,7 @@
       del: 37
 - date: '2026-03-15'
   impact: L
+  image: /images/devdiary/2026-03-15-phone-clips.jpg
   summary: >-
     Broad phone layout pass and scene overview bar addition, with viewport
     indicator, tap/pan gestures, safe area fixes, and short tab titles for
@@ -8494,6 +8758,7 @@
       del: 0
 - date: '2026-03-16'
   impact: L
+  image: /images/devdiary/2026-03-16-clips-ipad.jpg
   summary: >-
     Added multiplexed slider refs, beat-pulsing clip borders, chunked scenes
     protocol, stop-button support, and overview toggle across 11 commits.
@@ -8508,6 +8773,7 @@
       del: 193
 - date: '2026-03-17'
   impact: L
+  image: /images/devdiary/2026-03-17-clips-ipad.jpg
   summary: >-
     The biggest clips/mixer polish day: 28 commits covering correct Ableton
     color palette, swipeable mixer sidebar, scene/clip edit dialogs with
@@ -8572,6 +8838,7 @@
       del: 154
 - date: '2026-03-24'
   impact: L
+  image: /images/devdiary/2026-03-24-clips-external-1.jpg
   summary: >-
     Released build 179 after a large day: added pinch-to-zoom on clips grid,
     unified touch target heights, standardized setup connection cards, and
@@ -8597,6 +8864,7 @@
       del: 134
 - date: '2026-03-26'
   impact: L
+  image: /images/devdiary/2026-03-26-clips-external-1-ss.jpg
   summary: >-
     Migrated the photodirs app from JavaScript to TypeScript (front and
     back), fixed the production build, and polished thumbnail display; also
@@ -8651,6 +8919,7 @@
       del: 4
 - date: '2026-03-30'
   impact: M
+  image: /images/devdiary/2026-03-30-session-view-2.jpg
   summary: >-
     Fixed a stale-ref nav width bug on iPad resize and added a unit test
     suite to the M4L Knobbler4 device using vitest.
@@ -8665,6 +8934,7 @@
       del: 4
 - date: '2026-03-31'
   impact: L
+  image: /images/devdiary/2026-03-31-session-view-1.jpg
   summary: >-
     Systemized color constants app-wide, added page persistence across
     restarts, built a Tips page in both app and device docs, and released
@@ -8690,6 +8960,7 @@
       del: 732
 - date: '2026-04-02'
   impact: M
+  image: /images/devdiary/2026-04-02-tips-page.jpg
   summary: >-
     Added a Testimonials page and photo gallery to the Knobbler4 docs,
     replaced the hero image, and fixed a group clip launch bug.
@@ -8723,6 +8994,7 @@
       del: 1
 - date: '2026-04-06'
   impact: S
+  image: /images/devdiary/2026-04-06-audio-engine-on.jpg
   summary: >-
     Added a Leave a Review button for long-time users and a troubleshooting
     note for the Audio Engine setting.
@@ -8748,6 +9020,7 @@
       del: 337
 - date: '2026-04-08'
   impact: L
+  image: /images/devdiary/2026-04-08-light-theme.jpg
   summary: >-
     Enabled TypeScript strict mode and fixed all 138 errors across 38 files,
     added What's New modal, refined the feedback section, and added prop-
@@ -8770,6 +9043,7 @@
       del: 12161
 - date: '2026-04-11'
   impact: M
+  image: /images/devdiary/2026-04-11-2026-4-11-whatsnew.jpg
   summary: >-
     Added sidebar fade animations, improved setup page navigation, fixed
     light mode button theming, and added Bonjour-based auto port assignment
@@ -8785,6 +9059,7 @@
       del: 89
 - date: '2026-04-12'
   impact: L
+  image: /images/devdiary/2026-04-12-testing-phone-ipad-android.jpg
   summary: >-
     Major typography and layout cleanup: unified named text styles app-wide,
     extracted ModalCard and TransportButtons components, and added Makefile
@@ -8814,6 +9089,7 @@
       del: 11
 - date: '2026-04-14'
   impact: S
+  image: /images/devdiary/2026-04-14-full-screen-clips-outer.jpg
   summary: >-
     Removed automatic trial extension for expired trials.
   projects:
@@ -8854,6 +9130,7 @@
       del: 4241
 - date: '2026-04-20'
   impact: L
+  image: /images/devdiary/2026-04-20-2026-4-20-timeslider.jpg
   summary: >-
     Overhauled the animation system: migrated all sliders to Reanimated
     worklets with rAF sampling, added user-adjustable spring duration,
@@ -8865,6 +9142,7 @@
       del: 949
 - date: '2026-04-21'
   impact: L
+  image: /images/devdiary/2026-04-21-tiny-mixer-session-view.jpg
   summary: >-
     Added three release modes (time/easing, rubber band, gravity), improved
     spring overlay UX, fixed connection test hang, refined compact mixer for
@@ -8880,6 +9158,7 @@
       del: 598
 - date: '2026-04-22'
   impact: L
+  image: /images/devdiary/2026-04-22-wavetable-params.jpg
   summary: >-
     Released M4L Knobbler4 v56 with a new zip-based release script, and
     shipped build 198 with spring physics gating, ghost indicator polish,
@@ -8909,6 +9188,7 @@
       del: 362
 - date: '2026-04-24'
   impact: M
+  image: /images/devdiary/2026-04-24-push3-standalone-rickster-spain.jpg
   summary: >-
     Reverted react-native-screens, restored conditional page rendering for
     performance, memoized page contents individually, and extracted shared
@@ -8950,6 +9230,7 @@
       del: 66
 - date: '2026-04-27'
   impact: M
+  image: /images/devdiary/2026-04-27-volunteer-sign.jpg
   summary: >-
     Released knobbler-native build 199 and added substantial photodirs
     features: per-photo location with geocoding, EXIF write, admin rotate
@@ -8965,6 +9246,7 @@
       del: 9
 - date: '2026-04-28'
   impact: L
+  image: /images/devdiary/2026-04-28-overall.jpg
   summary: >-
     Released M4L Knobbler4 v57 (unified OSC coalescing and chunking) and
     v58, launched a new M4L PlayBreak plugin with initial commit, and added
@@ -8984,6 +9266,7 @@
       del: 0
 - date: '2026-04-30'
   impact: S
+  image: /images/devdiary/2026-04-30-drez-push-ipad.jpg
   summary: >-
     Extracted shared hooks/components, fixed fader rendering on scroll, and
     deferred /mixerView send until scroll settles.
@@ -8998,6 +9281,7 @@
       del: 0
 - date: '2026-05-01'
   impact: M
+  image: /images/devdiary/2026-05-01-push-standalone-setup.jpg
   summary: >-
     Added Push 3 Standalone connection helper with default port, Copy URL
     button, and improved connection status reset flow.
@@ -9008,6 +9292,7 @@
       del: 22
 - date: '2026-05-02'
   impact: S
+  image: /images/devdiary/2026-05-02-3x9a5551-edit.jpg
   summary: >-
     Updated P3SA connection instructions and fixed single-item OSC batch
     handling in device and app.
@@ -9022,6 +9307,7 @@
       del: 4
 - date: '2026-05-04'
   impact: S
+  image: /images/devdiary/2026-05-04-p3sa-knobbler-page-better.jpg
   summary: >-
     Added Push 3 Standalone documentation page with inline imagery and fixed
     single-item send batching.
@@ -9067,6 +9353,7 @@
       del: 364
 - date: '2026-05-10'
   impact: M
+  image: /images/devdiary/2026-05-10-battle-station.jpg
   summary: >-
     Added a /knobbler microsite to the plugins site and updated Android Play
     Store URL.
@@ -9092,6 +9379,7 @@
       del: 55
 - date: '2026-05-12'
   impact: L
+  image: /images/devdiary/2026-05-12-p3sa-device-port-v59.jpg
   summary: >-
     Released M4L Knobbler4 v59, improved animated sidebar slide-in on
     tablet, switched tablet to conditional page rendering, and added
@@ -9128,6 +9416,7 @@
       del: 25
 - date: '2026-05-18'
   impact: L
+  image: /images/devdiary/2026-05-18-wired-connection.jpg
   summary: >-
     Large feature day across three repos: added mixer-to-knobbler mapping
     flow, page tabs top/bottom option, Bluhand map-source overlay, and
@@ -9147,6 +9436,7 @@
       del: 6
 - date: '2026-05-19'
   impact: L
+  image: /images/devdiary/2026-05-19-knobbler-mixer.jpg
   summary: >-
     Phone layout overhaul with page peek, tighter clips/strips, and polish
     across 26 commits; updated the Knobbler blog post with community
@@ -9170,6 +9460,7 @@
       del: 65
 - date: '2026-05-20'
   impact: L
+  image: /images/devdiary/2026-05-20-mapping-04-bluhand-page.jpg
   summary: >-
     Major architectural consolidation in M4L Knobbler4: folded all separate
     [js] modules into a single [v8 knobbler] entry object, released v60, and
@@ -9189,6 +9480,7 @@
       del: 4
 - date: '2026-05-21'
   impact: L
+  image: /images/devdiary/2026-05-21-knobbler-before.jpg
   summary: >-
     Enormous refactor day (38 commits): completed the single-[v8]
     architecture, migrated settings and shortcuts carry-forward, added a new
@@ -9220,6 +9512,7 @@
       del: 50
 - date: '2026-05-23'
   impact: L
+  image: /images/devdiary/2026-05-23-mapping-xy-swapped.jpg
   summary: >-
     Built a Dev Diary for the site — a daily S/M/L one-liner over a
     GitHub-style contribution grid, backfilled from seven years of git
@@ -9246,6 +9539,7 @@
       del: 1
 - date: '2026-05-24'
   impact: M
+  image: /images/devdiary/2026-05-24-cue-points-scrub.jpg
   summary: >-
     Shipped the Knobbler4 v63 device — arrangement transport control
     (song-position streaming with scrub, loop-edge setters, and cue point
@@ -9269,6 +9563,7 @@
       del: 4
 - date: '2026-05-25'
   impact: L
+  image: /images/devdiary/2026-05-25-multiplayer-ableton.jpg
   summary: >-
     Gave Knobbler its own current track/device that can be decoupled from
     Live's selection: a new "Follow Sel" lock toggle lets each tablet hold its

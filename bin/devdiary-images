@@ -206,32 +206,115 @@ def slugify(text, max_words=4):
     return "-".join(words) or "image"
 
 
-def pick(src, day, name, max_px, quality):
-    if not os.path.isfile(src):
-        sys.exit(f"ERROR: source not found: {src}")
+def resize_into(src, stem, max_px, quality):
+    """Resize/copy src into OUT_DIR/<stem>.<ext>; return (out_path, web_path)."""
     os.makedirs(OUT_DIR, exist_ok=True)
-    stem = f"{day}-{slugify(name)}" if name else day
-    ext = os.path.splitext(src)[1].lower()
-    if ext == ".gif":
+    if os.path.splitext(src)[1].lower() == ".gif":
         # Preserve animation — copy as-is (no sips flatten, no resize).
         out = os.path.join(OUT_DIR, f"{stem}.gif")
         shutil.copyfile(src, out)
-        web = f"{WEB_DIR}/{stem}.gif"
-    else:
-        out = os.path.join(OUT_DIR, f"{stem}.jpg")
-        r = subprocess.run(
-            ["sips", "-s", "format", "jpeg", "-s", "formatOptions", str(quality),
-             "-Z", str(max_px), src, "--out", out],
-            capture_output=True, text=True,
-        )
-        if r.returncode != 0:
-            sys.exit(f"ERROR: sips failed:\n{r.stderr or r.stdout}")
-        web = f"{WEB_DIR}/{stem}.jpg"
+        return out, f"{WEB_DIR}/{stem}.gif"
+    out = os.path.join(OUT_DIR, f"{stem}.jpg")
+    r = subprocess.run(
+        ["sips", "-s", "format", "jpeg", "-s", "formatOptions", str(quality),
+         "-Z", str(max_px), src, "--out", out],
+        capture_output=True, text=True,
+    )
+    if r.returncode != 0:
+        sys.exit(f"ERROR: sips failed:\n{r.stderr or r.stdout}")
+    return out, f"{WEB_DIR}/{stem}.jpg"
+
+
+def pick(src, day, name, max_px, quality):
+    if not os.path.isfile(src):
+        sys.exit(f"ERROR: source not found: {src}")
+    stem = f"{day}-{slugify(name)}" if name else day
+    out, web = resize_into(src, stem, max_px, quality)
     print(f"Wrote {out}  ({human(os.path.getsize(out))})")
     print("\nAdd to the day's entry in data/devdiary.yaml:")
     print(f"  image: {web}")
     print("  imageAlt: >-")
     print("    <one-line description of the image>")
+
+
+STOP = set("the a an and or of to in on for with from this that into your you "
+           "it its is are was were be been being also new now via plus then "
+           "out off up down over under just both each per day days some all "
+           "his her their our my i we they made make making fixed fix add "
+           "added adds cut shipped build built work works".split())
+
+
+def diary_summaries(yaml_path):
+    """{date: summary_text} — best-effort, tolerates the folded scalars."""
+    import yaml  # PyYAML is available in this env
+    raw = yaml.safe_load(open(yaml_path)) or []
+    return {str(e["date"])[:10]: str(e.get("summary", "")) for e in raw}
+
+
+def best_candidate(cands, summary):
+    """Pick the candidate whose path best matches the summary; else the biggest.
+
+    cands are pre-sorted share-first then size-desc, so first-wins on ties keeps
+    that preference.
+    """
+    toks = {w for w in re.findall(r"[a-z0-9]+", summary.lower())
+            if len(w) >= 4 and w not in STOP}
+    best, best_score = None, -1
+    for p, size, src in cands:
+        ptoks = set(re.findall(r"[a-z0-9]+", os.path.basename(p).lower())) | \
+            set(re.findall(r"[a-z0-9]+", os.path.basename(os.path.dirname(p)).lower()))
+        score = len(toks & ptoks)
+        if score > best_score:
+            best, best_score = (p, size, src), score
+    return best
+
+
+def yaml_insert_image(yaml_path, by_date_web):
+    """Insert `  image: <web>` after the `impact:` line of each given date.
+
+    Line-based so the file's formatting/comments are preserved. Field order
+    doesn't matter to the page.
+    """
+    lines = open(yaml_path).read().splitlines(keepends=True)
+    out, cur, n = [], None, 0
+    for line in lines:
+        out.append(line)
+        m = re.match(r"- date: '(\d{4}-\d{2}-\d{2})'", line)
+        if m:
+            cur = m.group(1)
+            continue
+        if cur and cur in by_date_web and re.match(r"  impact: [SML]\s*$", line):
+            out.append(f"  image: {by_date_web[cur]}\n")
+            n += 1
+            del by_date_web[cur]  # only once
+    open(yaml_path, "w").writelines(out)
+    return n
+
+
+def backfill(root, dev_root, max_px, quality, limit):
+    share = scan_share(root)
+    by_day = merge(share, scan_git(dev_root))
+    days = diary_days(YAML_PATH)
+    summaries = diary_summaries(YAML_PATH)
+    todo = [d for d in sorted(days) if not days[d] and by_day.get(d)]
+    if limit:
+        todo = todo[:limit]
+    print(f"Backfilling {len(todo)} day(s)...")
+    by_date_web, total = {}, 0
+    for d in todo:
+        c = best_candidate(by_day[d], summaries.get(d, ""))
+        if not c:
+            continue
+        src = c[0]
+        stem = f"{d}-{slugify(os.path.splitext(os.path.basename(src))[0])}"
+        out, web = resize_into(src, stem, max_px, quality)
+        by_date_web[d] = web
+        total += os.path.getsize(out)
+        print(f"  {d}  {web}  ({human(os.path.getsize(out))})  <- "
+              f"{src.replace(os.path.expanduser('~'), '~')}")
+    n = yaml_insert_image(YAML_PATH, dict(by_date_web))
+    print(f"\nWrote {len(by_date_web)} image(s) ({human(total)}); "
+          f"inserted {n} image: line(s) into devdiary.yaml.")
 
 
 def main():
@@ -247,12 +330,20 @@ def main():
                     help="include diary days that already have an image")
     ap.add_argument("--pick", nargs=2, metavar=("DATE", "SRC"))
     ap.add_argument("--name", help="filename for the picked image (max 4 words)")
+    ap.add_argument("--backfill", action="store_true",
+                    help="auto-pick + resize an image for every imageless diary "
+                         "day with candidates, and insert image: lines")
+    ap.add_argument("--limit", type=int, help="cap --backfill to N days (testing)")
     ap.add_argument("--max-px", type=int, default=1400)
     ap.add_argument("--quality", type=int, default=85)
     args = ap.parse_args()
 
     if args.pick:
         pick(args.pick[1], args.pick[0], args.name, args.max_px, args.quality)
+        return
+
+    if args.backfill:
+        backfill(args.root, args.dev_root, args.max_px, args.quality, args.limit)
         return
 
     share = scan_share(args.root)
