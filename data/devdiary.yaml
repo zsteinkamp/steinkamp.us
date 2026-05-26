@@ -9300,6 +9300,10 @@
     On the site, added syntax highlighting to all code blocks and published
     [Knobbler's OSC Diet](https://steinkamp.us/posts/2026-05-26-knobbler-osc-diet),
     a post on the five-step evolution of the wire format.
+  image: /images/devdiary/2026-05-26-back-to-arrangement.jpg
+  imageAlt: >-
+    The Knobbler app toolbar with the new Back to Arrangement button lit up
+    orange, sitting beside a colorful session clip grid.
   projects:
     - name: m4l-Knobbler4
       commits: 22

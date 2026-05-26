@@ -1,0 +1,267 @@
+#!/usr/bin/env python3
+"""Find an "image of the day" for Dev Diary entries.
+
+You keep per-project dump folders on a network share (default
+/Volumes/shared/projects, e.g. projects/knobbler/) full of screenshots and
+notes. This script buckets images by date and, for each diary day, surfaces the
+candidates so you (or an LLM reading the day's summary) can pick the single best
+one — then resizes it into public/images/devdiary/<date>.jpg and prints the
+`image:` line to add to that day's entry in data/devdiary.yaml.
+
+Two candidate sources, per day:
+  1. Images on the share (default /Volumes/shared/projects), dated by:
+       filename date  >  creation time (st_birthtime, macOS)  >  mtime.
+  2. Fallback: images ADDED or CHANGED in any git repo under ~/dev that day
+     (e.g. an m4l-* repo's images/device.png|gif refreshed for a release).
+     Tagged `git:<repo>` in the listing.
+
+The production server can't see the share, so the chosen image MUST be copied
+into the repo to be served. Resizing keeps the repo from duplicating the share
+(GIFs are copied as-is to preserve animation; everything else → JPEG).
+
+Usage:
+  bin/devdiary-images                  # candidates for diary days w/o an image
+  bin/devdiary-images --date 2026-05-26   # candidates for one day
+  bin/devdiary-images --all            # include days that already have an image
+  bin/devdiary-images --pick 2026-05-26 /path/to/img --name "back to arrangement"
+                                       # → 2026-05-26-back-to-arrangement.jpg, print image: line
+
+Flags / env:
+  --root PATH      share scan root ($DEVDIARY_PROJECTS_ROOT or /Volumes/shared/projects)
+  --dev-root PATH  git repo scan root ($DEVDIARY_ROOT or ~/dev)
+  --name "..."     descriptive part of the filename (slugified, max 4 words) →
+                   <date>-<slug>.jpg; defaults to just the date
+  --max-px N       longest-edge px for the resized copy (default 1400)
+  --quality N      JPEG quality 1-100 (default 85)
+"""
+import os
+import re
+import sys
+import shutil
+import argparse
+import subprocess
+from datetime import date
+
+IMG_EXT = {".jpg", ".jpeg", ".png", ".gif", ".webp", ".heic", ".tif", ".tiff"}
+SKIP = {"DefinitelyTyped"}  # upstream clone, not authored history
+HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+YAML_PATH = os.path.join(HERE, "data", "devdiary.yaml")
+OUT_DIR = os.path.join(HERE, "public", "images", "devdiary")
+WEB_DIR = "/images/devdiary"  # public path prefix
+
+# Filename date patterns -> (year, month, day). Order matters.
+DATE_RES = [
+    re.compile(r"(?<!\d)(\d{4})[-_.](\d{1,2})[-_.](\d{1,2})(?!\d)"),
+    re.compile(r"(?<!\d)(\d{4})(\d{2})(\d{2})(?!\d)"),
+]
+
+
+def filename_date(name):
+    for rx in DATE_RES:
+        m = rx.search(name)
+        if not m:
+            continue
+        y, mo, d = (int(g) for g in m.groups())
+        if 2000 <= y <= 2099 and 1 <= mo <= 12 and 1 <= d <= 31:
+            try:
+                return date(y, mo, d).isoformat()
+            except ValueError:
+                pass
+    return None
+
+
+def file_date(path):
+    """filename date > creation (birth) time > modification time."""
+    fd = filename_date(os.path.basename(path))
+    if fd:
+        return fd, "name"
+    st = os.stat(path)
+    bt = getattr(st, "st_birthtime", None)
+    if bt:
+        return date.fromtimestamp(bt).isoformat(), "born"
+    return date.fromtimestamp(st.st_mtime).isoformat(), "mtime"
+
+
+def scan_share(root):
+    """date -> [(path, size, src)], biggest first. {} if root is missing."""
+    by_day = {}
+    if not root or not os.path.isdir(root):
+        return by_day
+    for dirpath, dirnames, filenames in os.walk(root):
+        dirnames[:] = [d for d in dirnames if not d.startswith(".")]
+        for fn in filenames:
+            if os.path.splitext(fn)[1].lower() not in IMG_EXT:
+                continue
+            p = os.path.join(dirpath, fn)
+            try:
+                d, src = file_date(p)
+                by_day.setdefault(d, []).append((p, os.path.getsize(p), src))
+            except OSError:
+                continue
+    return by_day
+
+
+def scan_git(dev_root):
+    """date -> [(path, size, 'git:<repo>')] for images added/changed that day.
+
+    One `git log` pass per repo (name-only, AMR filter), bucketed by commit
+    date. Only files still present in the working tree are offered.
+    """
+    by_day = {}
+    if not dev_root or not os.path.isdir(dev_root):
+        return by_day
+    repos = [
+        d for d in sorted(os.listdir(dev_root))
+        if d not in SKIP and os.path.isdir(os.path.join(dev_root, d, ".git"))
+    ]
+    for name in repos:
+        repo = os.path.join(dev_root, name)
+        out = subprocess.run(
+            ["git", "-C", repo, "log", "--no-merges", "--diff-filter=AMR",
+             "--name-only", "--date=short", "--pretty=format:C %cd"],
+            capture_output=True, text=True,
+        ).stdout
+        cur = None
+        seen = set()  # (day, path) dedupe within a repo
+        for line in out.splitlines():
+            if line.startswith("C "):
+                cur = line[2:].strip()
+            elif cur and line.strip():
+                if os.path.splitext(line)[1].lower() not in IMG_EXT:
+                    continue
+                p = os.path.join(repo, line)
+                key = (cur, p)
+                if key in seen or not os.path.isfile(p):
+                    continue
+                seen.add(key)
+                try:
+                    by_day.setdefault(cur, []).append(
+                        (p, os.path.getsize(p), f"git:{name}"))
+                except OSError:
+                    pass
+    return by_day
+
+
+def diary_days(yaml_path):
+    """{date: has_image_bool} parsed loosely from the YAML blocks."""
+    days = {}
+    if not os.path.exists(yaml_path):
+        return days
+    cur = None
+    for line in open(yaml_path):
+        m = re.match(r"- date: '(\d{4}-\d{2}-\d{2})'", line)
+        if m:
+            cur = m.group(1)
+            days[cur] = False
+        elif cur and re.match(r"\s+image:\s*\S", line):
+            days[cur] = True
+    return days
+
+
+def human(n):
+    for unit in ("B", "KB", "MB", "GB"):
+        if n < 1024:
+            return f"{n:.0f}{unit}"
+        n /= 1024
+    return f"{n:.0f}TB"
+
+
+def merge(share, git):
+    """Combine the two sources per day; share candidates first, each by size."""
+    days = set(share) | set(git)
+    out = {}
+    for d in days:
+        s = sorted(share.get(d, []), key=lambda t: -t[1])
+        g = sorted(git.get(d, []), key=lambda t: -t[1])
+        out[d] = s + g  # share is primary, git is the fallback
+    return out
+
+
+def list_candidates(by_day, days, only_date, include_imaged):
+    targets = [only_date] if only_date else sorted(days)
+    shown = 0
+    home = os.path.expanduser("~")
+    for d in targets:
+        if not only_date:
+            if d not in days:
+                continue
+            if days.get(d) and not include_imaged:
+                continue  # already has an image
+        cands = by_day.get(d, [])
+        if not cands:
+            continue
+        shown += 1
+        flag = "  [has image]" if days.get(d) else ""
+        print(f"\n{d}{flag}  ({len(cands)} candidate"
+              f"{'s' if len(cands) != 1 else ''})")
+        for p, size, src in cands:
+            print(f"  [{src:>10}] {human(size):>6}  {p.replace(home, '~')}")
+    if not shown:
+        where = only_date or "any diary day without an image"
+        print(f"No candidate images found for {where}.", file=sys.stderr)
+
+
+def slugify(text, max_words=4):
+    words = re.findall(r"[a-z0-9]+", text.lower())[:max_words]
+    return "-".join(words) or "image"
+
+
+def pick(src, day, name, max_px, quality):
+    if not os.path.isfile(src):
+        sys.exit(f"ERROR: source not found: {src}")
+    os.makedirs(OUT_DIR, exist_ok=True)
+    stem = f"{day}-{slugify(name)}" if name else day
+    ext = os.path.splitext(src)[1].lower()
+    if ext == ".gif":
+        # Preserve animation — copy as-is (no sips flatten, no resize).
+        out = os.path.join(OUT_DIR, f"{stem}.gif")
+        shutil.copyfile(src, out)
+        web = f"{WEB_DIR}/{stem}.gif"
+    else:
+        out = os.path.join(OUT_DIR, f"{stem}.jpg")
+        r = subprocess.run(
+            ["sips", "-s", "format", "jpeg", "-s", "formatOptions", str(quality),
+             "-Z", str(max_px), src, "--out", out],
+            capture_output=True, text=True,
+        )
+        if r.returncode != 0:
+            sys.exit(f"ERROR: sips failed:\n{r.stderr or r.stdout}")
+        web = f"{WEB_DIR}/{stem}.jpg"
+    print(f"Wrote {out}  ({human(os.path.getsize(out))})")
+    print("\nAdd to the day's entry in data/devdiary.yaml:")
+    print(f"  image: {web}")
+    print("  imageAlt: >-")
+    print("    <one-line description of the image>")
+
+
+def main():
+    ap = argparse.ArgumentParser(add_help=True)
+    ap.add_argument("--root",
+                    default=os.environ.get("DEVDIARY_PROJECTS_ROOT",
+                                           "/Volumes/shared/projects"))
+    ap.add_argument("--dev-root",
+                    default=os.environ.get("DEVDIARY_ROOT",
+                                           os.path.expanduser("~/dev")))
+    ap.add_argument("--date")
+    ap.add_argument("--all", action="store_true",
+                    help="include diary days that already have an image")
+    ap.add_argument("--pick", nargs=2, metavar=("DATE", "SRC"))
+    ap.add_argument("--name", help="filename for the picked image (max 4 words)")
+    ap.add_argument("--max-px", type=int, default=1400)
+    ap.add_argument("--quality", type=int, default=85)
+    args = ap.parse_args()
+
+    if args.pick:
+        pick(args.pick[1], args.pick[0], args.name, args.max_px, args.quality)
+        return
+
+    share = scan_share(args.root)
+    if not share and not os.path.isdir(args.root):
+        print(f"(share not mounted at {args.root} — using git images only)",
+              file=sys.stderr)
+    by_day = merge(share, scan_git(args.dev_root))
+    list_candidates(by_day, diary_days(YAML_PATH), args.date, args.all)
+
+
+if __name__ == "__main__":
+    main()

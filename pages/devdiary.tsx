@@ -20,6 +20,10 @@ interface Entry {
   impact: Impact
   summary: string
   projects?: (string | Project)[]
+  // Optional "image of the day" — a representative screenshot for the day,
+  // resized into public/images/devdiary/ by bin/devdiary-images. See CLAUDE.md.
+  image?: string
+  imageAlt?: string
 }
 
 const asProject = (p: string | Project): Project =>
@@ -34,10 +38,11 @@ export const getStaticProps = async () => {
     .map((e) => ({ ...e, date: String(e.date).slice(0, 10) }))
     .sort((a, b) => a.date.localeCompare(b.date))
 
-  // ISR: re-read data/devdiary.yaml at runtime (at most once/min) so a plain
-  // `git pull` on the server updates the page without a rebuild. The prod
-  // container bind-mounts ./data (see docker-compose.yml), so the pulled file
-  // is what getStaticProps reads on revalidation.
+  // ISR: re-read data/devdiary.yaml at runtime (at most once/min); the prod
+  // container bind-mounts ./data (see docker-compose.yml). NOTE: entries can now
+  // carry an `image:` served from public/images/devdiary/, which is baked into
+  // the build (not mounted) — so a diary update with an image needs a full
+  // `make deploy`, not a bare `git pull`. See CLAUDE.md.
   return { props: { entries }, revalidate: 60 }
 }
 
@@ -454,6 +459,22 @@ const DevDiary: React.FC<DiaryProps> = ({ entries }) => {
                         <ReactMarkdown className='diary-summary'>
                           {e.summary}
                         </ReactMarkdown>
+                        {e.image && (
+                          <a
+                            href={e.image}
+                            target='_blank'
+                            rel='noopener noreferrer'
+                            className='mt-2 inline-block'
+                          >
+                            {/* eslint-disable-next-line @next/next/no-img-element */}
+                            <img
+                              src={e.image}
+                              alt={e.imageAlt || `${e.date} screenshot`}
+                              loading='lazy'
+                              className='max-h-48 rounded-md border border-border'
+                            />
+                          </a>
+                        )}
                         {e.projects && e.projects.length > 0 && (
                           <div className='mt-1 flex flex-wrap gap-2 text-sm text-date-lite'>
                             {e.projects.map(asProject).map((p) => (

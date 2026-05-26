@@ -56,13 +56,21 @@ paste them verbatim and only hand-write the summary and impact. `--from YYYY-MM-
 overrides the start for backfill; `--json` emits per-day per-repo stats as JSON;
 `DEVDIARY_ROOT` / `--author` override the scan root and author filter.
 
-**Deploying diary updates:** the devdiary page is ISR (`getStaticProps` returns
-`revalidate: 60`) and the prod container bind-mounts `./data` (the dir, not the
-single file — git pull replaces files with a new inode, which a single-file
-mount wouldn't see). So once the container is running, **updating the dev diary
-is just `git pull` on the server** — no `make`/rebuild. The page picks up the new
-YAML within ~60s. A rebuild (`make deploy`) is only needed for code/other content
-changes.
+**Image of the day:** an entry may carry an optional `image:` (a representative
+screenshot for the day) plus `imageAlt:`. `bin/devdiary-images` (host script —
+it reads the `/Volumes/shared/projects` dump folders *and* images added/changed
+in git that day) lists candidates per diary day; pick the one best matching the
+day's summary and it resizes/re-encodes a copy into `public/images/devdiary/`
+(GIFs copied as-is to keep animation, everything else → JPEG). Name it with
+`--name "up to four words"` → `public/images/devdiary/<date>-<slug>.jpg`.
+
+**Deploying diary updates: requires a full `make deploy`.** The page is still
+ISR and the prod container bind-mounts `./data`, so a text-only YAML change
+*could* go live with a bare `git pull` — but `image:` files live in `public/`,
+which is baked into the prod image at build time (not mounted). So any diary
+update that adds/changes an image needs a real build. To keep it simple, **treat
+every devdiary update as `make deploy`** rather than reasoning about whether a
+given day touched an image.
 
 ### Layout System
 
