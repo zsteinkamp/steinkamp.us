@@ -9267,3 +9267,22 @@
       commits: 2
       ins: 3
       del: 4
+- date: '2026-05-25'
+  impact: L
+  summary: >-
+    Gave Knobbler its own current track/device that can be decoupled from
+    Live's selection: a new "Follow Sel" lock toggle lets each tablet hold its
+    own focus, so several surfaces can drive one Live Set at once
+    ([multiple tablets](https://plugins.steinkamp.us/m4l-Knobbler4/multiple-tablets)).
+    Also fixed Bluhand parameter banks for recent Live renames (Utility
+    Gain→Output) and a stale-cache bug that hid Simpler's filter params, and
+    added a long-press-and-slide tempo control to the toolbar.
+  projects:
+    - name: knobbler-native
+      commits: 7
+      ins: 138
+      del: 47
+    - name: m4l-Knobbler4
+      commits: 5
+      ins: 924
+      del: 471
