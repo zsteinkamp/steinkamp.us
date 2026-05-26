@@ -211,6 +211,19 @@ const DevDiary: React.FC<DiaryProps> = ({ entries }) => {
     setActiveDate(d)
   }
 
+  // Lightbox: clicking a day's thumbnail opens the full image as an overlay.
+  const [lightbox, setLightbox] = useState<{ src: string; alt: string } | null>(
+    null
+  )
+  useEffect(() => {
+    if (!lightbox) return
+    const onKey = (ev: KeyboardEvent) => {
+      if (ev.key === 'Escape') setLightbox(null)
+    }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  }, [lightbox])
+
   // The scroll positions of the two panes are linked by a single shared
   // variable: the timeline position. Each entry is one knot with a known grid
   // x (content coords) and journal y (document coords); between knots we
@@ -495,11 +508,15 @@ const DevDiary: React.FC<DiaryProps> = ({ entries }) => {
                           )}
                         </div>
                         {e.image && (
-                          <a
-                            href={e.image}
-                            target='_blank'
-                            rel='noopener noreferrer'
-                            className='block shrink-0'
+                          <button
+                            type='button'
+                            onClick={() =>
+                              setLightbox({
+                                src: e.image!,
+                                alt: e.imageAlt || `${e.date} screenshot`,
+                              })
+                            }
+                            className='block shrink-0 cursor-zoom-in'
                           >
                             {/* eslint-disable-next-line @next/next/no-img-element */}
                             <img
@@ -508,7 +525,7 @@ const DevDiary: React.FC<DiaryProps> = ({ entries }) => {
                               loading='lazy'
                               className='max-h-32 rounded-md border border-border sm:max-w-[14rem]'
                             />
-                          </a>
+                          </button>
                         )}
                       </div>
                     </div>
@@ -518,6 +535,23 @@ const DevDiary: React.FC<DiaryProps> = ({ entries }) => {
           </div>
         ))}
       </section>
+
+      {lightbox && (
+        <div
+          onClick={() => setLightbox(null)}
+          role='dialog'
+          aria-modal='true'
+          aria-label={lightbox.alt}
+          className='fixed inset-0 z-50 flex cursor-zoom-out items-center justify-center bg-black/80 p-4'
+        >
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={lightbox.src}
+            alt={lightbox.alt}
+            className='max-h-[90vh] max-w-[90vw] rounded-md shadow-2xl'
+          />
+        </div>
+      )}
     </article>
   )
 }
