@@ -122,6 +122,17 @@ body {
   --thumb-text: white;
   --histogram: var(--shade-300);
   --histogram-hover: var(--shade-400);
+
+  /* Syntax highlighting (prism-react-renderer) — light */
+  --code-text: var(--shade-800);
+  --code-comment: var(--shade-500);
+  --code-punctuation: var(--shade-600);
+  --code-property: #0369a1; /* keys — link-700 */
+  --code-string: #15803d; /* green-700 */
+  --code-number: #b45309; /* amber-700 */
+  --code-keyword: #7e22ce; /* purple-700 */
+  --code-function: #be123c; /* rose-700 */
+  --code-operator: var(--shade-700);
 }
 :root.dark {
   color-scheme: dark;
@@ -143,6 +154,17 @@ body {
   --thumb-text: black;
   --histogram: var(--shade-700);
   --histogram-hover: var(--shade-600);
+
+  /* Syntax highlighting (prism-react-renderer) — dark */
+  --code-text: var(--shade-300);
+  --code-comment: var(--shade-500);
+  --code-punctuation: var(--shade-400);
+  --code-property: #7dd3fc; /* keys — link-300 */
+  --code-string: #86efac; /* green-300 */
+  --code-number: #fcd34d; /* amber-300 */
+  --code-keyword: #d8b4fe; /* purple-300 */
+  --code-function: #fda4af; /* rose-300 */
+  --code-operator: var(--shade-400);
 }
 
 .monoSvg path {
