@@ -7226,7 +7226,6 @@
       del: 0
 - date: '2025-07-03'
   impact: S
-  image: /images/devdiary/2025-07-03-screenshot-2025-07-03.jpg
   summary: >-
     Added ping/heartbeat support and removed immediate transport send in
     knobbler-native.
@@ -9292,7 +9291,6 @@
       del: 22
 - date: '2026-05-02'
   impact: S
-  image: /images/devdiary/2026-05-02-3x9a5551-edit.jpg
   summary: >-
     Updated P3SA connection instructions and fixed single-item OSC batch
     handling in device and app.
