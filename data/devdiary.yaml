@@ -9582,17 +9582,16 @@
 - date: '2026-05-26'
   impact: L
   summary: >-
-    Shipped Knobbler4 v65 — a new [Back to Arrangement](https://plugins.steinkamp.us/m4l-Knobbler4/features#back-to-arrangement)
-    toolbar button, a multiplayer reliability fix (clip views kept stalling in
-    long sessions, so observers are now bounded to a warm buffer around the
-    viewport), and a columnar OSC encoding plus generic payload chunking that
-    cut bandwidth on busy clip grids. Along the way fixed a UTF-8
-    packet-encoding bug that blanked panels on large sets and added a debug OSC
-    logger, and cut knobbler-native build 223 (expo-osc connection-state crash
-    fix, Android clip-tap fix, the Back to Arrangement button, columnar decode).
-    On the site, added syntax highlighting to all code blocks and published
-    [Knobbler's OSC Diet](https://steinkamp.us/posts/2026-05-26-knobbler-osc-diet),
-    a post on the five-step evolution of the wire format.
+    Shipped Knobbler4 v65: a [Back to Arrangement](https://plugins.steinkamp.us/m4l-Knobbler4/features#back-to-arrangement)
+    button, a multiplayer fix (clip observers now bounded to a warm buffer
+    around the viewport), and columnar OSC encoding plus payload chunking to cut
+    bandwidth on busy clip grids. Also fixed a UTF-8 packet bug that blanked
+    panels on large sets, and cut knobbler-native build 223. On the site, added
+    code syntax highlighting and published two posts:
+    [Knobbler's OSC Diet](https://steinkamp.us/posts/2026-05-26-knobbler-osc-diet)
+    on the wire format's five-step evolution, and
+    [Sampling a Spring](https://steinkamp.us/posts/2026-05-26-sampling-a-spring)
+    on driving Ableton parameters from React Native's UI thread.
   image: /images/devdiary/2026-05-26-back-to-arrangement.jpg
   imageAlt: >-
     The Knobbler app toolbar with the new Back to Arrangement button lit up
