@@ -9688,8 +9688,8 @@
     killing the scroll-leak across the mixer, clip grid, and cue points and
     tightening inbound coalescing to 8ms. Also landed live.tab/knobSlot theming,
     an Android tempo-box tap fix in app build 2026.6.2, a uuid security
-    override, and docs explaining that the WiFi automation gaps are AWDL/AirDrop
-    interference, not app-fixable.
+    override, and consolidated documentation pointing to USB (link-local) as the
+    primary, rock-solid connection with ad-hoc WiFi as the alternative.
   projects:
     - name: m4l-Knobbler4
       commits: 20
