@@ -9679,6 +9679,34 @@
       commits: 37
       ins: 2957
       del: 819
+- date: '2026-06-03'
+  impact: L
+  summary: >-
+    Shipped Knobbler device v66, fixing a symbol-table growth plateau by
+    re-pointing per-slot/observer bindings (by id, not path) instead of
+    detaching and recreating them on every page show, scroll, or rebuild —
+    killing the scroll-leak across the mixer, clip grid, and cue points and
+    tightening inbound coalescing to 8ms. Also landed live.tab/knobSlot theming,
+    an Android tempo-box tap fix in app build 2026.6.2, a uuid security
+    override, and docs explaining that the WiFi automation gaps are AWDL/AirDrop
+    interference, not app-fixable.
+  projects:
+    - name: m4l-Knobbler4
+      commits: 20
+      ins: 34629
+      del: 801
+    - name: knobbler-native
+      commits: 4
+      ins: 80
+      del: 39
+    - name: steinkamp.us
+      commits: 1
+      ins: 70
+      del: 37
+    - name: plugins
+      commits: 1
+      ins: 7
+      del: 0
 - date: '2026-06-02'
   impact: L
   summary: >-
