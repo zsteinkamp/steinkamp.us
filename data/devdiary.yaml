@@ -9685,10 +9685,12 @@
     Cut Knobbler app build 2026.6.2 (224): the volume fader now matches
     Ableton's physical fader curve via a new dB conversion utility, and the
     MixerPage's FlatList was replaced with a native ScrollView plus manual
-    windowing to stop scroll oscillation. Fixed the Setup-tab freeze and a class
-    of dead-slider / mis-routed-tap bugs after page switches.
+    windowing to stop scroll oscillation. Also extended kept-mounted pages to
+    the phone (hidden via react-native-screens rather than display:none) and
+    fixed the Setup-tab freeze plus a class of dead-slider / mis-routed-tap
+    bugs after page switches.
   projects:
     - name: knobbler-native
-      commits: 14
-      ins: 671
-      del: 450
+      commits: 19
+      ins: 1097
+      del: 734
