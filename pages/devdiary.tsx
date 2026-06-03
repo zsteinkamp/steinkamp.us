@@ -110,6 +110,10 @@ const buildYearWeeks = (year: number) => {
   return weeks
 }
 
+// Tiny "Jun 1" label for the active column's date range.
+const fmtDay = (d: string) =>
+  `${MONTHS[Number(d.slice(5, 7)) - 1]} ${Number(d.slice(8, 10))}`
+
 // Memoized so a moving highlight only re-renders the two years it touches:
 // the parent passes `activeDate` scoped to this year (null otherwise) and a
 // per-year `isActiveYear` boolean, so unaffected years see identical props.
@@ -117,8 +121,9 @@ const YearGrid: React.FC<{
   year: number
   byDate: Record<string, Entry>
   isActiveYear: boolean
+  activeDate: string | null
   onPickYear: (year: number) => void
-}> = memo(({ year, byDate, isActiveYear, onPickYear }) => {
+}> = memo(({ year, byDate, isActiveYear, activeDate, onPickYear }) => {
   const weeks = buildYearWeeks(year)
   return (
     <div className='shrink-0' data-year={year}>
@@ -132,42 +137,69 @@ const YearGrid: React.FC<{
       >
         {year}
       </h3>
-      <div className='flex gap-[3px] pb-2'>
-        {weeks.map((week, wi) => (
-          <div key={wi} className='flex flex-col gap-[3px]'>
-            {Array.from({ length: 7 }).map((_, di) => {
-              const date = week[di] ?? null
-              const entry = date ? byDate[date] : undefined
-              // Mark the first of each month for a month-boundary rhythm.
-              const firstOfMonth = !!date && date.endsWith('-01')
-              const title = date
-                ? entry
-                  ? `${date} — ${IMPACT_LABEL[entry.impact]}: ${entry.summary}`
-                  : date
-                : ''
-              const cell = (
-                <div
-                  title={title}
-                  data-date={entry ? date : undefined}
-                  className={`h-[12px] w-[12px] rounded-[2px] ${cellClass(
-                    entry?.impact
-                  )} ${date ? '' : 'opacity-0'} ${
-                    firstOfMonth
-                      ? 'outline outline-1 outline-offset-1 outline-date-lite'
-                      : ''
-                  }`}
-                />
-              )
-              return entry ? (
-                <a key={di} href={`#d-${date}`} aria-label={title}>
-                  {cell}
-                </a>
-              ) : (
-                <div key={di}>{cell}</div>
-              )
-            })}
-          </div>
-        ))}
+      <div className='flex gap-[3px] pb-5 pt-4'>
+        {weeks.map((week, wi) => {
+          // Highlight the week column that holds the active date, and label
+          // its range: first real day on top, last real day on the bottom.
+          const isActiveCol = !!activeDate && week.includes(activeDate)
+          const days = week.filter(Boolean) as string[]
+          const range =
+            isActiveCol && days.length
+              ? { start: fmtDay(days[0]), end: fmtDay(days[days.length - 1]) }
+              : null
+          return (
+            <div
+              key={wi}
+              className={`relative flex flex-col gap-[3px] rounded-[3px] ${
+                isActiveCol
+                  ? 'outline outline-1 outline-offset-[2px] outline-emerald-500/70'
+                  : ''
+              }`}
+            >
+              {range && (
+                <span className='pointer-events-none absolute -top-4 left-1/2 -translate-x-1/2 whitespace-nowrap text-[9px] leading-none text-date-lite'>
+                  {range.start}
+                </span>
+              )}
+              {Array.from({ length: 7 }).map((_, di) => {
+                const date = week[di] ?? null
+                const entry = date ? byDate[date] : undefined
+                // Mark the first of each month for a month-boundary rhythm.
+                const firstOfMonth = !!date && date.endsWith('-01')
+                const title = date
+                  ? entry
+                    ? `${date} — ${IMPACT_LABEL[entry.impact]}: ${entry.summary}`
+                    : date
+                  : ''
+                const cell = (
+                  <div
+                    title={title}
+                    data-date={entry ? date : undefined}
+                    className={`h-[12px] w-[12px] rounded-[2px] ${cellClass(
+                      entry?.impact
+                    )} ${date ? '' : 'opacity-0'} ${
+                      firstOfMonth
+                        ? 'outline outline-1 outline-offset-1 outline-date-lite'
+                        : ''
+                    }`}
+                  />
+                )
+                return entry ? (
+                  <a key={di} href={`#d-${date}`} aria-label={title}>
+                    {cell}
+                  </a>
+                ) : (
+                  <div key={di}>{cell}</div>
+                )
+              })}
+              {range && (
+                <span className='pointer-events-none absolute -bottom-4 left-1/2 -translate-x-1/2 whitespace-nowrap text-[9px] leading-none text-date-lite'>
+                  {range.end}
+                </span>
+              )}
+            </div>
+          )
+        })}
       </div>
     </div>
   )
@@ -437,6 +469,7 @@ const DevDiary: React.FC<DiaryProps> = ({ entries }) => {
             year={y}
             byDate={byDate}
             isActiveYear={y === activeYear}
+            activeDate={y === activeYear ? activeDate : null}
             onPickYear={pickYear}
           />
         ))}
