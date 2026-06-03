@@ -9689,6 +9689,11 @@
     the phone (hidden via react-native-screens rather than display:none) and
     fixed the Setup-tab freeze plus a class of dead-slider / mis-routed-tap
     bugs after page switches.
+  image: /images/devdiary/2026-06-02-phone-and-tablet-mixer.jpg
+  imageAlt: >-
+    Studio desk at dusk: Ableton Live Session view on the monitor, with the
+    Knobbler mixer running on both an iPad and a phone below it, beside glowing
+    Push pads.
   projects:
     - name: knobbler-native
       commits: 19
