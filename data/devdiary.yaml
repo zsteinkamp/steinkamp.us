@@ -9613,3 +9613,82 @@
       commits: 1
       ins: 9
       del: 0
+- date: '2026-05-27'
+  impact: M
+  summary: >-
+    Tightened scroll debounces across the clip and mixer views (both device and
+    app) so the panels settle faster, and made track renames and recolors
+    reflect live in the visible-track list and Bluhand header.
+  projects:
+    - name: m4l-Knobbler4
+      commits: 5
+      ins: 212
+      del: 105
+    - name: knobbler-native
+      commits: 2
+      ins: 4
+      del: 4
+- date: '2026-05-28'
+  impact: M
+  summary: >-
+    Reworked the app's animated layouts to drive Reanimated worklets off
+    percentages instead of pixels and memoized the track-overview bar, and
+    deferred the mixer FlatList mount until the target track is known to skip a
+    throwaway scroll. Added a device-side /debug/log route for app diagnostics.
+  projects:
+    - name: knobbler-native
+      commits: 8
+      ins: 181
+      del: 43
+    - name: m4l-Knobbler4
+      commits: 3
+      ins: 43
+      del: 3
+- date: '2026-05-29'
+  impact: S
+  summary: >-
+    Memoized the KnobblerSlider, XYPad, SliderRow, and VolumeSlider components
+    to cut needless re-renders.
+  projects:
+    - name: knobbler-native
+      commits: 1
+      ins: 12
+      del: 4
+- date: '2026-05-30'
+  impact: M
+  summary: >-
+    Moved the sliders to per-address OSC subscriptions (a new useOscValue hook)
+    and dropped the broad useOscTick from the Pan, Send, and Crossfader
+    controls, so each slider only re-renders when its own value changes.
+  projects:
+    - name: knobbler-native
+      commits: 5
+      ins: 506
+      del: 410
+- date: '2026-06-01'
+  impact: L
+  summary: >-
+    Major app performance overhaul: kept all the main pages mounted across tab
+    switches, decomposed the broad AppContext into focused contexts (current
+    page, mixer window, mapping/join/swap), and drove all the map/unmap overlays
+    off SharedValues so toggling mapping causes zero re-renders. Also windowed
+    the clip-grid track axis and recorded before/after page-switch baselines
+    across iPad and Galaxy Tab hardware.
+  projects:
+    - name: knobbler-native
+      commits: 37
+      ins: 2957
+      del: 819
+- date: '2026-06-02'
+  impact: L
+  summary: >-
+    Cut Knobbler app build 2026.6.2 (224): the volume fader now matches
+    Ableton's physical fader curve via a new dB conversion utility, and the
+    MixerPage's FlatList was replaced with a native ScrollView plus manual
+    windowing to stop scroll oscillation. Fixed the Setup-tab freeze and a class
+    of dead-slider / mis-routed-tap bugs after page switches.
+  projects:
+    - name: knobbler-native
+      commits: 14
+      ins: 671
+      del: 450
