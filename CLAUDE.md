@@ -99,3 +99,7 @@ Tailwind CSS with class-based dark mode. Theme colors defined as CSS custom prop
 
 - Prettier with: no semicolons, single quotes, trailing commas (ES5), 2-space tabs
 - Commit messages: present tense, imperative mood, 72-char subject line limit
+
+## Writing Style (blog posts)
+
+- In prose, write multipliers with a lowercase `x`, not the Unicode times symbol `×` (e.g. `7–11x`, `~1.7x` — not `7–11×`).
