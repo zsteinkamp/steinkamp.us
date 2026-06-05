@@ -26,6 +26,8 @@ In May 2024, I stepped away from full-time work after a career spanning 30 years
 
 - Participated in, then led 50+ days building brand new trails in [Quail Hollow Ranch](https://parks.santacruzcountyca.gov/Home/ExploreOurParksBeaches/AllCountyParks/QuailHollowRanchCountyPark.aspx). The Pace Trail is two loops totaling 4 miles in scenic and rugged terrain. Learning the [art and science of trail making](https://www.natureshape.com/pubs/nstbd.html) has given me a much deeper appreciation for every trail.
 - Helped to publicize volunteer days, [tracked daily progress](https://www.youtube.com/watch?v=haxiDoz3uSI&list=PLqzTnRgmRId5RpgQCsbcq-fqo0P-KjGIc), and documented additional County support needs, e.g. areas that need attention from a chainsaw crew.
+- Received official recognition from the County of Santa Cruz and the California State Legislature for involvement in this project.
+
 #### June 2025 - Present {% .job-date %}
 
 ### Santa Cruz Mountains Trail Stewardship {% .job-company %}
