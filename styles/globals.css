@@ -141,7 +141,7 @@ body {
   --shadeshadow: black;
   --shadetext: var(--shade-400);
   --border: var(--shade-800);
-  --text: var(--shade-400);
+  --text: var(--shade-300);
   --date: var(--shade-500);
   --date-lite: var(--shade-600);
   --themetoggle: var(--link-700);
