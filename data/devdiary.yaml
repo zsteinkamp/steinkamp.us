@@ -9729,3 +9729,220 @@
       commits: 19
       ins: 1097
       del: 734
+- date: '2026-06-04'
+  impact: S
+  summary: >-
+    Fixed the Knobbler app's XY-pad gradient fills so they redraw on layout
+    change, and documented the Live 12.4+ requirement on the device, the
+    plugins landing page, and a new v8 / "No such object" troubleshooting entry.
+  projects:
+    - name: knobbler-native
+      commits: 2
+      ins: 66
+      del: 19
+    - name: m4l-Knobbler4
+      commits: 1
+      ins: 12
+      del: 1
+    - name: plugins
+      commits: 1
+      ins: 2
+      del: 2
+- date: '2026-06-05'
+  impact: M
+  summary: >-
+    Redesigned the Knobbler app's Setup ▸ Connection screen and unified the
+    Setup header hierarchy, then made the Tips modal a movable panel with a
+    draggable carousel. On the site, brightened the dark-theme body text and
+    noted County and State Legislature recognition for the Quail Hollow trails
+    on the resume; also documented a host NFS boot-ordering gate across the
+    musics and photodirs hosts.
+  projects:
+    - name: knobbler-native
+      commits: 3
+      ins: 1413
+      del: 644
+    - name: steinkamp.us
+      commits: 3
+      ins: 7
+      del: 5
+    - name: musics
+      commits: 1
+      ins: 94
+      del: 0
+    - name: photodirs
+      commits: 1
+      ins: 20
+      del: 0
+- date: '2026-06-06'
+  impact: S
+  summary: >-
+    Fixed clip rendering so the orphaned half of a row-straddling XY pair is
+    drawn instead of silently dropped.
+  projects:
+    - name: knobbler-native
+      commits: 1
+      ins: 12
+      del: 6
+- date: '2026-06-07'
+  impact: M
+  summary: >-
+    Built the playing-clip phase pie — a progress indicator showing play count
+    and beats with a pending-stop flash — streaming live progress from the M4L
+    device to the app, with the flanking numbers sized to match the clip title.
+  projects:
+    - name: m4l-Knobbler4
+      commits: 2
+      ins: 553
+      del: 126
+    - name: knobbler-native
+      commits: 2
+      ins: 385
+      del: 24
+- date: '2026-06-08'
+  impact: L
+  summary: >-
+    Added an automated in-app demo mode to Knobbler and stood up the App Store
+    marketing pipeline (screenshot + preview-video renderers), plus a phased
+    end-to-end OSC tester (connect / clips / mixer) on the device side. Also
+    fixed page nav so the device follows programmatic page changes and hid the
+    paywall in dev builds.
+  projects:
+    - name: knobbler-native
+      commits: 5
+      ins: 1979
+      del: 29
+    - name: m4l-Knobbler4
+      commits: 2
+      ins: 884
+      del: 2
+- date: '2026-06-09'
+  impact: M
+  summary: >-
+    Cut app build 2026.6.9 (225), added a YouTube thumbnail renderer
+    (Playwright + DIN Condensed) and a SPEED tempo knob so the full demo tour
+    fits the 30s App Preview cap, and built a live symbol-count monitor graph.
+    On the device, throttled the /clips/progress emit to ~8/s, gated it on
+    transport, and fixed a MIDI-track output-meter warning.
+  projects:
+    - name: knobbler-native
+      commits: 8
+      ins: 675
+      del: 46
+    - name: m4l-Knobbler4
+      commits: 6
+      ins: 340
+      del: 116
+- date: '2026-06-10'
+  impact: S
+  summary: >-
+    Wrote release notes for app 2026.6.9 and added the v67 device changelog
+    entry.
+  projects:
+    - name: knobbler-native
+      commits: 1
+      ins: 21
+      del: 0
+    - name: m4l-Knobbler4
+      commits: 1
+      ins: 1
+      del: 0
+- date: '2026-06-12'
+  impact: S
+  summary: >-
+    Reworked the debug symbol-count graph to fill from the right over a fixed
+    15-minute window.
+  projects:
+    - name: knobbler-native
+      commits: 1
+      ins: 16
+      del: 11
+- date: '2026-06-15'
+  impact: M
+  summary: >-
+    Shipped app build 2026.6.15 (226) with a new iOS icon. Made the tablet page
+    nav adapt to narrow screens (nested flex that shrinks/ellipsizes the title
+    while keeping the prev/next buttons fixed) and restyled the mixer
+    track-name headers to match the nav panel buttons, with return/main icons
+    in both modes.
+  projects:
+    - name: knobbler-native
+      commits: 9
+      ins: 148
+      del: 63
+- date: '2026-06-16'
+  impact: S
+  summary: >-
+    Swapped the Knobbler plugins hero image for a new dual-tablet studio shot.
+  projects:
+    - name: plugins
+      commits: 1
+      ins: 0
+      del: 0
+- date: '2026-06-17'
+  impact: M
+  summary: >-
+    Cut app build 2026.6.17 (227) with Session-view clip progress: extracted a
+    shared useClipGrid hook backing both the Clips and Session pages, and fixed
+    the What's New modal scroll on phones (the backdrop Pressable was capturing
+    the touch responder). Refreshed the plugins hero with a dual-tablet + phone
+    studio shot.
+  projects:
+    - name: knobbler-native
+      commits: 4
+      ins: 351
+      del: 553
+    - name: plugins
+      commits: 1
+      ins: 0
+      del: 0
+- date: '2026-06-18'
+  impact: M
+  summary: >-
+    Added clip-recording feedback end to end — pulsing pending-record slot
+    borders, a distinct CLIP_RECORD_TRIGGERED cell state, and a live recording
+    clip length streamed as bars.beats.16ths the way Live shows it. Also turned
+    level meters on by default for new multiMixer device instances and shipped
+    the v68 device changelog.
+  projects:
+    - name: m4l-Knobbler4
+      commits: 6
+      ins: 56688
+      del: 19
+    - name: knobbler-native
+      commits: 3
+      ins: 83
+      del: 37
+- date: '2026-06-19'
+  impact: S
+  summary: >-
+    Made the blank area beside a few-track clip grid pannable and tidied up the
+    release notes copy.
+  projects:
+    - name: knobbler-native
+      commits: 2
+      ins: 9
+      del: 4
+    - name: m4l-Knobbler4
+      commits: 1
+      ins: 2
+      del: 2
+    - name: plugins
+      commits: 1
+      ins: 1
+      del: 1
+- date: '2026-06-20'
+  impact: S
+  summary: >-
+    Featured the new June 2026 Knobbler walkthrough video on the device docs
+    and plugins page, dropping the obsolete setup/walkthrough links and
+    refreshing the header background and walkthrough label.
+  projects:
+    - name: m4l-Knobbler4
+      commits: 1
+      ins: 3
+      del: 5
+    - name: plugins
+      commits: 1
+      ins: 4
+      del: 4
