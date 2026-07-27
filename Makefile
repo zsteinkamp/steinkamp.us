@@ -30,3 +30,6 @@ devdown: ## Stop development containers
 
 post: ## Create a new post
 	bin/new-post
+
+deploy: ## Deploy to production server
+	ssh linux "cd ~/dev/steinkamp.us && git pull && make"

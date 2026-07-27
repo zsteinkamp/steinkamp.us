@@ -123,7 +123,15 @@ const PostFilter: React.FC<PostFilterProps> = ({
       }
     }
     setFilteredPosts(tempPosts)
-  }, [minSlider, maxSlider, filter, selTags])
+  }, [
+    minSlider,
+    maxSlider,
+    filter,
+    selTags,
+    buckets.granularity,
+    posts,
+    setFilteredPosts,
+  ])
 
   const onBucketClick = (ts: number) => {
     if (!buckets.granularity) {

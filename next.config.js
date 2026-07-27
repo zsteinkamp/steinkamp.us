@@ -7,6 +7,12 @@ module.exports = withMarkdoc({ schemaPath: './markdoc' })({
   },
   pageExtensions: ['md', 'mdoc', 'js', 'jsx', 'ts', 'tsx'],
   reactStrictMode: true,
+  // `next lint` is deprecated (removed in Next 16) and its bundled plugin
+  // errors under our ESLint 8 / legacy .eslintrc setup. Prettier is the lint
+  // gate here (`npm run lint`), so skip the integrated lint during build.
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
   redirects: async () => {
     return [
       {
