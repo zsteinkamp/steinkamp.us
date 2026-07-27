@@ -59,6 +59,10 @@ const getPosts = async (
             ? (yaml.load(ast.attributes.frontmatter) as any)
             : {}
 
+          if (data && data.unlisted) {
+            return null
+          }
+
           let thumbnail = null
 
           if (data) {

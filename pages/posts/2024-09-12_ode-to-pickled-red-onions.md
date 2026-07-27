@@ -16,14 +16,13 @@ Pickled red onions are a condiment outlier when compared with others on the dime
 
 ## Materials
 
-* 1 32oz jar. I (re-)used a Mezzetta pepperoncini jar.
-* 2-3 red onions, depending on size. You'll get to know how many to use for the onions you get.
-* 1 cup distilled white vinegar
-* 1 cup water
-* 1 tsp salt
-* 1 tbsp sugar
-* 2 pods star anise (optional)
-
+- 1 32oz jar. I (re-)used a Mezzetta pepperoncini jar at first but eventually got [these jars](https://www.amazon.com/dp/B07SF5W245) which work better.
+- 1 pound red onions (2-4, depending on size). You'll get to know how many to use for the onions you get.
+- 1 cup distilled white vinegar
+- 1 cup water
+- 1 tsp salt
+- 1 tbsp sugar
+- 2 pods star anise (optional)
 
 ## Process
 
@@ -41,33 +40,26 @@ Pickled red onions are a condiment outlier when compared with others on the dime
 7. They're barely ready to eat in 4-6 hours, but best to just do it the night before and enjoy an easy lunch or dinner addition.
    {% captionedimage caption="The next morning." src="/images/pickled-red-onions/in-fridge-end.jpg" /%}
 
-
 ## Serving Ideas
-
 
 ### Deens
 
 I have this for lunch literally every day, and I look forward to it every single day. It's the perfect lunch -- delicious, healthy, inexpensive, fast. A can of decent sardines ($3 in bulk from Amazon), some julienned sun dried tomatoes, a half dozen crackers, Baron hot sauce, and a nice pile of pickled red onions. It is so delicious and feels so good.
 {% captionedimage caption="The best lunch. Fight me." src="/images/pickled-red-onions/deens.jpg" /%}
 
-
 ### Burgers
 
 Top burgers with them.
-
 
 ### Tuna / Chicken Salad
 
 With pickled red onions chopped up and mixed in, or as a layer atop your favorite tuna or chicken salad.
 
-
 ### Salad
 
 Elevate your next green salad with a pickled red onion topper.
-
 
 ## Tacos
 
 We love to put a mound of shredded cheese in a hot skillet, top that with a corn tortilla and let the cheese get crispy in the pan and fuse to the tortilla, with a little bit of cheese to melt on top of the tortilla. That crispy cheese is going to be the outside of your taco. Fill with your delicious shredded chicken in adobo, steak sauteed in a gob of garlic, or shrimp in a creamy adobo sauce. Top with cilantro, salsa, and your pickled red onions.
 {% captionedimage caption="An awesome taco topper." src="/images/pickled-red-onions/chicken-taco.jpg" /%}
-
