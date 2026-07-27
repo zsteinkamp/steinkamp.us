@@ -17,7 +17,7 @@
     "@markdoc/next.js": "^0.2.2",
     "@next/env": "^14.2.8",
     "@octokit/rest": "^21.0.2",
-    "adm-zip": "^0.5.16",
+    "adm-zip": "^0.6.0",
     "dayjs": "^1.11.7",
     "feed": "^4.2.2",
     "glob-promise": "^6.0.2",
