@@ -1,0 +1,99 @@
+---
+layout: post
+title: 'Making a Music App Feel Instant: Keeping Every Page Mounted in React Native'
+date: '2026-06-03 13:00:00'
+thumbnail: /images/2026-06-03-making-a-music-app-feel-instant/page-switch-probe.jpg
+tags:
+  - Music
+  - Nerd
+  - Projects
+  - Software
+excerpt: |
+  An instrument has to feel instant. When you tap between pages in a music controller, the new page should already be there — not mount in front of you. Knobbler's page switches used to sit on a uniform ~700ms floor, and the fix was a chain of four React Native lessons: stop unmounting pages, keep hot state out of the broad context, freeze off-screen work, and window the heavy grid. Here's the saga, with before/after numbers on a fast tablet and a slow one.
+---
+
+<!--
+DRAFT — DO NOT PUBLISH. Data is stale/incorrect.
+The 710→100 context-split table comes from PERF_BASELINE.md captured 2026-06-01,
+in the `display:none` keep-mounted era. The `<Screen activityState>` migration
+(knobbler-native 81a32a0, 2026-06-02) landed the next day and was never
+re-measured. Since `<Screen>` detaches off-screen pages from the native tree,
+they no longer re-render on context changes or tick on OSC — which likely
+subsumes most of the gain the post credits to the AppContext split and tick-gate.
+Before publishing: re-run the page-switch probe with `<Screen>` in place,
+isolating each change's real contribution, and rebuild the narrative around what
+actually moves the number now (probably `<Screen>` itself).
+-->
+
+[Knobbler](https://plugins.steinkamp.us/knobbler) turns a tablet into an auto-labeling, multitouch control surface for Ableton Live. It is an instrument, and instruments have a standard most apps don't have to meet: **latency you can feel.** A musician notices ~20ms. A page transition that takes a beat to appear isn't a loading state — it's a dropped cue.
+
+I've written before about [trimming the OSC firehose](/posts/2026-05-26-knobbler-osc-diet) and [driving a fader from the UI thread](/posts/2026-05-26-sampling-a-spring). Those are about the _data_ moving between the Max for Live device and the app. This post is about the app's own _navigation_ — tapping between the knobbler, mixer, clips, and session pages — and why it used to sit on a stubborn floor of about three-quarters of a second per switch, identical on every page, no matter what I tried.
+
+The punchline is that the floor was uniform _because_ it wasn't where I kept looking. Four lessons, each one a thing React Native already knew how to do that I'd hand-rolled around.
+
+## Measure first
+
+None of this is fixable by feel. I built a page-switch probe (`pageSwitchProbe.ts`, toggled in a debug panel) that timestamps each switch into its parts: `ui` (tap → the new page's React commit), `deviceWait` (request → the device's first reply chunk), and the stream/parse of whatever bulk payload follows. Everything below is that `ui` number — the part the app owns — on a production build, captured on two deliberately different devices: an iPad M1 (fast, 120Hz) and a Samsung Galaxy Tab A9+ (slow, 60Hz). The slow tablet is the one that tells the truth.
+
+(`deviceWait` — the device's walk of Live's object model on a big set — is real, but it lives on the _other_ side of the wire, in the Max for Live device, so it's out of scope for an app-side post. I went after it separately, by [pooling the device's LiveAPI observers instead of churning them on every scroll](/posts/2026-06-03_knobblers-leaky-observers) — which also made the observer binding ~1.7x faster. Here it's enough to note that the data request fires synchronously _before_ the page mounts, so it overlaps the work below rather than stacking on it.)
+
+## 1. Stop unmounting pages
+
+The original design did the obvious thing: the active page was mounted, the others weren't. Switch pages, the old one unmounts, the new one mounts from scratch.
+
+For most apps that's correct. For this one it's the whole problem, because mounting these pages is _expensive_: ~16 knobbler sliders cost about 300ms to mount, and the clip grid — every cell, every track header — runs about 1.5s on the Android tablet. You can't mount your way to instant. So the pages all have to stay alive and just hide when they're off-screen.
+
+The naive way to keep a page mounted-but-hidden is `display: none`. That's the trap. On React Native's New Architecture (Fabric) with the gesture handler library, a `display: none` view **stays in the native view tree and its gesture handlers stay live in touch arbitration.** The hidden pages didn't stop existing — they kept competing for taps. A tap on a slider would change the track instead; the visible page's sliders went dead. Three resident pages, three sets of invisible gesture handlers all grabbing at the same touches.
+
+The fix was to stop hand-rolling visibility and use the mechanism React Navigation itself uses: [`react-native-screens`](https://github.com/software-mansion/react-native-screens). Wrap the pages in a `<ScreenContainer hasTwoStates>` and give each a `<Screen activityState={isActive ? 2 : 0}>`. An inactive screen is **detached at the native level** — its views and handlers leave the hierarchy — while staying mounted in React. The page keeps its state and its expensive subtree; it just isn't in the touch-arbitration conversation when it's hidden.
+
+It fixed the tap-stealing, and it was about 2x faster at switching than `display: none` besides. This became the spine of the whole effort, and it's the lesson I keep relearning on this app: **before you deepen a bespoke mechanism, check what the thousands of standard apps do.** This was my first native app, written solo before I had AI to argue with, so it's full of hand-rolled subsystems that the ecosystem already solved better.
+
+## 2. The uniform floor was the context, not the pages
+
+With every page now resident, I expected fast switches. Instead I got a flat ~700ms per switch — and suspiciously, _the same_ ~700ms on every page. Session, mixer, clips, knobbler: all within a few milliseconds of each other. When wildly different pages all cost exactly the same, the cost isn't in the pages.
+
+It was in the React context. Knobbler keeps global state in one big `AppContext` whose value object is consumed by every strip, every slider, every clip cell. And the current page lived in that value. So `setCurrentPage` changed the context value, and **every consumer in every resident page re-rendered** — now that all five pages were mounted, a single page switch reconciled the entire app. The uniform floor was the context-value cascade; it had nothing to do with the destination page, which is exactly why every destination cost the same.
+
+The fix is to get hot-path state _out_ of the broad value. The current page now lives in its own tiny context, read by the handful of components that actually care which page is showing. A switch re-renders those, not all 80 strips across five pages. I gave the same treatment to the other two fields that churn on interaction — the mixer's scroll window and the mapping/join mode — and left only stable handles (refs, setters, shared values that never trigger re-renders) in the big object.
+
+This is the one with the headline number. iPad M1, large set, steady-state switch:
+
+| page     | before (currentPage in broad context) | after (hot fields split out) |
+| -------- | -------------------------------------- | ---------------------------- |
+| session  | 710ms                                  | 100ms                        |
+| mixer    | 718ms                                  | 82ms                         |
+| clips    | 775ms                                  | 94ms                         |
+| bluhand  | 732ms                                  | 54–67ms                      |
+| knobbler | 723ms                                  | 69ms                         |
+
+Roughly 7–11x per page, and — the tell that it was the right diagnosis — every page lifted at once, because there was only ever one cause.
+
+## 3. Freeze the pages that aren't looking
+
+A subtler version of the same disease survived the context split. Knobbler's OSC layer fires a global "tick" on every coalesced batch of incoming data — meter updates, clip state, name changes. Components subscribe to that tick to repaint. With every page resident, _every_ tick re-rendered every strip and cell on all five pages, even the four you couldn't see. The JS thread stayed saturated, and a saturated thread makes every switch feel slow regardless of how cheap the switch itself is.
+
+Two cooperating fixes. Each page is memoized on its own visibility, so switching doesn't reconcile the _other_ resident pages. And each page subtree is wrapped so the tick subscription reads an "am I visible" context — when the page is hidden, it subscribes to a no-op, freezing the entire subtree without threading a prop through dozens of components. The always-visible chrome (toolbar, nav) has no such wrapper and ticks normally. Off-screen pages now cost nothing per tick; they sit detached and quiet until you bring them back.
+
+## 4. Window the grid that can't be cheap
+
+That left one genuinely heavy page: clips. The clip grid renders a cell per track per scene, and on a big set that's a lot of cells. Even with everything above, the first mount of clips was brutal on the slow tablet — and the unmount-era cost had been worse: a cold ClipsPage mount ran **3130–3159ms on Android**, making the whole switch to clips around six seconds.
+
+The fix is virtualization — render only the visible window of columns, not all of them — but with a twist specific to this app. I'd reached for `FlatList` first, the standard answer, and it _broke_ here: inside a kept-mounted (hidden) page its scroll metrics go stale, and on re-show it prunes most of the strips until you manually scroll to wake it up. So this is the rare case where the hand-rolled path is correct — a plain `ScrollView` with JS-owned windowing math that derives the visible index range from the scroll position. It survives hide/show by construction because nothing about it depends on native layout metrics being fresh.
+
+Windowing the track axis (the cells were already windowed) cut the cold mount hard:
+
+| device        | clips mount, before | after       |
+| ------------- | ------------------- | ----------- |
+| iPad M1       | 1068–1200ms         | 307–316ms   |
+| Galaxy Tab A9+ | 3130–3159ms        | 1436–1628ms |
+
+And because the page now stays mounted, you only pay that once. A _re-show_ of clips on the Android tablet — repainting the windowed grid from cache instead of remounting every cell — is **144–182ms**, against the old ~3.1s mount. That's the ~18–22x win, and it's biggest on the device that suffered most.
+
+## Where it landed
+
+Put the four together — pages stay mounted and detach natively when hidden, hot state lives in narrow contexts, off-screen subtrees freeze, the heavy grid is windowed — and page switches across both devices and every set size now land in roughly **40–260ms**, down from the uniform ~700–775ms floor and the unmount-era multi-second mounts. On the iPad even a large set is ~40–100ms; on the slow tablet it's ~70ms on a small set, ~150–260ms on a large one, and clips specifically went from a three-second mount to a flat ~150ms re-show.
+
+The first visit to each page still pays its mount once, and the device's object-model walk is its own story — I cut that down on the device side by [pooling its observers](/posts/2026-06-03_knobblers-leaky-observers) rather than from here. But the thing you _feel_, the second-and-later switch as you work a set, is now under the threshold where it reads as navigation instead of loading.
+
+What ties the four lessons together is that three of them were me undoing something I'd hand-built — `display: none` instead of `react-native-screens`, one fat context instead of narrow ones, a global tick with no gate — and the fourth was knowing when _not_ to reach for the standard tool. The instinct that paid off every time was the same: when you hit a structural wall, the first question isn't "how do I patch this?" It's "how do the thousands of apps that already solved this solve it?" For an instrument, where the bar is a latency a musician can feel, that question is the difference between an app that loads and an app that's just _there_.

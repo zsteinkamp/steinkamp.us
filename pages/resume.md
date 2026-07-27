@@ -14,11 +14,41 @@ Scotts Valley, California
 
 ## About
 
-I have been building web applications since 1995, and at mega-scale starting in 1999. My interest and experience through the years has been very broad -- frontend, backend, data infrastructure, networking, security, devops, visual design, usability, infrastructure, people management, hiring, and work flow optimization.
-
-In May 2024, I left the full-time world to focus on family, friends, and positive community impact.
+In May 2024, I stepped away from full-time work after a career spanning 30 years of riding a fortunate wave of technology. These days I regularly volunteer with Santa Cruz County Parks and other organizations [building and maintaining trails in the area](https://www.youtube.com/watch?v=haxiDoz3uSI&list=PLqzTnRgmRId5RpgQCsbcq-fqo0P-KjGIc). I also develop and distribute [free, open source music production software](https://plugins.steinkamp.us/). My professional experience has been very broad — frontend, backend, data infrastructure, networking, security, devops, visual design, usability, infrastructure, people management, hiring, work flow optimization, full bench cuts, and shovel selection.
 
 ## Experience
+
+#### May 2025 - Present {% .job-date %}
+
+### Santa Cruz County Parks {% .job-company %}
+
+#### VIP Volunteer, Pace Trail Construction, Quail Hollow Ranch
+
+- Participated in, then led 50+ days building brand new trails in [Quail Hollow Ranch](https://parks.santacruzcountyca.gov/Home/ExploreOurParksBeaches/AllCountyParks/QuailHollowRanchCountyPark.aspx). The Pace Trail is two loops totaling 4 miles in scenic and rugged terrain. Learning the [art and science of trail making](https://www.natureshape.com/pubs/nstbd.html) has given me a much deeper appreciation for every trail.
+- Helped to publicize volunteer days, [tracked daily progress](https://www.youtube.com/watch?v=haxiDoz3uSI&list=PLqzTnRgmRId5RpgQCsbcq-fqo0P-KjGIc), and documented additional County support needs, e.g. areas that need attention from a chainsaw crew.
+- Received official recognition from the County of Santa Cruz and the California State Legislature for involvement in this project.
+
+#### June 2025 - Present {% .job-date %}
+
+### Santa Cruz Mountains Trail Stewardship {% .job-company %}
+
+#### Volunteer
+
+- Participated in [Dig Days](https://act.santacruztrails.org/dig-days/) building and maintaining trails throughout the Santa Cruz Mountains.
+- Completed the Trail Crew Leader training program.
+
+#### December 2024 - Present {% .job-date %}
+
+### Self-Employed {% .job-company %}
+
+#### Independent Software Developer, Music Tools
+
+- Created [Knobbler](https://plugins.steinkamp.us/m4l-Knobbler4), a cross-platform (iOS / iPadOS / Android) touch controller with deep integration with Ableton Live, giving musicians a hyper-efficient way to control device parameters and navigate their Live Set.
+  - **Native app:** React Native / Expo with TypeScript; gesture handling and slider animation moved off the JS thread and onto the device GPU via Reanimated, yielding sub-frame latency on every touch.
+  - **Network optimization:** custom OSC pipeline that coalesces, batches, and throttles messages on both ends, cutting wire traffic by an order of magnitude on busy sessions.
+  - **Max for Live device:** ~5,000 lines of TypeScript compiled to JavaScript and running in Max's `[js]`/`[v8]` engines. Migrated the full codebase from `[js]` to `[v8]`, [diagnosing and fixing a Max symbol-table bloat issue](/posts/2026-05-15-knobbler-and-the-max-symbol-table) along the way.
+- Conceived, developed, and released more than [two dozen free and open source
+  Max for Live devices](https://plugins.steinkamp.us/) to give musicians new tools to spark their creativity.
 
 #### March 2023 - May 2024 {% .job-date %}
 
@@ -132,9 +162,7 @@ In May 2024, I left the full-time world to focus on family, friends, and positiv
 - Conceived and implemented a novel in-browser solution to display and manipulate 16 bits-per-pixel monochrome images in ways familiar to radiologists.
 - Involved in choosing datacenters, selecting hardware solutions, and installing hardware in datacenters.
 - Designed and implemented system/application monitoring and product analytics solutions.
-- Co-architected and implemented a scalable (hundreds of TB) yet inexpensive storage infrastructure with block-level deduplication and encryption.
-- Co-architected and implemented inter-datacenter file and database replication
-  with block-level data deduplication.
+- Co-architected and implemented a scalable (hundreds of TB) yet inexpensive storage infrastructure with inter-datacenter block-level deduplication and encryption.
 - Responsible for application security design and ongoing security testing.
   {% /avoidbreak %}
 
@@ -186,6 +214,18 @@ In May 2024, I left the full-time world to focus on family, friends, and positiv
 
 {% avoidbreak %}
 
+### Early Work {% .job-company %}
+
+- 1996 - 1998 — **Cal Poly Kennedy Library:** Built large-scale websites for the university library — my first taste of professional web development.
+- 1993 - 1996 — **[First Class Travel](/posts/2025-04-30_first-class-travel--1994-96):** Ran IT and built internal software for a 40-person corporate travel agency.
+- 1993 — **WYSE Technology:** Assembled PCs and servers on the production floor.
+- 1992 — **Fry's Electronics:** Repaired and built PCs and helped customers at the service bench.
+- 1991 — **Home Express:** Sold furniture.
+- 1989 - 1990 — **Local Photo Shop:** Hand-developed color and black & white film and prints in the darkroom.
+  {% /avoidbreak %}
+
+{% avoidbreak %}
+
 ## Education
 
 #### Graduated 1998 {% .job-date %}
@@ -210,11 +250,12 @@ In May 2024, I left the full-time world to focus on family, friends, and positiv
 
 ## Interests
 
+- Trail Building and Maintenance
 - Music making ([Spotify](https://open.spotify.com/artist/4zlbGPYkjV7EpxXHyfZNAh) / [Apple](https://itunes.apple.com/us/artist/zack-steinkamp/id1217691470))
 - [Cycling and Trail running](https://esstraba.steinkamp.us/).
 - Music [tool making](/music-tools/)
-- Photography
-- Racing / Performance driving instruction
+- [Photography](https://photos.steinkamp.us/)
+- [Racing / Performance driving instruction](https://www.youtube.com/watch?v=i_6mk5otK9c&list=PLqzTnRgmRId7Xx-r3Kyqjb3C5dm2CJioz)
 - Woodworking
 - [Programming](/posts/2021-05-22-computer-history)
   {% /avoidbreak %}

@@ -6,9 +6,12 @@ import Mono from '@/components/Mono'
 const SiteHeader = ({ className = '' }) => {
   const links = [
     { label: 'Posts', href: '/' },
-    { label: 'Photos', href: 'https://photos.steinkamp.us/', target: '_blank' },
-    { label: 'Music', href: '/music' },
     { label: 'Plugins', href: 'https://plugins.steinkamp.us/' },
+    { label: 'Photos', href: 'https://photos.steinkamp.us/' },
+    { label: 'Videos', href: 'https://www.youtube.com/@zsteinkamp' },
+    { label: 'Music', href: '/music' },
+    { label: 'Dev Diary', href: '/devdiary' },
+    { label: 'Dev Plot', href: '/devplot' },
     { label: 'Resume', href: '/resume' },
     { label: 'About', href: '/about' },
   ]
