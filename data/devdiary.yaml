@@ -9952,6 +9952,10 @@
     Cut the Knobbler4 v68 device release — frozen .amxd devices, refreshed
     README, and the plugins-site sync. Also backfilled the dev diary for
     2026-06-04 through 2026-06-20.
+  image: /images/devdiary/2026-06-21-clip-play-progress.jpg
+  imageAlt: >-
+    Knobbler's clip grid on a tablet, showing per-clip play-progress pies with
+    the current bar and clip length beside them.
   projects:
     - name: m4l-Knobbler4
       commits: 1
