@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 3000",
+    "dev": "next dev --webpack -p 3000",
     "bundleZips": "tsx scripts/bundleZips.ts",
-    "build": "next build",
+    "build": "next build --webpack",
     "start": "next start -p 3125",
     "lint": "prettier --check --ignore-path .gitignore .",
     "lint:fix": "prettier --write --ignore-path .gitignore ."
@@ -55,6 +55,6 @@
     "prettier-plugin-tailwindcss": "^0.5.11",
     "tailwindcss": "^3.2.7",
     "tsx": "^4.23.1",
-    "typescript": "5.0.2"
+    "typescript": "^5.9.3"
   }
 }
