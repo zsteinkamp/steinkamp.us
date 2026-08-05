@@ -9946,3 +9946,125 @@
       commits: 1
       ins: 4
       del: 4
+- date: '2026-06-21'
+  impact: M
+  summary: >-
+    Cut the Knobbler4 v68 device release — frozen .amxd devices, refreshed
+    README, and the plugins-site sync. Also backfilled the dev diary for
+    2026-06-04 through 2026-06-20.
+  projects:
+    - name: m4l-Knobbler4
+      commits: 1
+      ins: 56655
+      del: 7
+    - name: steinkamp.us
+      commits: 1
+      ins: 217
+      del: 0
+- date: '2026-07-01'
+  impact: S
+  summary: >-
+    Photodirs: hash-stamped photo URLs now cache for a year, and the album
+    thumbnail grid fills the available width instead of leaving a ragged
+    right edge.
+  projects:
+    - name: photodirs
+      commits: 2
+      ins: 30
+      del: 10
+- date: '2026-07-03'
+  impact: S
+  summary: >-
+    Documented that clipboard managers can break Knobbler's Hot-Swap flow, in
+    the [device troubleshooting docs](https://plugins.steinkamp.us/m4l-Knobbler4/troubleshooting).
+  projects:
+    - name: m4l-Knobbler4
+      commits: 1
+      ins: 12
+      del: 0
+- date: '2026-07-09'
+  impact: S
+  summary: >-
+    Added an audio-interface troubleshooting entry to the Knobbler docs and
+    retired the legacy standalone TROUBLESHOOTING.md.
+  projects:
+    - name: m4l-Knobbler4
+      commits: 1
+      ins: 6
+      del: 77
+- date: '2026-07-21'
+  impact: M
+  summary: >-
+    Photodirs reliability pass: fixed HEIC decode failures by bumping libheif
+    to 1.20.2, and stopped the media watcher spawning unbounded ffmpeg/Sharp
+    jobs by capping memory, CPU and thread count. Also made carousel videos
+    autoplay, loop and pause correctly, and fixed a timezone mismatch that
+    mis-ordered photos against videos by date taken.
+  projects:
+    - name: photodirs
+      commits: 8
+      ins: 188
+      del: 40
+- date: '2026-07-22'
+  impact: L
+  summary: >-
+    Rebuilt photodirs' video pipeline: transcodes now write to a temp file and
+    atomically rename into cache, 4K sources come out web-playable (30fps cap,
+    bitrate ceiling, faststart), and a leaked transcodePending flag that
+    blocked all re-transcodes until restart is gone. Added a LAN-only watcher
+    queue/status dashboard, content-hash media URLs for cache-busting, and
+    inline video playback on iOS.
+  projects:
+    - name: photodirs
+      commits: 15
+      ins: 697
+      del: 137
+- date: '2026-07-23'
+  impact: S
+  summary: >-
+    Polished the photodirs carousel — no more first-tile flash when picking a
+    thumbnail, and dropped the left/right tap-target navigation that fired on
+    stray taps.
+  projects:
+    - name: photodirs
+      commits: 3
+      ins: 26
+      del: 14
+- date: '2026-07-25'
+  impact: S
+  summary: >-
+    Knobbler app: added a Scroll Lock setting that blocks panning while a
+    finger is on a fader, and made the release dialog's drag and mode switch
+    feel snappy.
+  projects:
+    - name: knobbler-native
+      commits: 3
+      ins: 257
+      del: 182
+- date: '2026-07-26'
+  impact: M
+  summary: >-
+    Shipped app build 230 with user-adjustable
+    [Track Width](https://plugins.steinkamp.us/m4l-Knobbler4/features#track-width)
+    on the mixer and clip grids, plus a restacked compact channel strip —
+    full-width fader with a 2x2 button block below it, and no dead touch gaps
+    between faders. Scroll Lock now works on the Session page too.
+  projects:
+    - name: knobbler-native
+      commits: 8
+      ins: 1063
+      del: 364
+    - name: m4l-Knobbler4
+      commits: 1
+      ins: 8
+      del: 0
+- date: '2026-08-04'
+  impact: S
+  summary: >-
+    Enabled R8 minification for Android release builds and closed the trial
+    extension wave (no new grants), then cut build 231.
+  projects:
+    - name: knobbler-native
+      commits: 3
+      ins: 31
+      del: 19
