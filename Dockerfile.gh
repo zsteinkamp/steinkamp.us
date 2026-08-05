@@ -1,4 +1,4 @@
-FROM --platform=linux/amd64 node:18 AS dev
+FROM --platform=linux/amd64 node:24 AS dev
 
 WORKDIR /app
 COPY package* .
