@@ -10072,3 +10072,159 @@
       commits: 3
       ins: 31
       del: 19
+- date: '2026-08-05'
+  impact: S
+  summary: >-
+    Got this site building again under Next 16 — stayed on webpack, bumped the
+    toolchain, and moved CI to Node 24 with current action majors.
+  projects:
+    - name: steinkamp.us
+      commits: 5
+      ins: 146
+      del: 38
+- date: '2026-08-06'
+  impact: S
+  summary: >-
+    Knobbler app: a durable stamp for legacy paid Android customers, so they
+    keep full access across the upcoming switch to freemium.
+  projects:
+    - name: knobbler-native
+      commits: 1
+      ins: 82
+      del: 15
+- date: '2026-08-11'
+  impact: M
+  summary: >-
+    Device Shortcuts can now be swapped from map mode in the app, backed by a
+    new /swapshortcut route. Fixed Bluhand so it tracks chain selection, added
+    a version-bump script, and froze the v69 devices.
+  projects:
+    - name: m4l-Knobbler4
+      commits: 4
+      ins: 57302
+      del: 18
+    - name: knobbler-native
+      commits: 2
+      ins: 229
+      del: 129
+- date: '2026-08-12'
+  impact: S
+  summary: >-
+    Added an "Already bought Knobbler?" path from both paywalls for legacy
+    Android buyers the app can't recognize, and cleared the fixable
+    Dependabot alerts.
+  projects:
+    - name: knobbler-native
+      commits: 3
+      ins: 179
+      del: 82
+- date: '2026-08-13'
+  impact: S
+  summary: >-
+    Cut Knobbler app 2026.8.12 (build 233).
+  projects:
+    - name: knobbler-native
+      commits: 1
+      ins: 14
+      del: 13
+- date: '2026-08-28'
+  impact: M
+  summary: >-
+    Wrote zero-dependency App Store Connect and RevenueCat reporting CLIs. The
+    finding: no purchase spike at the trial wall, but 35% of purchases land
+    after it, at a median of 41 days locked out — a slow forcing function.
+  projects:
+    - name: knobbler-native
+      commits: 1
+      ins: 1091
+      del: 0
+- date: '2026-08-30'
+  impact: L
+  summary: >-
+    Knobbler app goes freemium: trial expiry now drops to a free tier
+    (Knobbler, Bluhand, Device Shortcuts) instead of locking the whole app.
+    Mixer, Clips, Session and Nav are the paid upgrade, marked with padlocks,
+    and each shows its own paywall as the page body — never a modal that
+    could interrupt a take.
+  projects:
+    - name: knobbler-native
+      commits: 2
+      ins: 382
+      del: 205
+- date: '2026-08-31'
+  impact: M
+  summary: >-
+    Shipped 2026.8.31 (build 234) with the free tier, and flipped Android to
+    the same freemium model as iOS. Added a one-time explainer the first time
+    a trial user opens a paid page, and Full Screen now defaults to on.
+  projects:
+    - name: knobbler-native
+      commits: 5
+      ins: 343
+      del: 45
+- date: '2026-09-01'
+  impact: S
+  summary: >-
+    Proved Play Store billing end to end — monthly and lifetime purchases
+    validated by RevenueCat — via a debug button in build 235.
+  projects:
+    - name: knobbler-native
+      commits: 1
+      ins: 19
+      del: 4
+- date: '2026-09-08'
+  impact: M
+  summary: >-
+    Pinned react-native-worklets to fix a hard deadlock that froze the app
+    during fast scrolling, and cut clip-grid render cost on the scroll path.
+  projects:
+    - name: knobbler-native
+      commits: 2
+      ins: 495
+      del: 391
+- date: '2026-09-09'
+  impact: L
+  summary: >-
+    A scroll-performance marathon: extracted a shared matrix scroll engine,
+    moved the Session, Clips and Mixer pages onto it, and swapped remounting
+    for windowed, recycled items sized to the device. Large sets now scroll
+    smoothly in 2026.9.9 (build 236).
+  projects:
+    - name: knobbler-native
+      commits: 22
+      ins: 3627
+      del: 3245
+- date: '2026-09-10'
+  impact: M
+  summary: >-
+    Chased scroll feel: replaced Reanimated's withDecay (it decays 13x too
+    fast), adopted UIScrollView's real rubber band, and made a tap that stops
+    a coasting grid stop it instead of launching a clip.
+  projects:
+    - name: knobbler-native
+      commits: 18
+      ins: 1810
+      del: 811
+- date: '2026-09-11'
+  impact: L
+  summary: >-
+    Built a native 2D scroller as a local Expo module — Android has no 2D
+    scroll view and nothing current to wrap — then the iOS half. Every matrix
+    surface and the mixer now scroll natively on both platforms.
+  projects:
+    - name: knobbler-native
+      commits: 4
+      ins: 2035
+      del: 448
+- date: '2026-09-12'
+  impact: M
+  summary: >-
+    Deleted the hand-rolled scroll physics and JS tap guard now that native
+    scrolling is proven on device. Most of native's speedup turned out to be
+    un-memoised pan gestures rebuilt on every OSC tick, not physics. Shipped
+    2026.9.12 (build 237).
+  projects:
+    - name: knobbler-native
+      commits: 8
+      ins: 579
+      del: 1643
