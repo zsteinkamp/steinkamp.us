@@ -53,7 +53,7 @@
     "prettier": "^3.2.4",
     "prettier-eslint": "^16.3.0",
     "prettier-plugin-tailwindcss": "^0.5.11",
-    "tailwindcss": "^3.2.7",
+    "tailwindcss": "^4.3.3",
     "tsx": "^4.23.1",
     "typescript": "^5.9.3"
   }
