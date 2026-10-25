@@ -143,8 +143,8 @@ const ChaiCalculator: React.FC<ChaiCalculatorProps> = ({ className }) => {
         </label>
         {startOz !== null && doneOz !== null ? (
           <p className='mt-2'>
-            Starts at <strong>{fmtWeight(startOz)}</strong>. It&apos;s done
-            when the scale reads <strong>{fmtWeight(doneOz)}</strong>.
+            Starts at <strong>{fmtWeight(startOz)}</strong>. It&apos;s done when
+            the scale reads <strong>{fmtWeight(doneOz)}</strong>.
           </p>
         ) : (
           <p className='mt-2'>
