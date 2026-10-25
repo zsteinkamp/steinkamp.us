@@ -124,3 +124,9 @@ If you're making more than one portion, then the formula is (with N being the nu
 - N times spices / sugar above
 
 In other words, you are boiling off 3oz of water when cooking it. Each portion is 11oz of liquid.
+
+## Calculator
+
+Pick how many portions you're making and it'll scale everything for you. Enter the weight of your empty pot to get the scale reading that tells you it's done.
+
+{% chaicalculator /%}
