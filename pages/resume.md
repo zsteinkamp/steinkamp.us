@@ -44,7 +44,7 @@ In May 2024, I stepped away from full-time work after a career spanning 30 years
 #### Independent Software Developer, Music Tools
 
 - Conceived, developed, and released more than [two dozen free and open source
-  Max for Live devices](https://plugins.steinkamp.us/) to give musicians new tools to spark their creativity.
+  Max for Live devices](https://plugins.steinkamp.us/) (plugins that run inside Ableton Live) to give musicians new tools to spark their creativity.
 - Created [Knobbler](https://plugins.steinkamp.us/m4l-Knobbler4), a cross-platform (iOS / iPadOS / Android) touch controller with deep integration with Ableton Live, giving musicians a hyper-efficient way to control device parameters and navigate their Live Set.
   - **Native app:** React Native / Expo with TypeScript. Written with a focus on responsiveness and expressiveness, keeping touch handling and rendering code lean.
   - **Network optimization:** custom OSC pipeline that coalesces, batches, and throttles messages on both ends, cutting wire traffic by an order of magnitude on busy sessions.
