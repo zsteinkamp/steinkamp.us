@@ -10246,6 +10246,9 @@
     device now prefetches off-screen mixer strips and clip slots in the
     background, and the app mounts every page up front so the first switch is
     instant. Shipped 2026.9.14 (build 239) with Knobbler4 v70.
+  image: /images/devdiary/2026-09-14-clips-grid.jpg
+  imageAlt: >-
+    A finger tapping a clip on the Knobbler Clips page on an iPad, a dense grid of colorful clip slots across a dozen tracks.
   projects:
     - name: m4l-Knobbler4
       commits: 6
@@ -10276,6 +10279,9 @@
     Delete devices from the nav panel, and a new setting to auto-open plug-in
     windows as the focused device changes. Device side stopped churning
     observers on reconnect. Shipped 2026.9.22 (build 240) and Knobbler4 v71.
+  image: /images/devdiary/2026-09-22-auto-open-plugin-windows.jpg
+  imageAlt: >-
+    The Knobbler4 device in Live with the Bluhand tab open and the new Auto-Open Plugin Windows checkbox ticked.
   projects:
     - name: m4l-Knobbler4
       commits: 9
@@ -10410,6 +10416,9 @@
     Named Knobbler pages and a Layout mode for moving faders (XY Join folded
     into it). The device dropped its 1s parameter poll for list observers and
     stores everything in the settings dict. Shipped 2026.10.9 and v73.
+  image: /images/devdiary/2026-10-09-add-named-page.jpg
+  imageAlt: >-
+    The Add Page dialog on an iPad, a finger about to tap Save on a new Knobbler page named Echoplex.
   projects:
     - name: knobbler-native
       commits: 6
@@ -10424,6 +10433,9 @@
   summary: >-
     A Knobbler slot can now hold a rack's variations, and scene and all-stop
     buttons blink while they wait for the launch quantum. Shipped 2026.10.10.
+  image: /images/devdiary/2026-10-10-rack-variations-slot.jpg
+  imageAlt: >-
+    A Knobbler slot showing a rack's five variations as a column of buttons, a finger pressing variation 3.
   projects:
     - name: knobbler-native
       commits: 11
@@ -10491,6 +10503,9 @@
   summary: >-
     Knobbler connects over USB with no setup: iPad/iPhone to a Mac, and an
     Android tablet tethered to a Windows PC. Shipped 2026.10.21.
+  image: /images/devdiary/2026-10-21-usb-connect.jpg
+  imageAlt: >-
+    The Connect to Ableton Live screen showing a USB row marked Connected alongside the Wi-Fi entry for the same computer.
   projects:
     - name: knobbler-native
       commits: 7
@@ -10594,6 +10609,9 @@
   summary: >-
     Kept per-strip meters streaming on the Split page and froze Knobbler4
     v74.
+  image: /images/devdiary/2026-11-10-split-page.jpg
+  imageAlt: >-
+    An iPad on the new Split page: mixer faders in one pane, Knobbler sliders and XY pads in the other.
   projects:
     - name: m4l-Knobbler4
       commits: 4
@@ -10627,6 +10645,9 @@
   summary: >-
     Live 13 support: Bluhand shows the new button macros as buttons, and a
     handful of guards against stale ids and return tracks. Froze v75.
+  image: /images/devdiary/2026-11-16-live-13-macros.jpg
+  imageAlt: >-
+    Bluhand showing a Multiband Rack's crossover macros as yellow faders.
   projects:
     - name: m4l-Knobbler4
       commits: 9
@@ -10637,6 +10658,9 @@
   summary: >-
     Push 3 Standalone now advertises itself on Bonjour through avahi's D-Bus
     API, so the app can discover it. Froze v76.
+  image: /images/devdiary/2026-11-20-push-discovery.jpg
+  imageAlt: >-
+    Knobbler Setup listing a Push 3 Standalone found on the network by Bonjour, marked Connected.
   projects:
     - name: m4l-Knobbler4
       commits: 9
@@ -10648,6 +10672,9 @@
     Wired Ethernet: Android and iPad connect through a USB Ethernet adapter,
     verified end to end with a Push 3 Standalone. Also Auto XY, which pairs
     matching adjacent parameters into XY pads. Froze v77.
+  image: /images/devdiary/2026-11-21-push-ethernet.jpg
+  imageAlt: >-
+    An iPad running Knobbler wired to a Push 3 Standalone through a USB Ethernet adapter and a short yellow cable.
   projects:
     - name: m4l-Knobbler4
       commits: 11
@@ -10671,6 +10698,9 @@
     Bluhand can lock to its device instead of following selection, plus a Pan
     Above Fader mixer setting and a simpler one-handshake reconnect. Shipped
     2026.11.16 and 2026.11.22, with a which-cable guide in the docs.
+  image: /images/devdiary/2026-11-22-bluhand-lock.jpg
+  imageAlt: >-
+    A pink arrow pointing at the new lock button at the end of the Bluhand header.
   projects:
     - name: knobbler-native
       commits: 15
