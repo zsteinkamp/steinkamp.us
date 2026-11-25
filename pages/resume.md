@@ -10,7 +10,7 @@ tocMinLevel: 2
 
 [zack@steinkamp.us](mailto:zack@steinkamp.us)  
 [https://steinkamp.us/](https://steinkamp.us)  
-Seattle, WA
+Seattle, Washington
 
 ## About
 
