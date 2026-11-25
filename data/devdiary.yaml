@@ -10228,3 +10228,469 @@
       commits: 8
       ins: 579
       del: 1643
+- date: '2026-09-13'
+  impact: S
+  summary: >-
+    Cleanup after the native scroller landed: recycled mixer strips move only
+    after their content rebinds, and faders no longer stick at -inf after a
+    Refresh. Shipped 2026.9.13 (build 238).
+  projects:
+    - name: knobbler-native
+      commits: 3
+      ins: 167
+      del: 56
+- date: '2026-09-14'
+  impact: L
+  summary: >-
+    Made every page and off-screen track ready before you get there: the
+    device now prefetches off-screen mixer strips and clip slots in the
+    background, and the app mounts every page up front so the first switch is
+    instant. Shipped 2026.9.14 (build 239) with Knobbler4 v70.
+  projects:
+    - name: m4l-Knobbler4
+      commits: 6
+      ins: 60770
+      del: 286
+    - name: knobbler-native
+      commits: 5
+      ins: 616
+      del: 162
+- date: '2026-09-15'
+  impact: L
+  summary: >-
+    Upgraded to Expo SDK 57 / React Native 0.86 and wrestled Xcode 27 into
+    compiling RevenueCat. Also new: the nav panel can rename, recolor and
+    drag-reorder devices right from the app.
+  projects:
+    - name: knobbler-native
+      commits: 8
+      ins: 9622
+      del: 13039
+    - name: m4l-Knobbler4
+      commits: 3
+      ins: 491
+      del: 32
+- date: '2026-09-22'
+  impact: M
+  summary: >-
+    Delete devices from the nav panel, and a new setting to auto-open plug-in
+    windows as the focused device changes. Device side stopped churning
+    observers on reconnect. Shipped 2026.9.22 (build 240) and Knobbler4 v71.
+  projects:
+    - name: m4l-Knobbler4
+      commits: 9
+      ins: 61918
+      del: 1580
+    - name: knobbler-native
+      commits: 8
+      ins: 411
+      del: 167
+- date: '2026-09-24'
+  impact: M
+  summary: >-
+    Got the app launching on iOS 27 by adopting the UIScene life cycle, then
+    moved every native customization into app.json and config plugins so
+    `ios/` and `android/` regenerate cleanly from config.
+  projects:
+    - name: knobbler-native
+      commits: 12
+      ins: 1494
+      del: 789
+    - name: m4l-Knobbler4
+      commits: 1
+      ins: 17
+      del: 8
+- date: '2026-09-28'
+  impact: S
+  summary: >-
+    Bluhand now gives each parameter bank its own page, swipe between them.
+    Shipped 2026.9.28 and Knobbler4 v72.
+  projects:
+    - name: knobbler-native
+      commits: 5
+      ins: 563
+      del: 42
+    - name: m4l-Knobbler4
+      commits: 1
+      ins: 9
+      del: 8
+- date: '2026-09-29'
+  impact: L
+  summary: >-
+    Ported two Max for Live devices, SimulScrub and TapPanZeit, to VST3/AU
+    plug-ins with JUCE, complete with macOS .pkg and Windows installers and CI
+    builds. TapPanZeit got its own repo and a 1.0.0.
+  projects:
+    - name: juce-TapPanZeit
+      commits: 5
+      ins: 2580
+      del: 11
+    - name: m4l-TapPanZeit
+      commits: 2
+      ins: 1617
+      del: 1608
+    - name: juce-SimulScrub
+      commits: 2
+      ins: 2285
+      del: 11
+    - name: m4l-SimulScrub
+      commits: 1
+      ins: 9
+      del: 0
+- date: '2026-09-30'
+  impact: S
+  summary: >-
+    The SimulScrub plug-in's About button now opens a window matching the M4L
+    device's about screen.
+  projects:
+    - name: juce-SimulScrub
+      commits: 1
+      ins: 1378
+      del: 1
+- date: '2026-10-01'
+  impact: S
+  summary: >-
+    Added a Restart toggle to SimulScrub (notes restart slices or resume
+    playback) and bumped it to 7.0.0.
+  projects:
+    - name: juce-SimulScrub
+      commits: 2
+      ins: 45
+      del: 3
+- date: '2026-10-02'
+  impact: M
+  summary: >-
+    A performance pass: meters animate with transforms on Reanimated's sync
+    path, GestureDetectors stop re-rendering on every OSC tick, and OSC
+    SharedValue writes batch into one UI hop per message.
+  projects:
+    - name: knobbler-native
+      commits: 7
+      ins: 384
+      del: 161
+- date: '2026-10-05'
+  impact: S
+  summary: >-
+    Release notes and pinned patched versions of vulnerable build-tooling
+    dependencies for 2026.10.5.
+  projects:
+    - name: knobbler-native
+      commits: 4
+      ins: 33
+      del: 26
+- date: '2026-10-06'
+  impact: M
+  summary: >-
+    Nav panel rows slide open and closed, a Navigation Panel Width setting
+    for tablets, and sliders moved onto transform animations. Rendered App
+    Store creative assets and shipped 2026.10.6.
+  projects:
+    - name: knobbler-native
+      commits: 16
+      ins: 1392
+      del: 452
+- date: '2026-10-07'
+  impact: M
+  summary: >-
+    Master cue volume on the Main strip, and lifetime owners now get told
+    their subscription is redundant. Measured acquisition channels from 13
+    months of sales. Froze Knobbler4 v72.
+  projects:
+    - name: m4l-Knobbler4
+      commits: 4
+      ins: 59634
+      del: 4
+    - name: knobbler-native
+      commits: 4
+      ins: 242
+      del: 31
+- date: '2026-10-09'
+  impact: L
+  summary: >-
+    Named Knobbler pages and a Layout mode for moving faders (XY Join folded
+    into it). The device dropped its 1s parameter poll for list observers and
+    stores everything in the settings dict. Shipped 2026.10.9 and v73.
+  projects:
+    - name: knobbler-native
+      commits: 6
+      ins: 1760
+      del: 654
+    - name: m4l-Knobbler4
+      commits: 4
+      ins: 5110
+      del: 679
+- date: '2026-10-10'
+  impact: M
+  summary: >-
+    A Knobbler slot can now hold a rack's variations, and scene and all-stop
+    buttons blink while they wait for the launch quantum. Shipped 2026.10.10.
+  projects:
+    - name: knobbler-native
+      commits: 11
+      ins: 407
+      del: 133
+    - name: m4l-Knobbler4
+      commits: 4
+      ins: 65735
+      del: 106
+- date: '2026-10-11'
+  impact: S
+  summary: >-
+    New Knobbler tagline: "The controller that puts you in touch with your
+    music."
+  projects:
+    - name: knobbler-native
+      commits: 1
+      ins: 4
+      del: 4
+- date: '2026-10-12'
+  impact: S
+  summary: >-
+    Analytics script now scans every customer and reports where people hit
+    the trial wall.
+  projects:
+    - name: knobbler-native
+      commits: 1
+      ins: 139
+      del: 2
+- date: '2026-10-16'
+  impact: S
+  summary: >-
+    The music server now plays FLAC.
+  projects:
+    - name: musics
+      commits: 2
+      ins: 6
+      del: 4
+- date: '2026-10-18'
+  impact: S
+  summary: >-
+    Fiddled with the wording of the Max for Live and native app bullets on
+    my [resume](https://steinkamp.us/resume).
+  projects:
+    - name: steinkamp.us
+      commits: 7
+      ins: 9
+      del: 9
+- date: '2026-10-20'
+  impact: S
+  summary: >-
+    Modals no longer force a phone into portrait, and in-page anchor links on
+    the plugins docs stay on the page.
+  projects:
+    - name: knobbler-native
+      commits: 1
+      ins: 21
+      del: 0
+    - name: plugins
+      commits: 1
+      ins: 4
+      del: 1
+- date: '2026-10-21'
+  impact: L
+  summary: >-
+    Knobbler connects over USB with no setup: iPad/iPhone to a Mac, and an
+    Android tablet tethered to a Windows PC. Shipped 2026.10.21.
+  projects:
+    - name: knobbler-native
+      commits: 7
+      ins: 1016
+      del: 131
+- date: '2026-10-24'
+  impact: S
+  summary: >-
+    Added a recipe calculator to the [chai tiffin](https://steinkamp.us/posts/2025-10-28_your-own-custom-chai-tiffen) post.
+  projects:
+    - name: steinkamp.us
+      commits: 3
+      ins: 183
+      del: 3
+- date: '2026-10-25'
+  impact: M
+  summary: >-
+    Hardened the USB connection: detect a lost link as soon as its network
+    disappears and reconnect when the device comes back. Wrote the USB docs
+    and taught the release-notes skill about store character limits.
+  projects:
+    - name: knobbler-native
+      commits: 16
+      ins: 377
+      del: 93
+    - name: m4l-Knobbler4
+      commits: 5
+      ins: 342
+      del: 299
+- date: '2026-10-27'
+  impact: M
+  summary: >-
+    The music server got a persistent player bar and a play queue, plus a
+    track sort toggle.
+  projects:
+    - name: musics
+      commits: 2
+      ins: 690
+      del: 139
+    - name: plugins
+      commits: 1
+      ins: 2
+      del: 0
+    - name: m4l-Knobbler4
+      commits: 1
+      ins: 0
+      del: 0
+- date: '2026-10-28'
+  impact: S
+  summary: >-
+    Forked SwiftOSC so its server receives on a plain POSIX UDP socket across
+    all interfaces instead of NWListener.
+  projects:
+    - name: SwiftOsc
+      commits: 1
+      ins: 66
+      del: 88
+    - name: m4l-Knobbler4
+      commits: 1
+      ins: 6
+      del: 51
+    - name: knobbler-native
+      commits: 1
+      ins: 1
+      del: 0
+- date: '2026-11-06'
+  impact: L
+  summary: >-
+    Replaced the Session page with Split, a two-pane page that shows any two
+    views side by side.
+  projects:
+    - name: knobbler-native
+      commits: 2
+      ins: 925
+      del: 161
+- date: '2026-11-07'
+  impact: S
+  summary: >-
+    Split's view picker now grows out of the divider circle.
+  projects:
+    - name: knobbler-native
+      commits: 1
+      ins: 69
+      del: 39
+- date: '2026-11-09'
+  impact: M
+  summary: >-
+    Knobbler slots can be Momentary or Toggle buttons, and a drag on one Split
+    pane mirrors onto the other when both show the same slot.
+  projects:
+    - name: knobbler-native
+      commits: 5
+      ins: 628
+      del: 51
+    - name: m4l-Knobbler4
+      commits: 1
+      ins: 450
+      del: 13
+- date: '2026-11-10'
+  impact: S
+  summary: >-
+    Kept per-strip meters streaming on the Split page and froze Knobbler4
+    v74.
+  projects:
+    - name: m4l-Knobbler4
+      commits: 4
+      ins: 66021
+      del: 14
+    - name: knobbler-native
+      commits: 1
+      ins: 1
+      del: 1
+- date: '2026-11-11'
+  impact: L
+  summary: >-
+    Built a Release Timeline that merges app and device releases into one
+    page, generated from the source release notes. Refreshed the Knobbler
+    site to show off Split, buttons and variations.
+  projects:
+    - name: m4l-Knobbler4
+      commits: 7
+      ins: 2514
+      del: 64
+    - name: plugins
+      commits: 7
+      ins: 1182
+      del: 583
+    - name: knobbler-native
+      commits: 6
+      ins: 1241
+      del: 170
+- date: '2026-11-16'
+  impact: M
+  summary: >-
+    Live 13 support: Bluhand shows the new button macros as buttons, and a
+    handful of guards against stale ids and return tracks. Froze v75.
+  projects:
+    - name: m4l-Knobbler4
+      commits: 9
+      ins: 67125
+      del: 105
+- date: '2026-11-20'
+  impact: M
+  summary: >-
+    Push 3 Standalone now advertises itself on Bonjour through avahi's D-Bus
+    API, so the app can discover it. Froze v76.
+  projects:
+    - name: m4l-Knobbler4
+      commits: 9
+      ins: 92790
+      del: 651
+- date: '2026-11-21'
+  impact: L
+  summary: >-
+    Wired Ethernet: Android and iPad connect through a USB Ethernet adapter,
+    verified end to end with a Push 3 Standalone. Also Auto XY, which pairs
+    matching adjacent parameters into XY pads. Froze v77.
+  projects:
+    - name: m4l-Knobbler4
+      commits: 11
+      ins: 79579
+      del: 105
+    - name: knobbler-native
+      commits: 9
+      ins: 157
+      del: 53
+    - name: m4l-push-mdns
+      commits: 1
+      ins: 16346
+      del: 0
+    - name: expo-osc
+      commits: 1
+      ins: 57
+      del: 1
+- date: '2026-11-22'
+  impact: M
+  summary: >-
+    Bluhand can lock to its device instead of following selection, plus a Pan
+    Above Fader mixer setting and a simpler one-handshake reconnect. Shipped
+    2026.11.16 and 2026.11.22, with a which-cable guide in the docs.
+  projects:
+    - name: knobbler-native
+      commits: 15
+      ins: 388
+      del: 349
+    - name: m4l-Knobbler4
+      commits: 15
+      ins: 330
+      del: 30
+- date: '2026-11-23'
+  impact: S
+  summary: >-
+    Bluhand lays out every parameter when a Max device's banks name hidden
+    ones. Froze v78.
+  projects:
+    - name: m4l-Knobbler4
+      commits: 5
+      ins: 79459
+      del: 142
+    - name: knobbler-native
+      commits: 1
+      ins: 11
+      del: 3
