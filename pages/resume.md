@@ -10,7 +10,7 @@ tocMinLevel: 2
 
 [zack@steinkamp.us](mailto:zack@steinkamp.us)  
 [https://steinkamp.us/](https://steinkamp.us)  
-Scotts Valley, California
+Seattle, WA
 
 ## About
 
